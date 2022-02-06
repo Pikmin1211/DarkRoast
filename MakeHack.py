@@ -2,8 +2,8 @@ import os
 import shutil as sh
 
 # Directories
-tables = cwd + "/Tables"
 cwd = os.getcwd()
+tables = cwd + "/Tables"
 
 # Files
 romclean = cwd + "/FE8_clean.gba"
