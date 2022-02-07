@@ -1,5 +1,7 @@
-#define EndSpace 0xefb2e0
+#include "Definitions/_MasterDefinitionInstaller.event"
 
 ORG EndSpace
 
 #include "Spritans/_MasterSpritansInstaller.event"
+
+#include "Maps/tmx/_MasterMapInstaller.event"

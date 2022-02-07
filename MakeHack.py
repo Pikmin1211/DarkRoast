@@ -6,6 +6,7 @@ cwd = os.getcwd()
 tables = cwd + "\\Tables"
 spritans = cwd + "\\Spritans"
 portraits = spritans + "\\Portraits"
+maps = cwd + "\\Maps\\tmx"
 
 # Files
 romclean = cwd + "\\FE8_clean.gba"
@@ -17,13 +18,15 @@ buildfile = cwd + "\\Buildfile.event"
 # Tools
 eacore = cwd + "\\EventAssembler\\ColorzCore.exe"
 ups = cwd + "\\Tools\\ups\\ups.exe"
-symcombo = cwd + "\\Tools\\Symcombo"
+symcombo = cwd + "\\Tools\\SymCombo"
 portraitformatter = cwd + "\\EventAssembler\\Tools\\PortraitFormatter.exe"
 from Tools.TableBuilder import tablebuilder as tb
 from Tools.BuildTools import buildtools as bt
 from Tools.GraphicTools import portraittools as pt
+from Tools.tmx2ea import tmx2ea as tmx
 
 pt.compileportraits(portraits, portraitformatter)
+tmx.runtmx2ea(maps)
 
 sh.copyfile(romclean, romtarget)
 bt.callea(eacore, romtarget, buildfile)

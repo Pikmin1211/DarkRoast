@@ -1,0 +1,4 @@
+#define EndSpace 0xefb2e0
+
+#include "TilesetDefinitions.event"
+#include "PListDefinitions.event"
