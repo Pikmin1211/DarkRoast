@@ -1,3 +1,5 @@
 #define EndSpace 0xefb2e0
 
 ORG EndSpace
+
+#include "Spritans/_MasterSpritansInstaller.event"

@@ -1,6 +1,8 @@
 // File output by PortraitTools
 // Program by Pikmin1211 with credit to Minn
 
+#include "Tools\Tool Helpers.txt"
+
 #define FinnMug 0x2
 ALIGN 16
 FinnMugData:

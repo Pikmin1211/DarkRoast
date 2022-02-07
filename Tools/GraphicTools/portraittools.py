@@ -36,6 +36,7 @@ def compileportraits(portraitdir: str, portraitformatter: str):
     eventfile = open(portraitdir + "\\_MasterPortraitInstaller.event", "w")
     eventfile.write("// File output by PortraitTools\n")
     eventfile.write("// Program by Pikmin1211 with credit to Minn\n\n")
+    eventfile.write('#include "Tools\\Tool Helpers.txt"\n\n')
     cnt = 2
     for root, dirs, files in os.walk(portraitdir):
         for file in files:
