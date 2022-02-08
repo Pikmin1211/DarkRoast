@@ -48,7 +48,7 @@ def compileportraits(portraitdir: str, portraitformatter: str):
                 x1, y1, x2, y2 = getframepositions(arr)
                 callportraitformatter(file, portraitdir, portraitformatter)
                 name = Path(file).stem
-                eventfile.write("#define " + name + "Mug " + hex(cnt) + "\n")
+                #eventfile.write("#define " + name + "Mug " + hex(cnt) + "\n")
                 eventfile.write("ALIGN 16\n")
                 eventfile.write(name + "MugData:\n")
                 eventfile.write('#incbin "dmp\\' + name + '.dmp"\n')
