@@ -1,0 +1,4 @@
+#include "Chapter\ChapterTable.event"
+#include "CharacterClass\CharacterTable.event"
+#include "CharacterClass\ClassTable.event"
+#include "Item\ItemTable.event"

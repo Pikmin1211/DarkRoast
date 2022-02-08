@@ -25,6 +25,7 @@ from Tools.BuildTools import buildtools as bt
 from Tools.GraphicTools import portraittools as pt
 from Tools.tmx2ea import tmx2ea as tmx
 
+tb.c2ea(tables, romclean)
 pt.compileportraits(portraits, portraitformatter)
 tmx.runtmx2ea(maps)
 

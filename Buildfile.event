@@ -4,4 +4,7 @@ ORG EndSpace
 
 #include "Spritans/_MasterSpritansInstaller.event"
 
+#include "Tables/_MasterTableInstaller.event"
+
 #include "Maps/tmx/_MasterMapInstaller.event"
+

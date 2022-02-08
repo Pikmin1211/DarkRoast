@@ -1,0 +1,255 @@
+Eirika
+Seth
+Gilliam
+Franz
+Moulder
+Vanessa
+Ross
+Neimi
+Colm
+Garcia
+Innes
+Lute
+Natasha
+Cormag
+Ephraim
+Forde
+Kyle
+Amelia
+Artur
+Gerik
+Tethys
+Marisa
+Saleh
+Ewan
+L'Arachel
+Dozla
+-
+Rennac
+Duessel
+Myrrh
+Knoll
+Joshua
+Syrene
+Tana
+Lyon
+Orson
+Glen
+Selena
+Valter
+Riev
+Caellach
+Fado
+Ismaire
+Hayden
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+Lyon's Summon
+<Summon>
+<'Summonern'>
+Knoll's Summon
+Ewan's Summon
+Lyon (Ch 17)
+Morva (Ch 20)
+Orson (Ch 5x)
+Valter (Ch 15)
+Selena (Ch 10B & 13B)
+Valter (Prologue)
+Breguet (Ch 1)
+Bone (Ch 2)
+Bazba (Ch 3)
+Entombed (Ch 4)
+Saar (Ch 5)
+Novala (Ch 6)
+Murray (Ch 7)
+Tirado (Ch 8)
+Binks (Ch 9A)
+Pablo (Ch 10A)
+Maelduin (Ch 12A)
+Aias (Ch 13A)
+Carlyle (Ch 14A)
+Caellach (Ch 15)
+Pablo (Ch 13A)
+-
+Gorgon (Ch 18)
+Riev (Ch 19 & 20)
+-
+-
+Gheb (Ch 9B)
+Beran (Ch 10B)
+Cyclops (Ch 12B)
+Wight (Ch 11A)
+Deathgoyle (Ch 11B)
+Entombed (Monster Boss)
+-
+-
+-
+-
+Hunter
+Bandit (Carcino?)
+Brigand
+Bandit (Unused?)
+O'Neill (Prologue)
+Glen (Cutscene)
+Zonta (Ch 5x)
+Vigarde (Ch 14B)
+Lyon (Ch Final)
+Orson (Ch 16)
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+Grado Soldier (Main)
+-
+-
+-
+-
+-
+-
+-
+-
+Grado (Duessel's)
+Grado (Duessel's)
+Grado (Duessel's)
+Grado
+Grado Remnant (Main)
+Cutthroat
+Grado Remnant (Cutscene/C16)
+Grado Remnant (C16)
+Grado Remnant (C16)
+Wraith (Sage)
+Wraith (Swords)
+Wraith (Axes)
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+Mercenary (Ch 9A)
+Mercenary (Ch 10A)
+Remnant/Merc (Ch 13A)
+Monster
+Monster
+Monster
+Monster
+Monster
+Monster
+Monster
+Monster
+Monster
+Monster
+Monster
+Monster
+Monster
+Monster
+Monster
+Monster
+Monster (Gorgon Egg?)
+Monster
+Monster
+Monster (Dracozombie?)
+Demon King
+-
+Frelian
+Frelian
+- 
+-
+-
+Fado (Renais)
+-
+Hayden (Frelia)
+Mansel (Rausten)
+Klimt (Carcino)
+Dara (Caer Pelyn)
+Ismaire (Jehanna)
+Pegasus Messenger
+Rausten Knight
+Rausten Knight
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+- 
+-
+-
+-
+-
+-
+-
+-
+-
+- 
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+River Folk Child (F)
+River Folk (F)
+River Folk (M)
+River Folk (F)
+River Folk Child
+Renais Citizen 1 (Child)
+Renais Citizen 2
+Renais Citizen 3
+Old 'Citizen'
+Enemy (Arena)
+Wall
+Snag
