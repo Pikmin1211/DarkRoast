@@ -1,4 +1,5 @@
 import os
+from pathlib import Path
 from . import romtools as rt
 from . import csvtools as ct
 from . import eventtools as et
@@ -20,6 +21,7 @@ def rom2c(dirc: str, romdir: str):
 def c2ea(dirc: str, romdir: str = None):
 	if romdir is not None:
 		romfile = rt.rom(romdir)
+	processedfiles = []
 	for root, dirs, files in os.walk(dirc):
 		for file in files:
 			if file.endswith(".csv"):
@@ -31,3 +33,11 @@ def c2ea(dirc: str, romdir: str = None):
 					et.writeeventfile(table, event, romfile)
 				else:
 					et.writeeventfile(table, event)
+				processedfiles.append(event)
+	installerdir = dirc + "\\_MasterTableInstaller.event"
+	installer = open(installerdir, "w")
+	for file in processedfiles:
+		path = os.path.commonprefix([dirc, file])
+		file = os.path.relpath(file, path)
+		installer.write('#include "' + file + '"\n')
+	installer.close()
