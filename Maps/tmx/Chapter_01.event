@@ -12,12 +12,15 @@
     #endif
 #endif
 
+#ifndef ChapterTableEntSize
     #ifdef _FE7_
         #define ChapterTableEntSize 152
     #endif
     #ifdef _FE8_
         #define ChapterTableEntSize 148
     #endif
+#endif
+
 #define SetChapterData(ChapterID,ObjectType1,ObjectType2,PaletteID,TileConfig,MapID,MapPointer,Anims1,Anims2,MapChanges) "PUSH; ORG ChapterTable+(ChapterID*ChapterTableEntSize)+4; BYTE ObjectType1 ObjectType2 PaletteID TileConfig MapID Anims1 Anims2 MapChanges; EventPointerTable(MapID,MapPointer); POP"
 
 #endif // TMX2EA
