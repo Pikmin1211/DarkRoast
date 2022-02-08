@@ -1,6 +1,8 @@
 import os
+from pathlib import Path
 from . import csvtools as ct
 from . import romtools as rt
+from . import cachetools as cache
 
 eadataypes = {
 	8: "BYTE",
@@ -65,10 +67,16 @@ def getrepointerlist(table: ct.datatable, romfile: rt.rom):
 	return makerepointerlist(table, romfile)
 
 def makerepointerlist(table: ct.datatable, romfile: rt.rom):
-	pointeroffsets = romfile.getpointeroffsets(table.getoffset() + 0x8000000)
+	filename = table.getfilename()
+	path = os.path.dirname(os.path.abspath(filename))
+	name = Path(filename).stem
+	cachedir = path + "\\" + name + ".cache"
+	if not os.path.isfile(cachedir):
+		cache.makecachefile(romfile.getpointeroffsets(table.getoffset() + 0x8000000), cachedir)
+	pointeroffsets = cache.readcachefile(cachedir)
 	writable = "PUSH\n"
 	for offset in pointeroffsets:
-		writable += "ORG " + hex(offset) + "\n"
+		writable += "ORG " + hex(int(offset)) + "\n"
 		writable += "POIN " + table.gettitle() + "\n"
 	writable += "POP\n"
 	return writable

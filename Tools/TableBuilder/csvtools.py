@@ -20,6 +20,9 @@ class datatable:
 	def setfilename(this, filename: str):
 		this.filename = filename
 
+	def getfilename(this):
+		return this.filename
+
 	def readcsv(this):
 		file = open(this.filename)
 		reader = csv.reader(file)
