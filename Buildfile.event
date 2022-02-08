@@ -2,6 +2,9 @@
 
 ORG EndSpace
 
+#include "Writans/TextTable/TextTable.event"
+#include "Writans/_MasterTextInstaller.event"
+
 #include "Spritans/_MasterSpritansInstaller.event"
 
 #include "Tables/_MasterTableInstaller.event"

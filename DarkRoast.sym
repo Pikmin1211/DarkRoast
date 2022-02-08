@@ -1,9 +1,10 @@
-08EFB2E0 FinnMugData
-08EFCAE0 SandersMugData
-08EFE2AC ChapterTableLabel
-08F00FC4 CharacterTableLabel
-08F04390 ClassTableLabel
-08F06D3C ItemTableLabel
+08EFB2E0 TextTableLabel
+08F07300 FinnMugData
+08F08B00 SandersMugData
+08F0A2CC ChapterTableLabel
+08F0CFE4 CharacterTableLabel
+08F103B0 ClassTableLabel
+08F12D5C ItemTableLabel
 02000000 .dbl:0004
 02000000  gAISFrontLeft
 02000004 .dbl:0004

@@ -1,0 +1,14 @@
+#define TextTable TextTableLabel
+#define MaxTextEntries 0x3000
+
+ALIGN 4
+TextTableLabel:
+  #incbin "TextTable.dmp"
+  ORG TextTableLabel + (MaxTextEntries * 4)
+
+PUSH
+  ORG 0xa26c
+  POIN TextTable
+  ORG 0xa2a0
+  POIN TextTable
+POP
