@@ -1,0 +1,21 @@
+#ifndef StandMapSpriteTable
+#define StandMapSpriteTable 0x8AF880
+#endif // StandMapSpriteTable
+#ifndef MoveMapSpriteTable
+#define MoveMapSpriteTable 0x9A2DF8
+#endif // MoveMapSpriteTable
+
+#define StandMapSpriteEntry(index, pattern, size, data) "PUSH; ORG StandMapSpriteTable + (index*8); SHORT pattern size; POIN data; POP"
+#define MoveMapSpriteEntry(index, ap, data) "PUSH; ORG MoveMapSpriteTable + (index*8); POIN data ap; POP"
+
+ALIGN 4
+LordMoveData:
+#incbin "Lord\Move.dmp"
+MoveMapSpriteEntry(Lord, 0x1CAA20, LordMoveData)
+
+#define LordStandMapSprite 0x1
+ALIGN 4
+LordStandData:
+#incbin "Lord\Stand_0x1.dmp"
+StandMapSpriteEntry(LordStandMapSprite, 0x2, 0, LordStandData)
+

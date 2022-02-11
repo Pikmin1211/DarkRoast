@@ -1,2 +1,6 @@
 # 0xD4C TextFreeSpaceStart
 First unused text id.[X]
+
+#include "Data/Character.txt"
+
+#include "Chapter/_ChapterScripts.txt"

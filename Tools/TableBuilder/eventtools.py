@@ -12,6 +12,10 @@ eadataypes = {
 
 def writeeventfile(table: ct.datatable, filename: str, romfile: rt.rom = None):
 	file = open(filename, "w")
+	path = os.path.dirname(os.path.abspath(filename))
+	name = Path(filename).stem
+	defdir = path + "\\" + name + "Definitions.event"
+	deffile = open(defdir, "w")
 	file.write("// File output by TableBuilder\n")
 	file.write("// Program by Pikmin1211\n\n")
 	file.write(gettableentrydefinition(table))
@@ -27,8 +31,9 @@ def writeeventfile(table: ct.datatable, filename: str, romfile: rt.rom = None):
 	file.write("\n#define " + table.gettitle() + " " + table.gettitle() + "Label\n\n")
 	if romfile is not None:
 		file.write(getrepointerlist(table, romfile) + "\n")
-	file.write(getrowdefinitions(table))
+	deffile.write(getrowdefinitions(table))
 	file.close
+	deffile.close()
 
 def gettableentrydefinition(table: ct.datatable):
 	define = "#define " + table.gettitle() + "Entry("
@@ -86,7 +91,7 @@ def getrowdefinitions(table: ct.datatable):
 	for row in range(table.getheight()):
 		if row != 0 and row != 1:
 			cellcontents = table.getdata()[row][0]
-			cellcontents = cellcontents.split("_")
+			cellcontents = cellcontents.split("#")
 			if len(cellcontents) == 2 and "def" in cellcontents:
 				if table.iszeroindiced():
 					writable += "#define " + cellcontents[0] + " " + hex(row-2) + "\n"

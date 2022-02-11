@@ -1,2 +1,8 @@
-#define FinnMug 0x2
-#define SandersMug 0x3
+#define OlmosMug 0x2
+#define FlorMug 0x3
+#define GuadalupeMug 0x4
+#define SosimoMug 0x5
+#define BastioMug 0x6
+#define ZapateraMug 0x7
+#define NaranjaMug 0x8
+#define ArbolitoMug 0x9

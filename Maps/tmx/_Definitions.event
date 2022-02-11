@@ -1,0 +1,10 @@
+#ifndef TMX2EA_DEFINITIONS
+	
+	#define TMX2EA_DEFINITIONS
+
+	#define TileMap(TCN,X1,X2,L1,L2,TilePointer) "BYTE TCN X1 X2 L1 L2 0 0 0; POIN TilePointer"
+	#define TileMapEnd "WORD 0xFF 0 0"
+	#define EventPointerListOffset 0x8B363C
+	#define EventPointerTable(id,offset) "PUSH; ORG EventPointerListOffset+(4*id); POIN offset; POP"
+
+#endif // TMX2EA_DEFINITIONS

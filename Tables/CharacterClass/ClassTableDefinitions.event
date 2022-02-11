@@ -1,0 +1,11 @@
+#define Lord 0x2
+#define Mercenary 0xf
+#define Mercenary_F 0x10
+#define NomadTrooper_F 0x1e
+#define BowArmor 0x23
+#define Deserter 0x31
+#define Hunter 0x3e
+#define Fighter 0x3f
+#define Brigand 0x41
+#define Pirate 0x42
+#define Soldier 0x4e

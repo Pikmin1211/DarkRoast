@@ -1,0 +1,10 @@
+#define Olmos 0x1
+#define Flor 0x2
+#define Guadalupe 0x3
+#define Sosimo 0x4
+#define Bastio 0x5
+#define Zapatera 0x6
+#define Naranja 0x7
+#define Arbolito 0x8
+#define Goon_Ch01 0x3d
+#define Hacha 0x3e

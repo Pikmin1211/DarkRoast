@@ -449,6 +449,10 @@ if __name__ == '__main__':
 """
 
 def textprocess(textdir: str, parsefiledir: str):
+
+	cwd = os.getcwd()
+	os.chdir(textdir) # this sucks but parsedefs sucks
+
 	inputPath     = textdir + "\\TextBuildfile.txt"
 	outputPath    = textdir + "\\_MasterTextInstaller.event"
 	outputDefPath = textdir + "\\TextDefinitions.event"
@@ -588,3 +592,5 @@ def textprocess(textdir: str, parsefiledir: str):
 
 	with open(outputDefPath, 'w') as f:
 		f.writelines(generate_definitions_lines(entryList))
+
+	os.chdir(cwd)

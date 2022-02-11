@@ -1,2 +1,4 @@
 #include "Portraits/_Definitions.event"
 #include "Portraits/_MasterPortraitInstaller.event"
+
+#include "MapSprites/_MasterMapSpriteInstaller.event"

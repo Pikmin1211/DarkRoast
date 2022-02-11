@@ -211,7 +211,8 @@ class FeMap:
         return b''.join([x.to_bytes(2, 'little') for x in u16Array])
 
 def genHeaderLines():
-    yield '#include "EAstdlib.event"\n\n'
+    #yield '#include "EAstdlib.event"\n\n'
+    yield '#include "_Definitions.event"\n\n'
 
     yield "#ifndef TMX2EA\n"
     yield "#define TMX2EA\n\n"

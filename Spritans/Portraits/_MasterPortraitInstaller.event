@@ -3,13 +3,3 @@
 
 #include "Tools\Tool Helpers.txt"
 
-ALIGN 16
-FinnMugData:
-#incbin "dmp\Finn.dmp"
-setMugEntry(FinnMug, FinnMugData, 2, 5, 2, 3)
-
-ALIGN 16
-SandersMugData:
-#incbin "dmp\Sanders.dmp"
-setMugEntry(SandersMug, SandersMugData, 3, 5, 3, 3)
-

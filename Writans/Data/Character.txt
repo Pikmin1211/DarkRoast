@@ -1,0 +1,71 @@
+## OlmosName
+Olmos[X]
+
+## OlmosDesc
+Lord of House Poblano.[N]
+Seeks to prove his worth.[X]
+
+## FlorName
+Flor[X]
+
+## FlorDesc
+A grizzled battle veteran.[N]
+Shrewd and practical.[N]
+Olmos' sworn guardian.[X]
+
+## GuadalupeName
+Guadalupe[X]
+
+## GuadalupeDesc
+Knight of House Poblano.[N]
+Boisterous and self-assured.[X]
+
+## SosimoName
+Sosimo[X]
+
+## SosimoDesc
+A young mercenary.[N]
+Pragmatic thinker.[X]
+
+## BastioName
+Bastio[X]
+
+## BastioDesc
+A young mercenary.[N]
+Leads with his heart.[X]
+
+## ZapateraName
+Zapatera[X]
+
+## ZapateraDesc
+Knight of House Poblano.[N]
+Yearns to be strong.[N]
+Likes making shoes.[X]
+
+## NaranjaName
+Naranja[X]
+
+## NaranjaDesc
+Plucky village girl.[N]
+Never says no to a challenge.[X]
+
+## ArbolitoName
+Arbolito[X]
+
+## ArbolitoDesc
+A village boy with unshakeable[N]
+ambition. Loyal.[X]
+
+## GoonName
+Goon[X]
+
+## GoonDesc
+Brutes who prefer to use[N]
+their weapons over words.[X]
+
+## HachaName
+Hacha[X]
+
+## HachaDesc
+Bandit who only can trust[N]
+the axe in his hands.[X]

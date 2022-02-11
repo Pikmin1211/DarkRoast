@@ -1,10 +1,10 @@
 08EFB2E0 TextTableLabel
-08F07300 FinnMugData
-08F08B00 SandersMugData
-08F0A2CC ChapterTableLabel
-08F0CFE4 CharacterTableLabel
-08F103B0 ClassTableLabel
-08F12D5C ItemTableLabel
+08F07558 LordMoveData
+08F07FA4 LordStandData
+08F080F4 ChapterTableLabel
+08F0AE0C CharacterTableLabel
+08F0E1D8 ClassTableLabel
+08F10B84 ItemTableLabel
 02000000 .dbl:0004
 02000000  gAISFrontLeft
 02000004 .dbl:0004

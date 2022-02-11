@@ -35,9 +35,14 @@ def c2ea(dirc: str, romdir: str = None):
 					et.writeeventfile(table, event)
 				processedfiles.append(event)
 	installerdir = dirc + "\\_MasterTableInstaller.event"
+	definitiondir = dirc + "\\_MasterDefinitionInstaller.event"
 	installer = open(installerdir, "w")
+	definition = open(definitiondir, "w")
 	for file in processedfiles:
 		path = os.path.commonprefix([dirc, file])
 		file = os.path.relpath(file, path)
-		installer.write('#include "' + file + '"\n')
+		deffile = file.replace(".event", "Definitions.event")
+		definition.write('#include "' + deffile + '"\n')
+		installer.write('#include "' + file + '"\n')		
 	installer.close()
+	definition.close()

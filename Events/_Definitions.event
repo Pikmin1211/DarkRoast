@@ -1,0 +1,12 @@
+// Event Calls
+#define GameOver 0x592104
+#define PrepScreen 0x591FD8
+
+// EVBIT
+#define NoFade 0x7
+
+// UNIT
+#define Ally 0
+#define NPC 1
+#define Enemy 2
+#define Level(level,side,autoLevel) level*8+side*2+autoLevel

@@ -1,0 +1,11 @@
+PUSH
+
+// Character Table -1
+ORG 0x17d64
+POIN CharacterTable-52
+ORG 0x17ef0
+POIN CharacterTable-52
+ORG 0x19478
+POIN CharacterTable-52
+
+POP

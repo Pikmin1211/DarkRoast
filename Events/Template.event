@@ -1,0 +1,78 @@
+{
+
+EventPointerTable(EventPointer, PointerList)
+
+ALIGN 4
+PointerList:
+	POIN TurnBasedEvents
+	POIN CharacterBasedEvents
+	POIN LocationBasedEvents
+	POIN MiscBasedEvents
+	POIN SelectionEvents MovingEvents MovedEvents Tutorial
+	POIN Traps1 Traps2
+	POIN Units1 Units1Hard
+	POIN $0 $0 $0 // Skrimish Ally
+	POIN $0 $0 $0 // Skrimish Enemy
+	POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+
+	END_MAIN
+
+CharacterBasedEvents:
+
+	END_MAIN
+
+MiscBasedEvents:
+	AFEV 0 GameOver 0x65
+	END_MAIN
+
+LocationBasedEvents:
+
+	END_MAIN
+
+SelectionEvents:
+
+	END_MAIN
+
+MovingEvents:
+
+	END_MAIN
+
+MovedEvents:
+
+	END_MAIN
+
+Tutorial:
+
+	END_MAIN
+
+Units1:
+Units1Hard:
+
+	UNIT
+
+EnemyUnits:
+
+	UNIT
+
+Traps1:
+	ENDTRAP
+	ALIGN 4
+
+Traps2:
+	ENDTRAP
+	ALIGN 4
+
+BeginningScene:
+	LOAD1 0x1 EnemyUnits
+	ENUN
+	CALL PrepScreen
+	ENDA
+
+EndingScene:
+	MNC2 next_chapter
+	EVBIT_T NoFade
+	ENDA
+
+}
