@@ -1,0 +1,14 @@
+
+ALIGN 4
+ItemIconSheetLabel:
+#incbin "ItemIconSheet.dmp"
+ORG ItemIconSheetLabel + (0x100 * 128)
+
+#define ItemIconSheet ItemIconSheetLabel
+
+PUSH
+ORG $36B4
+POIN ItemIconSheet
+ORG $3788
+POIN ItemIconSheet
+POP

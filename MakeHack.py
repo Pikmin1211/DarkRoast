@@ -7,6 +7,7 @@ tables = cwd + "\\Tables"
 spritans = cwd + "\\Spritans"
 portraits = spritans + "\\Portraits"
 mapsprites = spritans + "\\MapSprites"
+icons = spritans + "\\Icons"
 maps = cwd + "\\Maps\\tmx"
 writans = cwd + "\\Writans"
 
@@ -28,6 +29,7 @@ from Tools.TableBuilder import tablebuilder as tb
 from Tools.BuildTools import buildtools as bt
 from Tools.GraphicTools import portraittools as pt
 from Tools.GraphicTools import mapspritetools as mst
+from Tools.GraphicTools import icontools as it
 from Tools.tmx2ea import tmx2ea as tmx
 from Tools.TextProcess import textprocessclassic as tpc
 
@@ -35,6 +37,7 @@ tpc.textprocess(writans, parsefile)
 tb.c2ea(tables, romclean)
 pt.compileportraits(portraits, portraitformatter)
 mst.compilemapsprites(mapsprites, png2dmp)
+it.compileicons(icons, png2dmp)
 tmx.runtmx2ea(maps)
 
 sh.copyfile(romclean, romtarget)

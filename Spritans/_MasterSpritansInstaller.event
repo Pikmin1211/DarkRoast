@@ -2,3 +2,6 @@
 #include "Portraits/_MasterPortraitInstaller.event"
 
 #include "MapSprites/_MasterMapSpriteInstaller.event"
+
+#include "Icons/_IconSheets/_MasterIconSheetInstaller.event"
+#include "Icons/_MasterIconInstaller.event"

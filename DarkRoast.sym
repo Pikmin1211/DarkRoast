@@ -1,10 +1,11 @@
 08EFB2E0 TextTableLabel
 08F07558 LordMoveData
 08F07FA4 LordStandData
-08F080F4 ChapterTableLabel
-08F0AE0C CharacterTableLabel
-08F0E1D8 ClassTableLabel
-08F10B84 ItemTableLabel
+08F080F4 ItemIconSheetLabel
+08F100F4 ChapterTableLabel
+08F12E0C CharacterTableLabel
+08F161D8 ClassTableLabel
+08F18B84 ItemTableLabel
 02000000 .dbl:0004
 02000000  gAISFrontLeft
 02000004 .dbl:0004
