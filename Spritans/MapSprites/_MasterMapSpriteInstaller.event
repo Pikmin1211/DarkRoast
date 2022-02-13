@@ -16,6 +16,6 @@ MoveMapSpriteEntry(Lord, 0x1CAA20, LordMoveData)
 #define LordStandMapSprite 0x1
 ALIGN 4
 LordStandData:
-#incbin "Lord\Stand_0x1.dmp"
+#incbin "Lord\Stand#0x1.dmp"
 StandMapSpriteEntry(LordStandMapSprite, 0x2, 0, LordStandData)
 

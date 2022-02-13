@@ -22,7 +22,7 @@ def compileicons(icondir: str, p2ddir: str):
 		iconsheet = os.path.normpath(file).split(os.path.sep)[0]
 		name = Path(file).stem
 		truefile = icondir + "\\" + file
-		contents = name.split("_")
+		contents = name.split("#")
 		name = contents[0]
 		index = contents[1]
 		installer.write("#define " + name + "Icon " + index + "\n")

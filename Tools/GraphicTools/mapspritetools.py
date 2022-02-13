@@ -30,7 +30,7 @@ def compilemapsprites(msdir: str, p2ddir: str):
 		name = Path(file).stem
 		truefile = msdir + "\\" + file
 		if "Stand" in name:
-			contents = name.split("_")
+			contents = name.split("#")
 			name = contents[0]
 			index = contents[1]
 			image = Image.open(truefile)
