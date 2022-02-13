@@ -1,6 +1,6 @@
 #define BronzeSwordIcon 0xCA
 PUSH
 ORG ItemIconSheet + (BronzeSwordIcon * 128)
-#incbin "Item\BronzeSword_0xCA.dmp"
+#incbin "Item\BronzeSword#0xCA.dmp"
 POP
 

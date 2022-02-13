@@ -8,4 +8,5 @@
 #define Fighter 0x3f
 #define Brigand 0x41
 #define Pirate 0x42
+#define Deserter 0x49
 #define Soldier 0x4e
