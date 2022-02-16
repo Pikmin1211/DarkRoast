@@ -4,3 +4,5 @@
 
 #include "Icons/_IconSheets/_MasterIconSheetInstaller.event"
 #include "Icons/_MasterIconInstaller.event"
+
+#include "BattleAnimations/_MasterAnimationInstaller.event"

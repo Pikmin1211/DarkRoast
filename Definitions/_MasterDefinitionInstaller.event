@@ -1,4 +1,6 @@
 #define EndSpace 0xefb2e0
 
+#define IsPointer 0x8000000
+
 #include "TilesetDefinitions.event"
 #include "PListDefinitions.event"
