@@ -75,7 +75,8 @@ def compileanimations(animdir: str):
 					job = os.path.basename(os.path.dirname(file))
 					installer.write("\nALIGN 4\n")
 					installer.write(job + "AnimEntry:\n")
-				installer.write(weapon + "Anim(" + index + ")\n")
+				installer.write("#define " + job + weapon + "Anim " + index + "\n")
+				installer.write(weapon + "Anim(" + job + weapon + "Anim)\n")
 	installer.write("EndAnim\n")
 
 	installer.close()
