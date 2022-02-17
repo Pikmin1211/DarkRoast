@@ -19,3 +19,14 @@ LordStandData:
 #incbin "Lord\Stand#0x1.dmp"
 StandMapSpriteEntry(LordStandMapSprite, 0x2, 0, LordStandData)
 
+ALIGN 4
+NomadTrooper_FMoveData:
+#incbin "NomadTrooper_F\Move.dmp"
+MoveMapSpriteEntry(NomadTrooper_F, 0x1CAA20, NomadTrooper_FMoveData)
+
+#define NomadTrooper_FStandMapSprite 0x18
+ALIGN 4
+NomadTrooper_FStandData:
+#incbin "NomadTrooper_F\Stand#0x18.dmp"
+StandMapSpriteEntry(NomadTrooper_FStandMapSprite, 0x2, 1, NomadTrooper_FStandData)
+

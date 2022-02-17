@@ -30,6 +30,15 @@
 {
 #include "Lord\Unarmed Installer.event"
 }
+{
+#include "NomadTrooper_F\Bow Installer.event"
+}
+{
+#include "NomadTrooper_F\Sword Installer.event"
+}
+{
+#include "NomadTrooper_F\Unarmed Installer.event"
+}
 
 ALIGN 4
 LordAnimEntry:
@@ -37,4 +46,14 @@ LordAnimEntry:
 SwordAnim(LordSwordAnim)
 #define LordUnarmedAnim 0x2
 UnarmedAnim(LordUnarmedAnim)
+EndAnim
+
+ALIGN 4
+NomadTrooper_FAnimEntry:
+#define NomadTrooper_FBowAnim 0x32
+BowAnim(NomadTrooper_FBowAnim)
+#define NomadTrooper_FSwordAnim 0x31
+SwordAnim(NomadTrooper_FSwordAnim)
+#define NomadTrooper_FUnarmedAnim 0x33
+UnarmedAnim(NomadTrooper_FUnarmedAnim)
 EndAnim
