@@ -264,10 +264,10 @@ def generate_definitions_lines(textEntries):
 
 	yield "\n#endif // TEXT_DEFINITIONS\n"
 
-def generate_text_binary(parseFileExe, textEntry, sourceFile, targetFile):
+def generate_text_binary(parseFileExe, textEntry, sourceFile, targetFile, parsedefsdir):
 	import subprocess as sp
 
-	result = sp.run([parseFileExe, sourceFile, "--to-stdout"], stdout = sp.PIPE)
+	result = sp.run([parseFileExe, sourceFile, "--to-stdout", "-defs", parsedefsdir], stdout = sp.PIPE)
 
 	if result.stdout[:6] == b"ERROR:":
 		os.remove(sourceFile)
@@ -448,10 +448,7 @@ if __name__ == '__main__':
 	main(sys.argv[1:])
 """
 
-def textprocess(textdir: str, parsefiledir: str):
-
-	cwd = os.getcwd()
-	os.chdir(textdir) # this sucks but parsedefs sucks
+def textprocess(textdir: str, parsefiledir: str, parsedefsdir: str):
 
 	inputPath     = textdir + "\\TextBuildfile.txt"
 	outputPath    = textdir + "\\_MasterTextInstaller.event"
@@ -569,7 +566,7 @@ def textprocess(textdir: str, parsefiledir: str):
 						if verbose:
 							sys.stderr.write("TRACE: [write] update `{}`\n".format(dataFileName))
 
-						generate_text_binary(parserExePath, entry, textFileName, dataFileName)
+						generate_text_binary(parserExePath, entry, textFileName, dataFileName, parsedefsdir)
 
 				# Write include
 
@@ -592,5 +589,3 @@ def textprocess(textdir: str, parsefiledir: str):
 
 	with open(outputDefPath, 'w') as f:
 		f.writelines(generate_definitions_lines(entryList))
-
-	os.chdir(cwd)

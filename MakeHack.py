@@ -25,6 +25,7 @@ ups = cwd + "\\Tools\\ups\\ups.exe"
 symcombo = cwd + "\\Tools\\SymCombo"
 portraitformatter = cwd + "\\EventAssembler\\Tools\\PortraitFormatter.exe"
 parsefile = cwd + "\\EventAssembler\\Tools\\ParseFile.exe"
+parsedefs = writans + "\\ParseDefinitions.txt"
 png2dmp = cwd + "\\EventAssembler\\Tools\\Png2Dmp.exe"
 from Tools.TableBuilder import tablebuilder as tb
 from Tools.BuildTools import buildtools as bt
@@ -35,7 +36,7 @@ from Tools.GraphicTools import animtools as at
 from Tools.tmx2ea import tmx2ea as tmx
 from Tools.TextProcess import textprocessclassic as tpc
 
-tpc.textprocess(writans, parsefile)
+tpc.textprocess(writans, parsefile, parsedefs)
 tb.c2ea(tables, romclean)
 pt.compileportraits(portraits, portraitformatter)
 mst.compilemapsprites(mapsprites, png2dmp)
