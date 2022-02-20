@@ -11,6 +11,8 @@ icons = spritans + "\\Icons"
 anims = spritans + "\\BattleAnimations"
 maps = cwd + "\\Maps\\tmx"
 writans = cwd + "\\Writans"
+wizardry = cwd + "\\Wizardry"
+chax = wizardry + "\\CHAX"
 
 # Files
 romclean = cwd + "\\FE8_clean.gba"
@@ -18,6 +20,7 @@ romtarget = cwd + "\\DarkRoast.gba"
 upstarget = cwd + "\\DarkRoast.ups"
 symtarget = cwd + "\\DarkRoast.sym"
 buildfile = cwd + "\\Buildfile.event"
+chaxsrc = chax + "\\src.lyn.event"
 
 # Tools
 eacore = cwd + "\\EventAssembler\\ColorzCore.exe"
@@ -43,6 +46,7 @@ mst.compilemapsprites(mapsprites, png2dmp)
 it.compileicons(icons, png2dmp)
 at.compileanimations(anims)
 tmx.runtmx2ea(maps)
+bt.make(chax, chaxsrc)
 
 sh.copyfile(romclean, romtarget)
 bt.callea(eacore, romtarget, buildfile)
