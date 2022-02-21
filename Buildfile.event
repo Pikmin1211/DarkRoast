@@ -1,11 +1,9 @@
 #include "Definitions/_MasterDefinitionInstaller.event"
+#include "Tables/_MasterDefinitionInstaller.event"
 
 ORG EndSpace
 
-#include "Tables/_MasterDefinitionInstaller.event"
-
-#include "Wizardry/_FE8EssentialFixes.event"
-#include "Wizardry/CHAX/src.lyn.event"
+#include "Wizardry/_MasterWizardryInstaller.event"
 
 #include "Writans/_TextTable/TextTable.event"
 #include "Writans/_MasterTextInstaller.event"

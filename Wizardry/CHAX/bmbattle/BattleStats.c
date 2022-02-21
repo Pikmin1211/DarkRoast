@@ -6,6 +6,8 @@ void ComputeBattleUnitCritRate(struct BattleUnit* battleUnit){
 	battleUnit->battleCritRate = battleUnit->unit.skl + GetItemCrit(battleUnit->weapon);
 }
 
+/* see asm folder
 void ComputeBattleUnitDodgeRate(struct BattleUnit* battleUnit){
 	battleUnit->battleDodgeRate = battleUnit->unit.lck*2;
 }
+*/

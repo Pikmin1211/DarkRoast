@@ -1,0 +1,14 @@
+/*
+ComputeBattleUnitDodgeRate:
+// r0 - BattleUnit* battleUnit
+ldrb r1, [r0, #0x19]
+lsl r1, #1
+add r0, #0x68
+strh r1, [r0]
+bx r14
+*/
+
+PUSH
+ORG 0x2AC54
+SHORT 0x7E41 0x0049 0x3068 0x8001 0x4770
+POP

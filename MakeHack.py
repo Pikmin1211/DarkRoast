@@ -9,6 +9,7 @@ portraits = spritans + "\\Portraits"
 mapsprites = spritans + "\\MapSprites"
 icons = spritans + "\\Icons"
 anims = spritans + "\\BattleAnimations"
+palettes = spritans + "\\Palettes"
 maps = cwd + "\\Maps\\tmx"
 writans = cwd + "\\Writans"
 wizardry = cwd + "\\Wizardry"
@@ -36,6 +37,7 @@ from Tools.GraphicTools import portraittools as pt
 from Tools.GraphicTools import mapspritetools as mst
 from Tools.GraphicTools import icontools as it
 from Tools.GraphicTools import animtools as at
+from Tools.GraphicTools import palettetools as plt
 from Tools.tmx2ea import tmx2ea as tmx
 from Tools.TextProcess import textprocessclassic as tpc
 
@@ -45,6 +47,7 @@ pt.compileportraits(portraits, portraitformatter)
 mst.compilemapsprites(mapsprites, png2dmp)
 it.compileicons(icons, png2dmp)
 at.compileanimations(anims)
+plt.compilepalettes(palettes)
 tmx.runtmx2ea(maps)
 bt.make(chax, chaxsrc)
 

@@ -14,92 +14,88 @@ __TEXTPROCESSD4C:
 setText($D4C, __TEXTPROCESSD4C)
 
 __TEXTPROCESSD4D:
-#incbin ".TextEntries\TextBuildfileTestEntry.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileOlmosName.fetxt.dmp"
 setText($D4D, __TEXTPROCESSD4D)
 
 __TEXTPROCESSD4E:
-#incbin ".TextEntries\TextBuildfileOlmosName.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileOlmosDesc.fetxt.dmp"
 setText($D4E, __TEXTPROCESSD4E)
 
 __TEXTPROCESSD4F:
-#incbin ".TextEntries\TextBuildfileOlmosDesc.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileFlorName.fetxt.dmp"
 setText($D4F, __TEXTPROCESSD4F)
 
 __TEXTPROCESSD50:
-#incbin ".TextEntries\TextBuildfileFlorName.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileFlorDesc.fetxt.dmp"
 setText($D50, __TEXTPROCESSD50)
 
 __TEXTPROCESSD51:
-#incbin ".TextEntries\TextBuildfileFlorDesc.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileGuadalupeName.fetxt.dmp"
 setText($D51, __TEXTPROCESSD51)
 
 __TEXTPROCESSD52:
-#incbin ".TextEntries\TextBuildfileGuadalupeName.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileGuadalupeDesc.fetxt.dmp"
 setText($D52, __TEXTPROCESSD52)
 
 __TEXTPROCESSD53:
-#incbin ".TextEntries\TextBuildfileGuadalupeDesc.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileSosimoName.fetxt.dmp"
 setText($D53, __TEXTPROCESSD53)
 
 __TEXTPROCESSD54:
-#incbin ".TextEntries\TextBuildfileSosimoName.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileSosimoDesc.fetxt.dmp"
 setText($D54, __TEXTPROCESSD54)
 
 __TEXTPROCESSD55:
-#incbin ".TextEntries\TextBuildfileSosimoDesc.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileBastioName.fetxt.dmp"
 setText($D55, __TEXTPROCESSD55)
 
 __TEXTPROCESSD56:
-#incbin ".TextEntries\TextBuildfileBastioName.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileBastioDesc.fetxt.dmp"
 setText($D56, __TEXTPROCESSD56)
 
 __TEXTPROCESSD57:
-#incbin ".TextEntries\TextBuildfileBastioDesc.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileZapateraName.fetxt.dmp"
 setText($D57, __TEXTPROCESSD57)
 
 __TEXTPROCESSD58:
-#incbin ".TextEntries\TextBuildfileZapateraName.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileZapateraDesc.fetxt.dmp"
 setText($D58, __TEXTPROCESSD58)
 
 __TEXTPROCESSD59:
-#incbin ".TextEntries\TextBuildfileZapateraDesc.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileNaranjaName.fetxt.dmp"
 setText($D59, __TEXTPROCESSD59)
 
 __TEXTPROCESSD5A:
-#incbin ".TextEntries\TextBuildfileNaranjaName.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileNaranjaDesc.fetxt.dmp"
 setText($D5A, __TEXTPROCESSD5A)
 
 __TEXTPROCESSD5B:
-#incbin ".TextEntries\TextBuildfileNaranjaDesc.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileArbolitoName.fetxt.dmp"
 setText($D5B, __TEXTPROCESSD5B)
 
 __TEXTPROCESSD5C:
-#incbin ".TextEntries\TextBuildfileArbolitoName.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileArbolitoDesc.fetxt.dmp"
 setText($D5C, __TEXTPROCESSD5C)
 
 __TEXTPROCESSD5D:
-#incbin ".TextEntries\TextBuildfileArbolitoDesc.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileGoonName.fetxt.dmp"
 setText($D5D, __TEXTPROCESSD5D)
 
 __TEXTPROCESSD5E:
-#incbin ".TextEntries\TextBuildfileGoonName.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileGoonDesc.fetxt.dmp"
 setText($D5E, __TEXTPROCESSD5E)
 
 __TEXTPROCESSD5F:
-#incbin ".TextEntries\TextBuildfileGoonDesc.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileHachaName.fetxt.dmp"
 setText($D5F, __TEXTPROCESSD5F)
 
 __TEXTPROCESSD60:
-#incbin ".TextEntries\TextBuildfileHachaName.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileHachaDesc.fetxt.dmp"
 setText($D60, __TEXTPROCESSD60)
 
 __TEXTPROCESSD61:
-#incbin ".TextEntries\TextBuildfileHachaDesc.fetxt.dmp"
-setText($D61, __TEXTPROCESSD61)
-
-__TEXTPROCESSD62:
 #incbin ".TextEntries\TextBuildfileChapter_01Name.fetxt.dmp"
-setText($D62, __TEXTPROCESSD62)
+setText($D61, __TEXTPROCESSD61)
 
 }
 

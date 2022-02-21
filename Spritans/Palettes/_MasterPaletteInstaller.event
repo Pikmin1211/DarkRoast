@@ -1,0 +1,16 @@
+#ifndef PaletteTable
+    #define PaletteTable 0xEF8008
+#endif // PaletteTable
+#ifndef CharacterPaletteTable
+    #define CharacterPaletteTable 0x95EEA4
+#endif // CharacterPaletteTable
+#ifndef CharacterPaletteClassTable
+    #define CharacterPaletteClassTable 0x95E0A4
+#endif
+
+#define PaletteEntry(index, count, unit, class, data) "PUSH; ORG PaletteTable + ((index-1) * 16) + 0xC; POIN data; ORG CharacterPaletteTable + ((unit-1) * 7) + count; BYTE index; ORG CharacterPaletteClassTable + ((unit-1) * 7) + count; BYTE class; POP"
+
+ALIGN 4
+OlmosLordPalette:
+#incbin "Olmos\Lord#0x1.dmp"
+PaletteEntry(0x1, 0, Olmos, Lord, OlmosLordPalette)

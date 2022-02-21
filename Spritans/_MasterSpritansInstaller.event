@@ -6,3 +6,5 @@
 #include "Icons/_MasterIconInstaller.event"
 
 #include "BattleAnimations/_MasterAnimationInstaller.event"
+
+#include "Palettes/_MasterPaletteInstaller.event"
