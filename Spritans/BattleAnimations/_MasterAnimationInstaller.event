@@ -25,6 +25,42 @@
 #define EndAnim "WORD 0x0"
 
 {
+#include "Armor\Axe Installer.event"
+}
+{
+#include "Armor\Bow Installer.event"
+}
+{
+#include "Armor\HandAxe Installer.event"
+}
+{
+#include "Armor\Lance Installer.event"
+}
+{
+#include "Armor\Sword Installer.event"
+}
+{
+#include "Armor\Unarmed Installer.event"
+}
+{
+#include "General\Axe Installer.event"
+}
+{
+#include "General\Bow Installer.event"
+}
+{
+#include "General\HandAxe Installer.event"
+}
+{
+#include "General\Lance Installer.event"
+}
+{
+#include "General\Sword Installer.event"
+}
+{
+#include "General\Unarmed Installer.event"
+}
+{
 #include "Lord\Sword Installer.event"
 }
 {
@@ -72,6 +108,38 @@
 {
 #include "Soldier_F\Unarmed Installer.event"
 }
+
+ALIGN 4
+ArmorAnimEntry:
+#define ArmorAxeAnim 0xCE
+AxeAnim(ArmorAxeAnim)
+#define ArmorBowAnim 0xCF
+BowAnim(ArmorBowAnim)
+#define ArmorHandAxeAnim 0xD0
+HandAxeAnim(ArmorHandAxeAnim)
+#define ArmorLanceAnim 0xD1
+LanceAnim(ArmorLanceAnim)
+#define ArmorSwordAnim 0xD2
+SwordAnim(ArmorSwordAnim)
+#define ArmorUnarmedAnim 0xD3
+UnarmedAnim(ArmorUnarmedAnim)
+EndAnim
+
+ALIGN 4
+GeneralAnimEntry:
+#define GeneralAxeAnim 0x44
+AxeAnim(GeneralAxeAnim)
+#define GeneralBowAnim 0x45
+BowAnim(GeneralBowAnim)
+#define GeneralHandAxeAnim 0x46
+HandAxeAnim(GeneralHandAxeAnim)
+#define GeneralLanceAnim 0x47
+LanceAnim(GeneralLanceAnim)
+#define GeneralSwordAnim 0x48
+SwordAnim(GeneralSwordAnim)
+#define GeneralUnarmedAnim 0x49
+UnarmedAnim(GeneralUnarmedAnim)
+EndAnim
 
 ALIGN 4
 LordAnimEntry:

@@ -9,6 +9,28 @@
 #define MoveMapSpriteEntry(index, ap, data) "PUSH; ORG MoveMapSpriteTable + ((index-1)*8); POIN data ap; POP"
 
 ALIGN 4
+AxeArmorMoveData:
+#incbin "AxeArmor\Move.dmp"
+MoveMapSpriteEntry(AxeArmor, 0x1CAA20, AxeArmorMoveData)
+
+#define AxeArmorStandMapSprite 0x70
+ALIGN 4
+AxeArmorStandData:
+#incbin "AxeArmor\Stand#0x70.dmp"
+StandMapSpriteEntry(AxeArmorStandMapSprite, 0x2, 0, AxeArmorStandData)
+
+ALIGN 4
+BowArmorMoveData:
+#incbin "BowArmor\Move.dmp"
+MoveMapSpriteEntry(BowArmor, 0x1CAA20, BowArmorMoveData)
+
+#define BowArmorStandMapSprite 0x71
+ALIGN 4
+BowArmorStandData:
+#incbin "BowArmor\Stand#0x71.dmp"
+StandMapSpriteEntry(BowArmorStandMapSprite, 0x2, 0, BowArmorStandData)
+
+ALIGN 4
 LordMoveData:
 #incbin "Lord\Move.dmp"
 MoveMapSpriteEntry(Lord, 0x1CAA20, LordMoveData)
@@ -79,4 +101,15 @@ ALIGN 4
 Soldier_FStandData:
 #incbin "Soldier_F\Stand#0x6B.dmp"
 StandMapSpriteEntry(Soldier_FStandMapSprite, 0x2, 0, Soldier_FStandData)
+
+ALIGN 4
+SwordArmorMoveData:
+#incbin "SwordArmor\Move.dmp"
+MoveMapSpriteEntry(SwordArmor, 0x1CAA20, SwordArmorMoveData)
+
+#define SwordArmorStandMapSprite 0x6F
+ALIGN 4
+SwordArmorStandData:
+#incbin "SwordArmor\Stand#0x6F.dmp"
+StandMapSpriteEntry(SwordArmorStandMapSprite, 0x2, 0, SwordArmorStandData)
 
