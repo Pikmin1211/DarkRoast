@@ -28,10 +28,11 @@ def getframepositions(arr: numpy.array):
     return min_mouth[0], min_mouth[1], min_eye[0], min_eye[1]
 
 def callportraitformatter(portrait: str, portraitdir: str, portraitformatter: str):
-	outfile = portraitdir + '\\dmp\\' + Path(portrait).stem + '.dmp'
-	if not os.path.isfile(outfile):
-		open(outfile, "w").close()
-	os.system(portraitformatter + ' "' + portrait + '" -o "' + outfile + '"')
+    outfile = portraitdir + '\\dmp\\' + Path(portrait).stem + '.dmp'
+    if not os.path.isfile(outfile):
+        os.makedirs(os.path.dirname(outfile), exist_ok=True)
+        open(outfile, "w").close()
+    os.system(portraitformatter + ' "' + portrait + '" -o "' + outfile + '"')
 
 def compileportraits(portraitdir: str, portraitformatter: str):
     eventfile = open(portraitdir + "\\_MasterPortraitInstaller.event", "w")
