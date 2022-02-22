@@ -1,12 +1,14 @@
+#include "Portraits/_PortraitTable/PortraitTable.event"
 #include "Portraits/_MasterPortraitInstaller.event"
-
 #include "ClassCards/_MasterClassCardInstaller.event"
 
+#include "MapSprites/_MapSpriteTable/MapSpriteTable.event"
 #include "MapSprites/_MasterMapSpriteInstaller.event"
 
 #include "Icons/_IconSheets/_MasterIconSheetInstaller.event"
 #include "Icons/_MasterIconInstaller.event"
 
+#include "BattleAnimations/_AnimTable/AnimTable.event"
 #include "BattleAnimations/_MasterAnimationInstaller.event"
 
 #include "Palettes/_MasterPaletteInstaller.event"

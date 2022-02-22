@@ -39,6 +39,18 @@
 {
 #include "NomadTrooper_F\Unarmed Installer.event"
 }
+{
+#include "Soldier\Lance Installer.event"
+}
+{
+#include "Soldier\Unarmed Installer.event"
+}
+{
+#include "Soldier_F\Lance Installer.event"
+}
+{
+#include "Soldier_F\Unarmed Installer.event"
+}
 
 ALIGN 4
 LordAnimEntry:
@@ -56,4 +68,20 @@ BowAnim(NomadTrooper_FBowAnim)
 SwordAnim(NomadTrooper_FSwordAnim)
 #define NomadTrooper_FUnarmedAnim 0x33
 UnarmedAnim(NomadTrooper_FUnarmedAnim)
+EndAnim
+
+ALIGN 4
+SoldierAnimEntry:
+#define SoldierLanceAnim 0x98
+LanceAnim(SoldierLanceAnim)
+#define SoldierUnarmedAnim 0x99
+UnarmedAnim(SoldierUnarmedAnim)
+EndAnim
+
+ALIGN 4
+Soldier_FAnimEntry:
+#define Soldier_FLanceAnim 0xCA
+LanceAnim(Soldier_FLanceAnim)
+#define Soldier_FUnarmedAnim 0xCB
+UnarmedAnim(Soldier_FUnarmedAnim)
 EndAnim

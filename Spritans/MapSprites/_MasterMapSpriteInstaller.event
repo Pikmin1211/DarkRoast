@@ -30,3 +30,20 @@ NomadTrooper_FStandData:
 #incbin "NomadTrooper_F\Stand#0x18.dmp"
 StandMapSpriteEntry(NomadTrooper_FStandMapSprite, 0x2, 1, NomadTrooper_FStandData)
 
+#define SoldierStandMapSprite 0x3F
+ALIGN 4
+SoldierStandData:
+#incbin "Soldier\Stand#0x3F.dmp"
+StandMapSpriteEntry(SoldierStandMapSprite, 0x2, 0, SoldierStandData)
+
+ALIGN 4
+Soldier_FMoveData:
+#incbin "Soldier_F\Move.dmp"
+MoveMapSpriteEntry(Soldier_F, 0x1CAA20, Soldier_FMoveData)
+
+#define Soldier_FStandMapSprite 0x6B
+ALIGN 4
+Soldier_FStandData:
+#incbin "Soldier_F\Stand#0x6B.dmp"
+StandMapSpriteEntry(Soldier_FStandMapSprite, 0x2, 0, Soldier_FStandData)
+

@@ -1,0 +1,12 @@
+#define PortraitTable PortraitTableLabel
+#define MaxPortraitEntries 0x200
+
+ALIGN 4
+PortraitTableLabel:
+	#incbin "PortraitTable.bin"
+	ORG PortraitTableLabel + (MaxPortraitEntries * 28)
+
+PUSH
+	ORG $5524
+	POIN PortraitTable
+POP

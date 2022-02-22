@@ -1,0 +1,49 @@
+#define MoveMapSpriteTable MoveMapSpriteTableLabel
+#define StandMapSpriteTable StandMapSpriteTableLabel
+#define MaxMoveMapSpriteEntries 0x100
+#define MaxStandMapSpriteEntries 0x100
+
+ALIGN 4
+MoveMapSpriteTableLabel:
+	#incbin "MoveMapSpriteTable.bin"
+	ORG MoveMapSpriteTableLabel + (MaxMoveMapSpriteEntries * 8)
+
+ALIGN 4
+StandMapSpriteTableLabel:
+	#incbin "StandMapSpriteTable.bin"
+	ORG StandMapSpriteTableLabel + (MaxStandMapSpriteEntries * 8)
+
+PUSH
+	ORG $79584
+	POIN MoveMapSpriteTable
+	ORG $79598
+	POIN MoveMapSpriteTable
+	ORG $BAC2C
+	POIN MoveMapSpriteTable
+	ORG $BAC40
+	POIN MoveMapSpriteTable
+	ORG $26730
+	POIN StandMapSpriteTable
+	ORG $267B0
+	POIN StandMapSpriteTable
+	ORG $26838
+	POIN StandMapSpriteTable
+	ORG $26C88
+	POIN StandMapSpriteTable
+	ORG $272D0
+	POIN StandMapSpriteTable
+	ORG $27BB0
+	POIN StandMapSpriteTable
+	ORG $27C9C
+	POIN StandMapSpriteTable
+	ORG $27D48
+	POIN StandMapSpriteTable
+	ORG $27E0C
+	POIN StandMapSpriteTable
+	ORG $27E9C
+	POIN StandMapSpriteTable
+	ORG $27F74
+	POIN StandMapSpriteTable
+	ORG $28064
+	POIN StandMapSpriteTable
+POP

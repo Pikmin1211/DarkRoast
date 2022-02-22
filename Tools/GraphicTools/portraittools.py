@@ -38,7 +38,7 @@ def compileportraits(portraitdir: str, portraitformatter: str):
     eventfile = open(portraitdir + "\\_MasterPortraitInstaller.event", "w")
     eventfile.write("// File output by PortraitTools\n")
     eventfile.write("// Program by Pikmin1211 with credit to MintX\n\n")
-    eventfile.write('#include "Tools\\Tool Helpers.txt"\n\n')
+    eventfile.write('#define setMugEntry(mugEntry, mugLocation, mouthX, mouthY, eyeX, eyeY) "PUSH; ORG PortraitTable+mugEntry*0x1C; POIN mugLocation; POIN mugLocation+0x1624; POIN mugLocation+0x1604; POIN mugLocation+0x1004; WORD 0x00000000; BYTE mouthX mouthY eyeX eyeY; WORD 0x01; POP"\n\n')
     for root, dirs, files in os.walk(portraitdir):
         for file in files:
             if file.endswith(".png"):

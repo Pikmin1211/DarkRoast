@@ -522,7 +522,7 @@ def textprocess(textdir: str, parsefiledir: str, parsedefsdir: str):
 			f.write("#ifndef TEXT_INSTALLER\n")
 			f.write("#define TEXT_INSTALLER\n\n")
 
-			f.write("#include \"Tools/Tool Helpers.txt\"\n")
+			f.write('#define setText(textID, offset) "PUSH; ORG (TextTable+4*textID); POIN (offset | 0x80000000); POP" //Anti-huffman\n')
 			f.write("#include \"{}\"\n\n".format(os.path.relpath(outputDefPath, os.path.dirname(outputPath))))
 
 			f.write("{\n\n")
