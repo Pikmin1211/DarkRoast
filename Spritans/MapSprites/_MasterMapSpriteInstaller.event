@@ -6,7 +6,7 @@
 #endif // MoveMapSpriteTable
 
 #define StandMapSpriteEntry(index, pattern, size, data) "PUSH; ORG StandMapSpriteTable + (index*8); SHORT pattern size; POIN data; POP"
-#define MoveMapSpriteEntry(index, ap, data) "PUSH; ORG MoveMapSpriteTable + (index*8); POIN data ap; POP"
+#define MoveMapSpriteEntry(index, ap, data) "PUSH; ORG MoveMapSpriteTable + ((index-1)*8); POIN data ap; POP"
 
 ALIGN 4
 LordMoveData:
@@ -20,15 +20,48 @@ LordStandData:
 StandMapSpriteEntry(LordStandMapSprite, 0x2, 0, LordStandData)
 
 ALIGN 4
+NomadMoveData:
+#incbin "Nomad\Move.dmp"
+MoveMapSpriteEntry(Nomad, 0x1CAA20, NomadMoveData)
+
+#define NomadStandMapSprite 0x6D
+ALIGN 4
+NomadStandData:
+#incbin "Nomad\Stand#0x6D.dmp"
+StandMapSpriteEntry(NomadStandMapSprite, 0x2, 1, NomadStandData)
+
+ALIGN 4
+NomadTrooperMoveData:
+#incbin "NomadTrooper\Move.dmp"
+MoveMapSpriteEntry(NomadTrooper, 0x1CAA20, NomadTrooperMoveData)
+
+#define NomadTrooperStandMapSprite 0x18
+ALIGN 4
+NomadTrooperStandData:
+#incbin "NomadTrooper\Stand#0x18.dmp"
+StandMapSpriteEntry(NomadTrooperStandMapSprite, 0x2, 1, NomadTrooperStandData)
+
+ALIGN 4
 NomadTrooper_FMoveData:
 #incbin "NomadTrooper_F\Move.dmp"
 MoveMapSpriteEntry(NomadTrooper_F, 0x1CAA20, NomadTrooper_FMoveData)
 
-#define NomadTrooper_FStandMapSprite 0x18
+#define NomadTrooper_FStandMapSprite 0x6C
 ALIGN 4
 NomadTrooper_FStandData:
-#incbin "NomadTrooper_F\Stand#0x18.dmp"
+#incbin "NomadTrooper_F\Stand#0x6C.dmp"
 StandMapSpriteEntry(NomadTrooper_FStandMapSprite, 0x2, 1, NomadTrooper_FStandData)
+
+ALIGN 4
+Nomad_FMoveData:
+#incbin "Nomad_F\Move.dmp"
+MoveMapSpriteEntry(Nomad_F, 0x1CAA20, Nomad_FMoveData)
+
+#define Nomad_FStandMapSprite 0x6E
+ALIGN 4
+Nomad_FStandData:
+#incbin "Nomad_F\Stand#0x6E.dmp"
+StandMapSpriteEntry(Nomad_FStandMapSprite, 0x2, 1, Nomad_FStandData)
 
 #define SoldierStandMapSprite 0x3F
 ALIGN 4

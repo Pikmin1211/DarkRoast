@@ -22,7 +22,7 @@ def compilemapsprites(msdir: str, p2ddir: str):
 	installer.write('#ifndef MoveMapSpriteTable\n#define MoveMapSpriteTable 0x9A2DF8\n#endif // MoveMapSpriteTable\n\n')
 
 	installer.write('#define StandMapSpriteEntry(index, pattern, size, data) "PUSH; ORG StandMapSpriteTable + (index*8); SHORT pattern size; POIN data; POP"\n')
-	installer.write('#define MoveMapSpriteEntry(index, ap, data) "PUSH; ORG MoveMapSpriteTable + (index*8); POIN data ap; POP"\n\n')
+	installer.write('#define MoveMapSpriteEntry(index, ap, data) "PUSH; ORG MoveMapSpriteTable + ((index-1)*8); POIN data ap; POP"\n\n')
 
 	for file in processedfiles:
 		dmpfile = file.replace(".png", ".dmp")

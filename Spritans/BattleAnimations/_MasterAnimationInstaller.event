@@ -31,6 +31,21 @@
 #include "Lord\Unarmed Installer.event"
 }
 {
+#include "Nomad\Bow Installer.event"
+}
+{
+#include "Nomad\Unarmed Installer.event"
+}
+{
+#include "NomadTrooper\Bow Installer.event"
+}
+{
+#include "NomadTrooper\Sword Installer.event"
+}
+{
+#include "NomadTrooper\Unarmed Installer.event"
+}
+{
 #include "NomadTrooper_F\Bow Installer.event"
 }
 {
@@ -38,6 +53,12 @@
 }
 {
 #include "NomadTrooper_F\Unarmed Installer.event"
+}
+{
+#include "Nomad_F\Bow Installer.event"
+}
+{
+#include "Nomad_F\Unarmed Installer.event"
 }
 {
 #include "Soldier\Lance Installer.event"
@@ -61,6 +82,24 @@ UnarmedAnim(LordUnarmedAnim)
 EndAnim
 
 ALIGN 4
+NomadAnimEntry:
+#define NomadBowAnim 0xCC
+BowAnim(NomadBowAnim)
+#define NomadUnarmedAnim 0xCD
+UnarmedAnim(NomadUnarmedAnim)
+EndAnim
+
+ALIGN 4
+NomadTrooperAnimEntry:
+#define NomadTrooperBowAnim 0x2F
+BowAnim(NomadTrooperBowAnim)
+#define NomadTrooperSwordAnim 0x2E
+SwordAnim(NomadTrooperSwordAnim)
+#define NomadTrooperUnarmedAnim 0x30
+UnarmedAnim(NomadTrooperUnarmedAnim)
+EndAnim
+
+ALIGN 4
 NomadTrooper_FAnimEntry:
 #define NomadTrooper_FBowAnim 0x32
 BowAnim(NomadTrooper_FBowAnim)
@@ -68,6 +107,14 @@ BowAnim(NomadTrooper_FBowAnim)
 SwordAnim(NomadTrooper_FSwordAnim)
 #define NomadTrooper_FUnarmedAnim 0x33
 UnarmedAnim(NomadTrooper_FUnarmedAnim)
+EndAnim
+
+ALIGN 4
+Nomad_FAnimEntry:
+#define Nomad_FBowAnim 0xCE
+BowAnim(Nomad_FBowAnim)
+#define Nomad_FUnarmedAnim 0xCF
+UnarmedAnim(Nomad_FUnarmedAnim)
 EndAnim
 
 ALIGN 4
