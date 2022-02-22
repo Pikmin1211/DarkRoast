@@ -6,6 +6,7 @@ cwd = os.getcwd()
 tables = cwd + "\\Tables"
 spritans = cwd + "\\Spritans"
 portraits = spritans + "\\Portraits"
+classcards = spritans + "\\ClassCards"
 mapsprites = spritans + "\\MapSprites"
 icons = spritans + "\\Icons"
 anims = spritans + "\\BattleAnimations"
@@ -44,6 +45,7 @@ from Tools.TextProcess import textprocessclassic as tpc
 tpc.textprocess(writans, parsefile, parsedefs)
 tb.c2ea(tables, romclean)
 pt.compileportraits(portraits, portraitformatter)
+pt.compileclasscards(classcards, png2dmp)
 mst.compilemapsprites(mapsprites, png2dmp)
 it.compileicons(icons, png2dmp)
 at.compileanimations(anims)

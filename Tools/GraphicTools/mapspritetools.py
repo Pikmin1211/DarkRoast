@@ -11,7 +11,7 @@ def compilemapsprites(msdir: str, p2ddir: str):
 		for file in files:
 			if file.endswith(".png"):
 				file = os.path.join(root, file)
-				p2d.callpng2dmpcompress(file, p2ddir)
+				p2d.callpng2dmp(file, p2ddir, compress = True)
 				path = os.path.commonprefix([msdir, file])
 				file = os.path.relpath(file, path)
 				processedfiles.append(file)

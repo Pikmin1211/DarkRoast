@@ -2,6 +2,7 @@ import os
 import numpy
 from PIL import Image
 from pathlib import Path
+from . import png2dmp as p2d
 
 # credit MintX, pyEA
 SEARCH_RANGE = 1, 7
@@ -37,7 +38,6 @@ def compileportraits(portraitdir: str, portraitformatter: str):
     eventfile.write("// File output by PortraitTools\n")
     eventfile.write("// Program by Pikmin1211 with credit to MintX\n\n")
     eventfile.write('#include "Tools\\Tool Helpers.txt"\n\n')
-    cnt = 2
     for root, dirs, files in os.walk(portraitdir):
         for file in files:
             if file.endswith(".png"):
@@ -52,10 +52,32 @@ def compileportraits(portraitdir: str, portraitformatter: str):
                 name = contents[0]
                 index = contents[1]
                 eventfile.write("#define " + name + "Mug " + index + "\n")
-                eventfile.write("ALIGN 16\n")
+                eventfile.write("ALIGN 4\n")
                 eventfile.write(name + "MugData:\n")
                 eventfile.write('#incbin "dmp\\' + relname + '.dmp"\n')
                 eventfile.write("setMugEntry(" + name + "Mug, " + name + "MugData, " + str(x1) + ", " + str(y1) + ", " + str(x2) + ", " + str(y2) + ")\n\n")
-                cnt += 1
 
-
+def compileclasscards(ccdir: str, png2dmpdir: str):
+    eventfile = open(ccdir + "\\_MasterClassCardInstaller.event", "w")
+    eventfile.write("// File output by PortraitTools\n")
+    eventfile.write("// Program by Pikmin1211 with credit to MintX\n\n")
+    eventfile.write('#define setCardEntry(index, data, palette) "PUSH; ORG PortraitTable+index*0x1C; WORD 0 0; POIN palette; WORD 0; POIN data; BYTE 0 0 0 0; WORD 0x01; POP"\n\n')
+    for root, dirs, files in os.walk(ccdir):
+        for file in files:
+            if file.endswith(".png"):
+                file = os.path.join(root, file)
+                outfile = ccdir + '\\dmp\\' + Path(file).stem + '.dmp'
+                paloutfile = outfile.replace(".dmp", "_pal.dmp")
+                p2d.callpng2dmp(file, png2dmpdir, outfile=outfile, paloutfile = paloutfile, compress = True)
+                relname = Path(file).stem
+                contents = relname.split("#")
+                name = contents[0]
+                index = contents[1]
+                eventfile.write("#define " + name + "Card " + index + "\n")
+                eventfile.write("ALIGN 4\n")
+                eventfile.write(name + "CardData:\n")
+                eventfile.write('#incbin "dmp\\' + relname + '.dmp"\n')
+                eventfile.write("ALIGN 4\n")
+                eventfile.write(name + "CardPalette:\n")
+                eventfile.write('#incbin "dmp\\' + relname + '_pal.dmp"\n')
+                eventfile.write("setCardEntry(" + name + "Card, " + name + "CardData, " + name + "CardPalette)\n\n")

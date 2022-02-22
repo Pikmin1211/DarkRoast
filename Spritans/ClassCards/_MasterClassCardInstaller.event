@@ -1,0 +1,5 @@
+// File output by PortraitTools
+// Program by Pikmin1211 with credit to MintX
+
+#define setCardEntry(index, data, palette) "PUSH; ORG PortraitTable+index*0x1C; WORD 0 0; POIN palette; WORD 0; POIN data; BYTE 0 0 0 0; WORD 0x01; POP"
+
