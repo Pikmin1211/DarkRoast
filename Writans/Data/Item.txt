@@ -1,0 +1,16 @@
+## VulneraryDesc
+A medicinal solution.[N]
+Recovers 15 HP.[X]
+
+## VulneraryUseText
+Heals 15 HP.[X]
+
+## HerbName
+Herb[X]
+
+## HerbDesc
+A refreshing herb.[N]
+Recovers 10 HP.[X]
+
+## HerbUseText
+Heals 10 HP.[X]

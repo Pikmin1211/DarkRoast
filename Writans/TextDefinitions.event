@@ -25,6 +25,11 @@
 #define GoonDesc $D5E
 #define HachaName $D5F
 #define HachaDesc $D60
-#define Chapter_01Name $D61
+#define VulneraryDesc $D61
+#define VulneraryUseText $D62
+#define HerbName $D63
+#define HerbDesc $D64
+#define HerbUseText $D65
+#define Chapter_01Name $D66
 
 #endif // TEXT_DEFINITIONS

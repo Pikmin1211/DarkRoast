@@ -129,6 +129,7 @@
 #define ShortSpear 0x96
 #define OceanSeal 0x97
 #define WindSword 0xa1
+#define Herb 0xa2
 #define BlackGem 0xba
 #define GoldGem 0xbb
 #define BronzeSword 0xbc

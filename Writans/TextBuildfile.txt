@@ -2,5 +2,6 @@
 First unused text id.[X]
 
 #include "Data/Character.txt"
+#include "Data/Item.txt"
 
 #include "Chapter/_ChapterScripts.txt"

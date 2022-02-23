@@ -94,8 +94,28 @@ __TEXTPROCESSD60:
 setText($D60, __TEXTPROCESSD60)
 
 __TEXTPROCESSD61:
-#incbin ".TextEntries\TextBuildfileChapter_01Name.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileVulneraryDesc.fetxt.dmp"
 setText($D61, __TEXTPROCESSD61)
+
+__TEXTPROCESSD62:
+#incbin ".TextEntries\TextBuildfileVulneraryUseText.fetxt.dmp"
+setText($D62, __TEXTPROCESSD62)
+
+__TEXTPROCESSD63:
+#incbin ".TextEntries\TextBuildfileHerbName.fetxt.dmp"
+setText($D63, __TEXTPROCESSD63)
+
+__TEXTPROCESSD64:
+#incbin ".TextEntries\TextBuildfileHerbDesc.fetxt.dmp"
+setText($D64, __TEXTPROCESSD64)
+
+__TEXTPROCESSD65:
+#incbin ".TextEntries\TextBuildfileHerbUseText.fetxt.dmp"
+setText($D65, __TEXTPROCESSD65)
+
+__TEXTPROCESSD66:
+#incbin ".TextEntries\TextBuildfileChapter_01Name.fetxt.dmp"
+setText($D66, __TEXTPROCESSD66)
 
 }
 

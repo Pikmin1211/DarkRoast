@@ -49,11 +49,11 @@ Tutorial:
 
 Units1:
 Units1Hard:
-	UNIT Olmos Lord 0 Level(1, Ally, 0) [1,2] 0 0 0 0 [IronSword] [0, 0, 0, 0]
+	UNIT Olmos Lord 0 Level(1, Ally, 0) [1,2] 0 0 0 0 [IronSword, Vulnerary, Herb] [0, 0, 0, 0]
 	UNIT
 
 EnemyUnits:
-	UNIT Goon_Ch01 Fighter 0 Level(1, Enemy, 0) [2,2] 0 0 0 0 [IronAxe] [0, 0, 0, 0]
+	UNIT Goon_Ch01 Deserter 0 Level(1, Enemy, 0) [2,2] 0 0 0 0 [IronLance] [0, 0, 0, 0]
 	UNIT
 
 Traps1:
