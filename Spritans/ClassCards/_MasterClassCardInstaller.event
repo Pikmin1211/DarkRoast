@@ -3,7 +3,43 @@
 
 #define setCardEntry(index, data, palette) "PUSH; ORG PortraitTable+index*0x1C; WORD 0 0; POIN palette; WORD 0; POIN data; BYTE 0 0 0 0; WORD 0x01; POP"
 
-#define SoldierCard 0x150
+#define AxeArmorCard 0x150
+ALIGN 4
+AxeArmorCardData:
+#incbin "dmp\AxeArmor.dmp"
+ALIGN 4
+AxeArmorCardPalette:
+#incbin "dmp\AxeArmor_pal.dmp"
+setCardEntry(AxeArmorCard, AxeArmorCardData, AxeArmorCardPalette)
+
+#define AxeCavalierCard 0x151
+ALIGN 4
+AxeCavalierCardData:
+#incbin "dmp\AxeCavalier.dmp"
+ALIGN 4
+AxeCavalierCardPalette:
+#incbin "dmp\AxeCavalier_pal.dmp"
+setCardEntry(AxeCavalierCard, AxeCavalierCardData, AxeCavalierCardPalette)
+
+#define AxePaladinCard 0x152
+ALIGN 4
+AxePaladinCardData:
+#incbin "dmp\AxePaladin.dmp"
+ALIGN 4
+AxePaladinCardPalette:
+#incbin "dmp\AxePaladin_pal.dmp"
+setCardEntry(AxePaladinCard, AxePaladinCardData, AxePaladinCardPalette)
+
+#define BowArmorCard 0x153
+ALIGN 4
+BowArmorCardData:
+#incbin "dmp\BowArmor.dmp"
+ALIGN 4
+BowArmorCardPalette:
+#incbin "dmp\BowArmor_pal.dmp"
+setCardEntry(BowArmorCard, BowArmorCardData, BowArmorCardPalette)
+
+#define SoldierCard 0x154
 ALIGN 4
 SoldierCardData:
 #incbin "dmp\Soldier.dmp"
@@ -11,4 +47,31 @@ ALIGN 4
 SoldierCardPalette:
 #incbin "dmp\Soldier_pal.dmp"
 setCardEntry(SoldierCard, SoldierCardData, SoldierCardPalette)
+
+#define SwordArmorCard 0x155
+ALIGN 4
+SwordArmorCardData:
+#incbin "dmp\SwordArmor.dmp"
+ALIGN 4
+SwordArmorCardPalette:
+#incbin "dmp\SwordArmor_pal.dmp"
+setCardEntry(SwordArmorCard, SwordArmorCardData, SwordArmorCardPalette)
+
+#define SwordCavalierCard 0x156
+ALIGN 4
+SwordCavalierCardData:
+#incbin "dmp\SwordCavalier.dmp"
+ALIGN 4
+SwordCavalierCardPalette:
+#incbin "dmp\SwordCavalier_pal.dmp"
+setCardEntry(SwordCavalierCard, SwordCavalierCardData, SwordCavalierCardPalette)
+
+#define SwordPaladinCard 0x157
+ALIGN 4
+SwordPaladinCardData:
+#incbin "dmp\SwordPaladin.dmp"
+ALIGN 4
+SwordPaladinCardPalette:
+#incbin "dmp\SwordPaladin_pal.dmp"
+setCardEntry(SwordPaladinCard, SwordPaladinCardData, SwordPaladinCardPalette)
 
