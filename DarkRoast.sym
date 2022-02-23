@@ -91,11 +91,11 @@
 08F35B9C PaladinAnimEntry
 08F35BBC SoldierAnimEntry
 08F35BC8 Soldier_FAnimEntry
-09033270 OlmosLordPalette
-090332A8 ChapterTableLabel
-09035FC0 CharacterTableLabel
-0903938C ClassTableLabel
-0903BD38 ItemTableLabel
+09030584 OlmosLordPalette
+090305BC ChapterTableLabel
+090332D4 CharacterTableLabel
+090366A0 ClassTableLabel
+0903904C ItemTableLabel
 02000000 .dbl:0004
 02000000  gAISFrontLeft
 02000004 .dbl:0004
