@@ -1,1 +1,22 @@
 [N] = [NL]
+[AN] = [A][N]
+[Red] = [ToggleRed]
+[Blink] = [CloseEyes][.][OpenEyes]
+[Beat] = [ToggleMouthMove]...[....][ToggleMouthMove]
+[Event] = [LoadOverworldFaces]
+
+[FarFarLeft] = [OpenFarFarLeft]
+[FarLeft] = [OpenFarLeft]
+[MidLeft] = [OpenMidLeft]
+[Left] = [OpenLeft]
+[Right] = [OpenRight]
+[MidRight] = [OpenMidRight]
+[FarRight] = [OpenFarRight]
+[FarFarRight] = [OpenFarFarRight]
+
+[Clear] = [ClearFace]
+[CloseSpeech] = [CloseSpeechSlow]
+[Die] = [A][CloseEyes][.....]
+
+[CurrentPortrait] = [0xFF][0xFF]
+[LoadCurrent] = [LoadFace][CurrentPortrait]
