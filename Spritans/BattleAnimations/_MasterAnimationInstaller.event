@@ -98,76 +98,88 @@ UnarmedAnim(GuardUnarmedAnim)
 EndAnim
 
 ALIGN 4
+HalberdierAnimEntry:
+#define HalberdierAxeAnim 0xe2
+AxeAnim(HalberdierAxeAnim)
+#define HalberdierHandAxeAnim 0xe3
+HandAxeAnim(HalberdierHandAxeAnim)
+#define HalberdierLanceAnim 0xe4
+LanceAnim(HalberdierLanceAnim)
+#define HalberdierUnarmedAnim 0xe5
+UnarmedAnim(HalberdierUnarmedAnim)
+EndAnim
+
+ALIGN 4
 LordAnimEntry:
-#define LordSwordAnim 0xe2
+#define LordSwordAnim 0xe6
 SwordAnim(LordSwordAnim)
-#define LordUnarmedAnim 0xe3
+#define LordUnarmedAnim 0xe7
 UnarmedAnim(LordUnarmedAnim)
 EndAnim
 
 ALIGN 4
 NomadAnimEntry:
-#define NomadBowAnim 0xe4
+#define NomadBowAnim 0xe8
 BowAnim(NomadBowAnim)
-#define NomadUnarmedAnim 0xe5
+#define NomadUnarmedAnim 0xe9
 UnarmedAnim(NomadUnarmedAnim)
 EndAnim
 
 ALIGN 4
 NomadTrooperAnimEntry:
-#define NomadTrooperBowAnim 0xe6
+#define NomadTrooperBowAnim 0xea
 BowAnim(NomadTrooperBowAnim)
-#define NomadTrooperSwordAnim 0xe7
+#define NomadTrooperSwordAnim 0xeb
 SwordAnim(NomadTrooperSwordAnim)
-#define NomadTrooperUnarmedAnim 0xe8
+#define NomadTrooperUnarmedAnim 0xec
 UnarmedAnim(NomadTrooperUnarmedAnim)
 EndAnim
 
 ALIGN 4
 NomadTrooper_FAnimEntry:
-#define NomadTrooper_FBowAnim 0xe9
+#define NomadTrooper_FBowAnim 0xed
 BowAnim(NomadTrooper_FBowAnim)
-#define NomadTrooper_FSwordAnim 0xea
+#define NomadTrooper_FSwordAnim 0xee
 SwordAnim(NomadTrooper_FSwordAnim)
-#define NomadTrooper_FUnarmedAnim 0xeb
+#define NomadTrooper_FUnarmedAnim 0xef
 UnarmedAnim(NomadTrooper_FUnarmedAnim)
 EndAnim
 
 ALIGN 4
 Nomad_FAnimEntry:
-#define Nomad_FBowAnim 0xec
+#define Nomad_FBowAnim 0xf0
 BowAnim(Nomad_FBowAnim)
-#define Nomad_FUnarmedAnim 0xed
+#define Nomad_FUnarmedAnim 0xf1
 UnarmedAnim(Nomad_FUnarmedAnim)
 EndAnim
 
 ALIGN 4
 PaladinAnimEntry:
-#define PaladinAxeAnim 0xee
+#define PaladinAxeAnim 0xf2
 AxeAnim(PaladinAxeAnim)
-#define PaladinHandAxeAnim 0xef
+#define PaladinHandAxeAnim 0xf3
 HandAxeAnim(PaladinHandAxeAnim)
-#define PaladinLanceAnim 0xf0
+#define PaladinLanceAnim 0xf4
 LanceAnim(PaladinLanceAnim)
-#define PaladinSwordAnim 0xf1
+#define PaladinSwordAnim 0xf5
 SwordAnim(PaladinSwordAnim)
-#define PaladinUnarmedAnim 0xf2
+#define PaladinUnarmedAnim 0xf6
 UnarmedAnim(PaladinUnarmedAnim)
 EndAnim
 
 ALIGN 4
 SoldierAnimEntry:
-#define SoldierLanceAnim 0xf3
+#define SoldierLanceAnim 0xf7
 LanceAnim(SoldierLanceAnim)
-#define SoldierUnarmedAnim 0xf4
+#define SoldierUnarmedAnim 0xf8
 UnarmedAnim(SoldierUnarmedAnim)
 EndAnim
 
 ALIGN 4
 Soldier_FAnimEntry:
-#define Soldier_FLanceAnim 0xf5
+#define Soldier_FLanceAnim 0xf9
 LanceAnim(Soldier_FLanceAnim)
-#define Soldier_FUnarmedAnim 0xf6
+#define Soldier_FUnarmedAnim 0xfa
 UnarmedAnim(Soldier_FUnarmedAnim)
 EndAnim
 
@@ -242,6 +254,18 @@ EndAnim
 }
 {
 #include "Guard\Unarmed Installer.event"
+}
+{
+#include "Halberdier\Axe Installer.event"
+}
+{
+#include "Halberdier\HandAxe Installer.event"
+}
+{
+#include "Halberdier\Lance Installer.event"
+}
+{
+#include "Halberdier\Unarmed Installer.event"
 }
 {
 #include "Lord\Sword Installer.event"
