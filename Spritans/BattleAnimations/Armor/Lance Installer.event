@@ -1,7 +1,7 @@
 ///////Animation Install.event///////
     
 PUSH
-AnimTableEntry(0xD1)
+AnimTableEntry(ArmorLanceAnim)
 WORD 0 0 0 //empty name field, who cares
 POIN Anim_Lance_sectiondata
 POIN Anim_Lance_framedata

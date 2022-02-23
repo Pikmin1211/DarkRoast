@@ -2,9 +2,10 @@ import os
 from pathlib import Path
 from ..AnimationAssembler import AA
 
-def compileanimations(animdir: str):
+def compileanimations(animdir: str, startindex: int = 0):
 
 	processedfiles = []
+	currentindex = startindex
 
 	for root, dirs, files in os.walk(animdir):
 		for file in files:
@@ -12,12 +13,17 @@ def compileanimations(animdir: str):
 				name = Path(file).stem
 				contents = name.split("#")
 				name = contents[0]
-				index = contents[1]
+				if len(contents) != 1:
+					index = contents[1]
+				else:
+					index = hex(currentindex)
+					currentindex += 1
 				file = os.path.join(root, file)
-				AA.animationassembler(file, index)
+				job = os.path.basename(os.path.dirname(file))
+				AA.animationassembler(file, job + name + "Anim")
 				path = os.path.commonprefix([animdir, file])
 				file = os.path.relpath(file, path)
-				file = file.split("#")[0]
+				file = file.split("#")[0].replace(".bin", "")
 				file += " Installer.event"
 				processedfiles.append(file)
 
@@ -54,12 +60,10 @@ def compileanimations(animdir: str):
 
 	installer.write("\n")
 
-	for file in processedfiles:
-		installer.write("{\n")
-		installer.write('#include "' + file + '"\n')
-		installer.write("}\n")
+
 
 	job = ""
+	currentindex = startindex
 
 	for root, dirs, files in os.walk(animdir):
 		for file in files:
@@ -68,7 +72,11 @@ def compileanimations(animdir: str):
 				weapon = Path(file).stem
 				contents = weapon.split("#")
 				weapon = contents[0]
-				index = contents[1]
+				if len(contents) != 1:
+					index = contents[1]
+				else:
+					index = hex(currentindex)
+					currentindex += 1
 				if os.path.basename(os.path.dirname(file)) != job:
 					if job != "":
 						installer.write("EndAnim\n")
@@ -77,7 +85,12 @@ def compileanimations(animdir: str):
 					installer.write(job + "AnimEntry:\n")
 				installer.write("#define " + job + weapon + "Anim " + index + "\n")
 				installer.write(weapon + "Anim(" + job + weapon + "Anim)\n")
-	installer.write("EndAnim\n")
+	installer.write("EndAnim\n\n")
+
+	for file in processedfiles:
+		installer.write("{\n")
+		installer.write('#include "' + file + '"\n')
+		installer.write("}\n")
 
 	installer.close()
 

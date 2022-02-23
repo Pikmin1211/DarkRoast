@@ -12,5 +12,5 @@
 
 ALIGN 4
 OlmosLordPalette:
-#incbin "Olmos\Lord#0x1.dmp"
+#incbin "Olmos\Lord.dmp"
 PaletteEntry(0x1, 0, Olmos, Lord, OlmosLordPalette)

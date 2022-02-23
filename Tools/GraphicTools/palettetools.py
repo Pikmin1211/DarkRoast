@@ -24,9 +24,10 @@ def generatecompressedpalette(image: str):
         file.write(cmppal)
         file.close()
 
-def compilepalettes(paldir: str):
+def compilepalettes(paldir: str, startindex: int = 0):
 
     processedfiles = []
+    currentindex = startindex
 
     for root, dirs, files in os.walk(paldir):
         for file in files:
@@ -65,7 +66,11 @@ def compilepalettes(paldir: str):
         name, ext = os.path.splitext(file)
         contents = Path(file).stem.split("#")
         job = contents[0]
-        index = contents[1]
+        if len(contents) != 1:
+            index = contents[1]
+        else:
+            index = hex(currentindex)
+            currentindex += 1
         installer.write("ALIGN 4\n")
         installer.write(unit + job + "Palette:\n")
         installer.write('#incbin "' + dmpfile + '"\n')

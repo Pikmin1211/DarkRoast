@@ -2,9 +2,10 @@ import os
 from pathlib import Path
 from . import png2dmp as p2d
 
-def compileicons(icondir: str, p2ddir: str):
+def compileicons(icondir: str, p2ddir: str, startindex: int = 0):
 
 	processedfiles = []
+	currentindex = startindex
 
 	for root, dirs, files in os.walk(icondir):
 		for file in files:
@@ -24,7 +25,11 @@ def compileicons(icondir: str, p2ddir: str):
 		truefile = icondir + "\\" + file
 		contents = name.split("#")
 		name = contents[0]
-		index = contents[1]
+		if len(contents) != 1:
+			index = contents[1]
+		else:
+			index = hex(currentindex)
+			currentindex += 1
 		installer.write("#define " + name + "Icon " + index + "\n")
 		installer.write("PUSH\n")
 		installer.write("ORG " + iconsheet + "IconSheet + (" + name + "Icon * 128)\n")

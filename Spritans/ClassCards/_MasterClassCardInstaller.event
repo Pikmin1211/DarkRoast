@@ -3,12 +3,12 @@
 
 #define setCardEntry(index, data, palette) "PUSH; ORG PortraitTable+index*0x1C; WORD 0 0; POIN palette; WORD 0; POIN data; BYTE 0 0 0 0; WORD 0x01; POP"
 
-#define SoldierCard 0x8A
+#define SoldierCard 0x150
 ALIGN 4
 SoldierCardData:
-#incbin "dmp\Soldier#0x8A.dmp"
+#incbin "dmp\Soldier.dmp"
 ALIGN 4
 SoldierCardPalette:
-#incbin "dmp\Soldier#0x8A_pal.dmp"
+#incbin "dmp\Soldier_pal.dmp"
 setCardEntry(SoldierCard, SoldierCardData, SoldierCardPalette)
 

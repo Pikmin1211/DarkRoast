@@ -3,9 +3,10 @@ from pathlib import Path
 from PIL import Image
 from . import png2dmp as p2d
 
-def compilemapsprites(msdir: str, p2ddir: str):
+def compilemapsprites(msdir: str, p2ddir: str, startindex: int = 0):
 
 	processedfiles = []
+	currentindex = startindex
 
 	for root, dirs, files in os.walk(msdir):
 		for file in files:
@@ -32,7 +33,11 @@ def compilemapsprites(msdir: str, p2ddir: str):
 		if "Stand" in name:
 			contents = name.split("#")
 			name = contents[0]
-			index = contents[1]
+			if len(contents) != 1:
+				index = contents[1]
+			else:
+				index = hex(currentindex)
+				currentindex += 1
 			image = Image.open(truefile)
 			width, height = image.size
 			size = 0

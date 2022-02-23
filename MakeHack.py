@@ -42,14 +42,14 @@ from Tools.GraphicTools import palettetools as plt
 from Tools.tmx2ea import tmx2ea as tmx
 from Tools.TextProcess import textprocessclassic as tpc
 
+pt.compileportraits(portraits, portraitformatter, startindex = 0xAD, parsedefsdir = parsedefs)
+pt.compileclasscards(classcards, png2dmp, startindex = 0x150)
+mst.compilemapsprites(mapsprites, png2dmp, startindex = 0x6A)
+it.compileicons(icons, png2dmp, startindex = 0xCA)
+at.compileanimations(anims, startindex = 0xCA)
+plt.compilepalettes(palettes, startindex = 0x1)
 tpc.textprocess(writans, parsefile, parsedefs)
 tb.c2ea(tables, romclean)
-pt.compileportraits(portraits, portraitformatter)
-pt.compileclasscards(classcards, png2dmp)
-mst.compilemapsprites(mapsprites, png2dmp)
-it.compileicons(icons, png2dmp)
-at.compileanimations(anims)
-plt.compilepalettes(palettes)
 tmx.runtmx2ea(maps)
 bt.make(chax, chaxsrc)
 

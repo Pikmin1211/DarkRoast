@@ -1,7 +1,7 @@
 ///////Animation Install.event///////
     
 PUSH
-AnimTableEntry(0x49)
+AnimTableEntry(GeneralUnarmedAnim)
 WORD 0 0 0 //empty name field, who cares
 POIN Anim_Unarmed_sectiondata
 POIN Anim_Unarmed_framedata

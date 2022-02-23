@@ -34,7 +34,12 @@ def callportraitformatter(portrait: str, portraitdir: str, portraitformatter: st
         open(outfile, "w").close()
     os.system(portraitformatter + ' "' + portrait + '" -o "' + outfile + '"')
 
-def compileportraits(portraitdir: str, portraitformatter: str):
+def compileportraits(portraitdir: str, portraitformatter: str, startindex: int = 0, parsedefsdir = None):
+    currentindex = startindex
+    parsedefsfile = None
+    if parsedefsdir is not None:
+        os.system("del " + parsedefsdir)
+        parsedefsfile = open(parsedefsdir, "w")
     eventfile = open(portraitdir + "\\_MasterPortraitInstaller.event", "w")
     eventfile.write("// File output by PortraitTools\n")
     eventfile.write("// Program by Pikmin1211 with credit to MintX\n\n")
@@ -51,14 +56,31 @@ def compileportraits(portraitdir: str, portraitformatter: str):
                 relname = Path(file).stem
                 contents = relname.split("#")
                 name = contents[0]
-                index = contents[1]
+                if len(contents) != 1:
+                    index = contents[1]
+                else:
+                    index = hex(currentindex)
+                    currentindex += 1
                 eventfile.write("#define " + name + "Mug " + index + "\n")
                 eventfile.write("ALIGN 4\n")
                 eventfile.write(name + "MugData:\n")
                 eventfile.write('#incbin "dmp\\' + relname + '.dmp"\n')
                 eventfile.write("setMugEntry(" + name + "Mug, " + name + "MugData, " + str(x1) + ", " + str(y1) + ", " + str(x2) + ", " + str(y2) + ")\n\n")
+                if parsedefsfile is not None:
+                    number = int(index, 16)
+                    hi = (number & 0xFF00) >> 16
+                    lo = number & 0xFF
+                    parsedefsfile.write("[Load" + name + "] = [" + hex(lo) + "][" + hex(hi + 1) + "]\n")
+    if parsedefsfile is not None:
+        parsedefsfile.write("\n")
+        with open(parsedefsdir.replace("ParseDefinitions","ParseDefinitionsWritable"), "r") as pdw:
+            for line in pdw.readlines():
+                parsedefsfile.write(line + "\n")
+        parsedefsfile.close()
+    eventfile.close()
 
-def compileclasscards(ccdir: str, png2dmpdir: str):
+def compileclasscards(ccdir: str, png2dmpdir: str, startindex = 0):
+    currentindex = startindex
     eventfile = open(ccdir + "\\_MasterClassCardInstaller.event", "w")
     eventfile.write("// File output by PortraitTools\n")
     eventfile.write("// Program by Pikmin1211 with credit to MintX\n\n")
@@ -73,7 +95,11 @@ def compileclasscards(ccdir: str, png2dmpdir: str):
                 relname = Path(file).stem
                 contents = relname.split("#")
                 name = contents[0]
-                index = contents[1]
+                if len(contents) != 1:
+                    index = contents[1]
+                else:
+                    index = hex(currentindex)
+                    currentindex += 1
                 eventfile.write("#define " + name + "Card " + index + "\n")
                 eventfile.write("ALIGN 4\n")
                 eventfile.write(name + "CardData:\n")
@@ -82,3 +108,4 @@ def compileclasscards(ccdir: str, png2dmpdir: str):
                 eventfile.write(name + "CardPalette:\n")
                 eventfile.write('#incbin "dmp\\' + relname + '_pal.dmp"\n')
                 eventfile.write("setCardEntry(" + name + "Card, " + name + "CardData, " + name + "CardPalette)\n\n")
+    eventfile.close()
