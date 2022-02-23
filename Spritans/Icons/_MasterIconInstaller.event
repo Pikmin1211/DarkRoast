@@ -1,6 +1,30 @@
-#define BronzeSwordIcon 0xca
+#define BronzeAxeIcon 0xca
+PUSH
+ORG ItemIconSheet + (BronzeAxeIcon * 128)
+#incbin "Item\BronzeAxe.dmp"
+POP
+
+#define BronzeBowIcon 0xcb
+PUSH
+ORG ItemIconSheet + (BronzeBowIcon * 128)
+#incbin "Item\BronzeBow.dmp"
+POP
+
+#define BronzeLanceIcon 0xcc
+PUSH
+ORG ItemIconSheet + (BronzeLanceIcon * 128)
+#incbin "Item\BronzeLance.dmp"
+POP
+
+#define BronzeSwordIcon 0xcd
 PUSH
 ORG ItemIconSheet + (BronzeSwordIcon * 128)
 #incbin "Item\BronzeSword.dmp"
+POP
+
+#define HerbIcon 0xce
+PUSH
+ORG ItemIconSheet + (HerbIcon * 128)
+#incbin "Item\Herb.dmp"
 POP
 
