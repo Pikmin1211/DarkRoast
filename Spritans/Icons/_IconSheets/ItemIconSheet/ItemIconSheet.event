@@ -1,10 +1,10 @@
+#define ItemIconSheet ItemIconSheetLabel
+#define MaxItemIcons 0x100
 
 ALIGN 4
 ItemIconSheetLabel:
 #incbin "ItemIconSheet.dmp"
-ORG ItemIconSheetLabel + (0x100 * 128)
-
-#define ItemIconSheet ItemIconSheetLabel
+ORG ItemIconSheetLabel + (MaxItemIcons * 128)
 
 PUSH
 ORG $36B4

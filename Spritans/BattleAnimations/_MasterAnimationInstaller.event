@@ -56,92 +56,118 @@ UnarmedAnim(CavalierUnarmedAnim)
 EndAnim
 
 ALIGN 4
+DeserterAnimEntry:
+#define DeserterLanceAnim 0xd5
+LanceAnim(DeserterLanceAnim)
+#define DeserterUnarmedAnim 0xd6
+UnarmedAnim(DeserterUnarmedAnim)
+EndAnim
+
+ALIGN 4
+Deserter_FAnimEntry:
+#define Deserter_FLanceAnim 0xd7
+LanceAnim(Deserter_FLanceAnim)
+#define Deserter_FUnarmedAnim 0xd8
+UnarmedAnim(Deserter_FUnarmedAnim)
+EndAnim
+
+ALIGN 4
 GeneralAnimEntry:
-#define GeneralAxeAnim 0xd5
+#define GeneralAxeAnim 0xd9
 AxeAnim(GeneralAxeAnim)
-#define GeneralBowAnim 0xd6
+#define GeneralBowAnim 0xda
 BowAnim(GeneralBowAnim)
-#define GeneralHandAxeAnim 0xd7
+#define GeneralHandAxeAnim 0xdb
 HandAxeAnim(GeneralHandAxeAnim)
-#define GeneralLanceAnim 0xd8
+#define GeneralLanceAnim 0xdc
 LanceAnim(GeneralLanceAnim)
-#define GeneralSwordAnim 0xd9
+#define GeneralSwordAnim 0xdd
 SwordAnim(GeneralSwordAnim)
-#define GeneralUnarmedAnim 0xda
+#define GeneralUnarmedAnim 0xde
 UnarmedAnim(GeneralUnarmedAnim)
 EndAnim
 
 ALIGN 4
+GuardAnimEntry:
+#define GuardAxeAnim 0xdf
+AxeAnim(GuardAxeAnim)
+#define GuardHandAxeAnim 0xe0
+HandAxeAnim(GuardHandAxeAnim)
+#define GuardUnarmedAnim 0xe1
+UnarmedAnim(GuardUnarmedAnim)
+EndAnim
+
+ALIGN 4
 LordAnimEntry:
-#define LordSwordAnim 0xdb
+#define LordSwordAnim 0xe2
 SwordAnim(LordSwordAnim)
-#define LordUnarmedAnim 0xdc
+#define LordUnarmedAnim 0xe3
 UnarmedAnim(LordUnarmedAnim)
 EndAnim
 
 ALIGN 4
 NomadAnimEntry:
-#define NomadBowAnim 0xdd
+#define NomadBowAnim 0xe4
 BowAnim(NomadBowAnim)
-#define NomadUnarmedAnim 0xde
+#define NomadUnarmedAnim 0xe5
 UnarmedAnim(NomadUnarmedAnim)
 EndAnim
 
 ALIGN 4
 NomadTrooperAnimEntry:
-#define NomadTrooperBowAnim 0xdf
+#define NomadTrooperBowAnim 0xe6
 BowAnim(NomadTrooperBowAnim)
-#define NomadTrooperSwordAnim 0xe0
+#define NomadTrooperSwordAnim 0xe7
 SwordAnim(NomadTrooperSwordAnim)
-#define NomadTrooperUnarmedAnim 0xe1
+#define NomadTrooperUnarmedAnim 0xe8
 UnarmedAnim(NomadTrooperUnarmedAnim)
 EndAnim
 
 ALIGN 4
 NomadTrooper_FAnimEntry:
-#define NomadTrooper_FBowAnim 0xe2
+#define NomadTrooper_FBowAnim 0xe9
 BowAnim(NomadTrooper_FBowAnim)
-#define NomadTrooper_FSwordAnim 0xe3
+#define NomadTrooper_FSwordAnim 0xea
 SwordAnim(NomadTrooper_FSwordAnim)
-#define NomadTrooper_FUnarmedAnim 0xe4
+#define NomadTrooper_FUnarmedAnim 0xeb
 UnarmedAnim(NomadTrooper_FUnarmedAnim)
 EndAnim
 
 ALIGN 4
 Nomad_FAnimEntry:
-#define Nomad_FBowAnim 0xe5
+#define Nomad_FBowAnim 0xec
 BowAnim(Nomad_FBowAnim)
-#define Nomad_FUnarmedAnim 0xe6
+#define Nomad_FUnarmedAnim 0xed
 UnarmedAnim(Nomad_FUnarmedAnim)
 EndAnim
 
 ALIGN 4
 PaladinAnimEntry:
-#define PaladinAxeAnim 0xe7
+#define PaladinAxeAnim 0xee
 AxeAnim(PaladinAxeAnim)
-#define PaladinHandAxeAnim 0xe8
+#define PaladinHandAxeAnim 0xef
 HandAxeAnim(PaladinHandAxeAnim)
-#define PaladinLanceAnim 0xe9
+#define PaladinLanceAnim 0xf0
 LanceAnim(PaladinLanceAnim)
-#define PaladinSwordAnim 0xea
+#define PaladinSwordAnim 0xf1
 SwordAnim(PaladinSwordAnim)
-#define PaladinUnarmedAnim 0xeb
+#define PaladinUnarmedAnim 0xf2
 UnarmedAnim(PaladinUnarmedAnim)
 EndAnim
 
 ALIGN 4
 SoldierAnimEntry:
-#define SoldierLanceAnim 0xec
+#define SoldierLanceAnim 0xf3
 LanceAnim(SoldierLanceAnim)
-#define SoldierUnarmedAnim 0xed
+#define SoldierUnarmedAnim 0xf4
 UnarmedAnim(SoldierUnarmedAnim)
 EndAnim
 
 ALIGN 4
 Soldier_FAnimEntry:
-#define Soldier_FLanceAnim 0xee
+#define Soldier_FLanceAnim 0xf5
 LanceAnim(Soldier_FLanceAnim)
-#define Soldier_FUnarmedAnim 0xef
+#define Soldier_FUnarmedAnim 0xf6
 UnarmedAnim(Soldier_FUnarmedAnim)
 EndAnim
 
@@ -179,6 +205,18 @@ EndAnim
 #include "Cavalier\Unarmed Installer.event"
 }
 {
+#include "Deserter\Lance Installer.event"
+}
+{
+#include "Deserter\Unarmed Installer.event"
+}
+{
+#include "Deserter_F\Lance Installer.event"
+}
+{
+#include "Deserter_F\Unarmed Installer.event"
+}
+{
 #include "General\Axe Installer.event"
 }
 {
@@ -195,6 +233,15 @@ EndAnim
 }
 {
 #include "General\Unarmed Installer.event"
+}
+{
+#include "Guard\Axe Installer.event"
+}
+{
+#include "Guard\HandAxe Installer.event"
+}
+{
+#include "Guard\Unarmed Installer.event"
 }
 {
 #include "Lord\Sword Installer.event"
