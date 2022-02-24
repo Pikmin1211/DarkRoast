@@ -29,3 +29,9 @@ Brz. Bow[X]
 
 ## BronzeWeaponDesc
 Cannot critically hit.[X]
+
+## EspadaAnchaName
+Esp. Ancha[X]
+
+## EspadaAnchaDesc
+Reverses weapon triangle. Olmos only.[X]

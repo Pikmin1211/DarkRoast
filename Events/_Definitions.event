@@ -1,12 +1,107 @@
+#include "_REDAs.event"
+
+#define NoEvent 1
+
 // Event Calls
 #define GameOver 0x592104
 #define PrepScreen 0x591FD8
+#define StopSkipping 0x591F40
+#define TextWithBackground 0x9EE310
+#define ClearBackground 0x9EE2C4
 
 // EVBIT
-#define NoFade 0x7
+#define NoFade "EVBIT_T 0x7"
+#define CamOn "EVBIT_T 0x9"
+#define CamOff "EVBIT_F 0x9"
 
 // UNIT
 #define Ally 0
 #define NPC 1
 #define Enemy 2
-#define Level(level,side,autoLevel) level*8+side*2+autoLevel
+#define Level(level, side, autoLevel) level*8+side*2+autoLevel
+#define DropItem 2
+
+// Common Events
+#define Text(textID) "TEXTSTART; TEXTSHOW textID; TEXTEND; REMA"
+#define Text(textID, background) "SVAL 0x2 background; SVAL 0x3 textID; CALL TextWithBackground; CALL StopSkipping"
+#define GiveItem(itemID) "SVAL 0x3 itemID; GIVEITEMTO 0xFFFF"
+#define GiveItem(itemID, unitID) "SVAL 0x3 itemID; GIVEITEMTO unitID"
+#define LoadUnits(units) "CamOn; LOAD1 0x1 units; ENUN; CamOff"
+
+// Location Based Events
+#define Village(eventID, offset, villX, villY) "VILL eventID offset [villX,villY] 0x10; LOCA eventID [villX,villY-1] 0x20"
+
+// Misc Based Events
+#define CauseGameOverIfLordDies "AFEV 0 0x592104 0x65"
+#define DefeatBoss(offset) "AFEV 0 offset 2"
+#define DefeatAll(offset) "AFEV 0 offset 6"
+
+// Turn Based Events
+#define TurnEvent(eventID, pointer, turn, phase) "TURN eventID pointer [turn, 0] phase"
+#define TurnEvent(eventID, pointer, startTurn, amountOfTurns, phase) "TURN eventID pointer [startTurn, startTurn+amountOfTurns-1] phase"
+#define PlayerPhase 0x00
+#define NPCPhase 0x40
+#define EnemyPhase 0x80
+
+// AI
+#define DefaultAI [0x0, 0x0, 0x4, 0x0]
+#define NeverMoveAI [0x3, 0x0, 0x4, 0x20]
+#define AttackInRangeAI [0x0, 0x3, 0x4, 0x0]
+#define AttackInDoubleRangeAI [0x0, 0x6, 0x4, 0x0]
+#define LootingAI [0x0, 0x4, 0x4, 0x0]
+
+// BGs
+#define HouseBG 0x00
+#define Salehs_House 0x01
+#define Village 0x02
+#define Outside_Village_Day 0x03
+#define Outside_Village_Evening 0x04
+#define Town_Day 0x05
+#define Town_Past 0x06
+#define Harbor 0x07
+#define Ship 0x08
+#define Inn 0x09
+#define Castle_Hall 0x0A
+#define Castle_Hall_Night 0x0B
+#define Castle_Hall_2 0x0C
+#define Castle_Hall_2_Past 0x0D
+#define Castle_Room 0x0E
+#define Castle_Room_Past 0x0F
+#define Castle_Hall_3 0x10
+#define Castle_Hall_3_Night 0x11
+#define Castle_Hall_4 0x12
+#define Castle_Garden 0x13
+#define Castle_Garden_Past 0x14
+#define Castle_Outside 0x15
+#define Castle_Outside_Past 0x16
+#define Prison_Cell 0x17
+#define Plain 0x18
+#define Plain_Evening 0x19
+#define Plain_Fog 0x1A
+#define Plain_2 0x1B
+#define Plain_3 0x1C
+#define Woodland 0x1D
+#define Woodland_Fog 0x1E
+#define Woodland_Evening 0x1F
+#define Woodland_Night 0x20
+#define Riverside 0x21
+#define Forest 0x22
+#define Forest_2 0x23
+#define Town_Gate 0x24
+#define Fort_Outside 0x25
+#define Fort 0x26
+#define Fort_Evening 0x27
+#define Fort_Ruins 0x28
+#define Fort_Ruins_Outside 0x29
+#define Fort_2 0x2A
+#define Fort_2_Burning 0x2B
+#define Shrine 0x2C
+#define Shrine_lighter 0x2D
+#define Shrine_2 0x2E
+#define Shrine_3 0x2F
+#define Desert 0x30
+#define Forest_Dense 0x31
+#define Volcano 0x32
+#define Temple_Gate 0x33
+#define Temple_Ruins_Inside 0x34
+#define Black 0x35

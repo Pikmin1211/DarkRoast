@@ -1,6 +1,13 @@
 # 0xD4C TextFreeSpaceStart
 First unused text id.[X]
 
+## TestText
+Test.[X]
+
+## TestDialogue
+[MidLeft][LoadFlor][MidRight][LoadOlmos]
+Test.[A][X]
+
 #include "Data/Character.txt"
 #include "Data/Class.txt"
 #include "Data/Item.txt"

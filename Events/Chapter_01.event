@@ -16,20 +16,49 @@ PointerList:
 	POIN BeginningScene EndingScene
 
 TurnBasedEvents:
-
+	TurnEvent(0, FriendsAppear, 1, PlayerPhase)
+	TurnEvent(0, PiratesAppear, 4, PlayerPhase)
 	END_MAIN
+
+FriendsAppear:
+	LoadUnits(ExtraUnits)
+	NoFade
+	ENDA
+
+PiratesAppear:
+	LoadUnits(PirateReinforcements)
+	NoFade
+	ENDA
 
 CharacterBasedEvents:
 
 	END_MAIN
 
 MiscBasedEvents:
-	AFEV 0 GameOver 0x65
+	CauseGameOverIfLordDies
+	DefeatAll(EndingScene)
 	END_MAIN
 
 LocationBasedEvents:
-
+	Village(0x8, TopLeftHouse, 1, 1)
+	Village(0x9, BottomRightHouse, 14, 10)
 	END_MAIN
+
+TopLeftHouse:
+	MUSI
+	Text(TestDialogue, HouseBG)
+	MUNO
+	GiveItem(TealGem)
+	NoFade
+	ENDA
+
+BottomRightHouse:
+	MUSI
+	Text(TestDialogue, HouseBG)
+	MUNO
+	GiveItem(Longbow)
+	NoFade
+	ENDA
 
 SelectionEvents:
 
@@ -49,11 +78,41 @@ Tutorial:
 
 Units1:
 Units1Hard:
-	UNIT Olmos Lord 0 Level(1, Ally, 0) [1,2] 0 0 0 0 [IronSword, BronzeSword, Vulnerary, Herb] [0, 0, 0, 0]
+	UNIT Olmos Lord 0 Level(1, Ally, 0) [2, 11] 0 0 0 0 [EspadaAncha, BronzeSword, Herb] DefaultAI
+	UNIT Flor NomadTrooper_F 0 Level(1, Ally, 0) [0, 12] 0 0 0 0 [SilverSword, BronzeBow, BronzeSword, Vulnerary] DefaultAI
+	UNIT Guadalupe BowArmor 0 Level(5 ,Ally, 0) [0, 11] 0 0 0 0 [IronBow, Herb] DefaultAI
+	UNIT Sosimo Fighter 0 Level(1, Ally, 0) [2, 12] 0 0 0 0 [BronzeAxe] DefaultAI
+	UNIT Bastio Brigand 0 Level(1, Ally, 0) [1, 12] 0 0 0 0 [BronzeAxe] DefaultAI
+	UNIT Zapatera Soldier 0 Level(1, Ally, 0) [1, 11] 0 0 0 0 [BronzeLance, Herb] DefaultAI
+	UNIT
+
+ExtraUnits:
+	UNIT Naranja Mercenary_F 0 Level(1, Ally, 0) [0, 13] 0 0 1 REDA2R13 [BronzeSword, Herb] DefaultAI
+	UNIT Arbolito Hunter 0 Level(1, Ally, 0) [0, 13] 0 0 1 REDA1R13 [BronzeBow, Herb] DefaultAI
 	UNIT
 
 EnemyUnits:
-	UNIT Goon_Ch01 Deserter 0 Level(1, Enemy, 0) [2,2] 0 0 0 0 [IronLance] [0, 0, 0, 0]
+	UNIT Hacha Pirate 0 Level(5, Enemy, 0) [15, 1] DropItem 0 0 0 [IronAxe, HandAxe] NeverMoveAI
+	UNIT Goon_Ch01 Fighter 0 Level(1, Enemy, 1) [1, 8] 0 0 0 0 [BronzeAxe] AttackInRangeAI
+	UNIT Goon_Ch01 Deserter 0 Level(1, Enemy, 1) [5, 10] 0 0 0 0 [BronzeLance] DefaultAI
+	UNIT Goon_Ch01 Deserter 0 Level(1, Enemy, 1) [1, 3] 0 0 0 0 [BronzeLance] AttackInDoubleRangeAI
+	UNIT Goon_Ch01 Mercenary 0 Level(1, Enemy, 1) [5, 6] DropItem 0 0 0 [BronzeSword, Herb] AttackInDoubleRangeAI
+	UNIT Goon_Ch01 Deserter 0 Level(1, Enemy, 1) [12, 11] 0 0 0 0 [BronzeLance] AttackInRangeAI
+	UNIT Goon_Ch01 Fighter 0 Level(1, Enemy, 1) [9, 6] 0 0 0 0 [BronzeAxe] AttackInDoubleRangeAI
+	UNIT Goon_Ch01 Pirate 0 Level(1, Enemy, 1) [12, 0] 0 0 0 0 [BronzeAxe] LootingAI
+	UNIT Goon_Ch01 Pirate 0 Level(1, Enemy, 1) [16, 3] 0 0 0 0 [BronzeAxe] LootingAI
+	UNIT Goon_Ch01 Deserter 0 Level(1, Enemy, 1) [4, 2] 0 0 0 0 [BronzeLance] AttackInRangeAI
+	UNIT Goon_Ch01 Fighter 0 Level(1, Enemy, 1) [13, 4] 0 0 0 0 [BronzeAxe] AttackInRangeAI
+	UNIT Goon_Ch01 Hunter 0 Level(1, Enemy, 1) [13, 1] 0 0 0 0 [BronzeBow] AttackInDoubleRangeAI
+	UNIT Goon_Ch01 Deserter 0 Level(1, Enemy, 1) [8, 4] 0 0 0 0 [BronzeLance] AttackInDoubleRangeAI
+	UNIT Goon_Ch01 Mercenary 0 Level(1, Enemy, 1) [3, 9] 0 0 0 0 [BronzeSword] DefaultAI
+	UNIT Goon_Ch01 Fighter 0 Level(1, Enemy, 1) [9, 9] 0 0 0 0 [BronzeAxe] DefaultAI
+	UNIT Goon_Ch01 Mercenary 0 Level(1, Enemy, 1) [13, 7] DropItem 0 0 0 [IronSword] AttackInDoubleRangeAI
+	UNIT
+
+PirateReinforcements:
+	UNIT Goon_Ch01 Pirate 0 Level(1, Enemy, 1) [15, 1] 0 0 1 REDA14R2 [BronzeAxe] LootingAI
+	UNIT Goon_Ch01 Pirate 0 Level(1, Enemy, 1) [15, 1] 0 0 1 REDA16R2 [BronzeAxe] LootingAI
 	UNIT
 
 Traps1:
@@ -74,7 +133,7 @@ BeginningScene:
 
 EndingScene:
 	MNC2 Chapter_02
-	EVBIT_T NoFade
+	NoFade
 	ENDA
 
 }
