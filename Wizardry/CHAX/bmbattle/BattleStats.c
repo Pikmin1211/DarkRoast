@@ -4,6 +4,9 @@ void ComputeBattleUnitHitRate(struct BattleUnit* battleUnit){
 
 void ComputeBattleUnitCritRate(struct BattleUnit* battleUnit){
 	battleUnit->battleCritRate = battleUnit->unit.skl + GetItemCrit(battleUnit->weapon);
+
+    if (GetItemCrit(battleUnit->weapon) == 0xFF)
+        battleUnit->battleCritRate = 0;
 }
 
 /* see asm folder

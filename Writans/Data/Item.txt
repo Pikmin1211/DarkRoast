@@ -14,3 +14,18 @@ Recovers 10 HP.[X]
 
 ## HerbUseText
 Heals 10 HP.[X]
+
+## BronzeSwordName
+Brz. Sword[X]
+
+## BronzeLanceName
+Brz. Lance[X]
+
+## BronzeAxeName
+Brz. Axe[X]
+
+## BronzeBowName
+Brz. Bow[X]
+
+## BronzeWeaponDesc
+Cannot critically hit.[X]

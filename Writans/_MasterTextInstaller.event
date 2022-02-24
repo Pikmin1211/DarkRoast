@@ -94,28 +94,80 @@ __TEXTPROCESSD60:
 setText($D60, __TEXTPROCESSD60)
 
 __TEXTPROCESSD61:
-#incbin ".TextEntries\TextBuildfileVulneraryDesc.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileNomadTrooperName.fetxt.dmp"
 setText($D61, __TEXTPROCESSD61)
 
 __TEXTPROCESSD62:
-#incbin ".TextEntries\TextBuildfileVulneraryUseText.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileNomadTrooperDesc.fetxt.dmp"
 setText($D62, __TEXTPROCESSD62)
 
 __TEXTPROCESSD63:
-#incbin ".TextEntries\TextBuildfileHerbName.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileDeserterName.fetxt.dmp"
 setText($D63, __TEXTPROCESSD63)
 
 __TEXTPROCESSD64:
-#incbin ".TextEntries\TextBuildfileHerbDesc.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileDeserterDesc.fetxt.dmp"
 setText($D64, __TEXTPROCESSD64)
 
 __TEXTPROCESSD65:
-#incbin ".TextEntries\TextBuildfileHerbUseText.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileBowArmorName.fetxt.dmp"
 setText($D65, __TEXTPROCESSD65)
 
 __TEXTPROCESSD66:
-#incbin ".TextEntries\TextBuildfileChapter_01Name.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileBowArmorDesc.fetxt.dmp"
 setText($D66, __TEXTPROCESSD66)
+
+__TEXTPROCESSD67:
+#incbin ".TextEntries\TextBuildfileHunterName.fetxt.dmp"
+setText($D67, __TEXTPROCESSD67)
+
+__TEXTPROCESSD68:
+#incbin ".TextEntries\TextBuildfileHunterDesc.fetxt.dmp"
+setText($D68, __TEXTPROCESSD68)
+
+__TEXTPROCESSD69:
+#incbin ".TextEntries\TextBuildfileVulneraryDesc.fetxt.dmp"
+setText($D69, __TEXTPROCESSD69)
+
+__TEXTPROCESSD6A:
+#incbin ".TextEntries\TextBuildfileVulneraryUseText.fetxt.dmp"
+setText($D6A, __TEXTPROCESSD6A)
+
+__TEXTPROCESSD6B:
+#incbin ".TextEntries\TextBuildfileHerbName.fetxt.dmp"
+setText($D6B, __TEXTPROCESSD6B)
+
+__TEXTPROCESSD6C:
+#incbin ".TextEntries\TextBuildfileHerbDesc.fetxt.dmp"
+setText($D6C, __TEXTPROCESSD6C)
+
+__TEXTPROCESSD6D:
+#incbin ".TextEntries\TextBuildfileHerbUseText.fetxt.dmp"
+setText($D6D, __TEXTPROCESSD6D)
+
+__TEXTPROCESSD6E:
+#incbin ".TextEntries\TextBuildfileBronzeSwordName.fetxt.dmp"
+setText($D6E, __TEXTPROCESSD6E)
+
+__TEXTPROCESSD6F:
+#incbin ".TextEntries\TextBuildfileBronzeLanceName.fetxt.dmp"
+setText($D6F, __TEXTPROCESSD6F)
+
+__TEXTPROCESSD70:
+#incbin ".TextEntries\TextBuildfileBronzeAxeName.fetxt.dmp"
+setText($D70, __TEXTPROCESSD70)
+
+__TEXTPROCESSD71:
+#incbin ".TextEntries\TextBuildfileBronzeBowName.fetxt.dmp"
+setText($D71, __TEXTPROCESSD71)
+
+__TEXTPROCESSD72:
+#incbin ".TextEntries\TextBuildfileBronzeWeaponDesc.fetxt.dmp"
+setText($D72, __TEXTPROCESSD72)
+
+__TEXTPROCESSD73:
+#incbin ".TextEntries\TextBuildfileChapter_01Name.fetxt.dmp"
+setText($D73, __TEXTPROCESSD73)
 
 }
 

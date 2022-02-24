@@ -44,7 +44,7 @@ from Tools.TextProcess import textprocessclassic as tpc
 
 pt.compileportraits(portraits, portraitformatter, startindex = 0xAD, parsedefsdir = parsedefs)
 pt.compileclasscards(classcards, png2dmp, startindex = 0x150)
-mst.compilemapsprites(mapsprites, png2dmp, startindex = 0x6A)
+mst.compilemapsprites(mapsprites, png2dmp, startindex = 0x6B)
 it.compileicons(icons, png2dmp, startindex = 0xCA)
 at.compileanimations(anims, startindex = 0xCA)
 plt.compilepalettes(palettes, startindex = 0x1)

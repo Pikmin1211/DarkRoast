@@ -49,7 +49,7 @@ Tutorial:
 
 Units1:
 Units1Hard:
-	UNIT Olmos Lord 0 Level(1, Ally, 0) [1,2] 0 0 0 0 [IronSword, Vulnerary, Herb] [0, 0, 0, 0]
+	UNIT Olmos Lord 0 Level(1, Ally, 0) [1,2] 0 0 0 0 [IronSword, BronzeSword, Vulnerary, Herb] [0, 0, 0, 0]
 	UNIT
 
 EnemyUnits:

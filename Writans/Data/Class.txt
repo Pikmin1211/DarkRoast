@@ -1,0 +1,27 @@
+## NomadTrooperName
+Nmd. Trooper[X]
+
+## NomadTrooperDesc
+An honorific bestowed upon nomads[N]
+of great skill. Equip: Swords, bows.[X]
+
+## DeserterName
+Deserter[X]
+
+## DeserterDesc
+Vagabonds who seek to[N]
+sow discord. Equip: Lances.[X]
+
+## BowArmorName
+Bow Armor[X]
+
+## BowArmorDesc
+Heavily armored knights with poor[N]
+movement. Equip: Bows.[X]
+
+## HunterName
+Hunter[X]
+
+## HunterDesc
+Fighters who launch arrows[N] 
+with great force. Equip: Bows.[X]

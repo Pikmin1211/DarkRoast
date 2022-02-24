@@ -1,0 +1,114 @@
+// Character/Class Attributes
+
+#define MountedAid (1 << 0)
+#define CanCanto (1 << 1)
+#define CanSteal (1 << 2)
+#define CanLockpick (1 << 3)
+#define CanDance (1 << 4)
+#define CanPlay (1 << 5)
+#define CritBonus (1 << 6)
+#define UnlockBallista (1 << 7)
+#define IsPromoted (1 << 8)
+#define IsSupply (1 << 9)
+#define HorseIcon (1 << 10)
+#define DragonIcon (1 << 11)
+#define PegasusIcon (1 << 12)
+#define IsLord (1 << 13)
+#define IsFemale (1 << 14)
+#define IsBoss (1 << 15)
+#define Unlock1 (1 << 16)
+#define Unlock2 (1 << 17)
+#define Unlock3 (1 << 18)
+#define MaxLevel10 (1 << 19)
+#define Unselectable (1 << 20)
+#define TriangleAttack (1 << 21)
+#define ArmorTriangle (1 << 22)
+#define DecrementID (1 << 23)
+#define NoExp (1 << 24)
+#define CanLethality (1 << 25)
+#define IsMagicSeal (1 << 26)
+#define CanSummon (1 << 27)
+#define Unlock4 (1 << 28)
+#define Unlock5 (1 << 29)
+#define Unlock6 (1 << 30)
+#define Unlock7 (1 << 31)
+
+#define MyrmidonUnlock Unlock2
+#define MonsterUnlock Unlock3
+#define LordUnlock Unlock4
+
+// Item Attributes
+
+#define IsWeapon (1 << 0)
+#define IsMagic (1 << 1)
+#define IsStaff (1 << 2)
+#define Unbreakable (1 << 3)
+#define Unsellable (1 << 4)
+#define IsBrave (1 << 5)
+#define IsMagicSword (1 << 6)
+#define Uncounterable (1 << 7)
+#define IsReaver (1 << 8)
+#define Unrepairable (1 << 9)
+#define Lock3 (1 << 10)
+#define Lock1 (1 << 11)
+#define Lock2 (1 << 12)
+#define IsPrf (1 << 13)
+#define IsFiliShield (1 << 14)
+#define IsIronRune (1 << 15)
+#define Unusable (1 << 16)
+#define IsLuna (1 << 17)
+#define Lock4 (1 << 18)
+#define Lock5 (1 << 19)
+#define Lock6 (1 << 20)
+#define Lock7 (1 << 21)
+
+#define MyrmidonLock Lock1
+#define MonsterLock Lock3
+#define LordLock Lock4
+
+// Movement Costs
+
+#define pDefaultMoveCost 0x880B849
+#define pRiverCrossMoveCost 0x880B808
+#define pCavalryMoveCost 0x880BA92
+#define pPromotedCavalryMoveCost 0x880BAD3
+#define pArmorMoveCost 0x880B88A
+#define pThiefMoveCost 0x880B9CF
+#define pNomadMoveCost 0x880BB55
+#define pFlierMoveCost 0x880BB96
+#define pMageMoveCost 0x880BA10
+#define pFighterMoveCost 0x880B8CB
+#define pBrigandMoveCost 0x880B94D
+#define pPirateMoveCost 0x880B98E
+#define pBerserkerMoveCost 0x880B90C
+#define pCivilianMoveCost 0x880BA51
+
+// Terrain Stats
+
+#define pGetTerrainAvo 0x880C479
+#define pGetTerrainDef 0x880C4BA
+#define pGetTerrainRes 0x880C4FB
+#define pNoTerrainAvo 0x880C53C
+#define pNoTerrainDef 0x880C57D
+#define pNoTerrainRes 0x880C5BE
+
+// Item Types
+
+#define wtSword 0x0
+#define wtLance 0x1
+#define wtAxe 0x2
+#define wtBow 0x3
+#define wtStaff 0x4
+#define wtAnima 0x5
+#define wtLight 0x6
+#define wtDark 0x7
+#define wtItem 0x9
+
+// Weapon Ranks
+
+#define ERank 1
+#define DRank 31
+#define CRank 71
+#define BRank 121
+#define ARank 181
+#define SRank 251
