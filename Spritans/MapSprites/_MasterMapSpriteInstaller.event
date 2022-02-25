@@ -162,6 +162,11 @@ Nomad_FStandData:
 #incbin "Nomad_F\Stand.dmp"
 StandMapSpriteEntry(Nomad_FStandMapSprite, 0x2, 1, Nomad_FStandData)
 
+ALIGN 4
+SoldierMoveData:
+#incbin "Soldier\Move.dmp"
+MoveMapSpriteEntry(Soldier, 0x1CAA20, SoldierMoveData)
+
 #define SoldierStandMapSprite 0x79
 ALIGN 4
 SoldierStandData:

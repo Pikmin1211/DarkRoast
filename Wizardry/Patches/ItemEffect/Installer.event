@@ -1,0 +1,5 @@
+#define ItemUsabilityTable 0x288B0
+#define ItemTargetingTable 0x2FC94
+#define ItemEffectTable 0x2FC94
+
+// ItemEffect_Call 0x28E60
