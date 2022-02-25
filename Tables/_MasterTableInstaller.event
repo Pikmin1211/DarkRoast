@@ -2,3 +2,4 @@
 #include "CharacterClass\CharacterTable.event"
 #include "CharacterClass\ClassTable.event"
 #include "Item\ItemTable.event"
+#include "Item\MagicAnimationTable.event"

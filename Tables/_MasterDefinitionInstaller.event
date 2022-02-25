@@ -2,3 +2,4 @@
 #include "CharacterClass\CharacterTableDefinitions.event"
 #include "CharacterClass\ClassTableDefinitions.event"
 #include "Item\ItemTableDefinitions.event"
+#include "Item\MagicAnimationTableDefinitions.event"
