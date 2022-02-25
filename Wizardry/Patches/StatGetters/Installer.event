@@ -1,0 +1,24 @@
+#include "Extensions/Hack Installation.txt"
+
+PUSH
+	// Replaces part of old spd getter
+	ORG 0x19224
+	prGotoMovGetter:
+		jumpToHack(GetUnitMovement)
+	
+	// Replaces part of old res getter
+	ORG 0x19284
+	prGotoConGetter:
+		jumpToHack(GetUnitConstitution)
+POP
+
+ALIGN 4
+ORG CurrentOffset+1
+GetUnitMovementForStatScreen:
+ORG CurrentOffset-1
+#incbin "GetUnitMovementForStatScreen.dmp"
+POIN GetUnitMovement
+
+#include "InjectConGetters.event"
+#include "InjectHPGetters.event"
+#include "InjectMovGetters.event"

@@ -198,7 +198,8 @@ struct Unit {
 
 	/* 3C */ struct SMSHandle* pMapSpriteHandle;
 
-	/* 40 */ u16 ai3And4;
+	/* 40 */ u8 ai3;
+	/* 41 */ u8 ai4;
 	/* 42 */ u8 ai1;
 	/* 43 */ u8 ai1data;
 	/* 44 */ u8 ai2;
@@ -476,7 +477,7 @@ void LoadUnitPrepScreenPositions(void); //! FE8U = 0x8018E31
 int IsUnitSlotAvailable(int faction); //! FE8U = 0x8018F49
 void ClearCutsceneUnits(void); //! FE8U = 0x80190B5
 
-int GetUnitCurrentHp(const struct Unit*); //! FE8U = 0x8019151
+int GetUnitCurrentHp(struct Unit*); //! FE8U = 0x8019151
 int GetUnitMaxHp(const struct Unit*); //! FE8U = 0x8019191
 int GetUnitPower(const struct Unit*); //! FE8U = 0x80191B1
 int GetUnitSkill(const struct Unit*); //! FE8U = 0x80191D1

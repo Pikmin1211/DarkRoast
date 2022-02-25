@@ -28,3 +28,9 @@ ORG ItemIconSheet + (HerbIcon * 128)
 #incbin "Item\Herb.dmp"
 POP
 
+#define TealGemIcon 0xcf
+PUSH
+ORG ItemIconSheet + (TealGemIcon * 128)
+#incbin "Item\TealGem.dmp"
+POP
+

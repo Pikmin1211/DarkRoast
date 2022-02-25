@@ -182,8 +182,16 @@ __TEXTPROCESSD76:
 setText($D76, __TEXTPROCESSD76)
 
 __TEXTPROCESSD77:
-#incbin ".TextEntries\TextBuildfileChapter_01Name.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileTealGemName.fetxt.dmp"
 setText($D77, __TEXTPROCESSD77)
+
+__TEXTPROCESSD78:
+#incbin ".TextEntries\TextBuildfileTealGemDesc.fetxt.dmp"
+setText($D78, __TEXTPROCESSD78)
+
+__TEXTPROCESSD79:
+#incbin ".TextEntries\TextBuildfileChapter_01Name.fetxt.dmp"
+setText($D79, __TEXTPROCESSD79)
 
 }
 

@@ -1,0 +1,31 @@
+PUSH
+
+//No Link Arena
+ORG $AB90E
+BYTE 0x0 0x0 0x0 0x20
+
+//Make the gold items not drop gold
+ORG $115AA
+BYTE 0
+ORG $115AE
+BYTE 0
+ORG $115B2
+BYTE 0
+ORG $115B6
+BYTE 0
+
+//Fix Map Sprites past 0x80
+ORG 0x268E4
+SHORT 0x2000
+ORG 0x26A52
+SHORT 0x2000
+ORG 0x26B42
+SHORT 0x2000
+
+// Supply in Prologue
+ORG $23f6e //Access Supply
+SHORT $46C0
+ORG $31646 //send to supply
+SHORT $46C0
+
+POP

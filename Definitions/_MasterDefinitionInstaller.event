@@ -1,4 +1,5 @@
 #define EndSpace 0xefb2e0
+#define FreeSpaceBLRange 0x1c1ec0
 
 #define IsPointer 0x8000000
 

@@ -47,6 +47,8 @@
 #define BronzeWeaponDesc $D74
 #define EspadaAnchaName $D75
 #define EspadaAnchaDesc $D76
-#define Chapter_01Name $D77
+#define TealGemName $D77
+#define TealGemDesc $D78
+#define Chapter_01Name $D79
 
 #endif // TEXT_DEFINITIONS

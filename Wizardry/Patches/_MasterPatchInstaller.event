@@ -1,0 +1,17 @@
+#include "Fixes.event"
+
+#include "BattleStatsWithAnimsOff/FE8-BattleStats.event"
+#include "DangerZone/DangerZone.event"
+#include "ExpandedClassTable/Class Expansion.event"
+#include "FillAIDangerMap/FillAIDangerMap.event"
+#include "HpBars/HpBars.event"
+#include "TextChNames/TextChNames.event"
+#include "StatGetters/Installer.event"
+
+PUSH
+ORG FreeSpaceBLRange
+#define inBLRange
+#include "ContemporaryTalkSupport/ContemporaryTalkSupport.event"
+#include "LToggle/LToggle.event"
+#undef inBLRange
+POP
