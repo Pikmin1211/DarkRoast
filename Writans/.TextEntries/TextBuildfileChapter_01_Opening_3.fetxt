@@ -1,0 +1,28 @@
+[ConversationText]
+[Right][LoadSosimo][FarRight][LoadBastio][Left][LoadOlmos]
+Huff... puff...
+[OpenRight]
+Oy! Lord Olmos!
+[OpenLeft]
+Sosimo. Bastio. What's the situation?
+[OpenFarRight]
+It's bad, Chief.
+[OpenRight]
+Bastio, it's "Lord".
+[OpenFarRight]
+Right. It's bad, Lord.
+[OpenRight]
+... Lord Olmos, there's about a dozen pirates about. Their leader has taken over the inn.
+[OpenFarLeft][LoadFlor]
+Then we should prepare to take it back.
+[OpenLeft]
+Agreed. Let's charge in and strike as one. With me!
+[OpenFarLeft]
+Hold it, Lord Olmos. There may only be a dozen pirates, but you only have one life. Don't squander it here. Take a look around you. There are pirates everywhere. Most of the villagers boarded up their homes, but some haven't. We should split up to protect the villages.
+[OpenLeft]
+Perhaps... but if we strike quickly and decisively, we may end this before they even get near the homes.
+[OpenFarLeft]
+Hmph, there are merits to both strategies. Just remember your duties as a Lord. We await your command.
+[OpenLeft]
+Right... Flor, please tell everyone to get into positions. Follow me!
+[X]

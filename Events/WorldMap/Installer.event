@@ -1,0 +1,25 @@
+//World Map Events Installer
+// #define WorldMapIntroPointerTable(id,offset) "PUSH; ORG 0x8B3ad8+(4*id); POIN offset; POP"
+
+#define WorldMapPointerTable(id,offset) "PUSH; ORG 0x8B39F0+(4*id); POIN offset; POP"
+#define WorldMapIntroPointerTable(id,offset) "PUSH; ORG 0x8B3ADC+(4*id); POIN offset; POP"
+
+//Skip very begining world map
+PUSH
+ORG $A39768
+EVBIT_MODIFY 0x1
+SKIPWN
+ENDA
+POP
+
+{
+  #define PrologueWMEventsID 0x1
+  ALIGN 4
+  #include "WM_Prologue.event"
+}
+{
+  ALIGN 4
+  #include "WM2_Prologue.event"
+}
+ALIGN 4
+// #include "EpilogueEvents.event"

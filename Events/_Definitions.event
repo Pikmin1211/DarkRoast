@@ -7,6 +7,7 @@
 #define PrepScreen 0x591FD8
 #define StopSkipping 0x591F40
 #define TextWithBackground 0x9EE310
+#define SetBackground 0x9EE2E8
 #define ClearBackground 0x9EE2C4
 
 // EVBIT
@@ -24,12 +25,17 @@
 // Common Events
 #define Text(textID) "TEXTSTART; TEXTSHOW textID; TEXTEND; REMA"
 #define Text(textID, background) "SVAL 0x2 background; SVAL 0x3 textID; CALL TextWithBackground; CALL StopSkipping"
+#define Background(background) "SVAL 2 background; CALL SetBackground"
 #define GiveItem(itemID) "SVAL 0x3 itemID; GIVEITEMTO 0xFFFF"
 #define GiveItem(itemID, unitID) "SVAL 0x3 itemID; GIVEITEMTO unitID"
 #define LoadUnits(units) "CamOn; LOAD1 0x1 units; ENUN; CamOff"
+#define MuteMusic "MUSC 0x7FFF"
+#define FlashCursor(X,Y,time) "CUMO [X,Y]; STAL time; CURE"
+#define FlashCursor(character,time) "CUMO character; STAL time; CURE"
 
 // Location Based Events
 #define Village(eventID, offset, villX, villY) "VILL eventID offset [villX,villY] 0x10; LOCA eventID [villX,villY-1] 0x20"
+#define Seize(seizeX,seizeY) "LOCA 3 [seizeX,seizeY] 0xF"
 
 // Misc Based Events
 #define CauseGameOverIfLordDies "AFEV 0 0x592104 0x65"
@@ -105,3 +111,76 @@
 #define Temple_Gate 0x33
 #define Temple_Ruins_Inside 0x34
 #define Black 0x35
+
+// Music
+#define Nothing 0x00
+#define The_Valiant 0x01
+#define Main_Theme 0x02
+#define PrologueMusic 0x03
+#define The_Beginning 0x04
+#define Treasured_Memories 0x05
+#define Grim_Journey 0x06
+#define Ties_of_Friendship 0x07
+#define Ray_of_Hope 0x08
+#define Distant_Roads 0x09
+#define Rise_Above 0x0A
+#define Follow_Me 0x0B
+#define Determination 0x0C
+#define Truth_Despair_and_Hope 0x0D
+#define Land_of_Promise 0x0E
+#define Binding_Vow 0x0F
+#define Grasping_at_Victory 0x10
+#define Shadows_Approach 0x11
+#define Confront_the_Past 0x12
+#define Shadow_of_the_Enemy 0x13
+#define Assault 0x14
+#define From_the_Darkness 0x15
+#define Twisted_ShadowsA 0x16
+#define Twisted_ShadowsB 0x17
+#define Envoy_from_the_Dark 0x18
+#define Attack 0x19
+#define Defense 0x1A
+#define The_Battle_to_be_Won 0x1B
+#define Powerful_Foe 0x1C
+#define The_Princes_Despair 0x1D
+#define Return_of_the_DemonKing 0x1E
+#define Sacred_Strength 0x1F
+#define TethysTheme 0x20
+#define Healing 0x21
+#define Curing 0x22
+#define To_a_Higher_Place 0x23
+#define Advance 0x24
+#define Tension 0x25
+#define Raid 0x26
+#define Reunion 0x27
+#define Indignation 0x28
+#define Sorrow 0x29
+#define Laughter 0x2A
+#define Legacy 0x2B
+#define LyonTheme 0x2C
+#define Lost_Heart 0x2D
+#define Solve_the_Riddle 0x2E
+#define Lights_in_the_Dark 0x2F
+#define Comrades 0x30
+#define Victory 0x31
+#define Into_the_Shadow_of_Victory 0x32
+#define Main_Theme_Reprise 0x33
+#define Combat_Preparation 0x34
+#define Shops 0x35
+#define Armories 0x36
+#define Bonds 0x37
+#define Colosseum_Entrance 0x38
+#define In_the_Colosseum 0x39
+#define Colosseum_Victory 0x3A
+#define Colosseum_Defeat 0x3B
+#define Victory_SongA 0x3C
+#define Victory_SongB 0x3D
+#define Game_Over 0x3E
+#define In_Sorrows_Shroud 0x3F
+#define Records 0x40
+#define Victory_and_the_Future 0x41
+#define Fly_with_the_Breeze 0x42
+#define Fire_Emblem_Theme_nointro 0x43
+#define Lyon_OrganArrangement 0x44
+#define The_Final_Battle 0x45
+#define Epilogue 0x46

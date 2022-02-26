@@ -1,2 +1,123 @@
-## Chapter_01Name
+## Chapter_01_Name 
 Brewing Conflict[X]
+
+## Chapter_01_Objective 
+Seize the inn.[X]
+
+## Chapter_01_Goal_Window 
+Seize[X]
+
+## Chapter_01_Opening_1 
+[ConversationText]
+[OpenLeft][LoadOlmos][OpenRight][LoadFlor]
+Lord Olmos, we've almost arrived at Port Olivera. How are you holding up?
+[OpenLeft]
+Flor, for the fourth time today, I am fine. I know I don't get out of the castle much, but I am more robust than anyone gives me credit for.
+[OpenRight]
+Sassy as always. Good.
+[OpenLeft]
+I prefer strong-willed. Saying I am "correct" works, too.
+[OpenRight]
+This is your first journey in some time, Lord Olmos. As your retainer and protector charged by your father, I'm going to keep asking. Or else it's my head.
+[OpenLeft]
+Father trusted me with this task. I still think it's ridiculous how many mercenaries he hired for it. We're just riding a few days to scout the port before he departs. He's chartered a boat and is having council in the north with the other Lords of the island. This is standard fare.
+[OpenRight]
+Well, if anything goes wrong. You'll certainly be thankful. You're still young, Lord Olmos. Don't assume you're always correct. Have an open mind and keep that ego in check. Yes, you're a Lord of House Poblano, but you're still made of earthly flesh. When you're inevitably wrong about something, it'll sting less.
+[OpenLeft]
+Hmph. We'll see, Flor. Are the others coming back soon? They've been gone for quite a while. I don't understand why you sent all of our foot soldiers ahead. I would've sent you first. You have a horse. You'd be faster.
+[OpenRight]
+While your observations about speed are astute, milord, protecting you is my primary objective. Like you said, this is a simple task. Let Guadalupe and the boys handle the scouting today. In fact, I see them approaching now. Look to the south.
+[OpenLeft]
+Oh, I can see them now. Huh? It's just Guadalupe and Zapatera...
+[OpenRight]
+... Trouble.
+[X]
+
+## Chapter_01_Opening_2 
+[ConversationText]
+[FarRight][LoadFlor][Left][LoadGuadalupe][FarLeft][LoadZapatera][Right][LoadOlmos]
+Guadalupe! What's happening?
+[OpenLeft]
+Lord Olmos, Lady Flor. There's a disturbance at the port.
+[OpenFarLeft]
+It's pirates, milord!
+[OpenLeft]
+We left the others to scout and assess their strength. We rushed back as quickly as we could. Your orders?
+[OpenRight]
+Father asked us to ensure Port Olivera was safe. We can't allow pirates to delay his journey to the council. We must rout the pirates. Quickly, let's ride.
+[ClearSpeech][MoveFarFarLeft][ClearFace]
+[OpenFarRight]
+Lord Olmos! Gah, the lad has a deathwish.
+[OpenLeft]
+Lady Flor?
+[OpenFarRight]
+Let's make sure he doesn't get himself killed. Guadalupe, Zapatera, with me.
+[X]
+
+## Chapter_01_Opening_3 
+[ConversationText]
+[Right][LoadSosimo][FarRight][LoadBastio][Left][LoadOlmos]
+Huff... puff...
+[OpenRight]
+Oy! Lord Olmos!
+[OpenLeft]
+Sosimo. Bastio. What's the situation?
+[OpenFarRight]
+It's bad, Chief.
+[OpenRight]
+Bastio, it's "Lord".
+[OpenFarRight]
+Right. It's bad, Lord.
+[OpenRight]
+... Lord Olmos, there's about a dozen pirates about. Their leader has taken over the inn.
+[OpenFarLeft][LoadFlor]
+Then we should prepare to take it back.
+[OpenLeft]
+Agreed. Let's charge in and strike as one. With me!
+[OpenFarLeft]
+Hold it, Lord Olmos. There may only be a dozen pirates, but you only have one life. Don't squander it here. Take a look around you. There are pirates everywhere. Most of the villagers boarded up their homes, but some haven't. We should split up to protect the villages.
+[OpenLeft]
+Perhaps... but if we strike quickly and decisively, we may end this before they even get near the homes.
+[OpenFarLeft]
+Hmph, there are merits to both strategies. Just remember your duties as a Lord. We await your command.
+[OpenLeft]
+Right... Flor, please tell everyone to get into positions. Follow me!
+[X]
+
+## Chapter_01_Opening_4 
+[ConversationText]
+[OpenMidRight][LoadHacha]
+So, the younger son of Lord Toronja is here? Listen up, lads. Take out the noble pup! Capture him alive!
+[X]
+
+## Chapter_01_Opening_5 
+[ConversationText]
+[OpenLeft][LoadOlmos][OpenFarLeft][LoadFlor]
+Their commander is standing by the inn. If we can seize it, the rest should disperse.
+[OpenLeft]
+... Right. Let's make our way for the inn.
+[X]
+
+## Chapter_01_Allies_Appear
+[ConversationText]
+[MidRight][LoadArbolito][MidLeft][LoadNaranja]
+Arbolito, look! It's Lord Olmos. This is our chance. If we do a good job against these goons, maybe we'll get steady work. Maybe even become soldiers. My mom would be proud...
+[OpenMidRight]
+Naranja, don't just jump in. Fighting recklessly will only get us killed.
+[OpenMidLeft]
+You're reading too many books about tactics. You're always talking about becoming a knight, aren't you? Time to put your studies to the test. Let's go!
+[OpenMidRight]
+Right. Stay near me.
+[X]
+
+## Chapter_01_Top_Left_House
+[ConversationText]
+[MidRight][LoadCurrent][MidLeft][LoadOldMan]
+You're here with Lord Olmos? Thank Qahwah... We've gathered some funds. Please use it as you see fit.
+[X]
+
+## Chapter_01_Bottom_Right_House
+[ConversationText]
+[MidRight][LoadCurrent][MidLeft][LoadLittleGirl]
+So, I'm sitting here, trying to have a cup of coffee, right? You know, Qahweh's blessing and all that. Then, my dad rushes in and scares me half to death! Tells me there are bandits out. But he didn't know I was holding my cup. I spilled it everywhere! I was so mad. Heck, I'm still mad. Now I have to make a new cup for myself. Of course, my dad now wants one, too. Could you believe it? A load of hooey. Anyway, take this. Get rid of those bandits.
+[X]

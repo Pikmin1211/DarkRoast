@@ -7,6 +7,7 @@
 #include "HpBars/HpBars.event"
 #include "TextChNames/TextChNames.event"
 #include "StatGetters/Installer.event"
+#include "AutoNewline/Installer.event"
 
 PUSH
 ORG FreeSpaceBLRange

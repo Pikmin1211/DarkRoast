@@ -112,3 +112,10 @@
 #define BRank 121
 #define ARank 181
 #define SRank 251
+
+// Chapter Ojective Types
+#define ObjectiveSeize 0
+#define ObjectiveRout 1
+#define ObjectiveDefend 2
+#define ObjectiveDefeatBoss 3
+#define ObjectiveOther 4

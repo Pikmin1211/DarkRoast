@@ -190,8 +190,48 @@ __TEXTPROCESSD78:
 setText($D78, __TEXTPROCESSD78)
 
 __TEXTPROCESSD79:
-#incbin ".TextEntries\TextBuildfileChapter_01Name.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileChapter_01_Name.fetxt.dmp"
 setText($D79, __TEXTPROCESSD79)
+
+__TEXTPROCESSD7A:
+#incbin ".TextEntries\TextBuildfileChapter_01_Objective.fetxt.dmp"
+setText($D7A, __TEXTPROCESSD7A)
+
+__TEXTPROCESSD7B:
+#incbin ".TextEntries\TextBuildfileChapter_01_Goal_Window.fetxt.dmp"
+setText($D7B, __TEXTPROCESSD7B)
+
+__TEXTPROCESSD7C:
+#incbin ".TextEntries\TextBuildfileChapter_01_Opening_1.fetxt.dmp"
+setText($D7C, __TEXTPROCESSD7C)
+
+__TEXTPROCESSD7D:
+#incbin ".TextEntries\TextBuildfileChapter_01_Opening_2.fetxt.dmp"
+setText($D7D, __TEXTPROCESSD7D)
+
+__TEXTPROCESSD7E:
+#incbin ".TextEntries\TextBuildfileChapter_01_Opening_3.fetxt.dmp"
+setText($D7E, __TEXTPROCESSD7E)
+
+__TEXTPROCESSD7F:
+#incbin ".TextEntries\TextBuildfileChapter_01_Opening_4.fetxt.dmp"
+setText($D7F, __TEXTPROCESSD7F)
+
+__TEXTPROCESSD80:
+#incbin ".TextEntries\TextBuildfileChapter_01_Opening_5.fetxt.dmp"
+setText($D80, __TEXTPROCESSD80)
+
+__TEXTPROCESSD81:
+#incbin ".TextEntries\TextBuildfileChapter_01_Allies_Appear.fetxt.dmp"
+setText($D81, __TEXTPROCESSD81)
+
+__TEXTPROCESSD82:
+#incbin ".TextEntries\TextBuildfileChapter_01_Top_Left_House.fetxt.dmp"
+setText($D82, __TEXTPROCESSD82)
+
+__TEXTPROCESSD83:
+#incbin ".TextEntries\TextBuildfileChapter_01_Bottom_Right_House.fetxt.dmp"
+setText($D83, __TEXTPROCESSD83)
 
 }
 

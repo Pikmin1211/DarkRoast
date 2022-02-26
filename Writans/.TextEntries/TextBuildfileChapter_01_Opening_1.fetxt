@@ -1,0 +1,24 @@
+[ConversationText]
+[OpenLeft][LoadOlmos][OpenRight][LoadFlor]
+Lord Olmos, we've almost arrived at Port Olivera. How are you holding up?
+[OpenLeft]
+Flor, for the fourth time today, I am fine. I know I don't get out of the castle much, but I am more robust than anyone gives me credit for.
+[OpenRight]
+Sassy as always. Good.
+[OpenLeft]
+I prefer strong-willed. Saying I am "correct" works, too.
+[OpenRight]
+This is your first journey in some time, Lord Olmos. As your retainer and protector charged by your father, I'm going to keep asking. Or else it's my head.
+[OpenLeft]
+Father trusted me with this task. I still think it's ridiculous how many mercenaries he hired for it. We're just riding a few days to scout the port before he departs. He's chartered a boat and is having council in the north with the other Lords of the island. This is standard fare.
+[OpenRight]
+Well, if anything goes wrong. You'll certainly be thankful. You're still young, Lord Olmos. Don't assume you're always correct. Have an open mind and keep that ego in check. Yes, you're a Lord of House Poblano, but you're still made of earthly flesh. When you're inevitably wrong about something, it'll sting less.
+[OpenLeft]
+Hmph. We'll see, Flor. Are the others coming back soon? They've been gone for quite a while. I don't understand why you sent all of our foot soldiers ahead. I would've sent you first. You have a horse. You'd be faster.
+[OpenRight]
+While your observations about speed are astute, milord, protecting you is my primary objective. Like you said, this is a simple task. Let Guadalupe and the boys handle the scouting today. In fact, I see them approaching now. Look to the south.
+[OpenLeft]
+Oh, I can see them now. Huh? It's just Guadalupe and Zapatera...
+[OpenRight]
+... Trouble.
+[X]

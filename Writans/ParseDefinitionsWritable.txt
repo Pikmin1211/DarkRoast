@@ -1,3 +1,6 @@
+[ConversationText] = [0x90]
+[BattleText] = [0x91]
+
 [N] = [NL]
 [AN] = [A][N]
 [Red] = [ToggleRed]
@@ -15,8 +18,11 @@
 [FarFarRight] = [OpenFarFarRight]
 
 [Clear] = [ClearFace]
-[CloseSpeech] = [CloseSpeechSlow]
+[ClearSpeech] = [CloseSpeechSlow]
 [Die] = [A][CloseEyes][.....]
 
 [CurrentPortrait] = [0xFF][0xFF]
 [LoadCurrent] = [LoadFace][CurrentPortrait]
+
+[LoadOldMan] = [LoadFace][0x59][0x1]
+[LoadLittleGirl] = [LoadFace][0x63][0x1]

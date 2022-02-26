@@ -24,20 +24,24 @@ void ActionStaffDoorChestUseItem(Proc* this){
         case Vulnerary:
         case Elixir:
         case Herb:
-        ExecSomeSelfHeal(subject, GetItemMight(item));
+            ExecSomeSelfHeal(subject, GetItemMight(item));
+            break;
 
         case DoorKey:
         case ChestKey:
         case Lockpick:
-        ExecKeyOrLockpick();
+            ExecKeyOrLockpick();
+            break;
 
         case Heal:
         case Mend:
         case Recover:
         case Physic:
-        ExecStandardHeal(this);
+            ExecStandardHeal(this);
+            break;
 
         case Restore:
-        ExecRestore(this);
+            ExecRestore(this);
+            break;
     }
 }

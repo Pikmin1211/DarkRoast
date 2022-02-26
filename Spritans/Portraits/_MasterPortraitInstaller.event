@@ -7,13 +7,13 @@
 ALIGN 4
 ArbolitoMugData:
 #incbin "dmp\Arbolito.dmp"
-setMugEntry(ArbolitoMug, ArbolitoMugData, 2, 6, 3, 4)
+setMugEntry(ArbolitoMug, ArbolitoMugData, 2, 5, 2, 3)
 
 #define BastioMug 0xae
 ALIGN 4
 BastioMugData:
 #incbin "dmp\Bastio.dmp"
-setMugEntry(BastioMug, BastioMugData, 2, 6, 3, 4)
+setMugEntry(BastioMug, BastioMugData, 2, 5, 3, 3)
 
 #define FlorMug 0xaf
 ALIGN 4
@@ -25,29 +25,35 @@ setMugEntry(FlorMug, FlorMugData, 2, 6, 3, 4)
 ALIGN 4
 GuadalupeMugData:
 #incbin "dmp\Guadalupe.dmp"
-setMugEntry(GuadalupeMug, GuadalupeMugData, 2, 6, 3, 4)
+setMugEntry(GuadalupeMug, GuadalupeMugData, 2, 4, 3, 2)
 
-#define NaranjaMug 0xb1
+#define HachaMug 0xb1
+ALIGN 4
+HachaMugData:
+#incbin "dmp\Hacha.dmp"
+setMugEntry(HachaMug, HachaMugData, 2, 5, 3, 3)
+
+#define NaranjaMug 0xb2
 ALIGN 4
 NaranjaMugData:
 #incbin "dmp\Naranja.dmp"
-setMugEntry(NaranjaMug, NaranjaMugData, 2, 6, 3, 4)
+setMugEntry(NaranjaMug, NaranjaMugData, 2, 5, 3, 3)
 
-#define OlmosMug 0xb2
+#define OlmosMug 0xb3
 ALIGN 4
 OlmosMugData:
 #incbin "dmp\Olmos.dmp"
 setMugEntry(OlmosMug, OlmosMugData, 2, 6, 3, 4)
 
-#define SosimoMug 0xb3
+#define SosimoMug 0xb4
 ALIGN 4
 SosimoMugData:
 #incbin "dmp\Sosimo.dmp"
-setMugEntry(SosimoMug, SosimoMugData, 2, 6, 3, 4)
+setMugEntry(SosimoMug, SosimoMugData, 2, 5, 3, 3)
 
-#define ZapateraMug 0xb4
+#define ZapateraMug 0xb5
 ALIGN 4
 ZapateraMugData:
 #incbin "dmp\Zapatera.dmp"
-setMugEntry(ZapateraMug, ZapateraMugData, 2, 6, 3, 4)
+setMugEntry(ZapateraMug, ZapateraMugData, 2, 5, 3, 3)
 

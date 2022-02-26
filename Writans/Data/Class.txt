@@ -23,5 +23,5 @@ movement. Equip: Bows.[X]
 Hunter[X]
 
 ## HunterDesc
-Fighters who launch arrows[N] 
+Fighters who launch arrows[N]
 with great force. Equip: Bows.[X]

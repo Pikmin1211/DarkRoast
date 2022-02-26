@@ -6,10 +6,14 @@
 [LoadBastio] = [LoadFace][0xae][0x1]
 [LoadFlor] = [LoadFace][0xaf][0x1]
 [LoadGuadalupe] = [LoadFace][0xb0][0x1]
-[LoadNaranja] = [LoadFace][0xb1][0x1]
-[LoadOlmos] = [LoadFace][0xb2][0x1]
-[LoadSosimo] = [LoadFace][0xb3][0x1]
-[LoadZapatera] = [LoadFace][0xb4][0x1]
+[LoadHacha] = [LoadFace][0xb1][0x1]
+[LoadNaranja] = [LoadFace][0xb2][0x1]
+[LoadOlmos] = [LoadFace][0xb3][0x1]
+[LoadSosimo] = [LoadFace][0xb4][0x1]
+[LoadZapatera] = [LoadFace][0xb5][0x1]
+
+[ConversationText] = [0x90]
+[BattleText] = [0x91]
 
 [N] = [NL]
 [AN] = [A][N]
@@ -28,8 +32,11 @@
 [FarFarRight] = [OpenFarFarRight]
 
 [Clear] = [ClearFace]
-[CloseSpeech] = [CloseSpeechSlow]
+[ClearSpeech] = [CloseSpeechSlow]
 [Die] = [A][CloseEyes][.....]
 
 [CurrentPortrait] = [0xFF][0xFF]
 [LoadCurrent] = [LoadFace][CurrentPortrait]
+
+[LoadOldMan] = [LoadFace][0x59][0x1]
+[LoadLittleGirl] = [LoadFace][0x63][0x1]
