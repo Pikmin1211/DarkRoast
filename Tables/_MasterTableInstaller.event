@@ -3,3 +3,4 @@
 #include "CharacterClass\ClassTable.event"
 #include "Item\ItemTable.event"
 #include "Item\MagicAnimationTable.event"
+#include "Sound\SoundRoomTable.event"

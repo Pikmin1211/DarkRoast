@@ -1,0 +1,6 @@
+#include "MPlayDef.event"
+#define SoundTableEntry(index,SongPointer,Group) "PUSH; ORG SoundTable+(8*index); POIN SongPointer; SHORT Group Group; POP"
+
+#include "Music\TheFragranceOfBlackCoffee.event"
+#define TheFragranceOfBlackCoffee_Song 0x3e9
+SoundTableEntry(TheFragranceOfBlackCoffee_Song, TheFragranceOfBlackCoffee, 1)

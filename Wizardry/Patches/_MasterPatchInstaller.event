@@ -8,6 +8,7 @@
 #include "TextChNames/TextChNames.event"
 #include "StatGetters/Installer.event"
 #include "AutoNewline/Installer.event"
+#include "TitleMusic/Installer.event"
 
 PUSH
 ORG FreeSpaceBLRange

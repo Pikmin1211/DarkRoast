@@ -1,0 +1,32 @@
+#define SoundTable SoundTableLabel
+#define MaxSoundEntries 0x2000
+
+ALIGN 4
+SoundTableLabel:
+  #incbin "SoundTable.dmp"
+  ORG SoundTableLabel + (MaxSoundEntries * 8)
+
+PUSH
+  ORG 0x28BC
+  POIN SoundTable
+  ORG 0x14B80
+  POIN SoundTable
+  ORG 0x458E0
+  POIN SoundTable
+  ORG 0x71B20
+  POIN SoundTable
+  ORG 0x71B64
+  POIN SoundTable
+  ORG 0xB575C
+  POIN SoundTable
+  ORG 0xD0224
+  POIN SoundTable
+  ORG 0xD0258
+  POIN SoundTable
+  ORG 0xD02A4
+  POIN SoundTable
+  ORG 0xD02F8
+  POIN SoundTable
+  ORG 0xD032C
+  POIN SoundTable
+POP

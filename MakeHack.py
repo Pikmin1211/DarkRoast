@@ -15,6 +15,7 @@ maps = cwd + "\\Maps\\tmx"
 writans = cwd + "\\Writans"
 wizardry = cwd + "\\Wizardry"
 chax = wizardry + "\\CHAX"
+sound = cwd + "\\Sound"
 
 # Files
 romclean = cwd + "\\FE8_clean.gba"
@@ -41,6 +42,7 @@ from Tools.GraphicTools import animtools as at
 from Tools.GraphicTools import palettetools as plt
 from Tools.tmx2ea import tmx2ea as tmx
 from Tools.TextProcess import textprocessclassic as tpc
+from Tools.s2ea import s2ea
 
 pt.compileportraits(portraits, portraitformatter, startindex = 0xAD, parsedefsdir = parsedefs)
 pt.compileclasscards(classcards, png2dmp, startindex = 0x150)
@@ -51,6 +53,7 @@ plt.compilepalettes(palettes, startindex = 0x1)
 tpc.textprocess(writans, parsefile, parsedefs)
 tb.c2ea(tables, romclean)
 tmx.runtmx2ea(maps)
+s2ea.s2ea(sound, startindex = 1001)
 bt.make(chax, chaxsrc)
 
 sh.copyfile(romclean, romtarget)

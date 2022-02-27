@@ -3,12 +3,14 @@
 
 ORG EndSpace
 
-#include "Wizardry/_MasterWizardryInstaller.event"
-
 #include "Writans/_TextTable/TextTable.event"
 #include "Writans/_MasterTextInstaller.event"
 
 #include "Spritans/_MasterSpritansInstaller.event"
+
+#include "Sound/_SoundTable/SoundTable.event"
+#include "Sound/_Instrument/Instrument.event"
+#include "Sound/_MasterSoundInstaller.event"
 
 #include "Tables/_MasterTableInstaller.event"
 #include "Tables/_Repoint/MoreRepointers.event"
@@ -16,3 +18,5 @@ ORG EndSpace
 #include "Maps/tmx/_MasterMapInstaller.event"
 
 #include "Events/_MasterEventInstaller.event"
+
+#include "Wizardry/_MasterWizardryInstaller.event"
