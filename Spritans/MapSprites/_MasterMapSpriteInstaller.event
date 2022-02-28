@@ -64,6 +64,11 @@ DeserterStandData:
 StandMapSpriteEntry(DeserterStandMapSprite, 0x2, 0, DeserterStandData)
 
 ALIGN 4
+Deserter_FMoveData:
+#incbin "Deserter_F\Move.dmp"
+MoveMapSpriteEntry(Deserter_F, 0x1CAA20, Deserter_FMoveData)
+
+ALIGN 4
 GuardMoveData:
 #incbin "Guard\Move.dmp"
 MoveMapSpriteEntry(Guard, 0x1CAA20, GuardMoveData)

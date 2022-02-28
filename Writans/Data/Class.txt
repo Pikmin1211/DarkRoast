@@ -95,3 +95,17 @@ Nomad[X]
 ## NomadDesc
 Plainsmen with good[N]
 movement. Equip: Bows.[X]
+
+## GuardName
+Guard[X]
+
+## GuardDesc
+Young fighters with high[N]
+expectations. Equip: Axes.[X]
+
+## HalberdierName
+Halberdier[X]
+
+## HalberdierDesc
+Army standardbearers focused[N]
+on precision. Equip: Lances, axes.[X]
