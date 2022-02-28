@@ -25,3 +25,73 @@ Hunter[X]
 ## HunterDesc
 Fighters who launch arrows[N]
 with great force. Equip: Bows.[X]
+
+## LanceCavalierName
+Lnc. Cavalier[X]
+
+## LanceCavalierDesc
+Mounted knights with swift[N]
+movement. Equip: Lances.[X]
+
+## SwordCavalierName
+Swd. Cavalier[X]
+
+## SwordCavalierDesc
+Mounted knights with swift[N]
+movement. Equip: Swords.[X]
+
+## AxeCavalierName
+Axe Cavalier[X]
+
+## AxeCavalierDesc
+Mounted knights with swift[N]
+movement. Equip: Axes.[X]
+
+## LancePaladinName
+Lnc. Paladin[X]
+
+## LancePaladinDesc
+Mounted knights with superior[N]
+abilities. Equip: Swords, lances.[X]
+
+## SwordPaladinName
+Swd. Paladin[X]
+
+## SwordPaladinDesc
+Mounted knights with superior[N]
+abilities. Equip: Swords, axes.[X]
+
+## AxePaladinName
+Axe Paladin[X]
+
+## AxePaladinDesc
+Mounted knights with superior[N]
+abilities. Equip: Lances, axes.[X]
+
+## LanceArmorName
+Lnc. Armor[X]
+
+## SwordArmorName
+Swd. Armor[X]
+
+## SwordArmorDesc
+Heavily armored knights with poor[N]
+movement. Equip: Swords.[X]
+
+## AxeArmorName
+Axe Armor[X]
+
+## AxeArmorDesc
+Heavily armored knights with poor[N]
+movement. Equip: Axes.[X]
+
+## GeneralDesc
+Knights of great skill. Equip:[N]
+Swords, lances, axes, bows.[X]
+
+## NomadName
+Nomad[X]
+
+## NomadDesc
+Plainsmen with good[N]
+movement. Equip: Bows.[X]
