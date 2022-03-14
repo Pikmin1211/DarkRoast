@@ -67,5 +67,5 @@ their weapons over words.[X]
 Hacha[X]
 
 ## HachaDesc
-Bandit who only can trust[N]
+Pirate who only can trust[N]
 the axe in his hands.[X]
