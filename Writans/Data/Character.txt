@@ -69,3 +69,26 @@ Hacha[X]
 ## HachaDesc
 Pirate who only can trust[N]
 the axe in his hands.[X]
+
+## DomingoName
+Domingo[X]
+
+## DomingoDesc
+Shrine keeper from Poblano.[N]
+A devoted and dutiful storyteller,[N]
+protector, and historian.[X]
+
+## LuzName
+Luz[X]
+
+## LuzDesc
+Young shrine keeper from Poblano.[N]
+Prefers to be left alone.[X]
+
+## PerezName
+Perez[X]
+
+## PerezDesc
+Pirate from Poblano.[N]
+Talks himself up to overcome[N]
+his deep sense of inferiority.[X]
