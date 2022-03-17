@@ -152,6 +152,13 @@ BeginningScene:
 	ENDA
 
 EndingScene:
+	MUSC Into_The_Shadow_of_Victory
+	Background(House_BG)
+	Text(Chapter_01_Ending_1)
+	MUSC Treasured_Memories
+	Text(Chapter_01_Ending_2)
+	MUSC Grim_Journey
+	Text(Chapter_01_Ending_3)
 	MNC2 Chapter_02
 	NoFade
 	ENDA

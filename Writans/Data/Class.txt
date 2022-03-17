@@ -109,3 +109,17 @@ Halberdier[X]
 ## HalberdierDesc
 Army standardbearers focused[N]
 on precision. Equip: Lances, axes.[X]
+
+## OutlawName
+Outlaw[X]
+
+## OutlawDesc
+Sneaky rogues who strike[N]
+from the shadows. Equip: Bows.[X]
+
+## GrassrunnerName
+Grassrunner[X]
+
+## GrassrunnerDesc
+Mounted thieves who loot and[N]
+raid on horseback. Equip: Bows.[X]
