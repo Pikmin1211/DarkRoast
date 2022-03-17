@@ -56,13 +56,6 @@ int GetUnitMovement(const struct Unit* unit){
 
 typedef struct StatScreen StatScreen;
 
-struct StatScreen{
-    /* 00 */ u32 unk00;
-    /* 04 */ u32 unk04;
-    /* 08 */ u32 unk08;
-    /* 0C */ Unit* unit;
-};
-
 int GetUnitConstitution(const struct Unit* unit){
 	return unit->conBonus + unit->pClassData->baseCon + unit->pCharacterData->baseCon;
 }
