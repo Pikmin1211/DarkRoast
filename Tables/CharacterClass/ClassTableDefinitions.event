@@ -78,5 +78,6 @@
 #define SkyKnight 0x5f
 #define HolyKnight 0x60
 #define StaffMage 0x7c
-#define StaffShaman 0x7d
+#define Curate 0x7d
 #define Ballistician 0x7e
+#define Shrine 0x7f

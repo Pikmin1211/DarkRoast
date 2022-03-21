@@ -6,5 +6,10 @@
 #define Zapatera 0x6
 #define Naranja 0x7
 #define Arbolito 0x8
+#define Domingo 0x9
+#define Luz 0xA
 #define Goon_Ch01 0x3d
 #define Hacha 0x3e
+#define Perez 0x40
+#define Recaudo 0x41
+
