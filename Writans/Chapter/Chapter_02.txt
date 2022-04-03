@@ -238,8 +238,9 @@ Protect the shrine. If the shrine's[N]
 HP falls to zero, you will receive[N]
 a game over.[A][X]
 
-## Chapter_02_Top_Left_Village
+## Chapter_02_Charge
 
+## Chapter_02_Top_Left_Village
 
 ## Chapter_02_Bottom_Left_Village
 
