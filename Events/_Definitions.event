@@ -38,7 +38,7 @@
 #define Seize(seizeX,seizeY) "LOCA 3 [seizeX,seizeY] 0xF"
 
 // Misc Based Events
-#define CauseGameOverIfLordDies "AFEV 0 0x592104 0x65"
+#define CauseGameOverIfLordDies "AFEV 0 GameOver 0x65"
 #define DefeatBoss(offset) "AFEV 0 offset 2"
 #define DefeatAll(offset) "AFEV 0 offset 6"
 
