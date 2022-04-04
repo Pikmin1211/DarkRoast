@@ -1,31 +1,31 @@
 	.include "MPlayDef.s"
 
-	.equ	song0106_grp, voicegroup000
-	.equ	song0106_pri, 10
-	.equ	song0106_rev, 0
-	.equ	song0106_mvl, 127
-	.equ	song0106_key, 0
-	.equ	song0106_tbs, 1
-	.equ	song0106_exg, 0
-	.equ	song0106_cmp, 1
+	.equ	EldiganTheLionheart_grp, voicegroup000
+	.equ	EldiganTheLionheart_pri, 10
+	.equ	EldiganTheLionheart_rev, 0
+	.equ	EldiganTheLionheart_mvl, 127
+	.equ	EldiganTheLionheart_key, 0
+	.equ	EldiganTheLionheart_tbs, 1
+	.equ	EldiganTheLionheart_exg, 0
+	.equ	EldiganTheLionheart_cmp, 1
 
 	.section .rodata
-	.global	song0106
+	.global	EldiganTheLionheart
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song0106_001:
+EldiganTheLionheart_001:
 @  #01 @000   ----------------------------------------
- .byte   TEMPO , 240*song0106_tbs/2
- .byte   KEYSH , song0106_key+0
+ .byte   TEMPO , 240*EldiganTheLionheart_tbs/2
+ .byte   KEYSH , EldiganTheLionheart_key+0
  .byte   VOICE , 68
- .byte   VOL , 45*song0106_mvl/mxv
+ .byte   VOL , 45*EldiganTheLionheart_mvl/mxv
  .byte   W15
  .byte   PAN , c_v+0
  .byte   W09
- .byte   TEMPO , 104*song0106_tbs/2
+ .byte   TEMPO , 104*EldiganTheLionheart_tbs/2
  .byte   PAN , c_v-5
  .byte   W36
  .byte   N12 ,Dn4 ,v127
@@ -36,13 +36,13 @@ song0106_001:
  .byte   W04
  .byte   Cn4
  .byte   W04
- .byte   TEMPO , 120*song0106_tbs/2
+ .byte   TEMPO , 120*EldiganTheLionheart_tbs/2
  .byte   N06 ,Bn3 ,v127
  .byte   W06
  .byte   Cn4
  .byte   W06
 @  #01 @001   ----------------------------------------
- .byte   TEMPO , 136*song0106_tbs/2
+ .byte   TEMPO , 136*EldiganTheLionheart_tbs/2
  .byte   N48 ,An3 ,v127
  .byte   W48
  .byte   N24 ,Bn3
@@ -125,7 +125,7 @@ Label_0125F808:
  .byte   W12
  .byte   Gn4
  .byte   W12
- .byte   TEMPO , 138*song0106_tbs/2
+ .byte   TEMPO , 138*EldiganTheLionheart_tbs/2
  .byte   N24 ,An3 ,v127
  .byte   W24
  .byte   PEND 
@@ -198,7 +198,7 @@ Label_0125F85A:
  .byte   PEND 
 @  #01 @015   ----------------------------------------
 Label_0125F868:
- .byte   TEMPO , 136*song0106_tbs/2
+ .byte   TEMPO , 136*EldiganTheLionheart_tbs/2
  .byte   N48 ,Fn4 ,v127
  .byte   W48
  .byte   Cn4
@@ -269,20 +269,20 @@ Label_0125F8A0:
  .byte   PAN , c_v+0
  .byte   W48
 @  #01 @025   ----------------------------------------
- .byte   TEMPO , 112*song0106_tbs/2
+ .byte   TEMPO , 112*EldiganTheLionheart_tbs/2
  .byte   N05 ,En4 ,v127
  .byte   W04
  .byte   Dn4
  .byte   W04
  .byte   Cn4
  .byte   W04
- .byte   TEMPO , 124*song0106_tbs/2
+ .byte   TEMPO , 124*EldiganTheLionheart_tbs/2
  .byte   N06 ,Bn3 ,v127
  .byte   W06
  .byte   Cn4
  .byte   W06
 Label_0125F8C7:
- .byte   TEMPO , 136*song0106_tbs/2
+ .byte   TEMPO , 136*EldiganTheLionheart_tbs/2
  .byte   N48 ,An3 ,v127
  .byte   W48
  .byte   N24 ,Bn3
@@ -363,14 +363,14 @@ Label_0125F8C7:
 @  #01 @048   ----------------------------------------
  .byte   W96
 @  #01 @049   ----------------------------------------
- .byte   TEMPO , 112*song0106_tbs/2
+ .byte   TEMPO , 112*EldiganTheLionheart_tbs/2
  .byte   N05 ,En4 ,v127
  .byte   W04
  .byte   Dn4
  .byte   W04
  .byte   Cn4
  .byte   W04
- .byte   TEMPO , 124*song0106_tbs/2
+ .byte   TEMPO , 124*EldiganTheLionheart_tbs/2
  .byte   N06 ,Bn3 ,v127
  .byte   W06
  .byte   Cn4
@@ -381,25 +381,25 @@ Label_0125F8C7:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song0106_002:
+EldiganTheLionheart_002:
 @  #02 @000   ----------------------------------------
- .byte   TEMPO , 240*song0106_tbs/2
- .byte   KEYSH , song0106_key+0
+ .byte   TEMPO , 240*EldiganTheLionheart_tbs/2
+ .byte   KEYSH , EldiganTheLionheart_key+0
  .byte   VOICE , 109
- .byte   VOL , 24*song0106_mvl/mxv
+ .byte   VOL , 24*EldiganTheLionheart_mvl/mxv
  .byte   W15
  .byte   PAN , c_v+0
  .byte   W09
- .byte   TEMPO , 104*song0106_tbs/2
+ .byte   TEMPO , 104*EldiganTheLionheart_tbs/2
  .byte   PAN , c_v+5
  .byte   N32 ,Cn4 ,v127
  .byte   W36
  .byte   N30 ,Dn4
  .byte   W24
- .byte   TEMPO , 120*song0106_tbs/2
+ .byte   TEMPO , 120*EldiganTheLionheart_tbs/2
  .byte   W12
 @  #02 @001   ----------------------------------------
- .byte   TEMPO , 136*song0106_tbs/2
+ .byte   TEMPO , 136*EldiganTheLionheart_tbs/2
  .byte   W96
 @  #02 @002   ----------------------------------------
  .byte   W96
@@ -433,7 +433,7 @@ Label_0125F97D:
  .byte   Gn4
  .byte   W12
 @  #02 @010   ----------------------------------------
- .byte   TEMPO , 138*song0106_tbs/2
+ .byte   TEMPO , 138*EldiganTheLionheart_tbs/2
  .byte   N96 ,An4 ,v127
  .byte   W96
  .byte   PEND 
@@ -464,7 +464,7 @@ Label_0125F9A6:
  .byte   PEND 
 @  #02 @016   ----------------------------------------
 Label_0125F9AD:
- .byte   TEMPO , 136*song0106_tbs/2
+ .byte   TEMPO , 136*EldiganTheLionheart_tbs/2
  .byte   N96 ,Gn4 ,v127
  .byte   W96
  .byte   PEND 
@@ -497,12 +497,12 @@ Label_0125F9C2:
  .byte   W48
  .byte   PEND 
 @  #02 @027   ----------------------------------------
- .byte   TEMPO , 112*song0106_tbs/2
+ .byte   TEMPO , 112*EldiganTheLionheart_tbs/2
  .byte   W12
- .byte   TEMPO , 124*song0106_tbs/2
+ .byte   TEMPO , 124*EldiganTheLionheart_tbs/2
  .byte   W12
 Label_0125F9CF:
- .byte   TEMPO , 136*song0106_tbs/2
+ .byte   TEMPO , 136*EldiganTheLionheart_tbs/2
  .byte   W96
 @  #02 @028   ----------------------------------------
  .byte   W96
@@ -566,9 +566,9 @@ Label_0125F9CF:
  .byte   PATT
   .word Label_0125F9C2
 @  #02 @053   ----------------------------------------
- .byte   TEMPO , 112*song0106_tbs/2
+ .byte   TEMPO , 112*EldiganTheLionheart_tbs/2
  .byte   W12
- .byte   TEMPO , 124*song0106_tbs/2
+ .byte   TEMPO , 124*EldiganTheLionheart_tbs/2
  .byte   W12
  .byte   GOTO
   .word Label_0125F9CF
@@ -576,25 +576,25 @@ Label_0125F9CF:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song0106_003:
+EldiganTheLionheart_003:
 @  #03 @000   ----------------------------------------
- .byte   TEMPO , 240*song0106_tbs/2
- .byte   KEYSH , song0106_key+0
+ .byte   TEMPO , 240*EldiganTheLionheart_tbs/2
+ .byte   KEYSH , EldiganTheLionheart_key+0
  .byte   VOICE , 40
- .byte   VOL , 26*song0106_mvl/mxv
+ .byte   VOL , 26*EldiganTheLionheart_mvl/mxv
  .byte   W15
  .byte   PAN , c_v+0
  .byte   W09
- .byte   TEMPO , 104*song0106_tbs/2
+ .byte   TEMPO , 104*EldiganTheLionheart_tbs/2
  .byte   PAN , c_v+10
  .byte   N32 ,Fn2 ,v127
  .byte   W36
  .byte   N30 ,Gn2
  .byte   W24
- .byte   TEMPO , 120*song0106_tbs/2
+ .byte   TEMPO , 120*EldiganTheLionheart_tbs/2
  .byte   W12
 @  #03 @001   ----------------------------------------
- .byte   TEMPO , 136*song0106_tbs/2
+ .byte   TEMPO , 136*EldiganTheLionheart_tbs/2
  .byte   W96
 @  #03 @002   ----------------------------------------
  .byte   W96
@@ -613,7 +613,7 @@ song0106_003:
 @  #03 @009   ----------------------------------------
  .byte   W96
 @  #03 @010   ----------------------------------------
- .byte   TEMPO , 138*song0106_tbs/2
+ .byte   TEMPO , 138*EldiganTheLionheart_tbs/2
  .byte   W96
 @  #03 @011   ----------------------------------------
  .byte   W96
@@ -626,7 +626,7 @@ song0106_003:
 @  #03 @015   ----------------------------------------
  .byte   W96
 @  #03 @016   ----------------------------------------
- .byte   TEMPO , 136*song0106_tbs/2
+ .byte   TEMPO , 136*EldiganTheLionheart_tbs/2
  .byte   W96
 @  #03 @017   ----------------------------------------
  .byte   W96
@@ -677,12 +677,12 @@ Label_0125FA6E:
  .byte   W96
  .byte   PEND 
 @  #03 @026   ----------------------------------------
- .byte   TEMPO , 112*song0106_tbs/2
+ .byte   TEMPO , 112*EldiganTheLionheart_tbs/2
  .byte   W12
- .byte   TEMPO , 124*song0106_tbs/2
+ .byte   TEMPO , 124*EldiganTheLionheart_tbs/2
  .byte   W12
 Label_0125FA7C:
- .byte   TEMPO , 136*song0106_tbs/2
+ .byte   TEMPO , 136*EldiganTheLionheart_tbs/2
  .byte   W96
 @  #03 @027   ----------------------------------------
  .byte   W96
@@ -701,7 +701,7 @@ Label_0125FA7C:
 @  #03 @034   ----------------------------------------
  .byte   W96
 @  #03 @035   ----------------------------------------
- .byte   TEMPO , 138*song0106_tbs/2
+ .byte   TEMPO , 138*EldiganTheLionheart_tbs/2
  .byte   W96
 @  #03 @036   ----------------------------------------
  .byte   W96
@@ -714,7 +714,7 @@ Label_0125FA7C:
 @  #03 @040   ----------------------------------------
  .byte   W96
 @  #03 @041   ----------------------------------------
- .byte   TEMPO , 136*song0106_tbs/2
+ .byte   TEMPO , 136*EldiganTheLionheart_tbs/2
  .byte   W96
 @  #03 @042   ----------------------------------------
  .byte   W96
@@ -737,9 +737,9 @@ Label_0125FA7C:
  .byte   PATT
   .word Label_0125FA6E
 @  #03 @050   ----------------------------------------
- .byte   TEMPO , 112*song0106_tbs/2
+ .byte   TEMPO , 112*EldiganTheLionheart_tbs/2
  .byte   W12
- .byte   TEMPO , 124*song0106_tbs/2
+ .byte   TEMPO , 124*EldiganTheLionheart_tbs/2
  .byte   W12
  .byte   GOTO
   .word Label_0125FA7C
@@ -747,22 +747,22 @@ Label_0125FA7C:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song0106_004:
+EldiganTheLionheart_004:
 @  #04 @000   ----------------------------------------
- .byte   TEMPO , 240*song0106_tbs/2
- .byte   KEYSH , song0106_key+0
+ .byte   TEMPO , 240*EldiganTheLionheart_tbs/2
+ .byte   KEYSH , EldiganTheLionheart_key+0
  .byte   VOICE , 0
- .byte   VOL , 26*song0106_mvl/mxv
+ .byte   VOL , 26*EldiganTheLionheart_mvl/mxv
  .byte   W15
  .byte   PAN , c_v+0
  .byte   W09
- .byte   TEMPO , 104*song0106_tbs/2
+ .byte   TEMPO , 104*EldiganTheLionheart_tbs/2
  .byte   PAN , c_v+0
  .byte   W60
- .byte   TEMPO , 120*song0106_tbs/2
+ .byte   TEMPO , 120*EldiganTheLionheart_tbs/2
  .byte   W12
 @  #04 @001   ----------------------------------------
- .byte   TEMPO , 136*song0106_tbs/2
+ .byte   TEMPO , 136*EldiganTheLionheart_tbs/2
  .byte   N12 ,Cn3 ,v127
  .byte   W12
  .byte   En2
@@ -904,7 +904,7 @@ Label_0125FB35:
  .byte   Dn1
  .byte   W12
 @  #04 @010   ----------------------------------------
- .byte   TEMPO , 138*song0106_tbs/2
+ .byte   TEMPO , 138*EldiganTheLionheart_tbs/2
  .byte   W96
 @  #04 @011   ----------------------------------------
  .byte   W96
@@ -917,7 +917,7 @@ Label_0125FB35:
 @  #04 @015   ----------------------------------------
  .byte   W96
 @  #04 @016   ----------------------------------------
- .byte   TEMPO , 136*song0106_tbs/2
+ .byte   TEMPO , 136*EldiganTheLionheart_tbs/2
  .byte   W96
 @  #04 @017   ----------------------------------------
  .byte   W96
@@ -941,12 +941,12 @@ Label_0125FB35:
  .byte   W96
 @  #04 @027   ----------------------------------------
  .byte   W24
- .byte   TEMPO , 112*song0106_tbs/2
+ .byte   TEMPO , 112*EldiganTheLionheart_tbs/2
  .byte   W12
- .byte   TEMPO , 124*song0106_tbs/2
+ .byte   TEMPO , 124*EldiganTheLionheart_tbs/2
  .byte   W12
 Label_0125FB7B:
- .byte   TEMPO , 136*song0106_tbs/2
+ .byte   TEMPO , 136*EldiganTheLionheart_tbs/2
  .byte   N12 ,Cn3 ,v127
  .byte   W12
  .byte   En2
@@ -1057,7 +1057,7 @@ Label_0125FB7B:
  .byte   W12
  .byte   Dn1
  .byte   W12
- .byte   TEMPO , 138*song0106_tbs/2
+ .byte   TEMPO , 138*EldiganTheLionheart_tbs/2
  .byte   W96
 @  #04 @038   ----------------------------------------
  .byte   W96
@@ -1070,7 +1070,7 @@ Label_0125FB7B:
 @  #04 @042   ----------------------------------------
  .byte   W96
 @  #04 @043   ----------------------------------------
- .byte   TEMPO , 136*song0106_tbs/2
+ .byte   TEMPO , 136*EldiganTheLionheart_tbs/2
  .byte   W96
 @  #04 @044   ----------------------------------------
  .byte   W96
@@ -1094,9 +1094,9 @@ Label_0125FB7B:
  .byte   W96
 @  #04 @054   ----------------------------------------
  .byte   W24
- .byte   TEMPO , 112*song0106_tbs/2
+ .byte   TEMPO , 112*EldiganTheLionheart_tbs/2
  .byte   W12
- .byte   TEMPO , 124*song0106_tbs/2
+ .byte   TEMPO , 124*EldiganTheLionheart_tbs/2
  .byte   W12
  .byte   GOTO
   .word Label_0125FB7B
@@ -1104,22 +1104,22 @@ Label_0125FB7B:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song0106_005:
+EldiganTheLionheart_005:
 @  #05 @000   ----------------------------------------
- .byte   TEMPO , 240*song0106_tbs/2
- .byte   KEYSH , song0106_key+0
+ .byte   TEMPO , 240*EldiganTheLionheart_tbs/2
+ .byte   KEYSH , EldiganTheLionheart_key+0
  .byte   VOICE , 33
- .byte   VOL , 63*song0106_mvl/mxv
+ .byte   VOL , 63*EldiganTheLionheart_mvl/mxv
  .byte   W15
  .byte   PAN , c_v+0
  .byte   W09
- .byte   TEMPO , 104*song0106_tbs/2
+ .byte   TEMPO , 104*EldiganTheLionheart_tbs/2
  .byte   PAN , c_v+0
  .byte   W60
- .byte   TEMPO , 120*song0106_tbs/2
+ .byte   TEMPO , 120*EldiganTheLionheart_tbs/2
  .byte   W12
 @  #05 @001   ----------------------------------------
- .byte   TEMPO , 136*song0106_tbs/2
+ .byte   TEMPO , 136*EldiganTheLionheart_tbs/2
  .byte   N96 ,An1 ,v127
  .byte   W96
 @  #05 @002   ----------------------------------------
@@ -1183,7 +1183,7 @@ Label_0125FC5E:
   .word Label_0125FC35
 @  #05 @009   ----------------------------------------
 Label_0125FC72:
- .byte   TEMPO , 138*song0106_tbs/2
+ .byte   TEMPO , 138*EldiganTheLionheart_tbs/2
  .byte   N36 ,Fn1 ,v127
  .byte   W36
  .byte   N12
@@ -1245,7 +1245,7 @@ Label_0125FCA7:
  .byte   W12
  .byte   PEND 
 @  #05 @015   ----------------------------------------
- .byte   TEMPO , 136*song0106_tbs/2
+ .byte   TEMPO , 136*EldiganTheLionheart_tbs/2
  .byte   W96
 @  #05 @016   ----------------------------------------
  .byte   W96
@@ -1269,12 +1269,12 @@ Label_0125FCA7:
  .byte   W96
 @  #05 @026   ----------------------------------------
  .byte   W24
- .byte   TEMPO , 112*song0106_tbs/2
+ .byte   TEMPO , 112*EldiganTheLionheart_tbs/2
  .byte   W12
- .byte   TEMPO , 124*song0106_tbs/2
+ .byte   TEMPO , 124*EldiganTheLionheart_tbs/2
  .byte   W12
 Label_0125FCC6:
- .byte   TEMPO , 136*song0106_tbs/2
+ .byte   TEMPO , 136*EldiganTheLionheart_tbs/2
  .byte   N96 ,An1 ,v127
  .byte   W96
 @  #05 @027   ----------------------------------------
@@ -1317,7 +1317,7 @@ Label_0125FCC6:
  .byte   PATT
   .word Label_0125FCA7
 @  #05 @040   ----------------------------------------
- .byte   TEMPO , 136*song0106_tbs/2
+ .byte   TEMPO , 136*EldiganTheLionheart_tbs/2
  .byte   W96
 @  #05 @041   ----------------------------------------
  .byte   W96
@@ -1341,9 +1341,9 @@ Label_0125FCC6:
  .byte   W96
 @  #05 @051   ----------------------------------------
  .byte   W24
- .byte   TEMPO , 112*song0106_tbs/2
+ .byte   TEMPO , 112*EldiganTheLionheart_tbs/2
  .byte   W12
- .byte   TEMPO , 124*song0106_tbs/2
+ .byte   TEMPO , 124*EldiganTheLionheart_tbs/2
  .byte   W12
  .byte   GOTO
   .word Label_0125FCC6
@@ -1351,22 +1351,22 @@ Label_0125FCC6:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song0106_006:
+EldiganTheLionheart_006:
 @  #06 @000   ----------------------------------------
- .byte   TEMPO , 240*song0106_tbs/2
- .byte   KEYSH , song0106_key+0
+ .byte   TEMPO , 240*EldiganTheLionheart_tbs/2
+ .byte   KEYSH , EldiganTheLionheart_key+0
  .byte   VOICE , 42
- .byte   VOL , 45*song0106_mvl/mxv
+ .byte   VOL , 45*EldiganTheLionheart_mvl/mxv
  .byte   W15
  .byte   PAN , c_v+0
  .byte   W09
- .byte   TEMPO , 104*song0106_tbs/2
+ .byte   TEMPO , 104*EldiganTheLionheart_tbs/2
  .byte   PAN , c_v+15
  .byte   W60
- .byte   TEMPO , 120*song0106_tbs/2
+ .byte   TEMPO , 120*EldiganTheLionheart_tbs/2
  .byte   W12
 @  #06 @001   ----------------------------------------
- .byte   TEMPO , 136*song0106_tbs/2
+ .byte   TEMPO , 136*EldiganTheLionheart_tbs/2
  .byte   W96
 @  #06 @002   ----------------------------------------
  .byte   W96
@@ -1394,7 +1394,7 @@ Label_0125FD47:
  .byte   Dn1
  .byte   W12
 @  #06 @010   ----------------------------------------
- .byte   TEMPO , 138*song0106_tbs/2
+ .byte   TEMPO , 138*EldiganTheLionheart_tbs/2
  .byte   N96 ,En3 ,v127
  .byte   N96 ,Cn3
  .byte   W96
@@ -1428,7 +1428,7 @@ Label_0125FD74:
  .byte   PEND 
 @  #06 @016   ----------------------------------------
 Label_0125FD7B:
- .byte   TEMPO , 136*song0106_tbs/2
+ .byte   TEMPO , 136*EldiganTheLionheart_tbs/2
  .byte   W12
  .byte   N12 ,Gs2 ,v127
  .byte   W12
@@ -1544,12 +1544,12 @@ Label_0125FDED:
  .byte   W48
  .byte   PEND 
 @  #06 @025   ----------------------------------------
- .byte   TEMPO , 112*song0106_tbs/2
+ .byte   TEMPO , 112*EldiganTheLionheart_tbs/2
  .byte   W12
- .byte   TEMPO , 124*song0106_tbs/2
+ .byte   TEMPO , 124*EldiganTheLionheart_tbs/2
  .byte   W12
 Label_0125FDFA:
- .byte   TEMPO , 136*song0106_tbs/2
+ .byte   TEMPO , 136*EldiganTheLionheart_tbs/2
  .byte   W96
 @  #06 @026   ----------------------------------------
  .byte   W96
@@ -1613,9 +1613,9 @@ Label_0125FDFA:
  .byte   PATT
   .word Label_0125FDED
 @  #06 @049   ----------------------------------------
- .byte   TEMPO , 112*song0106_tbs/2
+ .byte   TEMPO , 112*EldiganTheLionheart_tbs/2
  .byte   W12
- .byte   TEMPO , 124*song0106_tbs/2
+ .byte   TEMPO , 124*EldiganTheLionheart_tbs/2
  .byte   W12
  .byte   GOTO
   .word Label_0125FDFA
@@ -1623,22 +1623,22 @@ Label_0125FDFA:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-song0106_007:
+EldiganTheLionheart_007:
 @  #07 @000   ----------------------------------------
- .byte   TEMPO , 240*song0106_tbs/2
- .byte   KEYSH , song0106_key+0
+ .byte   TEMPO , 240*EldiganTheLionheart_tbs/2
+ .byte   KEYSH , EldiganTheLionheart_key+0
  .byte   VOICE , 109
- .byte   VOL , 28*song0106_mvl/mxv
+ .byte   VOL , 28*EldiganTheLionheart_mvl/mxv
  .byte   W15
  .byte   PAN , c_v+0
  .byte   W09
- .byte   TEMPO , 104*song0106_tbs/2
+ .byte   TEMPO , 104*EldiganTheLionheart_tbs/2
  .byte   PAN , c_v+10
  .byte   W60
- .byte   TEMPO , 120*song0106_tbs/2
+ .byte   TEMPO , 120*EldiganTheLionheart_tbs/2
  .byte   W12
 @  #07 @001   ----------------------------------------
- .byte   TEMPO , 136*song0106_tbs/2
+ .byte   TEMPO , 136*EldiganTheLionheart_tbs/2
  .byte   W96
 @  #07 @002   ----------------------------------------
  .byte   W96
@@ -1657,7 +1657,7 @@ song0106_007:
 @  #07 @009   ----------------------------------------
  .byte   W96
 @  #07 @010   ----------------------------------------
- .byte   TEMPO , 138*song0106_tbs/2
+ .byte   TEMPO , 138*EldiganTheLionheart_tbs/2
  .byte   W96
 @  #07 @011   ----------------------------------------
  .byte   W96
@@ -1671,7 +1671,7 @@ song0106_007:
  .byte   W96
 @  #07 @016   ----------------------------------------
 Label_0125FE83:
- .byte   TEMPO , 136*song0106_tbs/2
+ .byte   TEMPO , 136*EldiganTheLionheart_tbs/2
  .byte   N12 ,Cn4 ,v127
  .byte   W24
  .byte   Cn4
@@ -1720,12 +1720,12 @@ Label_0125FEA0:
 @  #07 @026   ----------------------------------------
  .byte   W48
  .byte   PEND 
- .byte   TEMPO , 112*song0106_tbs/2
+ .byte   TEMPO , 112*EldiganTheLionheart_tbs/2
  .byte   W12
- .byte   TEMPO , 124*song0106_tbs/2
+ .byte   TEMPO , 124*EldiganTheLionheart_tbs/2
  .byte   W12
 Label_0125FEB8:
- .byte   TEMPO , 136*song0106_tbs/2
+ .byte   TEMPO , 136*EldiganTheLionheart_tbs/2
  .byte   W96
 @  #07 @027   ----------------------------------------
  .byte   W96
@@ -1744,7 +1744,7 @@ Label_0125FEB8:
 @  #07 @034   ----------------------------------------
  .byte   W96
 @  #07 @035   ----------------------------------------
- .byte   TEMPO , 138*song0106_tbs/2
+ .byte   TEMPO , 138*EldiganTheLionheart_tbs/2
  .byte   W96
 @  #07 @036   ----------------------------------------
  .byte   W96
@@ -1769,9 +1769,9 @@ Label_0125FEB8:
  .byte   PATT
   .word Label_0125FEA0
 @  #07 @045   ----------------------------------------
- .byte   TEMPO , 112*song0106_tbs/2
+ .byte   TEMPO , 112*EldiganTheLionheart_tbs/2
  .byte   W12
- .byte   TEMPO , 124*song0106_tbs/2
+ .byte   TEMPO , 124*EldiganTheLionheart_tbs/2
  .byte   W12
  .byte   GOTO
   .word Label_0125FEB8
@@ -1779,22 +1779,22 @@ Label_0125FEB8:
 
 @**************** Track 8 (Midi-Chn.7) ****************@
 
-song0106_008:
+EldiganTheLionheart_008:
 @  #08 @000   ----------------------------------------
- .byte   TEMPO , 240*song0106_tbs/2
- .byte   KEYSH , song0106_key+0
+ .byte   TEMPO , 240*EldiganTheLionheart_tbs/2
+ .byte   KEYSH , EldiganTheLionheart_key+0
  .byte   VOICE , 60
- .byte   VOL , 5*song0106_mvl/mxv
+ .byte   VOL , 5*EldiganTheLionheart_mvl/mxv
  .byte   W15
  .byte   PAN , c_v+0
  .byte   W09
- .byte   TEMPO , 104*song0106_tbs/2
+ .byte   TEMPO , 104*EldiganTheLionheart_tbs/2
  .byte   PAN , c_v-7
  .byte   W60
- .byte   TEMPO , 120*song0106_tbs/2
+ .byte   TEMPO , 120*EldiganTheLionheart_tbs/2
  .byte   W12
 @  #08 @001   ----------------------------------------
- .byte   TEMPO , 136*song0106_tbs/2
+ .byte   TEMPO , 136*EldiganTheLionheart_tbs/2
  .byte   W96
 @  #08 @002   ----------------------------------------
  .byte   W96
@@ -1813,7 +1813,7 @@ song0106_008:
 @  #08 @009   ----------------------------------------
  .byte   W96
 @  #08 @010   ----------------------------------------
- .byte   TEMPO , 138*song0106_tbs/2
+ .byte   TEMPO , 138*EldiganTheLionheart_tbs/2
  .byte   W96
 @  #08 @011   ----------------------------------------
  .byte   W96
@@ -1827,7 +1827,7 @@ song0106_008:
  .byte   W96
 @  #08 @016   ----------------------------------------
 Label_0125FF13:
- .byte   TEMPO , 136*song0106_tbs/2
+ .byte   TEMPO , 136*EldiganTheLionheart_tbs/2
  .byte   N96 ,Cs2 ,v127
  .byte   W96
  .byte   PEND 
@@ -1856,12 +1856,12 @@ Label_0125FF13:
  .byte   W96
 @  #08 @027   ----------------------------------------
  .byte   W24
- .byte   TEMPO , 112*song0106_tbs/2
+ .byte   TEMPO , 112*EldiganTheLionheart_tbs/2
  .byte   W12
- .byte   TEMPO , 124*song0106_tbs/2
+ .byte   TEMPO , 124*EldiganTheLionheart_tbs/2
  .byte   W12
 Label_0125FF30:
- .byte   TEMPO , 136*song0106_tbs/2
+ .byte   TEMPO , 136*EldiganTheLionheart_tbs/2
  .byte   W96
 @  #08 @028   ----------------------------------------
  .byte   W96
@@ -1880,7 +1880,7 @@ Label_0125FF30:
 @  #08 @035   ----------------------------------------
  .byte   W96
 @  #08 @036   ----------------------------------------
- .byte   TEMPO , 138*song0106_tbs/2
+ .byte   TEMPO , 138*EldiganTheLionheart_tbs/2
  .byte   W96
 @  #08 @037   ----------------------------------------
  .byte   W96
@@ -1920,9 +1920,9 @@ Label_0125FF30:
  .byte   W96
 @  #08 @053   ----------------------------------------
  .byte   W24
- .byte   TEMPO , 112*song0106_tbs/2
+ .byte   TEMPO , 112*EldiganTheLionheart_tbs/2
  .byte   W12
- .byte   TEMPO , 124*song0106_tbs/2
+ .byte   TEMPO , 124*EldiganTheLionheart_tbs/2
  .byte   W12
  .byte   GOTO
   .word Label_0125FF30
@@ -1930,22 +1930,22 @@ Label_0125FF30:
 
 @**************** Track 9 (Midi-Chn.8) ****************@
 
-song0106_009:
+EldiganTheLionheart_009:
 @  #09 @000   ----------------------------------------
- .byte   TEMPO , 240*song0106_tbs/2
- .byte   KEYSH , song0106_key+0
+ .byte   TEMPO , 240*EldiganTheLionheart_tbs/2
+ .byte   KEYSH , EldiganTheLionheart_key+0
  .byte   VOICE , 41
- .byte   VOL , 7*song0106_mvl/mxv
+ .byte   VOL , 7*EldiganTheLionheart_mvl/mxv
  .byte   W15
  .byte   PAN , c_v+0
  .byte   W09
- .byte   TEMPO , 104*song0106_tbs/2
+ .byte   TEMPO , 104*EldiganTheLionheart_tbs/2
  .byte   PAN , c_v-10
  .byte   W60
- .byte   TEMPO , 120*song0106_tbs/2
+ .byte   TEMPO , 120*EldiganTheLionheart_tbs/2
  .byte   W12
 @  #09 @001   ----------------------------------------
- .byte   TEMPO , 136*song0106_tbs/2
+ .byte   TEMPO , 136*EldiganTheLionheart_tbs/2
  .byte   W96
 @  #09 @002   ----------------------------------------
  .byte   W96
@@ -1964,7 +1964,7 @@ song0106_009:
 @  #09 @009   ----------------------------------------
  .byte   W96
 @  #09 @010   ----------------------------------------
- .byte   TEMPO , 138*song0106_tbs/2
+ .byte   TEMPO , 138*EldiganTheLionheart_tbs/2
  .byte   W96
 @  #09 @011   ----------------------------------------
  .byte   W96
@@ -1978,7 +1978,7 @@ song0106_009:
  .byte   W96
 @  #09 @016   ----------------------------------------
 Label_0125FF8B:
- .byte   TEMPO , 136*song0106_tbs/2
+ .byte   TEMPO , 136*EldiganTheLionheart_tbs/2
  .byte   N96 ,Cs2 ,v127
  .byte   W96
  .byte   PEND 
@@ -2017,12 +2017,12 @@ Label_0125FFA6:
  .byte   W48
  .byte   PEND 
 @  #09 @027   ----------------------------------------
- .byte   TEMPO , 112*song0106_tbs/2
+ .byte   TEMPO , 112*EldiganTheLionheart_tbs/2
  .byte   W12
- .byte   TEMPO , 124*song0106_tbs/2
+ .byte   TEMPO , 124*EldiganTheLionheart_tbs/2
  .byte   W12
 Label_0125FFB3:
- .byte   TEMPO , 136*song0106_tbs/2
+ .byte   TEMPO , 136*EldiganTheLionheart_tbs/2
  .byte   W96
 @  #09 @028   ----------------------------------------
  .byte   W96
@@ -2041,7 +2041,7 @@ Label_0125FFB3:
 @  #09 @035   ----------------------------------------
  .byte   W96
 @  #09 @036   ----------------------------------------
- .byte   TEMPO , 138*song0106_tbs/2
+ .byte   TEMPO , 138*EldiganTheLionheart_tbs/2
  .byte   W96
 @  #09 @037   ----------------------------------------
  .byte   W96
@@ -2087,9 +2087,9 @@ Label_0125FFB3:
  .byte   PATT
   .word Label_0125FFA6
 @  #09 @053   ----------------------------------------
- .byte   TEMPO , 112*song0106_tbs/2
+ .byte   TEMPO , 112*EldiganTheLionheart_tbs/2
  .byte   W12
- .byte   TEMPO , 124*song0106_tbs/2
+ .byte   TEMPO , 124*EldiganTheLionheart_tbs/2
  .byte   W12
  .byte   GOTO
   .word Label_0125FFB3
@@ -2097,22 +2097,22 @@ Label_0125FFB3:
 
 @**************** Track 10 (Midi-Chn.9) ****************@
 
-song0106_010:
+EldiganTheLionheart_010:
 @  #10 @000   ----------------------------------------
- .byte   TEMPO , 240*song0106_tbs/2
- .byte   KEYSH , song0106_key+0
+ .byte   TEMPO , 240*EldiganTheLionheart_tbs/2
+ .byte   KEYSH , EldiganTheLionheart_key+0
  .byte   VOICE , 41
- .byte   VOL , 5*song0106_mvl/mxv
+ .byte   VOL , 5*EldiganTheLionheart_mvl/mxv
  .byte   W15
  .byte   PAN , c_v+0
  .byte   W09
- .byte   TEMPO , 104*song0106_tbs/2
+ .byte   TEMPO , 104*EldiganTheLionheart_tbs/2
  .byte   PAN , c_v+13
  .byte   W60
- .byte   TEMPO , 120*song0106_tbs/2
+ .byte   TEMPO , 120*EldiganTheLionheart_tbs/2
  .byte   W12
 @  #10 @001   ----------------------------------------
- .byte   TEMPO , 136*song0106_tbs/2
+ .byte   TEMPO , 136*EldiganTheLionheart_tbs/2
  .byte   W96
 @  #10 @002   ----------------------------------------
  .byte   W96
@@ -2131,7 +2131,7 @@ song0106_010:
 @  #10 @009   ----------------------------------------
  .byte   W96
 @  #10 @010   ----------------------------------------
- .byte   TEMPO , 138*song0106_tbs/2
+ .byte   TEMPO , 138*EldiganTheLionheart_tbs/2
  .byte   W96
 @  #10 @011   ----------------------------------------
  .byte   W96
@@ -2144,7 +2144,7 @@ song0106_010:
 @  #10 @015   ----------------------------------------
  .byte   W96
 @  #10 @016   ----------------------------------------
- .byte   TEMPO , 136*song0106_tbs/2
+ .byte   TEMPO , 136*EldiganTheLionheart_tbs/2
  .byte   W96
 @  #10 @017   ----------------------------------------
  .byte   W96
@@ -2220,12 +2220,12 @@ Label_01260054:
 @  #10 @026   ----------------------------------------
  .byte   W48
  .byte   PEND 
- .byte   TEMPO , 112*song0106_tbs/2
+ .byte   TEMPO , 112*EldiganTheLionheart_tbs/2
  .byte   W12
- .byte   TEMPO , 124*song0106_tbs/2
+ .byte   TEMPO , 124*EldiganTheLionheart_tbs/2
  .byte   W12
 Label_01260066:
- .byte   TEMPO , 136*song0106_tbs/2
+ .byte   TEMPO , 136*EldiganTheLionheart_tbs/2
  .byte   W96
 @  #10 @027   ----------------------------------------
  .byte   W96
@@ -2244,7 +2244,7 @@ Label_01260066:
 @  #10 @034   ----------------------------------------
  .byte   W96
 @  #10 @035   ----------------------------------------
- .byte   TEMPO , 138*song0106_tbs/2
+ .byte   TEMPO , 138*EldiganTheLionheart_tbs/2
  .byte   W96
 @  #10 @036   ----------------------------------------
  .byte   W96
@@ -2257,7 +2257,7 @@ Label_01260066:
 @  #10 @040   ----------------------------------------
  .byte   W96
 @  #10 @041   ----------------------------------------
- .byte   TEMPO , 136*song0106_tbs/2
+ .byte   TEMPO , 136*EldiganTheLionheart_tbs/2
  .byte   W96
 @  #10 @042   ----------------------------------------
  .byte   W96
@@ -2284,9 +2284,9 @@ Label_01260066:
  .byte   PATT
   .word Label_01260054
 @  #10 @051   ----------------------------------------
- .byte   TEMPO , 112*song0106_tbs/2
+ .byte   TEMPO , 112*EldiganTheLionheart_tbs/2
  .byte   W12
- .byte   TEMPO , 124*song0106_tbs/2
+ .byte   TEMPO , 124*EldiganTheLionheart_tbs/2
  .byte   W12
  .byte   GOTO
   .word Label_01260066
@@ -2294,22 +2294,22 @@ Label_01260066:
 
 @**************** Track 11 (Midi-Chn.10) ****************@
 
-song0106_011:
+EldiganTheLionheart_011:
 @  #11 @000   ----------------------------------------
- .byte   TEMPO , 240*song0106_tbs/2
- .byte   KEYSH , song0106_key+0
+ .byte   TEMPO , 240*EldiganTheLionheart_tbs/2
+ .byte   KEYSH , EldiganTheLionheart_key+0
  .byte   VOICE , 105
- .byte   VOL , 5*song0106_mvl/mxv
+ .byte   VOL , 5*EldiganTheLionheart_mvl/mxv
  .byte   W15
  .byte   PAN , c_v+0
  .byte   W09
- .byte   TEMPO , 104*song0106_tbs/2
+ .byte   TEMPO , 104*EldiganTheLionheart_tbs/2
  .byte   PAN , c_v-13
  .byte   W60
- .byte   TEMPO , 120*song0106_tbs/2
+ .byte   TEMPO , 120*EldiganTheLionheart_tbs/2
  .byte   W12
 @  #11 @001   ----------------------------------------
- .byte   TEMPO , 136*song0106_tbs/2
+ .byte   TEMPO , 136*EldiganTheLionheart_tbs/2
  .byte   W96
 @  #11 @002   ----------------------------------------
  .byte   W96
@@ -2328,7 +2328,7 @@ song0106_011:
 @  #11 @009   ----------------------------------------
  .byte   W96
 @  #11 @010   ----------------------------------------
- .byte   TEMPO , 138*song0106_tbs/2
+ .byte   TEMPO , 138*EldiganTheLionheart_tbs/2
  .byte   W96
 @  #11 @011   ----------------------------------------
  .byte   W96
@@ -2341,7 +2341,7 @@ song0106_011:
 @  #11 @015   ----------------------------------------
  .byte   W96
 @  #11 @016   ----------------------------------------
- .byte   TEMPO , 136*song0106_tbs/2
+ .byte   TEMPO , 136*EldiganTheLionheart_tbs/2
  .byte   W96
 @  #11 @017   ----------------------------------------
  .byte   W96
@@ -2465,12 +2465,12 @@ Label_01260138:
 @  #11 @026   ----------------------------------------
  .byte   W36
  .byte   PEND 
- .byte   TEMPO , 112*song0106_tbs/2
+ .byte   TEMPO , 112*EldiganTheLionheart_tbs/2
  .byte   W12
- .byte   TEMPO , 124*song0106_tbs/2
+ .byte   TEMPO , 124*EldiganTheLionheart_tbs/2
  .byte   W12
 Label_01260152:
- .byte   TEMPO , 136*song0106_tbs/2
+ .byte   TEMPO , 136*EldiganTheLionheart_tbs/2
  .byte   W96
 @  #11 @027   ----------------------------------------
  .byte   W96
@@ -2489,7 +2489,7 @@ Label_01260152:
 @  #11 @034   ----------------------------------------
  .byte   W96
 @  #11 @035   ----------------------------------------
- .byte   TEMPO , 138*song0106_tbs/2
+ .byte   TEMPO , 138*EldiganTheLionheart_tbs/2
  .byte   W96
 @  #11 @036   ----------------------------------------
  .byte   W96
@@ -2502,7 +2502,7 @@ Label_01260152:
 @  #11 @040   ----------------------------------------
  .byte   W96
 @  #11 @041   ----------------------------------------
- .byte   TEMPO , 136*song0106_tbs/2
+ .byte   TEMPO , 136*EldiganTheLionheart_tbs/2
  .byte   W96
 @  #11 @042   ----------------------------------------
  .byte   W96
@@ -2529,9 +2529,9 @@ Label_01260152:
  .byte   PATT
   .word Label_01260138
 @  #11 @051   ----------------------------------------
- .byte   TEMPO , 112*song0106_tbs/2
+ .byte   TEMPO , 112*EldiganTheLionheart_tbs/2
  .byte   W12
- .byte   TEMPO , 124*song0106_tbs/2
+ .byte   TEMPO , 124*EldiganTheLionheart_tbs/2
  .byte   W12
  .byte   GOTO
   .word Label_01260152
@@ -2539,22 +2539,22 @@ Label_01260152:
 
 @**************** Track 12 (Midi-Chn.11) ****************@
 
-song0106_012:
+EldiganTheLionheart_012:
 @  #12 @000   ----------------------------------------
- .byte   TEMPO , 240*song0106_tbs/2
- .byte   KEYSH , song0106_key+0
+ .byte   TEMPO , 240*EldiganTheLionheart_tbs/2
+ .byte   KEYSH , EldiganTheLionheart_key+0
  .byte   VOICE , 60
- .byte   VOL , 13*song0106_mvl/mxv
+ .byte   VOL , 13*EldiganTheLionheart_mvl/mxv
  .byte   W15
  .byte   PAN , c_v+0
  .byte   W09
- .byte   TEMPO , 104*song0106_tbs/2
+ .byte   TEMPO , 104*EldiganTheLionheart_tbs/2
  .byte   PAN , c_v+15
  .byte   W60
- .byte   TEMPO , 120*song0106_tbs/2
+ .byte   TEMPO , 120*EldiganTheLionheart_tbs/2
  .byte   W12
 @  #12 @001   ----------------------------------------
- .byte   TEMPO , 136*song0106_tbs/2
+ .byte   TEMPO , 136*EldiganTheLionheart_tbs/2
  .byte   W96
 @  #12 @002   ----------------------------------------
  .byte   W96
@@ -2573,7 +2573,7 @@ song0106_012:
 @  #12 @009   ----------------------------------------
  .byte   W96
 @  #12 @010   ----------------------------------------
- .byte   TEMPO , 138*song0106_tbs/2
+ .byte   TEMPO , 138*EldiganTheLionheart_tbs/2
  .byte   W96
 @  #12 @011   ----------------------------------------
  .byte   W96
@@ -2586,7 +2586,7 @@ song0106_012:
 @  #12 @015   ----------------------------------------
  .byte   W96
 @  #12 @016   ----------------------------------------
- .byte   TEMPO , 136*song0106_tbs/2
+ .byte   TEMPO , 136*EldiganTheLionheart_tbs/2
  .byte   W96
 @  #12 @017   ----------------------------------------
  .byte   W96
@@ -2616,12 +2616,12 @@ song0106_012:
  .byte   W96
 @  #12 @027   ----------------------------------------
  .byte   W24
- .byte   TEMPO , 112*song0106_tbs/2
+ .byte   TEMPO , 112*EldiganTheLionheart_tbs/2
  .byte   W12
- .byte   TEMPO , 124*song0106_tbs/2
+ .byte   TEMPO , 124*EldiganTheLionheart_tbs/2
  .byte   W12
 Label_012601DB:
- .byte   TEMPO , 136*song0106_tbs/2
+ .byte   TEMPO , 136*EldiganTheLionheart_tbs/2
  .byte   W96
 @  #12 @028   ----------------------------------------
  .byte   W96
@@ -2640,7 +2640,7 @@ Label_012601DB:
 @  #12 @035   ----------------------------------------
  .byte   W96
 @  #12 @036   ----------------------------------------
- .byte   TEMPO , 138*song0106_tbs/2
+ .byte   TEMPO , 138*EldiganTheLionheart_tbs/2
  .byte   W96
 @  #12 @037   ----------------------------------------
  .byte   W96
@@ -2653,7 +2653,7 @@ Label_012601DB:
 @  #12 @041   ----------------------------------------
  .byte   W96
 @  #12 @042   ----------------------------------------
- .byte   TEMPO , 136*song0106_tbs/2
+ .byte   TEMPO , 136*EldiganTheLionheart_tbs/2
  .byte   W96
 @  #12 @043   ----------------------------------------
  .byte   W96
@@ -2683,9 +2683,9 @@ Label_012601DB:
  .byte   W96
 @  #12 @053   ----------------------------------------
  .byte   W24
- .byte   TEMPO , 112*song0106_tbs/2
+ .byte   TEMPO , 112*EldiganTheLionheart_tbs/2
  .byte   W12
- .byte   TEMPO , 124*song0106_tbs/2
+ .byte   TEMPO , 124*EldiganTheLionheart_tbs/2
  .byte   W12
  .byte   GOTO
   .word Label_012601DB
@@ -2693,22 +2693,22 @@ Label_012601DB:
 
 @**************** Track 13 (Midi-Chn.12) ****************@
 
-song0106_013:
+EldiganTheLionheart_013:
 @  #13 @000   ----------------------------------------
- .byte   TEMPO , 240*song0106_tbs/2
- .byte   KEYSH , song0106_key+0
+ .byte   TEMPO , 240*EldiganTheLionheart_tbs/2
+ .byte   KEYSH , EldiganTheLionheart_key+0
  .byte   VOICE , 127
- .byte   VOL , 49*song0106_mvl/mxv
+ .byte   VOL , 49*EldiganTheLionheart_mvl/mxv
  .byte   W15
  .byte   PAN , c_v+0
  .byte   W09
- .byte   TEMPO , 104*song0106_tbs/2
+ .byte   TEMPO , 104*EldiganTheLionheart_tbs/2
  .byte   PAN , c_v+0
  .byte   W60
- .byte   TEMPO , 120*song0106_tbs/2
+ .byte   TEMPO , 120*EldiganTheLionheart_tbs/2
  .byte   W12
 @  #13 @001   ----------------------------------------
- .byte   TEMPO , 136*song0106_tbs/2
+ .byte   TEMPO , 136*EldiganTheLionheart_tbs/2
  .byte   N06 ,Cn1 ,v127
  .byte   W72
  .byte   Dn1
@@ -2758,7 +2758,7 @@ Label_01260247:
  .byte   W12
  .byte   Dn1
  .byte   W12
- .byte   TEMPO , 138*song0106_tbs/2
+ .byte   TEMPO , 138*EldiganTheLionheart_tbs/2
  .byte   N06 ,Fs1 ,v127
  .byte   N06 ,Cn1
  .byte   W12
@@ -2886,7 +2886,7 @@ Label_012602DB:
  .byte   Fs1
  .byte   N06 ,Dn1
  .byte   W12
- .byte   TEMPO , 136*song0106_tbs/2
+ .byte   TEMPO , 136*EldiganTheLionheart_tbs/2
  .byte   N06 ,Fn1 ,v127
  .byte   W12
  .byte   PEND 
@@ -2955,12 +2955,12 @@ Label_01260326:
  .byte   W96
 @  #13 @025   ----------------------------------------
  .byte   W12
- .byte   TEMPO , 112*song0106_tbs/2
+ .byte   TEMPO , 112*EldiganTheLionheart_tbs/2
  .byte   W12
- .byte   TEMPO , 124*song0106_tbs/2
+ .byte   TEMPO , 124*EldiganTheLionheart_tbs/2
  .byte   W12
 Label_0126033F:
- .byte   TEMPO , 136*song0106_tbs/2
+ .byte   TEMPO , 136*EldiganTheLionheart_tbs/2
  .byte   N06 ,Cn1 ,v127
  .byte   W72
 @  #13 @026   ----------------------------------------
@@ -3039,9 +3039,9 @@ Label_0126033F:
  .byte   W96
 @  #13 @049   ----------------------------------------
  .byte   W12
- .byte   TEMPO , 112*song0106_tbs/2
+ .byte   TEMPO , 112*EldiganTheLionheart_tbs/2
  .byte   W12
- .byte   TEMPO , 124*song0106_tbs/2
+ .byte   TEMPO , 124*EldiganTheLionheart_tbs/2
  .byte   W12
  .byte   GOTO
   .word Label_0126033F
@@ -3050,26 +3050,26 @@ Label_0126033F:
 @******************************************************@
 	.align	2
 
-song0106:
+EldiganTheLionheart:
 	.byte	13	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song0106_pri	@ Priority
-	.byte	song0106_rev	@ Reverb.
+	.byte	EldiganTheLionheart_pri	@ Priority
+	.byte	EldiganTheLionheart_rev	@ Reverb.
     
-	.word	song0106_grp
+	.word	EldiganTheLionheart_grp
     
-	.word	song0106_001
-	.word	song0106_002
-	.word	song0106_003
-	.word	song0106_004
-	.word	song0106_005
-	.word	song0106_006
-	.word	song0106_007
-	.word	song0106_008
-	.word	song0106_009
-	.word	song0106_010
-	.word	song0106_011
-	.word	song0106_012
-	.word	song0106_013
+	.word	EldiganTheLionheart_001
+	.word	EldiganTheLionheart_002
+	.word	EldiganTheLionheart_003
+	.word	EldiganTheLionheart_004
+	.word	EldiganTheLionheart_005
+	.word	EldiganTheLionheart_006
+	.word	EldiganTheLionheart_007
+	.word	EldiganTheLionheart_008
+	.word	EldiganTheLionheart_009
+	.word	EldiganTheLionheart_010
+	.word	EldiganTheLionheart_011
+	.word	EldiganTheLionheart_012
+	.word	EldiganTheLionheart_013
 
 	.end

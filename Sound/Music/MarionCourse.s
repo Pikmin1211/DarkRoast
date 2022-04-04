@@ -1,29 +1,29 @@
 	.include "MPlayDef.s"
 
-	.equ	song0185_grp, voicegroup000
-	.equ	song0185_pri, 0
-	.equ	song0185_rev, 0
-	.equ	song0185_mvl, 127
-	.equ	song0185_key, 0
-	.equ	song0185_tbs, 1
-	.equ	song0185_exg, 0
-	.equ	song0185_cmp, 1
+	.equ	MarionCourse_grp, voicegroup000
+	.equ	MarionCourse_pri, 0
+	.equ	MarionCourse_rev, 0
+	.equ	MarionCourse_mvl, 127
+	.equ	MarionCourse_key, 0
+	.equ	MarionCourse_tbs, 1
+	.equ	MarionCourse_exg, 0
+	.equ	MarionCourse_cmp, 1
 
 	.section .rodata
-	.global	song0185
+	.global	MarionCourse
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song0185_001:
+MarionCourse_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , song0185_key+0
+ .byte   KEYSH , MarionCourse_key+0
 Label_012C69F6:
- .byte   TEMPO , 92*song0185_tbs/2
+ .byte   TEMPO , 92*MarionCourse_tbs/2
  .byte   VOICE , 68
  .byte   PAN , c_v+10
- .byte   VOL , 41*song0185_mvl/mxv
+ .byte   VOL , 41*MarionCourse_mvl/mxv
  .byte   N24 ,Cn4 ,v076
  .byte   W24
  .byte   N06 ,Bn3 ,v080
@@ -594,7 +594,7 @@ Label_012C6A39:
  .byte   N72 ,Cn4 ,v076
  .byte   W72
 @  #01 @028   ----------------------------------------
- .byte   TEMPO , 92*song0185_tbs/2
+ .byte   TEMPO , 92*MarionCourse_tbs/2
  .byte   N24 ,Cn4 ,v084
  .byte   W24
  .byte   N06 ,Bn3 ,v080
@@ -1169,13 +1169,13 @@ Label_012C6A39:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song0185_002:
+MarionCourse_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , song0185_key+0
+ .byte   KEYSH , MarionCourse_key+0
 Label_012C70C2:
  .byte   VOICE , 68
  .byte   PAN , c_v-10
- .byte   VOL , 38*song0185_mvl/mxv
+ .byte   VOL , 38*MarionCourse_mvl/mxv
  .byte   N24 ,En3 ,v080
  .byte   W24
  .byte   N06 ,Dn3
@@ -2663,13 +2663,13 @@ Label_012C7101:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song0185_003:
+MarionCourse_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , song0185_key+0
+ .byte   KEYSH , MarionCourse_key+0
 Label_012BCD0E:
  .byte   VOICE , 36
  .byte   PAN , c_v+0
- .byte   VOL , 41*song0185_mvl/mxv
+ .byte   VOL , 41*MarionCourse_mvl/mxv
  .byte   N15 ,Cn2 ,v116
  .byte   W18
  .byte   Gn1
@@ -3361,13 +3361,13 @@ Label_012BCFE9:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song0185_004:
+MarionCourse_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , song0185_key+0
+ .byte   KEYSH , MarionCourse_key+0
 Label_012C7906:
  .byte   VOICE , 7
  .byte   PAN , c_v-10
- .byte   VOL , 54*song0185_mvl/mxv
+ .byte   VOL , 54*MarionCourse_mvl/mxv
  .byte   N21 ,Cn4 ,v112
  .byte   W24
  .byte   N05 ,Bn3 ,v116
@@ -4448,13 +4448,13 @@ Label_012C7BA9:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song0185_005:
+MarionCourse_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , song0185_key+0
+ .byte   KEYSH , MarionCourse_key+0
 Label_012C7F36:
  .byte   VOICE , 7
  .byte   PAN , c_v+10
- .byte   VOL , 57*song0185_mvl/mxv
+ .byte   VOL , 57*MarionCourse_mvl/mxv
  .byte   N21 ,En3 ,v112
  .byte   W24
  .byte   N05 ,Dn3
@@ -5841,13 +5841,13 @@ Label_012C81F6:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song0185_006:
+MarionCourse_006:
 @  #06 @000   ----------------------------------------
- .byte   KEYSH , song0185_key+0
+ .byte   KEYSH , MarionCourse_key+0
 Label_012C86CE:
  .byte   VOICE , 121
  .byte   PAN , c_v+6
- .byte   VOL , 65*song0185_mvl/mxv
+ .byte   VOL , 65*MarionCourse_mvl/mxv
  .byte   N06 ,Cn1 ,v076
  .byte   N06 ,Dn1
  .byte   W06
@@ -7832,19 +7832,19 @@ Label_012C86CE:
 @******************************************************@
 	.align	2
 
-song0185:
+MarionCourse:
 	.byte	6	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song0185_pri	@ Priority
-	.byte	song0185_rev	@ Reverb.
+	.byte	MarionCourse_pri	@ Priority
+	.byte	MarionCourse_rev	@ Reverb.
     
-	.word	song0185_grp
+	.word	MarionCourse_grp
     
-	.word	song0185_001
-	.word	song0185_002
-	.word	song0185_003
-	.word	song0185_004
-	.word	song0185_005
-	.word	song0185_006
+	.word	MarionCourse_001
+	.word	MarionCourse_002
+	.word	MarionCourse_003
+	.word	MarionCourse_004
+	.word	MarionCourse_005
+	.word	MarionCourse_006
 
 	.end

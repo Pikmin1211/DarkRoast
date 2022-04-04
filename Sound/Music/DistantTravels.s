@@ -1,28 +1,28 @@
 	.include "MPlayDef.s"
 
-	.equ	song5D_grp, voicegroup000
-	.equ	song5D_pri, 10
-	.equ	song5D_rev, 128
-	.equ	song5D_mvl, 127
-	.equ	song5D_key, 0
-	.equ	song5D_tbs, 1
-	.equ	song5D_exg, 0
-	.equ	song5D_cmp, 1
+	.equ	DistantTravels_grp, voicegroup000
+	.equ	DistantTravels_pri, 10
+	.equ	DistantTravels_rev, 128
+	.equ	DistantTravels_mvl, 127
+	.equ	DistantTravels_key, 0
+	.equ	DistantTravels_tbs, 1
+	.equ	DistantTravels_exg, 0
+	.equ	DistantTravels_cmp, 1
 
 	.section .rodata
-	.global	song5D
+	.global	DistantTravels
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song5D_001:
+DistantTravels_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , song5D_key+0
+ .byte   KEYSH , DistantTravels_key+0
 Label_0153A736:
- .byte   TEMPO , 128*song5D_tbs/2
+ .byte   TEMPO , 128*DistantTravels_tbs/2
  .byte   VOICE , 92
- .byte   VOL , 41*song5D_mvl/mxv
+ .byte   VOL , 41*DistantTravels_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N30 ,En2 ,v096
  .byte   N30 ,An2 ,v116
@@ -327,12 +327,12 @@ Label_0153A736:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song5D_002:
+DistantTravels_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , song5D_key+0
+ .byte   KEYSH , DistantTravels_key+0
 Label_0153A966:
  .byte   VOICE , 127
- .byte   VOL , 34*song5D_mvl/mxv
+ .byte   VOL , 34*DistantTravels_mvl/mxv
  .byte   PAN , c_v-18
  .byte   N11 ,Cn1 ,v112
  .byte   W12
@@ -527,12 +527,12 @@ Label_0153AA01:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song5D_003:
+DistantTravels_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , song5D_key+0
+ .byte   KEYSH , DistantTravels_key+0
 Label_0153AA8E:
  .byte   VOICE , 34
- .byte   VOL , 48*song5D_mvl/mxv
+ .byte   VOL , 48*DistantTravels_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N22 ,An2 ,v116
  .byte   W24
@@ -893,12 +893,12 @@ Label_0153ACAA:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song5D_004:
+DistantTravels_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , song5D_key+0
+ .byte   KEYSH , DistantTravels_key+0
 Label_0153ACFA:
  .byte   VOICE , 73
- .byte   VOL , 36*song5D_mvl/mxv
+ .byte   VOL , 36*DistantTravels_mvl/mxv
  .byte   PAN , c_v+6
  .byte   W12
  .byte   N04 ,An4 ,v112
@@ -1082,7 +1082,7 @@ Label_0153ACFA:
 @  #04 @013   ----------------------------------------
  .byte   W72
  .byte   VOICE , 68
- .byte   VOL , 42*song5D_mvl/mxv
+ .byte   VOL , 42*DistantTravels_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W24
 @  #04 @014   ----------------------------------------
@@ -1359,7 +1359,7 @@ Label_0153ACFA:
  .byte   W24
 @  #04 @028   ----------------------------------------
  .byte   VOICE , 51
- .byte   VOL , 38*song5D_mvl/mxv
+ .byte   VOL , 38*DistantTravels_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N04 ,Cn4 ,v100
  .byte   N05 ,En4
@@ -1400,12 +1400,12 @@ Label_0153ACFA:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song5D_005:
+DistantTravels_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , song5D_key+0
+ .byte   KEYSH , DistantTravels_key+0
 Label_0153B08A:
  .byte   VOICE , 47
- .byte   VOL , 38*song5D_mvl/mxv
+ .byte   VOL , 38*DistantTravels_mvl/mxv
  .byte   PAN , c_v-4
  .byte   W84
  .byte   N05 ,An2 ,v116
@@ -1536,9 +1536,9 @@ Label_0153B0C8:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song5D_006:
+DistantTravels_006:
 @  #06 @000   ----------------------------------------
- .byte   KEYSH , song5D_key+0
+ .byte   KEYSH , DistantTravels_key+0
 Label_0153B142:
  .byte   W96
 @  #06 @001   ----------------------------------------
@@ -1546,7 +1546,7 @@ Label_0153B142:
 @  #06 @002   ----------------------------------------
  .byte   W72
  .byte   VOICE , 110
- .byte   VOL , 36*song5D_mvl/mxv
+ .byte   VOL , 36*DistantTravels_mvl/mxv
  .byte   PAN , c_v+13
  .byte   W24
 @  #06 @003   ----------------------------------------
@@ -1681,19 +1681,19 @@ Label_0153B172:
 @******************************************************@
 	.align	2
 
-song5D:
+DistantTravels:
 	.byte	6	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song5D_pri	@ Priority
-	.byte	song5D_rev	@ Reverb.
+	.byte	DistantTravels_pri	@ Priority
+	.byte	DistantTravels_rev	@ Reverb.
     
-	.word	song5D_grp
+	.word	DistantTravels_grp
     
-	.word	song5D_001
-	.word	song5D_002
-	.word	song5D_003
-	.word	song5D_004
-	.word	song5D_005
-	.word	song5D_006
+	.word	DistantTravels_001
+	.word	DistantTravels_002
+	.word	DistantTravels_003
+	.word	DistantTravels_004
+	.word	DistantTravels_005
+	.word	DistantTravels_006
 
 	.end

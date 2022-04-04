@@ -1,28 +1,28 @@
 	.include "MPlayDef.s"
 
-	.equ	song05_grp, voicegroup000
-	.equ	song05_pri, 10
-	.equ	song05_rev, 0
-	.equ	song05_mvl, 127
-	.equ	song05_key, 0
-	.equ	song05_tbs, 1
-	.equ	song05_exg, 0
-	.equ	song05_cmp, 1
+	.equ	ShipsAndHomes_grp, voicegroup000
+	.equ	ShipsAndHomes_pri, 10
+	.equ	ShipsAndHomes_rev, 0
+	.equ	ShipsAndHomes_mvl, 127
+	.equ	ShipsAndHomes_key, 0
+	.equ	ShipsAndHomes_tbs, 1
+	.equ	ShipsAndHomes_exg, 0
+	.equ	ShipsAndHomes_cmp, 1
 
 	.section .rodata
-	.global	song05
+	.global	ShipsAndHomes
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song05_001:
+ShipsAndHomes_001:
 @  #01 @000   ----------------------------------------
 Label_01489908:
- .byte   TEMPO , 96*song05_tbs/2
- .byte   KEYSH , song05_key+0
+ .byte   TEMPO , 96*ShipsAndHomes_tbs/2
+ .byte   KEYSH , ShipsAndHomes_key+0
  .byte   VOICE , 21
- .byte   VOL , 43*song05_mvl/mxv
+ .byte   VOL , 43*ShipsAndHomes_mvl/mxv
  .byte   PAN , c_v-30
  .byte   N06 ,An3 ,v092
  .byte   W06
@@ -282,13 +282,13 @@ Label_01489A09:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song05_002:
+ShipsAndHomes_002:
 @  #02 @000   ----------------------------------------
 Label_01489FA4:
- .byte   TEMPO , 96*song05_tbs/2
- .byte   KEYSH , song05_key+0
+ .byte   TEMPO , 96*ShipsAndHomes_tbs/2
+ .byte   KEYSH , ShipsAndHomes_key+0
  .byte   VOICE , 70
- .byte   VOL , 50*song05_mvl/mxv
+ .byte   VOL , 50*ShipsAndHomes_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N05 ,Fn2 ,v080
  .byte   W36
@@ -364,13 +364,13 @@ Label_01489FB6:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song05_003:
+ShipsAndHomes_003:
 @  #03 @000   ----------------------------------------
 Label_01489E00:
- .byte   TEMPO , 96*song05_tbs/2
- .byte   KEYSH , song05_key+0
+ .byte   TEMPO , 96*ShipsAndHomes_tbs/2
+ .byte   KEYSH , ShipsAndHomes_key+0
  .byte   VOICE , 46
- .byte   VOL , 50*song05_mvl/mxv
+ .byte   VOL , 50*ShipsAndHomes_mvl/mxv
  .byte   PAN , c_v+20
  .byte   N12 ,Fn3 ,v080
  .byte   W12
@@ -479,11 +479,11 @@ Label_01489E00:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song05_004:
+ShipsAndHomes_004:
 @  #04 @000   ----------------------------------------
 Label_01489BC8:
- .byte   TEMPO , 96*song05_tbs/2
- .byte   KEYSH , song05_key+0
+ .byte   TEMPO , 96*ShipsAndHomes_tbs/2
+ .byte   KEYSH , ShipsAndHomes_key+0
  .byte   VOICE , 14
  .byte   W96
 @  #04 @001   ----------------------------------------
@@ -496,7 +496,7 @@ Label_01489BC8:
  .byte   W96
 @  #04 @005   ----------------------------------------
  .byte   W84
- .byte   VOL , 45*song05_mvl/mxv
+ .byte   VOL , 45*ShipsAndHomes_mvl/mxv
  .byte   W06
  .byte   PAN , c_v+10
  .byte   W06
@@ -558,13 +558,13 @@ Label_01489BC8:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song05_005:
+ShipsAndHomes_005:
 @  #05 @000   ----------------------------------------
 Label_01489AB0:
- .byte   TEMPO , 96*song05_tbs/2
- .byte   KEYSH , song05_key+0
+ .byte   TEMPO , 96*ShipsAndHomes_tbs/2
+ .byte   KEYSH , ShipsAndHomes_key+0
  .byte   VOICE , 127
- .byte   VOL , 52*song05_mvl/mxv
+ .byte   VOL , 52*ShipsAndHomes_mvl/mxv
  .byte   PAN , c_v-15
  .byte   N11 ,Gs2 ,v096
  .byte   W12
@@ -703,18 +703,18 @@ Label_01489B33:
 @******************************************************@
 	.align	2
 
-song05:
+ShipsAndHomes:
 	.byte	5	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song05_pri	@ Priority
-	.byte	song05_rev	@ Reverb.
+	.byte	ShipsAndHomes_pri	@ Priority
+	.byte	ShipsAndHomes_rev	@ Reverb.
     
-	.word	song05_grp
+	.word	ShipsAndHomes_grp
     
-	.word	song05_001
-	.word	song05_002
-	.word	song05_003
-	.word	song05_004
-	.word	song05_005
+	.word	ShipsAndHomes_001
+	.word	ShipsAndHomes_002
+	.word	ShipsAndHomes_003
+	.word	ShipsAndHomes_004
+	.word	ShipsAndHomes_005
 
 	.end

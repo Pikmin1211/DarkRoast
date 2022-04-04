@@ -1,27 +1,27 @@
 	.include "MPlayDef.s"
 
-	.equ	song54_grp, voicegroup000
-	.equ	song54_pri, 0
-	.equ	song54_rev, 0
-	.equ	song54_mvl, 127
-	.equ	song54_key, 0
-	.equ	song54_tbs, 1
-	.equ	song54_exg, 0
-	.equ	song54_cmp, 1
+	.equ	KnightErrant_grp, voicegroup000
+	.equ	KnightErrant_pri, 0
+	.equ	KnightErrant_rev, 0
+	.equ	KnightErrant_mvl, 127
+	.equ	KnightErrant_key, 0
+	.equ	KnightErrant_tbs, 1
+	.equ	KnightErrant_exg, 0
+	.equ	KnightErrant_cmp, 1
 
 	.section .rodata
-	.global	song54
+	.global	KnightErrant
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song54_001:
+KnightErrant_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , song54_key+0
- .byte   TEMPO , 160*song54_tbs/2
+ .byte   KEYSH , KnightErrant_key+0
+ .byte   TEMPO , 160*KnightErrant_tbs/2
  .byte   VOICE , 57
- .byte   VOL , 50*song54_mvl/mxv
+ .byte   VOL , 50*KnightErrant_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W24
  .byte   W24
@@ -873,11 +873,11 @@ Label_0126B322:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song54_002:
+KnightErrant_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , song54_key+0
+ .byte   KEYSH , KnightErrant_key+0
  .byte   VOICE , 29
- .byte   VOL , 39*song54_mvl/mxv
+ .byte   VOL , 39*KnightErrant_mvl/mxv
  .byte   PAN , c_v-1
  .byte   W24
  .byte   W24
@@ -1541,11 +1541,11 @@ Label_0126B784:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song54_003:
+KnightErrant_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , song54_key+0
+ .byte   KEYSH , KnightErrant_key+0
  .byte   VOICE , 29
- .byte   VOL , 25*song54_mvl/mxv
+ .byte   VOL , 25*KnightErrant_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W24
  .byte   N02 ,Cn5 ,v056
@@ -1876,11 +1876,11 @@ Label_0126B86E:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song54_004:
+KnightErrant_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , song54_key+0
+ .byte   KEYSH , KnightErrant_key+0
  .byte   VOICE , 30
- .byte   VOL , 31*song54_mvl/mxv
+ .byte   VOL , 31*KnightErrant_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W24
  .byte   N02 ,Cn5 ,v056
@@ -2207,11 +2207,11 @@ Label_0126B9AC:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song54_005:
+KnightErrant_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , song54_key+0
+ .byte   KEYSH , KnightErrant_key+0
  .byte   VOICE , 73
- .byte   VOL , 31*song54_mvl/mxv
+ .byte   VOL , 31*KnightErrant_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W24
  .byte   N02 ,Cn5 ,v056
@@ -2850,11 +2850,11 @@ Label_0126BC98:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song54_006:
+KnightErrant_006:
 @  #06 @000   ----------------------------------------
- .byte   KEYSH , song54_key+0
+ .byte   KEYSH , KnightErrant_key+0
  .byte   VOICE , 21
- .byte   VOL , 40*song54_mvl/mxv
+ .byte   VOL , 40*KnightErrant_mvl/mxv
  .byte   W24
  .byte   W24
  .byte   W24
@@ -3383,11 +3383,11 @@ Label_0126BEBF:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-song54_007:
+KnightErrant_007:
 @  #07 @000   ----------------------------------------
- .byte   KEYSH , song54_key+0
+ .byte   KEYSH , KnightErrant_key+0
  .byte   VOICE , 56
- .byte   VOL , 25*song54_mvl/mxv
+ .byte   VOL , 25*KnightErrant_mvl/mxv
  .byte   W09
  .byte   PAN , c_v+0
  .byte   W15
@@ -3833,11 +3833,11 @@ Label_0126C074:
 
 @**************** Track 8 (Midi-Chn.7) ****************@
 
-song54_008:
+KnightErrant_008:
 @  #08 @000   ----------------------------------------
- .byte   KEYSH , song54_key+0
+ .byte   KEYSH , KnightErrant_key+0
  .byte   VOICE , 57
- .byte   VOL , 25*song54_mvl/mxv
+ .byte   VOL , 25*KnightErrant_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W24
  .byte   W24
@@ -4179,11 +4179,11 @@ Label_0126C275:
 
 @**************** Track 9 (Midi-Chn.8) ****************@
 
-song54_009:
+KnightErrant_009:
 @  #09 @000   ----------------------------------------
- .byte   KEYSH , song54_key+0
+ .byte   KEYSH , KnightErrant_key+0
  .byte   VOICE , 58
- .byte   VOL , 25*song54_mvl/mxv
+ .byte   VOL , 25*KnightErrant_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W24
  .byte   W24
@@ -4540,11 +4540,11 @@ Label_0126C512:
 
 @**************** Track 10 (Midi-Chn.9) ****************@
 
-song54_010:
+KnightErrant_010:
 @  #10 @000   ----------------------------------------
- .byte   KEYSH , song54_key+0
+ .byte   KEYSH , KnightErrant_key+0
  .byte   VOICE , 34
- .byte   VOL , 25*song54_mvl/mxv
+ .byte   VOL , 25*KnightErrant_mvl/mxv
  .byte   W09
  .byte   PAN , c_v+0
  .byte   W15
@@ -5181,11 +5181,11 @@ Label_0126C7D9:
 
 @**************** Track 11 (Midi-Chn.10) ****************@
 
-song54_011:
+KnightErrant_011:
 @  #11 @000   ----------------------------------------
- .byte   KEYSH , song54_key+0
+ .byte   KEYSH , KnightErrant_key+0
  .byte   VOICE , 123
- .byte   VOL , 33*song54_mvl/mxv
+ .byte   VOL , 33*KnightErrant_mvl/mxv
  .byte   W09
  .byte   PAN , c_v+0
  .byte   W15
@@ -6008,24 +6008,24 @@ Label_0126CD39:
 @******************************************************@
 	.align	2
 
-song54:
+KnightErrant:
 	.byte	11	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song54_pri	@ Priority
-	.byte	song54_rev	@ Reverb.
+	.byte	KnightErrant_pri	@ Priority
+	.byte	KnightErrant_rev	@ Reverb.
     
-	.word	song54_grp
+	.word	KnightErrant_grp
     
-	.word	song54_001
-	.word	song54_002
-	.word	song54_003
-	.word	song54_004
-	.word	song54_005
-	.word	song54_006
-	.word	song54_007
-	.word	song54_008
-	.word	song54_009
-	.word	song54_010
-	.word	song54_011
+	.word	KnightErrant_001
+	.word	KnightErrant_002
+	.word	KnightErrant_003
+	.word	KnightErrant_004
+	.word	KnightErrant_005
+	.word	KnightErrant_006
+	.word	KnightErrant_007
+	.word	KnightErrant_008
+	.word	KnightErrant_009
+	.word	KnightErrant_010
+	.word	KnightErrant_011
 
 	.end

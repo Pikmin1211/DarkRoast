@@ -1,26 +1,26 @@
 	.include "MPlayDef.s"
 
-	.equ	song15_grp, voicegroup000
-	.equ	song15_pri, 0
-	.equ	song15_rev, 0
-	.equ	song15_mvl, 127
-	.equ	song15_key, 0
-	.equ	song15_tbs, 1
-	.equ	song15_exg, 0
-	.equ	song15_cmp, 1
+	.equ	CorridorsOfTime_grp, voicegroup000
+	.equ	CorridorsOfTime_pri, 0
+	.equ	CorridorsOfTime_rev, 0
+	.equ	CorridorsOfTime_mvl, 127
+	.equ	CorridorsOfTime_key, 0
+	.equ	CorridorsOfTime_tbs, 1
+	.equ	CorridorsOfTime_exg, 0
+	.equ	CorridorsOfTime_cmp, 1
 
 	.section .rodata
-	.global	song15
+	.global	CorridorsOfTime
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song15_001:
+CorridorsOfTime_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , song15_key+0
+ .byte   KEYSH , CorridorsOfTime_key+0
 Label_012B5AE6:
- .byte   TEMPO , 110*song15_tbs/2
+ .byte   TEMPO , 110*CorridorsOfTime_tbs/2
  .byte   W96
 @  #01 @001   ----------------------------------------
  .byte   W96
@@ -30,7 +30,7 @@ Label_012B5AE6:
  .byte   W96
 @  #01 @004   ----------------------------------------
  .byte   VOICE , 19
- .byte   VOL , 29*song15_mvl/mxv
+ .byte   VOL , 29*CorridorsOfTime_mvl/mxv
  .byte   PAN , c_v+63
  .byte   N15 ,An4 ,v116
  .byte   W16
@@ -41,7 +41,7 @@ Label_012B5AE6:
 @  #01 @006   ----------------------------------------
  .byte   W96
 @  #01 @007   ----------------------------------------
- .byte   VOL , 47*song15_mvl/mxv
+ .byte   VOL , 47*CorridorsOfTime_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W84
  .byte   N11 ,Cs3
@@ -181,11 +181,11 @@ Label_012B5B03:
  .byte   N11 ,Fs3
  .byte   W12
 @  #01 @023   ----------------------------------------
- .byte   VOL , 35*song15_mvl/mxv
+ .byte   VOL , 35*CorridorsOfTime_mvl/mxv
  .byte   N92
  .byte   W96
 @  #01 @024   ----------------------------------------
- .byte   VOL , 29*song15_mvl/mxv
+ .byte   VOL , 29*CorridorsOfTime_mvl/mxv
  .byte   PAN , c_v+63
  .byte   N15 ,An4
  .byte   W16
@@ -193,7 +193,7 @@ Label_012B5B03:
  .byte   W80
 @  #01 @025   ----------------------------------------
  .byte   VOICE , 56
- .byte   VOL , 46*song15_mvl/mxv
+ .byte   VOL , 46*CorridorsOfTime_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N44 ,Bn3
  .byte   W48
@@ -276,7 +276,7 @@ Label_012B5BB0:
   .word Label_012B5AE6
 @  #01 @041   ----------------------------------------
  .byte   VOICE , 19
- .byte   VOL , 29*song15_mvl/mxv
+ .byte   VOL , 29*CorridorsOfTime_mvl/mxv
  .byte   PAN , c_v+63
  .byte   N15 ,An4 ,v116
  .byte   W32
@@ -285,9 +285,9 @@ Label_012B5BB0:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song15_002:
+CorridorsOfTime_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , song15_key+0
+ .byte   KEYSH , CorridorsOfTime_key+0
 Label_012B5C1E:
  .byte   W96
 @  #02 @001   ----------------------------------------
@@ -299,7 +299,7 @@ Label_012B5C1E:
 @  #02 @004   ----------------------------------------
 Label_012B5C22:
  .byte   VOICE , 10
- .byte   VOL , 29*song15_mvl/mxv
+ .byte   VOL , 29*CorridorsOfTime_mvl/mxv
  .byte   PAN , c_v+63
  .byte   W04
  .byte   N15 ,Gs4 ,v116
@@ -309,7 +309,7 @@ Label_012B5C22:
  .byte   PEND 
 @  #02 @005   ----------------------------------------
  .byte   VOICE , 56
- .byte   VOL , 10*song15_mvl/mxv
+ .byte   VOL , 10*CorridorsOfTime_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N92 ,Fs3
  .byte   W96
@@ -320,7 +320,7 @@ Label_012B5C22:
  .byte   Cs3
  .byte   W96
 @  #02 @008   ----------------------------------------
- .byte   VOL , 47*song15_mvl/mxv
+ .byte   VOL , 47*CorridorsOfTime_mvl/mxv
  .byte   W24
  .byte   N11 ,Fs3
  .byte   W36
@@ -397,7 +397,7 @@ Label_012B5C4E:
   .word Label_012B5C22
 @  #02 @025   ----------------------------------------
  .byte   VOICE , 56
- .byte   VOL , 30*song15_mvl/mxv
+ .byte   VOL , 30*CorridorsOfTime_mvl/mxv
  .byte   PAN , c_v+36
  .byte   N44 ,Fs3 ,v116
  .byte   W48
@@ -480,7 +480,7 @@ Label_012B5CAF:
   .word Label_012B5C1E
 @  #02 @041   ----------------------------------------
  .byte   VOICE , 10
- .byte   VOL , 29*song15_mvl/mxv
+ .byte   VOL , 29*CorridorsOfTime_mvl/mxv
  .byte   PAN , c_v+63
  .byte   W04
  .byte   N15 ,Gs4 ,v116
@@ -490,9 +490,9 @@ Label_012B5CAF:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song15_003:
+CorridorsOfTime_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , song15_key+0
+ .byte   KEYSH , CorridorsOfTime_key+0
 Label_012B5D1E:
  .byte   W96
 @  #03 @001   ----------------------------------------
@@ -504,7 +504,7 @@ Label_012B5D1E:
 @  #03 @004   ----------------------------------------
 Label_012B5D22:
  .byte   VOICE , 10
- .byte   VOL , 29*song15_mvl/mxv
+ .byte   VOL , 29*CorridorsOfTime_mvl/mxv
  .byte   PAN , c_v+63
  .byte   W08
  .byte   N15 ,Fs4 ,v116
@@ -514,7 +514,7 @@ Label_012B5D22:
  .byte   PEND 
 @  #03 @005   ----------------------------------------
  .byte   VOICE , 56
- .byte   VOL , 10*song15_mvl/mxv
+ .byte   VOL , 10*CorridorsOfTime_mvl/mxv
  .byte   PAN , c_v-58
  .byte   N92 ,Cs3
  .byte   W96
@@ -525,7 +525,7 @@ Label_012B5D22:
  .byte   En2
  .byte   W96
 @  #03 @008   ----------------------------------------
- .byte   VOL , 41*song15_mvl/mxv
+ .byte   VOL , 41*CorridorsOfTime_mvl/mxv
  .byte   W24
  .byte   N11 ,Cs3
  .byte   W36
@@ -599,7 +599,7 @@ Label_012B5D4E:
   .word Label_012B5D22
 @  #03 @025   ----------------------------------------
  .byte   VOICE , 56
- .byte   VOL , 29*song15_mvl/mxv
+ .byte   VOL , 29*CorridorsOfTime_mvl/mxv
  .byte   PAN , c_v-35
  .byte   N44 ,En3 ,v116
  .byte   W48
@@ -682,7 +682,7 @@ Label_012B5DAF:
   .word Label_012B5D1E
 @  #03 @041   ----------------------------------------
  .byte   VOICE , 10
- .byte   VOL , 29*song15_mvl/mxv
+ .byte   VOL , 29*CorridorsOfTime_mvl/mxv
  .byte   PAN , c_v+63
  .byte   W32
  .byte   W03
@@ -690,9 +690,9 @@ Label_012B5DAF:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song15_004:
+CorridorsOfTime_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , song15_key+0
+ .byte   KEYSH , CorridorsOfTime_key+0
 Label_012B5E1A:
  .byte   VOICE , 118
  .byte   W96
@@ -704,20 +704,20 @@ Label_012B5E1A:
  .byte   W96
 @  #04 @004   ----------------------------------------
 Label_012B5E20:
- .byte   VOL , 59*song15_mvl/mxv
+ .byte   VOL , 59*CorridorsOfTime_mvl/mxv
  .byte   N17 ,Cn3 ,v116
  .byte   W18
  .byte   N05
  .byte   W06
- .byte   VOL , 53*song15_mvl/mxv
+ .byte   VOL , 53*CorridorsOfTime_mvl/mxv
  .byte   N11 ,Gn3
  .byte   W12
- .byte   VOL , 59*song15_mvl/mxv
+ .byte   VOL , 59*CorridorsOfTime_mvl/mxv
  .byte   N23 ,Cn3
  .byte   W24
  .byte   N11
  .byte   W12
- .byte   VOL , 53*song15_mvl/mxv
+ .byte   VOL , 53*CorridorsOfTime_mvl/mxv
  .byte   N11 ,Gn3
  .byte   W12
  .byte   N05 ,En3
@@ -784,23 +784,23 @@ Label_012B5E20:
   .word Label_012B5E20
 @  #04 @024   ----------------------------------------
 Label_012B5E9E:
- .byte   VOL , 59*song15_mvl/mxv
+ .byte   VOL , 59*CorridorsOfTime_mvl/mxv
  .byte   N17 ,Cn3 ,v116
  .byte   W18
  .byte   N05
  .byte   W06
- .byte   VOL , 53*song15_mvl/mxv
+ .byte   VOL , 53*CorridorsOfTime_mvl/mxv
  .byte   N11 ,Gn3
  .byte   W12
- .byte   VOL , 59*song15_mvl/mxv
+ .byte   VOL , 59*CorridorsOfTime_mvl/mxv
  .byte   N23 ,Cn3
  .byte   W24
  .byte   N11
  .byte   W12
- .byte   VOL , 59*song15_mvl/mxv
+ .byte   VOL , 59*CorridorsOfTime_mvl/mxv
  .byte   N11 ,Dn3
  .byte   W12
- .byte   VOL , 53*song15_mvl/mxv
+ .byte   VOL , 53*CorridorsOfTime_mvl/mxv
  .byte   N05 ,En3
  .byte   W06
  .byte   Fn3
@@ -855,7 +855,7 @@ Label_012B5E9E:
  .byte   GOTO
   .word Label_012B5E1A
 @  #04 @041   ----------------------------------------
- .byte   VOL , 59*song15_mvl/mxv
+ .byte   VOL , 59*CorridorsOfTime_mvl/mxv
  .byte   N17 ,Cn3 ,v116
  .byte   W32
  .byte   W03
@@ -863,9 +863,9 @@ Label_012B5E9E:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song15_005:
+CorridorsOfTime_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , song15_key+0
+ .byte   KEYSH , CorridorsOfTime_key+0
 Label_012B5F2A:
  .byte   W96
 @  #05 @001   ----------------------------------------
@@ -876,7 +876,7 @@ Label_012B5F2A:
  .byte   W96
 @  #05 @004   ----------------------------------------
  .byte   VOICE , 34
- .byte   VOL , 56*song15_mvl/mxv
+ .byte   VOL , 56*CorridorsOfTime_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N32 ,Dn3 ,v116
  .byte   W36
@@ -1044,7 +1044,7 @@ Label_012B5F77:
   .word Label_012B5F2A
 @  #05 @041   ----------------------------------------
  .byte   VOICE , 34
- .byte   VOL , 56*song15_mvl/mxv
+ .byte   VOL , 56*CorridorsOfTime_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N32 ,Dn3 ,v116
  .byte   W32
@@ -1053,12 +1053,12 @@ Label_012B5F77:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song15_006:
+CorridorsOfTime_006:
 @  #06 @000   ----------------------------------------
- .byte   KEYSH , song15_key+0
+ .byte   KEYSH , CorridorsOfTime_key+0
 Label_012B603E:
  .byte   VOICE , 40
- .byte   VOL , 44*song15_mvl/mxv
+ .byte   VOL , 44*CorridorsOfTime_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N11 ,Dn2 ,v116
  .byte   W12
@@ -1316,12 +1316,12 @@ Label_012B60F0:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-song15_007:
+CorridorsOfTime_007:
 @  #07 @000   ----------------------------------------
- .byte   KEYSH , song15_key+0
+ .byte   KEYSH , CorridorsOfTime_key+0
 Label_012B619A:
  .byte   VOICE , 40
- .byte   VOL , 30*song15_mvl/mxv
+ .byte   VOL , 30*CorridorsOfTime_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W06
  .byte   N11 ,Dn2 ,v116
@@ -1586,9 +1586,9 @@ Label_012B6253:
 
 @**************** Track 8 (Midi-Chn.7) ****************@
 
-song15_008:
+CorridorsOfTime_008:
 @  #08 @000   ----------------------------------------
- .byte   KEYSH , song15_key+0
+ .byte   KEYSH , CorridorsOfTime_key+0
 Label_012B62FA:
  .byte   W96
 @  #08 @001   ----------------------------------------
@@ -1600,7 +1600,7 @@ Label_012B62FA:
 @  #08 @004   ----------------------------------------
 Label_012B62FE:
  .byte   VOICE , 10
- .byte   VOL , 29*song15_mvl/mxv
+ .byte   VOL , 29*CorridorsOfTime_mvl/mxv
  .byte   PAN , c_v+63
  .byte   W12
  .byte   N80 ,Cs4 ,v116
@@ -1608,7 +1608,7 @@ Label_012B62FE:
  .byte   PEND 
 @  #08 @005   ----------------------------------------
  .byte   VOICE , 56
- .byte   VOL , 10*song15_mvl/mxv
+ .byte   VOL , 10*CorridorsOfTime_mvl/mxv
  .byte   PAN , c_v+58
  .byte   N92 ,An2
  .byte   W96
@@ -1621,7 +1621,7 @@ Label_012B62FE:
  .byte   EOT
  .byte   W01
 @  #08 @008   ----------------------------------------
- .byte   VOL , 41*song15_mvl/mxv
+ .byte   VOL , 41*CorridorsOfTime_mvl/mxv
  .byte   W24
  .byte   N11 ,An2
  .byte   W36
@@ -1695,7 +1695,7 @@ Label_012B632A:
   .word Label_012B62FE
 @  #08 @025   ----------------------------------------
  .byte   VOICE , 118
- .byte   VOL , 53*song15_mvl/mxv
+ .byte   VOL , 53*CorridorsOfTime_mvl/mxv
  .byte   W72
  .byte   N23 ,Gn3 ,v116
  .byte   W24
@@ -1760,7 +1760,7 @@ Label_012B632A:
   .word Label_012B62FA
 @  #08 @041   ----------------------------------------
  .byte   VOICE , 10
- .byte   VOL , 29*song15_mvl/mxv
+ .byte   VOL , 29*CorridorsOfTime_mvl/mxv
  .byte   PAN , c_v+63
  .byte   W32
  .byte   W03
@@ -1769,21 +1769,21 @@ Label_012B632A:
 @******************************************************@
 	.align	2
 
-song15:
+CorridorsOfTime:
 	.byte	8	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song15_pri	@ Priority
-	.byte	song15_rev	@ Reverb.
+	.byte	CorridorsOfTime_pri	@ Priority
+	.byte	CorridorsOfTime_rev	@ Reverb.
     
-	.word	song15_grp
+	.word	CorridorsOfTime_grp
     
-	.word	song15_001
-	.word	song15_002
-	.word	song15_003
-	.word	song15_004
-	.word	song15_005
-	.word	song15_006
-	.word	song15_007
-	.word	song15_008
+	.word	CorridorsOfTime_001
+	.word	CorridorsOfTime_002
+	.word	CorridorsOfTime_003
+	.word	CorridorsOfTime_004
+	.word	CorridorsOfTime_005
+	.word	CorridorsOfTime_006
+	.word	CorridorsOfTime_007
+	.word	CorridorsOfTime_008
 
 	.end

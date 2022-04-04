@@ -1,28 +1,28 @@
-	.include "MPlayDef.s"
+	.include "RevengeFE6PlayDef.s"
 
-	.equ	m_grp, voicegroup000
-	.equ	m_pri, 10
-	.equ	m_rev, 0
-	.equ	m_mvl, 127
-	.equ	m_key, 0
-	.equ	m_tbs, 1
-	.equ	m_exg, 0
-	.equ	m_cmp, 1
+	.equ	RevengeFE6_grp, voicegroup000
+	.equ	RevengeFE6_pri, 10
+	.equ	RevengeFE6_rev, 0
+	.equ	RevengeFE6_RevengeFE6vl, 127
+	.equ	RevengeFE6_key, 0
+	.equ	RevengeFE6_tbs, 1
+	.equ	RevengeFE6_exg, 0
+	.equ	RevengeFE6_cRevengeFE6p, 1
 
 	.section .rodata
-	.global	m
+	.global	RevengeFE6
 	.align	2
 
 
-@**************** Track 1 (Midi-Chn.0) ****************@
+@**************** Track 1 (RevengeFE6idi-Chn.0) ****************@
 
-m_001:
+RevengeFE6_001:
 @  #01 @000   ----------------------------------------
 Label_00:
- .byte   TEMPO , 150*m_tbs/2
- .byte   KEYSH , m_key+0
+ .byte   TERevengeFE6PO , 150*RevengeFE6_tbs/2
+ .byte   KEYSH , RevengeFE6_key+0
  .byte   VOICE , 14
- .byte   VOL , 74*m_mvl/mxv
+ .byte   VOL , 74*RevengeFE6_RevengeFE6vl/RevengeFE6xv
  .byte   PAN , c_v-4
  .byte   N12 ,Gs3 ,v092
  .byte   W24
@@ -100,15 +100,15 @@ Label_00:
   .word Label_00
  .byte   FINE
 
-@**************** Track 2 (Midi-Chn.1) ****************@
+@**************** Track 2 (RevengeFE6idi-Chn.1) ****************@
 
-m_002:
+RevengeFE6_002:
 @  #02 @000   ----------------------------------------
 Label_00:
- .byte   TEMPO , 150*m_tbs/2
- .byte   KEYSH , m_key+0
+ .byte   TERevengeFE6PO , 150*RevengeFE6_tbs/2
+ .byte   KEYSH , RevengeFE6_key+0
  .byte   VOICE , 18
- .byte   VOL , 49*m_mvl/mxv
+ .byte   VOL , 49*RevengeFE6_RevengeFE6vl/RevengeFE6xv
  .byte   PAN , c_v-2
  .byte   N14 ,Gs2 ,v080
  .byte   W24
@@ -173,15 +173,15 @@ Label_00:
   .word Label_00
  .byte   FINE
 
-@**************** Track 3 (Midi-Chn.2) ****************@
+@**************** Track 3 (RevengeFE6idi-Chn.2) ****************@
 
-m_003:
+RevengeFE6_003:
 @  #03 @000   ----------------------------------------
 Label_00:
- .byte   TEMPO , 150*m_tbs/2
- .byte   KEYSH , m_key+0
+ .byte   TERevengeFE6PO , 150*RevengeFE6_tbs/2
+ .byte   KEYSH , RevengeFE6_key+0
  .byte   VOICE , 18
- .byte   VOL , 68*m_mvl/mxv
+ .byte   VOL , 68*RevengeFE6_RevengeFE6vl/RevengeFE6xv
  .byte   PAN , c_v-13
  .byte   N14 ,Ds2 ,v092
  .byte   N14 ,Gs2 ,v104
@@ -272,13 +272,13 @@ Label_00:
   .word Label_00
  .byte   FINE
 
-@**************** Track 4 (Midi-Chn.3) ****************@
+@**************** Track 4 (RevengeFE6idi-Chn.3) ****************@
 
-m_004:
+RevengeFE6_004:
 @  #04 @000   ----------------------------------------
 Label_00:
- .byte   TEMPO , 150*m_tbs/2
- .byte   KEYSH , m_key+0
+ .byte   TERevengeFE6PO , 150*RevengeFE6_tbs/2
+ .byte   KEYSH , RevengeFE6_key+0
  .byte   VOICE , 18
  .byte   W96
 @  #04 @001   ----------------------------------------
@@ -289,7 +289,7 @@ Label_00:
  .byte   W96
 @  #04 @004   ----------------------------------------
  .byte   W72
- .byte   VOL , 70*m_mvl/mxv
+ .byte   VOL , 70*RevengeFE6_RevengeFE6vl/RevengeFE6xv
  .byte   PAN , c_v+1
  .byte   W96
 @  #04 @005   ----------------------------------------
@@ -309,16 +309,16 @@ Label_00:
   .word Label_00
  .byte   FINE
 
-@**************** Track 5 (Midi-Chn.4) ****************@
+@**************** Track 5 (RevengeFE6idi-Chn.4) ****************@
 
-m_005:
+RevengeFE6_005:
 @  #05 @000   ----------------------------------------
 Label_00:
- .byte   TEMPO , 150*m_tbs/2
- .byte   KEYSH , m_key+0
+ .byte   TERevengeFE6PO , 150*RevengeFE6_tbs/2
+ .byte   KEYSH , RevengeFE6_key+0
  .byte   VOICE , 127
- .byte   VOL , 46*m_mvl/mxv
- .byte   VOL , 42*m_mvl/mxv
+ .byte   VOL , 46*RevengeFE6_RevengeFE6vl/RevengeFE6xv
+ .byte   VOL , 42*RevengeFE6_RevengeFE6vl/RevengeFE6xv
  .byte   PAN , c_v-1
  .byte   PAN , c_v+0
  .byte   N11 ,Dn3 ,v104
@@ -645,18 +645,18 @@ Label_00:
 @******************************************************@
 	.align	2
 
-m:
-	.byte	5	@ NumTrks
-	.byte	0	@ NumBlks
-	.byte	m_pri	@ Priority
-	.byte	m_rev	@ Reverb.
+RevengeFE6:
+	.byte	5	@ NuRevengeFE6Trks
+	.byte	0	@ NuRevengeFE6Blks
+	.byte	RevengeFE6_pri	@ Priority
+	.byte	RevengeFE6_rev	@ Reverb.
     
-	.word	m_grp
+	.word	RevengeFE6_grp
     
-	.word	m_001
-	.word	m_002
-	.word	m_003
-	.word	m_004
-	.word	m_005
+	.word	RevengeFE6_001
+	.word	RevengeFE6_002
+	.word	RevengeFE6_003
+	.word	RevengeFE6_004
+	.word	RevengeFE6_005
 
 	.end

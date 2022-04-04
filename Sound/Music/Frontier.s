@@ -1,25 +1,25 @@
 	.include "MPlayDef.s"
 
-	.equ	songE8_grp, voicegroup000
-	.equ	songE8_pri, 10
-	.equ	songE8_rev, 128
-	.equ	songE8_mvl, 127
-	.equ	songE8_key, 0
-	.equ	songE8_tbs, 1
-	.equ	songE8_exg, 0
-	.equ	songE8_cmp, 1
+	.equ	Frontier_grp, voicegroup000
+	.equ	Frontier_pri, 10
+	.equ	Frontier_rev, 128
+	.equ	Frontier_mvl, 127
+	.equ	Frontier_key, 0
+	.equ	Frontier_tbs, 1
+	.equ	Frontier_exg, 0
+	.equ	Frontier_cmp, 1
 
 	.section .rodata
-	.global	songE8
+	.global	Frontier
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-songE8_001:
+Frontier_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , songE8_key+0
- .byte   TEMPO , 142*songE8_tbs/2
+ .byte   KEYSH , Frontier_key+0
+ .byte   TEMPO , 142*Frontier_tbs/2
  .byte   W96
 @  #01 @001   ----------------------------------------
  .byte   W96
@@ -30,7 +30,7 @@ songE8_001:
 @  #01 @004   ----------------------------------------
 Label_0124409C:
  .byte   VOICE , 1
- .byte   VOL , 62*songE8_mvl/mxv
+ .byte   VOL , 62*Frontier_mvl/mxv
  .byte   PAN , c_v+21
  .byte   N56 ,Gn3 ,v080
  .byte   W60
@@ -102,7 +102,7 @@ Label_0124409C:
  .byte   W01
 @  #01 @012   ----------------------------------------
  .byte   VOICE , 3
- .byte   VOL , 74*songE8_mvl/mxv
+ .byte   VOL , 74*Frontier_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N28 ,Fn3 ,v096
  .byte   W36
@@ -369,9 +369,9 @@ Label_0124409C:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-songE8_002:
+Frontier_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , songE8_key+0
+ .byte   KEYSH , Frontier_key+0
  .byte   W96
 @  #02 @001   ----------------------------------------
  .byte   W96
@@ -382,7 +382,7 @@ songE8_002:
 @  #02 @004   ----------------------------------------
 Label_0124429C:
  .byte   VOICE , 1
- .byte   VOL , 48*songE8_mvl/mxv
+ .byte   VOL , 48*Frontier_mvl/mxv
  .byte   PAN , c_v-10
  .byte   N56 ,Gn2 ,v068
  .byte   W60
@@ -453,7 +453,7 @@ Label_0124429C:
  .byte   W96
 @  #02 @012   ----------------------------------------
  .byte   VOICE , 3
- .byte   VOL , 78*songE8_mvl/mxv
+ .byte   VOL , 78*Frontier_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N28 ,Cn3 ,v096
  .byte   W36
@@ -476,7 +476,7 @@ Label_0124429C:
  .byte   W96
 @  #02 @016   ----------------------------------------
  .byte   VOICE , 1
- .byte   VOL , 62*songE8_mvl/mxv
+ .byte   VOL , 62*Frontier_mvl/mxv
  .byte   N24 ,Dn3 ,v076
  .byte   W36
  .byte   En3
@@ -724,12 +724,12 @@ Label_0124429C:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-songE8_003:
+Frontier_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , songE8_key+0
+ .byte   KEYSH , Frontier_key+0
 Label_0124449B:
  .byte   VOICE , 4
- .byte   VOL , 90*songE8_mvl/mxv
+ .byte   VOL , 90*Frontier_mvl/mxv
  .byte   PAN , c_v-19
  .byte   N32 ,Cn3 ,v112
  .byte   W36
@@ -1080,7 +1080,7 @@ Label_012444E3:
  .byte   W12
 @  #03 @029   ----------------------------------------
  .byte   VOICE , 4
- .byte   VOL , 90*songE8_mvl/mxv
+ .byte   VOL , 90*Frontier_mvl/mxv
  .byte   PAN , c_v-19
  .byte   N17 ,Cn3 ,v112
  .byte   W36
@@ -1219,14 +1219,14 @@ Label_01244729:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-songE8_004:
+Frontier_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , songE8_key+0
+ .byte   KEYSH , Frontier_key+0
  .byte   W96
 @  #04 @001   ----------------------------------------
  .byte   W72
  .byte   VOICE , 6
- .byte   VOL , 74*songE8_mvl/mxv
+ .byte   VOL , 74*Frontier_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W24
 @  #04 @002   ----------------------------------------
@@ -1579,10 +1579,10 @@ Label_012448CE:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-songE8_005:
+Frontier_005:
 @  #05 @000   ----------------------------------------
- .byte   VOL , 100*songE8_mvl/mxv
- .byte   KEYSH , songE8_key+0
+ .byte   VOL , 100*Frontier_mvl/mxv
+ .byte   KEYSH , Frontier_key+0
  .byte   VOICE , 0
  .byte   N11 ,GnM2 ,v092
  .byte   W12
@@ -1933,10 +1933,10 @@ Label_01244B95:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-songE8_006:
+Frontier_006:
 @  #06 @000   ----------------------------------------
- .byte   VOL , 100*songE8_mvl/mxv
- .byte   KEYSH , songE8_key+0
+ .byte   VOL , 100*Frontier_mvl/mxv
+ .byte   KEYSH , Frontier_key+0
  .byte   VOICE , 0
  .byte   N23 ,AsM2 ,v096
  .byte   W36
@@ -2169,11 +2169,11 @@ Label_01244CFB:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-songE8_007:
+Frontier_007:
 @  #07 @000   ----------------------------------------
- .byte   KEYSH , songE8_key+0
+ .byte   KEYSH , Frontier_key+0
  .byte   VOICE , 0
- .byte   VOL , 94*songE8_mvl/mxv
+ .byte   VOL , 94*Frontier_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W36
  .byte   N44 ,CnM1 ,v112
@@ -2383,20 +2383,20 @@ Label_01244D88:
 @******************************************************@
 	.align	2
 
-songE8:
+Frontier:
 	.byte	7	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	songE8_pri	@ Priority
-	.byte	songE8_rev	@ Reverb.
+	.byte	Frontier_pri	@ Priority
+	.byte	Frontier_rev	@ Reverb.
     
-	.word	songE8_grp
+	.word	Frontier_grp
     
-	.word	songE8_001
-	.word	songE8_002
-	.word	songE8_003
-	.word	songE8_004
-	.word	songE8_005
-	.word	songE8_006
-	.word	songE8_007
+	.word	Frontier_001
+	.word	Frontier_002
+	.word	Frontier_003
+	.word	Frontier_004
+	.word	Frontier_005
+	.word	Frontier_006
+	.word	Frontier_007
 
 	.end

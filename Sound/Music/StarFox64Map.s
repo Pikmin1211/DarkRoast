@@ -1,28 +1,28 @@
 	.include "MPlayDef.s"
 
-	.equ	song03_grp, voicegroup000
-	.equ	song03_pri, 10
-	.equ	song03_rev, 0
-	.equ	song03_mvl, 127
-	.equ	song03_key, 0
-	.equ	song03_tbs, 1
-	.equ	song03_exg, 0
-	.equ	song03_cmp, 1
+	.equ	StarFox64Map_grp, voicegroup000
+	.equ	StarFox64Map_pri, 10
+	.equ	StarFox64Map_rev, 0
+	.equ	StarFox64Map_mvl, 127
+	.equ	StarFox64Map_key, 0
+	.equ	StarFox64Map_tbs, 1
+	.equ	StarFox64Map_exg, 0
+	.equ	StarFox64Map_cmp, 1
 
 	.section .rodata
-	.global	song03
+	.global	StarFox64Map
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song03_001:
+StarFox64Map_001:
 @  #01 @000   ----------------------------------------
 Label_010018B0:
- .byte   TEMPO , 120*song03_tbs/2
- .byte   KEYSH , song03_key+0
+ .byte   TEMPO , 120*StarFox64Map_tbs/2
+ .byte   KEYSH , StarFox64Map_key+0
  .byte   VOICE , 49
- .byte   VOL , 27*song03_mvl/mxv
+ .byte   VOL , 27*StarFox64Map_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N96 ,Fn1 ,v100
  .byte   N96 ,Cn2
@@ -201,13 +201,13 @@ Label_01001907:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song03_002:
+StarFox64Map_002:
 @  #02 @000   ----------------------------------------
 Label_01001BB0:
- .byte   TEMPO , 120*song03_tbs/2
- .byte   KEYSH , song03_key+0
+ .byte   TEMPO , 120*StarFox64Map_tbs/2
+ .byte   KEYSH , StarFox64Map_key+0
  .byte   VOICE , 56
- .byte   VOL , 44*song03_mvl/mxv
+ .byte   VOL , 44*StarFox64Map_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N06 ,Fn2 ,v100
  .byte   W12
@@ -721,13 +721,13 @@ Label_01001BCA:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song03_003:
+StarFox64Map_003:
 @  #03 @000   ----------------------------------------
 Label_01001980:
- .byte   TEMPO , 120*song03_tbs/2
- .byte   KEYSH , song03_key+0
+ .byte   TEMPO , 120*StarFox64Map_tbs/2
+ .byte   KEYSH , StarFox64Map_key+0
  .byte   VOICE , 60
- .byte   VOL , 52*song03_mvl/mxv
+ .byte   VOL , 52*StarFox64Map_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #03 @001   ----------------------------------------
@@ -1006,13 +1006,13 @@ Label_010019C7:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song03_004:
+StarFox64Map_004:
 @  #04 @000   ----------------------------------------
 Label_01001DE4:
- .byte   TEMPO , 120*song03_tbs/2
- .byte   KEYSH , song03_key+0
+ .byte   TEMPO , 120*StarFox64Map_tbs/2
+ .byte   KEYSH , StarFox64Map_key+0
  .byte   VOICE , 56
- .byte   VOL , 37*song03_mvl/mxv
+ .byte   VOL , 37*StarFox64Map_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #04 @001   ----------------------------------------
@@ -1222,13 +1222,13 @@ Label_01001E17:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song03_005:
+StarFox64Map_005:
 @  #05 @000   ----------------------------------------
 Label_01001EC4:
- .byte   TEMPO , 120*song03_tbs/2
- .byte   KEYSH , song03_key+0
+ .byte   TEMPO , 120*StarFox64Map_tbs/2
+ .byte   KEYSH , StarFox64Map_key+0
  .byte   VOICE , 48
- .byte   VOL , 30*song03_mvl/mxv
+ .byte   VOL , 30*StarFox64Map_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #05 @001   ----------------------------------------
@@ -1437,13 +1437,13 @@ Label_01001EEA:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song03_006:
+StarFox64Map_006:
 @  #06 @000   ----------------------------------------
 Label_01001FA4:
- .byte   TEMPO , 120*song03_tbs/2
- .byte   KEYSH , song03_key+0
+ .byte   TEMPO , 120*StarFox64Map_tbs/2
+ .byte   KEYSH , StarFox64Map_key+0
  .byte   VOICE , 121
- .byte   VOL , 92*song03_mvl/mxv
+ .byte   VOL , 92*StarFox64Map_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N03 ,Dn1 ,v069
  .byte   W12
@@ -2103,19 +2103,19 @@ Label_01001FC6:
 @******************************************************@
 	.align	2
 
-song03:
+StarFox64Map:
 	.byte	6	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song03_pri	@ Priority
-	.byte	song03_rev	@ Reverb.
+	.byte	StarFox64Map_pri	@ Priority
+	.byte	StarFox64Map_rev	@ Reverb.
     
-	.word	song03_grp
+	.word	StarFox64Map_grp
     
-	.word	song03_001
-	.word	song03_002
-	.word	song03_003
-	.word	song03_004
-	.word	song03_005
-	.word	song03_006
+	.word	StarFox64Map_001
+	.word	StarFox64Map_002
+	.word	StarFox64Map_003
+	.word	StarFox64Map_004
+	.word	StarFox64Map_005
+	.word	StarFox64Map_006
 
 	.end

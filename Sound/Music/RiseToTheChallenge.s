@@ -1,175 +1,175 @@
 	.include "MPlayDef.s"
 
-	.equ	song07_grp, voicegroup000
-	.equ	song07_pri, 10
-	.equ	song07_rev, 0
-	.equ	song07_mvl, 127
-	.equ	song07_key, 0
-	.equ	song07_tbs, 1
-	.equ	song07_exg, 0
-	.equ	song07_cmp, 1
+	.equ	RiseToTheChallenge_grp, voicegroup000
+	.equ	RiseToTheChallenge_pri, 10
+	.equ	RiseToTheChallenge_rev, 0
+	.equ	RiseToTheChallenge_mvl, 127
+	.equ	RiseToTheChallenge_key, 0
+	.equ	RiseToTheChallenge_tbs, 1
+	.equ	RiseToTheChallenge_exg, 0
+	.equ	RiseToTheChallenge_cmp, 1
 
 	.section .rodata
-	.global	song07
+	.global	RiseToTheChallenge
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song07_001:
+RiseToTheChallenge_001:
 @  #01 @000   ----------------------------------------
- .byte   TEMPO , 162*song07_tbs/2
- .byte   KEYSH , song07_key+0
+ .byte   TEMPO , 162*RiseToTheChallenge_tbs/2
+ .byte   KEYSH , RiseToTheChallenge_key+0
  .byte   VOICE , 48
- .byte   VOL , 21*song07_mvl/mxv
+ .byte   VOL , 21*RiseToTheChallenge_mvl/mxv
  .byte   PAN , c_v+6
  .byte   W06
  .byte   N11 ,As2 ,v052
  .byte   W06
- .byte   VOL , 21*song07_mvl/mxv
+ .byte   VOL , 21*RiseToTheChallenge_mvl/mxv
  .byte   W06
  .byte   N11 ,Cn3 ,v052
  .byte   W01
- .byte   VOL , 22*song07_mvl/mxv
+ .byte   VOL , 22*RiseToTheChallenge_mvl/mxv
  .byte   W06
- .byte   VOL , 22*song07_mvl/mxv
+ .byte   VOL , 22*RiseToTheChallenge_mvl/mxv
  .byte   W05
  .byte   N06 ,As2 ,v052
  .byte   W01
- .byte   VOL , 22*song07_mvl/mxv
+ .byte   VOL , 22*RiseToTheChallenge_mvl/mxv
  .byte   W07
- .byte   VOL , 23*song07_mvl/mxv
+ .byte   VOL , 23*RiseToTheChallenge_mvl/mxv
  .byte   W04
  .byte   N11 ,As2 ,v052
  .byte   W02
- .byte   VOL , 23*song07_mvl/mxv
+ .byte   VOL , 23*RiseToTheChallenge_mvl/mxv
  .byte   W07
- .byte   VOL , 24*song07_mvl/mxv
+ .byte   VOL , 24*RiseToTheChallenge_mvl/mxv
  .byte   W03
  .byte   N11 ,Cn3 ,v052
  .byte   W03
- .byte   VOL , 24*song07_mvl/mxv
+ .byte   VOL , 24*RiseToTheChallenge_mvl/mxv
  .byte   W06
- .byte   VOL , 25*song07_mvl/mxv
+ .byte   VOL , 25*RiseToTheChallenge_mvl/mxv
  .byte   W03
  .byte   N05 ,As2 ,v052
  .byte   W04
- .byte   VOL , 25*song07_mvl/mxv
+ .byte   VOL , 25*RiseToTheChallenge_mvl/mxv
  .byte   W06
- .byte   VOL , 25*song07_mvl/mxv
+ .byte   VOL , 25*RiseToTheChallenge_mvl/mxv
  .byte   W02
  .byte   N11 ,As2 ,v052
  .byte   W04
- .byte   VOL , 26*song07_mvl/mxv
+ .byte   VOL , 26*RiseToTheChallenge_mvl/mxv
  .byte   W07
- .byte   VOL , 26*song07_mvl/mxv
+ .byte   VOL , 26*RiseToTheChallenge_mvl/mxv
  .byte   W01
  .byte   N11 ,Cn3 ,v052
  .byte   W05
- .byte   VOL , 27*song07_mvl/mxv
+ .byte   VOL , 27*RiseToTheChallenge_mvl/mxv
  .byte   W07
 @  #01 @001   ----------------------------------------
- .byte   VOL , 27*song07_mvl/mxv
+ .byte   VOL , 27*RiseToTheChallenge_mvl/mxv
  .byte   N05 ,As2 ,v052
  .byte   W06
- .byte   VOL , 27*song07_mvl/mxv
+ .byte   VOL , 27*RiseToTheChallenge_mvl/mxv
  .byte   W06
- .byte   VOL , 28*song07_mvl/mxv
+ .byte   VOL , 28*RiseToTheChallenge_mvl/mxv
  .byte   N11 ,As2 ,v052
  .byte   W07
- .byte   VOL , 28*song07_mvl/mxv
+ .byte   VOL , 28*RiseToTheChallenge_mvl/mxv
  .byte   W05
  .byte   N11 ,Cn3 ,v052
  .byte   W01
- .byte   VOL , 29*song07_mvl/mxv
+ .byte   VOL , 29*RiseToTheChallenge_mvl/mxv
  .byte   W06
- .byte   VOL , 29*song07_mvl/mxv
+ .byte   VOL , 29*RiseToTheChallenge_mvl/mxv
  .byte   W05
  .byte   N05 ,As2 ,v052
  .byte   W02
- .byte   VOL , 30*song07_mvl/mxv
+ .byte   VOL , 30*RiseToTheChallenge_mvl/mxv
  .byte   W06
- .byte   VOL , 30*song07_mvl/mxv
+ .byte   VOL , 30*RiseToTheChallenge_mvl/mxv
  .byte   W04
  .byte   N11 ,As2 ,v052
  .byte   W03
- .byte   VOL , 30*song07_mvl/mxv
+ .byte   VOL , 30*RiseToTheChallenge_mvl/mxv
  .byte   W06
- .byte   VOL , 31*song07_mvl/mxv
+ .byte   VOL , 31*RiseToTheChallenge_mvl/mxv
  .byte   W03
  .byte   N08 ,Cn3 ,v052
  .byte   W03
- .byte   VOL , 31*song07_mvl/mxv
+ .byte   VOL , 31*RiseToTheChallenge_mvl/mxv
  .byte   W07
- .byte   VOL , 32*song07_mvl/mxv
+ .byte   VOL , 32*RiseToTheChallenge_mvl/mxv
  .byte   W02
  .byte   N07 ,As2 ,v052
  .byte   W04
- .byte   VOL , 32*song07_mvl/mxv
+ .byte   VOL , 32*RiseToTheChallenge_mvl/mxv
  .byte   W06
- .byte   VOL , 32*song07_mvl/mxv
+ .byte   VOL , 32*RiseToTheChallenge_mvl/mxv
  .byte   W02
  .byte   N11 ,As2 ,v052
  .byte   W05
- .byte   VOL , 33*song07_mvl/mxv
+ .byte   VOL , 33*RiseToTheChallenge_mvl/mxv
  .byte   W06
- .byte   VOL , 33*song07_mvl/mxv
+ .byte   VOL , 33*RiseToTheChallenge_mvl/mxv
  .byte   W01
 @  #01 @002   ----------------------------------------
  .byte   N11 ,Cn3 ,v052
  .byte   W06
- .byte   VOL , 34*song07_mvl/mxv
+ .byte   VOL , 34*RiseToTheChallenge_mvl/mxv
  .byte   W06
- .byte   VOL , 34*song07_mvl/mxv
+ .byte   VOL , 34*RiseToTheChallenge_mvl/mxv
  .byte   N05 ,Cs3 ,v052
  .byte   W06
- .byte   VOL , 35*song07_mvl/mxv
+ .byte   VOL , 35*RiseToTheChallenge_mvl/mxv
  .byte   W06
  .byte   N11 ,Cn3 ,v052
  .byte   W01
- .byte   VOL , 35*song07_mvl/mxv
+ .byte   VOL , 35*RiseToTheChallenge_mvl/mxv
  .byte   W06
- .byte   VOL , 35*song07_mvl/mxv
+ .byte   VOL , 35*RiseToTheChallenge_mvl/mxv
  .byte   W05
  .byte   N11 ,Cs3 ,v052
  .byte   W01
- .byte   VOL , 36*song07_mvl/mxv
+ .byte   VOL , 36*RiseToTheChallenge_mvl/mxv
  .byte   W07
- .byte   VOL , 36*song07_mvl/mxv
+ .byte   VOL , 36*RiseToTheChallenge_mvl/mxv
  .byte   W04
  .byte   N05 ,Cn3 ,v052
  .byte   W02
- .byte   VOL , 37*song07_mvl/mxv
+ .byte   VOL , 37*RiseToTheChallenge_mvl/mxv
  .byte   W07
- .byte   VOL , 37*song07_mvl/mxv
+ .byte   VOL , 37*RiseToTheChallenge_mvl/mxv
  .byte   W03
  .byte   N11 ,Cn3 ,v052
  .byte   W03
- .byte   VOL , 37*song07_mvl/mxv
+ .byte   VOL , 37*RiseToTheChallenge_mvl/mxv
  .byte   W06
- .byte   VOL , 38*song07_mvl/mxv
+ .byte   VOL , 38*RiseToTheChallenge_mvl/mxv
  .byte   W03
  .byte   N11 ,Cs3 ,v052
  .byte   W04
- .byte   VOL , 38*song07_mvl/mxv
+ .byte   VOL , 38*RiseToTheChallenge_mvl/mxv
  .byte   W06
- .byte   VOL , 39*song07_mvl/mxv
+ .byte   VOL , 39*RiseToTheChallenge_mvl/mxv
  .byte   W02
  .byte   N06 ,Cn3 ,v052
  .byte   W04
- .byte   VOL , 39*song07_mvl/mxv
+ .byte   VOL , 39*RiseToTheChallenge_mvl/mxv
  .byte   W07
- .byte   VOL , 39*song07_mvl/mxv
+ .byte   VOL , 39*RiseToTheChallenge_mvl/mxv
  .byte   W01
 @  #01 @003   ----------------------------------------
  .byte   N11 ,Cs3 ,v052
  .byte   W05
- .byte   VOL , 39*song07_mvl/mxv
+ .byte   VOL , 39*RiseToTheChallenge_mvl/mxv
  .byte   W07
- .byte   VOL , 39*song07_mvl/mxv
+ .byte   VOL , 39*RiseToTheChallenge_mvl/mxv
  .byte   N11 ,Ds3 ,v052
  .byte   W06
- .byte   VOL , 41*song07_mvl/mxv
+ .byte   VOL , 41*RiseToTheChallenge_mvl/mxv
  .byte   W06
  .byte   N06 ,Cs3 ,v052
  .byte   W12
@@ -185,7 +185,7 @@ song07_001:
  .byte   W06
 Label_014B6039:
  .byte   VOICE , 48
- .byte   VOL , 45*song07_mvl/mxv
+ .byte   VOL , 45*RiseToTheChallenge_mvl/mxv
  .byte   PAN , c_v+18
  .byte   N23 ,Fs3 ,v092
  .byte   N23 ,As3 ,v116
@@ -486,12 +486,12 @@ Label_014B6039:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song07_002:
+RiseToTheChallenge_002:
 @  #02 @000   ----------------------------------------
- .byte   TEMPO , 162*song07_tbs/2
- .byte   KEYSH , song07_key+0
+ .byte   TEMPO , 162*RiseToTheChallenge_tbs/2
+ .byte   KEYSH , RiseToTheChallenge_key+0
  .byte   VOICE , 34
- .byte   VOL , 80*song07_mvl/mxv
+ .byte   VOL , 80*RiseToTheChallenge_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N24 ,Ds2 ,v092
  .byte   W36
@@ -709,12 +709,12 @@ Label_54ADF7:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song07_003:
+RiseToTheChallenge_003:
 @  #03 @000   ----------------------------------------
- .byte   TEMPO , 162*song07_tbs/2
- .byte   KEYSH , song07_key+0
+ .byte   TEMPO , 162*RiseToTheChallenge_tbs/2
+ .byte   KEYSH , RiseToTheChallenge_key+0
  .byte   VOICE , 63
- .byte   VOL , 45*song07_mvl/mxv
+ .byte   VOL , 45*RiseToTheChallenge_mvl/mxv
  .byte   PAN , c_v+16
  .byte   N11 ,Fs3 ,v112
  .byte   W12
@@ -899,185 +899,185 @@ Label_54A534:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song07_004:
+RiseToTheChallenge_004:
 @  #04 @000   ----------------------------------------
- .byte   TEMPO , 162*song07_tbs/2
- .byte   KEYSH , song07_key+0
+ .byte   TEMPO , 162*RiseToTheChallenge_tbs/2
+ .byte   KEYSH , RiseToTheChallenge_key+0
  .byte   VOICE , 48
- .byte   VOL , 36*song07_mvl/mxv
+ .byte   VOL , 36*RiseToTheChallenge_mvl/mxv
  .byte   PAN , c_v-6
  .byte   N11 ,Fs2 ,v100
  .byte   N11 ,As2 ,v108
  .byte   W12
- .byte   VOL , 36*song07_mvl/mxv
+ .byte   VOL , 36*RiseToTheChallenge_mvl/mxv
  .byte   N11 ,Cn3 ,v108
  .byte   N11 ,Gs2 ,v100
  .byte   W07
- .byte   VOL , 37*song07_mvl/mxv
+ .byte   VOL , 37*RiseToTheChallenge_mvl/mxv
  .byte   W05
  .byte   N06 ,Fs2 ,v100
  .byte   N06 ,As2 ,v108
  .byte   W01
- .byte   VOL , 37*song07_mvl/mxv
+ .byte   VOL , 37*RiseToTheChallenge_mvl/mxv
  .byte   W06
- .byte   VOL , 37*song07_mvl/mxv
+ .byte   VOL , 37*RiseToTheChallenge_mvl/mxv
  .byte   W05
  .byte   N11 ,Fs2 ,v100
  .byte   N11 ,As2 ,v108
  .byte   W02
- .byte   VOL , 38*song07_mvl/mxv
+ .byte   VOL , 38*RiseToTheChallenge_mvl/mxv
  .byte   W06
- .byte   VOL , 38*song07_mvl/mxv
+ .byte   VOL , 38*RiseToTheChallenge_mvl/mxv
  .byte   W04
  .byte   N11 ,Cn3 ,v108
  .byte   N11 ,Gs2 ,v100
  .byte   W03
- .byte   VOL , 39*song07_mvl/mxv
+ .byte   VOL , 39*RiseToTheChallenge_mvl/mxv
  .byte   W06
- .byte   VOL , 39*song07_mvl/mxv
+ .byte   VOL , 39*RiseToTheChallenge_mvl/mxv
  .byte   W03
  .byte   N05 ,Fs2 ,v100
  .byte   N05 ,As2 ,v108
  .byte   W03
- .byte   VOL , 40*song07_mvl/mxv
+ .byte   VOL , 40*RiseToTheChallenge_mvl/mxv
  .byte   W07
- .byte   VOL , 40*song07_mvl/mxv
+ .byte   VOL , 40*RiseToTheChallenge_mvl/mxv
  .byte   W02
  .byte   N11 ,As2 ,v108
  .byte   N11 ,Fs2 ,v100
  .byte   W04
- .byte   VOL , 40*song07_mvl/mxv
+ .byte   VOL , 40*RiseToTheChallenge_mvl/mxv
  .byte   W06
- .byte   VOL , 41*song07_mvl/mxv
+ .byte   VOL , 41*RiseToTheChallenge_mvl/mxv
  .byte   W02
  .byte   N11 ,Gs2 ,v100
  .byte   N11 ,Cn3 ,v108
  .byte   W05
- .byte   VOL , 41*song07_mvl/mxv
+ .byte   VOL , 41*RiseToTheChallenge_mvl/mxv
  .byte   W06
- .byte   VOL , 42*song07_mvl/mxv
+ .byte   VOL , 42*RiseToTheChallenge_mvl/mxv
  .byte   W01
 @  #04 @001   ----------------------------------------
  .byte   N05 ,Fs2 ,v100
  .byte   N05 ,As2 ,v108
  .byte   W06
- .byte   VOL , 42*song07_mvl/mxv
+ .byte   VOL , 42*RiseToTheChallenge_mvl/mxv
  .byte   W06
- .byte   VOL , 42*song07_mvl/mxv
+ .byte   VOL , 42*RiseToTheChallenge_mvl/mxv
  .byte   N11 ,Fs2 ,v100
  .byte   N11 ,As2 ,v108
  .byte   W06
- .byte   VOL , 43*song07_mvl/mxv
+ .byte   VOL , 43*RiseToTheChallenge_mvl/mxv
  .byte   W06
  .byte   N11 ,Gs2 ,v100
  .byte   N11 ,Cn3 ,v108
  .byte   W01
- .byte   VOL , 43*song07_mvl/mxv
+ .byte   VOL , 43*RiseToTheChallenge_mvl/mxv
  .byte   W06
- .byte   VOL , 44*song07_mvl/mxv
+ .byte   VOL , 44*RiseToTheChallenge_mvl/mxv
  .byte   W05
  .byte   N05 ,Fs2 ,v100
  .byte   N05 ,As2 ,v108
  .byte   W01
- .byte   VOL , 44*song07_mvl/mxv
+ .byte   VOL , 44*RiseToTheChallenge_mvl/mxv
  .byte   W07
- .byte   VOL , 45*song07_mvl/mxv
+ .byte   VOL , 45*RiseToTheChallenge_mvl/mxv
  .byte   W04
  .byte   N11 ,Fs2 ,v100
  .byte   N11 ,As2 ,v108
  .byte   W02
- .byte   VOL , 45*song07_mvl/mxv
+ .byte   VOL , 45*RiseToTheChallenge_mvl/mxv
  .byte   W07
- .byte   VOL , 45*song07_mvl/mxv
+ .byte   VOL , 45*RiseToTheChallenge_mvl/mxv
  .byte   W03
  .byte   N08 ,Gs2 ,v100
  .byte   N08 ,Cn3 ,v108
  .byte   W03
- .byte   VOL , 46*song07_mvl/mxv
+ .byte   VOL , 46*RiseToTheChallenge_mvl/mxv
  .byte   W06
- .byte   VOL , 46*song07_mvl/mxv
+ .byte   VOL , 46*RiseToTheChallenge_mvl/mxv
  .byte   W03
  .byte   N07 ,Fs2 ,v100
  .byte   N07 ,As2 ,v108
  .byte   W04
- .byte   VOL , 47*song07_mvl/mxv
+ .byte   VOL , 47*RiseToTheChallenge_mvl/mxv
  .byte   W06
- .byte   VOL , 47*song07_mvl/mxv
+ .byte   VOL , 47*RiseToTheChallenge_mvl/mxv
  .byte   W02
  .byte   N11 ,Fs2 ,v100
  .byte   N11 ,As2 ,v108
  .byte   W04
- .byte   VOL , 47*song07_mvl/mxv
+ .byte   VOL , 47*RiseToTheChallenge_mvl/mxv
  .byte   W07
- .byte   VOL , 48*song07_mvl/mxv
+ .byte   VOL , 48*RiseToTheChallenge_mvl/mxv
  .byte   W01
 @  #04 @002   ----------------------------------------
  .byte   N11 ,Cn3 ,v108
  .byte   N11 ,Gs2 ,v100
  .byte   W05
- .byte   VOL , 48*song07_mvl/mxv
+ .byte   VOL , 48*RiseToTheChallenge_mvl/mxv
  .byte   W07
- .byte   VOL , 49*song07_mvl/mxv
+ .byte   VOL , 49*RiseToTheChallenge_mvl/mxv
  .byte   N05 ,As2 ,v100
  .byte   N05 ,Cs3 ,v108
  .byte   W06
- .byte   VOL , 49*song07_mvl/mxv
+ .byte   VOL , 49*RiseToTheChallenge_mvl/mxv
  .byte   W06
- .byte   VOL , 50*song07_mvl/mxv
+ .byte   VOL , 50*RiseToTheChallenge_mvl/mxv
  .byte   N11 ,Cn3 ,v108
  .byte   N11 ,Gs2 ,v100
  .byte   W07
- .byte   VOL , 50*song07_mvl/mxv
+ .byte   VOL , 50*RiseToTheChallenge_mvl/mxv
  .byte   W05
  .byte   N11 ,Cs3 ,v108
  .byte   N11 ,As2 ,v100
  .byte   W01
- .byte   VOL , 50*song07_mvl/mxv
+ .byte   VOL , 50*RiseToTheChallenge_mvl/mxv
  .byte   W06
- .byte   VOL , 51*song07_mvl/mxv
+ .byte   VOL , 51*RiseToTheChallenge_mvl/mxv
  .byte   W05
  .byte   N05 ,Gs2 ,v100
  .byte   N05 ,Cn3 ,v108
  .byte   W02
- .byte   VOL , 51*song07_mvl/mxv
+ .byte   VOL , 51*RiseToTheChallenge_mvl/mxv
  .byte   W06
- .byte   VOL , 52*song07_mvl/mxv
+ .byte   VOL , 52*RiseToTheChallenge_mvl/mxv
  .byte   W04
  .byte   N11 ,Cn3 ,v108
  .byte   N11 ,Gs2 ,v100
  .byte   W03
- .byte   VOL , 52*song07_mvl/mxv
+ .byte   VOL , 52*RiseToTheChallenge_mvl/mxv
  .byte   W06
- .byte   VOL , 52*song07_mvl/mxv
+ .byte   VOL , 52*RiseToTheChallenge_mvl/mxv
  .byte   W03
  .byte   N11 ,As2 ,v100
  .byte   N11 ,Cs3 ,v108
  .byte   W03
- .byte   VOL , 53*song07_mvl/mxv
+ .byte   VOL , 53*RiseToTheChallenge_mvl/mxv
  .byte   W07
- .byte   VOL , 53*song07_mvl/mxv
+ .byte   VOL , 53*RiseToTheChallenge_mvl/mxv
  .byte   W02
  .byte   N06 ,Gs2 ,v100
  .byte   N06 ,Cn3 ,v108
  .byte   W04
- .byte   VOL , 54*song07_mvl/mxv
+ .byte   VOL , 54*RiseToTheChallenge_mvl/mxv
  .byte   W06
- .byte   VOL , 54*song07_mvl/mxv
+ .byte   VOL , 54*RiseToTheChallenge_mvl/mxv
  .byte   W02
 @  #04 @003   ----------------------------------------
  .byte   N11 ,As2 ,v100
  .byte   N11 ,Cs3 ,v108
  .byte   W05
- .byte   VOL , 54*song07_mvl/mxv
+ .byte   VOL , 54*RiseToTheChallenge_mvl/mxv
  .byte   W06
- .byte   VOL , 54*song07_mvl/mxv
+ .byte   VOL , 54*RiseToTheChallenge_mvl/mxv
  .byte   W01
  .byte   N11 ,Cn3 ,v100
  .byte   N11 ,Ds3 ,v108
  .byte   W06
- .byte   VOL , 54*song07_mvl/mxv
+ .byte   VOL , 54*RiseToTheChallenge_mvl/mxv
  .byte   W06
- .byte   VOL , 56*song07_mvl/mxv
+ .byte   VOL , 56*RiseToTheChallenge_mvl/mxv
  .byte   N06 ,As2 ,v100
  .byte   N06 ,Cs3 ,v108
  .byte   W12
@@ -1096,7 +1096,7 @@ song07_004:
  .byte   N09 ,Cs3 ,v100
  .byte   N11 ,Fn3 ,v108
  .byte   W09
- .byte   VOL , 56*song07_mvl/mxv
+ .byte   VOL , 56*RiseToTheChallenge_mvl/mxv
  .byte   W03
 @  #04 @004   ----------------------------------------
 Label_54B17F:
@@ -1158,12 +1158,12 @@ Label_54B17F:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song07_005:
+RiseToTheChallenge_005:
 @  #05 @000   ----------------------------------------
- .byte   TEMPO , 162*song07_tbs/2
- .byte   KEYSH , song07_key+0
+ .byte   TEMPO , 162*RiseToTheChallenge_tbs/2
+ .byte   KEYSH , RiseToTheChallenge_key+0
  .byte   VOICE , 65
- .byte   VOL , 59*song07_mvl/mxv
+ .byte   VOL , 59*RiseToTheChallenge_mvl/mxv
  .byte   PAN , c_v-9
  .byte   W24
  .byte   N23 ,As1 ,v100
@@ -1184,55 +1184,55 @@ song07_005:
  .byte   W24
  .byte   N96 ,Ds3 ,v100
  .byte   W56
- .byte   VOL , 59*song07_mvl/mxv
+ .byte   VOL , 59*RiseToTheChallenge_mvl/mxv
  .byte   W12
- .byte   VOL , 59*song07_mvl/mxv
+ .byte   VOL , 59*RiseToTheChallenge_mvl/mxv
  .byte   W05
 @  #05 @003   ----------------------------------------
- .byte   VOL , 61*song07_mvl/mxv
+ .byte   VOL , 61*RiseToTheChallenge_mvl/mxv
  .byte   W06
- .byte   VOL , 61*song07_mvl/mxv
+ .byte   VOL , 61*RiseToTheChallenge_mvl/mxv
  .byte   W06
- .byte   VOL , 62*song07_mvl/mxv
+ .byte   VOL , 62*RiseToTheChallenge_mvl/mxv
  .byte   W05
- .byte   VOL , 62*song07_mvl/mxv
+ .byte   VOL , 62*RiseToTheChallenge_mvl/mxv
  .byte   W06
- .byte   VOL , 62*song07_mvl/mxv
+ .byte   VOL , 62*RiseToTheChallenge_mvl/mxv
  .byte   N28 ,Ds3 ,v100
  .byte   W06
- .byte   VOL , 63*song07_mvl/mxv
+ .byte   VOL , 63*RiseToTheChallenge_mvl/mxv
  .byte   W05
- .byte   VOL , 63*song07_mvl/mxv
+ .byte   VOL , 63*RiseToTheChallenge_mvl/mxv
  .byte   W06
- .byte   VOL , 64*song07_mvl/mxv
+ .byte   VOL , 64*RiseToTheChallenge_mvl/mxv
  .byte   W05
- .byte   VOL , 64*song07_mvl/mxv
+ .byte   VOL , 64*RiseToTheChallenge_mvl/mxv
  .byte   W01
- .byte   VOL , 65*song07_mvl/mxv
+ .byte   VOL , 65*RiseToTheChallenge_mvl/mxv
  .byte   W02
- .byte   VOL , 64*song07_mvl/mxv
+ .byte   VOL , 64*RiseToTheChallenge_mvl/mxv
  .byte   W01
- .byte   VOL , 64*song07_mvl/mxv
+ .byte   VOL , 64*RiseToTheChallenge_mvl/mxv
  .byte   W02
- .byte   VOL , 63*song07_mvl/mxv
+ .byte   VOL , 63*RiseToTheChallenge_mvl/mxv
  .byte   N01 ,Ds3 ,v100
  .byte   W01
- .byte   VOL , 63*song07_mvl/mxv
+ .byte   VOL , 63*RiseToTheChallenge_mvl/mxv
  .byte   W01
- .byte   VOL , 62*song07_mvl/mxv
+ .byte   VOL , 62*RiseToTheChallenge_mvl/mxv
  .byte   W01
- .byte   VOL , 62*song07_mvl/mxv
+ .byte   VOL , 62*RiseToTheChallenge_mvl/mxv
  .byte   W02
- .byte   VOL , 62*song07_mvl/mxv
+ .byte   VOL , 62*RiseToTheChallenge_mvl/mxv
  .byte   W01
- .byte   VOL , 61*song07_mvl/mxv
+ .byte   VOL , 61*RiseToTheChallenge_mvl/mxv
  .byte   W01
- .byte   VOL , 61*song07_mvl/mxv
+ .byte   VOL , 61*RiseToTheChallenge_mvl/mxv
  .byte   W01
- .byte   VOL , 59*song07_mvl/mxv
+ .byte   VOL , 59*RiseToTheChallenge_mvl/mxv
  .byte   N06 ,Dn3 ,v100
  .byte   W12
- .byte   VOL , 59*song07_mvl/mxv
+ .byte   VOL , 59*RiseToTheChallenge_mvl/mxv
  .byte   N06 ,Ds3 ,v100
  .byte   W12
  .byte   N12 ,Fn3
@@ -1371,12 +1371,12 @@ Label_54A980:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song07_006:
+RiseToTheChallenge_006:
 @  #06 @000   ----------------------------------------
- .byte   TEMPO , 162*song07_tbs/2
- .byte   KEYSH , song07_key+0
+ .byte   TEMPO , 162*RiseToTheChallenge_tbs/2
+ .byte   KEYSH , RiseToTheChallenge_key+0
  .byte   VOICE , 127
- .byte   VOL , 78*song07_mvl/mxv
+ .byte   VOL , 78*RiseToTheChallenge_mvl/mxv
  .byte   W05
  .byte   N08 ,Cs2 ,v044
  .byte   W09
@@ -2024,19 +2024,19 @@ Label_014B632A:
 @******************************************************@
 	.align	2
 
-song07:
+RiseToTheChallenge:
 	.byte	6	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song07_pri	@ Priority
-	.byte	song07_rev	@ Reverb.
+	.byte	RiseToTheChallenge_pri	@ Priority
+	.byte	RiseToTheChallenge_rev	@ Reverb.
     
-	.word	song07_grp
+	.word	RiseToTheChallenge_grp
     
-	.word	song07_001
-	.word	song07_002
-	.word	song07_003
-	.word	song07_004
-	.word	song07_005
-	.word	song07_006
+	.word	RiseToTheChallenge_001
+	.word	RiseToTheChallenge_002
+	.word	RiseToTheChallenge_003
+	.word	RiseToTheChallenge_004
+	.word	RiseToTheChallenge_005
+	.word	RiseToTheChallenge_006
 
 	.end

@@ -1,28 +1,28 @@
 	.include "MPlayDef.s"
 
-	.equ	song03_grp, voicegroup000
-	.equ	song03_pri, 10
-	.equ	song03_rev, 0
-	.equ	song03_mvl, 127
-	.equ	song03_key, 0
-	.equ	song03_tbs, 1
-	.equ	song03_exg, 0
-	.equ	song03_cmp, 1
+	.equ	TheRoost_grp, voicegroup000
+	.equ	TheRoost_pri, 10
+	.equ	TheRoost_rev, 0
+	.equ	TheRoost_mvl, 127
+	.equ	TheRoost_key, 0
+	.equ	TheRoost_tbs, 1
+	.equ	TheRoost_exg, 0
+	.equ	TheRoost_cmp, 1
 
 	.section .rodata
-	.global	song03
+	.global	TheRoost
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song03_001:
+TheRoost_001:
 @  #01 @000   ----------------------------------------
- .byte   TEMPO , 96*song03_tbs/2
- .byte   KEYSH , song03_key+0
+ .byte   TEMPO , 96*TheRoost_tbs/2
+ .byte   KEYSH , TheRoost_key+0
  .byte   VOICE , 4
- .byte   VOL , 77*song03_mvl/mxv
- .byte   VOL , 77*song03_mvl/mxv
+ .byte   VOL , 77*TheRoost_mvl/mxv
+ .byte   VOL , 77*TheRoost_mvl/mxv
  .byte   W36
  .byte   N36 ,Cn4 ,v100
  .byte   N36 ,En3
@@ -621,14 +621,14 @@ Label_010018C9:
 @******************************************************@
 	.align	2
 
-song03:
+TheRoost:
 	.byte	1	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song03_pri	@ Priority
-	.byte	song03_rev	@ Reverb.
+	.byte	TheRoost_pri	@ Priority
+	.byte	TheRoost_rev	@ Reverb.
     
-	.word	song03_grp
+	.word	TheRoost_grp
     
-	.word	song03_001
+	.word	TheRoost_001
 
 	.end

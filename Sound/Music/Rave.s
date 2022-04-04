@@ -1,29 +1,29 @@
 	.include "MPlayDef.s"
 
-	.equ	songAE_grp, voicegroup000
-	.equ	songAE_pri, 0
-	.equ	songAE_rev, 0
-	.equ	songAE_mvl, 127
-	.equ	songAE_key, 0
-	.equ	songAE_tbs, 1
-	.equ	songAE_exg, 0
-	.equ	songAE_cmp, 1
+	.equ	Rave_grp, voicegroup000
+	.equ	Rave_pri, 0
+	.equ	Rave_rev, 0
+	.equ	Rave_mvl, 127
+	.equ	Rave_key, 0
+	.equ	Rave_tbs, 1
+	.equ	Rave_exg, 0
+	.equ	Rave_cmp, 1
 
 	.section .rodata
-	.global	songAE
+	.global	Rave
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-songAE_001:
+Rave_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , songAE_key+0
+ .byte   KEYSH , Rave_key+0
 Label_0117EB86:
- .byte   TEMPO , 120*songAE_tbs/2
+ .byte   TEMPO , 120*Rave_tbs/2
  .byte   VOICE , 81
  .byte   PAN , c_v+0
- .byte   VOL , 50*songAE_mvl/mxv
+ .byte   VOL , 50*Rave_mvl/mxv
  .byte   PAN , c_v+0
  .byte   BEND , c_v+0
  .byte   N13 ,Cn3 ,v127
@@ -463,13 +463,13 @@ Label_0117ECFC:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-songAE_002:
+Rave_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , songAE_key+0
+ .byte   KEYSH , Rave_key+0
 Label_0117EDCA:
  .byte   VOICE , 90
  .byte   PAN , c_v+0
- .byte   VOL , 41*songAE_mvl/mxv
+ .byte   VOL , 41*Rave_mvl/mxv
  .byte   PAN , c_v+0
  .byte   BEND , c_v+0
  .byte   N84 ,Fn1 ,v127
@@ -717,13 +717,13 @@ Label_0117EDE5:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-songAE_003:
+Rave_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , songAE_key+0
+ .byte   KEYSH , Rave_key+0
 Label_0117EEA2:
  .byte   VOICE , 38
  .byte   PAN , c_v+0
- .byte   VOL , 38*songAE_mvl/mxv
+ .byte   VOL , 38*Rave_mvl/mxv
  .byte   PAN , c_v+0
  .byte   BEND , c_v+0
  .byte   W96
@@ -1290,13 +1290,13 @@ Label_0117F065:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-songAE_004:
+Rave_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , songAE_key+0
+ .byte   KEYSH , Rave_key+0
 Label_0117F17E:
  .byte   VOICE , 50
  .byte   PAN , c_v+0
- .byte   VOL , 50*songAE_mvl/mxv
+ .byte   VOL , 50*Rave_mvl/mxv
  .byte   PAN , c_v+0
  .byte   BEND , c_v+0
  .byte   W96
@@ -1634,13 +1634,13 @@ Label_0117F2BB:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-songAE_005:
+Rave_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , songAE_key+0
+ .byte   KEYSH , Rave_key+0
 Label_0117F2E6:
  .byte   VOICE , 102
  .byte   PAN , c_v-16
- .byte   VOL , 50*songAE_mvl/mxv
+ .byte   VOL , 50*Rave_mvl/mxv
  .byte   PAN , c_v+0
  .byte   BEND , c_v+0
  .byte   W96
@@ -1973,13 +1973,13 @@ Label_0117F3A5:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-songAE_006:
+Rave_006:
 @  #06 @000   ----------------------------------------
- .byte   KEYSH , songAE_key+0
+ .byte   KEYSH , Rave_key+0
 Label_0117F45A:
  .byte   VOICE , 14
  .byte   PAN , c_v+0
- .byte   VOL , 50*songAE_mvl/mxv
+ .byte   VOL , 50*Rave_mvl/mxv
  .byte   PAN , c_v+0
  .byte   BEND , c_v+0
  .byte   W96
@@ -2199,13 +2199,13 @@ Label_0117F494:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-songAE_007:
+Rave_007:
 @  #07 @000   ----------------------------------------
- .byte   KEYSH , songAE_key+0
+ .byte   KEYSH , Rave_key+0
 Label_0117F51A:
  .byte   VOICE , 121
  .byte   PAN , c_v+0
- .byte   VOL , 41*songAE_mvl/mxv
+ .byte   VOL , 41*Rave_mvl/mxv
  .byte   PAN , c_v+0
  .byte   PAN , c_v+0
  .byte   BEND , c_v+0
@@ -3454,13 +3454,13 @@ Label_0117FB2A:
 
 @**************** Track 8 (Midi-Chn.7) ****************@
 
-songAE_008:
+Rave_008:
 @  #08 @000   ----------------------------------------
- .byte   KEYSH , songAE_key+0
+ .byte   KEYSH , Rave_key+0
 Label_0117FD22:
  .byte   VOICE , 81
  .byte   PAN , c_v+0
- .byte   VOL , 50*songAE_mvl/mxv
+ .byte   VOL , 50*Rave_mvl/mxv
  .byte   PAN , c_v+0
  .byte   BEND , c_v+0
  .byte   W96
@@ -4403,21 +4403,21 @@ Label_01180102:
 @******************************************************@
 	.align	2
 
-songAE:
+Rave:
 	.byte	8	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	songAE_pri	@ Priority
-	.byte	songAE_rev	@ Reverb.
+	.byte	Rave_pri	@ Priority
+	.byte	Rave_rev	@ Reverb.
     
-	.word	songAE_grp
+	.word	Rave_grp
     
-	.word	songAE_001
-	.word	songAE_002
-	.word	songAE_003
-	.word	songAE_004
-	.word	songAE_005
-	.word	songAE_006
-	.word	songAE_007
-	.word	songAE_008
+	.word	Rave_001
+	.word	Rave_002
+	.word	Rave_003
+	.word	Rave_004
+	.word	Rave_005
+	.word	Rave_006
+	.word	Rave_007
+	.word	Rave_008
 
 	.end

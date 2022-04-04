@@ -1,28 +1,28 @@
 	.include "MPlayDef.s"
 
-	.equ	song09_grp, voicegroup000
-	.equ	song09_pri, 0
-	.equ	song09_rev, 0
-	.equ	song09_mvl, 127
-	.equ	song09_key, 0
-	.equ	song09_tbs, 1
-	.equ	song09_exg, 0
-	.equ	song09_cmp, 1
+	.equ	Ronald_grp, voicegroup000
+	.equ	Ronald_pri, 0
+	.equ	Ronald_rev, 0
+	.equ	Ronald_mvl, 127
+	.equ	Ronald_key, 0
+	.equ	Ronald_tbs, 1
+	.equ	Ronald_exg, 0
+	.equ	Ronald_cmp, 1
 
 	.section .rodata
-	.global	song09
+	.global	Ronald
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song09_001:
+Ronald_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , song09_key+0
+ .byte   KEYSH , Ronald_key+0
 Label_54C6ED:
- .byte   TEMPO , 130*song09_tbs/2
+ .byte   TEMPO , 130*Ronald_tbs/2
  .byte   VOICE , 36
- .byte   VOL , 58*song09_mvl/mxv
+ .byte   VOL , 58*Ronald_mvl/mxv
  .byte   N16 ,Gn2 ,v064
  .byte   W18
  .byte   N04
@@ -450,13 +450,13 @@ Label_54C7AC:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song09_002:
+Ronald_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , song09_key+0
+ .byte   KEYSH , Ronald_key+0
 Label_01131A06:
  .byte   VOICE , 4
  .byte   PAN , c_v-1
- .byte   VOL , 49*song09_mvl/mxv
+ .byte   VOL , 49*Ronald_mvl/mxv
  .byte   N03 ,As2 ,v064
  .byte   N03 ,Dn3
  .byte   W06
@@ -911,13 +911,13 @@ Label_01131C26:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song09_003:
+Ronald_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , song09_key+0
+ .byte   KEYSH , Ronald_key+0
 Label_54BEB6:
  .byte   VOICE , 61
  .byte   PAN , c_v+0
- .byte   VOL , 35*song09_mvl/mxv
+ .byte   VOL , 35*Ronald_mvl/mxv
  .byte   W96
 @  #03 @001   ----------------------------------------
  .byte   W96
@@ -1113,13 +1113,13 @@ Label_54BEB6:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song09_004:
+Ronald_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , song09_key+0
+ .byte   KEYSH , Ronald_key+0
 Label_0113261A:
  .byte   VOICE , 61
  .byte   PAN , c_v-1
- .byte   VOL , 50*song09_mvl/mxv
+ .byte   VOL , 50*Ronald_mvl/mxv
  .byte   W96
 @  #04 @001   ----------------------------------------
  .byte   W96
@@ -1406,12 +1406,12 @@ Label_011326EF:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song09_005:
+Ronald_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , song09_key+0
+ .byte   KEYSH , Ronald_key+0
 Label_54CF18:
  .byte   PAN , c_v-1
- .byte   VOL , 49*song09_mvl/mxv
+ .byte   VOL , 49*Ronald_mvl/mxv
  .byte   W96
 @  #05 @001   ----------------------------------------
  .byte   W96
@@ -1673,13 +1673,13 @@ Label_54CF36:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song09_006:
+Ronald_006:
 @  #06 @000   ----------------------------------------
- .byte   KEYSH , song09_key+0
+ .byte   KEYSH , Ronald_key+0
 Label_54D49E:
  .byte   VOICE , 4
  .byte   PAN , c_v+0
- .byte   VOL , 29*song09_mvl/mxv
+ .byte   VOL , 29*Ronald_mvl/mxv
  .byte   N78 ,As2 ,v044
  .byte   N78 ,Dn3
  .byte   N78 ,Fn3
@@ -1972,13 +1972,13 @@ Label_54D58E:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-song09_007:
+Ronald_007:
 @  #07 @000   ----------------------------------------
- .byte   KEYSH , song09_key+0
+ .byte   KEYSH , Ronald_key+0
 Label_0113240E:
  .byte   VOICE , 4
  .byte   PAN , c_v+0
- .byte   VOL , 30*song09_mvl/mxv
+ .byte   VOL , 30*Ronald_mvl/mxv
  .byte   W96
 @  #07 @001   ----------------------------------------
  .byte   W96
@@ -2219,13 +2219,13 @@ Label_0113240E:
 
 @**************** Track 8 (Midi-Chn.7) ****************@
 
-song09_008:
+Ronald_008:
 @  #08 @000   ----------------------------------------
- .byte   KEYSH , song09_key+0
+ .byte   KEYSH , Ronald_key+0
 Label_01131DC6:
  .byte   VOICE , 124
  .byte   PAN , c_v+0
- .byte   VOL , 40*song09_mvl/mxv
+ .byte   VOL , 40*Ronald_mvl/mxv
  .byte   N06 ,Cn1 ,v064
  .byte   N06 ,Fs1
  .byte   N06 ,Ds2
@@ -2972,21 +2972,21 @@ Label_0113214F:
 @******************************************************@
 	.align	2
 
-song09:
+Ronald:
 	.byte	8	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song09_pri	@ Priority
-	.byte	song09_rev	@ Reverb.
+	.byte	Ronald_pri	@ Priority
+	.byte	Ronald_rev	@ Reverb.
     
-	.word	song09_grp
+	.word	Ronald_grp
     
-	.word	song09_001
-	.word	song09_002
-	.word	song09_003
-	.word	song09_004
-	.word	song09_005
-	.word	song09_006
-	.word	song09_007
-	.word	song09_008
+	.word	Ronald_001
+	.word	Ronald_002
+	.word	Ronald_003
+	.word	Ronald_004
+	.word	Ronald_005
+	.word	Ronald_006
+	.word	Ronald_007
+	.word	Ronald_008
 
 	.end

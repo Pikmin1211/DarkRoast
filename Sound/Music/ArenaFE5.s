@@ -1,28 +1,28 @@
 	.include "MPlayDef.s"
 
-	.equ	songA9_grp, voicegroup000
-	.equ	songA9_pri, 0
-	.equ	songA9_rev, 0
-	.equ	songA9_mvl, 127
-	.equ	songA9_key, 0
-	.equ	songA9_tbs, 1
-	.equ	songA9_exg, 0
-	.equ	songA9_cmp, 1
+	.equ	ArenaFE5_grp, voicegroup000
+	.equ	ArenaFE5_pri, 0
+	.equ	ArenaFE5_rev, 0
+	.equ	ArenaFE5_mvl, 127
+	.equ	ArenaFE5_key, 0
+	.equ	ArenaFE5_tbs, 1
+	.equ	ArenaFE5_exg, 0
+	.equ	ArenaFE5_cmp, 1
 
 	.section .rodata
-	.global	songA9
+	.global	ArenaFE5
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-songA9_001:
+ArenaFE5_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , songA9_key+0
+ .byte   KEYSH , ArenaFE5_key+0
 Label_0167636A:
- .byte   TEMPO , 134*songA9_tbs/2
+ .byte   TEMPO , 134*ArenaFE5_tbs/2
  .byte   VOICE , 63
- .byte   VOL , 49*songA9_mvl/mxv
+ .byte   VOL , 49*ArenaFE5_mvl/mxv
  .byte   TIE ,Gn1 ,v127
  .byte   TIE ,Dn2
  .byte   W96
@@ -67,12 +67,12 @@ Label_0167636A:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-songA9_002:
+ArenaFE5_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , songA9_key+0
+ .byte   KEYSH , ArenaFE5_key+0
 Label_016765FA:
  .byte   VOICE , 48
- .byte   VOL , 63*songA9_mvl/mxv
+ .byte   VOL , 63*ArenaFE5_mvl/mxv
  .byte   W96
 @  #02 @001   ----------------------------------------
  .byte   W96
@@ -201,13 +201,13 @@ Label_016765FA:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-songA9_003:
+ArenaFE5_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , songA9_key+0
+ .byte   KEYSH , ArenaFE5_key+0
 Label_01676576:
  .byte   VOICE , 50
  .byte   PAN , c_v+18
- .byte   VOL , 45*songA9_mvl/mxv
+ .byte   VOL , 45*ArenaFE5_mvl/mxv
  .byte   N12 ,An0 ,v127
  .byte   N12 ,An1
  .byte   W12
@@ -284,12 +284,12 @@ Label_016765A2:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-songA9_004:
+ArenaFE5_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , songA9_key+0
+ .byte   KEYSH , ArenaFE5_key+0
 Label_016764D6:
  .byte   VOICE , 6
- .byte   VOL , 61*songA9_mvl/mxv
+ .byte   VOL , 61*ArenaFE5_mvl/mxv
  .byte   PAN , c_v-7
  .byte   N12 ,An0 ,v127
  .byte   W12
@@ -351,12 +351,12 @@ Label_016764F2:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-songA9_005:
+ArenaFE5_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , songA9_key+0
+ .byte   KEYSH , ArenaFE5_key+0
 Label_016763D2:
  .byte   VOICE , 124
- .byte   VOL , 43*songA9_mvl/mxv
+ .byte   VOL , 43*ArenaFE5_mvl/mxv
  .byte   N06 ,Cs1 ,v112
  .byte   N06 ,Dn1 ,v108
  .byte   N06 ,Fs1 ,v080
@@ -472,18 +472,18 @@ Label_01676424:
 @******************************************************@
 	.align	2
 
-songA9:
+ArenaFE5:
 	.byte	5	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	songA9_pri	@ Priority
-	.byte	songA9_rev	@ Reverb.
+	.byte	ArenaFE5_pri	@ Priority
+	.byte	ArenaFE5_rev	@ Reverb.
     
-	.word	songA9_grp
+	.word	ArenaFE5_grp
     
-	.word	songA9_001
-	.word	songA9_002
-	.word	songA9_003
-	.word	songA9_004
-	.word	songA9_005
+	.word	ArenaFE5_001
+	.word	ArenaFE5_002
+	.word	ArenaFE5_003
+	.word	ArenaFE5_004
+	.word	ArenaFE5_005
 
 	.end

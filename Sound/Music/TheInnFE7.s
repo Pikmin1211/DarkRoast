@@ -1,29 +1,29 @@
 	.include "MPlayDef.s"
 
-	.equ	song04_grp, voicegroup000
-	.equ	song04_pri, 10
-	.equ	song04_rev, 0
-	.equ	song04_mvl, 127
-	.equ	song04_key, 0
-	.equ	song04_tbs, 1
-	.equ	song04_exg, 0
-	.equ	song04_cmp, 1
+	.equ	TheInnFE7_grp, voicegroup000
+	.equ	TheInnFE7_pri, 10
+	.equ	TheInnFE7_rev, 0
+	.equ	TheInnFE7_mvl, 127
+	.equ	TheInnFE7_key, 0
+	.equ	TheInnFE7_tbs, 1
+	.equ	TheInnFE7_exg, 0
+	.equ	TheInnFE7_cmp, 1
 
 	.section .rodata
-	.global	song04
+	.global	TheInnFE7
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song04_001:
+TheInnFE7_001:
 @  #01 @000   ----------------------------------------
 Label_01489674:
- .byte   TEMPO , 112*song04_tbs/2
- .byte   KEYSH , song04_key+0
+ .byte   TEMPO , 112*TheInnFE7_tbs/2
+ .byte   KEYSH , TheInnFE7_key+0
  .byte   VOICE , 4
  .byte   W04
- .byte   VOL , 44*song04_mvl/mxv
+ .byte   VOL , 44*TheInnFE7_mvl/mxv
  .byte   W04
  .byte   PAN , c_v+10
  .byte   W16
@@ -97,14 +97,14 @@ Label_014896C6:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song04_002:
+TheInnFE7_002:
 @  #02 @000   ----------------------------------------
 Label_014B4990:
- .byte   TEMPO , 112*song04_tbs/2
- .byte   KEYSH , song04_key+0
+ .byte   TEMPO , 112*TheInnFE7_tbs/2
+ .byte   KEYSH , TheInnFE7_key+0
  .byte   VOICE , 4
  .byte   W04
- .byte   VOL , 44*song04_mvl/mxv
+ .byte   VOL , 44*TheInnFE7_mvl/mxv
  .byte   W04
  .byte   PAN , c_v-10
  .byte   W16
@@ -194,13 +194,13 @@ Label_014B49AD:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song04_003:
+TheInnFE7_003:
 @  #03 @000   ----------------------------------------
 Label_014897D4:
- .byte   TEMPO , 112*song04_tbs/2
- .byte   KEYSH , song04_key+0
+ .byte   TEMPO , 112*TheInnFE7_tbs/2
+ .byte   KEYSH , TheInnFE7_key+0
  .byte   VOICE , 33
- .byte   VOL , 53*song04_mvl/mxv
+ .byte   VOL , 53*TheInnFE7_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N23 ,Cn2 ,v100
  .byte   W48
@@ -259,13 +259,13 @@ Label_014897FC:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song04_004:
+TheInnFE7_004:
 @  #04 @000   ----------------------------------------
 Label_014B4A40:
- .byte   TEMPO , 112*song04_tbs/2
- .byte   KEYSH , song04_key+0
+ .byte   TEMPO , 112*TheInnFE7_tbs/2
+ .byte   KEYSH , TheInnFE7_key+0
  .byte   VOICE , 127
- .byte   VOL , 50*song04_mvl/mxv
+ .byte   VOL , 50*TheInnFE7_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N07 ,Dn3 ,v100
  .byte   W24
@@ -349,17 +349,17 @@ Label_014B4A6B:
 @******************************************************@
 	.align	2
 
-song04:
+TheInnFE7:
 	.byte	4	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song04_pri	@ Priority
-	.byte	song04_rev	@ Reverb.
+	.byte	TheInnFE7_pri	@ Priority
+	.byte	TheInnFE7_rev	@ Reverb.
     
-	.word	song04_grp
+	.word	TheInnFE7_grp
     
-	.word	song04_001
-	.word	song04_002
-	.word	song04_003
-	.word	song04_004
+	.word	TheInnFE7_001
+	.word	TheInnFE7_002
+	.word	TheInnFE7_003
+	.word	TheInnFE7_004
 
 	.end

@@ -1,28 +1,28 @@
 	.include "MPlayDef.s"
 
-	.equ	song63_grp, voicegroup000
-	.equ	song63_pri, 0
-	.equ	song63_rev, 0
-	.equ	song63_mvl, 127
-	.equ	song63_key, 0
-	.equ	song63_tbs, 1
-	.equ	song63_exg, 0
-	.equ	song63_cmp, 1
+	.equ	StalwartOppositionFE3_grp, voicegroup000
+	.equ	StalwartOppositionFE3_pri, 0
+	.equ	StalwartOppositionFE3_rev, 0
+	.equ	StalwartOppositionFE3_mvl, 127
+	.equ	StalwartOppositionFE3_key, 0
+	.equ	StalwartOppositionFE3_tbs, 1
+	.equ	StalwartOppositionFE3_exg, 0
+	.equ	StalwartOppositionFE3_cmp, 1
 
 	.section .rodata
-	.global	song63
+	.global	StalwartOppositionFE3
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song63_001:
+StalwartOppositionFE3_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , song63_key+0
+ .byte   KEYSH , StalwartOppositionFE3_key+0
 Label_01050282:
- .byte   TEMPO , 146*song63_tbs/2
+ .byte   TEMPO , 146*StalwartOppositionFE3_tbs/2
  .byte   VOICE , 61
- .byte   VOL , 51*song63_mvl/mxv
+ .byte   VOL , 51*StalwartOppositionFE3_mvl/mxv
  .byte   PAN , c_v+14
  .byte   N11 ,Ds2 ,v104
  .byte   W12
@@ -84,157 +84,157 @@ Label_010502BB:
  .byte   W96
 @  #01 @006   ----------------------------------------
  .byte   W36
- .byte   VOL , 50*song63_mvl/mxv
+ .byte   VOL , 50*StalwartOppositionFE3_mvl/mxv
  .byte   W01
- .byte   VOL , 48*song63_mvl/mxv
+ .byte   VOL , 48*StalwartOppositionFE3_mvl/mxv
  .byte   W01
- .byte   VOL , 46*song63_mvl/mxv
+ .byte   VOL , 46*StalwartOppositionFE3_mvl/mxv
  .byte   W01
- .byte   VOL , 43*song63_mvl/mxv
+ .byte   VOL , 43*StalwartOppositionFE3_mvl/mxv
  .byte   W01
- .byte   VOL , 42*song63_mvl/mxv
+ .byte   VOL , 42*StalwartOppositionFE3_mvl/mxv
  .byte   W01
- .byte   VOL , 40*song63_mvl/mxv
+ .byte   VOL , 40*StalwartOppositionFE3_mvl/mxv
  .byte   W01
- .byte   VOL , 38*song63_mvl/mxv
+ .byte   VOL , 38*StalwartOppositionFE3_mvl/mxv
  .byte   W01
- .byte   VOL , 36*song63_mvl/mxv
+ .byte   VOL , 36*StalwartOppositionFE3_mvl/mxv
  .byte   W01
- .byte   VOL , 34*song63_mvl/mxv
+ .byte   VOL , 34*StalwartOppositionFE3_mvl/mxv
  .byte   W01
- .byte   VOL , 32*song63_mvl/mxv
+ .byte   VOL , 32*StalwartOppositionFE3_mvl/mxv
  .byte   W01
- .byte   VOL , 30*song63_mvl/mxv
+ .byte   VOL , 30*StalwartOppositionFE3_mvl/mxv
  .byte   W01
- .byte   VOL , 28*song63_mvl/mxv
+ .byte   VOL , 28*StalwartOppositionFE3_mvl/mxv
  .byte   W01
- .byte   VOL , 28*song63_mvl/mxv
+ .byte   VOL , 28*StalwartOppositionFE3_mvl/mxv
  .byte   W01
- .byte   VOL , 28*song63_mvl/mxv
+ .byte   VOL , 28*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 29*song63_mvl/mxv
+ .byte   VOL , 29*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 29*song63_mvl/mxv
+ .byte   VOL , 29*StalwartOppositionFE3_mvl/mxv
  .byte   W04
- .byte   VOL , 30*song63_mvl/mxv
+ .byte   VOL , 30*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 30*song63_mvl/mxv
+ .byte   VOL , 30*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 31*song63_mvl/mxv
+ .byte   VOL , 31*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 31*song63_mvl/mxv
+ .byte   VOL , 31*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 32*song63_mvl/mxv
+ .byte   VOL , 32*StalwartOppositionFE3_mvl/mxv
  .byte   W04
- .byte   VOL , 32*song63_mvl/mxv
+ .byte   VOL , 32*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 33*song63_mvl/mxv
+ .byte   VOL , 33*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 33*song63_mvl/mxv
+ .byte   VOL , 33*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 34*song63_mvl/mxv
+ .byte   VOL , 34*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 34*song63_mvl/mxv
+ .byte   VOL , 34*StalwartOppositionFE3_mvl/mxv
  .byte   W04
- .byte   VOL , 34*song63_mvl/mxv
+ .byte   VOL , 34*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 35*song63_mvl/mxv
+ .byte   VOL , 35*StalwartOppositionFE3_mvl/mxv
  .byte   W02
 @  #01 @007   ----------------------------------------
  .byte   W01
- .byte   VOL , 35*song63_mvl/mxv
+ .byte   VOL , 35*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 36*song63_mvl/mxv
+ .byte   VOL , 36*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 36*song63_mvl/mxv
+ .byte   VOL , 36*StalwartOppositionFE3_mvl/mxv
  .byte   W04
- .byte   VOL , 37*song63_mvl/mxv
+ .byte   VOL , 37*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 37*song63_mvl/mxv
+ .byte   VOL , 37*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 38*song63_mvl/mxv
+ .byte   VOL , 38*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 38*song63_mvl/mxv
+ .byte   VOL , 38*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 39*song63_mvl/mxv
+ .byte   VOL , 39*StalwartOppositionFE3_mvl/mxv
  .byte   W04
- .byte   VOL , 39*song63_mvl/mxv
+ .byte   VOL , 39*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 40*song63_mvl/mxv
+ .byte   VOL , 40*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 40*song63_mvl/mxv
+ .byte   VOL , 40*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 41*song63_mvl/mxv
+ .byte   VOL , 41*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 41*song63_mvl/mxv
+ .byte   VOL , 41*StalwartOppositionFE3_mvl/mxv
  .byte   W04
- .byte   VOL , 42*song63_mvl/mxv
+ .byte   VOL , 42*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 42*song63_mvl/mxv
+ .byte   VOL , 42*StalwartOppositionFE3_mvl/mxv
  .byte   W02
- .byte   VOL , 42*song63_mvl/mxv
+ .byte   VOL , 42*StalwartOppositionFE3_mvl/mxv
  .byte   W01
- .byte   VOL , 42*song63_mvl/mxv
+ .byte   VOL , 42*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 43*song63_mvl/mxv
+ .byte   VOL , 43*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 43*song63_mvl/mxv
+ .byte   VOL , 43*StalwartOppositionFE3_mvl/mxv
  .byte   W04
- .byte   VOL , 44*song63_mvl/mxv
+ .byte   VOL , 44*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 44*song63_mvl/mxv
+ .byte   VOL , 44*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 45*song63_mvl/mxv
+ .byte   VOL , 45*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 45*song63_mvl/mxv
+ .byte   VOL , 45*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 46*song63_mvl/mxv
+ .byte   VOL , 46*StalwartOppositionFE3_mvl/mxv
  .byte   W04
- .byte   VOL , 46*song63_mvl/mxv
+ .byte   VOL , 46*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 47*song63_mvl/mxv
+ .byte   VOL , 47*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 47*song63_mvl/mxv
+ .byte   VOL , 47*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 48*song63_mvl/mxv
+ .byte   VOL , 48*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 48*song63_mvl/mxv
+ .byte   VOL , 48*StalwartOppositionFE3_mvl/mxv
  .byte   W04
- .byte   VOL , 49*song63_mvl/mxv
+ .byte   VOL , 49*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 49*song63_mvl/mxv
+ .byte   VOL , 49*StalwartOppositionFE3_mvl/mxv
  .byte   W02
 @  #01 @008   ----------------------------------------
  .byte   W01
- .byte   VOL , 50*song63_mvl/mxv
+ .byte   VOL , 50*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 50*song63_mvl/mxv
+ .byte   VOL , 50*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 51*song63_mvl/mxv
+ .byte   VOL , 51*StalwartOppositionFE3_mvl/mxv
  .byte   W04
- .byte   VOL , 51*song63_mvl/mxv
+ .byte   VOL , 51*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 51*song63_mvl/mxv
+ .byte   VOL , 51*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 52*song63_mvl/mxv
+ .byte   VOL , 52*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 52*song63_mvl/mxv
+ .byte   VOL , 52*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 53*song63_mvl/mxv
+ .byte   VOL , 53*StalwartOppositionFE3_mvl/mxv
  .byte   W04
- .byte   VOL , 53*song63_mvl/mxv
+ .byte   VOL , 53*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 54*song63_mvl/mxv
+ .byte   VOL , 54*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 54*song63_mvl/mxv
+ .byte   VOL , 54*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 55*song63_mvl/mxv
+ .byte   VOL , 55*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 55*song63_mvl/mxv
+ .byte   VOL , 55*StalwartOppositionFE3_mvl/mxv
  .byte   W04
- .byte   VOL , 56*song63_mvl/mxv
+ .byte   VOL , 56*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 56*song63_mvl/mxv
+ .byte   VOL , 56*StalwartOppositionFE3_mvl/mxv
  .byte   W01
  .byte   EOT
  .byte   W48
@@ -244,7 +244,7 @@ Label_010502BB:
   .word Label_01050282
 @  #01 @010   ----------------------------------------
  .byte   VOICE , 61
- .byte   VOL , 51*song63_mvl/mxv
+ .byte   VOL , 51*StalwartOppositionFE3_mvl/mxv
  .byte   PAN , c_v+14
  .byte   N11 ,Ds2 ,v104
  .byte   W12
@@ -297,157 +297,157 @@ Label_010502BB:
  .byte   W96
 @  #01 @016   ----------------------------------------
  .byte   W36
- .byte   VOL , 51*song63_mvl/mxv
+ .byte   VOL , 51*StalwartOppositionFE3_mvl/mxv
  .byte   W01
- .byte   VOL , 49*song63_mvl/mxv
+ .byte   VOL , 49*StalwartOppositionFE3_mvl/mxv
  .byte   W01
- .byte   VOL , 47*song63_mvl/mxv
+ .byte   VOL , 47*StalwartOppositionFE3_mvl/mxv
  .byte   W01
- .byte   VOL , 44*song63_mvl/mxv
+ .byte   VOL , 44*StalwartOppositionFE3_mvl/mxv
  .byte   W01
- .byte   VOL , 42*song63_mvl/mxv
+ .byte   VOL , 42*StalwartOppositionFE3_mvl/mxv
  .byte   W01
- .byte   VOL , 41*song63_mvl/mxv
+ .byte   VOL , 41*StalwartOppositionFE3_mvl/mxv
  .byte   W01
- .byte   VOL , 39*song63_mvl/mxv
+ .byte   VOL , 39*StalwartOppositionFE3_mvl/mxv
  .byte   W01
- .byte   VOL , 37*song63_mvl/mxv
+ .byte   VOL , 37*StalwartOppositionFE3_mvl/mxv
  .byte   W01
- .byte   VOL , 35*song63_mvl/mxv
+ .byte   VOL , 35*StalwartOppositionFE3_mvl/mxv
  .byte   W01
- .byte   VOL , 33*song63_mvl/mxv
+ .byte   VOL , 33*StalwartOppositionFE3_mvl/mxv
  .byte   W01
- .byte   VOL , 31*song63_mvl/mxv
+ .byte   VOL , 31*StalwartOppositionFE3_mvl/mxv
  .byte   W01
- .byte   VOL , 29*song63_mvl/mxv
+ .byte   VOL , 29*StalwartOppositionFE3_mvl/mxv
  .byte   W01
- .byte   VOL , 28*song63_mvl/mxv
+ .byte   VOL , 28*StalwartOppositionFE3_mvl/mxv
  .byte   W02
- .byte   VOL , 28*song63_mvl/mxv
+ .byte   VOL , 28*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 29*song63_mvl/mxv
+ .byte   VOL , 29*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 29*song63_mvl/mxv
+ .byte   VOL , 29*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 30*song63_mvl/mxv
+ .byte   VOL , 30*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 30*song63_mvl/mxv
+ .byte   VOL , 30*StalwartOppositionFE3_mvl/mxv
  .byte   W04
- .byte   VOL , 31*song63_mvl/mxv
+ .byte   VOL , 31*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 31*song63_mvl/mxv
+ .byte   VOL , 31*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 32*song63_mvl/mxv
+ .byte   VOL , 32*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 32*song63_mvl/mxv
+ .byte   VOL , 32*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 33*song63_mvl/mxv
+ .byte   VOL , 33*StalwartOppositionFE3_mvl/mxv
  .byte   W04
- .byte   VOL , 33*song63_mvl/mxv
+ .byte   VOL , 33*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 34*song63_mvl/mxv
+ .byte   VOL , 34*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 34*song63_mvl/mxv
+ .byte   VOL , 34*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 34*song63_mvl/mxv
+ .byte   VOL , 34*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 35*song63_mvl/mxv
+ .byte   VOL , 35*StalwartOppositionFE3_mvl/mxv
  .byte   W02
 @  #01 @017   ----------------------------------------
  .byte   W02
- .byte   VOL , 35*song63_mvl/mxv
+ .byte   VOL , 35*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 36*song63_mvl/mxv
+ .byte   VOL , 36*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 36*song63_mvl/mxv
+ .byte   VOL , 36*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 37*song63_mvl/mxv
+ .byte   VOL , 37*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 37*song63_mvl/mxv
+ .byte   VOL , 37*StalwartOppositionFE3_mvl/mxv
  .byte   W04
- .byte   VOL , 38*song63_mvl/mxv
+ .byte   VOL , 38*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 38*song63_mvl/mxv
+ .byte   VOL , 38*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 39*song63_mvl/mxv
+ .byte   VOL , 39*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 39*song63_mvl/mxv
+ .byte   VOL , 39*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 40*song63_mvl/mxv
+ .byte   VOL , 40*StalwartOppositionFE3_mvl/mxv
  .byte   W04
- .byte   VOL , 40*song63_mvl/mxv
+ .byte   VOL , 40*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 41*song63_mvl/mxv
+ .byte   VOL , 41*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 41*song63_mvl/mxv
+ .byte   VOL , 41*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 42*song63_mvl/mxv
+ .byte   VOL , 42*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 42*song63_mvl/mxv
+ .byte   VOL , 42*StalwartOppositionFE3_mvl/mxv
  .byte   W02
- .byte   VOL , 42*song63_mvl/mxv
+ .byte   VOL , 42*StalwartOppositionFE3_mvl/mxv
  .byte   W02
- .byte   VOL , 42*song63_mvl/mxv
+ .byte   VOL , 42*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 43*song63_mvl/mxv
+ .byte   VOL , 43*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 43*song63_mvl/mxv
+ .byte   VOL , 43*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 44*song63_mvl/mxv
+ .byte   VOL , 44*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 44*song63_mvl/mxv
+ .byte   VOL , 44*StalwartOppositionFE3_mvl/mxv
  .byte   W04
- .byte   VOL , 45*song63_mvl/mxv
+ .byte   VOL , 45*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 45*song63_mvl/mxv
+ .byte   VOL , 45*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 46*song63_mvl/mxv
+ .byte   VOL , 46*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 46*song63_mvl/mxv
+ .byte   VOL , 46*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 47*song63_mvl/mxv
+ .byte   VOL , 47*StalwartOppositionFE3_mvl/mxv
  .byte   W04
- .byte   VOL , 47*song63_mvl/mxv
+ .byte   VOL , 47*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 48*song63_mvl/mxv
+ .byte   VOL , 48*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 48*song63_mvl/mxv
+ .byte   VOL , 48*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 49*song63_mvl/mxv
+ .byte   VOL , 49*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 49*song63_mvl/mxv
+ .byte   VOL , 49*StalwartOppositionFE3_mvl/mxv
  .byte   W02
 @  #01 @018   ----------------------------------------
  .byte   W02
- .byte   VOL , 50*song63_mvl/mxv
+ .byte   VOL , 50*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 50*song63_mvl/mxv
+ .byte   VOL , 50*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 51*song63_mvl/mxv
+ .byte   VOL , 51*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 51*song63_mvl/mxv
+ .byte   VOL , 51*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 51*song63_mvl/mxv
+ .byte   VOL , 51*StalwartOppositionFE3_mvl/mxv
  .byte   W04
- .byte   VOL , 52*song63_mvl/mxv
+ .byte   VOL , 52*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 52*song63_mvl/mxv
+ .byte   VOL , 52*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 53*song63_mvl/mxv
+ .byte   VOL , 53*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 53*song63_mvl/mxv
+ .byte   VOL , 53*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 54*song63_mvl/mxv
+ .byte   VOL , 54*StalwartOppositionFE3_mvl/mxv
  .byte   W04
- .byte   VOL , 54*song63_mvl/mxv
+ .byte   VOL , 54*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 55*song63_mvl/mxv
+ .byte   VOL , 55*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 55*song63_mvl/mxv
+ .byte   VOL , 55*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 56*song63_mvl/mxv
+ .byte   VOL , 56*StalwartOppositionFE3_mvl/mxv
  .byte   W03
- .byte   VOL , 56*song63_mvl/mxv
+ .byte   VOL , 56*StalwartOppositionFE3_mvl/mxv
  .byte   W01
  .byte   EOT
  .byte   Ds4
@@ -456,12 +456,12 @@ Label_010502BB:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song63_002:
+StalwartOppositionFE3_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , song63_key+0
+ .byte   KEYSH , StalwartOppositionFE3_key+0
 Label_0104FBF6:
  .byte   VOICE , 60
- .byte   VOL , 53*song63_mvl/mxv
+ .byte   VOL , 53*StalwartOppositionFE3_mvl/mxv
  .byte   PAN , c_v-25
  .byte   N44 ,Gs2 ,v104
  .byte   W48
@@ -767,12 +767,12 @@ Label_0104FC8D:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song63_003:
+StalwartOppositionFE3_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , song63_key+0
+ .byte   KEYSH , StalwartOppositionFE3_key+0
 Label_0104FD5A:
  .byte   VOICE , 60
- .byte   VOL , 54*song63_mvl/mxv
+ .byte   VOL , 54*StalwartOppositionFE3_mvl/mxv
  .byte   PAN , c_v+25
  .byte   N44 ,Ds3 ,v104
  .byte   W48
@@ -1101,12 +1101,12 @@ Label_0104FE00:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song63_004:
+StalwartOppositionFE3_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , song63_key+0
+ .byte   KEYSH , StalwartOppositionFE3_key+0
 Label_0104FED2:
  .byte   VOICE , 62
- .byte   VOL , 37*song63_mvl/mxv
+ .byte   VOL , 37*StalwartOppositionFE3_mvl/mxv
  .byte   PAN , c_v-14
  .byte   N44 ,Ds4 ,v104
  .byte   W48
@@ -1435,12 +1435,12 @@ Label_0104FF78:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song63_005:
+StalwartOppositionFE3_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , song63_key+0
+ .byte   KEYSH , StalwartOppositionFE3_key+0
 Label_0105004A:
  .byte   VOICE , 47
- .byte   VOL , 48*song63_mvl/mxv
+ .byte   VOL , 48*StalwartOppositionFE3_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N11 ,Gn2 ,v104
  .byte   W12
@@ -1656,10 +1656,10 @@ Label_010500D8:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song63_006:
+StalwartOppositionFE3_006:
 @  #06 @000   ----------------------------------------
- .byte   VOL , 60*song63_mvl/mxv
- .byte   KEYSH , song63_key+0
+ .byte   VOL , 60*StalwartOppositionFE3_mvl/mxv
+ .byte   KEYSH , StalwartOppositionFE3_key+0
 Label_01050150:
  .byte   VOICE , 0
  .byte   N11 ,Cn0 ,v108
@@ -1767,19 +1767,19 @@ Label_0105016B:
 @******************************************************@
 	.align	2
 
-song63:
+StalwartOppositionFE3:
 	.byte	6	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song63_pri	@ Priority
-	.byte	song63_rev	@ Reverb.
+	.byte	StalwartOppositionFE3_pri	@ Priority
+	.byte	StalwartOppositionFE3_rev	@ Reverb.
     
-	.word	song63_grp
+	.word	StalwartOppositionFE3_grp
     
-	.word	song63_001
-	.word	song63_002
-	.word	song63_003
-	.word	song63_004
-	.word	song63_005
-	.word	song63_006
+	.word	StalwartOppositionFE3_001
+	.word	StalwartOppositionFE3_002
+	.word	StalwartOppositionFE3_003
+	.word	StalwartOppositionFE3_004
+	.word	StalwartOppositionFE3_005
+	.word	StalwartOppositionFE3_006
 
 	.end

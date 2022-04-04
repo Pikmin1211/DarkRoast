@@ -1,27 +1,27 @@
 	.include "MPlayDef.s"
 
-	.equ	song10_grp, voicegroup000
-	.equ	song10_pri, 0
-	.equ	song10_rev, 0
-	.equ	song10_mvl, 127
-	.equ	song10_key, 0
-	.equ	song10_tbs, 1
-	.equ	song10_exg, 0
-	.equ	song10_cmp, 1
+	.equ	Regal_grp, voicegroup000
+	.equ	Regal_pri, 0
+	.equ	Regal_rev, 0
+	.equ	Regal_mvl, 127
+	.equ	Regal_key, 0
+	.equ	Regal_tbs, 1
+	.equ	Regal_exg, 0
+	.equ	Regal_cmp, 1
 
 	.section .rodata
-	.global	song10
+	.global	Regal
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song10_001:
+Regal_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , song10_key+0
- .byte   TEMPO , 104*song10_tbs/2
+ .byte   KEYSH , Regal_key+0
+ .byte   TEMPO , 104*Regal_tbs/2
  .byte   VOICE , 110
- .byte   VOL , 67*song10_mvl/mxv
+ .byte   VOL , 67*Regal_mvl/mxv
  .byte   TIE ,Fn2 ,v032
  .byte   TIE ,Dn3
  .byte   TIE ,Dn4
@@ -89,11 +89,11 @@ Label_553CAB:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song10_002:
+Regal_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , song10_key+0
+ .byte   KEYSH , Regal_key+0
  .byte   VOICE , 34
- .byte   VOL , 81*song10_mvl/mxv
+ .byte   VOL , 81*Regal_mvl/mxv
  .byte   N60 ,Cn2 ,v064
  .byte   W60
  .byte   N12
@@ -261,10 +261,10 @@ Label_553FF4:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song10_003:
+Regal_003:
 @  #03 @000   ----------------------------------------
- .byte   VOL , 127*song10_mvl/mxv
- .byte   KEYSH , song10_key+0
+ .byte   VOL , 127*Regal_mvl/mxv
+ .byte   KEYSH , Regal_key+0
  .byte   VOICE , 4
  .byte   TIE ,Dn2 ,v032
  .byte   TIE ,Gn2
@@ -435,11 +435,11 @@ Label_5542F3:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song10_004:
+Regal_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , song10_key+0
+ .byte   KEYSH , Regal_key+0
  .byte   VOICE , 57
- .byte   VOL , 96*song10_mvl/mxv
+ .byte   VOL , 96*Regal_mvl/mxv
  .byte   W72
  .byte   W72
 @  #04 @001   ----------------------------------------
@@ -597,11 +597,11 @@ Label_5540D0:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song10_005:
+Regal_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , song10_key+0
+ .byte   KEYSH , Regal_key+0
  .byte   VOICE , 52
- .byte   VOL , 71*song10_mvl/mxv
+ .byte   VOL , 71*Regal_mvl/mxv
  .byte   W72
  .byte   W72
 @  #05 @001   ----------------------------------------
@@ -865,10 +865,10 @@ Label_0100D02F:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song10_006:
+Regal_006:
 @  #06 @000   ----------------------------------------
- .byte   VOL , 127*song10_mvl/mxv
- .byte   KEYSH , song10_key+0
+ .byte   VOL , 127*Regal_mvl/mxv
+ .byte   KEYSH , Regal_key+0
  .byte   VOICE , 124
  .byte   N06 ,Dn1 ,v064
  .byte   N06 ,Gs1
@@ -1117,19 +1117,19 @@ Label_0100D140:
 @******************************************************@
 	.align	2
 
-song10:
+Regal:
 	.byte	6	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song10_pri	@ Priority
-	.byte	song10_rev	@ Reverb.
+	.byte	Regal_pri	@ Priority
+	.byte	Regal_rev	@ Reverb.
     
-	.word	song10_grp
+	.word	Regal_grp
     
-	.word	song10_001
-	.word	song10_002
-	.word	song10_003
-	.word	song10_004
-	.word	song10_005
-	.word	song10_006
+	.word	Regal_001
+	.word	Regal_002
+	.word	Regal_003
+	.word	Regal_004
+	.word	Regal_005
+	.word	Regal_006
 
 	.end

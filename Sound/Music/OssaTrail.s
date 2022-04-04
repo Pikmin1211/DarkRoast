@@ -1,28 +1,28 @@
 	.include "MPlayDef.s"
 
-	.equ	song018F_grp, voicegroup000
-	.equ	song018F_pri, 0
-	.equ	song018F_rev, 0
-	.equ	song018F_mvl, 127
-	.equ	song018F_key, 0
-	.equ	song018F_tbs, 1
-	.equ	song018F_exg, 0
-	.equ	song018F_cmp, 1
+	.equ	OssaTrail_grp, voicegroup000
+	.equ	OssaTrail_pri, 0
+	.equ	OssaTrail_rev, 0
+	.equ	OssaTrail_mvl, 127
+	.equ	OssaTrail_key, 0
+	.equ	OssaTrail_tbs, 1
+	.equ	OssaTrail_exg, 0
+	.equ	OssaTrail_cmp, 1
 
 	.section .rodata
-	.global	song018F
+	.global	OssaTrail
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song018F_001:
+OssaTrail_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , song018F_key+0
+ .byte   KEYSH , OssaTrail_key+0
 Label_0131383E:
- .byte   TEMPO , 134*song018F_tbs/2
+ .byte   TEMPO , 134*OssaTrail_tbs/2
  .byte   VOICE , 52
- .byte   VOL , 12*song018F_mvl/mxv
+ .byte   VOL , 12*OssaTrail_mvl/mxv
  .byte   PAN , c_v+15
  .byte   TIE ,An3 ,v100
  .byte   TIE ,Cn4
@@ -299,12 +299,12 @@ Label_013138C2:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song018F_002:
+OssaTrail_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , song018F_key+0
+ .byte   KEYSH , OssaTrail_key+0
 Label_013139A2:
  .byte   VOICE , 52
- .byte   VOL , 12*song018F_mvl/mxv
+ .byte   VOL , 12*OssaTrail_mvl/mxv
  .byte   PAN , c_v-13
  .byte   TIE ,An3 ,v100
  .byte   TIE ,Cn4
@@ -581,12 +581,12 @@ Label_01313A24:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song018F_003:
+OssaTrail_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , song018F_key+0
+ .byte   KEYSH , OssaTrail_key+0
 Label_01313B02:
  .byte   VOICE , 46
- .byte   VOL , 34*song018F_mvl/mxv
+ .byte   VOL , 34*OssaTrail_mvl/mxv
  .byte   PAN , c_v-16
  .byte   N08 ,An2 ,v100
  .byte   W16
@@ -870,12 +870,12 @@ Label_01313B7C:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song018F_004:
+OssaTrail_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , song018F_key+0
+ .byte   KEYSH , OssaTrail_key+0
 Label_01313C9A:
  .byte   VOICE , 46
- .byte   VOL , 34*song018F_mvl/mxv
+ .byte   VOL , 34*OssaTrail_mvl/mxv
  .byte   PAN , c_v+21
  .byte   N08 ,An2 ,v100
  .byte   W16
@@ -1159,12 +1159,12 @@ Label_01313D14:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song018F_005:
+OssaTrail_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , song018F_key+0
+ .byte   KEYSH , OssaTrail_key+0
 Label_01313E32:
  .byte   VOICE , 11
- .byte   VOL , 39*song018F_mvl/mxv
+ .byte   VOL , 39*OssaTrail_mvl/mxv
  .byte   PAN , c_v-19
  .byte   W96
 @  #05 @001   ----------------------------------------
@@ -1369,12 +1369,12 @@ Label_01313E99:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song018F_006:
+OssaTrail_006:
 @  #06 @000   ----------------------------------------
- .byte   KEYSH , song018F_key+0
+ .byte   KEYSH , OssaTrail_key+0
 Label_01313EFA:
  .byte   VOICE , 11
- .byte   VOL , 41*song018F_mvl/mxv
+ .byte   VOL , 41*OssaTrail_mvl/mxv
  .byte   PAN , c_v+22
  .byte   W96
 @  #06 @001   ----------------------------------------
@@ -1579,13 +1579,13 @@ Label_01313F61:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-song018F_007:
+OssaTrail_007:
 @  #07 @000   ----------------------------------------
- .byte   KEYSH , song018F_key+0
+ .byte   KEYSH , OssaTrail_key+0
 Label_01313FC2:
  .byte   VOICE , 11
  .byte   PAN , c_v+8
- .byte   VOL , 48*song018F_mvl/mxv
+ .byte   VOL , 48*OssaTrail_mvl/mxv
  .byte   W96
 @  #07 @001   ----------------------------------------
  .byte   W96
@@ -1789,12 +1789,12 @@ Label_01314029:
 
 @**************** Track 8 (Midi-Chn.7) ****************@
 
-song018F_008:
+OssaTrail_008:
 @  #08 @000   ----------------------------------------
- .byte   KEYSH , song018F_key+0
+ .byte   KEYSH , OssaTrail_key+0
 Label_0131408A:
  .byte   VOICE , 73
- .byte   VOL , 53*song018F_mvl/mxv
+ .byte   VOL , 53*OssaTrail_mvl/mxv
  .byte   PAN , c_v-21
  .byte   W96
 @  #08 @001   ----------------------------------------
@@ -2011,12 +2011,12 @@ Label_013140D9:
 
 @**************** Track 9 (Midi-Chn.8) ****************@
 
-song018F_009:
+OssaTrail_009:
 @  #09 @000   ----------------------------------------
- .byte   KEYSH , song018F_key+0
+ .byte   KEYSH , OssaTrail_key+0
 Label_01314152:
  .byte   VOICE , 77
- .byte   VOL , 36*song018F_mvl/mxv
+ .byte   VOL , 36*OssaTrail_mvl/mxv
  .byte   PAN , c_v+22
  .byte   W96
 @  #09 @001   ----------------------------------------
@@ -2234,22 +2234,22 @@ Label_013141A1:
 @******************************************************@
 	.align	2
 
-song018F:
+OssaTrail:
 	.byte	9	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song018F_pri	@ Priority
-	.byte	song018F_rev	@ Reverb.
+	.byte	OssaTrail_pri	@ Priority
+	.byte	OssaTrail_rev	@ Reverb.
     
-	.word	song018F_grp
+	.word	OssaTrail_grp
     
-	.word	song018F_001
-	.word	song018F_002
-	.word	song018F_003
-	.word	song018F_004
-	.word	song018F_005
-	.word	song018F_006
-	.word	song018F_007
-	.word	song018F_008
-	.word	song018F_009
+	.word	OssaTrail_001
+	.word	OssaTrail_002
+	.word	OssaTrail_003
+	.word	OssaTrail_004
+	.word	OssaTrail_005
+	.word	OssaTrail_006
+	.word	OssaTrail_007
+	.word	OssaTrail_008
+	.word	OssaTrail_009
 
 	.end

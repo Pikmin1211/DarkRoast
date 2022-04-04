@@ -1,28 +1,28 @@
 	.include "MPlayDef.s"
 
-	.equ	song012D_grp, voicegroup000
-	.equ	song012D_pri, 10
-	.equ	song012D_rev, 0
-	.equ	song012D_mvl, 127
-	.equ	song012D_key, 0
-	.equ	song012D_tbs, 1
-	.equ	song012D_exg, 0
-	.equ	song012D_cmp, 1
+	.equ	Adversity_grp, voicegroup000
+	.equ	Adversity_pri, 10
+	.equ	Adversity_rev, 0
+	.equ	Adversity_mvl, 127
+	.equ	Adversity_key, 0
+	.equ	Adversity_tbs, 1
+	.equ	Adversity_exg, 0
+	.equ	Adversity_cmp, 1
 
 	.section .rodata
-	.global	song012D
+	.global	Adversity
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song012D_001:
+Adversity_001:
 @  #01 @000   ----------------------------------------
 Label_01542814:
- .byte   TEMPO , 210*song012D_tbs/2
- .byte   KEYSH , song012D_key+0
+ .byte   TEMPO , 210*Adversity_tbs/2
+ .byte   KEYSH , Adversity_key+0
  .byte   VOICE , 57
- .byte   VOL , 50*song012D_mvl/mxv
+ .byte   VOL , 50*Adversity_mvl/mxv
  .byte   N12 ,Gs2 ,v088
  .byte   W12
  .byte   As2
@@ -244,13 +244,13 @@ Label_01542880:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song012D_002:
+Adversity_002:
 @  #02 @000   ----------------------------------------
 Label_015428FC:
- .byte   TEMPO , 210*song012D_tbs/2
- .byte   KEYSH , song012D_key+0
+ .byte   TEMPO , 210*Adversity_tbs/2
+ .byte   KEYSH , Adversity_key+0
  .byte   VOICE , 40
- .byte   VOL , 43*song012D_mvl/mxv
+ .byte   VOL , 43*Adversity_mvl/mxv
  .byte   W96
 @  #02 @001   ----------------------------------------
  .byte   W96
@@ -397,13 +397,13 @@ Label_015428FC:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song012D_003:
+Adversity_003:
 @  #03 @000   ----------------------------------------
 Label_01542974:
- .byte   TEMPO , 210*song012D_tbs/2
- .byte   KEYSH , song012D_key+0
+ .byte   TEMPO , 210*Adversity_tbs/2
+ .byte   KEYSH , Adversity_key+0
  .byte   VOICE , 110
- .byte   VOL , 42*song012D_mvl/mxv
+ .byte   VOL , 42*Adversity_mvl/mxv
  .byte   W96
 @  #03 @001   ----------------------------------------
  .byte   W96
@@ -570,13 +570,13 @@ Label_01542996:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song012D_004:
+Adversity_004:
 @  #04 @000   ----------------------------------------
 Label_011164CC:
- .byte   TEMPO , 210*song012D_tbs/2
- .byte   KEYSH , song012D_key+0
+ .byte   TEMPO , 210*Adversity_tbs/2
+ .byte   KEYSH , Adversity_key+0
  .byte   VOICE , 40
- .byte   VOL , 18*song012D_mvl/mxv
+ .byte   VOL , 18*Adversity_mvl/mxv
  .byte   W96
 @  #04 @001   ----------------------------------------
  .byte   W96
@@ -695,13 +695,13 @@ Label_011164CC:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song012D_005:
+Adversity_005:
 @  #05 @000   ----------------------------------------
 Label_01542A18:
- .byte   TEMPO , 210*song012D_tbs/2
- .byte   KEYSH , song012D_key+0
+ .byte   TEMPO , 210*Adversity_tbs/2
+ .byte   KEYSH , Adversity_key+0
  .byte   VOICE , 40
- .byte   VOL , 53*song012D_mvl/mxv
+ .byte   VOL , 53*Adversity_mvl/mxv
  .byte   PAN , c_v+16
  .byte   W96
 @  #05 @001   ----------------------------------------
@@ -846,13 +846,13 @@ Label_01542A18:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song012D_006:
+Adversity_006:
 @  #06 @000   ----------------------------------------
 Label_01542AA0:
- .byte   TEMPO , 210*song012D_tbs/2
- .byte   KEYSH , song012D_key+0
+ .byte   TEMPO , 210*Adversity_tbs/2
+ .byte   KEYSH , Adversity_key+0
  .byte   VOICE , 57
- .byte   VOL , 23*song012D_mvl/mxv
+ .byte   VOL , 23*Adversity_mvl/mxv
  .byte   PAN , c_v-16
  .byte   N12 ,Ds2 ,v100
  .byte   W24
@@ -1015,13 +1015,13 @@ Label_01542AF3:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-song012D_007:
+Adversity_007:
 @  #07 @000   ----------------------------------------
 Label_01542B7C:
- .byte   TEMPO , 210*song012D_tbs/2
- .byte   KEYSH , song012D_key+0
+ .byte   TEMPO , 210*Adversity_tbs/2
+ .byte   KEYSH , Adversity_key+0
  .byte   VOICE , 41
- .byte   VOL , 50*song012D_mvl/mxv
+ .byte   VOL , 50*Adversity_mvl/mxv
  .byte   PAN , c_v+16
  .byte   W96
 @  #07 @001   ----------------------------------------
@@ -1166,13 +1166,13 @@ Label_01542B7C:
 
 @**************** Track 8 (Midi-Chn.7) ****************@
 
-song012D_008:
+Adversity_008:
 @  #08 @000   ----------------------------------------
 Label_01542C00:
- .byte   TEMPO , 210*song012D_tbs/2
- .byte   KEYSH , song012D_key+0
+ .byte   TEMPO , 210*Adversity_tbs/2
+ .byte   KEYSH , Adversity_key+0
  .byte   VOICE , 40
- .byte   VOL , 8*song012D_mvl/mxv
+ .byte   VOL , 8*Adversity_mvl/mxv
  .byte   PAN , c_v+3
  .byte   N96 ,Gs1 ,v100
  .byte   W96
@@ -1296,13 +1296,13 @@ Label_01542C00:
 
 @**************** Track 9 (Midi-Chn.8) ****************@
 
-song012D_009:
+Adversity_009:
 @  #09 @000   ----------------------------------------
 Label_01542C58:
- .byte   TEMPO , 210*song012D_tbs/2
- .byte   KEYSH , song012D_key+0
+ .byte   TEMPO , 210*Adversity_tbs/2
+ .byte   KEYSH , Adversity_key+0
  .byte   VOICE , 57
- .byte   VOL , 4*song012D_mvl/mxv
+ .byte   VOL , 4*Adversity_mvl/mxv
  .byte   PAN , c_v-48
  .byte   N12 ,Gs2 ,v100
  .byte   W12
@@ -1497,13 +1497,13 @@ Label_01542CB9:
 
 @**************** Track 10 (Midi-Chn.9) ****************@
 
-song012D_010:
+Adversity_010:
 @  #10 @000   ----------------------------------------
 Label_01542D50:
- .byte   TEMPO , 210*song012D_tbs/2
- .byte   KEYSH , song012D_key+0
+ .byte   TEMPO , 210*Adversity_tbs/2
+ .byte   KEYSH , Adversity_key+0
  .byte   VOICE , 40
- .byte   VOL , 7*song012D_mvl/mxv
+ .byte   VOL , 7*Adversity_mvl/mxv
  .byte   PAN , c_v+2
  .byte   N12 ,Gs2 ,v100
  .byte   W12
@@ -1696,13 +1696,13 @@ Label_01542DBE:
 
 @**************** Track 11 (Midi-Chn.10) ****************@
 
-song012D_011:
+Adversity_011:
 @  #11 @000   ----------------------------------------
 Label_01542E14:
- .byte   TEMPO , 210*song012D_tbs/2
- .byte   KEYSH , song012D_key+0
+ .byte   TEMPO , 210*Adversity_tbs/2
+ .byte   KEYSH , Adversity_key+0
  .byte   VOICE , 109
- .byte   VOL , 26*song012D_mvl/mxv
+ .byte   VOL , 26*Adversity_mvl/mxv
  .byte   W96
 @  #11 @001   ----------------------------------------
  .byte   W96
@@ -1877,13 +1877,13 @@ Label_01542E80:
 
 @**************** Track 12 (Midi-Chn.11) ****************@
 
-song012D_012:
+Adversity_012:
 @  #12 @000   ----------------------------------------
 Label_01542EE4:
- .byte   TEMPO , 210*song012D_tbs/2
- .byte   KEYSH , song012D_key+0
+ .byte   TEMPO , 210*Adversity_tbs/2
+ .byte   KEYSH , Adversity_key+0
  .byte   VOICE , 47
- .byte   VOL , 92*song012D_mvl/mxv
+ .byte   VOL , 92*Adversity_mvl/mxv
  .byte   N24 ,Cn3 ,v100
  .byte   W72
  .byte   N12
@@ -2062,13 +2062,13 @@ Label_01542F51:
 
 @**************** Track 13 (Midi-Chn.12) ****************@
 
-song012D_013:
+Adversity_013:
 @  #13 @000   ----------------------------------------
 Label_01542FE8:
- .byte   TEMPO , 210*song012D_tbs/2
- .byte   KEYSH , song012D_key+0
+ .byte   TEMPO , 210*Adversity_tbs/2
+ .byte   KEYSH , Adversity_key+0
  .byte   VOICE , 127
- .byte   VOL , 41*song012D_mvl/mxv
+ .byte   VOL , 41*Adversity_mvl/mxv
  .byte   N24 ,Dn1 ,v100
  .byte   W72
  .byte   N12
@@ -2248,26 +2248,26 @@ Label_01543055:
 @******************************************************@
 	.align	2
 
-song012D:
+Adversity:
 	.byte	13	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song012D_pri	@ Priority
-	.byte	song012D_rev	@ Reverb.
+	.byte	Adversity_pri	@ Priority
+	.byte	Adversity_rev	@ Reverb.
     
-	.word	song012D_grp
+	.word	Adversity_grp
     
-	.word	song012D_001
-	.word	song012D_002
-	.word	song012D_003
-	.word	song012D_004
-	.word	song012D_005
-	.word	song012D_006
-	.word	song012D_007
-	.word	song012D_008
-	.word	song012D_009
-	.word	song012D_010
-	.word	song012D_011
-	.word	song012D_012
-	.word	song012D_013
+	.word	Adversity_001
+	.word	Adversity_002
+	.word	Adversity_003
+	.word	Adversity_004
+	.word	Adversity_005
+	.word	Adversity_006
+	.word	Adversity_007
+	.word	Adversity_008
+	.word	Adversity_009
+	.word	Adversity_010
+	.word	Adversity_011
+	.word	Adversity_012
+	.word	Adversity_013
 
 	.end

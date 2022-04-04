@@ -1,28 +1,28 @@
 	.include "MPlayDef.s"
 
-	.equ	song19_grp, voicegroup000
-	.equ	song19_pri, 0
-	.equ	song19_rev, 0
-	.equ	song19_mvl, 127
-	.equ	song19_key, 0
-	.equ	song19_tbs, 1
-	.equ	song19_exg, 0
-	.equ	song19_cmp, 1
+	.equ	StrikeFE7_grp, voicegroup000
+	.equ	StrikeFE7_pri, 0
+	.equ	StrikeFE7_rev, 0
+	.equ	StrikeFE7_mvl, 127
+	.equ	StrikeFE7_key, 0
+	.equ	StrikeFE7_tbs, 1
+	.equ	StrikeFE7_exg, 0
+	.equ	StrikeFE7_cmp, 1
 
 	.section .rodata
-	.global	song19
+	.global	StrikeFE7
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song19_001:
+StrikeFE7_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , song19_key+0
- .byte   TEMPO , 168*song19_tbs/2
+ .byte   KEYSH , StrikeFE7_key+0
+ .byte   TEMPO , 168*StrikeFE7_tbs/2
  .byte   VOICE , 127
  .byte   W24
- .byte   VOL , 39*song19_mvl/mxv
+ .byte   VOL , 39*StrikeFE7_mvl/mxv
  .byte   W24
 Label_55D04F:
  .byte   N11 ,Cn1 ,v127
@@ -330,11 +330,11 @@ Label_55D04F:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song19_002:
+StrikeFE7_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , song19_key+0
+ .byte   KEYSH , StrikeFE7_key+0
  .byte   VOICE , 39
- .byte   VOL , 54*song19_mvl/mxv
+ .byte   VOL , 54*StrikeFE7_mvl/mxv
  .byte   W24
  .byte   PAN , c_v+0
  .byte   W24
@@ -626,18 +626,18 @@ Label_55D2F3:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song19_003:
+StrikeFE7_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , song19_key+0
+ .byte   KEYSH , StrikeFE7_key+0
  .byte   VOICE , 104
- .byte   VOL , 50*song19_mvl/mxv
+ .byte   VOL , 50*StrikeFE7_mvl/mxv
  .byte   PAN , c_v+21
  .byte   W12
  .byte   N48 ,Cn3 ,v127
  .byte   W36
 Label_55D4B1:
  .byte   W18
- .byte   VOL , 45*song19_mvl/mxv
+ .byte   VOL , 45*StrikeFE7_mvl/mxv
  .byte   PAN , c_v+16
  .byte   W06
  .byte   N05 ,Cn3 ,v100
@@ -856,77 +856,77 @@ Label_55D4B1:
  .byte   W06
  .byte   Gs3 ,v028
  .byte   W11
- .byte   VOL , 49*song19_mvl/mxv
+ .byte   VOL , 49*StrikeFE7_mvl/mxv
  .byte   W07
  .byte   TIE ,Gs3 ,v112
  .byte   W12
 @  #03 @017   ----------------------------------------
  .byte   W01
- .byte   VOL , 49*song19_mvl/mxv
+ .byte   VOL , 49*StrikeFE7_mvl/mxv
  .byte   W06
- .byte   VOL , 48*song19_mvl/mxv
+ .byte   VOL , 48*StrikeFE7_mvl/mxv
  .byte   W03
- .byte   VOL , 48*song19_mvl/mxv
+ .byte   VOL , 48*StrikeFE7_mvl/mxv
  .byte   W03
- .byte   VOL , 47*song19_mvl/mxv
+ .byte   VOL , 47*StrikeFE7_mvl/mxv
  .byte   W02
- .byte   VOL , 47*song19_mvl/mxv
+ .byte   VOL , 47*StrikeFE7_mvl/mxv
  .byte   W03
- .byte   VOL , 47*song19_mvl/mxv
+ .byte   VOL , 47*StrikeFE7_mvl/mxv
  .byte   W03
- .byte   VOL , 46*song19_mvl/mxv
+ .byte   VOL , 46*StrikeFE7_mvl/mxv
  .byte   W03
- .byte   VOL , 46*song19_mvl/mxv
+ .byte   VOL , 46*StrikeFE7_mvl/mxv
  .byte   W03
- .byte   VOL , 45*song19_mvl/mxv
+ .byte   VOL , 45*StrikeFE7_mvl/mxv
  .byte   W03
- .byte   VOL , 45*song19_mvl/mxv
+ .byte   VOL , 45*StrikeFE7_mvl/mxv
  .byte   W02
- .byte   VOL , 45*song19_mvl/mxv
+ .byte   VOL , 45*StrikeFE7_mvl/mxv
  .byte   W03
- .byte   VOL , 44*song19_mvl/mxv
+ .byte   VOL , 44*StrikeFE7_mvl/mxv
  .byte   W01
- .byte   VOL , 44*song19_mvl/mxv
+ .byte   VOL , 44*StrikeFE7_mvl/mxv
  .byte   W03
- .byte   VOL , 44*song19_mvl/mxv
+ .byte   VOL , 44*StrikeFE7_mvl/mxv
  .byte   W03
- .byte   VOL , 45*song19_mvl/mxv
+ .byte   VOL , 45*StrikeFE7_mvl/mxv
  .byte   W03
- .byte   VOL , 45*song19_mvl/mxv
+ .byte   VOL , 45*StrikeFE7_mvl/mxv
  .byte   W03
- .byte   VOL , 45*song19_mvl/mxv
+ .byte   VOL , 45*StrikeFE7_mvl/mxv
  .byte   W03
- .byte   VOL , 46*song19_mvl/mxv
+ .byte   VOL , 46*StrikeFE7_mvl/mxv
  .byte   W03
- .byte   VOL , 46*song19_mvl/mxv
+ .byte   VOL , 46*StrikeFE7_mvl/mxv
  .byte   W03
- .byte   VOL , 47*song19_mvl/mxv
+ .byte   VOL , 47*StrikeFE7_mvl/mxv
  .byte   W03
- .byte   VOL , 47*song19_mvl/mxv
+ .byte   VOL , 47*StrikeFE7_mvl/mxv
  .byte   W03
- .byte   VOL , 47*song19_mvl/mxv
+ .byte   VOL , 47*StrikeFE7_mvl/mxv
  .byte   W03
- .byte   VOL , 48*song19_mvl/mxv
+ .byte   VOL , 48*StrikeFE7_mvl/mxv
  .byte   W03
- .byte   VOL , 48*song19_mvl/mxv
+ .byte   VOL , 48*StrikeFE7_mvl/mxv
  .byte   W03
- .byte   VOL , 49*song19_mvl/mxv
+ .byte   VOL , 49*StrikeFE7_mvl/mxv
  .byte   W08
- .byte   VOL , 49*song19_mvl/mxv
+ .byte   VOL , 49*StrikeFE7_mvl/mxv
  .byte   W04
- .byte   VOL , 50*song19_mvl/mxv
+ .byte   VOL , 50*StrikeFE7_mvl/mxv
  .byte   W05
- .byte   VOL , 50*song19_mvl/mxv
+ .byte   VOL , 50*StrikeFE7_mvl/mxv
  .byte   W04
- .byte   VOL , 50*song19_mvl/mxv
+ .byte   VOL , 50*StrikeFE7_mvl/mxv
  .byte   W03
 @  #03 @018   ----------------------------------------
  .byte   W01
- .byte   VOL , 51*song19_mvl/mxv
+ .byte   VOL , 51*StrikeFE7_mvl/mxv
  .byte   W04
- .byte   VOL , 51*song19_mvl/mxv
+ .byte   VOL , 51*StrikeFE7_mvl/mxv
  .byte   W05
- .byte   VOL , 52*song19_mvl/mxv
+ .byte   VOL , 52*StrikeFE7_mvl/mxv
  .byte   W13
  .byte   EOT
  .byte   W01
@@ -950,18 +950,18 @@ Label_55D4B1:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song19_004:
+StrikeFE7_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , song19_key+0
+ .byte   KEYSH , StrikeFE7_key+0
  .byte   VOICE , 57
- .byte   VOL , 47*song19_mvl/mxv
+ .byte   VOL , 47*StrikeFE7_mvl/mxv
  .byte   PAN , c_v-20
  .byte   W12
  .byte   N48 ,Cn3 ,v127
  .byte   W36
 Label_0113E8AD:
  .byte   W18
- .byte   VOL , 43*song19_mvl/mxv
+ .byte   VOL , 43*StrikeFE7_mvl/mxv
  .byte   PAN , c_v-9
  .byte   W06
  .byte   N04 ,Ds2 ,v096
@@ -1208,12 +1208,12 @@ Label_0113E8AD:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song19_005:
+StrikeFE7_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , song19_key+0
+ .byte   KEYSH , StrikeFE7_key+0
  .byte   VOICE , 40
  .byte   W24
- .byte   VOL , 37*song19_mvl/mxv
+ .byte   VOL , 37*StrikeFE7_mvl/mxv
  .byte   PAN , c_v+22
  .byte   W24
 Label_0113EA56:
@@ -1431,12 +1431,12 @@ Label_0113EA56:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song19_006:
+StrikeFE7_006:
 @  #06 @000   ----------------------------------------
- .byte   KEYSH , song19_key+0
+ .byte   KEYSH , StrikeFE7_key+0
  .byte   VOICE , 41
  .byte   W24
- .byte   VOL , 33*song19_mvl/mxv
+ .byte   VOL , 33*StrikeFE7_mvl/mxv
  .byte   PAN , c_v-26
  .byte   W24
 Label_0113EB56:
@@ -1651,12 +1651,12 @@ Label_0113EB56:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-song19_007:
+StrikeFE7_007:
 @  #07 @000   ----------------------------------------
- .byte   KEYSH , song19_key+0
+ .byte   KEYSH , StrikeFE7_key+0
  .byte   VOICE , 127
  .byte   W24
- .byte   VOL , 29*song19_mvl/mxv
+ .byte   VOL , 29*StrikeFE7_mvl/mxv
  .byte   W24
 Label_0113EC74:
  .byte   N09 ,Fs1 ,v088
@@ -2121,20 +2121,20 @@ Label_0113EC74:
 @******************************************************@
 	.align	2
 
-song19:
+StrikeFE7:
 	.byte	7	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song19_pri	@ Priority
-	.byte	song19_rev	@ Reverb.
+	.byte	StrikeFE7_pri	@ Priority
+	.byte	StrikeFE7_rev	@ Reverb.
     
-	.word	song19_grp
+	.word	StrikeFE7_grp
     
-	.word	song19_001
-	.word	song19_002
-	.word	song19_003
-	.word	song19_004
-	.word	song19_005
-	.word	song19_006
-	.word	song19_007
+	.word	StrikeFE7_001
+	.word	StrikeFE7_002
+	.word	StrikeFE7_003
+	.word	StrikeFE7_004
+	.word	StrikeFE7_005
+	.word	StrikeFE7_006
+	.word	StrikeFE7_007
 
 	.end

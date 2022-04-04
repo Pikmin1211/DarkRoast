@@ -1,28 +1,28 @@
 	.include "MPlayDef.s"
 
-	.equ	song017B_grp, voicegroup000
-	.equ	song017B_pri, 0
-	.equ	song017B_rev, 0
-	.equ	song017B_mvl, 127
-	.equ	song017B_key, 0
-	.equ	song017B_tbs, 1
-	.equ	song017B_exg, 0
-	.equ	song017B_cmp, 1
+	.equ	SplashWave_grp, voicegroup000
+	.equ	SplashWave_pri, 0
+	.equ	SplashWave_rev, 0
+	.equ	SplashWave_mvl, 127
+	.equ	SplashWave_key, 0
+	.equ	SplashWave_tbs, 1
+	.equ	SplashWave_exg, 0
+	.equ	SplashWave_cmp, 1
 
 	.section .rodata
-	.global	song017B
+	.global	SplashWave
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song017B_001:
+SplashWave_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , song017B_key+0
+ .byte   KEYSH , SplashWave_key+0
 Label_012C27F6:
- .byte   TEMPO , 160*song017B_tbs/2
+ .byte   TEMPO , 160*SplashWave_tbs/2
  .byte   VOICE , 38
- .byte   VOL , 45*song017B_mvl/mxv
+ .byte   VOL , 45*SplashWave_mvl/mxv
  .byte   W07
  .byte   N12 ,An0 ,v100
  .byte   W12
@@ -1322,13 +1322,13 @@ Label_012C2D0B:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song017B_002:
+SplashWave_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , song017B_key+0
+ .byte   KEYSH , SplashWave_key+0
 Label_012C2E9A:
  .byte   VOICE , 81
  .byte   PAN , c_v+20
- .byte   VOL , 37*song017B_mvl/mxv
+ .byte   VOL , 37*SplashWave_mvl/mxv
  .byte   W07
  .byte   N12 ,An2 ,v127
  .byte   N12 ,Cn3
@@ -1468,7 +1468,7 @@ Label_012C2F35:
 Label_012C2F61:
  .byte   W78
  .byte   W01
- .byte   VOL , 31*song017B_mvl/mxv
+ .byte   VOL , 31*SplashWave_mvl/mxv
  .byte   W17
  .byte   PEND 
 @  #02 @017   ----------------------------------------
@@ -2352,7 +2352,7 @@ Label_012C3195:
 @  #02 @152   ----------------------------------------
  .byte   W78
  .byte   W01
- .byte   VOL , 37*song017B_mvl/mxv
+ .byte   VOL , 37*SplashWave_mvl/mxv
  .byte   W17
 @  #02 @153   ----------------------------------------
  .byte   PATT
@@ -2782,12 +2782,12 @@ Label_012C3195:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song017B_003:
+SplashWave_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , song017B_key+0
+ .byte   KEYSH , SplashWave_key+0
 Label_012C3686:
  .byte   VOICE , 62
- .byte   VOL , 45*song017B_mvl/mxv
+ .byte   VOL , 45*SplashWave_mvl/mxv
  .byte   W07
  .byte   PAN , c_v+0
  .byte   N12 ,En3 ,v127
@@ -4103,7 +4103,7 @@ Label_012C3C25:
  .byte   W54
  .byte   W01
  .byte   W24
- .byte   VOL , 42*song017B_mvl/mxv
+ .byte   VOL , 42*SplashWave_mvl/mxv
  .byte   W17
 @  #03 @017   ----------------------------------------
 Label_012C3C3E:
@@ -6601,7 +6601,7 @@ Label_012C3F1B:
  .byte   PAN , c_v+5
  .byte   W01
  .byte   PAN , c_v+4
- .byte   VOL , 45*song017B_mvl/mxv
+ .byte   VOL , 45*SplashWave_mvl/mxv
  .byte   N12 ,En3
  .byte   W02
  .byte   PAN , c_v+3
@@ -6625,7 +6625,7 @@ Label_012C3F1B:
  .byte   W01
  .byte   PAN , c_v-6
  .byte   W01
- .byte   VOL , 44*song017B_mvl/mxv
+ .byte   VOL , 44*SplashWave_mvl/mxv
  .byte   W01
  .byte   PAN , c_v-7
  .byte   W01
@@ -6649,7 +6649,7 @@ Label_012C3F1B:
  .byte   PAN , c_v-16
  .byte   W02
  .byte   PAN , c_v-17
- .byte   VOL , 44*song017B_mvl/mxv
+ .byte   VOL , 44*SplashWave_mvl/mxv
  .byte   W01
  .byte   PAN , c_v-18
  .byte   W02
@@ -6673,7 +6673,7 @@ Label_012C3F1B:
  .byte   PAN , c_v-27
  .byte   W01
  .byte   PAN , c_v-28
- .byte   VOL , 43*song017B_mvl/mxv
+ .byte   VOL , 43*SplashWave_mvl/mxv
  .byte   N12 ,Bn3
  .byte   W02
  .byte   PAN , c_v-29
@@ -6697,7 +6697,7 @@ Label_012C3F1B:
  .byte   W01
  .byte   PAN , c_v-38
  .byte   W01
- .byte   VOL , 42*song017B_mvl/mxv
+ .byte   VOL , 42*SplashWave_mvl/mxv
  .byte   W01
  .byte   PAN , c_v-39
  .byte   W01
@@ -6731,7 +6731,7 @@ Label_012C3F1B:
  .byte   PAN , c_v-27
  .byte   W01
  .byte   PAN , c_v-26
- .byte   VOL , 42*song017B_mvl/mxv
+ .byte   VOL , 42*SplashWave_mvl/mxv
  .byte   W01
  .byte   PAN , c_v-25
  .byte   W01
@@ -6766,7 +6766,7 @@ Label_012C3F1B:
  .byte   PAN , c_v-9
  .byte   W01
  .byte   PAN , c_v-8
- .byte   VOL , 41*song017B_mvl/mxv
+ .byte   VOL , 41*SplashWave_mvl/mxv
  .byte   N12 ,En4
  .byte   W01
  .byte   PAN , c_v-7
@@ -6801,7 +6801,7 @@ Label_012C3F1B:
  .byte   PAN , c_v+9
  .byte   W01
  .byte   PAN , c_v+10
- .byte   VOL , 40*song017B_mvl/mxv
+ .byte   VOL , 40*SplashWave_mvl/mxv
  .byte   W01
  .byte   PAN , c_v+11
  .byte   W01
@@ -6835,7 +6835,7 @@ Label_012C3F1B:
  .byte   PAN , c_v+26
  .byte   W01
  .byte   PAN , c_v+27
- .byte   VOL , 40*song017B_mvl/mxv
+ .byte   VOL , 40*SplashWave_mvl/mxv
  .byte   W01
  .byte   PAN , c_v+29
  .byte   W01
@@ -6865,7 +6865,7 @@ Label_012C3F1B:
  .byte   PAN , c_v+37
  .byte   W01
  .byte   PAN , c_v+36
- .byte   VOL , 39*song017B_mvl/mxv
+ .byte   VOL , 39*SplashWave_mvl/mxv
  .byte   N12 ,En3
  .byte   W02
  .byte   PAN , c_v+35
@@ -6889,7 +6889,7 @@ Label_012C3F1B:
  .byte   W01
  .byte   PAN , c_v+26
  .byte   W01
- .byte   VOL , 39*song017B_mvl/mxv
+ .byte   VOL , 39*SplashWave_mvl/mxv
  .byte   W01
  .byte   PAN , c_v+25
  .byte   W01
@@ -6913,7 +6913,7 @@ Label_012C3F1B:
  .byte   PAN , c_v+16
  .byte   W02
  .byte   PAN , c_v+15
- .byte   VOL , 38*song017B_mvl/mxv
+ .byte   VOL , 38*SplashWave_mvl/mxv
  .byte   W01
  .byte   PAN , c_v+14
  .byte   W02
@@ -6938,7 +6938,7 @@ Label_012C3F1B:
  .byte   PAN , c_v+5
  .byte   W01
  .byte   PAN , c_v+4
- .byte   VOL , 37*song017B_mvl/mxv
+ .byte   VOL , 37*SplashWave_mvl/mxv
  .byte   N12 ,Dn3
  .byte   W02
  .byte   PAN , c_v+3
@@ -6962,7 +6962,7 @@ Label_012C3F1B:
  .byte   W01
  .byte   PAN , c_v-6
  .byte   W01
- .byte   VOL , 37*song017B_mvl/mxv
+ .byte   VOL , 37*SplashWave_mvl/mxv
  .byte   W01
  .byte   PAN , c_v-7
  .byte   W01
@@ -6987,7 +6987,7 @@ Label_012C3F1B:
  .byte   PAN , c_v-16
  .byte   W02
  .byte   PAN , c_v-17
- .byte   VOL , 36*song017B_mvl/mxv
+ .byte   VOL , 36*SplashWave_mvl/mxv
  .byte   W01
  .byte   PAN , c_v-18
  .byte   W02
@@ -7012,7 +7012,7 @@ Label_012C3F1B:
  .byte   PAN , c_v-27
  .byte   W01
  .byte   PAN , c_v-28
- .byte   VOL , 35*song017B_mvl/mxv
+ .byte   VOL , 35*SplashWave_mvl/mxv
  .byte   N12 ,An3
  .byte   W02
  .byte   PAN , c_v-29
@@ -7036,7 +7036,7 @@ Label_012C3F1B:
  .byte   W01
  .byte   PAN , c_v-38
  .byte   W01
- .byte   VOL , 35*song017B_mvl/mxv
+ .byte   VOL , 35*SplashWave_mvl/mxv
  .byte   W01
  .byte   PAN , c_v-39
  .byte   W01
@@ -7070,7 +7070,7 @@ Label_012C3F1B:
  .byte   PAN , c_v-27
  .byte   W01
  .byte   PAN , c_v-26
- .byte   VOL , 34*song017B_mvl/mxv
+ .byte   VOL , 34*SplashWave_mvl/mxv
  .byte   W01
  .byte   PAN , c_v-25
  .byte   W01
@@ -7105,7 +7105,7 @@ Label_012C3F1B:
  .byte   PAN , c_v-9
  .byte   W01
  .byte   PAN , c_v-8
- .byte   VOL , 34*song017B_mvl/mxv
+ .byte   VOL , 34*SplashWave_mvl/mxv
  .byte   N12 ,Dn4
  .byte   W01
  .byte   PAN , c_v-7
@@ -7140,7 +7140,7 @@ Label_012C3F1B:
  .byte   PAN , c_v+9
  .byte   W01
  .byte   PAN , c_v+10
- .byte   VOL , 33*song017B_mvl/mxv
+ .byte   VOL , 33*SplashWave_mvl/mxv
  .byte   W01
  .byte   PAN , c_v+11
  .byte   W01
@@ -7174,7 +7174,7 @@ Label_012C3F1B:
  .byte   PAN , c_v+26
  .byte   W01
  .byte   PAN , c_v+27
- .byte   VOL , 32*song017B_mvl/mxv
+ .byte   VOL , 32*SplashWave_mvl/mxv
  .byte   W01
  .byte   PAN , c_v+29
  .byte   W01
@@ -7204,7 +7204,7 @@ Label_012C3F1B:
  .byte   PAN , c_v+37
  .byte   W01
  .byte   PAN , c_v+36
- .byte   VOL , 32*song017B_mvl/mxv
+ .byte   VOL , 32*SplashWave_mvl/mxv
  .byte   N12 ,Dn3
  .byte   W02
  .byte   PAN , c_v+35
@@ -7229,7 +7229,7 @@ Label_012C3F1B:
  .byte   W01
  .byte   PAN , c_v+26
  .byte   W01
- .byte   VOL , 31*song017B_mvl/mxv
+ .byte   VOL , 31*SplashWave_mvl/mxv
  .byte   W01
  .byte   PAN , c_v+25
  .byte   W01
@@ -7253,7 +7253,7 @@ Label_012C3F1B:
  .byte   PAN , c_v+16
  .byte   W02
  .byte   PAN , c_v+15
- .byte   VOL , 30*song017B_mvl/mxv
+ .byte   VOL , 30*SplashWave_mvl/mxv
  .byte   W01
  .byte   PAN , c_v+14
  .byte   W01
@@ -7279,7 +7279,7 @@ Label_012C3F1B:
  .byte   PAN , c_v+5
  .byte   W01
  .byte   PAN , c_v+4
- .byte   VOL , 30*song017B_mvl/mxv
+ .byte   VOL , 30*SplashWave_mvl/mxv
  .byte   N12 ,En3
  .byte   W02
  .byte   PAN , c_v+3
@@ -7303,7 +7303,7 @@ Label_012C3F1B:
  .byte   W01
  .byte   PAN , c_v-6
  .byte   W01
- .byte   VOL , 29*song017B_mvl/mxv
+ .byte   VOL , 29*SplashWave_mvl/mxv
  .byte   W01
  .byte   PAN , c_v-7
  .byte   W01
@@ -7327,7 +7327,7 @@ Label_012C3F1B:
  .byte   PAN , c_v-16
  .byte   W02
  .byte   PAN , c_v-17
- .byte   VOL , 28*song017B_mvl/mxv
+ .byte   VOL , 28*SplashWave_mvl/mxv
  .byte   W01
  .byte   PAN , c_v-18
  .byte   W02
@@ -7351,7 +7351,7 @@ Label_012C3F1B:
  .byte   PAN , c_v-27
  .byte   W01
  .byte   PAN , c_v-28
- .byte   VOL , 28*song017B_mvl/mxv
+ .byte   VOL , 28*SplashWave_mvl/mxv
  .byte   N12 ,Bn3
  .byte   W02
  .byte   PAN , c_v-29
@@ -7375,7 +7375,7 @@ Label_012C3F1B:
  .byte   W01
  .byte   PAN , c_v-38
  .byte   W01
- .byte   VOL , 27*song017B_mvl/mxv
+ .byte   VOL , 27*SplashWave_mvl/mxv
  .byte   W01
  .byte   PAN , c_v-39
  .byte   W01
@@ -7409,7 +7409,7 @@ Label_012C3F1B:
  .byte   PAN , c_v-27
  .byte   W01
  .byte   PAN , c_v-26
- .byte   VOL , 27*song017B_mvl/mxv
+ .byte   VOL , 27*SplashWave_mvl/mxv
  .byte   W01
  .byte   PAN , c_v-25
  .byte   W01
@@ -7444,7 +7444,7 @@ Label_012C3F1B:
  .byte   PAN , c_v-9
  .byte   W01
  .byte   PAN , c_v-8
- .byte   VOL , 26*song017B_mvl/mxv
+ .byte   VOL , 26*SplashWave_mvl/mxv
  .byte   N12 ,En4
  .byte   W01
  .byte   PAN , c_v-7
@@ -7479,7 +7479,7 @@ Label_012C3F1B:
  .byte   PAN , c_v+9
  .byte   W01
  .byte   PAN , c_v+10
- .byte   VOL , 25*song017B_mvl/mxv
+ .byte   VOL , 25*SplashWave_mvl/mxv
  .byte   W01
  .byte   PAN , c_v+11
  .byte   W01
@@ -7513,7 +7513,7 @@ Label_012C3F1B:
  .byte   PAN , c_v+26
  .byte   W01
  .byte   PAN , c_v+27
- .byte   VOL , 25*song017B_mvl/mxv
+ .byte   VOL , 25*SplashWave_mvl/mxv
  .byte   W01
  .byte   PAN , c_v+29
  .byte   W01
@@ -7543,7 +7543,7 @@ Label_012C3F1B:
  .byte   PAN , c_v+37
  .byte   W01
  .byte   PAN , c_v+36
- .byte   VOL , 24*song017B_mvl/mxv
+ .byte   VOL , 24*SplashWave_mvl/mxv
  .byte   N12 ,En3
  .byte   W02
  .byte   PAN , c_v+35
@@ -7567,7 +7567,7 @@ Label_012C3F1B:
  .byte   W01
  .byte   PAN , c_v+26
  .byte   W01
- .byte   VOL , 23*song017B_mvl/mxv
+ .byte   VOL , 23*SplashWave_mvl/mxv
  .byte   W01
  .byte   PAN , c_v+25
  .byte   W01
@@ -7591,7 +7591,7 @@ Label_012C3F1B:
  .byte   PAN , c_v+16
  .byte   W02
  .byte   PAN , c_v+15
- .byte   VOL , 23*song017B_mvl/mxv
+ .byte   VOL , 23*SplashWave_mvl/mxv
  .byte   W01
  .byte   PAN , c_v+14
  .byte   W02
@@ -7616,7 +7616,7 @@ Label_012C3F1B:
  .byte   PAN , c_v+5
  .byte   W01
  .byte   PAN , c_v+4
- .byte   VOL , 22*song017B_mvl/mxv
+ .byte   VOL , 22*SplashWave_mvl/mxv
  .byte   N12 ,Dn3
  .byte   W02
  .byte   PAN , c_v+3
@@ -7640,7 +7640,7 @@ Label_012C3F1B:
  .byte   W01
  .byte   PAN , c_v-6
  .byte   W01
- .byte   VOL , 22*song017B_mvl/mxv
+ .byte   VOL , 22*SplashWave_mvl/mxv
  .byte   W01
  .byte   PAN , c_v-7
  .byte   W01
@@ -7664,7 +7664,7 @@ Label_012C3F1B:
  .byte   PAN , c_v-16
  .byte   W02
  .byte   PAN , c_v-17
- .byte   VOL , 21*song017B_mvl/mxv
+ .byte   VOL , 21*SplashWave_mvl/mxv
  .byte   W01
  .byte   PAN , c_v-18
  .byte   W02
@@ -7688,7 +7688,7 @@ Label_012C3F1B:
  .byte   PAN , c_v-27
  .byte   W01
  .byte   PAN , c_v-28
- .byte   VOL , 20*song017B_mvl/mxv
+ .byte   VOL , 20*SplashWave_mvl/mxv
  .byte   N12 ,An3
  .byte   W02
  .byte   PAN , c_v-29
@@ -7712,7 +7712,7 @@ Label_012C3F1B:
  .byte   W01
  .byte   PAN , c_v-38
  .byte   W01
- .byte   VOL , 20*song017B_mvl/mxv
+ .byte   VOL , 20*SplashWave_mvl/mxv
  .byte   W01
  .byte   PAN , c_v-39
  .byte   W01
@@ -7746,7 +7746,7 @@ Label_012C3F1B:
  .byte   PAN , c_v-27
  .byte   W01
  .byte   PAN , c_v-26
- .byte   VOL , 19*song017B_mvl/mxv
+ .byte   VOL , 19*SplashWave_mvl/mxv
  .byte   W01
  .byte   PAN , c_v-25
  .byte   W01
@@ -7781,7 +7781,7 @@ Label_012C3F1B:
  .byte   PAN , c_v-9
  .byte   W01
  .byte   PAN , c_v-8
- .byte   VOL , 18*song017B_mvl/mxv
+ .byte   VOL , 18*SplashWave_mvl/mxv
  .byte   N12 ,Dn4
  .byte   W01
  .byte   PAN , c_v-7
@@ -7816,7 +7816,7 @@ Label_012C3F1B:
  .byte   PAN , c_v+9
  .byte   W01
  .byte   PAN , c_v+10
- .byte   VOL , 18*song017B_mvl/mxv
+ .byte   VOL , 18*SplashWave_mvl/mxv
  .byte   W01
  .byte   PAN , c_v+11
  .byte   W01
@@ -7850,7 +7850,7 @@ Label_012C3F1B:
  .byte   PAN , c_v+26
  .byte   W01
  .byte   PAN , c_v+27
- .byte   VOL , 17*song017B_mvl/mxv
+ .byte   VOL , 17*SplashWave_mvl/mxv
  .byte   W01
  .byte   PAN , c_v+29
  .byte   W01
@@ -7880,7 +7880,7 @@ Label_012C3F1B:
  .byte   PAN , c_v+37
  .byte   W01
  .byte   PAN , c_v+36
- .byte   VOL , 17*song017B_mvl/mxv
+ .byte   VOL , 17*SplashWave_mvl/mxv
  .byte   N12 ,Dn3
  .byte   W02
  .byte   PAN , c_v+35
@@ -7904,7 +7904,7 @@ Label_012C3F1B:
  .byte   W01
  .byte   PAN , c_v+26
  .byte   W01
- .byte   VOL , 16*song017B_mvl/mxv
+ .byte   VOL , 16*SplashWave_mvl/mxv
  .byte   W01
  .byte   PAN , c_v+25
  .byte   W01
@@ -7928,7 +7928,7 @@ Label_012C3F1B:
  .byte   PAN , c_v+16
  .byte   W02
  .byte   PAN , c_v+15
- .byte   VOL , 15*song017B_mvl/mxv
+ .byte   VOL , 15*SplashWave_mvl/mxv
  .byte   W01
  .byte   PAN , c_v+14
  .byte   W02
@@ -7953,7 +7953,7 @@ Label_012C3F1B:
  .byte   PAN , c_v+5
  .byte   W01
  .byte   PAN , c_v+4
- .byte   VOL , 15*song017B_mvl/mxv
+ .byte   VOL , 15*SplashWave_mvl/mxv
  .byte   N12 ,En3
  .byte   W02
  .byte   PAN , c_v+3
@@ -7977,7 +7977,7 @@ Label_012C3F1B:
  .byte   W01
  .byte   PAN , c_v-6
  .byte   W01
- .byte   VOL , 14*song017B_mvl/mxv
+ .byte   VOL , 14*SplashWave_mvl/mxv
  .byte   W01
  .byte   PAN , c_v-7
  .byte   W01
@@ -8001,7 +8001,7 @@ Label_012C3F1B:
  .byte   PAN , c_v-16
  .byte   W02
  .byte   PAN , c_v-17
- .byte   VOL , 13*song017B_mvl/mxv
+ .byte   VOL , 13*SplashWave_mvl/mxv
  .byte   W01
  .byte   PAN , c_v-18
  .byte   W02
@@ -8025,7 +8025,7 @@ Label_012C3F1B:
  .byte   PAN , c_v-27
  .byte   W01
  .byte   PAN , c_v-28
- .byte   VOL , 13*song017B_mvl/mxv
+ .byte   VOL , 13*SplashWave_mvl/mxv
  .byte   N12 ,Bn3
  .byte   W02
  .byte   PAN , c_v-29
@@ -8049,7 +8049,7 @@ Label_012C3F1B:
  .byte   W01
  .byte   PAN , c_v-38
  .byte   W01
- .byte   VOL , 12*song017B_mvl/mxv
+ .byte   VOL , 12*SplashWave_mvl/mxv
  .byte   W01
  .byte   PAN , c_v-39
  .byte   W01
@@ -8083,7 +8083,7 @@ Label_012C3F1B:
  .byte   PAN , c_v-27
  .byte   W01
  .byte   PAN , c_v-26
- .byte   VOL , 11*song017B_mvl/mxv
+ .byte   VOL , 11*SplashWave_mvl/mxv
  .byte   W01
  .byte   PAN , c_v-25
  .byte   W01
@@ -8118,7 +8118,7 @@ Label_012C3F1B:
  .byte   PAN , c_v-9
  .byte   W01
  .byte   PAN , c_v-8
- .byte   VOL , 11*song017B_mvl/mxv
+ .byte   VOL , 11*SplashWave_mvl/mxv
  .byte   N12 ,En4
  .byte   W01
  .byte   PAN , c_v-7
@@ -8153,7 +8153,7 @@ Label_012C3F1B:
  .byte   PAN , c_v+9
  .byte   W01
  .byte   PAN , c_v+10
- .byte   VOL , 10*song017B_mvl/mxv
+ .byte   VOL , 10*SplashWave_mvl/mxv
  .byte   W01
  .byte   PAN , c_v+11
  .byte   W01
@@ -8187,7 +8187,7 @@ Label_012C3F1B:
  .byte   PAN , c_v+26
  .byte   W01
  .byte   PAN , c_v+27
- .byte   VOL , 10*song017B_mvl/mxv
+ .byte   VOL , 10*SplashWave_mvl/mxv
  .byte   W01
  .byte   PAN , c_v+29
  .byte   W01
@@ -8217,7 +8217,7 @@ Label_012C3F1B:
  .byte   PAN , c_v+37
  .byte   W01
  .byte   PAN , c_v+36
- .byte   VOL , 9*song017B_mvl/mxv
+ .byte   VOL , 9*SplashWave_mvl/mxv
  .byte   N12 ,En3
  .byte   W02
  .byte   PAN , c_v+35
@@ -8241,7 +8241,7 @@ Label_012C3F1B:
  .byte   W01
  .byte   PAN , c_v+26
  .byte   W01
- .byte   VOL , 8*song017B_mvl/mxv
+ .byte   VOL , 8*SplashWave_mvl/mxv
  .byte   W01
  .byte   PAN , c_v+25
  .byte   W01
@@ -8265,7 +8265,7 @@ Label_012C3F1B:
  .byte   PAN , c_v+16
  .byte   W02
  .byte   PAN , c_v+15
- .byte   VOL , 8*song017B_mvl/mxv
+ .byte   VOL , 8*SplashWave_mvl/mxv
  .byte   W01
  .byte   PAN , c_v+14
  .byte   W02
@@ -8290,7 +8290,7 @@ Label_012C3F1B:
  .byte   PAN , c_v+5
  .byte   W01
  .byte   PAN , c_v+4
- .byte   VOL , 7*song017B_mvl/mxv
+ .byte   VOL , 7*SplashWave_mvl/mxv
  .byte   N12 ,Dn3
  .byte   W02
  .byte   PAN , c_v+3
@@ -8314,7 +8314,7 @@ Label_012C3F1B:
  .byte   W01
  .byte   PAN , c_v-6
  .byte   W01
- .byte   VOL , 6*song017B_mvl/mxv
+ .byte   VOL , 6*SplashWave_mvl/mxv
  .byte   W01
  .byte   PAN , c_v-7
  .byte   W01
@@ -8338,7 +8338,7 @@ Label_012C3F1B:
  .byte   PAN , c_v-16
  .byte   W02
  .byte   PAN , c_v-17
- .byte   VOL , 6*song017B_mvl/mxv
+ .byte   VOL , 6*SplashWave_mvl/mxv
  .byte   W01
  .byte   PAN , c_v-18
  .byte   W02
@@ -8362,7 +8362,7 @@ Label_012C3F1B:
  .byte   PAN , c_v-27
  .byte   W01
  .byte   PAN , c_v-28
- .byte   VOL , 5*song017B_mvl/mxv
+ .byte   VOL , 5*SplashWave_mvl/mxv
  .byte   N12 ,An3
  .byte   W02
  .byte   PAN , c_v-29
@@ -8386,7 +8386,7 @@ Label_012C3F1B:
  .byte   W01
  .byte   PAN , c_v-38
  .byte   W01
- .byte   VOL , 5*song017B_mvl/mxv
+ .byte   VOL , 5*SplashWave_mvl/mxv
  .byte   W01
  .byte   PAN , c_v-39
  .byte   W01
@@ -8420,7 +8420,7 @@ Label_012C3F1B:
  .byte   PAN , c_v-27
  .byte   W01
  .byte   PAN , c_v-26
- .byte   VOL , 4*song017B_mvl/mxv
+ .byte   VOL , 4*SplashWave_mvl/mxv
  .byte   W01
  .byte   PAN , c_v-25
  .byte   W01
@@ -8455,7 +8455,7 @@ Label_012C3F1B:
  .byte   PAN , c_v-9
  .byte   W01
  .byte   PAN , c_v-8
- .byte   VOL , 3*song017B_mvl/mxv
+ .byte   VOL , 3*SplashWave_mvl/mxv
  .byte   N12 ,Dn4
  .byte   W01
  .byte   PAN , c_v-7
@@ -8490,7 +8490,7 @@ Label_012C3F1B:
  .byte   PAN , c_v+9
  .byte   W01
  .byte   PAN , c_v+10
- .byte   VOL , 3*song017B_mvl/mxv
+ .byte   VOL , 3*SplashWave_mvl/mxv
  .byte   W01
  .byte   PAN , c_v+11
  .byte   W01
@@ -8524,7 +8524,7 @@ Label_012C3F1B:
  .byte   PAN , c_v+26
  .byte   W01
  .byte   PAN , c_v+27
- .byte   VOL , 2*song017B_mvl/mxv
+ .byte   VOL , 2*SplashWave_mvl/mxv
  .byte   W01
  .byte   PAN , c_v+29
  .byte   W01
@@ -8554,7 +8554,7 @@ Label_012C3F1B:
  .byte   PAN , c_v+37
  .byte   W01
  .byte   PAN , c_v+36
- .byte   VOL , 1*song017B_mvl/mxv
+ .byte   VOL , 1*SplashWave_mvl/mxv
  .byte   N12 ,Dn3
  .byte   W02
  .byte   PAN , c_v+35
@@ -8578,7 +8578,7 @@ Label_012C3F1B:
  .byte   W01
  .byte   PAN , c_v+26
  .byte   W01
- .byte   VOL , 1*song017B_mvl/mxv
+ .byte   VOL , 1*SplashWave_mvl/mxv
  .byte   W01
  .byte   PAN , c_v+25
  .byte   W01
@@ -8602,7 +8602,7 @@ Label_012C3F1B:
  .byte   PAN , c_v+16
  .byte   W02
  .byte   PAN , c_v+15
- .byte   VOL , 0*song017B_mvl/mxv
+ .byte   VOL , 0*SplashWave_mvl/mxv
  .byte   W01
  .byte   PAN , c_v+14
  .byte   W02
@@ -8625,18 +8625,18 @@ Label_012C3F1B:
  .byte   W02
  .byte   PAN , c_v+5
  .byte   W01
- .byte   VOL , 0*song017B_mvl/mxv
+ .byte   VOL , 0*SplashWave_mvl/mxv
  .byte   FINE
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song017B_004:
+SplashWave_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , song017B_key+0
+ .byte   KEYSH , SplashWave_key+0
 Label_012BB9A6:
  .byte   VOICE , 95
  .byte   PAN , c_v-20
- .byte   VOL , 45*song017B_mvl/mxv
+ .byte   VOL , 45*SplashWave_mvl/mxv
  .byte   W07
  .byte   N84 ,Cn3 ,v080
  .byte   N84 ,En3
@@ -9528,7 +9528,7 @@ Label_012BBB20:
  .byte   W78
  .byte   W01
  .byte   VOICE , 95
- .byte   VOL , 40*song017B_mvl/mxv
+ .byte   VOL , 40*SplashWave_mvl/mxv
  .byte   W17
 @  #04 @153   ----------------------------------------
 Label_012BBDE7:
@@ -9938,13 +9938,13 @@ Label_012BBDE7:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song017B_005:
+SplashWave_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , song017B_key+0
+ .byte   KEYSH , SplashWave_key+0
 Label_012C512A:
  .byte   VOICE , 11
  .byte   PAN , c_v+30
- .byte   VOL , 40*song017B_mvl/mxv
+ .byte   VOL , 40*SplashWave_mvl/mxv
  .byte   W07
  .byte   N06 ,En3 ,v127
  .byte   W12
@@ -10096,7 +10096,7 @@ Label_012C51C0:
  .byte   W01
  .byte   W24
  .byte   VOICE , 81
- .byte   VOL , 37*song017B_mvl/mxv
+ .byte   VOL , 37*SplashWave_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W17
 @  #05 @017   ----------------------------------------
@@ -11523,87 +11523,87 @@ Label_012C54BC:
   .word Label_012C516B
 @  #05 @223   ----------------------------------------
  .byte   W07
- .byte   VOL , 40*song017B_mvl/mxv
+ .byte   VOL , 40*SplashWave_mvl/mxv
  .byte   N06 ,En3 ,v127
  .byte   W12
  .byte   Bn3
  .byte   W06
- .byte   VOL , 39*song017B_mvl/mxv
+ .byte   VOL , 39*SplashWave_mvl/mxv
  .byte   W06
  .byte   N06 ,En4
  .byte   W12
- .byte   VOL , 39*song017B_mvl/mxv
+ .byte   VOL , 39*SplashWave_mvl/mxv
  .byte   N06 ,En3
  .byte   W12
  .byte   Bn3
  .byte   W06
- .byte   VOL , 38*song017B_mvl/mxv
+ .byte   VOL , 38*SplashWave_mvl/mxv
  .byte   W06
  .byte   N06 ,En4
  .byte   W12
- .byte   VOL , 37*song017B_mvl/mxv
+ .byte   VOL , 37*SplashWave_mvl/mxv
  .byte   N06 ,En3
  .byte   W12
  .byte   Bn3
  .byte   W05
 @  #05 @224   ----------------------------------------
  .byte   W01
- .byte   VOL , 37*song017B_mvl/mxv
+ .byte   VOL , 37*SplashWave_mvl/mxv
  .byte   W06
  .byte   N06 ,En4
  .byte   W12
- .byte   VOL , 36*song017B_mvl/mxv
+ .byte   VOL , 36*SplashWave_mvl/mxv
  .byte   N06 ,En3
  .byte   W12
  .byte   Bn3
  .byte   W06
- .byte   VOL , 35*song017B_mvl/mxv
+ .byte   VOL , 35*SplashWave_mvl/mxv
  .byte   W06
  .byte   N06 ,En4
  .byte   W12
- .byte   VOL , 35*song017B_mvl/mxv
+ .byte   VOL , 35*SplashWave_mvl/mxv
  .byte   N06 ,En3
  .byte   W12
  .byte   Bn3
  .byte   W06
- .byte   VOL , 34*song017B_mvl/mxv
+ .byte   VOL , 34*SplashWave_mvl/mxv
  .byte   W06
  .byte   N06 ,En4
  .byte   W12
- .byte   VOL , 34*song017B_mvl/mxv
+ .byte   VOL , 34*SplashWave_mvl/mxv
  .byte   N06 ,Bn3
  .byte   W05
 @  #05 @225   ----------------------------------------
  .byte   W07
  .byte   Dn3
  .byte   W06
- .byte   VOL , 33*song017B_mvl/mxv
+ .byte   VOL , 33*SplashWave_mvl/mxv
  .byte   W02
  .byte   W04
  .byte   N06 ,An3
  .byte   W03
  .byte   W07
  .byte   W02
- .byte   VOL , 32*song017B_mvl/mxv
+ .byte   VOL , 32*SplashWave_mvl/mxv
  .byte   N06 ,Dn4
  .byte   W05
  .byte   W07
  .byte   Dn3
  .byte   W06
- .byte   VOL , 32*song017B_mvl/mxv
+ .byte   VOL , 32*SplashWave_mvl/mxv
  .byte   W01
  .byte   W05
  .byte   N06 ,An3
  .byte   W02
  .byte   W07
  .byte   W03
- .byte   VOL , 31*song017B_mvl/mxv
+ .byte   VOL , 31*SplashWave_mvl/mxv
  .byte   N06 ,Dn4
  .byte   W04
  .byte   W08
  .byte   Dn3
  .byte   W06
- .byte   VOL , 30*song017B_mvl/mxv
+ .byte   VOL , 30*SplashWave_mvl/mxv
  .byte   W01
  .byte   W05
  .byte   N06 ,An3
@@ -11612,33 +11612,33 @@ Label_012C54BC:
 @  #05 @226   ----------------------------------------
  .byte   W04
  .byte   W03
- .byte   VOL , 30*song017B_mvl/mxv
+ .byte   VOL , 30*SplashWave_mvl/mxv
  .byte   N06 ,Dn4
  .byte   W04
  .byte   W07
  .byte   W01
  .byte   Dn3
  .byte   W06
- .byte   VOL , 29*song017B_mvl/mxv
+ .byte   VOL , 29*SplashWave_mvl/mxv
  .byte   W06
  .byte   N06 ,An3
  .byte   W01
  .byte   W07
  .byte   W04
- .byte   VOL , 28*song017B_mvl/mxv
+ .byte   VOL , 28*SplashWave_mvl/mxv
  .byte   N06 ,Dn4
  .byte   W04
  .byte   W07
  .byte   W01
  .byte   Dn3
  .byte   W06
- .byte   VOL , 28*song017B_mvl/mxv
+ .byte   VOL , 28*SplashWave_mvl/mxv
  .byte   W06
  .byte   N06 ,An3
  .byte   W01
  .byte   W07
  .byte   W04
- .byte   VOL , 27*song017B_mvl/mxv
+ .byte   VOL , 27*SplashWave_mvl/mxv
  .byte   N06 ,Cn4
  .byte   W03
  .byte   W07
@@ -11647,227 +11647,227 @@ Label_012C54BC:
  .byte   W05
 @  #05 @227   ----------------------------------------
  .byte   W01
- .byte   VOL , 27*song017B_mvl/mxv
+ .byte   VOL , 27*SplashWave_mvl/mxv
  .byte   W06
  .byte   N06 ,En3
  .byte   W12
- .byte   VOL , 26*song017B_mvl/mxv
+ .byte   VOL , 26*SplashWave_mvl/mxv
  .byte   N06 ,Bn3
  .byte   W12
  .byte   En4
  .byte   W06
- .byte   VOL , 25*song017B_mvl/mxv
+ .byte   VOL , 25*SplashWave_mvl/mxv
  .byte   W06
  .byte   N06 ,En3
  .byte   W12
- .byte   VOL , 25*song017B_mvl/mxv
+ .byte   VOL , 25*SplashWave_mvl/mxv
  .byte   N06 ,Bn3
  .byte   W12
  .byte   En4
  .byte   W06
- .byte   VOL , 24*song017B_mvl/mxv
+ .byte   VOL , 24*SplashWave_mvl/mxv
  .byte   W06
  .byte   N06 ,En3
  .byte   W12
- .byte   VOL , 23*song017B_mvl/mxv
+ .byte   VOL , 23*SplashWave_mvl/mxv
  .byte   N06 ,Bn3
  .byte   W05
 @  #05 @228   ----------------------------------------
  .byte   W07
  .byte   En4
  .byte   W06
- .byte   VOL , 23*song017B_mvl/mxv
+ .byte   VOL , 23*SplashWave_mvl/mxv
  .byte   W06
  .byte   N06 ,En3
  .byte   W12
- .byte   VOL , 22*song017B_mvl/mxv
+ .byte   VOL , 22*SplashWave_mvl/mxv
  .byte   N06 ,Bn3
  .byte   W12
  .byte   En4
  .byte   W06
- .byte   VOL , 22*song017B_mvl/mxv
+ .byte   VOL , 22*SplashWave_mvl/mxv
  .byte   W06
  .byte   N06 ,En3
  .byte   W12
- .byte   VOL , 21*song017B_mvl/mxv
+ .byte   VOL , 21*SplashWave_mvl/mxv
  .byte   N06 ,Bn3
  .byte   W12
  .byte   En4
  .byte   W06
- .byte   VOL , 20*song017B_mvl/mxv
+ .byte   VOL , 20*SplashWave_mvl/mxv
  .byte   W06
  .byte   N06 ,Bn3
  .byte   W05
 @  #05 @229   ----------------------------------------
  .byte   W07
- .byte   VOL , 20*song017B_mvl/mxv
+ .byte   VOL , 20*SplashWave_mvl/mxv
  .byte   N06 ,Dn3
  .byte   W12
  .byte   An3
  .byte   W06
- .byte   VOL , 19*song017B_mvl/mxv
+ .byte   VOL , 19*SplashWave_mvl/mxv
  .byte   W06
  .byte   N06 ,Dn4
  .byte   W12
- .byte   VOL , 18*song017B_mvl/mxv
+ .byte   VOL , 18*SplashWave_mvl/mxv
  .byte   N06 ,Dn3
  .byte   W12
  .byte   An3
  .byte   W06
- .byte   VOL , 18*song017B_mvl/mxv
+ .byte   VOL , 18*SplashWave_mvl/mxv
  .byte   W06
  .byte   N06 ,Dn4
  .byte   W12
- .byte   VOL , 17*song017B_mvl/mxv
+ .byte   VOL , 17*SplashWave_mvl/mxv
  .byte   N06 ,Dn3
  .byte   W12
  .byte   An3
  .byte   W05
 @  #05 @230   ----------------------------------------
  .byte   W01
- .byte   VOL , 17*song017B_mvl/mxv
+ .byte   VOL , 17*SplashWave_mvl/mxv
  .byte   W06
  .byte   N06 ,Dn4
  .byte   W12
- .byte   VOL , 16*song017B_mvl/mxv
+ .byte   VOL , 16*SplashWave_mvl/mxv
  .byte   N06 ,Dn3
  .byte   W12
  .byte   An3
  .byte   W06
- .byte   VOL , 15*song017B_mvl/mxv
+ .byte   VOL , 15*SplashWave_mvl/mxv
  .byte   W06
  .byte   N06 ,Dn4
  .byte   W12
- .byte   VOL , 15*song017B_mvl/mxv
+ .byte   VOL , 15*SplashWave_mvl/mxv
  .byte   N06 ,Dn3
  .byte   W12
  .byte   An3
  .byte   W06
- .byte   VOL , 14*song017B_mvl/mxv
+ .byte   VOL , 14*SplashWave_mvl/mxv
  .byte   W06
  .byte   N06 ,Cn4
  .byte   W12
- .byte   VOL , 13*song017B_mvl/mxv
+ .byte   VOL , 13*SplashWave_mvl/mxv
  .byte   N06 ,Dn4
  .byte   W05
 @  #05 @231   ----------------------------------------
  .byte   W07
  .byte   En3
  .byte   W06
- .byte   VOL , 13*song017B_mvl/mxv
+ .byte   VOL , 13*SplashWave_mvl/mxv
  .byte   W06
  .byte   N06 ,Bn3
  .byte   W12
- .byte   VOL , 12*song017B_mvl/mxv
+ .byte   VOL , 12*SplashWave_mvl/mxv
  .byte   N06 ,En4
  .byte   W12
  .byte   En3
  .byte   W06
- .byte   VOL , 11*song017B_mvl/mxv
+ .byte   VOL , 11*SplashWave_mvl/mxv
  .byte   W06
  .byte   N06 ,Bn3
  .byte   W12
- .byte   VOL , 11*song017B_mvl/mxv
+ .byte   VOL , 11*SplashWave_mvl/mxv
  .byte   N06 ,En4
  .byte   W12
  .byte   En3
  .byte   W06
- .byte   VOL , 10*song017B_mvl/mxv
+ .byte   VOL , 10*SplashWave_mvl/mxv
  .byte   W06
  .byte   N06 ,Bn3
  .byte   W05
 @  #05 @232   ----------------------------------------
  .byte   W07
- .byte   VOL , 10*song017B_mvl/mxv
+ .byte   VOL , 10*SplashWave_mvl/mxv
  .byte   N06 ,En4
  .byte   W12
  .byte   En3
  .byte   W06
- .byte   VOL , 9*song017B_mvl/mxv
+ .byte   VOL , 9*SplashWave_mvl/mxv
  .byte   W06
  .byte   N06 ,Bn3
  .byte   W12
- .byte   VOL , 8*song017B_mvl/mxv
+ .byte   VOL , 8*SplashWave_mvl/mxv
  .byte   N06 ,En4
  .byte   W12
  .byte   En3
  .byte   W06
- .byte   VOL , 8*song017B_mvl/mxv
+ .byte   VOL , 8*SplashWave_mvl/mxv
  .byte   W06
  .byte   N06 ,Bn3
  .byte   W12
- .byte   VOL , 7*song017B_mvl/mxv
+ .byte   VOL , 7*SplashWave_mvl/mxv
  .byte   N06 ,En4
  .byte   W12
  .byte   Bn3
  .byte   W05
 @  #05 @233   ----------------------------------------
  .byte   W01
- .byte   VOL , 6*song017B_mvl/mxv
+ .byte   VOL , 6*SplashWave_mvl/mxv
  .byte   W06
  .byte   N06 ,Dn3
  .byte   W12
- .byte   VOL , 6*song017B_mvl/mxv
+ .byte   VOL , 6*SplashWave_mvl/mxv
  .byte   N06 ,An3
  .byte   W12
  .byte   Dn4
  .byte   W06
- .byte   VOL , 5*song017B_mvl/mxv
+ .byte   VOL , 5*SplashWave_mvl/mxv
  .byte   W06
  .byte   N06 ,Dn3
  .byte   W12
- .byte   VOL , 5*song017B_mvl/mxv
+ .byte   VOL , 5*SplashWave_mvl/mxv
  .byte   N06 ,An3
  .byte   W12
  .byte   Dn4
  .byte   W06
- .byte   VOL , 4*song017B_mvl/mxv
+ .byte   VOL , 4*SplashWave_mvl/mxv
  .byte   W06
  .byte   N06 ,Dn3
  .byte   W12
- .byte   VOL , 3*song017B_mvl/mxv
+ .byte   VOL , 3*SplashWave_mvl/mxv
  .byte   N06 ,An3
  .byte   W05
 @  #05 @234   ----------------------------------------
  .byte   W07
  .byte   Dn4
  .byte   W06
- .byte   VOL , 3*song017B_mvl/mxv
+ .byte   VOL , 3*SplashWave_mvl/mxv
  .byte   W06
  .byte   N06 ,Dn3
  .byte   W12
- .byte   VOL , 2*song017B_mvl/mxv
+ .byte   VOL , 2*SplashWave_mvl/mxv
  .byte   N06 ,An3
  .byte   W12
  .byte   Dn4
  .byte   W06
- .byte   VOL , 1*song017B_mvl/mxv
+ .byte   VOL , 1*SplashWave_mvl/mxv
  .byte   W06
  .byte   N06 ,Dn3
  .byte   W12
- .byte   VOL , 1*song017B_mvl/mxv
+ .byte   VOL , 1*SplashWave_mvl/mxv
  .byte   N06 ,An3
  .byte   W12
  .byte   Cn4
  .byte   W06
- .byte   VOL , 0*song017B_mvl/mxv
+ .byte   VOL , 0*SplashWave_mvl/mxv
  .byte   W06
  .byte   N06 ,Dn4
  .byte   W05
 @  #05 @235   ----------------------------------------
  .byte   W07
- .byte   VOL , 0*song017B_mvl/mxv
+ .byte   VOL , 0*SplashWave_mvl/mxv
  .byte   FINE
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song017B_006:
+SplashWave_006:
 @  #06 @000   ----------------------------------------
- .byte   KEYSH , song017B_key+0
+ .byte   KEYSH , SplashWave_key+0
 Label_012BBFFE:
  .byte   VOICE , 11
  .byte   PAN , c_v-30
- .byte   VOL , 31*song017B_mvl/mxv
+ .byte   VOL , 31*SplashWave_mvl/mxv
  .byte   W13
  .byte   N06 ,En3 ,v127
  .byte   W12
@@ -12494,25 +12494,25 @@ Label_012BC097:
  .byte   W01
  .byte   N06 ,Dn4 ,v127
  .byte   W06
- .byte   VOL , 31*song017B_mvl/mxv
+ .byte   VOL , 31*SplashWave_mvl/mxv
  .byte   W06
  .byte   N06 ,En3
  .byte   W12
  .byte   Bn3
  .byte   W05
- .byte   VOL , 30*song017B_mvl/mxv
+ .byte   VOL , 30*SplashWave_mvl/mxv
  .byte   W07
  .byte   N06 ,En4
  .byte   W12
  .byte   En3
  .byte   W05
- .byte   VOL , 30*song017B_mvl/mxv
+ .byte   VOL , 30*SplashWave_mvl/mxv
  .byte   W07
  .byte   N06 ,Bn3
  .byte   W12
  .byte   En4
  .byte   W04
- .byte   VOL , 29*song017B_mvl/mxv
+ .byte   VOL , 29*SplashWave_mvl/mxv
  .byte   W08
  .byte   N06 ,En3
  .byte   W11
@@ -12520,29 +12520,29 @@ Label_012BC097:
  .byte   W01
  .byte   Bn3
  .byte   W03
- .byte   VOL , 28*song017B_mvl/mxv
+ .byte   VOL , 28*SplashWave_mvl/mxv
  .byte   W09
  .byte   N06 ,En4
  .byte   W12
  .byte   En3
  .byte   W02
- .byte   VOL , 28*song017B_mvl/mxv
+ .byte   VOL , 28*SplashWave_mvl/mxv
  .byte   W10
  .byte   N06 ,Bn3
  .byte   W12
  .byte   En4
  .byte   W01
- .byte   VOL , 27*song017B_mvl/mxv
+ .byte   VOL , 27*SplashWave_mvl/mxv
  .byte   W11
  .byte   N06 ,En3
  .byte   W12
- .byte   VOL , 27*song017B_mvl/mxv
+ .byte   VOL , 27*SplashWave_mvl/mxv
  .byte   N06 ,Bn3
  .byte   W12
  .byte   En4
  .byte   W11
 @  #06 @225   ----------------------------------------
- .byte   VOL , 26*song017B_mvl/mxv
+ .byte   VOL , 26*SplashWave_mvl/mxv
  .byte   W01
  .byte   N06 ,Bn3
  .byte   W06
@@ -12551,7 +12551,7 @@ Label_012BC097:
  .byte   W02
  .byte   W07
  .byte   W01
- .byte   VOL , 25*song017B_mvl/mxv
+ .byte   VOL , 25*SplashWave_mvl/mxv
  .byte   W02
  .byte   N06 ,An3
  .byte   W04
@@ -12560,7 +12560,7 @@ Label_012BC097:
  .byte   Dn4
  .byte   W06
  .byte   W03
- .byte   VOL , 25*song017B_mvl/mxv
+ .byte   VOL , 25*SplashWave_mvl/mxv
  .byte   W03
  .byte   N06 ,Dn3
  .byte   W01
@@ -12569,7 +12569,7 @@ Label_012BC097:
  .byte   An3
  .byte   W03
  .byte   W05
- .byte   VOL , 24*song017B_mvl/mxv
+ .byte   VOL , 24*SplashWave_mvl/mxv
  .byte   W02
  .byte   W02
  .byte   N06 ,Dn4
@@ -12578,7 +12578,7 @@ Label_012BC097:
  .byte   Dn3
  .byte   W01
  .byte   W06
- .byte   VOL , 23*song017B_mvl/mxv
+ .byte   VOL , 23*SplashWave_mvl/mxv
  .byte   W01
  .byte   W03
 @  #06 @226   ----------------------------------------
@@ -12590,7 +12590,7 @@ Label_012BC097:
  .byte   Dn4
  .byte   W05
  .byte   W01
- .byte   VOL , 23*song017B_mvl/mxv
+ .byte   VOL , 23*SplashWave_mvl/mxv
  .byte   W06
  .byte   N06 ,Dn3
  .byte   W07
@@ -12598,7 +12598,7 @@ Label_012BC097:
  .byte   An3
  .byte   W02
  .byte   W03
- .byte   VOL , 22*song017B_mvl/mxv
+ .byte   VOL , 22*SplashWave_mvl/mxv
  .byte   W05
  .byte   W02
  .byte   N06 ,Dn4
@@ -12606,7 +12606,7 @@ Label_012BC097:
  .byte   W07
  .byte   Dn3
  .byte   W04
- .byte   VOL , 22*song017B_mvl/mxv
+ .byte   VOL , 22*SplashWave_mvl/mxv
  .byte   W03
  .byte   W05
  .byte   N06 ,An3
@@ -12615,7 +12615,7 @@ Label_012BC097:
  .byte   W03
  .byte   Cn4
  .byte   W03
- .byte   VOL , 21*song017B_mvl/mxv
+ .byte   VOL , 21*SplashWave_mvl/mxv
  .byte   W01
  .byte   W07
 @  #06 @227   ----------------------------------------
@@ -12625,22 +12625,22 @@ Label_012BC097:
  .byte   W06
  .byte   En3
  .byte   W02
- .byte   VOL , 20*song017B_mvl/mxv
+ .byte   VOL , 20*SplashWave_mvl/mxv
  .byte   W10
  .byte   N06 ,Bn3
  .byte   W12
  .byte   En4
  .byte   W01
- .byte   VOL , 20*song017B_mvl/mxv
+ .byte   VOL , 20*SplashWave_mvl/mxv
  .byte   W11
  .byte   N06 ,En3
  .byte   W12
- .byte   VOL , 19*song017B_mvl/mxv
+ .byte   VOL , 19*SplashWave_mvl/mxv
  .byte   N06 ,Bn3
  .byte   W12
  .byte   En4
  .byte   W11
- .byte   VOL , 18*song017B_mvl/mxv
+ .byte   VOL , 18*SplashWave_mvl/mxv
  .byte   W01
  .byte   N06 ,En3
  .byte   W11
@@ -12648,25 +12648,25 @@ Label_012BC097:
  .byte   W01
  .byte   Bn3
  .byte   W10
- .byte   VOL , 18*song017B_mvl/mxv
+ .byte   VOL , 18*SplashWave_mvl/mxv
  .byte   W02
  .byte   N06 ,En4
  .byte   W12
  .byte   En3
  .byte   W09
- .byte   VOL , 17*song017B_mvl/mxv
+ .byte   VOL , 17*SplashWave_mvl/mxv
  .byte   W03
  .byte   N06 ,Bn3
  .byte   W12
  .byte   En4
  .byte   W08
- .byte   VOL , 17*song017B_mvl/mxv
+ .byte   VOL , 17*SplashWave_mvl/mxv
  .byte   W04
  .byte   N06 ,En3
  .byte   W12
  .byte   Bn3
  .byte   W07
- .byte   VOL , 16*song017B_mvl/mxv
+ .byte   VOL , 16*SplashWave_mvl/mxv
  .byte   W05
  .byte   N06 ,En4
  .byte   W11
@@ -12674,25 +12674,25 @@ Label_012BC097:
  .byte   W01
  .byte   Bn3
  .byte   W06
- .byte   VOL , 15*song017B_mvl/mxv
+ .byte   VOL , 15*SplashWave_mvl/mxv
  .byte   W06
  .byte   N06 ,Dn3
  .byte   W12
  .byte   An3
  .byte   W05
- .byte   VOL , 15*song017B_mvl/mxv
+ .byte   VOL , 15*SplashWave_mvl/mxv
  .byte   W07
  .byte   N06 ,Dn4
  .byte   W12
  .byte   Dn3
  .byte   W05
- .byte   VOL , 14*song017B_mvl/mxv
+ .byte   VOL , 14*SplashWave_mvl/mxv
  .byte   W07
  .byte   N06 ,An3
  .byte   W12
  .byte   Dn4
  .byte   W04
- .byte   VOL , 13*song017B_mvl/mxv
+ .byte   VOL , 13*SplashWave_mvl/mxv
  .byte   W08
  .byte   N06 ,Dn3
  .byte   W11
@@ -12700,53 +12700,53 @@ Label_012BC097:
  .byte   W01
  .byte   An3
  .byte   W03
- .byte   VOL , 13*song017B_mvl/mxv
+ .byte   VOL , 13*SplashWave_mvl/mxv
  .byte   W09
  .byte   N06 ,Dn4
  .byte   W12
  .byte   Dn3
  .byte   W02
- .byte   VOL , 12*song017B_mvl/mxv
+ .byte   VOL , 12*SplashWave_mvl/mxv
  .byte   W10
  .byte   N06 ,An3
  .byte   W12
  .byte   Dn4
  .byte   W01
- .byte   VOL , 11*song017B_mvl/mxv
+ .byte   VOL , 11*SplashWave_mvl/mxv
  .byte   W11
  .byte   N06 ,Dn3
  .byte   W12
- .byte   VOL , 11*song017B_mvl/mxv
+ .byte   VOL , 11*SplashWave_mvl/mxv
  .byte   N06 ,An3
  .byte   W12
  .byte   Cn4
  .byte   W11
 @  #06 @231   ----------------------------------------
- .byte   VOL , 10*song017B_mvl/mxv
+ .byte   VOL , 10*SplashWave_mvl/mxv
  .byte   W01
  .byte   N06 ,Dn4
  .byte   W12
  .byte   En3
  .byte   W10
- .byte   VOL , 10*song017B_mvl/mxv
+ .byte   VOL , 10*SplashWave_mvl/mxv
  .byte   W02
  .byte   N06 ,Bn3
  .byte   W12
  .byte   En4
  .byte   W09
- .byte   VOL , 9*song017B_mvl/mxv
+ .byte   VOL , 9*SplashWave_mvl/mxv
  .byte   W03
  .byte   N06 ,En3
  .byte   W12
  .byte   Bn3
  .byte   W08
- .byte   VOL , 8*song017B_mvl/mxv
+ .byte   VOL , 8*SplashWave_mvl/mxv
  .byte   W04
  .byte   N06 ,En4
  .byte   W12
  .byte   En3
  .byte   W07
- .byte   VOL , 8*song017B_mvl/mxv
+ .byte   VOL , 8*SplashWave_mvl/mxv
  .byte   W04
 @  #06 @232   ----------------------------------------
  .byte   W01
@@ -12754,25 +12754,25 @@ Label_012BC097:
  .byte   W12
  .byte   En4
  .byte   W06
- .byte   VOL , 7*song017B_mvl/mxv
+ .byte   VOL , 7*SplashWave_mvl/mxv
  .byte   W06
  .byte   N06 ,En3
  .byte   W12
  .byte   Bn3
  .byte   W05
- .byte   VOL , 6*song017B_mvl/mxv
+ .byte   VOL , 6*SplashWave_mvl/mxv
  .byte   W07
  .byte   N06 ,En4
  .byte   W12
  .byte   En3
  .byte   W04
- .byte   VOL , 6*song017B_mvl/mxv
+ .byte   VOL , 6*SplashWave_mvl/mxv
  .byte   W08
  .byte   N06 ,Bn3
  .byte   W12
  .byte   En4
  .byte   W03
- .byte   VOL , 5*song017B_mvl/mxv
+ .byte   VOL , 5*SplashWave_mvl/mxv
  .byte   W08
 @  #06 @233   ----------------------------------------
  .byte   W01
@@ -12780,22 +12780,22 @@ Label_012BC097:
  .byte   W12
  .byte   Dn3
  .byte   W02
- .byte   VOL , 5*song017B_mvl/mxv
+ .byte   VOL , 5*SplashWave_mvl/mxv
  .byte   W10
  .byte   N06 ,An3
  .byte   W12
  .byte   Dn4
  .byte   W01
- .byte   VOL , 4*song017B_mvl/mxv
+ .byte   VOL , 4*SplashWave_mvl/mxv
  .byte   W11
  .byte   N06 ,Dn3
  .byte   W12
- .byte   VOL , 3*song017B_mvl/mxv
+ .byte   VOL , 3*SplashWave_mvl/mxv
  .byte   N06 ,An3
  .byte   W12
  .byte   Dn4
  .byte   W11
- .byte   VOL , 3*song017B_mvl/mxv
+ .byte   VOL , 3*SplashWave_mvl/mxv
  .byte   W01
  .byte   N06 ,Dn3
  .byte   W11
@@ -12803,38 +12803,38 @@ Label_012BC097:
  .byte   W01
  .byte   An3
  .byte   W10
- .byte   VOL , 2*song017B_mvl/mxv
+ .byte   VOL , 2*SplashWave_mvl/mxv
  .byte   W02
  .byte   N06 ,Dn4
  .byte   W12
  .byte   Dn3
  .byte   W09
- .byte   VOL , 1*song017B_mvl/mxv
+ .byte   VOL , 1*SplashWave_mvl/mxv
  .byte   W03
  .byte   N06 ,An3
  .byte   W12
  .byte   Dn4
  .byte   W08
- .byte   VOL , 1*song017B_mvl/mxv
+ .byte   VOL , 1*SplashWave_mvl/mxv
  .byte   W04
  .byte   N06 ,Dn3
  .byte   W12
  .byte   An3
  .byte   W07
- .byte   VOL , 0*song017B_mvl/mxv
+ .byte   VOL , 0*SplashWave_mvl/mxv
  .byte   W05
  .byte   N06 ,Cn4
  .byte   W11
 @  #06 @235   ----------------------------------------
  .byte   W07
- .byte   VOL , 0*song017B_mvl/mxv
+ .byte   VOL , 0*SplashWave_mvl/mxv
  .byte   FINE
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-song017B_007:
+SplashWave_007:
 @  #07 @000   ----------------------------------------
- .byte   KEYSH , song017B_key+0
+ .byte   KEYSH , SplashWave_key+0
 Label_012BC3FE:
  .byte   W96
 @  #07 @001   ----------------------------------------
@@ -12866,7 +12866,7 @@ Label_012BC3FE:
 @  #07 @014   ----------------------------------------
  .byte   W54
  .byte   W01
- .byte   VOL , 45*song017B_mvl/mxv
+ .byte   VOL , 45*SplashWave_mvl/mxv
  .byte   W40
  .byte   W01
 @  #07 @015   ----------------------------------------
@@ -13288,7 +13288,7 @@ Label_012BC446:
 @  #07 @184   ----------------------------------------
  .byte   W78
  .byte   W01
- .byte   VOL , 31*song017B_mvl/mxv
+ .byte   VOL , 31*SplashWave_mvl/mxv
  .byte   W17
 @  #07 @185   ----------------------------------------
  .byte   W19
@@ -13340,7 +13340,7 @@ Label_012BC446:
  .byte   W01
  .byte   BEND , c_v-28
  .byte   W01
- .byte   VOL , 45*song017B_mvl/mxv
+ .byte   VOL , 45*SplashWave_mvl/mxv
  .byte   BEND , c_v+0
  .byte   W30
  .byte   BEND , c_v+0
@@ -13408,7 +13408,7 @@ Label_012BC446:
  .byte   W96
 @  #07 @217   ----------------------------------------
  .byte   W07
- .byte   VOL , 40*song017B_mvl/mxv
+ .byte   VOL , 40*SplashWave_mvl/mxv
  .byte   W88
  .byte   W01
 @  #07 @218   ----------------------------------------
@@ -13469,12 +13469,12 @@ Label_012BC446:
 
 @**************** Track 8 (Midi-Chn.7) ****************@
 
-song017B_008:
+SplashWave_008:
 @  #08 @000   ----------------------------------------
- .byte   KEYSH , song017B_key+0
+ .byte   KEYSH , SplashWave_key+0
 Label_012C5ADA:
  .byte   VOICE , 121
- .byte   VOL , 50*song017B_mvl/mxv
+ .byte   VOL , 50*SplashWave_mvl/mxv
  .byte   W07
  .byte   N12 ,Dn1 ,v112
  .byte   N06 ,Fs1 ,v080
@@ -15987,21 +15987,21 @@ Label_012C6716:
 @******************************************************@
 	.align	2
 
-song017B:
+SplashWave:
 	.byte	8	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song017B_pri	@ Priority
-	.byte	song017B_rev	@ Reverb.
+	.byte	SplashWave_pri	@ Priority
+	.byte	SplashWave_rev	@ Reverb.
     
-	.word	song017B_grp
+	.word	SplashWave_grp
     
-	.word	song017B_001
-	.word	song017B_002
-	.word	song017B_003
-	.word	song017B_004
-	.word	song017B_005
-	.word	song017B_006
-	.word	song017B_007
-	.word	song017B_008
+	.word	SplashWave_001
+	.word	SplashWave_002
+	.word	SplashWave_003
+	.word	SplashWave_004
+	.word	SplashWave_005
+	.word	SplashWave_006
+	.word	SplashWave_007
+	.word	SplashWave_008
 
 	.end

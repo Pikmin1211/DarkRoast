@@ -1,28 +1,28 @@
 	.include "MPlayDef.s"
 
-	.equ	song44_grp, voicegroup000
-	.equ	song44_pri, 10
-	.equ	song44_rev, 158
-	.equ	song44_mvl, 127
-	.equ	song44_key, 0
-	.equ	song44_tbs, 1
-	.equ	song44_exg, 0
-	.equ	song44_cmp, 1
+	.equ	AllyAttackFE4_grp, voicegroup000
+	.equ	AllyAttackFE4_pri, 10
+	.equ	AllyAttackFE4_rev, 158
+	.equ	AllyAttackFE4_mvl, 127
+	.equ	AllyAttackFE4_key, 0
+	.equ	AllyAttackFE4_tbs, 1
+	.equ	AllyAttackFE4_exg, 0
+	.equ	AllyAttackFE4_cmp, 1
 
 	.section .rodata
-	.global	song44
+	.global	AllyAttackFE4
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song44_001:
+AllyAttackFE4_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , song44_key+0
+ .byte   KEYSH , AllyAttackFE4_key+0
 Label_5743CF:
- .byte   TEMPO , 156*song44_tbs/2
+ .byte   TEMPO , 156*AllyAttackFE4_tbs/2
  .byte   VOICE , 61
- .byte   VOL , 47*song44_mvl/mxv
+ .byte   VOL , 47*AllyAttackFE4_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N13 ,Fn2 ,v080
  .byte   N15 ,As2 ,v100
@@ -151,7 +151,7 @@ Label_5743CF:
  .byte   W96
 @  #01 @005   ----------------------------------------
  .byte   W72
- .byte   VOL , 54*song44_mvl/mxv
+ .byte   VOL , 54*AllyAttackFE4_mvl/mxv
  .byte   PAN , c_v+6
  .byte   W12
  .byte   N05 ,Gn3 ,v112
@@ -183,13 +183,13 @@ Label_5743CF:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song44_002:
+AllyAttackFE4_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , song44_key+0
+ .byte   KEYSH , AllyAttackFE4_key+0
 Label_5741F6:
  .byte   W72
  .byte   VOICE , 100
- .byte   VOL , 66*song44_mvl/mxv
+ .byte   VOL , 66*AllyAttackFE4_mvl/mxv
  .byte   PAN , c_v+1
  .byte   W24
 @  #02 @001   ----------------------------------------
@@ -219,107 +219,107 @@ Label_5741F6:
  .byte   N08 ,Fn4 ,v036
  .byte   W24
  .byte   VOICE , 100
- .byte   VOL , 39*song44_mvl/mxv
+ .byte   VOL , 39*AllyAttackFE4_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N52 ,Fs2 ,v100
  .byte   N52 ,Bn2 ,v108
  .byte   W13
- .byte   VOL , 40*song44_mvl/mxv
+ .byte   VOL , 40*AllyAttackFE4_mvl/mxv
  .byte   W07
- .byte   VOL , 61*song44_mvl/mxv
+ .byte   VOL , 61*AllyAttackFE4_mvl/mxv
  .byte   W07
- .byte   VOL , 62*song44_mvl/mxv
+ .byte   VOL , 62*AllyAttackFE4_mvl/mxv
  .byte   W07
- .byte   VOL , 62*song44_mvl/mxv
+ .byte   VOL , 62*AllyAttackFE4_mvl/mxv
  .byte   W06
- .byte   VOL , 63*song44_mvl/mxv
+ .byte   VOL , 63*AllyAttackFE4_mvl/mxv
  .byte   W07
- .byte   VOL , 64*song44_mvl/mxv
+ .byte   VOL , 64*AllyAttackFE4_mvl/mxv
  .byte   W07
- .byte   VOL , 65*song44_mvl/mxv
+ .byte   VOL , 65*AllyAttackFE4_mvl/mxv
  .byte   W06
  .byte   TIE ,Gn2
  .byte   TIE ,Cn3 ,v112
  .byte   W01
- .byte   VOL , 45*song44_mvl/mxv
+ .byte   VOL , 45*AllyAttackFE4_mvl/mxv
  .byte   W07
- .byte   VOL , 66*song44_mvl/mxv
+ .byte   VOL , 66*AllyAttackFE4_mvl/mxv
  .byte   W04
 @  #02 @005   ----------------------------------------
  .byte   W02
- .byte   VOL , 67*song44_mvl/mxv
+ .byte   VOL , 67*AllyAttackFE4_mvl/mxv
  .byte   W07
- .byte   VOL , 68*song44_mvl/mxv
+ .byte   VOL , 68*AllyAttackFE4_mvl/mxv
  .byte   W07
- .byte   VOL , 68*song44_mvl/mxv
+ .byte   VOL , 68*AllyAttackFE4_mvl/mxv
  .byte   W07
- .byte   VOL , 69*song44_mvl/mxv
+ .byte   VOL , 69*AllyAttackFE4_mvl/mxv
  .byte   W07
- .byte   VOL , 70*song44_mvl/mxv
+ .byte   VOL , 70*AllyAttackFE4_mvl/mxv
  .byte   W06
- .byte   VOL , 71*song44_mvl/mxv
+ .byte   VOL , 71*AllyAttackFE4_mvl/mxv
  .byte   W07
- .byte   VOL , 71*song44_mvl/mxv
+ .byte   VOL , 71*AllyAttackFE4_mvl/mxv
  .byte   W07
- .byte   VOL , 72*song44_mvl/mxv
+ .byte   VOL , 72*AllyAttackFE4_mvl/mxv
  .byte   W07
- .byte   VOL , 73*song44_mvl/mxv
+ .byte   VOL , 73*AllyAttackFE4_mvl/mxv
  .byte   W07
- .byte   VOL , 74*song44_mvl/mxv
+ .byte   VOL , 74*AllyAttackFE4_mvl/mxv
  .byte   W06
- .byte   VOL , 74*song44_mvl/mxv
+ .byte   VOL , 74*AllyAttackFE4_mvl/mxv
  .byte   W07
- .byte   VOL , 75*song44_mvl/mxv
+ .byte   VOL , 75*AllyAttackFE4_mvl/mxv
  .byte   W07
- .byte   VOL , 76*song44_mvl/mxv
+ .byte   VOL , 76*AllyAttackFE4_mvl/mxv
  .byte   W01
  .byte   EOT
  .byte   Gn2 ,v060
  .byte   W06
- .byte   VOL , 57*song44_mvl/mxv
+ .byte   VOL , 57*AllyAttackFE4_mvl/mxv
  .byte   W05
 @  #02 @006   ----------------------------------------
  .byte   N78 ,Gs2
  .byte   N76 ,Cs3 ,v116
  .byte   W02
- .byte   VOL , 57*song44_mvl/mxv
+ .byte   VOL , 57*AllyAttackFE4_mvl/mxv
  .byte   W06
- .byte   VOL , 78*song44_mvl/mxv
+ .byte   VOL , 78*AllyAttackFE4_mvl/mxv
  .byte   W07
- .byte   VOL , 79*song44_mvl/mxv
+ .byte   VOL , 79*AllyAttackFE4_mvl/mxv
  .byte   W07
- .byte   VOL , 80*song44_mvl/mxv
+ .byte   VOL , 80*AllyAttackFE4_mvl/mxv
  .byte   W07
- .byte   VOL , 80*song44_mvl/mxv
+ .byte   VOL , 80*AllyAttackFE4_mvl/mxv
  .byte   W07
- .byte   VOL , 81*song44_mvl/mxv
+ .byte   VOL , 81*AllyAttackFE4_mvl/mxv
  .byte   W06
- .byte   VOL , 82*song44_mvl/mxv
+ .byte   VOL , 82*AllyAttackFE4_mvl/mxv
  .byte   W07
- .byte   VOL , 83*song44_mvl/mxv
+ .byte   VOL , 83*AllyAttackFE4_mvl/mxv
  .byte   W07
- .byte   VOL , 83*song44_mvl/mxv
+ .byte   VOL , 83*AllyAttackFE4_mvl/mxv
  .byte   W07
- .byte   VOL , 84*song44_mvl/mxv
+ .byte   VOL , 84*AllyAttackFE4_mvl/mxv
  .byte   W07
- .byte   VOL , 85*song44_mvl/mxv
+ .byte   VOL , 85*AllyAttackFE4_mvl/mxv
  .byte   W06
- .byte   VOL , 86*song44_mvl/mxv
+ .byte   VOL , 86*AllyAttackFE4_mvl/mxv
  .byte   W07
- .byte   VOL , 86*song44_mvl/mxv
+ .byte   VOL , 86*AllyAttackFE4_mvl/mxv
  .byte   W01
  .byte   N09 ,As2 ,v127
  .byte   N09 ,Ds3 ,v124
  .byte   W06
- .byte   VOL , 67*song44_mvl/mxv
+ .byte   VOL , 67*AllyAttackFE4_mvl/mxv
  .byte   W06
 @  #02 @007   ----------------------------------------
  .byte   N11 ,As2 ,v040
  .byte   N11 ,Ds3 ,v048
  .byte   W01
- .byte   VOL , 68*song44_mvl/mxv
+ .byte   VOL , 68*AllyAttackFE4_mvl/mxv
  .byte   W07
- .byte   VOL , 89*song44_mvl/mxv
+ .byte   VOL , 89*AllyAttackFE4_mvl/mxv
  .byte   W16
  .byte   N11 ,As2 ,v032
  .byte   N11 ,Ds3 ,v036
@@ -328,7 +328,7 @@ Label_5741F6:
  .byte   N11 ,Ds3
  .byte   W12
  .byte   VOICE , 100
- .byte   VOL , 66*song44_mvl/mxv
+ .byte   VOL , 66*AllyAttackFE4_mvl/mxv
  .byte   PAN , c_v+1
  .byte   N05 ,Ds4 ,v120
  .byte   W06
@@ -353,13 +353,13 @@ Label_5741F6:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song44_003:
+AllyAttackFE4_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , song44_key+0
+ .byte   KEYSH , AllyAttackFE4_key+0
 Label_0116FC2E:
  .byte   W72
  .byte   VOICE , 100
- .byte   VOL , 24*song44_mvl/mxv
+ .byte   VOL , 24*AllyAttackFE4_mvl/mxv
  .byte   PAN , c_v+1
  .byte   BEND , c_v-1
  .byte   W24
@@ -394,7 +394,7 @@ Label_0116FC38:
 @  #03 @007   ----------------------------------------
  .byte   W48
  .byte   VOICE , 100
- .byte   VOL , 24*song44_mvl/mxv
+ .byte   VOL , 24*AllyAttackFE4_mvl/mxv
  .byte   PAN , c_v+1
  .byte   W07
  .byte   N05 ,Ds4
@@ -418,12 +418,12 @@ Label_0116FC38:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song44_004:
+AllyAttackFE4_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , song44_key+0
+ .byte   KEYSH , AllyAttackFE4_key+0
 Label_574506:
  .byte   VOICE , 38
- .byte   VOL , 47*song44_mvl/mxv
+ .byte   VOL , 47*AllyAttackFE4_mvl/mxv
  .byte   PAN , c_v+11
  .byte   W96
 @  #04 @001   ----------------------------------------
@@ -451,12 +451,12 @@ Label_574506:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song44_005:
+AllyAttackFE4_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , song44_key+0
+ .byte   KEYSH , AllyAttackFE4_key+0
 Label_0116FC76:
  .byte   VOICE , 34
- .byte   VOL , 69*song44_mvl/mxv
+ .byte   VOL , 69*AllyAttackFE4_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N10 ,As2 ,v108
  .byte   W12
@@ -600,12 +600,12 @@ Label_0116FC76:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song44_006:
+AllyAttackFE4_006:
 @  #06 @000   ----------------------------------------
- .byte   KEYSH , song44_key+0
+ .byte   KEYSH , AllyAttackFE4_key+0
 Label_0116FD26:
  .byte   VOICE , 127
- .byte   VOL , 65*song44_mvl/mxv
+ .byte   VOL , 65*AllyAttackFE4_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N09 ,Cn1 ,v124
  .byte   N03 ,Fs1 ,v056
@@ -836,19 +836,19 @@ Label_0116FD26:
 @******************************************************@
 	.align	2
 
-song44:
+AllyAttackFE4:
 	.byte	6	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song44_pri	@ Priority
-	.byte	song44_rev	@ Reverb.
+	.byte	AllyAttackFE4_pri	@ Priority
+	.byte	AllyAttackFE4_rev	@ Reverb.
     
-	.word	song44_grp
+	.word	AllyAttackFE4_grp
     
-	.word	song44_001
-	.word	song44_002
-	.word	song44_003
-	.word	song44_004
-	.word	song44_005
-	.word	song44_006
+	.word	AllyAttackFE4_001
+	.word	AllyAttackFE4_002
+	.word	AllyAttackFE4_003
+	.word	AllyAttackFE4_004
+	.word	AllyAttackFE4_005
+	.word	AllyAttackFE4_006
 
 	.end

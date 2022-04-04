@@ -1,28 +1,28 @@
 	.include "MPlayDef.s"
 
-	.equ	song0364_grp, voicegroup000
-	.equ	song0364_pri, 0
-	.equ	song0364_rev, 0
-	.equ	song0364_mvl, 127
-	.equ	song0364_key, 0
-	.equ	song0364_tbs, 1
-	.equ	song0364_exg, 0
-	.equ	song0364_cmp, 1
+	.equ	ConfidenceInTheDomination_grp, voicegroup000
+	.equ	ConfidenceInTheDomination_pri, 0
+	.equ	ConfidenceInTheDomination_rev, 0
+	.equ	ConfidenceInTheDomination_mvl, 127
+	.equ	ConfidenceInTheDomination_key, 0
+	.equ	ConfidenceInTheDomination_tbs, 1
+	.equ	ConfidenceInTheDomination_exg, 0
+	.equ	ConfidenceInTheDomination_cmp, 1
 
 	.section .rodata
-	.global	song0364
+	.global	ConfidenceInTheDomination
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song0364_001:
+ConfidenceInTheDomination_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , song0364_key+0
+ .byte   KEYSH , ConfidenceInTheDomination_key+0
 Label_011FF3E6:
- .byte   TEMPO , 142*song0364_tbs/2
+ .byte   TEMPO , 142*ConfidenceInTheDomination_tbs/2
  .byte   VOICE , 30
- .byte   VOL , 26*song0364_mvl/mxv
+ .byte   VOL , 26*ConfidenceInTheDomination_mvl/mxv
  .byte   PAN , c_v+0
  .byte   BEND , c_v+0
  .byte   W02
@@ -908,12 +908,12 @@ Label_011FF587:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song0364_002:
+ConfidenceInTheDomination_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , song0364_key+0
+ .byte   KEYSH , ConfidenceInTheDomination_key+0
 Label_011FF7CE:
  .byte   VOICE , 56
- .byte   VOL , 27*song0364_mvl/mxv
+ .byte   VOL , 27*ConfidenceInTheDomination_mvl/mxv
  .byte   PAN , c_v+0
  .byte   BEND , c_v+0
  .byte   W96
@@ -1105,12 +1105,12 @@ Label_011FF7CE:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song0364_003:
+ConfidenceInTheDomination_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , song0364_key+0
+ .byte   KEYSH , ConfidenceInTheDomination_key+0
 Label_011FF88E:
  .byte   VOICE , 33
- .byte   VOL , 30*song0364_mvl/mxv
+ .byte   VOL , 30*ConfidenceInTheDomination_mvl/mxv
  .byte   PAN , c_v+0
  .byte   BEND , c_v+0
  .byte   W02
@@ -2164,12 +2164,12 @@ Label_011FF9C3:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song0364_004:
+ConfidenceInTheDomination_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , song0364_key+0
+ .byte   KEYSH , ConfidenceInTheDomination_key+0
 Label_011FFCF2:
  .byte   VOICE , 30
- .byte   VOL , 21*song0364_mvl/mxv
+ .byte   VOL , 21*ConfidenceInTheDomination_mvl/mxv
  .byte   PAN , c_v+32
  .byte   BEND , c_v+0
  .byte   W96
@@ -2528,12 +2528,12 @@ Label_011FFCF2:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song0364_005:
+ConfidenceInTheDomination_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , song0364_key+0
+ .byte   KEYSH , ConfidenceInTheDomination_key+0
 Label_011FFEBE:
  .byte   VOICE , 49
- .byte   VOL , 23*song0364_mvl/mxv
+ .byte   VOL , 23*ConfidenceInTheDomination_mvl/mxv
  .byte   PAN , c_v-50
  .byte   BEND , c_v+0
  .byte   W96
@@ -2691,12 +2691,12 @@ Label_011FFEBE:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song0364_006:
+ConfidenceInTheDomination_006:
 @  #06 @000   ----------------------------------------
- .byte   KEYSH , song0364_key+0
+ .byte   KEYSH , ConfidenceInTheDomination_key+0
 Label_011FFF5E:
  .byte   VOICE , 62
- .byte   VOL , 23*song0364_mvl/mxv
+ .byte   VOL , 23*ConfidenceInTheDomination_mvl/mxv
  .byte   PAN , c_v-10
  .byte   BEND , c_v+0
  .byte   N32 ,Bn2 ,v108
@@ -3474,12 +3474,12 @@ Label_0120003C:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-song0364_007:
+ConfidenceInTheDomination_007:
 @  #07 @000   ----------------------------------------
- .byte   KEYSH , song0364_key+0
+ .byte   KEYSH , ConfidenceInTheDomination_key+0
 Label_0120035A:
  .byte   VOICE , 68
- .byte   VOL , 23*song0364_mvl/mxv
+ .byte   VOL , 23*ConfidenceInTheDomination_mvl/mxv
  .byte   PAN , c_v+0
  .byte   BEND , c_v+0
  .byte   W96
@@ -3629,12 +3629,12 @@ Label_0120035A:
 
 @**************** Track 8 (Midi-Chn.7) ****************@
 
-song0364_008:
+ConfidenceInTheDomination_008:
 @  #08 @000   ----------------------------------------
- .byte   KEYSH , song0364_key+0
+ .byte   KEYSH , ConfidenceInTheDomination_key+0
 Label_012003E2:
  .byte   VOICE , 4
- .byte   VOL , 13*song0364_mvl/mxv
+ .byte   VOL , 13*ConfidenceInTheDomination_mvl/mxv
  .byte   PAN , c_v+50
  .byte   BEND , c_v+0
  .byte   W02
@@ -4563,12 +4563,12 @@ Label_012004FB:
 
 @**************** Track 9 (Midi-Chn.8) ****************@
 
-song0364_009:
+ConfidenceInTheDomination_009:
 @  #09 @000   ----------------------------------------
- .byte   KEYSH , song0364_key+0
+ .byte   KEYSH , ConfidenceInTheDomination_key+0
 Label_012007A2:
  .byte   VOICE , 36
- .byte   VOL , 30*song0364_mvl/mxv
+ .byte   VOL , 30*ConfidenceInTheDomination_mvl/mxv
  .byte   PAN , c_v+0
  .byte   BEND , c_v+0
  .byte   W02
@@ -5476,12 +5476,12 @@ Label_012008D7:
 
 @**************** Track 10 (Midi-Chn.9) ****************@
 
-song0364_010:
+ConfidenceInTheDomination_010:
 @  #10 @000   ----------------------------------------
- .byte   KEYSH , song0364_key+0
+ .byte   KEYSH , ConfidenceInTheDomination_key+0
 Label_01200B62:
  .byte   VOICE , 124
- .byte   VOL , 32*song0364_mvl/mxv
+ .byte   VOL , 32*ConfidenceInTheDomination_mvl/mxv
  .byte   PAN , c_v+0
  .byte   BEND , c_v+0
  .byte   W01
@@ -6768,12 +6768,12 @@ Label_0120148F:
 
 @**************** Track 11 (Midi-Chn.10) ****************@
 
-song0364_011:
+ConfidenceInTheDomination_011:
 @  #11 @000   ----------------------------------------
- .byte   KEYSH , song0364_key+0
+ .byte   KEYSH , ConfidenceInTheDomination_key+0
 Label_0120152E:
  .byte   VOICE , 30
- .byte   VOL , 16*song0364_mvl/mxv
+ .byte   VOL , 16*ConfidenceInTheDomination_mvl/mxv
  .byte   PAN , c_v-10
  .byte   BEND , c_v-1
  .byte   W14
@@ -7645,12 +7645,12 @@ Label_012016C9:
 
 @**************** Track 12 (Midi-Chn.11) ****************@
 
-song0364_012:
+ConfidenceInTheDomination_012:
 @  #12 @000   ----------------------------------------
- .byte   KEYSH , song0364_key+0
+ .byte   KEYSH , ConfidenceInTheDomination_key+0
 Label_0120190A:
  .byte   VOICE , 48
- .byte   VOL , 25*song0364_mvl/mxv
+ .byte   VOL , 25*ConfidenceInTheDomination_mvl/mxv
  .byte   PAN , c_v+0
  .byte   BEND , c_v-1
  .byte   W02
@@ -7990,25 +7990,25 @@ Label_0120190A:
 @******************************************************@
 	.align	2
 
-song0364:
+ConfidenceInTheDomination:
 	.byte	12	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song0364_pri	@ Priority
-	.byte	song0364_rev	@ Reverb.
+	.byte	ConfidenceInTheDomination_pri	@ Priority
+	.byte	ConfidenceInTheDomination_rev	@ Reverb.
     
-	.word	song0364_grp
+	.word	ConfidenceInTheDomination_grp
     
-	.word	song0364_001
-	.word	song0364_002
-	.word	song0364_003
-	.word	song0364_004
-	.word	song0364_005
-	.word	song0364_006
-	.word	song0364_007
-	.word	song0364_008
-	.word	song0364_009
-	.word	song0364_010
-	.word	song0364_011
-	.word	song0364_012
+	.word	ConfidenceInTheDomination_001
+	.word	ConfidenceInTheDomination_002
+	.word	ConfidenceInTheDomination_003
+	.word	ConfidenceInTheDomination_004
+	.word	ConfidenceInTheDomination_005
+	.word	ConfidenceInTheDomination_006
+	.word	ConfidenceInTheDomination_007
+	.word	ConfidenceInTheDomination_008
+	.word	ConfidenceInTheDomination_009
+	.word	ConfidenceInTheDomination_010
+	.word	ConfidenceInTheDomination_011
+	.word	ConfidenceInTheDomination_012
 
 	.end

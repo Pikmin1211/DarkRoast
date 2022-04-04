@@ -1,28 +1,28 @@
 	.include "MPlayDef.s"
 
-	.equ	song10_grp, voicegroup000
-	.equ	song10_pri, 0
-	.equ	song10_rev, 0
-	.equ	song10_mvl, 127
-	.equ	song10_key, 0
-	.equ	song10_tbs, 1
-	.equ	song10_exg, 0
-	.equ	song10_cmp, 1
+	.equ	SunsetBay_grp, voicegroup000
+	.equ	SunsetBay_pri, 0
+	.equ	SunsetBay_rev, 0
+	.equ	SunsetBay_mvl, 127
+	.equ	SunsetBay_key, 0
+	.equ	SunsetBay_tbs, 1
+	.equ	SunsetBay_exg, 0
+	.equ	SunsetBay_cmp, 1
 
 	.section .rodata
-	.global	song10
+	.global	SunsetBay
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song10_001:
+SunsetBay_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , song10_key+0
+ .byte   KEYSH , SunsetBay_key+0
 Label_554241:
- .byte   TEMPO , 166*song10_tbs/2
+ .byte   TEMPO , 166*SunsetBay_tbs/2
  .byte   VOICE , 4
- .byte   VOL , 40*song10_mvl/mxv
+ .byte   VOL , 40*SunsetBay_mvl/mxv
  .byte   N11 ,En3 ,v127
  .byte   N32 ,En4
  .byte   N32 ,Gn4
@@ -264,12 +264,12 @@ Label_5542E1:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song10_002:
+SunsetBay_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , song10_key+0
+ .byte   KEYSH , SunsetBay_key+0
 Label_55404F:
  .byte   VOICE , 36
- .byte   VOL , 31*song10_mvl/mxv
+ .byte   VOL , 31*SunsetBay_mvl/mxv
  .byte   N05 ,Cn0 ,v127
  .byte   W12
  .byte   Dn0
@@ -557,12 +557,12 @@ Label_55410F:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song10_003:
+SunsetBay_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , song10_key+0
+ .byte   KEYSH , SunsetBay_key+0
 Label_01166A12:
  .byte   VOICE , 30
- .byte   VOL , 22*song10_mvl/mxv
+ .byte   VOL , 22*SunsetBay_mvl/mxv
  .byte   N11 ,Cn1 ,v127
  .byte   N11 ,Cn2
  .byte   W12
@@ -1060,12 +1060,12 @@ Label_01166BF0:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song10_004:
+SunsetBay_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , song10_key+0
+ .byte   KEYSH , SunsetBay_key+0
 Label_01166CC2:
  .byte   VOICE , 81
- .byte   VOL , 40*song10_mvl/mxv
+ .byte   VOL , 40*SunsetBay_mvl/mxv
  .byte   TIE ,En4 ,v100
  .byte   TIE ,Gn4
  .byte   N32 ,Cn5
@@ -1330,12 +1330,12 @@ Label_01166D67:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song10_005:
+SunsetBay_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , song10_key+0
+ .byte   KEYSH , SunsetBay_key+0
 Label_01166E16:
  .byte   VOICE , 81
- .byte   VOL , 16*song10_mvl/mxv
+ .byte   VOL , 16*SunsetBay_mvl/mxv
  .byte   N11 ,Cn1 ,v127
  .byte   N11 ,Cn2
  .byte   W12
@@ -1794,10 +1794,10 @@ Label_01166FC2:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song10_006:
+SunsetBay_006:
 @  #06 @000   ----------------------------------------
- .byte   VOL , 40*song10_mvl/mxv
- .byte   KEYSH , song10_key+0
+ .byte   VOL , 40*SunsetBay_mvl/mxv
+ .byte   KEYSH , SunsetBay_key+0
 Label_01167090:
  .byte   VOICE , 121
  .byte   N11 ,Cn1 ,v127
@@ -2117,19 +2117,19 @@ Label_011671A2:
 @******************************************************@
 	.align	2
 
-song10:
+SunsetBay:
 	.byte	6	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song10_pri	@ Priority
-	.byte	song10_rev	@ Reverb.
+	.byte	SunsetBay_pri	@ Priority
+	.byte	SunsetBay_rev	@ Reverb.
     
-	.word	song10_grp
+	.word	SunsetBay_grp
     
-	.word	song10_001
-	.word	song10_002
-	.word	song10_003
-	.word	song10_004
-	.word	song10_005
-	.word	song10_006
+	.word	SunsetBay_001
+	.word	SunsetBay_002
+	.word	SunsetBay_003
+	.word	SunsetBay_004
+	.word	SunsetBay_005
+	.word	SunsetBay_006
 
 	.end

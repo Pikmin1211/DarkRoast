@@ -1,27 +1,27 @@
 	.include "MPlayDef.s"
 
-	.equ	song2A_grp, voicegroup000
-	.equ	song2A_pri, 0
-	.equ	song2A_rev, 0
-	.equ	song2A_mvl, 127
-	.equ	song2A_key, 0
-	.equ	song2A_tbs, 1
-	.equ	song2A_exg, 0
-	.equ	song2A_cmp, 1
+	.equ	EndingRippleIsland_grp, voicegroup000
+	.equ	EndingRippleIsland_pri, 0
+	.equ	EndingRippleIsland_rev, 0
+	.equ	EndingRippleIsland_mvl, 127
+	.equ	EndingRippleIsland_key, 0
+	.equ	EndingRippleIsland_tbs, 1
+	.equ	EndingRippleIsland_exg, 0
+	.equ	EndingRippleIsland_cmp, 1
 
 	.section .rodata
-	.global	song2A
+	.global	EndingRippleIsland
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song2A_001:
+EndingRippleIsland_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , song2A_key+0
- .byte   TEMPO , 80*song2A_tbs/2
+ .byte   KEYSH , EndingRippleIsland_key+0
+ .byte   TEMPO , 80*EndingRippleIsland_tbs/2
  .byte   VOICE , 68
- .byte   VOL , 46*song2A_mvl/mxv
+ .byte   VOL , 46*EndingRippleIsland_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #01 @001   ----------------------------------------
@@ -333,11 +333,11 @@ Label_566850:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song2A_002:
+EndingRippleIsland_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , song2A_key+0
+ .byte   KEYSH , EndingRippleIsland_key+0
  .byte   VOICE , 79
- .byte   VOL , 58*song2A_mvl/mxv
+ .byte   VOL , 58*EndingRippleIsland_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #02 @001   ----------------------------------------
@@ -748,11 +748,11 @@ Label_0116EA2C:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song2A_003:
+EndingRippleIsland_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , song2A_key+0
+ .byte   KEYSH , EndingRippleIsland_key+0
  .byte   VOICE , 11
- .byte   VOL , 65*song2A_mvl/mxv
+ .byte   VOL , 65*EndingRippleIsland_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #03 @001   ----------------------------------------
@@ -1106,11 +1106,11 @@ Label_0116EBC2:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song2A_004:
+EndingRippleIsland_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , song2A_key+0
+ .byte   KEYSH , EndingRippleIsland_key+0
  .byte   VOICE , 42
- .byte   VOL , 38*song2A_mvl/mxv
+ .byte   VOL , 38*EndingRippleIsland_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #04 @001   ----------------------------------------
@@ -1464,11 +1464,11 @@ Label_0116ED42:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song2A_005:
+EndingRippleIsland_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , song2A_key+0
+ .byte   KEYSH , EndingRippleIsland_key+0
  .byte   VOICE , 73
- .byte   VOL , 60*song2A_mvl/mxv
+ .byte   VOL , 60*EndingRippleIsland_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #05 @001   ----------------------------------------
@@ -1781,18 +1781,18 @@ Label_0116EE81:
 @******************************************************@
 	.align	2
 
-song2A:
+EndingRippleIsland:
 	.byte	5	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song2A_pri	@ Priority
-	.byte	song2A_rev	@ Reverb.
+	.byte	EndingRippleIsland_pri	@ Priority
+	.byte	EndingRippleIsland_rev	@ Reverb.
     
-	.word	song2A_grp
+	.word	EndingRippleIsland_grp
     
-	.word	song2A_001
-	.word	song2A_002
-	.word	song2A_003
-	.word	song2A_004
-	.word	song2A_005
+	.word	EndingRippleIsland_001
+	.word	EndingRippleIsland_002
+	.word	EndingRippleIsland_003
+	.word	EndingRippleIsland_004
+	.word	EndingRippleIsland_005
 
 	.end

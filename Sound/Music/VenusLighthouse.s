@@ -1,28 +1,28 @@
 	.include "MPlayDef.s"
 
-	.equ	song0116_grp, voicegroup000
-	.equ	song0116_pri, 0
-	.equ	song0116_rev, 0
-	.equ	song0116_mvl, 127
-	.equ	song0116_key, 0
-	.equ	song0116_tbs, 1
-	.equ	song0116_exg, 0
-	.equ	song0116_cmp, 1
+	.equ	VenusLighthouse_grp, voicegroup000
+	.equ	VenusLighthouse_pri, 0
+	.equ	VenusLighthouse_rev, 0
+	.equ	VenusLighthouse_mvl, 127
+	.equ	VenusLighthouse_key, 0
+	.equ	VenusLighthouse_tbs, 1
+	.equ	VenusLighthouse_exg, 0
+	.equ	VenusLighthouse_cmp, 1
 
 	.section .rodata
-	.global	song0116
+	.global	VenusLighthouse
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song0116_001:
+VenusLighthouse_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , song0116_key+0
+ .byte   KEYSH , VenusLighthouse_key+0
 Label_012634FA:
- .byte   TEMPO , 128*song0116_tbs/2
+ .byte   TEMPO , 128*VenusLighthouse_tbs/2
  .byte   VOICE , 61
- .byte   VOL , 38*song0116_mvl/mxv
+ .byte   VOL , 38*VenusLighthouse_mvl/mxv
  .byte   N44 ,Fs3 ,v120
  .byte   W48
  .byte   N10 ,Gs3
@@ -227,17 +227,17 @@ Label_01263577:
  .byte   GOTO
   .word Label_012634FA
 @  #01 @045   ----------------------------------------
- .byte   TEMPO , 128*song0116_tbs/2
+ .byte   TEMPO , 128*VenusLighthouse_tbs/2
  .byte   FINE
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song0116_002:
+VenusLighthouse_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , song0116_key+0
+ .byte   KEYSH , VenusLighthouse_key+0
 Label_012635F2:
  .byte   VOICE , 52
- .byte   VOL , 31*song0116_mvl/mxv
+ .byte   VOL , 31*VenusLighthouse_mvl/mxv
  .byte   PAN , c_v+0
  .byte   BEND , c_v+0
  .byte   N44 ,An2 ,v116
@@ -481,19 +481,19 @@ Label_012636FD:
   .word Label_012635F2
 @  #02 @045   ----------------------------------------
  .byte   VOICE , 52
- .byte   VOL , 31*song0116_mvl/mxv
+ .byte   VOL , 31*VenusLighthouse_mvl/mxv
  .byte   PAN , c_v+0
  .byte   BEND , c_v+0
  .byte   FINE
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song0116_003:
+VenusLighthouse_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , song0116_key+0
+ .byte   KEYSH , VenusLighthouse_key+0
 Label_01263736:
  .byte   VOICE , 33
- .byte   VOL , 43*song0116_mvl/mxv
+ .byte   VOL , 43*VenusLighthouse_mvl/mxv
  .byte   PAN , c_v+0
  .byte   BEND , c_v+0
  .byte   N08 ,Fs2 ,v124
@@ -965,19 +965,19 @@ Label_012638E7:
   .word Label_01263736
 @  #03 @045   ----------------------------------------
  .byte   VOICE , 33
- .byte   VOL , 43*song0116_mvl/mxv
+ .byte   VOL , 43*VenusLighthouse_mvl/mxv
  .byte   PAN , c_v+0
  .byte   BEND , c_v+0
  .byte   FINE
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song0116_004:
+VenusLighthouse_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , song0116_key+0
+ .byte   KEYSH , VenusLighthouse_key+0
 Label_01263956:
  .byte   VOICE , 8
- .byte   VOL , 29*song0116_mvl/mxv
+ .byte   VOL , 29*VenusLighthouse_mvl/mxv
  .byte   PAN , c_v+0
  .byte   BEND , c_v+0
  .byte   W96
@@ -1242,19 +1242,19 @@ Label_0126397D:
   .word Label_01263956
 @  #04 @045   ----------------------------------------
  .byte   VOICE , 8
- .byte   VOL , 29*song0116_mvl/mxv
+ .byte   VOL , 29*VenusLighthouse_mvl/mxv
  .byte   PAN , c_v+0
  .byte   BEND , c_v+0
  .byte   FINE
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song0116_005:
+VenusLighthouse_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , song0116_key+0
+ .byte   KEYSH , VenusLighthouse_key+0
 Label_01263A5E:
  .byte   VOICE , 48
- .byte   VOL , 31*song0116_mvl/mxv
+ .byte   VOL , 31*VenusLighthouse_mvl/mxv
  .byte   PAN , c_v-9
  .byte   BEND , c_v+0
  .byte   W96
@@ -1455,19 +1455,19 @@ Label_01263A85:
   .word Label_01263A5E
 @  #05 @045   ----------------------------------------
  .byte   VOICE , 48
- .byte   VOL , 31*song0116_mvl/mxv
+ .byte   VOL , 31*VenusLighthouse_mvl/mxv
  .byte   PAN , c_v-9
  .byte   BEND , c_v+0
  .byte   FINE
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song0116_006:
+VenusLighthouse_006:
 @  #06 @000   ----------------------------------------
- .byte   KEYSH , song0116_key+0
+ .byte   KEYSH , VenusLighthouse_key+0
 Label_01263B3E:
  .byte   VOICE , 48
- .byte   VOL , 35*song0116_mvl/mxv
+ .byte   VOL , 35*VenusLighthouse_mvl/mxv
  .byte   PAN , c_v+6
  .byte   BEND , c_v+0
  .byte   N08 ,Fs1 ,v127
@@ -1574,157 +1574,157 @@ Label_01263B3E:
 @  #06 @005   ----------------------------------------
  .byte   W96
 @  #06 @006   ----------------------------------------
- .byte   VOL , 0*song0116_mvl/mxv
+ .byte   VOL , 0*VenusLighthouse_mvl/mxv
  .byte   TIE ,Cs3
  .byte   W02
- .byte   VOL , 0*song0116_mvl/mxv
+ .byte   VOL , 0*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 11*song0116_mvl/mxv
+ .byte   VOL , 11*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 11*song0116_mvl/mxv
+ .byte   VOL , 11*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 12*song0116_mvl/mxv
+ .byte   VOL , 12*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 15*song0116_mvl/mxv
+ .byte   VOL , 15*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 17*song0116_mvl/mxv
+ .byte   VOL , 17*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 17*song0116_mvl/mxv
+ .byte   VOL , 17*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 18*song0116_mvl/mxv
+ .byte   VOL , 18*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 20*song0116_mvl/mxv
+ .byte   VOL , 20*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 21*song0116_mvl/mxv
+ .byte   VOL , 21*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 21*song0116_mvl/mxv
+ .byte   VOL , 21*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 23*song0116_mvl/mxv
+ .byte   VOL , 23*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 23*song0116_mvl/mxv
+ .byte   VOL , 23*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 24*song0116_mvl/mxv
+ .byte   VOL , 24*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 25*song0116_mvl/mxv
+ .byte   VOL , 25*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 26*song0116_mvl/mxv
+ .byte   VOL , 26*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 27*song0116_mvl/mxv
+ .byte   VOL , 27*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 27*song0116_mvl/mxv
+ .byte   VOL , 27*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 28*song0116_mvl/mxv
+ .byte   VOL , 28*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 29*song0116_mvl/mxv
+ .byte   VOL , 29*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 30*song0116_mvl/mxv
+ .byte   VOL , 30*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 30*song0116_mvl/mxv
+ .byte   VOL , 30*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 31*song0116_mvl/mxv
+ .byte   VOL , 31*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 32*song0116_mvl/mxv
+ .byte   VOL , 32*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 33*song0116_mvl/mxv
+ .byte   VOL , 33*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 33*song0116_mvl/mxv
+ .byte   VOL , 33*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 34*song0116_mvl/mxv
+ .byte   VOL , 34*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 34*song0116_mvl/mxv
+ .byte   VOL , 34*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 35*song0116_mvl/mxv
+ .byte   VOL , 35*VenusLighthouse_mvl/mxv
  .byte   W01
  .byte   MOD 24
  .byte   W01
- .byte   VOL , 15*song0116_mvl/mxv
+ .byte   VOL , 15*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 36*song0116_mvl/mxv
+ .byte   VOL , 36*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 37*song0116_mvl/mxv
+ .byte   VOL , 37*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 37*song0116_mvl/mxv
+ .byte   VOL , 37*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 37*song0116_mvl/mxv
+ .byte   VOL , 37*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 38*song0116_mvl/mxv
+ .byte   VOL , 38*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 39*song0116_mvl/mxv
+ .byte   VOL , 39*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 40*song0116_mvl/mxv
+ .byte   VOL , 40*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 40*song0116_mvl/mxv
+ .byte   VOL , 40*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 40*song0116_mvl/mxv
+ .byte   VOL , 40*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 41*song0116_mvl/mxv
+ .byte   VOL , 41*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 41*song0116_mvl/mxv
+ .byte   VOL , 41*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 42*song0116_mvl/mxv
+ .byte   VOL , 42*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 43*song0116_mvl/mxv
+ .byte   VOL , 43*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 43*song0116_mvl/mxv
+ .byte   VOL , 43*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 43*song0116_mvl/mxv
+ .byte   VOL , 43*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 44*song0116_mvl/mxv
+ .byte   VOL , 44*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 44*song0116_mvl/mxv
+ .byte   VOL , 44*VenusLighthouse_mvl/mxv
  .byte   W02
 @  #06 @007   ----------------------------------------
- .byte   VOL , 45*song0116_mvl/mxv
+ .byte   VOL , 45*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 46*song0116_mvl/mxv
+ .byte   VOL , 46*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 46*song0116_mvl/mxv
+ .byte   VOL , 46*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 46*song0116_mvl/mxv
+ .byte   VOL , 46*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 47*song0116_mvl/mxv
+ .byte   VOL , 47*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 47*song0116_mvl/mxv
+ .byte   VOL , 47*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 48*song0116_mvl/mxv
+ .byte   VOL , 48*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 48*song0116_mvl/mxv
+ .byte   VOL , 48*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 49*song0116_mvl/mxv
+ .byte   VOL , 49*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 49*song0116_mvl/mxv
+ .byte   VOL , 49*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 50*song0116_mvl/mxv
+ .byte   VOL , 50*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 50*song0116_mvl/mxv
+ .byte   VOL , 50*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 50*song0116_mvl/mxv
+ .byte   VOL , 50*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 50*song0116_mvl/mxv
+ .byte   VOL , 50*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 51*song0116_mvl/mxv
+ .byte   VOL , 51*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 51*song0116_mvl/mxv
+ .byte   VOL , 51*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 51*song0116_mvl/mxv
+ .byte   VOL , 51*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 52*song0116_mvl/mxv
+ .byte   VOL , 52*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 53*song0116_mvl/mxv
+ .byte   VOL , 53*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 53*song0116_mvl/mxv
+ .byte   VOL , 53*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 53*song0116_mvl/mxv
+ .byte   VOL , 53*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 54*song0116_mvl/mxv
+ .byte   VOL , 54*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 54*song0116_mvl/mxv
+ .byte   VOL , 54*VenusLighthouse_mvl/mxv
  .byte   W02
  .byte   EOT
  .byte   MOD 0
- .byte   VOL , 35*song0116_mvl/mxv
+ .byte   VOL , 35*VenusLighthouse_mvl/mxv
  .byte   W02
- .byte   VOL , 55*song0116_mvl/mxv
+ .byte   VOL , 55*VenusLighthouse_mvl/mxv
  .byte   N44 ,Bn2
  .byte   W48
 @  #06 @008   ----------------------------------------
@@ -2183,19 +2183,19 @@ Label_01263E07:
   .word Label_01263B3E
 @  #06 @045   ----------------------------------------
  .byte   VOICE , 48
- .byte   VOL , 35*song0116_mvl/mxv
+ .byte   VOL , 35*VenusLighthouse_mvl/mxv
  .byte   PAN , c_v+6
  .byte   BEND , c_v+0
  .byte   FINE
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-song0116_007:
+VenusLighthouse_007:
 @  #07 @000   ----------------------------------------
- .byte   KEYSH , song0116_key+0
+ .byte   KEYSH , VenusLighthouse_key+0
 Label_01263EC6:
  .byte   VOICE , 73
- .byte   VOL , 38*song0116_mvl/mxv
+ .byte   VOL , 38*VenusLighthouse_mvl/mxv
  .byte   PAN , c_v+0
  .byte   BEND , c_v+0
  .byte   W96
@@ -2340,19 +2340,19 @@ Label_01263F0F:
   .word Label_01263EC6
 @  #07 @045   ----------------------------------------
  .byte   VOICE , 73
- .byte   VOL , 38*song0116_mvl/mxv
+ .byte   VOL , 38*VenusLighthouse_mvl/mxv
  .byte   PAN , c_v+0
  .byte   BEND , c_v+0
  .byte   FINE
 
 @**************** Track 8 (Midi-Chn.7) ****************@
 
-song0116_008:
+VenusLighthouse_008:
 @  #08 @000   ----------------------------------------
- .byte   KEYSH , song0116_key+0
+ .byte   KEYSH , VenusLighthouse_key+0
 Label_01263F62:
  .byte   VOICE , 127
- .byte   VOL , 43*song0116_mvl/mxv
+ .byte   VOL , 43*VenusLighthouse_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N10 ,Cn1 ,v124
  .byte   N48 ,Cs2
@@ -2787,18 +2787,18 @@ Label_0126412B:
   .word Label_01263F62
 @  #08 @045   ----------------------------------------
  .byte   VOICE , 127
- .byte   VOL , 43*song0116_mvl/mxv
+ .byte   VOL , 43*VenusLighthouse_mvl/mxv
  .byte   PAN , c_v+0
  .byte   FINE
 
 @**************** Track 9 (Midi-Chn.8) ****************@
 
-song0116_009:
+VenusLighthouse_009:
 @  #09 @000   ----------------------------------------
- .byte   KEYSH , song0116_key+0
+ .byte   KEYSH , VenusLighthouse_key+0
 Label_01264186:
  .byte   VOICE , 61
- .byte   VOL , 29*song0116_mvl/mxv
+ .byte   VOL , 29*VenusLighthouse_mvl/mxv
  .byte   W11
  .byte   N44 ,Fs3 ,v120
  .byte   W48
@@ -2993,12 +2993,12 @@ Label_01264215:
 
 @**************** Track 10 (Midi-Chn.9) ****************@
 
-song0116_010:
+VenusLighthouse_010:
 @  #10 @000   ----------------------------------------
- .byte   KEYSH , song0116_key+0
+ .byte   KEYSH , VenusLighthouse_key+0
 Label_01264262:
  .byte   VOICE , 8
- .byte   VOL , 21*song0116_mvl/mxv
+ .byte   VOL , 21*VenusLighthouse_mvl/mxv
  .byte   PAN , c_v+0
  .byte   BEND , c_v+0
  .byte   W96
@@ -3143,7 +3143,7 @@ Label_0126428A:
  .byte   GOTO
   .word Label_01264262
 @  #10 @045   ----------------------------------------
- .byte   VOL , 21*song0116_mvl/mxv
+ .byte   VOL , 21*VenusLighthouse_mvl/mxv
  .byte   PAN , c_v+0
  .byte   BEND , c_v+0
  .byte   FINE
@@ -3151,23 +3151,23 @@ Label_0126428A:
 @******************************************************@
 	.align	2
 
-song0116:
+VenusLighthouse:
 	.byte	10	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song0116_pri	@ Priority
-	.byte	song0116_rev	@ Reverb.
+	.byte	VenusLighthouse_pri	@ Priority
+	.byte	VenusLighthouse_rev	@ Reverb.
     
-	.word	song0116_grp
+	.word	VenusLighthouse_grp
     
-	.word	song0116_001
-	.word	song0116_002
-	.word	song0116_003
-	.word	song0116_004
-	.word	song0116_005
-	.word	song0116_006
-	.word	song0116_007
-	.word	song0116_008
-	.word	song0116_009
-	.word	song0116_010
+	.word	VenusLighthouse_001
+	.word	VenusLighthouse_002
+	.word	VenusLighthouse_003
+	.word	VenusLighthouse_004
+	.word	VenusLighthouse_005
+	.word	VenusLighthouse_006
+	.word	VenusLighthouse_007
+	.word	VenusLighthouse_008
+	.word	VenusLighthouse_009
+	.word	VenusLighthouse_010
 
 	.end

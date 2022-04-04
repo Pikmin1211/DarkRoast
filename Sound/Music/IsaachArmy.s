@@ -1,27 +1,27 @@
 	.include "MPlayDef.s"
 
-	.equ	songAD_grp, voicegroup000
-	.equ	songAD_pri, 0
-	.equ	songAD_rev, 0
-	.equ	songAD_mvl, 127
-	.equ	songAD_key, 0
-	.equ	songAD_tbs, 1
-	.equ	songAD_exg, 0
-	.equ	songAD_cmp, 1
+	.equ	IsaachArmy_grp, voicegroup000
+	.equ	IsaachArmy_pri, 0
+	.equ	IsaachArmy_rev, 0
+	.equ	IsaachArmy_mvl, 127
+	.equ	IsaachArmy_key, 0
+	.equ	IsaachArmy_tbs, 1
+	.equ	IsaachArmy_exg, 0
+	.equ	IsaachArmy_cmp, 1
 
 	.section .rodata
-	.global	songAD
+	.global	IsaachArmy
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-songAD_001:
+IsaachArmy_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , songAD_key+0
- .byte   TEMPO , 100*songAD_tbs/2
+ .byte   KEYSH , IsaachArmy_key+0
+ .byte   TEMPO , 100*IsaachArmy_tbs/2
  .byte   VOICE , 48
- .byte   VOL , 62*songAD_mvl/mxv
+ .byte   VOL , 62*IsaachArmy_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N05 ,Cs4 ,v096
  .byte   W06
@@ -254,11 +254,11 @@ Label_011C6A80:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-songAD_002:
+IsaachArmy_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , songAD_key+0
+ .byte   KEYSH , IsaachArmy_key+0
  .byte   VOICE , 56
- .byte   VOL , 62*songAD_mvl/mxv
+ .byte   VOL , 62*IsaachArmy_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W24
  .byte   W96
@@ -405,11 +405,11 @@ Label_011C6B45:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-songAD_003:
+IsaachArmy_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , songAD_key+0
+ .byte   KEYSH , IsaachArmy_key+0
  .byte   VOICE , 57
- .byte   VOL , 62*songAD_mvl/mxv
+ .byte   VOL , 62*IsaachArmy_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W24
 Label_011C6B91:
@@ -602,11 +602,11 @@ Label_011C6C0F:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-songAD_004:
+IsaachArmy_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , songAD_key+0
+ .byte   KEYSH , IsaachArmy_key+0
  .byte   VOICE , 34
- .byte   VOL , 62*songAD_mvl/mxv
+ .byte   VOL , 62*IsaachArmy_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W24
 Label_011C6C9D:
@@ -727,11 +727,11 @@ Label_011C6CB9:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-songAD_005:
+IsaachArmy_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , songAD_key+0
+ .byte   KEYSH , IsaachArmy_key+0
  .byte   VOICE , 0
- .byte   VOL , 62*songAD_mvl/mxv
+ .byte   VOL , 62*IsaachArmy_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W24
  .byte   W96
@@ -847,11 +847,11 @@ Label_011C6D57:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-songAD_006:
+IsaachArmy_006:
 @  #06 @000   ----------------------------------------
- .byte   KEYSH , songAD_key+0
+ .byte   KEYSH , IsaachArmy_key+0
  .byte   VOICE , 0
- .byte   VOL , 62*songAD_mvl/mxv
+ .byte   VOL , 62*IsaachArmy_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N23 ,Cn1 ,v096
  .byte   W24
@@ -988,19 +988,19 @@ Label_011C6DD4:
 @******************************************************@
 	.align	2
 
-songAD:
+IsaachArmy:
 	.byte	6	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	songAD_pri	@ Priority
-	.byte	songAD_rev	@ Reverb.
+	.byte	IsaachArmy_pri	@ Priority
+	.byte	IsaachArmy_rev	@ Reverb.
     
-	.word	songAD_grp
+	.word	IsaachArmy_grp
     
-	.word	songAD_001
-	.word	songAD_002
-	.word	songAD_003
-	.word	songAD_004
-	.word	songAD_005
-	.word	songAD_006
+	.word	IsaachArmy_001
+	.word	IsaachArmy_002
+	.word	IsaachArmy_003
+	.word	IsaachArmy_004
+	.word	IsaachArmy_005
+	.word	IsaachArmy_006
 
 	.end

@@ -1,27 +1,27 @@
 	.include "MPlayDef.s"
 
-	.equ	song0196_grp, voicegroup000
-	.equ	song0196_pri, 0
-	.equ	song0196_rev, 0
-	.equ	song0196_mvl, 127
-	.equ	song0196_key, 0
-	.equ	song0196_tbs, 1
-	.equ	song0196_exg, 0
-	.equ	song0196_cmp, 1
+	.equ	PrisonLane_grp, voicegroup000
+	.equ	PrisonLane_pri, 0
+	.equ	PrisonLane_rev, 0
+	.equ	PrisonLane_mvl, 127
+	.equ	PrisonLane_key, 0
+	.equ	PrisonLane_tbs, 1
+	.equ	PrisonLane_exg, 0
+	.equ	PrisonLane_cmp, 1
 
 	.section .rodata
-	.global	song0196
+	.global	PrisonLane
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song0196_001:
+PrisonLane_001:
 @  #01 @000   ----------------------------------------
- .byte   VOL , 60*song0196_mvl/mxv
- .byte   KEYSH , song0196_key+0
+ .byte   VOL , 60*PrisonLane_mvl/mxv
+ .byte   KEYSH , PrisonLane_key+0
 Label_01314280:
- .byte   TEMPO , 86*song0196_tbs/2
+ .byte   TEMPO , 86*PrisonLane_tbs/2
  .byte   VOICE , 30
  .byte   W36
  .byte   N12 ,As1 ,v127
@@ -912,10 +912,10 @@ Label_013145E0:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song0196_002:
+PrisonLane_002:
 @  #02 @000   ----------------------------------------
- .byte   VOL , 45*song0196_mvl/mxv
- .byte   KEYSH , song0196_key+0
+ .byte   VOL , 45*PrisonLane_mvl/mxv
+ .byte   KEYSH , PrisonLane_key+0
 Label_01314734:
  .byte   VOICE , 81
  .byte   W48
@@ -1353,10 +1353,10 @@ Label_0131485B:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song0196_003:
+PrisonLane_003:
 @  #03 @000   ----------------------------------------
- .byte   VOL , 60*song0196_mvl/mxv
- .byte   KEYSH , song0196_key+0
+ .byte   VOL , 60*PrisonLane_mvl/mxv
+ .byte   KEYSH , PrisonLane_key+0
 Label_01314960:
  .byte   VOICE , 29
  .byte   W48
@@ -1812,10 +1812,10 @@ Label_01314A84:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song0196_004:
+PrisonLane_004:
 @  #04 @000   ----------------------------------------
- .byte   VOL , 45*song0196_mvl/mxv
- .byte   KEYSH , song0196_key+0
+ .byte   VOL , 45*PrisonLane_mvl/mxv
+ .byte   KEYSH , PrisonLane_key+0
 Label_01314BB8:
  .byte   VOICE , 33
  .byte   W48
@@ -2343,10 +2343,10 @@ Label_01314D45:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song0196_005:
+PrisonLane_005:
 @  #05 @000   ----------------------------------------
- .byte   VOL , 45*song0196_mvl/mxv
- .byte   KEYSH , song0196_key+0
+ .byte   VOL , 45*PrisonLane_mvl/mxv
+ .byte   KEYSH , PrisonLane_key+0
 Label_01314E68:
  .byte   VOICE , 127
  .byte   N06 ,Dn1 ,v127
@@ -3202,18 +3202,18 @@ Label_013151D9:
 @******************************************************@
 	.align	2
 
-song0196:
+PrisonLane:
 	.byte	5	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song0196_pri	@ Priority
-	.byte	song0196_rev	@ Reverb.
+	.byte	PrisonLane_pri	@ Priority
+	.byte	PrisonLane_rev	@ Reverb.
     
-	.word	song0196_grp
+	.word	PrisonLane_grp
     
-	.word	song0196_001
-	.word	song0196_002
-	.word	song0196_003
-	.word	song0196_004
-	.word	song0196_005
+	.word	PrisonLane_001
+	.word	PrisonLane_002
+	.word	PrisonLane_003
+	.word	PrisonLane_004
+	.word	PrisonLane_005
 
 	.end

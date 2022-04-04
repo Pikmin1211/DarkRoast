@@ -1,32 +1,32 @@
 	.include "MPlayDef.s"
 
-	.equ	song0152_grp, voicegroup000
-	.equ	song0152_pri, 0
-	.equ	song0152_rev, 0
-	.equ	song0152_mvl, 127
-	.equ	song0152_key, 0
-	.equ	song0152_tbs, 1
-	.equ	song0152_exg, 0
-	.equ	song0152_cmp, 1
+	.equ	Guile_grp, voicegroup000
+	.equ	Guile_pri, 0
+	.equ	Guile_rev, 0
+	.equ	Guile_mvl, 127
+	.equ	Guile_key, 0
+	.equ	Guile_tbs, 1
+	.equ	Guile_exg, 0
+	.equ	Guile_cmp, 1
 
 	.section .rodata
-	.global	song0152
+	.global	Guile
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song0152_001:
+Guile_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , song0152_key+0
+ .byte   KEYSH , Guile_key+0
 Label_0127A022:
- .byte   TEMPO , 124*song0152_tbs/2
+ .byte   TEMPO , 124*Guile_tbs/2
  .byte   VOICE , 56
- .byte   VOL , 25*song0152_mvl/mxv
+ .byte   VOL , 25*Guile_mvl/mxv
  .byte   PAN , c_v+10
  .byte   N06 ,Ds4 ,v100
  .byte   W06
- .byte   TEMPO , 124*song0152_tbs/2
+ .byte   TEMPO , 124*Guile_tbs/2
  .byte   W06
  .byte   N06
  .byte   W06
@@ -75,7 +75,7 @@ Label_0127A03D:
 @  #01 @003   ----------------------------------------
  .byte   N06 ,Ds4
  .byte   W06
- .byte   TEMPO , 124*song0152_tbs/2
+ .byte   TEMPO , 124*Guile_tbs/2
  .byte   W06
  .byte   N06
  .byte   W06
@@ -386,306 +386,306 @@ Label_0127A17E:
 @  #01 @040   ----------------------------------------
  .byte   N60 ,Cn3 ,v100
  .byte   W01
- .byte   VOL , 24*song0152_mvl/mxv
+ .byte   VOL , 24*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 78*song0152_mvl/mxv
+ .byte   VOL , 78*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 78*song0152_mvl/mxv
+ .byte   VOL , 78*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 77*song0152_mvl/mxv
+ .byte   VOL , 77*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 76*song0152_mvl/mxv
+ .byte   VOL , 76*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 76*song0152_mvl/mxv
+ .byte   VOL , 76*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 75*song0152_mvl/mxv
+ .byte   VOL , 75*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 74*song0152_mvl/mxv
+ .byte   VOL , 74*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 74*song0152_mvl/mxv
+ .byte   VOL , 74*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 73*song0152_mvl/mxv
+ .byte   VOL , 73*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 73*song0152_mvl/mxv
+ .byte   VOL , 73*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 72*song0152_mvl/mxv
+ .byte   VOL , 72*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 71*song0152_mvl/mxv
+ .byte   VOL , 71*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 71*song0152_mvl/mxv
+ .byte   VOL , 71*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 70*song0152_mvl/mxv
+ .byte   VOL , 70*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 69*song0152_mvl/mxv
+ .byte   VOL , 69*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 69*song0152_mvl/mxv
+ .byte   VOL , 69*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 68*song0152_mvl/mxv
+ .byte   VOL , 68*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 68*song0152_mvl/mxv
+ .byte   VOL , 68*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 67*song0152_mvl/mxv
+ .byte   VOL , 67*Guile_mvl/mxv
  .byte   W01
  .byte   N12 ,Dn3
  .byte   W03
- .byte   VOL , 11*song0152_mvl/mxv
+ .byte   VOL , 11*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 66*song0152_mvl/mxv
+ .byte   VOL , 66*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 65*song0152_mvl/mxv
+ .byte   VOL , 65*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 64*song0152_mvl/mxv
+ .byte   VOL , 64*Guile_mvl/mxv
  .byte   W01
  .byte   N06 ,Ds3
  .byte   W03
- .byte   VOL , 9*song0152_mvl/mxv
+ .byte   VOL , 9*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 63*song0152_mvl/mxv
+ .byte   VOL , 63*Guile_mvl/mxv
  .byte   W01
  .byte   N18 ,Fn3
  .byte   W03
- .byte   VOL , 7*song0152_mvl/mxv
+ .byte   VOL , 7*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 62*song0152_mvl/mxv
+ .byte   VOL , 62*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 61*song0152_mvl/mxv
+ .byte   VOL , 61*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 61*song0152_mvl/mxv
+ .byte   VOL , 61*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 60*song0152_mvl/mxv
+ .byte   VOL , 60*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 59*song0152_mvl/mxv
+ .byte   VOL , 59*Guile_mvl/mxv
  .byte   W01
 @  #01 @041   ----------------------------------------
  .byte   N18 ,Gn3
  .byte   W03
- .byte   VOL , 4*song0152_mvl/mxv
+ .byte   VOL , 4*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 58*song0152_mvl/mxv
+ .byte   VOL , 58*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 57*song0152_mvl/mxv
+ .byte   VOL , 57*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 57*song0152_mvl/mxv
+ .byte   VOL , 57*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 56*song0152_mvl/mxv
+ .byte   VOL , 56*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 56*song0152_mvl/mxv
+ .byte   VOL , 56*Guile_mvl/mxv
  .byte   W01
  .byte   N06
  .byte   W03
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 54*song0152_mvl/mxv
+ .byte   VOL , 54*Guile_mvl/mxv
  .byte   W01
  .byte   N12 ,Fn3
  .byte   W03
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 53*song0152_mvl/mxv
+ .byte   VOL , 53*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 52*song0152_mvl/mxv
+ .byte   VOL , 52*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 52*song0152_mvl/mxv
+ .byte   VOL , 52*Guile_mvl/mxv
  .byte   W01
  .byte   N24 ,As3
  .byte   W03
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 51*song0152_mvl/mxv
+ .byte   VOL , 51*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 50*song0152_mvl/mxv
+ .byte   VOL , 50*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 49*song0152_mvl/mxv
+ .byte   VOL , 49*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 49*song0152_mvl/mxv
+ .byte   VOL , 49*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 48*song0152_mvl/mxv
+ .byte   VOL , 48*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 47*song0152_mvl/mxv
+ .byte   VOL , 47*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 47*song0152_mvl/mxv
+ .byte   VOL , 47*Guile_mvl/mxv
  .byte   W01
  .byte   N12 ,Gs3
  .byte   W03
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 45*song0152_mvl/mxv
+ .byte   VOL , 45*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 45*song0152_mvl/mxv
+ .byte   VOL , 45*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 44*song0152_mvl/mxv
+ .byte   VOL , 44*Guile_mvl/mxv
  .byte   W01
  .byte   N06 ,Gn3
  .byte   W03
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 43*song0152_mvl/mxv
+ .byte   VOL , 43*Guile_mvl/mxv
  .byte   W01
  .byte   N18 ,Gs3
  .byte   W03
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 42*song0152_mvl/mxv
+ .byte   VOL , 42*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 41*song0152_mvl/mxv
+ .byte   VOL , 41*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 40*song0152_mvl/mxv
+ .byte   VOL , 40*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 40*song0152_mvl/mxv
+ .byte   VOL , 40*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 39*song0152_mvl/mxv
+ .byte   VOL , 39*Guile_mvl/mxv
  .byte   W01
 @  #01 @042   ----------------------------------------
  .byte   N12 ,Dn3
  .byte   W03
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 38*song0152_mvl/mxv
+ .byte   VOL , 38*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 37*song0152_mvl/mxv
+ .byte   VOL , 37*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 37*song0152_mvl/mxv
+ .byte   VOL , 37*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 36*song0152_mvl/mxv
+ .byte   VOL , 36*Guile_mvl/mxv
  .byte   W03
  .byte   N12 ,Ds3
  .byte   W01
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 35*song0152_mvl/mxv
+ .byte   VOL , 35*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 34*song0152_mvl/mxv
+ .byte   VOL , 34*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 34*song0152_mvl/mxv
+ .byte   VOL , 34*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 33*song0152_mvl/mxv
+ .byte   VOL , 33*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 32*song0152_mvl/mxv
+ .byte   VOL , 32*Guile_mvl/mxv
  .byte   W03
  .byte   N12 ,Fn3
  .byte   W01
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 31*song0152_mvl/mxv
+ .byte   VOL , 31*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 30*song0152_mvl/mxv
+ .byte   VOL , 30*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 30*song0152_mvl/mxv
+ .byte   VOL , 30*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 29*song0152_mvl/mxv
+ .byte   VOL , 29*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 28*song0152_mvl/mxv
+ .byte   VOL , 28*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 28*song0152_mvl/mxv
+ .byte   VOL , 28*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 27*song0152_mvl/mxv
+ .byte   VOL , 27*Guile_mvl/mxv
  .byte   W03
  .byte   N12 ,As2
  .byte   W01
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 26*song0152_mvl/mxv
+ .byte   VOL , 26*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 25*song0152_mvl/mxv
+ .byte   VOL , 25*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 25*song0152_mvl/mxv
+ .byte   VOL , 25*Guile_mvl/mxv
  .byte   W03
  .byte   N12 ,Dn3
  .byte   W01
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 23*song0152_mvl/mxv
+ .byte   VOL , 23*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 23*song0152_mvl/mxv
+ .byte   VOL , 23*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 22*song0152_mvl/mxv
+ .byte   VOL , 22*Guile_mvl/mxv
  .byte   W03
  .byte   N12 ,Fn3
  .byte   W01
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 21*song0152_mvl/mxv
+ .byte   VOL , 21*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 20*song0152_mvl/mxv
+ .byte   VOL , 20*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 20*song0152_mvl/mxv
+ .byte   VOL , 20*Guile_mvl/mxv
  .byte   W03
 @  #01 @043   ----------------------------------------
  .byte   N18 ,Gs3
  .byte   W01
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 18*song0152_mvl/mxv
+ .byte   VOL , 18*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 18*song0152_mvl/mxv
+ .byte   VOL , 18*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 17*song0152_mvl/mxv
+ .byte   VOL , 17*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 17*song0152_mvl/mxv
+ .byte   VOL , 17*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 16*song0152_mvl/mxv
+ .byte   VOL , 16*Guile_mvl/mxv
  .byte   W03
  .byte   N18 ,As3
  .byte   W01
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 15*song0152_mvl/mxv
+ .byte   VOL , 15*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 14*song0152_mvl/mxv
+ .byte   VOL , 14*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 13*song0152_mvl/mxv
+ .byte   VOL , 13*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 13*song0152_mvl/mxv
+ .byte   VOL , 13*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 12*song0152_mvl/mxv
+ .byte   VOL , 12*Guile_mvl/mxv
  .byte   W03
  .byte   N12 ,Gn3
  .byte   W01
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 11*song0152_mvl/mxv
+ .byte   VOL , 11*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 10*song0152_mvl/mxv
+ .byte   VOL , 10*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 10*song0152_mvl/mxv
+ .byte   VOL , 10*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 9*song0152_mvl/mxv
+ .byte   VOL , 9*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 8*song0152_mvl/mxv
+ .byte   VOL , 8*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 8*song0152_mvl/mxv
+ .byte   VOL , 8*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 7*song0152_mvl/mxv
+ .byte   VOL , 7*Guile_mvl/mxv
  .byte   W03
  .byte   N12
  .byte   W01
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 6*song0152_mvl/mxv
+ .byte   VOL , 6*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 5*song0152_mvl/mxv
+ .byte   VOL , 5*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 5*song0152_mvl/mxv
+ .byte   VOL , 5*Guile_mvl/mxv
  .byte   W03
  .byte   N12 ,Fn3
  .byte   W01
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 3*song0152_mvl/mxv
+ .byte   VOL , 3*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 3*song0152_mvl/mxv
+ .byte   VOL , 3*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 2*song0152_mvl/mxv
+ .byte   VOL , 2*Guile_mvl/mxv
  .byte   W03
  .byte   N12 ,Dn3
  .byte   W01
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 1*song0152_mvl/mxv
+ .byte   VOL , 1*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W03
 @  #01 @044   ----------------------------------------
  .byte   W06
@@ -695,12 +695,12 @@ Label_0127A17E:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song0152_002:
+Guile_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , song0152_key+0
+ .byte   KEYSH , Guile_key+0
 Label_0127A336:
  .byte   VOICE , 56
- .byte   VOL , 36*song0152_mvl/mxv
+ .byte   VOL , 36*Guile_mvl/mxv
  .byte   PAN , c_v-10
  .byte   W06
  .byte   N06 ,Ds4 ,v100
@@ -1067,226 +1067,226 @@ Label_0127A492:
  .byte   PATT
   .word Label_0127A37D
 @  #02 @041   ----------------------------------------
- .byte   VOL , 36*song0152_mvl/mxv
+ .byte   VOL , 36*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 55*song0152_mvl/mxv
+ .byte   VOL , 55*Guile_mvl/mxv
  .byte   N60 ,Cn3 ,v100
  .byte   W04
- .byte   VOL , 34*song0152_mvl/mxv
+ .byte   VOL , 34*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 54*song0152_mvl/mxv
+ .byte   VOL , 54*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 53*song0152_mvl/mxv
+ .byte   VOL , 53*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 52*song0152_mvl/mxv
+ .byte   VOL , 52*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 52*song0152_mvl/mxv
+ .byte   VOL , 52*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 51*song0152_mvl/mxv
+ .byte   VOL , 51*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 51*song0152_mvl/mxv
+ .byte   VOL , 51*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 50*song0152_mvl/mxv
+ .byte   VOL , 50*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 49*song0152_mvl/mxv
+ .byte   VOL , 49*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 49*song0152_mvl/mxv
+ .byte   VOL , 49*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 48*song0152_mvl/mxv
+ .byte   VOL , 48*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 47*song0152_mvl/mxv
+ .byte   VOL , 47*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 47*song0152_mvl/mxv
+ .byte   VOL , 47*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 46*song0152_mvl/mxv
+ .byte   VOL , 46*Guile_mvl/mxv
  .byte   N12 ,Dn3
  .byte   W04
- .byte   VOL , 25*song0152_mvl/mxv
+ .byte   VOL , 25*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 45*song0152_mvl/mxv
+ .byte   VOL , 45*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 44*song0152_mvl/mxv
+ .byte   VOL , 44*Guile_mvl/mxv
  .byte   N06 ,Ds3
  .byte   W04
- .byte   VOL , 24*song0152_mvl/mxv
+ .byte   VOL , 24*Guile_mvl/mxv
  .byte   W02
  .byte   N18 ,Fn3
  .byte   W04
- .byte   VOL , 23*song0152_mvl/mxv
+ .byte   VOL , 23*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 42*song0152_mvl/mxv
+ .byte   VOL , 42*Guile_mvl/mxv
  .byte   W04
 @  #02 @042   ----------------------------------------
- .byte   VOL , 42*song0152_mvl/mxv
+ .byte   VOL , 42*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 41*song0152_mvl/mxv
+ .byte   VOL , 41*Guile_mvl/mxv
  .byte   W02
  .byte   N18 ,Gn3
  .byte   W02
- .byte   VOL , 20*song0152_mvl/mxv
+ .byte   VOL , 20*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 40*song0152_mvl/mxv
+ .byte   VOL , 40*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 39*song0152_mvl/mxv
+ .byte   VOL , 39*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 39*song0152_mvl/mxv
+ .byte   VOL , 39*Guile_mvl/mxv
  .byte   W02
  .byte   N06
  .byte   W02
- .byte   VOL , 18*song0152_mvl/mxv
+ .byte   VOL , 18*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 37*song0152_mvl/mxv
+ .byte   VOL , 37*Guile_mvl/mxv
  .byte   N12 ,Fn3
  .byte   W04
- .byte   VOL , 17*song0152_mvl/mxv
+ .byte   VOL , 17*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 36*song0152_mvl/mxv
+ .byte   VOL , 36*Guile_mvl/mxv
  .byte   W04
  .byte   N24 ,As3
  .byte   W02
- .byte   VOL , 15*song0152_mvl/mxv
+ .byte   VOL , 15*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 35*song0152_mvl/mxv
+ .byte   VOL , 35*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 34*song0152_mvl/mxv
+ .byte   VOL , 34*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 34*song0152_mvl/mxv
+ .byte   VOL , 34*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 33*song0152_mvl/mxv
+ .byte   VOL , 33*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 32*song0152_mvl/mxv
+ .byte   VOL , 32*Guile_mvl/mxv
  .byte   W02
  .byte   N12 ,Gs3
  .byte   W02
- .byte   VOL , 12*song0152_mvl/mxv
+ .byte   VOL , 12*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 31*song0152_mvl/mxv
+ .byte   VOL , 31*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 30*song0152_mvl/mxv
+ .byte   VOL , 30*Guile_mvl/mxv
  .byte   N06 ,Gn3
  .byte   W04
- .byte   VOL , 10*song0152_mvl/mxv
+ .byte   VOL , 10*Guile_mvl/mxv
  .byte   W02
  .byte   N18 ,Gs3
  .byte   W02
- .byte   VOL , 9*song0152_mvl/mxv
+ .byte   VOL , 9*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 28*song0152_mvl/mxv
+ .byte   VOL , 28*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 28*song0152_mvl/mxv
+ .byte   VOL , 28*Guile_mvl/mxv
  .byte   W02
 @  #02 @043   ----------------------------------------
  .byte   W04
- .byte   VOL , 27*song0152_mvl/mxv
+ .byte   VOL , 27*Guile_mvl/mxv
  .byte   W02
  .byte   N12 ,Dn3
  .byte   W02
- .byte   VOL , 7*song0152_mvl/mxv
+ .byte   VOL , 7*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 26*song0152_mvl/mxv
+ .byte   VOL , 26*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 25*song0152_mvl/mxv
+ .byte   VOL , 25*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 25*song0152_mvl/mxv
+ .byte   VOL , 25*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 24*song0152_mvl/mxv
+ .byte   VOL , 24*Guile_mvl/mxv
  .byte   N12 ,Ds3
  .byte   W06
- .byte   VOL , 3*song0152_mvl/mxv
+ .byte   VOL , 3*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 23*song0152_mvl/mxv
+ .byte   VOL , 23*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 22*song0152_mvl/mxv
+ .byte   VOL , 22*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 22*song0152_mvl/mxv
+ .byte   VOL , 22*Guile_mvl/mxv
  .byte   N12 ,Fn3
  .byte   W04
- .byte   VOL , 1*song0152_mvl/mxv
+ .byte   VOL , 1*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 20*song0152_mvl/mxv
+ .byte   VOL , 20*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 20*song0152_mvl/mxv
+ .byte   VOL , 20*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 19*song0152_mvl/mxv
+ .byte   VOL , 19*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 18*song0152_mvl/mxv
+ .byte   VOL , 18*Guile_mvl/mxv
  .byte   W02
  .byte   N12 ,As2
  .byte   W02
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 17*song0152_mvl/mxv
+ .byte   VOL , 17*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 17*song0152_mvl/mxv
+ .byte   VOL , 17*Guile_mvl/mxv
  .byte   W02
  .byte   N12 ,Dn3
  .byte   W02
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 15*song0152_mvl/mxv
+ .byte   VOL , 15*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song0152_mvl/mxv
+ .byte   VOL , 15*Guile_mvl/mxv
  .byte   N12 ,Fn3
  .byte   W04
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W02
 @  #02 @044   ----------------------------------------
  .byte   W02
- .byte   VOL , 13*song0152_mvl/mxv
+ .byte   VOL , 13*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 13*song0152_mvl/mxv
+ .byte   VOL , 13*Guile_mvl/mxv
  .byte   N18 ,Gs3
  .byte   W04
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 11*song0152_mvl/mxv
+ .byte   VOL , 11*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 11*song0152_mvl/mxv
+ .byte   VOL , 11*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 10*song0152_mvl/mxv
+ .byte   VOL , 10*Guile_mvl/mxv
  .byte   N18 ,As3
  .byte   W04
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 9*song0152_mvl/mxv
+ .byte   VOL , 9*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 8*song0152_mvl/mxv
+ .byte   VOL , 8*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 8*song0152_mvl/mxv
+ .byte   VOL , 8*Guile_mvl/mxv
  .byte   W02
  .byte   N12 ,Gn3
  .byte   W04
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 6*song0152_mvl/mxv
+ .byte   VOL , 6*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 6*song0152_mvl/mxv
+ .byte   VOL , 6*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 5*song0152_mvl/mxv
+ .byte   VOL , 5*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 5*song0152_mvl/mxv
+ .byte   VOL , 5*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 4*song0152_mvl/mxv
+ .byte   VOL , 4*Guile_mvl/mxv
  .byte   N12
  .byte   W06
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 3*song0152_mvl/mxv
+ .byte   VOL , 3*Guile_mvl/mxv
  .byte   W02
  .byte   N12 ,Fn3
  .byte   W02
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 1*song0152_mvl/mxv
+ .byte   VOL , 1*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 1*song0152_mvl/mxv
+ .byte   VOL , 1*Guile_mvl/mxv
  .byte   W02
  .byte   N12 ,Dn3
  .byte   W02
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W04
 @  #02 @045   ----------------------------------------
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W06
  .byte   GOTO
   .word Label_0127A336
@@ -1294,12 +1294,12 @@ Label_0127A492:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song0152_003:
+Guile_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , song0152_key+0
+ .byte   KEYSH , Guile_key+0
 Label_0127A5F6:
  .byte   VOICE , 62
- .byte   VOL , 30*song0152_mvl/mxv
+ .byte   VOL , 30*Guile_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N06 ,Gn3 ,v100
  .byte   N06 ,Cn4
@@ -1712,220 +1712,220 @@ Label_0127A7C4:
  .byte   PATT
   .word Label_0127A63D
 @  #03 @040   ----------------------------------------
- .byte   VOL , 29*song0152_mvl/mxv
+ .byte   VOL , 29*Guile_mvl/mxv
  .byte   N06 ,Cn3 ,v100
  .byte   N06 ,Ds3
  .byte   W06
- .byte   VOL , 29*song0152_mvl/mxv
+ .byte   VOL , 29*Guile_mvl/mxv
  .byte   N06 ,As2
  .byte   N06 ,Dn3
  .byte   W04
- .byte   VOL , 28*song0152_mvl/mxv
+ .byte   VOL , 28*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 47*song0152_mvl/mxv
+ .byte   VOL , 47*Guile_mvl/mxv
  .byte   W02
  .byte   N42 ,Cn3
  .byte   N42 ,Ds3
  .byte   W02
- .byte   VOL , 27*song0152_mvl/mxv
+ .byte   VOL , 27*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 46*song0152_mvl/mxv
+ .byte   VOL , 46*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 45*song0152_mvl/mxv
+ .byte   VOL , 45*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 45*song0152_mvl/mxv
+ .byte   VOL , 45*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 44*song0152_mvl/mxv
+ .byte   VOL , 44*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 44*song0152_mvl/mxv
+ .byte   VOL , 44*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 43*song0152_mvl/mxv
+ .byte   VOL , 43*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 42*song0152_mvl/mxv
+ .byte   VOL , 42*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 42*song0152_mvl/mxv
+ .byte   VOL , 42*Guile_mvl/mxv
  .byte   N06 ,As2
  .byte   N06 ,Dn3
  .byte   W04
- .byte   VOL , 21*song0152_mvl/mxv
+ .byte   VOL , 21*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 40*song0152_mvl/mxv
+ .byte   VOL , 40*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 40*song0152_mvl/mxv
+ .byte   VOL , 40*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 39*song0152_mvl/mxv
+ .byte   VOL , 39*Guile_mvl/mxv
  .byte   N12 ,Cn3
  .byte   N12 ,Ds3
  .byte   W06
- .byte   VOL , 19*song0152_mvl/mxv
+ .byte   VOL , 19*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 38*song0152_mvl/mxv
+ .byte   VOL , 38*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 37*song0152_mvl/mxv
+ .byte   VOL , 37*Guile_mvl/mxv
  .byte   W02
 @  #03 @041   ----------------------------------------
  .byte   N06 ,Cn3
  .byte   N06 ,Ds3
  .byte   W02
- .byte   VOL , 17*song0152_mvl/mxv
+ .byte   VOL , 17*Guile_mvl/mxv
  .byte   W04
  .byte   N06 ,As2
  .byte   N06 ,Dn3
  .byte   W02
- .byte   VOL , 16*song0152_mvl/mxv
+ .byte   VOL , 16*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 35*song0152_mvl/mxv
+ .byte   VOL , 35*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 35*song0152_mvl/mxv
+ .byte   VOL , 35*Guile_mvl/mxv
  .byte   W02
  .byte   N42 ,Cn3
  .byte   N42 ,Ds3
  .byte   W04
- .byte   VOL , 14*song0152_mvl/mxv
+ .byte   VOL , 14*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 34*song0152_mvl/mxv
+ .byte   VOL , 34*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 33*song0152_mvl/mxv
+ .byte   VOL , 33*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 32*song0152_mvl/mxv
+ .byte   VOL , 32*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 32*song0152_mvl/mxv
+ .byte   VOL , 32*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 31*song0152_mvl/mxv
+ .byte   VOL , 31*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 30*song0152_mvl/mxv
+ .byte   VOL , 30*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 30*song0152_mvl/mxv
+ .byte   VOL , 30*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 29*song0152_mvl/mxv
+ .byte   VOL , 29*Guile_mvl/mxv
  .byte   N06 ,As2
  .byte   N06 ,Dn3
  .byte   W06
- .byte   VOL , 8*song0152_mvl/mxv
+ .byte   VOL , 8*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 28*song0152_mvl/mxv
+ .byte   VOL , 28*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 27*song0152_mvl/mxv
+ .byte   VOL , 27*Guile_mvl/mxv
  .byte   W02
  .byte   N12 ,Cn3
  .byte   N12 ,Ds3
  .byte   W02
- .byte   VOL , 7*song0152_mvl/mxv
+ .byte   VOL , 7*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 26*song0152_mvl/mxv
+ .byte   VOL , 26*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 25*song0152_mvl/mxv
+ .byte   VOL , 25*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 25*song0152_mvl/mxv
+ .byte   VOL , 25*Guile_mvl/mxv
  .byte   W02
 @  #03 @042   ----------------------------------------
  .byte   N06 ,Dn3
  .byte   N06 ,Fn3
  .byte   W04
- .byte   VOL , 4*song0152_mvl/mxv
+ .byte   VOL , 4*Guile_mvl/mxv
  .byte   W02
  .byte   N06 ,Cn3
  .byte   N06 ,Ds3
  .byte   W02
- .byte   VOL , 3*song0152_mvl/mxv
+ .byte   VOL , 3*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 23*song0152_mvl/mxv
+ .byte   VOL , 23*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 22*song0152_mvl/mxv
+ .byte   VOL , 22*Guile_mvl/mxv
  .byte   N42 ,Dn3
  .byte   N42 ,Fn3
  .byte   W04
- .byte   VOL , 2*song0152_mvl/mxv
+ .byte   VOL , 2*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 21*song0152_mvl/mxv
+ .byte   VOL , 21*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 20*song0152_mvl/mxv
+ .byte   VOL , 20*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 20*song0152_mvl/mxv
+ .byte   VOL , 20*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 19*song0152_mvl/mxv
+ .byte   VOL , 19*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 18*song0152_mvl/mxv
+ .byte   VOL , 18*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 18*song0152_mvl/mxv
+ .byte   VOL , 18*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 17*song0152_mvl/mxv
+ .byte   VOL , 17*Guile_mvl/mxv
  .byte   W04
  .byte   N06 ,Cn3
  .byte   N06 ,Ds3
  .byte   W02
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 16*song0152_mvl/mxv
+ .byte   VOL , 16*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 15*song0152_mvl/mxv
+ .byte   VOL , 15*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song0152_mvl/mxv
+ .byte   VOL , 15*Guile_mvl/mxv
  .byte   W02
  .byte   N12 ,Dn3
  .byte   N12 ,Fn3
  .byte   W04
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 13*song0152_mvl/mxv
+ .byte   VOL , 13*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 13*song0152_mvl/mxv
+ .byte   VOL , 13*Guile_mvl/mxv
  .byte   W06
 @  #03 @043   ----------------------------------------
- .byte   VOL , 12*song0152_mvl/mxv
+ .byte   VOL , 12*Guile_mvl/mxv
  .byte   N06 ,Dn3
  .byte   N06 ,Fn3
  .byte   W04
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W02
  .byte   N06 ,Dn3
  .byte   N06 ,Fn3
  .byte   W04
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 10*song0152_mvl/mxv
+ .byte   VOL , 10*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 10*song0152_mvl/mxv
+ .byte   VOL , 10*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 9*song0152_mvl/mxv
+ .byte   VOL , 9*Guile_mvl/mxv
  .byte   N36 ,Dn3
  .byte   N36 ,Gn3
  .byte   W04
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 8*song0152_mvl/mxv
+ .byte   VOL , 8*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 7*song0152_mvl/mxv
+ .byte   VOL , 7*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 6*song0152_mvl/mxv
+ .byte   VOL , 6*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 6*song0152_mvl/mxv
+ .byte   VOL , 6*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 5*song0152_mvl/mxv
+ .byte   VOL , 5*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 5*song0152_mvl/mxv
+ .byte   VOL , 5*Guile_mvl/mxv
  .byte   W02
  .byte   N06 ,Dn3
  .byte   N06 ,Fn3
  .byte   W02
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 3*song0152_mvl/mxv
+ .byte   VOL , 3*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 3*song0152_mvl/mxv
+ .byte   VOL , 3*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 2*song0152_mvl/mxv
+ .byte   VOL , 2*Guile_mvl/mxv
  .byte   N18 ,Dn3
  .byte   N18 ,Gn3
  .byte   W04
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 1*song0152_mvl/mxv
+ .byte   VOL , 1*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W04
 @  #03 @044   ----------------------------------------
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W06
  .byte   GOTO
   .word Label_0127A5F6
@@ -1933,12 +1933,12 @@ Label_0127A7C4:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song0152_004:
+Guile_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , song0152_key+0
+ .byte   KEYSH , Guile_key+0
 Label_0127A962:
  .byte   VOICE , 57
- .byte   VOL , 30*song0152_mvl/mxv
+ .byte   VOL , 30*Guile_mvl/mxv
  .byte   PAN , c_v-20
  .byte   W96
 @  #04 @001   ----------------------------------------
@@ -2157,206 +2157,206 @@ Label_0127AA1A:
 @  #04 @040   ----------------------------------------
  .byte   N60 ,Ds2 ,v100
  .byte   W01
- .byte   VOL , 30*song0152_mvl/mxv
+ .byte   VOL , 30*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 49*song0152_mvl/mxv
+ .byte   VOL , 49*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 49*song0152_mvl/mxv
+ .byte   VOL , 49*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 48*song0152_mvl/mxv
+ .byte   VOL , 48*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 47*song0152_mvl/mxv
+ .byte   VOL , 47*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 47*song0152_mvl/mxv
+ .byte   VOL , 47*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 46*song0152_mvl/mxv
+ .byte   VOL , 46*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 45*song0152_mvl/mxv
+ .byte   VOL , 45*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 45*song0152_mvl/mxv
+ .byte   VOL , 45*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 44*song0152_mvl/mxv
+ .byte   VOL , 44*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 44*song0152_mvl/mxv
+ .byte   VOL , 44*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 43*song0152_mvl/mxv
+ .byte   VOL , 43*Guile_mvl/mxv
  .byte   W05
  .byte   N12 ,Fn2
  .byte   W01
- .byte   VOL , 22*song0152_mvl/mxv
+ .byte   VOL , 22*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 42*song0152_mvl/mxv
+ .byte   VOL , 42*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 41*song0152_mvl/mxv
+ .byte   VOL , 41*Guile_mvl/mxv
  .byte   W01
  .byte   N06 ,Gn2
  .byte   W03
- .byte   VOL , 20*song0152_mvl/mxv
+ .byte   VOL , 20*Guile_mvl/mxv
  .byte   W03
  .byte   N18 ,Gs2
  .byte   W01
- .byte   VOL , 20*song0152_mvl/mxv
+ .byte   VOL , 20*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 39*song0152_mvl/mxv
+ .byte   VOL , 39*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 39*song0152_mvl/mxv
+ .byte   VOL , 39*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 38*song0152_mvl/mxv
+ .byte   VOL , 38*Guile_mvl/mxv
  .byte   W01
 @  #04 @041   ----------------------------------------
  .byte   N36 ,As2
  .byte   W03
- .byte   VOL , 17*song0152_mvl/mxv
+ .byte   VOL , 17*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 37*song0152_mvl/mxv
+ .byte   VOL , 37*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 36*song0152_mvl/mxv
+ .byte   VOL , 36*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 35*song0152_mvl/mxv
+ .byte   VOL , 35*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 35*song0152_mvl/mxv
+ .byte   VOL , 35*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 34*song0152_mvl/mxv
+ .byte   VOL , 34*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 34*song0152_mvl/mxv
+ .byte   VOL , 34*Guile_mvl/mxv
  .byte   W03
  .byte   N36 ,Cn3
  .byte   W01
- .byte   VOL , 13*song0152_mvl/mxv
+ .byte   VOL , 13*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 32*song0152_mvl/mxv
+ .byte   VOL , 32*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 32*song0152_mvl/mxv
+ .byte   VOL , 32*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 31*song0152_mvl/mxv
+ .byte   VOL , 31*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 30*song0152_mvl/mxv
+ .byte   VOL , 30*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 30*song0152_mvl/mxv
+ .byte   VOL , 30*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 29*song0152_mvl/mxv
+ .byte   VOL , 29*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 28*song0152_mvl/mxv
+ .byte   VOL , 28*Guile_mvl/mxv
  .byte   W01
  .byte   N06 ,As2
  .byte   W05
- .byte   VOL , 8*song0152_mvl/mxv
+ .byte   VOL , 8*Guile_mvl/mxv
  .byte   W01
  .byte   N18 ,Cn3
  .byte   W03
- .byte   VOL , 7*song0152_mvl/mxv
+ .byte   VOL , 7*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 27*song0152_mvl/mxv
+ .byte   VOL , 27*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 26*song0152_mvl/mxv
+ .byte   VOL , 26*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 25*song0152_mvl/mxv
+ .byte   VOL , 25*Guile_mvl/mxv
  .byte   W01
 @  #04 @042   ----------------------------------------
  .byte   N18 ,As2
  .byte   W05
- .byte   VOL , 5*song0152_mvl/mxv
+ .byte   VOL , 5*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 24*song0152_mvl/mxv
+ .byte   VOL , 24*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 23*song0152_mvl/mxv
+ .byte   VOL , 23*Guile_mvl/mxv
  .byte   W03
  .byte   N18 ,Cn3
  .byte   W01
- .byte   VOL , 3*song0152_mvl/mxv
+ .byte   VOL , 3*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 22*song0152_mvl/mxv
+ .byte   VOL , 22*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 22*song0152_mvl/mxv
+ .byte   VOL , 22*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 21*song0152_mvl/mxv
+ .byte   VOL , 21*Guile_mvl/mxv
  .byte   W03
  .byte   N12 ,Dn3
  .byte   W03
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 20*song0152_mvl/mxv
+ .byte   VOL , 20*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 19*song0152_mvl/mxv
+ .byte   VOL , 19*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 18*song0152_mvl/mxv
+ .byte   VOL , 18*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 18*song0152_mvl/mxv
+ .byte   VOL , 18*Guile_mvl/mxv
  .byte   W03
  .byte   N12 ,Fn2
  .byte   W03
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 17*song0152_mvl/mxv
+ .byte   VOL , 17*Guile_mvl/mxv
  .byte   W05
  .byte   N12 ,Gs2
  .byte   W01
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song0152_mvl/mxv
+ .byte   VOL , 15*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 15*song0152_mvl/mxv
+ .byte   VOL , 15*Guile_mvl/mxv
  .byte   W01
  .byte   N12 ,Dn3
  .byte   W03
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 13*song0152_mvl/mxv
+ .byte   VOL , 13*Guile_mvl/mxv
  .byte   W05
 @  #04 @043   ----------------------------------------
  .byte   N18 ,Fn3
  .byte   W01
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 12*song0152_mvl/mxv
+ .byte   VOL , 12*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 11*song0152_mvl/mxv
+ .byte   VOL , 11*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 11*song0152_mvl/mxv
+ .byte   VOL , 11*Guile_mvl/mxv
  .byte   W03
  .byte   N18 ,Gn3
  .byte   W03
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 10*song0152_mvl/mxv
+ .byte   VOL , 10*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 9*song0152_mvl/mxv
+ .byte   VOL , 9*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 8*song0152_mvl/mxv
+ .byte   VOL , 8*Guile_mvl/mxv
  .byte   W01
  .byte   N12 ,Dn3
  .byte   W03
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 7*song0152_mvl/mxv
+ .byte   VOL , 7*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 6*song0152_mvl/mxv
+ .byte   VOL , 6*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 6*song0152_mvl/mxv
+ .byte   VOL , 6*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 5*song0152_mvl/mxv
+ .byte   VOL , 5*Guile_mvl/mxv
  .byte   W01
  .byte   N12 ,As2
  .byte   W03
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 4*song0152_mvl/mxv
+ .byte   VOL , 4*Guile_mvl/mxv
  .byte   W03
  .byte   N12
  .byte   W01
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 3*song0152_mvl/mxv
+ .byte   VOL , 3*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 2*song0152_mvl/mxv
+ .byte   VOL , 2*Guile_mvl/mxv
  .byte   W06
- .byte   VOL , 1*song0152_mvl/mxv
+ .byte   VOL , 1*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 1*song0152_mvl/mxv
+ .byte   VOL , 1*Guile_mvl/mxv
  .byte   W03
 @  #04 @044   ----------------------------------------
  .byte   W01
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W05
  .byte   GOTO
   .word Label_0127A962
@@ -2364,12 +2364,12 @@ Label_0127AA1A:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song0152_005:
+Guile_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , song0152_key+0
+ .byte   KEYSH , Guile_key+0
 Label_0127AB42:
  .byte   VOICE , 48
- .byte   VOL , 42*song0152_mvl/mxv
+ .byte   VOL , 42*Guile_mvl/mxv
  .byte   PAN , c_v-30
  .byte   TIE ,Cn3 ,v100
  .byte   W96
@@ -2504,12 +2504,12 @@ Label_0127AB42:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song0152_006:
+Guile_006:
 @  #06 @000   ----------------------------------------
- .byte   KEYSH , song0152_key+0
+ .byte   KEYSH , Guile_key+0
 Label_0127ABB6:
  .byte   VOICE , 11
- .byte   VOL , 42*song0152_mvl/mxv
+ .byte   VOL , 42*Guile_mvl/mxv
  .byte   PAN , c_v+30
  .byte   W96
 @  #06 @001   ----------------------------------------
@@ -2694,12 +2694,12 @@ Label_0127AC10:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-song0152_007:
+Guile_007:
 @  #07 @000   ----------------------------------------
- .byte   KEYSH , song0152_key+0
+ .byte   KEYSH , Guile_key+0
 Label_0127AC56:
  .byte   VOICE , 36
- .byte   VOL , 60*song0152_mvl/mxv
+ .byte   VOL , 60*Guile_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N48 ,Cn2 ,v100
  .byte   W54
@@ -3177,322 +3177,322 @@ Label_0127AE09:
 @  #07 @040   ----------------------------------------
  .byte   N06 ,Cn2 ,v100
  .byte   W01
- .byte   VOL , 59*song0152_mvl/mxv
+ .byte   VOL , 59*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 78*song0152_mvl/mxv
+ .byte   VOL , 78*Guile_mvl/mxv
  .byte   W01
  .byte   N06
  .byte   W03
- .byte   VOL , 58*song0152_mvl/mxv
+ .byte   VOL , 58*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 77*song0152_mvl/mxv
+ .byte   VOL , 77*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 76*song0152_mvl/mxv
+ .byte   VOL , 76*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 76*song0152_mvl/mxv
+ .byte   VOL , 76*Guile_mvl/mxv
  .byte   W01
  .byte   N06
  .byte   W03
- .byte   VOL , 55*song0152_mvl/mxv
+ .byte   VOL , 55*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 74*song0152_mvl/mxv
+ .byte   VOL , 74*Guile_mvl/mxv
  .byte   W01
  .byte   N24
  .byte   W03
- .byte   VOL , 54*song0152_mvl/mxv
+ .byte   VOL , 54*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 73*song0152_mvl/mxv
+ .byte   VOL , 73*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 73*song0152_mvl/mxv
+ .byte   VOL , 73*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 72*song0152_mvl/mxv
+ .byte   VOL , 72*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 71*song0152_mvl/mxv
+ .byte   VOL , 71*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 71*song0152_mvl/mxv
+ .byte   VOL , 71*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 70*song0152_mvl/mxv
+ .byte   VOL , 70*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 69*song0152_mvl/mxv
+ .byte   VOL , 69*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 69*song0152_mvl/mxv
+ .byte   VOL , 69*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 68*song0152_mvl/mxv
+ .byte   VOL , 68*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 68*song0152_mvl/mxv
+ .byte   VOL , 68*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 67*song0152_mvl/mxv
+ .byte   VOL , 67*Guile_mvl/mxv
  .byte   W01
  .byte   N06
  .byte   W03
- .byte   VOL , 46*song0152_mvl/mxv
+ .byte   VOL , 46*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 66*song0152_mvl/mxv
+ .byte   VOL , 66*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 65*song0152_mvl/mxv
+ .byte   VOL , 65*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 64*song0152_mvl/mxv
+ .byte   VOL , 64*Guile_mvl/mxv
  .byte   W01
  .byte   N06
  .byte   W03
- .byte   VOL , 44*song0152_mvl/mxv
+ .byte   VOL , 44*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 63*song0152_mvl/mxv
+ .byte   VOL , 63*Guile_mvl/mxv
  .byte   W01
  .byte   N18
  .byte   W03
- .byte   VOL , 42*song0152_mvl/mxv
+ .byte   VOL , 42*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 62*song0152_mvl/mxv
+ .byte   VOL , 62*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 61*song0152_mvl/mxv
+ .byte   VOL , 61*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 61*song0152_mvl/mxv
+ .byte   VOL , 61*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 60*song0152_mvl/mxv
+ .byte   VOL , 60*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 59*song0152_mvl/mxv
+ .byte   VOL , 59*Guile_mvl/mxv
  .byte   W01
 @  #07 @041   ----------------------------------------
  .byte   N06 ,Gs1
  .byte   W03
- .byte   VOL , 39*song0152_mvl/mxv
+ .byte   VOL , 39*Guile_mvl/mxv
  .byte   W03
  .byte   N06
  .byte   W01
- .byte   VOL , 38*song0152_mvl/mxv
+ .byte   VOL , 38*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 57*song0152_mvl/mxv
+ .byte   VOL , 57*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 57*song0152_mvl/mxv
+ .byte   VOL , 57*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 56*song0152_mvl/mxv
+ .byte   VOL , 56*Guile_mvl/mxv
  .byte   W03
  .byte   N06
  .byte   W01
- .byte   VOL , 36*song0152_mvl/mxv
+ .byte   VOL , 36*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 55*song0152_mvl/mxv
+ .byte   VOL , 55*Guile_mvl/mxv
  .byte   W03
  .byte   N24
  .byte   W01
- .byte   VOL , 34*song0152_mvl/mxv
+ .byte   VOL , 34*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 54*song0152_mvl/mxv
+ .byte   VOL , 54*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 53*song0152_mvl/mxv
+ .byte   VOL , 53*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 52*song0152_mvl/mxv
+ .byte   VOL , 52*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 52*song0152_mvl/mxv
+ .byte   VOL , 52*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 51*song0152_mvl/mxv
+ .byte   VOL , 51*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 51*song0152_mvl/mxv
+ .byte   VOL , 51*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 50*song0152_mvl/mxv
+ .byte   VOL , 50*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 49*song0152_mvl/mxv
+ .byte   VOL , 49*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 49*song0152_mvl/mxv
+ .byte   VOL , 49*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 48*song0152_mvl/mxv
+ .byte   VOL , 48*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 47*song0152_mvl/mxv
+ .byte   VOL , 47*Guile_mvl/mxv
  .byte   W03
  .byte   N06
  .byte   W01
- .byte   VOL , 27*song0152_mvl/mxv
+ .byte   VOL , 27*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 46*song0152_mvl/mxv
+ .byte   VOL , 46*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 45*song0152_mvl/mxv
+ .byte   VOL , 45*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 45*song0152_mvl/mxv
+ .byte   VOL , 45*Guile_mvl/mxv
  .byte   W03
  .byte   N06
  .byte   W01
- .byte   VOL , 24*song0152_mvl/mxv
+ .byte   VOL , 24*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 44*song0152_mvl/mxv
+ .byte   VOL , 44*Guile_mvl/mxv
  .byte   W03
  .byte   N18
  .byte   W01
- .byte   VOL , 23*song0152_mvl/mxv
+ .byte   VOL , 23*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 42*song0152_mvl/mxv
+ .byte   VOL , 42*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 42*song0152_mvl/mxv
+ .byte   VOL , 42*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 41*song0152_mvl/mxv
+ .byte   VOL , 41*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 40*song0152_mvl/mxv
+ .byte   VOL , 40*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 40*song0152_mvl/mxv
+ .byte   VOL , 40*Guile_mvl/mxv
  .byte   W03
 @  #07 @042   ----------------------------------------
  .byte   N06 ,As1
  .byte   W01
- .byte   VOL , 19*song0152_mvl/mxv
+ .byte   VOL , 19*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 39*song0152_mvl/mxv
+ .byte   VOL , 39*Guile_mvl/mxv
  .byte   W01
  .byte   N06
  .byte   W01
- .byte   VOL , 18*song0152_mvl/mxv
+ .byte   VOL , 18*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 37*song0152_mvl/mxv
+ .byte   VOL , 37*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 37*song0152_mvl/mxv
+ .byte   VOL , 37*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 36*song0152_mvl/mxv
+ .byte   VOL , 36*Guile_mvl/mxv
  .byte   W01
  .byte   N06
  .byte   W01
- .byte   VOL , 15*song0152_mvl/mxv
+ .byte   VOL , 15*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 35*song0152_mvl/mxv
+ .byte   VOL , 35*Guile_mvl/mxv
  .byte   W01
  .byte   N24
  .byte   W01
- .byte   VOL , 14*song0152_mvl/mxv
+ .byte   VOL , 14*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 34*song0152_mvl/mxv
+ .byte   VOL , 34*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 33*song0152_mvl/mxv
+ .byte   VOL , 33*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 32*song0152_mvl/mxv
+ .byte   VOL , 32*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 32*song0152_mvl/mxv
+ .byte   VOL , 32*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 31*song0152_mvl/mxv
+ .byte   VOL , 31*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 30*song0152_mvl/mxv
+ .byte   VOL , 30*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 30*song0152_mvl/mxv
+ .byte   VOL , 30*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 29*song0152_mvl/mxv
+ .byte   VOL , 29*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 28*song0152_mvl/mxv
+ .byte   VOL , 28*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 28*song0152_mvl/mxv
+ .byte   VOL , 28*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 27*song0152_mvl/mxv
+ .byte   VOL , 27*Guile_mvl/mxv
  .byte   W01
  .byte   N06
  .byte   W01
- .byte   VOL , 7*song0152_mvl/mxv
+ .byte   VOL , 7*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 26*song0152_mvl/mxv
+ .byte   VOL , 26*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 25*song0152_mvl/mxv
+ .byte   VOL , 25*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 25*song0152_mvl/mxv
+ .byte   VOL , 25*Guile_mvl/mxv
  .byte   W01
  .byte   N06
  .byte   W01
- .byte   VOL , 4*song0152_mvl/mxv
+ .byte   VOL , 4*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 23*song0152_mvl/mxv
+ .byte   VOL , 23*Guile_mvl/mxv
  .byte   W01
  .byte   N18
  .byte   W01
- .byte   VOL , 3*song0152_mvl/mxv
+ .byte   VOL , 3*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 22*song0152_mvl/mxv
+ .byte   VOL , 22*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 22*song0152_mvl/mxv
+ .byte   VOL , 22*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 21*song0152_mvl/mxv
+ .byte   VOL , 21*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 20*song0152_mvl/mxv
+ .byte   VOL , 20*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 20*song0152_mvl/mxv
+ .byte   VOL , 20*Guile_mvl/mxv
  .byte   W01
 @  #07 @043   ----------------------------------------
  .byte   N06 ,Gn1
  .byte   W03
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 18*song0152_mvl/mxv
+ .byte   VOL , 18*Guile_mvl/mxv
  .byte   W01
  .byte   N06
  .byte   W03
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 17*song0152_mvl/mxv
+ .byte   VOL , 17*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 17*song0152_mvl/mxv
+ .byte   VOL , 17*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 16*song0152_mvl/mxv
+ .byte   VOL , 16*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song0152_mvl/mxv
+ .byte   VOL , 15*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 15*song0152_mvl/mxv
+ .byte   VOL , 15*Guile_mvl/mxv
  .byte   W01
  .byte   N24
  .byte   W03
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 13*song0152_mvl/mxv
+ .byte   VOL , 13*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 13*song0152_mvl/mxv
+ .byte   VOL , 13*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 12*song0152_mvl/mxv
+ .byte   VOL , 12*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 11*song0152_mvl/mxv
+ .byte   VOL , 11*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 11*song0152_mvl/mxv
+ .byte   VOL , 11*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 10*song0152_mvl/mxv
+ .byte   VOL , 10*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 10*song0152_mvl/mxv
+ .byte   VOL , 10*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 9*song0152_mvl/mxv
+ .byte   VOL , 9*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 8*song0152_mvl/mxv
+ .byte   VOL , 8*Guile_mvl/mxv
  .byte   W01
  .byte   N06 ,Dn2
  .byte   W03
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 7*song0152_mvl/mxv
+ .byte   VOL , 7*Guile_mvl/mxv
  .byte   W01
  .byte   N06 ,Ds2
  .byte   W03
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 6*song0152_mvl/mxv
+ .byte   VOL , 6*Guile_mvl/mxv
  .byte   W01
  .byte   N06 ,Fn2
  .byte   W03
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 5*song0152_mvl/mxv
+ .byte   VOL , 5*Guile_mvl/mxv
  .byte   W01
  .byte   N06 ,Gn2
  .byte   W03
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 3*song0152_mvl/mxv
+ .byte   VOL , 3*Guile_mvl/mxv
  .byte   W01
  .byte   N06 ,Fn2
  .byte   W03
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 2*song0152_mvl/mxv
+ .byte   VOL , 2*Guile_mvl/mxv
  .byte   W01
  .byte   N06 ,Ds2
  .byte   W03
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 1*song0152_mvl/mxv
+ .byte   VOL , 1*Guile_mvl/mxv
  .byte   W01
  .byte   N06 ,As1
  .byte   W03
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W01
 @  #07 @044   ----------------------------------------
  .byte   W06
@@ -3502,12 +3502,12 @@ Label_0127AE09:
 
 @**************** Track 8 (Midi-Chn.7) ****************@
 
-song0152_008:
+Guile_008:
 @  #08 @000   ----------------------------------------
- .byte   KEYSH , song0152_key+0
+ .byte   KEYSH , Guile_key+0
 Label_0127AFD6:
  .byte   VOICE , 121
- .byte   VOL , 60*song0152_mvl/mxv
+ .byte   VOL , 60*Guile_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N24 ,Cn1 ,v100
  .byte   N24 ,Cs2
@@ -3967,318 +3967,318 @@ Label_0127B117:
  .byte   W12
  .byte   An1
  .byte   W03
- .byte   VOL , 58*song0152_mvl/mxv
+ .byte   VOL , 58*Guile_mvl/mxv
  .byte   W03
 @  #08 @040   ----------------------------------------
  .byte   N06 ,Cn1
  .byte   N06 ,Cs2
  .byte   W01
- .byte   VOL , 58*song0152_mvl/mxv
+ .byte   VOL , 58*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 77*song0152_mvl/mxv
+ .byte   VOL , 77*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 76*song0152_mvl/mxv
+ .byte   VOL , 76*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 76*song0152_mvl/mxv
+ .byte   VOL , 76*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 75*song0152_mvl/mxv
+ .byte   VOL , 75*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 74*song0152_mvl/mxv
+ .byte   VOL , 74*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 74*song0152_mvl/mxv
+ .byte   VOL , 74*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 73*song0152_mvl/mxv
+ .byte   VOL , 73*Guile_mvl/mxv
  .byte   W01
  .byte   N06 ,Dn1
  .byte   W01
- .byte   VOL , 53*song0152_mvl/mxv
+ .byte   VOL , 53*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 72*song0152_mvl/mxv
+ .byte   VOL , 72*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 71*song0152_mvl/mxv
+ .byte   VOL , 71*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 71*song0152_mvl/mxv
+ .byte   VOL , 71*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 70*song0152_mvl/mxv
+ .byte   VOL , 70*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 69*song0152_mvl/mxv
+ .byte   VOL , 69*Guile_mvl/mxv
  .byte   W01
  .byte   N06 ,Cn1
  .byte   W03
- .byte   VOL , 49*song0152_mvl/mxv
+ .byte   VOL , 49*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 68*song0152_mvl/mxv
+ .byte   VOL , 68*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 68*song0152_mvl/mxv
+ .byte   VOL , 68*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 67*song0152_mvl/mxv
+ .byte   VOL , 67*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 66*song0152_mvl/mxv
+ .byte   VOL , 66*Guile_mvl/mxv
  .byte   W03
  .byte   N06
  .byte   W01
- .byte   VOL , 46*song0152_mvl/mxv
+ .byte   VOL , 46*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 65*song0152_mvl/mxv
+ .byte   VOL , 65*Guile_mvl/mxv
  .byte   W03
  .byte   N06
  .byte   W01
- .byte   VOL , 44*song0152_mvl/mxv
+ .byte   VOL , 44*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 64*song0152_mvl/mxv
+ .byte   VOL , 64*Guile_mvl/mxv
  .byte   W03
  .byte   N06 ,Dn1
  .byte   W01
- .byte   VOL , 43*song0152_mvl/mxv
+ .byte   VOL , 43*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 62*song0152_mvl/mxv
+ .byte   VOL , 62*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 62*song0152_mvl/mxv
+ .byte   VOL , 62*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 61*song0152_mvl/mxv
+ .byte   VOL , 61*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 61*song0152_mvl/mxv
+ .byte   VOL , 61*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 60*song0152_mvl/mxv
+ .byte   VOL , 60*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 59*song0152_mvl/mxv
+ .byte   VOL , 59*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 59*song0152_mvl/mxv
+ .byte   VOL , 59*Guile_mvl/mxv
  .byte   W01
 @  #08 @041   ----------------------------------------
  .byte   N06 ,Cn1
  .byte   W01
- .byte   VOL , 38*song0152_mvl/mxv
+ .byte   VOL , 38*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 57*song0152_mvl/mxv
+ .byte   VOL , 57*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 57*song0152_mvl/mxv
+ .byte   VOL , 57*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 56*song0152_mvl/mxv
+ .byte   VOL , 56*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 56*song0152_mvl/mxv
+ .byte   VOL , 56*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 55*song0152_mvl/mxv
+ .byte   VOL , 55*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 54*song0152_mvl/mxv
+ .byte   VOL , 54*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 54*song0152_mvl/mxv
+ .byte   VOL , 54*Guile_mvl/mxv
  .byte   W01
  .byte   N06 ,Dn1
  .byte   W03
- .byte   VOL , 33*song0152_mvl/mxv
+ .byte   VOL , 33*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 52*song0152_mvl/mxv
+ .byte   VOL , 52*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 52*song0152_mvl/mxv
+ .byte   VOL , 52*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 51*song0152_mvl/mxv
+ .byte   VOL , 51*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 51*song0152_mvl/mxv
+ .byte   VOL , 51*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 50*song0152_mvl/mxv
+ .byte   VOL , 50*Guile_mvl/mxv
  .byte   W01
  .byte   N06 ,Cn1
  .byte   W03
- .byte   VOL , 29*song0152_mvl/mxv
+ .byte   VOL , 29*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 49*song0152_mvl/mxv
+ .byte   VOL , 49*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 48*song0152_mvl/mxv
+ .byte   VOL , 48*Guile_mvl/mxv
  .byte   W03
  .byte   N06
  .byte   W01
- .byte   VOL , 27*song0152_mvl/mxv
+ .byte   VOL , 27*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 47*song0152_mvl/mxv
+ .byte   VOL , 47*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 46*song0152_mvl/mxv
+ .byte   VOL , 46*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 45*song0152_mvl/mxv
+ .byte   VOL , 45*Guile_mvl/mxv
  .byte   W03
  .byte   N06
  .byte   W01
- .byte   VOL , 25*song0152_mvl/mxv
+ .byte   VOL , 25*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 44*song0152_mvl/mxv
+ .byte   VOL , 44*Guile_mvl/mxv
  .byte   W03
  .byte   N06 ,Dn1
  .byte   W01
- .byte   VOL , 24*song0152_mvl/mxv
+ .byte   VOL , 24*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 43*song0152_mvl/mxv
+ .byte   VOL , 43*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 42*song0152_mvl/mxv
+ .byte   VOL , 42*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 42*song0152_mvl/mxv
+ .byte   VOL , 42*Guile_mvl/mxv
  .byte   W01
  .byte   N06 ,Cn1
  .byte   W01
- .byte   VOL , 21*song0152_mvl/mxv
+ .byte   VOL , 21*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 40*song0152_mvl/mxv
+ .byte   VOL , 40*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 40*song0152_mvl/mxv
+ .byte   VOL , 40*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 39*song0152_mvl/mxv
+ .byte   VOL , 39*Guile_mvl/mxv
  .byte   W01
 @  #08 @042   ----------------------------------------
  .byte   N06
  .byte   W01
- .byte   VOL , 19*song0152_mvl/mxv
+ .byte   VOL , 19*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 38*song0152_mvl/mxv
+ .byte   VOL , 38*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 37*song0152_mvl/mxv
+ .byte   VOL , 37*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 37*song0152_mvl/mxv
+ .byte   VOL , 37*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 36*song0152_mvl/mxv
+ .byte   VOL , 36*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 35*song0152_mvl/mxv
+ .byte   VOL , 35*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 35*song0152_mvl/mxv
+ .byte   VOL , 35*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 34*song0152_mvl/mxv
+ .byte   VOL , 34*Guile_mvl/mxv
  .byte   W01
  .byte   N06 ,Dn1
  .byte   W03
- .byte   VOL , 14*song0152_mvl/mxv
+ .byte   VOL , 14*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 33*song0152_mvl/mxv
+ .byte   VOL , 33*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 32*song0152_mvl/mxv
+ .byte   VOL , 32*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 32*song0152_mvl/mxv
+ .byte   VOL , 32*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 31*song0152_mvl/mxv
+ .byte   VOL , 31*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 30*song0152_mvl/mxv
+ .byte   VOL , 30*Guile_mvl/mxv
  .byte   W01
  .byte   N06 ,Cn1
  .byte   W03
- .byte   VOL , 10*song0152_mvl/mxv
+ .byte   VOL , 10*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 29*song0152_mvl/mxv
+ .byte   VOL , 29*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 28*song0152_mvl/mxv
+ .byte   VOL , 28*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 28*song0152_mvl/mxv
+ .byte   VOL , 28*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 27*song0152_mvl/mxv
+ .byte   VOL , 27*Guile_mvl/mxv
  .byte   W03
  .byte   N06
  .byte   W01
- .byte   VOL , 7*song0152_mvl/mxv
+ .byte   VOL , 7*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 26*song0152_mvl/mxv
+ .byte   VOL , 26*Guile_mvl/mxv
  .byte   W03
  .byte   N06
  .byte   W01
- .byte   VOL , 5*song0152_mvl/mxv
+ .byte   VOL , 5*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 25*song0152_mvl/mxv
+ .byte   VOL , 25*Guile_mvl/mxv
  .byte   W03
  .byte   N06 ,Dn1
  .byte   W01
- .byte   VOL , 4*song0152_mvl/mxv
+ .byte   VOL , 4*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 23*song0152_mvl/mxv
+ .byte   VOL , 23*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 23*song0152_mvl/mxv
+ .byte   VOL , 23*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 22*song0152_mvl/mxv
+ .byte   VOL , 22*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 22*song0152_mvl/mxv
+ .byte   VOL , 22*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 21*song0152_mvl/mxv
+ .byte   VOL , 21*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 20*song0152_mvl/mxv
+ .byte   VOL , 20*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 20*song0152_mvl/mxv
+ .byte   VOL , 20*Guile_mvl/mxv
  .byte   W01
 @  #08 @043   ----------------------------------------
  .byte   N06 ,Cn1
  .byte   W01
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 18*song0152_mvl/mxv
+ .byte   VOL , 18*Guile_mvl/mxv
  .byte   W01
  .byte   N06
  .byte   W01
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 17*song0152_mvl/mxv
+ .byte   VOL , 17*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 17*song0152_mvl/mxv
+ .byte   VOL , 17*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 16*song0152_mvl/mxv
+ .byte   VOL , 16*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song0152_mvl/mxv
+ .byte   VOL , 15*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 15*song0152_mvl/mxv
+ .byte   VOL , 15*Guile_mvl/mxv
  .byte   W01
  .byte   N06 ,Dn1
  .byte   W03
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 13*song0152_mvl/mxv
+ .byte   VOL , 13*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 13*song0152_mvl/mxv
+ .byte   VOL , 13*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 12*song0152_mvl/mxv
+ .byte   VOL , 12*Guile_mvl/mxv
  .byte   W01
  .byte   N06 ,Cn1
  .byte   W03
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 11*song0152_mvl/mxv
+ .byte   VOL , 11*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 10*song0152_mvl/mxv
+ .byte   VOL , 10*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 10*song0152_mvl/mxv
+ .byte   VOL , 10*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 9*song0152_mvl/mxv
+ .byte   VOL , 9*Guile_mvl/mxv
  .byte   W03
  .byte   N06
  .byte   W01
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 8*song0152_mvl/mxv
+ .byte   VOL , 8*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 7*song0152_mvl/mxv
+ .byte   VOL , 7*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 6*song0152_mvl/mxv
+ .byte   VOL , 6*Guile_mvl/mxv
  .byte   W03
  .byte   N06
  .byte   W01
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 5*song0152_mvl/mxv
+ .byte   VOL , 5*Guile_mvl/mxv
  .byte   W01
  .byte   N06 ,Dn1
  .byte   W01
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 4*song0152_mvl/mxv
+ .byte   VOL , 4*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 3*song0152_mvl/mxv
+ .byte   VOL , 3*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 3*song0152_mvl/mxv
+ .byte   VOL , 3*Guile_mvl/mxv
  .byte   W01
  .byte   N06 ,Cn1
  .byte   W01
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 1*song0152_mvl/mxv
+ .byte   VOL , 1*Guile_mvl/mxv
  .byte   W02
- .byte   VOL , 1*song0152_mvl/mxv
+ .byte   VOL , 1*Guile_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W01
 @  #08 @044   ----------------------------------------
  .byte   W01
- .byte   VOL , 0*song0152_mvl/mxv
+ .byte   VOL , 0*Guile_mvl/mxv
  .byte   W05
  .byte   GOTO
   .word Label_0127AFD6
@@ -4287,21 +4287,21 @@ Label_0127B117:
 @******************************************************@
 	.align	2
 
-song0152:
+Guile:
 	.byte	8	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song0152_pri	@ Priority
-	.byte	song0152_rev	@ Reverb.
+	.byte	Guile_pri	@ Priority
+	.byte	Guile_rev	@ Reverb.
     
-	.word	song0152_grp
+	.word	Guile_grp
     
-	.word	song0152_001
-	.word	song0152_002
-	.word	song0152_003
-	.word	song0152_004
-	.word	song0152_005
-	.word	song0152_006
-	.word	song0152_007
-	.word	song0152_008
+	.word	Guile_001
+	.word	Guile_002
+	.word	Guile_003
+	.word	Guile_004
+	.word	Guile_005
+	.word	Guile_006
+	.word	Guile_007
+	.word	Guile_008
 
 	.end

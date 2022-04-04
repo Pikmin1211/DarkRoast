@@ -1,28 +1,28 @@
 	.include "MPlayDef.s"
 
-	.equ	song2B_grp, voicegroup000
-	.equ	song2B_pri, 0
-	.equ	song2B_rev, 0
-	.equ	song2B_mvl, 127
-	.equ	song2B_key, 0
-	.equ	song2B_tbs, 1
-	.equ	song2B_exg, 0
-	.equ	song2B_cmp, 1
+	.equ	VsRocketLeader_grp, voicegroup000
+	.equ	VsRocketLeader_pri, 0
+	.equ	VsRocketLeader_rev, 0
+	.equ	VsRocketLeader_mvl, 127
+	.equ	VsRocketLeader_key, 0
+	.equ	VsRocketLeader_tbs, 1
+	.equ	VsRocketLeader_exg, 0
+	.equ	VsRocketLeader_cmp, 1
 
 	.section .rodata
-	.global	song2B
+	.global	VsRocketLeader
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song2B_001:
+VsRocketLeader_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , song2B_key+0
+ .byte   KEYSH , VsRocketLeader_key+0
 Label_0116EEFE:
- .byte   TEMPO , 130*song2B_tbs/2
+ .byte   TEMPO , 130*VsRocketLeader_tbs/2
  .byte   VOICE , 39
- .byte   VOL , 41*song2B_mvl/mxv
+ .byte   VOL , 41*VsRocketLeader_mvl/mxv
  .byte   N17 ,An1 ,v064
  .byte   W18
  .byte   N02
@@ -945,12 +945,12 @@ Label_0116F1E0:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song2B_002:
+VsRocketLeader_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , song2B_key+0
+ .byte   KEYSH , VsRocketLeader_key+0
 Label_566D22:
  .byte   VOICE , 4
- .byte   VOL , 51*song2B_mvl/mxv
+ .byte   VOL , 51*VsRocketLeader_mvl/mxv
  .byte   PAN , c_v-13
  .byte   W24
  .byte   N09 ,Cn3 ,v048
@@ -1382,12 +1382,12 @@ Label_566E82:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song2B_003:
+VsRocketLeader_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , song2B_key+0
+ .byte   KEYSH , VsRocketLeader_key+0
 Label_566BF6:
  .byte   VOICE , 4
- .byte   VOL , 49*song2B_mvl/mxv
+ .byte   VOL , 49*VsRocketLeader_mvl/mxv
  .byte   PAN , c_v+4
  .byte   N18 ,Cn3 ,v048
  .byte   N17 ,En3
@@ -1580,12 +1580,12 @@ Label_566C55:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song2B_004:
+VsRocketLeader_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , song2B_key+0
+ .byte   KEYSH , VsRocketLeader_key+0
 Label_0116F33A:
  .byte   VOICE , 46
- .byte   VOL , 54*song2B_mvl/mxv
+ .byte   VOL , 54*VsRocketLeader_mvl/mxv
  .byte   PAN , c_v-20
  .byte   W96
 @  #04 @001   ----------------------------------------
@@ -1826,12 +1826,12 @@ Label_0116F33A:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song2B_005:
+VsRocketLeader_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , song2B_key+0
+ .byte   KEYSH , VsRocketLeader_key+0
 Label_56752A:
  .byte   VOICE , 57
- .byte   VOL , 56*song2B_mvl/mxv
+ .byte   VOL , 56*VsRocketLeader_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #05 @001   ----------------------------------------
@@ -2001,13 +2001,13 @@ Label_56756B:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song2B_006:
+VsRocketLeader_006:
 @  #06 @000   ----------------------------------------
- .byte   KEYSH , song2B_key+0
+ .byte   KEYSH , VsRocketLeader_key+0
 Label_566F8E:
  .byte   VOICE , 4
  .byte   PAN , c_v-63
- .byte   VOL , 38*song2B_mvl/mxv
+ .byte   VOL , 38*VsRocketLeader_mvl/mxv
  .byte   W96
 @  #06 @001   ----------------------------------------
  .byte   W96
@@ -2277,12 +2277,12 @@ Label_566F97:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-song2B_007:
+VsRocketLeader_007:
 @  #07 @000   ----------------------------------------
- .byte   KEYSH , song2B_key+0
+ .byte   KEYSH , VsRocketLeader_key+0
 Label_0116F46A:
  .byte   VOICE , 107
- .byte   VOL , 40*song2B_mvl/mxv
+ .byte   VOL , 40*VsRocketLeader_mvl/mxv
  .byte   PAN , c_v-1
  .byte   N36 ,An2 ,v048
  .byte   N36 ,En3
@@ -2538,12 +2538,12 @@ Label_0116F542:
 
 @**************** Track 8 (Midi-Chn.7) ****************@
 
-song2B_008:
+VsRocketLeader_008:
 @  #08 @000   ----------------------------------------
- .byte   KEYSH , song2B_key+0
+ .byte   KEYSH , VsRocketLeader_key+0
 Label_5675D6:
  .byte   VOICE , 100
- .byte   VOL , 54*song2B_mvl/mxv
+ .byte   VOL , 54*VsRocketLeader_mvl/mxv
  .byte   PAN , c_v+1
  .byte   W96
 @  #08 @001   ----------------------------------------
@@ -2662,12 +2662,12 @@ Label_5675D6:
 
 @**************** Track 9 (Midi-Chn.8) ****************@
 
-song2B_009:
+VsRocketLeader_009:
 @  #09 @000   ----------------------------------------
- .byte   KEYSH , song2B_key+0
+ .byte   KEYSH , VsRocketLeader_key+0
 Label_012B640A:
  .byte   VOICE , 124
- .byte   VOL , 53*song2B_mvl/mxv
+ .byte   VOL , 53*VsRocketLeader_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N06 ,Cn1 ,v064
  .byte   N05 ,Gs1
@@ -3251,22 +3251,22 @@ Label_012B66D3:
 @******************************************************@
 	.align	2
 
-song2B:
+VsRocketLeader:
 	.byte	9	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song2B_pri	@ Priority
-	.byte	song2B_rev	@ Reverb.
+	.byte	VsRocketLeader_pri	@ Priority
+	.byte	VsRocketLeader_rev	@ Reverb.
     
-	.word	song2B_grp
+	.word	VsRocketLeader_grp
     
-	.word	song2B_001
-	.word	song2B_002
-	.word	song2B_003
-	.word	song2B_004
-	.word	song2B_005
-	.word	song2B_006
-	.word	song2B_007
-	.word	song2B_008
-	.word	song2B_009
+	.word	VsRocketLeader_001
+	.word	VsRocketLeader_002
+	.word	VsRocketLeader_003
+	.word	VsRocketLeader_004
+	.word	VsRocketLeader_005
+	.word	VsRocketLeader_006
+	.word	VsRocketLeader_007
+	.word	VsRocketLeader_008
+	.word	VsRocketLeader_009
 
 	.end

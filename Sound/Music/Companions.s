@@ -1,27 +1,27 @@
 	.include "MPlayDef.s"
 
-	.equ	songE1_grp, voicegroup000
-	.equ	songE1_pri, 10
-	.equ	songE1_rev, 128
-	.equ	songE1_mvl, 127
-	.equ	songE1_key, 0
-	.equ	songE1_tbs, 1
-	.equ	songE1_exg, 0
-	.equ	songE1_cmp, 1
+	.equ	Companions_grp, voicegroup000
+	.equ	Companions_pri, 10
+	.equ	Companions_rev, 128
+	.equ	Companions_mvl, 127
+	.equ	Companions_key, 0
+	.equ	Companions_tbs, 1
+	.equ	Companions_exg, 0
+	.equ	Companions_cmp, 1
 
 	.section .rodata
-	.global	songE1
+	.global	Companions
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-songE1_001:
+Companions_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , songE1_key+0
- .byte   TEMPO , 134*songE1_tbs/2
+ .byte   KEYSH , Companions_key+0
+ .byte   TEMPO , 134*Companions_tbs/2
  .byte   VOICE , 1
- .byte   VOL , 47*songE1_mvl/mxv
+ .byte   VOL , 47*Companions_mvl/mxv
  .byte   PAN , c_v+8
  .byte   W24
 Label_012377B7:
@@ -561,11 +561,11 @@ Label_012377B7:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-songE1_002:
+Companions_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , songE1_key+0
+ .byte   KEYSH , Companions_key+0
  .byte   VOICE , 2
- .byte   VOL , 55*songE1_mvl/mxv
+ .byte   VOL , 55*Companions_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W24
 Label_01237B9B:
@@ -1039,11 +1039,11 @@ Label_01237B9B:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-songE1_003:
+Companions_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , songE1_key+0
+ .byte   KEYSH , Companions_key+0
  .byte   VOICE , 0
- .byte   VOL , 41*songE1_mvl/mxv
+ .byte   VOL , 41*Companions_mvl/mxv
  .byte   W24
 Label_01237E5A:
  .byte   N05 ,DsM2 ,v127
@@ -1171,7 +1171,7 @@ Label_01237E99:
  .byte   W24
 @  #03 @017   ----------------------------------------
  .byte   VOICE , 6
- .byte   VOL , 44*songE1_mvl/mxv
+ .byte   VOL , 44*Companions_mvl/mxv
  .byte   PAN , c_v+3
  .byte   N60 ,GnM2 ,v100
  .byte   W60
@@ -1236,7 +1236,7 @@ Label_01237E99:
  .byte   W14
 @  #03 @025   ----------------------------------------
  .byte   VOICE , 0
- .byte   VOL , 37*songE1_mvl/mxv
+ .byte   VOL , 37*Companions_mvl/mxv
  .byte   N04 ,DsM2 ,v116
  .byte   W12
  .byte   N02 ,DsM2 ,v068
@@ -1467,11 +1467,11 @@ Label_01238000:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-songE1_004:
+Companions_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , songE1_key+0
+ .byte   KEYSH , Companions_key+0
  .byte   VOICE , 13
- .byte   VOL , 48*songE1_mvl/mxv
+ .byte   VOL , 48*Companions_mvl/mxv
  .byte   PAN , c_v-4
  .byte   W12
  .byte   N05 ,An2 ,v104
@@ -1684,14 +1684,14 @@ Label_01238127:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-songE1_005:
+Companions_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , songE1_key+0
+ .byte   KEYSH , Companions_key+0
  .byte   W24
 Label_012381E4:
  .byte   W48
  .byte   VOICE , 14
- .byte   VOL , 41*songE1_mvl/mxv
+ .byte   VOL , 41*Companions_mvl/mxv
  .byte   PAN , c_v-9
  .byte   W48
 @  #05 @001   ----------------------------------------
@@ -1771,7 +1771,7 @@ Label_012381E4:
  .byte   W06
 @  #05 @008   ----------------------------------------
  .byte   VOICE , 15
- .byte   VOL , 34*songE1_mvl/mxv
+ .byte   VOL , 34*Companions_mvl/mxv
  .byte   PAN , c_v-3
  .byte   N68 ,Cn4 ,v088
  .byte   W72
@@ -1828,7 +1828,7 @@ Label_012381E4:
  .byte   W24
 @  #05 @016   ----------------------------------------
  .byte   VOICE , 16
- .byte   VOL , 37*songE1_mvl/mxv
+ .byte   VOL , 37*Companions_mvl/mxv
  .byte   PAN , c_v-14
  .byte   N05 ,An3 ,v084
  .byte   N04 ,En4 ,v088
@@ -2173,9 +2173,9 @@ Label_012382FB:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-songE1_006:
+Companions_006:
 @  #06 @000   ----------------------------------------
- .byte   KEYSH , songE1_key+0
+ .byte   KEYSH , Companions_key+0
  .byte   W24
 Label_01238525:
  .byte   W96
@@ -2210,7 +2210,7 @@ Label_01238525:
 @  #06 @015   ----------------------------------------
  .byte   W48
  .byte   VOICE , 17
- .byte   VOL , 48*songE1_mvl/mxv
+ .byte   VOL , 48*Companions_mvl/mxv
  .byte   PAN , c_v+2
  .byte   W48
 @  #06 @016   ----------------------------------------
@@ -2540,9 +2540,9 @@ Label_01238525:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-songE1_007:
+Companions_007:
 @  #07 @000   ----------------------------------------
- .byte   KEYSH , songE1_key+0
+ .byte   KEYSH , Companions_key+0
  .byte   W24
 Label_01238753:
  .byte   W96
@@ -2582,7 +2582,7 @@ Label_01238753:
  .byte   W96
 @  #07 @018   ----------------------------------------
  .byte   VOICE , 18
- .byte   VOL , 58*songE1_mvl/mxv
+ .byte   VOL , 58*Companions_mvl/mxv
  .byte   PAN , c_v+6
  .byte   W60
  .byte   N03 ,Cn4 ,v088
@@ -2737,20 +2737,20 @@ Label_01238753:
 @******************************************************@
 	.align	2
 
-songE1:
+Companions:
 	.byte	7	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	songE1_pri	@ Priority
-	.byte	songE1_rev	@ Reverb.
+	.byte	Companions_pri	@ Priority
+	.byte	Companions_rev	@ Reverb.
     
-	.word	songE1_grp
+	.word	Companions_grp
     
-	.word	songE1_001
-	.word	songE1_002
-	.word	songE1_003
-	.word	songE1_004
-	.word	songE1_005
-	.word	songE1_006
-	.word	songE1_007
+	.word	Companions_001
+	.word	Companions_002
+	.word	Companions_003
+	.word	Companions_004
+	.word	Companions_005
+	.word	Companions_006
+	.word	Companions_007
 
 	.end

@@ -1,27 +1,27 @@
 	.include "MPlayDef.s"
 
-	.equ	song010B_grp, voicegroup000
-	.equ	song010B_pri, 0
-	.equ	song010B_rev, 0
-	.equ	song010B_mvl, 127
-	.equ	song010B_key, 0
-	.equ	song010B_tbs, 1
-	.equ	song010B_exg, 0
-	.equ	song010B_cmp, 1
+	.equ	EndlessBattle_grp, voicegroup000
+	.equ	EndlessBattle_pri, 0
+	.equ	EndlessBattle_rev, 0
+	.equ	EndlessBattle_mvl, 127
+	.equ	EndlessBattle_key, 0
+	.equ	EndlessBattle_tbs, 1
+	.equ	EndlessBattle_exg, 0
+	.equ	EndlessBattle_cmp, 1
 
 	.section .rodata
-	.global	song010B
+	.global	EndlessBattle
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song010B_001:
+EndlessBattle_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , song010B_key+0
- .byte   TEMPO , 122*song010B_tbs/2
+ .byte   KEYSH , EndlessBattle_key+0
+ .byte   TEMPO , 122*EndlessBattle_tbs/2
  .byte   VOICE , 34
- .byte   VOL , 38*song010B_mvl/mxv
+ .byte   VOL , 38*EndlessBattle_mvl/mxv
  .byte   PAN , c_v+0
  .byte   BEND , c_v+0
  .byte   N30 ,Gn1 ,v127
@@ -423,11 +423,11 @@ Label_01260C27:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song010B_002:
+EndlessBattle_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , song010B_key+0
+ .byte   KEYSH , EndlessBattle_key+0
  .byte   VOICE , 68
- .byte   VOL , 19*song010B_mvl/mxv
+ .byte   VOL , 19*EndlessBattle_mvl/mxv
  .byte   PAN , c_v+32
  .byte   BEND , c_v+0
  .byte   N11 ,Gn2 ,v068
@@ -602,11 +602,11 @@ Label_01260CAB:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song010B_003:
+EndlessBattle_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , song010B_key+0
+ .byte   KEYSH , EndlessBattle_key+0
  .byte   VOICE , 70
- .byte   VOL , 18*song010B_mvl/mxv
+ .byte   VOL , 18*EndlessBattle_mvl/mxv
  .byte   PAN , c_v+0
  .byte   BEND , c_v+0
  .byte   N11 ,Dn2 ,v068
@@ -787,11 +787,11 @@ Label_01260D73:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song010B_004:
+EndlessBattle_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , song010B_key+0
+ .byte   KEYSH , EndlessBattle_key+0
  .byte   VOICE , 71
- .byte   VOL , 19*song010B_mvl/mxv
+ .byte   VOL , 19*EndlessBattle_mvl/mxv
  .byte   PAN , c_v+15
  .byte   BEND , c_v+0
  .byte   N11 ,Cn2 ,v068
@@ -1108,11 +1108,11 @@ Label_01260F4A:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song010B_005:
+EndlessBattle_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , song010B_key+0
+ .byte   KEYSH , EndlessBattle_key+0
  .byte   VOICE , 73
- .byte   VOL , 52*song010B_mvl/mxv
+ .byte   VOL , 52*EndlessBattle_mvl/mxv
  .byte   PAN , c_v-23
  .byte   BEND , c_v+0
  .byte   W96
@@ -2458,11 +2458,11 @@ Label_01261012:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song010B_006:
+EndlessBattle_006:
 @  #06 @000   ----------------------------------------
- .byte   KEYSH , song010B_key+0
+ .byte   KEYSH , EndlessBattle_key+0
  .byte   VOICE , 62
- .byte   VOL , 37*song010B_mvl/mxv
+ .byte   VOL , 37*EndlessBattle_mvl/mxv
  .byte   PAN , c_v-10
  .byte   BEND , c_v+0
  .byte   N11 ,Gn6 ,v072
@@ -3423,11 +3423,11 @@ Label_012615BD:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-song010B_007:
+EndlessBattle_007:
 @  #07 @000   ----------------------------------------
- .byte   KEYSH , song010B_key+0
+ .byte   KEYSH , EndlessBattle_key+0
  .byte   VOICE , 63
- .byte   VOL , 35*song010B_mvl/mxv
+ .byte   VOL , 35*EndlessBattle_mvl/mxv
  .byte   PAN , c_v-35
  .byte   BEND , c_v+0
  .byte   N11 ,Cn5 ,v072
@@ -4351,11 +4351,11 @@ Label_012619B5:
 
 @**************** Track 8 (Midi-Chn.7) ****************@
 
-song010B_008:
+EndlessBattle_008:
 @  #08 @000   ----------------------------------------
- .byte   KEYSH , song010B_key+0
+ .byte   KEYSH , EndlessBattle_key+0
  .byte   VOICE , 40
- .byte   VOL , 35*song010B_mvl/mxv
+ .byte   VOL , 35*EndlessBattle_mvl/mxv
  .byte   PAN , c_v+21
  .byte   BEND , c_v+0
  .byte   W96
@@ -4653,11 +4653,11 @@ Label_01261D48:
 
 @**************** Track 9 (Midi-Chn.8) ****************@
 
-song010B_009:
+EndlessBattle_009:
 @  #09 @000   ----------------------------------------
- .byte   KEYSH , song010B_key+0
+ .byte   KEYSH , EndlessBattle_key+0
  .byte   VOICE , 29
- .byte   VOL , 19*song010B_mvl/mxv
+ .byte   VOL , 19*EndlessBattle_mvl/mxv
  .byte   PAN , c_v-24
  .byte   BEND , c_v+0
  .byte   N11 ,Gn2 ,v116
@@ -5019,11 +5019,11 @@ Label_0126200B:
 
 @**************** Track 10 (Midi-Chn.9) ****************@
 
-song010B_010:
+EndlessBattle_010:
 @  #10 @000   ----------------------------------------
- .byte   KEYSH , song010B_key+0
+ .byte   KEYSH , EndlessBattle_key+0
  .byte   VOICE , 73
- .byte   VOL , 18*song010B_mvl/mxv
+ .byte   VOL , 18*EndlessBattle_mvl/mxv
  .byte   PAN , c_v+0
  .byte   BEND , c_v+0
  .byte   W96
@@ -5402,11 +5402,11 @@ Label_01262050:
 
 @**************** Track 11 (Midi-Chn.10) ****************@
 
-song010B_011:
+EndlessBattle_011:
 @  #11 @000   ----------------------------------------
- .byte   KEYSH , song010B_key+0
+ .byte   KEYSH , EndlessBattle_key+0
  .byte   VOICE , 30
- .byte   VOL , 12*song010B_mvl/mxv
+ .byte   VOL , 12*EndlessBattle_mvl/mxv
  .byte   PAN , c_v+19
  .byte   BEND , c_v+0
  .byte   N32 ,Gn1 ,v116
@@ -5615,11 +5615,11 @@ Label_01262280:
 
 @**************** Track 12 (Midi-Chn.11) ****************@
 
-song010B_012:
+EndlessBattle_012:
 @  #12 @000   ----------------------------------------
- .byte   KEYSH , song010B_key+0
+ .byte   KEYSH , EndlessBattle_key+0
  .byte   VOICE , 127
- .byte   VOL , 47*song010B_mvl/mxv
+ .byte   VOL , 47*EndlessBattle_mvl/mxv
  .byte   PAN , c_v+0
  .byte   BEND , c_v+0
  .byte   N05 ,Dn1 ,v112
@@ -6275,25 +6275,25 @@ Label_012625BE:
 @******************************************************@
 	.align	2
 
-song010B:
+EndlessBattle:
 	.byte	12	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song010B_pri	@ Priority
-	.byte	song010B_rev	@ Reverb.
+	.byte	EndlessBattle_pri	@ Priority
+	.byte	EndlessBattle_rev	@ Reverb.
     
-	.word	song010B_grp
+	.word	EndlessBattle_grp
     
-	.word	song010B_001
-	.word	song010B_002
-	.word	song010B_003
-	.word	song010B_004
-	.word	song010B_005
-	.word	song010B_006
-	.word	song010B_007
-	.word	song010B_008
-	.word	song010B_009
-	.word	song010B_010
-	.word	song010B_011
-	.word	song010B_012
+	.word	EndlessBattle_001
+	.word	EndlessBattle_002
+	.word	EndlessBattle_003
+	.word	EndlessBattle_004
+	.word	EndlessBattle_005
+	.word	EndlessBattle_006
+	.word	EndlessBattle_007
+	.word	EndlessBattle_008
+	.word	EndlessBattle_009
+	.word	EndlessBattle_010
+	.word	EndlessBattle_011
+	.word	EndlessBattle_012
 
 	.end

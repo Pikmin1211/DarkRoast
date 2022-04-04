@@ -1,28 +1,28 @@
 	.include "MPlayDef.s"
 
-	.equ	song01_grp, voicegroup000
-	.equ	song01_pri, 10
-	.equ	song01_rev, 0
-	.equ	song01_mvl, 127
-	.equ	song01_key, 0
-	.equ	song01_tbs, 1
-	.equ	song01_exg, 0
-	.equ	song01_cmp, 1
+	.equ	ToadstoolTourSkinsMatch_grp, voicegroup000
+	.equ	ToadstoolTourSkinsMatch_pri, 10
+	.equ	ToadstoolTourSkinsMatch_rev, 0
+	.equ	ToadstoolTourSkinsMatch_mvl, 127
+	.equ	ToadstoolTourSkinsMatch_key, 0
+	.equ	ToadstoolTourSkinsMatch_tbs, 1
+	.equ	ToadstoolTourSkinsMatch_exg, 0
+	.equ	ToadstoolTourSkinsMatch_cmp, 1
 
 	.section .rodata
-	.global	song01
+	.global	ToadstoolTourSkinsMatch
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song01_001:
+ToadstoolTourSkinsMatch_001:
 @  #01 @000   ----------------------------------------
 Label_014D2F8C:
- .byte   TEMPO , 118*song01_tbs/2
- .byte   KEYSH , song01_key+0
+ .byte   TEMPO , 118*ToadstoolTourSkinsMatch_tbs/2
+ .byte   KEYSH , ToadstoolTourSkinsMatch_key+0
  .byte   VOICE , 36
- .byte   VOL , 35*song01_mvl/mxv
+ .byte   VOL , 35*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   PAN , c_v-1
  .byte   N06 ,Fn0 ,v102
  .byte   W06
@@ -854,7 +854,7 @@ Label_014D32BA:
  .byte   Cn1
  .byte   W06
 @  #01 @040   ----------------------------------------
- .byte   VOL , 35*song01_mvl/mxv
+ .byte   VOL , 35*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   PAN , c_v-1
  .byte   N12 ,Cn1 ,v102
  .byte   W12
@@ -1929,276 +1929,276 @@ Label_014D32BA:
  .byte   W06
  .byte   Cn1
  .byte   W05
- .byte   VOL , 34*song01_mvl/mxv
+ .byte   VOL , 34*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   PAN , c_v-1
  .byte   N12 ,Cn1 ,v102
  .byte   W03
 @  #01 @084   ----------------------------------------
- .byte   VOL , 32*song01_mvl/mxv
+ .byte   VOL , 32*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 31*song01_mvl/mxv
+ .byte   VOL , 31*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 29*song01_mvl/mxv
+ .byte   VOL , 29*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N12 ,Cn1 ,v102
  .byte   W02
- .byte   VOL , 28*song01_mvl/mxv
+ .byte   VOL , 28*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 27*song01_mvl/mxv
+ .byte   VOL , 27*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 25*song01_mvl/mxv
+ .byte   VOL , 25*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N12 ,Cn1 ,v102
  .byte   W01
- .byte   VOL , 24*song01_mvl/mxv
+ .byte   VOL , 24*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 23*song01_mvl/mxv
+ .byte   VOL , 23*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 21*song01_mvl/mxv
+ .byte   VOL , 21*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N12 ,Cn1 ,v102
  .byte   W01
- .byte   VOL , 20*song01_mvl/mxv
+ .byte   VOL , 20*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 19*song01_mvl/mxv
+ .byte   VOL , 19*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 17*song01_mvl/mxv
- .byte   W03
- .byte   N12 ,Cn1 ,v102
- .byte   VOL , 16*song01_mvl/mxv
- .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
- .byte   W03
- .byte   VOL , 13*song01_mvl/mxv
+ .byte   VOL , 17*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
  .byte   N12 ,Cn1 ,v102
- .byte   VOL , 12*song01_mvl/mxv
+ .byte   VOL , 16*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 11*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 13*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 8*song01_mvl/mxv
+ .byte   N12 ,Cn1 ,v102
+ .byte   VOL , 12*ToadstoolTourSkinsMatch_mvl/mxv
+ .byte   W03
+ .byte   VOL , 11*ToadstoolTourSkinsMatch_mvl/mxv
+ .byte   W03
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
+ .byte   W03
+ .byte   VOL , 8*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N12 ,Cn1 ,v102
  .byte   W03
- .byte   VOL , 7*song01_mvl/mxv
+ .byte   VOL , 7*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 6*song01_mvl/mxv
+ .byte   VOL , 6*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 5*song01_mvl/mxv
+ .byte   VOL , 5*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N12 ,Cn1 ,v102
  .byte   W02
- .byte   VOL , 3*song01_mvl/mxv
+ .byte   VOL , 3*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 2*song01_mvl/mxv
+ .byte   VOL , 2*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 1*song01_mvl/mxv
+ .byte   VOL , 1*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N12 ,As0 ,v102
  .byte   W02
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N12 ,As0 ,v102
  .byte   W01
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N12 ,As0 ,v102
  .byte   W01
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
 @  #01 @085   ----------------------------------------
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
  .byte   N12 ,As0 ,v102
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N12 ,As0 ,v102
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N12 ,As0 ,v102
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N12 ,As0 ,v102
  .byte   W02
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N12 ,As0 ,v102
  .byte   W02
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N12 ,An0 ,v102
  .byte   W01
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N12 ,An0 ,v102
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
  .byte   N12 ,An0 ,v102
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N12 ,An0 ,v102
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N12 ,An0 ,v102
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
 @  #01 @086   ----------------------------------------
  .byte   N12 ,An0 ,v102
  .byte   W02
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N12 ,An0 ,v102
  .byte   W01
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N12 ,An0 ,v102
  .byte   W01
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
- .byte   W03
- .byte   N12 ,Gs0 ,v102
- .byte   VOL , 0*song01_mvl/mxv
- .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
- .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
  .byte   N12 ,Gs0 ,v102
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   N12 ,Gs0 ,v102
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
+ .byte   W03
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
+ .byte   W03
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
+ .byte   W03
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N12 ,Gs0 ,v102
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N12 ,Gs0 ,v102
  .byte   W02
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N12 ,As0 ,v102
  .byte   W02
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N06 ,As1 ,v102
  .byte   W01
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N06 ,As0 ,v102
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N06 ,Fn1 ,v102
  .byte   W01
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N06 ,Dn1 ,v102
  .byte   W02
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
  .byte   N06 ,As0 ,v102
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
 @  #01 @087   ----------------------------------------
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N06 ,Fn0 ,v102
  .byte   W02
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
  .byte   FINE
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song01_002:
+ToadstoolTourSkinsMatch_002:
 @  #02 @000   ----------------------------------------
 Label_014D3920:
- .byte   TEMPO , 118*song01_tbs/2
- .byte   KEYSH , song01_key+0
+ .byte   TEMPO , 118*ToadstoolTourSkinsMatch_tbs/2
+ .byte   KEYSH , ToadstoolTourSkinsMatch_key+0
  .byte   VOICE , 34
- .byte   VOL , 68*song01_mvl/mxv
+ .byte   VOL , 68*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   PAN , c_v-1
  .byte   N06 ,Fn0 ,v102
  .byte   W06
@@ -3030,7 +3030,7 @@ Label_014D3C4E:
  .byte   Cn1
  .byte   W06
 @  #02 @040   ----------------------------------------
- .byte   VOL , 68*song01_mvl/mxv
+ .byte   VOL , 68*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   PAN , c_v-1
  .byte   N12 ,Cn1 ,v102
  .byte   W12
@@ -4106,299 +4106,299 @@ Label_014D3C4E:
  .byte   Cn1
  .byte   W06
 @  #02 @084   ----------------------------------------
- .byte   VOL , 67*song01_mvl/mxv
+ .byte   VOL , 67*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   PAN , c_v-1
  .byte   N12 ,Cn1 ,v102
  .byte   W03
- .byte   VOL , 65*song01_mvl/mxv
+ .byte   VOL , 65*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 63*song01_mvl/mxv
+ .byte   VOL , 63*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 62*song01_mvl/mxv
+ .byte   VOL , 62*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N12 ,Cn1 ,v102
  .byte   W01
- .byte   VOL , 60*song01_mvl/mxv
+ .byte   VOL , 60*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 59*song01_mvl/mxv
+ .byte   VOL , 59*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 57*song01_mvl/mxv
+ .byte   VOL , 57*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 56*song01_mvl/mxv
+ .byte   VOL , 56*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N12 ,Cn1 ,v102
  .byte   W03
- .byte   VOL , 54*song01_mvl/mxv
+ .byte   VOL , 54*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 53*song01_mvl/mxv
+ .byte   VOL , 53*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 52*song01_mvl/mxv
+ .byte   VOL , 52*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N12 ,Cn1 ,v102
  .byte   W01
- .byte   VOL , 50*song01_mvl/mxv
+ .byte   VOL , 50*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 49*song01_mvl/mxv
+ .byte   VOL , 49*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 47*song01_mvl/mxv
+ .byte   VOL , 47*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 46*song01_mvl/mxv
+ .byte   VOL , 46*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N12 ,Cn1 ,v102
  .byte   W02
- .byte   VOL , 44*song01_mvl/mxv
+ .byte   VOL , 44*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 43*song01_mvl/mxv
+ .byte   VOL , 43*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 42*song01_mvl/mxv
+ .byte   VOL , 42*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N12 ,Cn1 ,v102
  .byte   W01
- .byte   VOL , 40*song01_mvl/mxv
+ .byte   VOL , 40*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 39*song01_mvl/mxv
+ .byte   VOL , 39*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 38*song01_mvl/mxv
+ .byte   VOL , 38*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 36*song01_mvl/mxv
+ .byte   VOL , 36*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N12 ,Cn1 ,v102
  .byte   W02
- .byte   VOL , 35*song01_mvl/mxv
+ .byte   VOL , 35*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 34*song01_mvl/mxv
+ .byte   VOL , 34*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 32*song01_mvl/mxv
+ .byte   VOL , 32*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N12 ,Cn1 ,v102
- .byte   VOL , 31*song01_mvl/mxv
+ .byte   VOL , 31*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 30*song01_mvl/mxv
+ .byte   VOL , 30*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 28*song01_mvl/mxv
+ .byte   VOL , 28*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 27*song01_mvl/mxv
+ .byte   VOL , 27*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N12 ,As0 ,v102
  .byte   W02
- .byte   VOL , 26*song01_mvl/mxv
+ .byte   VOL , 26*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 25*song01_mvl/mxv
+ .byte   VOL , 25*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 23*song01_mvl/mxv
+ .byte   VOL , 23*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N12 ,As0 ,v102
- .byte   VOL , 22*song01_mvl/mxv
+ .byte   VOL , 22*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 21*song01_mvl/mxv
+ .byte   VOL , 21*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
 @  #02 @085   ----------------------------------------
- .byte   VOL , 20*song01_mvl/mxv
+ .byte   VOL , 20*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 18*song01_mvl/mxv
+ .byte   VOL , 18*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N12 ,As0 ,v102
  .byte   W02
- .byte   VOL , 17*song01_mvl/mxv
+ .byte   VOL , 17*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 16*song01_mvl/mxv
+ .byte   VOL , 16*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
  .byte   N12 ,As0 ,v102
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N12 ,As0 ,v102
  .byte   W01
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N12 ,As0 ,v102
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N12 ,As0 ,v102
  .byte   W01
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N12 ,As0 ,v102
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
- .byte   W02
- .byte   N12 ,An0 ,v102
- .byte   W01
- .byte   VOL , 15*song01_mvl/mxv
- .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
- .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
- .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
- .byte   N12 ,An0 ,v102
- .byte   W02
- .byte   VOL , 15*song01_mvl/mxv
- .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
- .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N12 ,An0 ,v102
  .byte   W01
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
+ .byte   W03
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
+ .byte   N12 ,An0 ,v102
+ .byte   W02
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
+ .byte   W03
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
+ .byte   W03
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
+ .byte   W02
+ .byte   N12 ,An0 ,v102
+ .byte   W01
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
+ .byte   W03
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
+ .byte   W03
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
 @  #02 @086   ----------------------------------------
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N12 ,An0 ,v102
  .byte   W02
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N12 ,An0 ,v102
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N12 ,An0 ,v102
  .byte   W02
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N12 ,An0 ,v102
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N12 ,An0 ,v102
  .byte   W02
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
  .byte   N12 ,Gs0 ,v102
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
- .byte   W01
- .byte   N12 ,Gs0 ,v102
- .byte   W01
- .byte   VOL , 15*song01_mvl/mxv
- .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
- .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
- .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
- .byte   N12 ,Gs0 ,v102
- .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
- .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
- .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N12 ,Gs0 ,v102
  .byte   W01
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
+ .byte   N12 ,Gs0 ,v102
+ .byte   W03
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
+ .byte   W03
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
+ .byte   W03
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
+ .byte   W01
+ .byte   N12 ,Gs0 ,v102
+ .byte   W01
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
+ .byte   W03
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
+ .byte   W03
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
+ .byte   W03
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N12 ,As0 ,v102
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
 @  #02 @087   ----------------------------------------
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N06 ,As1 ,v102
  .byte   W01
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N06 ,As0 ,v102
  .byte   W02
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N06 ,Fn1 ,v102
  .byte   W02
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
  .byte   N06 ,Dn1 ,v102
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N06 ,As0 ,v102
  .byte   W01
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N06 ,Fn0 ,v102
  .byte   W01
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
  .byte   FINE
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song01_003:
+ToadstoolTourSkinsMatch_003:
 @  #03 @000   ----------------------------------------
 Label_014D2650:
- .byte   TEMPO , 118*song01_tbs/2
- .byte   KEYSH , song01_key+0
+ .byte   TEMPO , 118*ToadstoolTourSkinsMatch_tbs/2
+ .byte   KEYSH , ToadstoolTourSkinsMatch_key+0
  .byte   VOICE , 63
- .byte   VOL , 42*song01_mvl/mxv
+ .byte   VOL , 42*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   PAN , c_v+23
  .byte   W06
  .byte   N18 ,En3 ,v102
@@ -4765,7 +4765,7 @@ Label_014D2805:
  .byte   Dn4
  .byte   W48
 @  #03 @040   ----------------------------------------
- .byte   VOL , 42*song01_mvl/mxv
+ .byte   VOL , 42*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   PAN , c_v+23
  .byte   N18 ,Gn2 ,v102
  .byte   N18 ,Cn3
@@ -5600,321 +5600,321 @@ Label_014D2805:
  .byte   Dn4
  .byte   W48
 @  #03 @084   ----------------------------------------
- .byte   VOL , 42*song01_mvl/mxv
+ .byte   VOL , 42*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   PAN , c_v+23
  .byte   N18 ,Cn3 ,v102
  .byte   N18 ,En3
  .byte   N18 ,Gn2
- .byte   VOL , 40*song01_mvl/mxv
+ .byte   VOL , 40*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 39*song01_mvl/mxv
+ .byte   VOL , 39*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 38*song01_mvl/mxv
+ .byte   VOL , 38*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 36*song01_mvl/mxv
+ .byte   VOL , 36*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 35*song01_mvl/mxv
+ .byte   VOL , 35*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N06 ,Cn3 ,v102
  .byte   N06 ,Gn2
  .byte   N06 ,Dn3
  .byte   W02
- .byte   VOL , 34*song01_mvl/mxv
+ .byte   VOL , 34*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 32*song01_mvl/mxv
+ .byte   VOL , 32*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 31*song01_mvl/mxv
+ .byte   VOL , 31*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N06 ,En3 ,v102
  .byte   N06 ,Gn2
  .byte   N06 ,Cn3
  .byte   W02
- .byte   VOL , 30*song01_mvl/mxv
+ .byte   VOL , 30*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 28*song01_mvl/mxv
+ .byte   VOL , 28*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 27*song01_mvl/mxv
+ .byte   VOL , 27*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N06 ,Cn3 ,v102
  .byte   N06 ,Fn3
  .byte   N06 ,Gn2
  .byte   W02
- .byte   VOL , 26*song01_mvl/mxv
+ .byte   VOL , 26*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 25*song01_mvl/mxv
+ .byte   VOL , 25*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 23*song01_mvl/mxv
+ .byte   VOL , 23*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N06 ,Cn3 ,v102
  .byte   N06 ,Fn3
  .byte   N06 ,Gn2
  .byte   W03
- .byte   VOL , 22*song01_mvl/mxv
+ .byte   VOL , 22*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 21*song01_mvl/mxv
+ .byte   VOL , 21*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 20*song01_mvl/mxv
+ .byte   VOL , 20*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N06 ,En3 ,v102
  .byte   N06 ,Gn2
  .byte   N06 ,Cn3
  .byte   W03
- .byte   VOL , 18*song01_mvl/mxv
+ .byte   VOL , 18*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N12 ,Dn3 ,v102
  .byte   N12 ,Cn3
  .byte   N12 ,Gn2
  .byte   W01
- .byte   VOL , 17*song01_mvl/mxv
+ .byte   VOL , 17*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 16*song01_mvl/mxv
+ .byte   VOL , 16*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N12 ,En3 ,v102
  .byte   N12 ,Gn2
  .byte   N12 ,Cn3
  .byte   W01
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N18 ,En3 ,v102
  .byte   N18 ,Cn3
  .byte   N18 ,Gn2
  .byte   W01
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
 @  #03 @085   ----------------------------------------
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N06 ,Gn2 ,v102
  .byte   N06 ,Dn3
  .byte   N06 ,Cn3
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N06 ,Gn2 ,v102
  .byte   N06 ,Cn3
  .byte   N06 ,En3
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N06 ,Cn3 ,v102
  .byte   N06 ,Gn2
  .byte   N06 ,Fn3
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N06 ,Gn2 ,v102
  .byte   N06 ,Fn3
  .byte   N06 ,Cn3
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N06 ,Gn2 ,v102
  .byte   N06 ,Cn3
  .byte   N06 ,En3
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N12 ,Cn3 ,v102
  .byte   N12 ,Gn2
  .byte   N12 ,Dn3
  .byte   W01
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N12 ,Gn2 ,v102
  .byte   N12 ,En3
  .byte   N12 ,Cn3
  .byte   W01
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N18 ,En3 ,v102
  .byte   N18 ,Gn2
  .byte   N18 ,Cn3
  .byte   W01
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
 @  #03 @086   ----------------------------------------
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N06 ,Cn3 ,v102
  .byte   N06 ,Gn2
  .byte   N06 ,Dn3
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N06 ,Gn2 ,v102
  .byte   N06 ,En3
  .byte   N06 ,Cn3
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N06 ,Gn2 ,v102
  .byte   N06 ,Cn3
  .byte   N06 ,Fn3
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N06 ,Cn3 ,v102
  .byte   N06 ,Gn2
  .byte   N06 ,Fn3
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N06 ,Gn2 ,v102
  .byte   N06 ,Cn3
  .byte   N06 ,En3
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N12 ,Dn3 ,v102
  .byte   N12 ,Gn2
  .byte   N12 ,Cn3
  .byte   W01
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N12 ,En3 ,v102
  .byte   N12 ,Cn3
  .byte   N12 ,Gn2
  .byte   W01
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N18 ,Cn3 ,v102
  .byte   N18 ,En3
  .byte   N18 ,Gs2
  .byte   W02
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
  .byte   N06 ,Dn3 ,v102
  .byte   N06 ,Gs2
  .byte   N06 ,Cn3
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
 @  #03 @087   ----------------------------------------
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
  .byte   N06 ,En3 ,v102
  .byte   N06 ,Gs2
  .byte   N06 ,Cn3
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
  .byte   N06 ,Fn3 ,v102
  .byte   N06 ,Dn3
  .byte   N06 ,As2
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
  .byte   N06 ,Fn3 ,v102
  .byte   N06 ,Dn3
  .byte   N06 ,As2
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
  .byte   N06 ,En3 ,v102
  .byte   N06 ,As2
  .byte   N06 ,Dn3
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N12 ,As2 ,v102
  .byte   N12 ,Dn3
  .byte   W02
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N12 ,Dn3 ,v102
  .byte   N12 ,As2
  .byte   N12 ,En3
  .byte   W02
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W05
  .byte   FINE
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song01_004:
+ToadstoolTourSkinsMatch_004:
 @  #04 @000   ----------------------------------------
 Label_014D4750:
- .byte   TEMPO , 118*song01_tbs/2
- .byte   KEYSH , song01_key+0
+ .byte   TEMPO , 118*ToadstoolTourSkinsMatch_tbs/2
+ .byte   KEYSH , ToadstoolTourSkinsMatch_key+0
  .byte   VOICE , 63
- .byte   VOL , 11*song01_mvl/mxv
+ .byte   VOL , 11*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   PAN , c_v-25
  .byte   N12 ,Dn3 ,v083
  .byte   N12 ,As2
@@ -7119,261 +7119,261 @@ Label_014D490A:
  .byte   W48
  .byte   Dn4
  .byte   W42
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   PAN , c_v-25
  .byte   W06
 @  #04 @085   ----------------------------------------
  .byte   N18 ,Cn3 ,v083
  .byte   N18 ,Gn2
  .byte   N18 ,En3
- .byte   VOL , 9*song01_mvl/mxv
+ .byte   VOL , 9*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W06
- .byte   VOL , 8*song01_mvl/mxv
+ .byte   VOL , 8*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W06
- .byte   VOL , 7*song01_mvl/mxv
+ .byte   VOL , 7*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W05
  .byte   N06 ,Gn2 ,v083
  .byte   N06 ,Dn3
  .byte   N06 ,Cn3
- .byte   VOL , 6*song01_mvl/mxv
+ .byte   VOL , 6*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W06
- .byte   VOL , 5*song01_mvl/mxv
+ .byte   VOL , 5*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W05
  .byte   N06 ,En3 ,v083
  .byte   N06 ,Cn3
  .byte   N06 ,Gn2
  .byte   W01
- .byte   VOL , 4*song01_mvl/mxv
+ .byte   VOL , 4*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W06
- .byte   VOL , 3*song01_mvl/mxv
+ .byte   VOL , 3*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
  .byte   N06 ,Fn3 ,v083
  .byte   N06 ,Gn2
  .byte   N06 ,Cn3
  .byte   W01
- .byte   VOL , 3*song01_mvl/mxv
+ .byte   VOL , 3*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W06
- .byte   VOL , 2*song01_mvl/mxv
+ .byte   VOL , 2*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
  .byte   N06 ,Fn3 ,v083
  .byte   N06 ,Cn3
  .byte   N06 ,Gn2
  .byte   W01
- .byte   VOL , 1*song01_mvl/mxv
+ .byte   VOL , 1*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W06
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
  .byte   N06 ,En3 ,v083
  .byte   N06 ,Gn2
  .byte   N06 ,Cn3
  .byte   W02
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
  .byte   N12 ,Gn2 ,v083
  .byte   N12 ,Cn3
  .byte   N12 ,Dn3
  .byte   W02
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W06
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
  .byte   N12 ,Cn3 ,v083
  .byte   N12 ,Gn2
  .byte   N12 ,En3
  .byte   W02
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W06
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
  .byte   N18 ,En3 ,v083
  .byte   N18 ,Cn3
  .byte   N18 ,Gn2
  .byte   W02
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W06
 @  #04 @086   ----------------------------------------
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W06
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N06 ,Gn2 ,v083
  .byte   N06 ,Cn3
  .byte   N06 ,Dn3
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W06
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N06 ,En3 ,v083
  .byte   N06 ,Gn2
  .byte   N06 ,Cn3
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W06
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N06 ,Gn2 ,v083
  .byte   N06 ,Fn3
  .byte   N06 ,Cn3
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W06
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N06 ,Fn3 ,v083
  .byte   N06 ,Cn3
  .byte   N06 ,Gn2
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W06
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N06 ,Cn3 ,v083
  .byte   N06 ,Gn2
  .byte   N06 ,En3
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N12 ,Gn2 ,v083
  .byte   N12 ,Dn3
  .byte   N12 ,Cn3
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W06
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N12 ,Gn2 ,v083
  .byte   N12 ,Cn3
  .byte   N12 ,En3
  .byte   W05
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W06
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N18 ,Gn2 ,v083
  .byte   N18 ,Cn3
  .byte   N18 ,En3
  .byte   W05
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W06
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W06
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N06 ,Gn2 ,v083
  .byte   N06 ,Cn3
  .byte   N06 ,Dn3
  .byte   W06
 @  #04 @087   ----------------------------------------
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W05
  .byte   N06 ,En3 ,v083
  .byte   N06 ,Gn2
  .byte   N06 ,Cn3
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W06
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W05
  .byte   N06 ,Fn3 ,v083
  .byte   N06 ,Cn3
  .byte   N06 ,Gn2
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W06
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W05
  .byte   N06 ,Cn3 ,v083
  .byte   N06 ,Fn3
  .byte   N06 ,Gn2
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W06
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
  .byte   N06 ,En3 ,v083
  .byte   N06 ,Gn2
  .byte   N06 ,Cn3
  .byte   W01
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
  .byte   N12 ,Gn2 ,v083
  .byte   N12 ,Dn3
  .byte   N12 ,Cn3
  .byte   W01
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W06
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
  .byte   N12 ,Cn3 ,v083
  .byte   N12 ,Gn2
  .byte   N12 ,En3
  .byte   W01
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W06
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
  .byte   N18 ,Gs2 ,v083
  .byte   N18 ,En3
  .byte   N18 ,Cn3
  .byte   W02
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W06
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W06
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
  .byte   N06 ,Dn3 ,v083
  .byte   N06 ,Cn3
  .byte   N06 ,Gs2
  .byte   W02
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W06
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
  .byte   N06 ,En3 ,v083
  .byte   N06 ,Cn3
  .byte   N06 ,Gs2
  .byte   W02
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W06
 @  #04 @088   ----------------------------------------
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N06 ,Fn3 ,v083
  .byte   N06 ,As2
  .byte   N06 ,Dn3
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W06
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N06 ,Dn3 ,v083
  .byte   N06 ,As2
  .byte   N06 ,Fn3
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W06
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N06 ,Dn3 ,v083
  .byte   N06 ,En3
  .byte   N06 ,As2
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N12 ,Dn3 ,v083
  .byte   N12 ,As2
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W06
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W07
  .byte   FINE
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song01_005:
+ToadstoolTourSkinsMatch_005:
 @  #05 @000   ----------------------------------------
 Label_014D4F30:
- .byte   TEMPO , 118*song01_tbs/2
- .byte   KEYSH , song01_key+0
+ .byte   TEMPO , 118*ToadstoolTourSkinsMatch_tbs/2
+ .byte   KEYSH , ToadstoolTourSkinsMatch_key+0
  .byte   VOICE , 90
- .byte   VOL , 35*song01_mvl/mxv
+ .byte   VOL , 35*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   PAN , c_v-13
  .byte   W06
  .byte   N18 ,En3 ,v102
@@ -7740,7 +7740,7 @@ Label_014D50E5:
  .byte   Dn4
  .byte   W48
 @  #05 @040   ----------------------------------------
- .byte   VOL , 35*song01_mvl/mxv
+ .byte   VOL , 35*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   PAN , c_v-13
  .byte   N18 ,Gn2 ,v102
  .byte   N18 ,Cn3
@@ -8575,332 +8575,332 @@ Label_014D50E5:
  .byte   Dn4
  .byte   W48
 @  #05 @084   ----------------------------------------
- .byte   VOL , 34*song01_mvl/mxv
+ .byte   VOL , 34*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   PAN , c_v-13
  .byte   N18 ,Cn3 ,v102
  .byte   N18 ,Gn2
  .byte   N18 ,En3
  .byte   W03
- .byte   VOL , 32*song01_mvl/mxv
+ .byte   VOL , 32*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 31*song01_mvl/mxv
+ .byte   VOL , 31*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 29*song01_mvl/mxv
+ .byte   VOL , 29*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 28*song01_mvl/mxv
+ .byte   VOL , 28*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N06 ,Dn3 ,v102
  .byte   N06 ,Gn2
  .byte   N06 ,Cn3
- .byte   VOL , 27*song01_mvl/mxv
+ .byte   VOL , 27*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 25*song01_mvl/mxv
+ .byte   VOL , 25*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 24*song01_mvl/mxv
+ .byte   VOL , 24*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
  .byte   N06 ,En3 ,v102
  .byte   N06 ,Gn2
  .byte   N06 ,Cn3
- .byte   VOL , 23*song01_mvl/mxv
+ .byte   VOL , 23*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 21*song01_mvl/mxv
+ .byte   VOL , 21*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 20*song01_mvl/mxv
+ .byte   VOL , 20*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 19*song01_mvl/mxv
+ .byte   VOL , 19*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N06 ,Fn3 ,v102
  .byte   N06 ,Cn3
  .byte   N06 ,Gn2
  .byte   W03
- .byte   VOL , 17*song01_mvl/mxv
+ .byte   VOL , 17*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 16*song01_mvl/mxv
+ .byte   VOL , 16*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N06 ,Gn2 ,v102
  .byte   N06 ,Cn3
  .byte   N06 ,Fn3
  .byte   W02
- .byte   VOL , 13*song01_mvl/mxv
+ .byte   VOL , 13*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 12*song01_mvl/mxv
+ .byte   VOL , 12*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 11*song01_mvl/mxv
+ .byte   VOL , 11*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N06 ,Cn3 ,v102
  .byte   N06 ,En3
  .byte   N06 ,Gn2
  .byte   W02
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
  .byte   N12 ,Cn3 ,v102
  .byte   N12 ,Gn2
  .byte   N12 ,Dn3
- .byte   VOL , 8*song01_mvl/mxv
+ .byte   VOL , 8*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 7*song01_mvl/mxv
+ .byte   VOL , 7*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 6*song01_mvl/mxv
+ .byte   VOL , 6*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 5*song01_mvl/mxv
+ .byte   VOL , 5*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N12 ,En3 ,v102
  .byte   N12 ,Gn2
  .byte   N12 ,Cn3
  .byte   W03
- .byte   VOL , 3*song01_mvl/mxv
+ .byte   VOL , 3*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 2*song01_mvl/mxv
+ .byte   VOL , 2*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 1*song01_mvl/mxv
+ .byte   VOL , 1*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N18 ,Gn2 ,v102
  .byte   N18 ,Cn3
  .byte   N18 ,En3
  .byte   W02
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N06 ,Dn3 ,v102
  .byte   N06 ,Gn2
  .byte   N06 ,Cn3
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
 @  #05 @085   ----------------------------------------
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N06 ,Gn2 ,v102
  .byte   N06 ,En3
  .byte   N06 ,Cn3
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N06 ,Cn3 ,v102
  .byte   N06 ,Gn2
  .byte   N06 ,Fn3
  .byte   W02
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N06 ,Cn3 ,v102
  .byte   N06 ,Fn3
  .byte   N06 ,Gn2
  .byte   W01
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N06 ,Gn2 ,v102
  .byte   N06 ,Cn3
  .byte   N06 ,En3
  .byte   W01
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N12 ,Cn3 ,v102
  .byte   N12 ,Dn3
  .byte   N12 ,Gn2
  .byte   W02
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N12 ,Gn2 ,v102
  .byte   N12 ,Cn3
  .byte   N12 ,En3
  .byte   W02
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N18 ,Gn2 ,v102
  .byte   N18 ,En3
  .byte   N18 ,Cn3
  .byte   W01
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N06 ,Gn2 ,v102
  .byte   N06 ,Cn3
  .byte   N06 ,Dn3
  .byte   W02
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N06 ,Cn3 ,v102
  .byte   N06 ,Gn2
  .byte   N06 ,En3
  .byte   W01
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N06 ,Fn3 ,v102
  .byte   N06 ,Cn3
  .byte   N06 ,Gn2
  .byte   W01
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
  .byte   N06 ,Gn2 ,v102
  .byte   N06 ,Cn3
  .byte   N06 ,Fn3
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
 @  #05 @086   ----------------------------------------
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N06 ,Cn3 ,v102
  .byte   N06 ,Gn2
  .byte   N06 ,En3
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N12 ,Gn2 ,v102
  .byte   N12 ,Cn3
  .byte   N12 ,Dn3
  .byte   W01
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N12 ,Gn2 ,v102
  .byte   N12 ,En3
  .byte   N12 ,Cn3
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
  .byte   N18 ,En3 ,v102
  .byte   N18 ,Gs2
  .byte   N18 ,Cn3
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N06 ,Cn3 ,v102
  .byte   N06 ,Dn3
  .byte   N06 ,Gs2
  .byte   W01
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
  .byte   N06 ,Cn3 ,v102
  .byte   N06 ,En3
  .byte   N06 ,Gs2
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
  .byte   N06 ,As2 ,v102
  .byte   N06 ,Fn3
  .byte   N06 ,Dn3
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N06 ,As2 ,v102
  .byte   N06 ,Dn3
  .byte   N06 ,Fn3
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N06 ,Dn3 ,v102
  .byte   N06 ,As2
  .byte   N06 ,En3
  .byte   W02
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
  .byte   N12 ,As2 ,v102
  .byte   N12 ,Dn3
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N12 ,Dn3 ,v102
  .byte   N12 ,En3
  .byte   N12 ,As2
  .byte   W03
 @  #05 @087   ----------------------------------------
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
  .byte   FINE
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song01_006:
+ToadstoolTourSkinsMatch_006:
 @  #06 @000   ----------------------------------------
 Label_014D220C:
- .byte   TEMPO , 118*song01_tbs/2
- .byte   KEYSH , song01_key+0
+ .byte   TEMPO , 118*ToadstoolTourSkinsMatch_tbs/2
+ .byte   KEYSH , ToadstoolTourSkinsMatch_key+0
  .byte   VOICE , 50
- .byte   VOL , 25*song01_mvl/mxv
+ .byte   VOL , 25*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   PAN , c_v-19
  .byte   W06
  .byte   N48 ,Bn2 ,v102
@@ -9145,7 +9145,7 @@ Label_014D232B:
  .byte   N48 ,Gn3
  .byte   W48
 @  #06 @040   ----------------------------------------
- .byte   VOL , 25*song01_mvl/mxv
+ .byte   VOL , 25*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   PAN , c_v-19
  .byte   N48 ,Gn4 ,v102
  .byte   W48
@@ -9441,222 +9441,222 @@ Label_014D232B:
  .byte   N48 ,Gn3
  .byte   W48
 @  #06 @084   ----------------------------------------
- .byte   VOL , 24*song01_mvl/mxv
+ .byte   VOL , 24*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   PAN , c_v-19
  .byte   N48 ,Gn4 ,v102
  .byte   W04
- .byte   VOL , 23*song01_mvl/mxv
+ .byte   VOL , 23*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 21*song01_mvl/mxv
+ .byte   VOL , 21*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 20*song01_mvl/mxv
+ .byte   VOL , 20*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 19*song01_mvl/mxv
+ .byte   VOL , 19*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 17*song01_mvl/mxv
+ .byte   VOL , 17*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 16*song01_mvl/mxv
+ .byte   VOL , 16*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 13*song01_mvl/mxv
+ .byte   VOL , 13*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 12*song01_mvl/mxv
+ .byte   VOL , 12*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 11*song01_mvl/mxv
+ .byte   VOL , 11*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
  .byte   N48 ,Cn4 ,v102
- .byte   VOL , 8*song01_mvl/mxv
+ .byte   VOL , 8*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 7*song01_mvl/mxv
+ .byte   VOL , 7*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 6*song01_mvl/mxv
+ .byte   VOL , 6*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 5*song01_mvl/mxv
+ .byte   VOL , 5*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 3*song01_mvl/mxv
+ .byte   VOL , 3*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 2*song01_mvl/mxv
+ .byte   VOL , 2*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 1*song01_mvl/mxv
+ .byte   VOL , 1*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N48 ,Gn4 ,v102
  .byte   W01
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
 @  #06 @085   ----------------------------------------
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N48 ,Cn5 ,v102
  .byte   W02
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N48 ,Cn5 ,v102
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
 @  #06 @086   ----------------------------------------
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
  .byte   N24 ,Gn4 ,v102
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
  .byte   N24 ,Cn5 ,v102
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N48 ,Cn5 ,v102
  .byte   W01
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
 @  #06 @087   ----------------------------------------
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N48 ,As4 ,v102
  .byte   W02
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
  .byte   FINE
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-song01_007:
+ToadstoolTourSkinsMatch_007:
 @  #07 @000   ----------------------------------------
 Label_014B7454:
- .byte   TEMPO , 118*song01_tbs/2
- .byte   KEYSH , song01_key+0
+ .byte   TEMPO , 118*ToadstoolTourSkinsMatch_tbs/2
+ .byte   KEYSH , ToadstoolTourSkinsMatch_key+0
  .byte   VOICE , 7
- .byte   VOL , 27*song01_mvl/mxv
+ .byte   VOL , 27*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   PAN , c_v-39
  .byte   N06 ,Cn5 ,v102
  .byte   W96
@@ -9813,7 +9813,7 @@ Label_014B7497:
  .byte   W96
 @  #07 @041   ----------------------------------------
  .byte   W06
- .byte   VOL , 27*song01_mvl/mxv
+ .byte   VOL , 27*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   PAN , c_v-39
  .byte   N06 ,Cn4 ,v102
  .byte   W06
@@ -10275,213 +10275,213 @@ Label_014B7497:
  .byte   W96
 @  #07 @085   ----------------------------------------
  .byte   W06
- .byte   VOL , 25*song01_mvl/mxv
+ .byte   VOL , 25*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   PAN , c_v-39
  .byte   N06 ,Cn4 ,v102
  .byte   W04
- .byte   VOL , 24*song01_mvl/mxv
+ .byte   VOL , 24*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N06 ,Cn4 ,v102
  .byte   W02
- .byte   VOL , 23*song01_mvl/mxv
+ .byte   VOL , 23*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
  .byte   N06 ,Cn5 ,v102
- .byte   VOL , 21*song01_mvl/mxv
+ .byte   VOL , 21*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 20*song01_mvl/mxv
+ .byte   VOL , 20*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N06 ,Cn4 ,v102
  .byte   W02
- .byte   VOL , 19*song01_mvl/mxv
+ .byte   VOL , 19*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
  .byte   N06 ,Cn5 ,v102
- .byte   VOL , 17*song01_mvl/mxv
+ .byte   VOL , 17*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 16*song01_mvl/mxv
+ .byte   VOL , 16*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N06 ,Cn4 ,v102
  .byte   W02
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
  .byte   N06 ,Cn4 ,v102
- .byte   VOL , 13*song01_mvl/mxv
+ .byte   VOL , 13*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 12*song01_mvl/mxv
- .byte   W01
- .byte   N06 ,Cn5 ,v102
- .byte   W02
- .byte   VOL , 11*song01_mvl/mxv
- .byte   W03
- .byte   N06 ,Cn4 ,v102
- .byte   VOL , 10*song01_mvl/mxv
- .byte   W04
- .byte   VOL , 8*song01_mvl/mxv
- .byte   W01
- .byte   N06 ,Cn4 ,v102
- .byte   W02
- .byte   VOL , 7*song01_mvl/mxv
- .byte   W03
- .byte   N06 ,Cn5 ,v102
- .byte   VOL , 6*song01_mvl/mxv
- .byte   W04
- .byte   VOL , 5*song01_mvl/mxv
- .byte   W01
- .byte   N06 ,Cn4 ,v102
- .byte   W02
- .byte   VOL , 3*song01_mvl/mxv
- .byte   W03
- .byte   N06 ,Cn5 ,v102
- .byte   VOL , 2*song01_mvl/mxv
- .byte   W04
- .byte   VOL , 1*song01_mvl/mxv
- .byte   W01
- .byte   N06 ,Cn4 ,v102
- .byte   W02
- .byte   VOL , 0*song01_mvl/mxv
- .byte   W03
- .byte   N06 ,Cn4 ,v102
- .byte   VOL , 0*song01_mvl/mxv
- .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 12*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N06 ,Cn5 ,v102
  .byte   W02
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 11*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
  .byte   N06 ,Cn4 ,v102
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 8*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N06 ,Cn4 ,v102
  .byte   W02
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 7*ToadstoolTourSkinsMatch_mvl/mxv
+ .byte   W03
+ .byte   N06 ,Cn5 ,v102
+ .byte   VOL , 6*ToadstoolTourSkinsMatch_mvl/mxv
+ .byte   W04
+ .byte   VOL , 5*ToadstoolTourSkinsMatch_mvl/mxv
+ .byte   W01
+ .byte   N06 ,Cn4 ,v102
+ .byte   W02
+ .byte   VOL , 3*ToadstoolTourSkinsMatch_mvl/mxv
+ .byte   W03
+ .byte   N06 ,Cn5 ,v102
+ .byte   VOL , 2*ToadstoolTourSkinsMatch_mvl/mxv
+ .byte   W04
+ .byte   VOL , 1*ToadstoolTourSkinsMatch_mvl/mxv
+ .byte   W01
+ .byte   N06 ,Cn4 ,v102
+ .byte   W02
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
+ .byte   W03
+ .byte   N06 ,Cn4 ,v102
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
+ .byte   W04
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
+ .byte   W01
+ .byte   N06 ,Cn5 ,v102
+ .byte   W02
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
+ .byte   W03
+ .byte   N06 ,Cn4 ,v102
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
+ .byte   W04
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
+ .byte   W01
+ .byte   N06 ,Cn4 ,v102
+ .byte   W02
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
 @  #07 @086   ----------------------------------------
  .byte   N06 ,Cn5 ,v102
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N06 ,Cn4 ,v102
  .byte   W02
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
  .byte   N06 ,Cn5 ,v102
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N06 ,Cn4 ,v102
  .byte   W02
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
  .byte   N06 ,Cn4 ,v102
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N06 ,Cn5 ,v102
  .byte   W02
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
  .byte   N06 ,Cn4 ,v102
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N06 ,Cn4 ,v102
  .byte   W02
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
  .byte   N06 ,Cn5 ,v102
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N06 ,Cn4 ,v102
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
- .byte   W02
- .byte   N06 ,Cn5 ,v102
- .byte   W01
- .byte   VOL , 0*song01_mvl/mxv
- .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
- .byte   N06 ,Cn4 ,v102
- .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
- .byte   W02
- .byte   N06 ,Cn4 ,v102
- .byte   W01
- .byte   VOL , 0*song01_mvl/mxv
- .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
- .byte   N06 ,Cn5 ,v102
- .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
- .byte   W02
- .byte   N06 ,Cn4 ,v102
- .byte   W01
- .byte   VOL , 0*song01_mvl/mxv
- .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
- .byte   N06 ,Cn4 ,v102
- .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N06 ,Cn5 ,v102
  .byte   W01
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N06 ,Cn4 ,v102
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
+ .byte   W02
+ .byte   N06 ,Cn4 ,v102
+ .byte   W01
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
+ .byte   W04
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
+ .byte   N06 ,Cn5 ,v102
+ .byte   W03
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
+ .byte   W02
+ .byte   N06 ,Cn4 ,v102
+ .byte   W01
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
+ .byte   W04
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
+ .byte   N06 ,Cn4 ,v102
+ .byte   W03
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N06 ,Cn5 ,v102
  .byte   W01
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
+ .byte   N06 ,Cn4 ,v102
+ .byte   W03
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
+ .byte   W02
+ .byte   N06 ,Cn5 ,v102
+ .byte   W01
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
+ .byte   W04
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N06 ,Cn4 ,v102
  .byte   W03
 @  #07 @087   ----------------------------------------
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N06 ,Cn4 ,v102
  .byte   W01
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N06 ,Cn5 ,v102
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N06 ,Cn4 ,v102
  .byte   W01
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N06 ,Cn4 ,v102
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
- .byte   W02
- .byte   N06 ,Cn5 ,v102
- .byte   W01
- .byte   VOL , 0*song01_mvl/mxv
- .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
- .byte   N06 ,Cn4 ,v102
- .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N06 ,Cn5 ,v102
  .byte   W01
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
+ .byte   W04
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
+ .byte   N06 ,Cn4 ,v102
+ .byte   W03
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
+ .byte   W02
+ .byte   N06 ,Cn5 ,v102
+ .byte   W01
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
 Label_014B77FB:
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N06 ,Cn4 ,v102
  .byte   W03
  .byte   PEND 
@@ -10489,37 +10489,37 @@ Label_014B77FB:
  .byte   PATT
   .word Label_014B77FB
 @  #07 @089   ----------------------------------------
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N06 ,Cn5 ,v102
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N06 ,Cn4 ,v102
  .byte   W01
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N06 ,Cn4 ,v102
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N06 ,Cn5 ,v102
  .byte   W01
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N06 ,Cn4 ,v102
  .byte   W03
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N06 ,Cn5 ,v102
  .byte   W01
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
 Label_014B783A:
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N06 ,Cn4 ,v102
  .byte   W04
  .byte   PEND 
@@ -10527,13 +10527,13 @@ Label_014B783A:
  .byte   PATT
   .word Label_014B783A
 @  #07 @091   ----------------------------------------
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
  .byte   N06 ,Cn5 ,v102
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
 Label_014B784F:
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N06 ,Cn4 ,v102
  .byte   W02
@@ -10542,20 +10542,20 @@ Label_014B784F:
  .byte   PATT
   .word Label_014B784F
 @  #07 @093   ----------------------------------------
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N06 ,Cn5 ,v102
  .byte   W02
 Label_014B7866:
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
  .byte   N06 ,Cn4 ,v102
  .byte   PEND 
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N06 ,Cn5 ,v102
  .byte   W02
@@ -10563,28 +10563,28 @@ Label_014B7866:
  .byte   PATT
   .word Label_014B7866
 @  #07 @095   ----------------------------------------
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N06 ,Cn4 ,v102
  .byte   W02
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
  .byte   N06 ,Cn5 ,v102
- .byte   VOL , 0*song01_mvl/mxv
+ .byte   VOL , 0*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W05
  .byte   FINE
 
 @**************** Track 8 (Midi-Chn.7) ****************@
 
-song01_008:
+ToadstoolTourSkinsMatch_008:
 @  #08 @000   ----------------------------------------
 Label_014D0D24:
- .byte   TEMPO , 118*song01_tbs/2
- .byte   KEYSH , song01_key+0
+ .byte   TEMPO , 118*ToadstoolTourSkinsMatch_tbs/2
+ .byte   KEYSH , ToadstoolTourSkinsMatch_key+0
  .byte   VOICE , 90
- .byte   VOL , 20*song01_mvl/mxv
+ .byte   VOL , 20*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   PAN , c_v+38
  .byte   W06
  .byte   N18 ,En4 ,v083
@@ -11677,266 +11677,266 @@ Label_014D0EBB:
  .byte   Dn5
  .byte   W48
 @  #08 @084   ----------------------------------------
- .byte   VOL , 18*song01_mvl/mxv
+ .byte   VOL , 18*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   PAN , c_v+38
  .byte   N18 ,En4 ,v083
  .byte   N18 ,Cn4
  .byte   W04
- .byte   VOL , 17*song01_mvl/mxv
+ .byte   VOL , 17*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 16*song01_mvl/mxv
+ .byte   VOL , 16*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
  .byte   N06 ,Cn4 ,v083
  .byte   N06 ,Dn4
- .byte   VOL , 13*song01_mvl/mxv
+ .byte   VOL , 13*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 12*song01_mvl/mxv
+ .byte   VOL , 12*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 11*song01_mvl/mxv
+ .byte   VOL , 11*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N06 ,En4 ,v083
  .byte   N06 ,Cn4
  .byte   W02
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
  .byte   N06 ,Cn4 ,v083
  .byte   N06 ,Fn4
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N06 ,Cn4 ,v083
  .byte   N06 ,Fn4
  .byte   W02
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N06 ,En4 ,v083
  .byte   N06 ,Cn4
  .byte   W04
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N12 ,Dn4 ,v083
  .byte   N12 ,Cn4
  .byte   W02
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
  .byte   N12 ,Cn4 ,v083
  .byte   N12 ,En4
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N18 ,Cn4 ,v083
  .byte   N18 ,En4
  .byte   W02
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N06 ,Dn4 ,v083
  .byte   N06 ,Cn4
  .byte   W02
 @  #08 @085   ----------------------------------------
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
  .byte   N06 ,En4 ,v083
  .byte   N06 ,Cn4
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N06 ,Cn4 ,v083
  .byte   N06 ,Fn4
  .byte   W02
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N06 ,Cn4 ,v083
  .byte   N06 ,Fn4
  .byte   W04
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
  .byte   N06 ,Cn4 ,v083
  .byte   N06 ,En4
  .byte   W01
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
  .byte   N12 ,Cn4 ,v083
  .byte   N12 ,Dn4
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N12 ,En4 ,v083
  .byte   N12 ,Cn4
  .byte   W02
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N18 ,En4 ,v083
  .byte   N18 ,Cn4
  .byte   W04
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
  .byte   N06 ,Dn4 ,v083
  .byte   N06 ,Cn4
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N06 ,Cn4 ,v083
  .byte   N06 ,En4
  .byte   W02
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
 @  #08 @086   ----------------------------------------
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N06 ,Cn4 ,v083
  .byte   N06 ,Fn4
  .byte   W04
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
  .byte   N06 ,Fn4 ,v083
  .byte   N06 ,Cn4
  .byte   W01
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N06 ,Cn4 ,v083
  .byte   N06 ,En4
  .byte   W03
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N12 ,Dn4 ,v083
  .byte   N12 ,Cn4
  .byte   W02
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N12 ,En4 ,v083
  .byte   N12 ,Cn4
  .byte   W04
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N18 ,En4 ,v083
  .byte   N18 ,Cn4
  .byte   W01
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N06 ,Cn4 ,v083
  .byte   N06 ,Dn4
  .byte   W02
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N06 ,En4 ,v083
  .byte   N06 ,Cn4
  .byte   W04
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
 Label_014D13D0:
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N06 ,As3 ,v083
  .byte   N06 ,Fn4
  .byte   W01
  .byte   PEND 
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
 @  #08 @087   ----------------------------------------
  .byte   PATT
   .word Label_014D13D0
 @  #08 @088   ----------------------------------------
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
  .byte   N06 ,En4 ,v083
  .byte   N06 ,As3
  .byte   W01
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N12 ,As3 ,v083
  .byte   N12 ,Dn4
  .byte   W04
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N12 ,En4 ,v083
  .byte   N12 ,As3
  .byte   W01
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 10*song01_mvl/mxv
+ .byte   VOL , 10*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W05
  .byte   FINE
 
 @**************** Track 9 (Midi-Chn.8) ****************@
 
-song01_009:
+ToadstoolTourSkinsMatch_009:
 @  #09 @000   ----------------------------------------
 Label_014B7A1C:
- .byte   TEMPO , 118*song01_tbs/2
- .byte   KEYSH , song01_key+0
+ .byte   TEMPO , 118*ToadstoolTourSkinsMatch_tbs/2
+ .byte   KEYSH , ToadstoolTourSkinsMatch_key+0
  .byte   VOICE , 90
- .byte   VOL , 16*song01_mvl/mxv
+ .byte   VOL , 16*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   PAN , c_v+12
  .byte   W96
 @  #09 @001   ----------------------------------------
@@ -12179,7 +12179,7 @@ Label_014B7AFC:
  .byte   W06
  .byte   Gn4
  .byte   W36
- .byte   VOL , 16*song01_mvl/mxv
+ .byte   VOL , 16*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   PAN , c_v+12
  .byte   W96
 @  #09 @041   ----------------------------------------
@@ -12472,7 +12472,7 @@ Label_014B7AFC:
  .byte   W06
  .byte   Gn4
  .byte   W36
- .byte   VOL , 16*song01_mvl/mxv
+ .byte   VOL , 16*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   PAN , c_v+12
  .byte   W96
 @  #09 @084   ----------------------------------------
@@ -12485,13 +12485,13 @@ Label_014B7AFC:
 
 @**************** Track 10 (Midi-Chn.9) ****************@
 
-song01_010:
+ToadstoolTourSkinsMatch_010:
 @  #10 @000   ----------------------------------------
 Label_01534378:
- .byte   TEMPO , 118*song01_tbs/2
- .byte   KEYSH , song01_key+0
+ .byte   TEMPO , 118*ToadstoolTourSkinsMatch_tbs/2
+ .byte   KEYSH , ToadstoolTourSkinsMatch_key+0
  .byte   VOICE , 127
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   BEND , c_v+63
  .byte   N06 ,Dn1 ,v102
  .byte   N06 ,Fn1
@@ -13480,7 +13480,7 @@ Label_015347BB:
  .byte   N06 ,Dn1
  .byte   W06
 @  #10 @041   ----------------------------------------
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   BEND , c_v+63
  .byte   N06 ,Cs2 ,v102
  .byte   N06 ,An2
@@ -15004,182 +15004,182 @@ Label_015347BB:
  .byte   N06 ,Fn1
  .byte   N06 ,Dn1
  .byte   W05
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   BEND , c_v+63
  .byte   N06 ,An2 ,v102
  .byte   N06 ,Cn1
  .byte   N06 ,Cs2
  .byte   W03
 @  #10 @085   ----------------------------------------
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
  .byte   N06 ,Cn1 ,v102
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
  .byte   N06 ,Cn1 ,v102
  .byte   W01
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N06 ,Cn1 ,v102
  .byte   W01
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N06 ,Cn1 ,v102
  .byte   W02
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N06 ,Cn1 ,v102
  .byte   W03
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
  .byte   N06 ,Dn1 ,v102
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N06 ,Dn1 ,v102
  .byte   W03
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
  .byte   N06 ,Dn1 ,v102
  .byte   W01
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N06 ,Dn1 ,v102
  .byte   W03
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N06 ,Dn1 ,v102
  .byte   W02
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N06 ,Cn1 ,v102
  .byte   W03
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
 @  #10 @086   ----------------------------------------
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N06 ,Cn1 ,v102
  .byte   W04
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
  .byte   N06 ,Cn1 ,v102
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N06 ,Cn1 ,v102
  .byte   W01
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N06 ,Cn1 ,v102
  .byte   W02
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N06 ,Cn2 ,v102
  .byte   N06 ,Dn2
  .byte   W03
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N06 ,An1 ,v102
  .byte   N06 ,Bn1
  .byte   W01
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
  .byte   N06 ,Gn1 ,v102
  .byte   N06 ,An1
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N06 ,Gn1 ,v102
  .byte   N06 ,Fn1
  .byte   W02
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
  .byte   N06 ,Cs2 ,v102
  .byte   N06 ,Cn1
  .byte   N06 ,An2
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N06 ,Cn1 ,v102
  .byte   W01
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N06 ,Cn1 ,v102
  .byte   W02
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N06 ,Cn1 ,v102
  .byte   W03
 @  #10 @087   ----------------------------------------
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
  .byte   N06 ,Cn1 ,v102
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
  .byte   N06 ,Cn1 ,v102
  .byte   W01
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
 Label_01535092:
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N06 ,Dn1 ,v102
  .byte   W02
@@ -15188,110 +15188,110 @@ Label_01535092:
  .byte   PATT
   .word Label_01535092
 @  #10 @089   ----------------------------------------
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N06 ,Dn1 ,v102
  .byte   W03
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N06 ,Cn1 ,v102
  .byte   W03
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
  .byte   N06 ,Cn1 ,v102
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N06 ,Cn1 ,v102
  .byte   W01
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N06 ,Cn1 ,v102
  .byte   W02
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N06 ,Bn1 ,v102
  .byte   N06 ,Cn2
  .byte   W03
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N06 ,Bn1 ,v102
  .byte   N06 ,An1
  .byte   N06 ,Cn2
  .byte   W01
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N06 ,An1 ,v102
  .byte   N06 ,Bn1
  .byte   W04
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W01
  .byte   N06 ,Bn1 ,v102
  .byte   N06 ,An1
  .byte   N06 ,Gn1
  .byte   W02
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W03
  .byte   N06 ,Gn1 ,v102
  .byte   N06 ,An1
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   N06 ,An1 ,v102
  .byte   N06 ,Gn1
  .byte   W03
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W02
  .byte   N06 ,Fn1 ,v102
  .byte   N06 ,Gn1
  .byte   N06 ,Dn1
  .byte   W01
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W04
  .byte   N06 ,Dn1 ,v102
  .byte   N06 ,Fn1
- .byte   VOL , 74*song01_mvl/mxv
+ .byte   VOL , 74*ToadstoolTourSkinsMatch_mvl/mxv
  .byte   W05
  .byte   FINE
 
 @******************************************************@
 	.align	2
 
-song01:
+ToadstoolTourSkinsMatch:
 	.byte	10	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song01_pri	@ Priority
-	.byte	song01_rev	@ Reverb.
+	.byte	ToadstoolTourSkinsMatch_pri	@ Priority
+	.byte	ToadstoolTourSkinsMatch_rev	@ Reverb.
     
-	.word	song01_grp
+	.word	ToadstoolTourSkinsMatch_grp
     
-	.word	song01_001
-	.word	song01_002
-	.word	song01_003
-	.word	song01_004
-	.word	song01_005
-	.word	song01_006
-	.word	song01_007
-	.word	song01_008
-	.word	song01_009
-	.word	song01_010
+	.word	ToadstoolTourSkinsMatch_001
+	.word	ToadstoolTourSkinsMatch_002
+	.word	ToadstoolTourSkinsMatch_003
+	.word	ToadstoolTourSkinsMatch_004
+	.word	ToadstoolTourSkinsMatch_005
+	.word	ToadstoolTourSkinsMatch_006
+	.word	ToadstoolTourSkinsMatch_007
+	.word	ToadstoolTourSkinsMatch_008
+	.word	ToadstoolTourSkinsMatch_009
+	.word	ToadstoolTourSkinsMatch_010
 
 	.end

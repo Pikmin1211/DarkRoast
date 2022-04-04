@@ -1,28 +1,28 @@
 	.include "MPlayDef.s"
 
-	.equ	songC2_grp, voicegroup000
-	.equ	songC2_pri, 0
-	.equ	songC2_rev, 0
-	.equ	songC2_mvl, 127
-	.equ	songC2_key, 0
-	.equ	songC2_tbs, 1
-	.equ	songC2_exg, 0
-	.equ	songC2_cmp, 1
+	.equ	ForwardFE5_grp, voicegroup000
+	.equ	ForwardFE5_pri, 0
+	.equ	ForwardFE5_rev, 0
+	.equ	ForwardFE5_mvl, 127
+	.equ	ForwardFE5_key, 0
+	.equ	ForwardFE5_tbs, 1
+	.equ	ForwardFE5_exg, 0
+	.equ	ForwardFE5_cmp, 1
 
 	.section .rodata
-	.global	songC2
+	.global	ForwardFE5
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-songC2_001:
+ForwardFE5_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , songC2_key+0
+ .byte   KEYSH , ForwardFE5_key+0
 Label_016780B2:
- .byte   TEMPO , 114*songC2_tbs/2
+ .byte   TEMPO , 114*ForwardFE5_tbs/2
  .byte   VOICE , 56
- .byte   VOL , 66*songC2_mvl/mxv
+ .byte   VOL , 66*ForwardFE5_mvl/mxv
  .byte   N36 ,Ds3 ,v100
  .byte   W48
  .byte   Fn3
@@ -286,12 +286,12 @@ Label_01678167:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-songC2_002:
+ForwardFE5_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , songC2_key+0
+ .byte   KEYSH , ForwardFE5_key+0
 Label_01678206:
  .byte   VOICE , 42
- .byte   VOL , 55*songC2_mvl/mxv
+ .byte   VOL , 55*ForwardFE5_mvl/mxv
  .byte   W96
 @  #02 @001   ----------------------------------------
  .byte   W96
@@ -535,12 +535,12 @@ Label_016782A4:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-songC2_003:
+ForwardFE5_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , songC2_key+0
+ .byte   KEYSH , ForwardFE5_key+0
 Label_01678312:
  .byte   VOICE , 60
- .byte   VOL , 60*songC2_mvl/mxv
+ .byte   VOL , 60*ForwardFE5_mvl/mxv
  .byte   N12 ,Ds1 ,v100
  .byte   W12
  .byte   N30
@@ -703,7 +703,7 @@ Label_016783B6:
  .byte   As0
  .byte   W96
 @  #03 @028   ----------------------------------------
- .byte   VOL , 60*songC2_mvl/mxv
+ .byte   VOL , 60*ForwardFE5_mvl/mxv
  .byte   N12 ,Ds1
  .byte   W12
  .byte   N30
@@ -801,12 +801,12 @@ Label_016783B6:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-songC2_004:
+ForwardFE5_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , songC2_key+0
+ .byte   KEYSH , ForwardFE5_key+0
 Label_0167844E:
  .byte   VOICE , 57
- .byte   VOL , 62*songC2_mvl/mxv
+ .byte   VOL , 62*ForwardFE5_mvl/mxv
  .byte   N36 ,Gn2 ,v100
  .byte   W48
  .byte   Gs2
@@ -983,7 +983,7 @@ Label_0167850C:
  .byte   W48
  .byte   PEND 
 @  #04 @028   ----------------------------------------
- .byte   VOL , 62*songC2_mvl/mxv
+ .byte   VOL , 62*ForwardFE5_mvl/mxv
  .byte   N36 ,Gn2
  .byte   W48
  .byte   Gs2
@@ -1077,12 +1077,12 @@ Label_0167850C:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-songC2_005:
+ForwardFE5_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , songC2_key+0
+ .byte   KEYSH , ForwardFE5_key+0
 Label_016785A2:
  .byte   VOICE , 42
- .byte   VOL , 44*songC2_mvl/mxv
+ .byte   VOL , 44*ForwardFE5_mvl/mxv
  .byte   W96
 @  #05 @001   ----------------------------------------
  .byte   W96
@@ -1266,12 +1266,12 @@ Label_01678603:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-songC2_006:
+ForwardFE5_006:
 @  #06 @000   ----------------------------------------
- .byte   KEYSH , songC2_key+0
+ .byte   KEYSH , ForwardFE5_key+0
 Label_01678652:
  .byte   VOICE , 60
- .byte   VOL , 66*songC2_mvl/mxv
+ .byte   VOL , 66*ForwardFE5_mvl/mxv
  .byte   N12 ,As1 ,v100
  .byte   W12
  .byte   N24
@@ -1463,12 +1463,12 @@ Label_016786B0:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-songC2_007:
+ForwardFE5_007:
 @  #07 @000   ----------------------------------------
- .byte   KEYSH , songC2_key+0
+ .byte   KEYSH , ForwardFE5_key+0
 Label_0167871E:
  .byte   VOICE , 57
- .byte   VOL , 62*songC2_mvl/mxv
+ .byte   VOL , 62*ForwardFE5_mvl/mxv
  .byte   N36 ,Ds2 ,v100
  .byte   W48
  .byte   Fn2
@@ -1492,7 +1492,7 @@ Label_0167872F:
  .byte   W96
 @  #07 @004   ----------------------------------------
 Label_01678739:
- .byte   VOL , 62*songC2_mvl/mxv
+ .byte   VOL , 62*ForwardFE5_mvl/mxv
  .byte   N36 ,Ds2 ,v100
  .byte   W48
  .byte   Fn2
@@ -1565,7 +1565,7 @@ Label_01678786:
  .byte   PEND 
 @  #07 @017   ----------------------------------------
 Label_0167878D:
- .byte   VOL , 62*songC2_mvl/mxv
+ .byte   VOL , 62*ForwardFE5_mvl/mxv
  .byte   N36 ,Fn2 ,v100
  .byte   W48
  .byte   Dn2
@@ -1736,12 +1736,12 @@ Label_016787DB:
 
 @**************** Track 8 (Midi-Chn.7) ****************@
 
-songC2_008:
+ForwardFE5_008:
 @  #08 @000   ----------------------------------------
- .byte   KEYSH , songC2_key+0
+ .byte   KEYSH , ForwardFE5_key+0
 Label_01678872:
  .byte   VOICE , 42
- .byte   VOL , 55*songC2_mvl/mxv
+ .byte   VOL , 55*ForwardFE5_mvl/mxv
  .byte   N12 ,Ds2 ,v100
  .byte   W12
  .byte   N24
@@ -1999,12 +1999,12 @@ Label_0167891A:
 
 @**************** Track 9 (Midi-Chn.8) ****************@
 
-songC2_009:
+ForwardFE5_009:
 @  #09 @000   ----------------------------------------
- .byte   KEYSH , songC2_key+0
+ .byte   KEYSH , ForwardFE5_key+0
 Label_016789AA:
  .byte   VOICE , 124
- .byte   VOL , 47*songC2_mvl/mxv
+ .byte   VOL , 47*ForwardFE5_mvl/mxv
  .byte   N06 ,Gn2 ,v060
  .byte   N06 ,An2 ,v108
  .byte   W48
@@ -2240,22 +2240,22 @@ Label_016789F5:
 @******************************************************@
 	.align	2
 
-songC2:
+ForwardFE5:
 	.byte	9	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	songC2_pri	@ Priority
-	.byte	songC2_rev	@ Reverb.
+	.byte	ForwardFE5_pri	@ Priority
+	.byte	ForwardFE5_rev	@ Reverb.
     
-	.word	songC2_grp
+	.word	ForwardFE5_grp
     
-	.word	songC2_001
-	.word	songC2_002
-	.word	songC2_003
-	.word	songC2_004
-	.word	songC2_005
-	.word	songC2_006
-	.word	songC2_007
-	.word	songC2_008
-	.word	songC2_009
+	.word	ForwardFE5_001
+	.word	ForwardFE5_002
+	.word	ForwardFE5_003
+	.word	ForwardFE5_004
+	.word	ForwardFE5_005
+	.word	ForwardFE5_006
+	.word	ForwardFE5_007
+	.word	ForwardFE5_008
+	.word	ForwardFE5_009
 
 	.end

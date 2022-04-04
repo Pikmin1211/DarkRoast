@@ -1,28 +1,28 @@
 	.include "MPlayDef.s"
 
-	.equ	song03_grp, voicegroup000
-	.equ	song03_pri, 10
-	.equ	song03_rev, 0
-	.equ	song03_mvl, 127
-	.equ	song03_key, 0
-	.equ	song03_tbs, 1
-	.equ	song03_exg, 0
-	.equ	song03_cmp, 1
+	.equ	Luigis Mansion Theme_grp, voicegroup000
+	.equ	Luigis Mansion Theme_pri, 10
+	.equ	Luigis Mansion Theme_rev, 0
+	.equ	Luigis Mansion Theme_mvl, 127
+	.equ	Luigis Mansion Theme_key, 0
+	.equ	Luigis Mansion Theme_tbs, 1
+	.equ	Luigis Mansion Theme_exg, 0
+	.equ	Luigis Mansion Theme_cmp, 1
 
 	.section .rodata
-	.global	song03
+	.global	Luigis Mansion Theme
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song03_001:
+Luigis Mansion Theme_001:
 @  #01 @000   ----------------------------------------
 Label_01000BD8:
- .byte   TEMPO , 110*song03_tbs/2
- .byte   KEYSH , song03_key+0
+ .byte   TEMPO , 110*Luigis Mansion Theme_tbs/2
+ .byte   KEYSH , Luigis Mansion Theme_key+0
  .byte   VOICE , 36
- .byte   VOL , 77*song03_mvl/mxv
+ .byte   VOL , 77*Luigis Mansion Theme_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N20 ,An0 ,v110
  .byte   W96
@@ -291,13 +291,13 @@ Label_01000CB4:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song03_002:
+Luigis Mansion Theme_002:
 @  #02 @000   ----------------------------------------
 Label_010008D8:
- .byte   TEMPO , 110*song03_tbs/2
- .byte   KEYSH , song03_key+0
+ .byte   TEMPO , 110*Luigis Mansion Theme_tbs/2
+ .byte   KEYSH , Luigis Mansion Theme_key+0
  .byte   VOICE , 36
- .byte   VOL , 77*song03_mvl/mxv
+ .byte   VOL , 77*Luigis Mansion Theme_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N20 ,An1 ,v110
  .byte   W96
@@ -562,13 +562,13 @@ Label_01000991:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song03_003:
+Luigis Mansion Theme_003:
 @  #03 @000   ----------------------------------------
 Label_01000A48:
- .byte   TEMPO , 110*song03_tbs/2
- .byte   KEYSH , song03_key+0
+ .byte   TEMPO , 110*Luigis Mansion Theme_tbs/2
+ .byte   KEYSH , Luigis Mansion Theme_key+0
  .byte   VOICE , 106
- .byte   VOL , 77*song03_mvl/mxv
+ .byte   VOL , 77*Luigis Mansion Theme_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N06 ,AnM1 ,v110
  .byte   W96
@@ -837,13 +837,13 @@ Label_01000B24:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song03_004:
+Luigis Mansion Theme_004:
 @  #04 @000   ----------------------------------------
 Label_01000420:
- .byte   TEMPO , 110*song03_tbs/2
- .byte   KEYSH , song03_key+0
+ .byte   TEMPO , 110*Luigis Mansion Theme_tbs/2
+ .byte   KEYSH , Luigis Mansion Theme_key+0
  .byte   VOICE , 71
- .byte   VOL , 77*song03_mvl/mxv
+ .byte   VOL , 77*Luigis Mansion Theme_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #04 @001   ----------------------------------------
@@ -1133,17 +1133,17 @@ Label_010004F6:
 @******************************************************@
 	.align	2
 
-song03:
+Luigis Mansion Theme:
 	.byte	4	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song03_pri	@ Priority
-	.byte	song03_rev	@ Reverb.
+	.byte	Luigis Mansion Theme_pri	@ Priority
+	.byte	Luigis Mansion Theme_rev	@ Reverb.
     
-	.word	song03_grp
+	.word	Luigis Mansion Theme_grp
     
-	.word	song03_001
-	.word	song03_002
-	.word	song03_003
-	.word	song03_004
+	.word	Luigis Mansion Theme_001
+	.word	Luigis Mansion Theme_002
+	.word	Luigis Mansion Theme_003
+	.word	Luigis Mansion Theme_004
 
 	.end

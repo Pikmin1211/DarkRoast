@@ -1,27 +1,27 @@
 	.include "MPlayDef.s"
 
-	.equ	song2C_grp, voicegroup000
-	.equ	song2C_pri, 10
-	.equ	song2C_rev, 0
-	.equ	song2C_mvl, 127
-	.equ	song2C_key, 0
-	.equ	song2C_tbs, 1
-	.equ	song2C_exg, 0
-	.equ	song2C_cmp, 1
+	.equ	DefendFE5_grp, voicegroup000
+	.equ	DefendFE5_pri, 10
+	.equ	DefendFE5_rev, 0
+	.equ	DefendFE5_mvl, 127
+	.equ	DefendFE5_key, 0
+	.equ	DefendFE5_tbs, 1
+	.equ	DefendFE5_exg, 0
+	.equ	DefendFE5_cmp, 1
 
 	.section .rodata
-	.global	song2C
+	.global	DefendFE5
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song2C_001:
+DefendFE5_001:
 @  #01 @000   ----------------------------------------
- .byte   TEMPO , 160*song2C_tbs/2
- .byte   KEYSH , song2C_key+0
+ .byte   TEMPO , 160*DefendFE5_tbs/2
+ .byte   KEYSH , DefendFE5_key+0
  .byte   VOICE , 57
- .byte   VOL , 92*song2C_mvl/mxv
+ .byte   VOL , 92*DefendFE5_mvl/mxv
  .byte   W48
  .byte   N12 ,En2 ,v100
  .byte   W12
@@ -64,12 +64,12 @@ Label_568817:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song2C_002:
+DefendFE5_002:
 @  #02 @000   ----------------------------------------
- .byte   TEMPO , 160*song2C_tbs/2
- .byte   KEYSH , song2C_key+0
+ .byte   TEMPO , 160*DefendFE5_tbs/2
+ .byte   KEYSH , DefendFE5_key+0
  .byte   VOICE , 6
- .byte   VOL , 35*song2C_mvl/mxv
+ .byte   VOL , 35*DefendFE5_mvl/mxv
  .byte   N12 ,An0 ,v100
  .byte   W12
  .byte   N06 ,As0
@@ -186,12 +186,12 @@ Label_5680B4:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song2C_003:
+DefendFE5_003:
 @  #03 @000   ----------------------------------------
- .byte   TEMPO , 160*song2C_tbs/2
- .byte   KEYSH , song2C_key+0
+ .byte   TEMPO , 160*DefendFE5_tbs/2
+ .byte   KEYSH , DefendFE5_key+0
  .byte   VOICE , 33
- .byte   VOL , 92*song2C_mvl/mxv
+ .byte   VOL , 92*DefendFE5_mvl/mxv
  .byte   N12 ,En1 ,v100
  .byte   W12
  .byte   N06 ,Fn1
@@ -299,12 +299,12 @@ Label_567C8A:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song2C_004:
+DefendFE5_004:
 @  #04 @000   ----------------------------------------
- .byte   TEMPO , 160*song2C_tbs/2
- .byte   KEYSH , song2C_key+0
+ .byte   TEMPO , 160*DefendFE5_tbs/2
+ .byte   KEYSH , DefendFE5_key+0
  .byte   VOICE , 47
- .byte   VOL , 62*song2C_mvl/mxv
+ .byte   VOL , 62*DefendFE5_mvl/mxv
  .byte   W96
 @  #04 @001   ----------------------------------------
 Label_568129:
@@ -337,12 +337,12 @@ Label_568129:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song2C_005:
+DefendFE5_005:
 @  #05 @000   ----------------------------------------
- .byte   TEMPO , 160*song2C_tbs/2
- .byte   KEYSH , song2C_key+0
+ .byte   TEMPO , 160*DefendFE5_tbs/2
+ .byte   KEYSH , DefendFE5_key+0
  .byte   VOICE , 108
- .byte   VOL , 11*song2C_mvl/mxv
+ .byte   VOL , 11*DefendFE5_mvl/mxv
  .byte   N12 ,An4 ,v100
  .byte   W12
  .byte   N03 ,As4
@@ -459,12 +459,12 @@ Label_568192:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song2C_006:
+DefendFE5_006:
 @  #06 @000   ----------------------------------------
- .byte   TEMPO , 160*song2C_tbs/2
- .byte   KEYSH , song2C_key+0
+ .byte   TEMPO , 160*DefendFE5_tbs/2
+ .byte   KEYSH , DefendFE5_key+0
  .byte   VOICE , 109
- .byte   VOL , 47*song2C_mvl/mxv
+ .byte   VOL , 47*DefendFE5_mvl/mxv
  .byte   N12 ,An3 ,v100
  .byte   W12
  .byte   N03 ,As3
@@ -581,12 +581,12 @@ Label_568232:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-song2C_007:
+DefendFE5_007:
 @  #07 @000   ----------------------------------------
- .byte   TEMPO , 160*song2C_tbs/2
- .byte   KEYSH , song2C_key+0
+ .byte   TEMPO , 160*DefendFE5_tbs/2
+ .byte   KEYSH , DefendFE5_key+0
  .byte   VOICE , 106
- .byte   VOL , 47*song2C_mvl/mxv
+ .byte   VOL , 47*DefendFE5_mvl/mxv
  .byte   N12 ,An2 ,v100
  .byte   W12
  .byte   N03 ,As2
@@ -703,12 +703,12 @@ Label_5682D2:
 
 @**************** Track 8 (Midi-Chn.7) ****************@
 
-song2C_008:
+DefendFE5_008:
 @  #08 @000   ----------------------------------------
- .byte   TEMPO , 160*song2C_tbs/2
- .byte   KEYSH , song2C_key+0
+ .byte   TEMPO , 160*DefendFE5_tbs/2
+ .byte   KEYSH , DefendFE5_key+0
  .byte   VOICE , 127
- .byte   VOL , 57*song2C_mvl/mxv
+ .byte   VOL , 57*DefendFE5_mvl/mxv
  .byte   N12 ,Dn1 ,v100
  .byte   W42
  .byte   N06 ,Cn1
@@ -781,12 +781,12 @@ Label_567D1D:
 
 @**************** Track 9 (Midi-Chn.8) ****************@
 
-song2C_009:
+DefendFE5_009:
 @  #09 @000   ----------------------------------------
- .byte   TEMPO , 160*song2C_tbs/2
- .byte   KEYSH , song2C_key+0
+ .byte   TEMPO , 160*DefendFE5_tbs/2
+ .byte   KEYSH , DefendFE5_key+0
  .byte   VOICE , 47
- .byte   VOL , 60*song2C_mvl/mxv
+ .byte   VOL , 60*DefendFE5_mvl/mxv
  .byte   N12 ,An2 ,v100
  .byte   W42
  .byte   N06 ,Dn2
@@ -860,22 +860,22 @@ Label_568379:
 @******************************************************@
 	.align	2
 
-song2C:
+DefendFE5:
 	.byte	9	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song2C_pri	@ Priority
-	.byte	song2C_rev	@ Reverb.
+	.byte	DefendFE5_pri	@ Priority
+	.byte	DefendFE5_rev	@ Reverb.
     
-	.word	song2C_grp
+	.word	DefendFE5_grp
     
-	.word	song2C_001
-	.word	song2C_002
-	.word	song2C_003
-	.word	song2C_004
-	.word	song2C_005
-	.word	song2C_006
-	.word	song2C_007
-	.word	song2C_008
-	.word	song2C_009
+	.word	DefendFE5_001
+	.word	DefendFE5_002
+	.word	DefendFE5_003
+	.word	DefendFE5_004
+	.word	DefendFE5_005
+	.word	DefendFE5_006
+	.word	DefendFE5_007
+	.word	DefendFE5_008
+	.word	DefendFE5_009
 
 	.end

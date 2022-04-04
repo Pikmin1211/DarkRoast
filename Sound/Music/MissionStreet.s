@@ -1,30 +1,30 @@
 	.include "MPlayDef.s"
 
-	.equ	songE8_grp, voicegroup000
-	.equ	songE8_pri, 0
-	.equ	songE8_rev, 0
-	.equ	songE8_mvl, 127
-	.equ	songE8_key, 0
-	.equ	songE8_tbs, 1
-	.equ	songE8_exg, 0
-	.equ	songE8_cmp, 1
+	.equ	MissionStreet_grp, voicegroup000
+	.equ	MissionStreet_pri, 0
+	.equ	MissionStreet_rev, 0
+	.equ	MissionStreet_mvl, 127
+	.equ	MissionStreet_key, 0
+	.equ	MissionStreet_tbs, 1
+	.equ	MissionStreet_exg, 0
+	.equ	MissionStreet_cmp, 1
 
 	.section .rodata
-	.global	songE8
+	.global	MissionStreet
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-songE8_001:
+MissionStreet_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , songE8_key+0
+ .byte   KEYSH , MissionStreet_key+0
 Label_0149706A:
- .byte   TEMPO , 178*songE8_tbs/2
+ .byte   TEMPO , 178*MissionStreet_tbs/2
  .byte   VOICE , 30
  .byte   MODT 0
  .byte   LFOS 44
- .byte   VOL , 127*songE8_mvl/mxv
+ .byte   VOL , 127*MissionStreet_mvl/mxv
  .byte   W96
 @  #01 @001   ----------------------------------------
 Label_01497075:
@@ -538,14 +538,14 @@ Label_014970D0:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-songE8_002:
+MissionStreet_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , songE8_key+0
+ .byte   KEYSH , MissionStreet_key+0
 Label_014971E2:
  .byte   VOICE , 34
  .byte   MODT 0
  .byte   LFOS 44
- .byte   VOL , 127*songE8_mvl/mxv
+ .byte   VOL , 127*MissionStreet_mvl/mxv
  .byte   W96
 @  #02 @001   ----------------------------------------
  .byte   W96
@@ -1715,14 +1715,14 @@ Label_014975B7:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-songE8_003:
+MissionStreet_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , songE8_key+0
+ .byte   KEYSH , MissionStreet_key+0
 Label_014977E2:
  .byte   VOICE , 29
  .byte   MODT 0
  .byte   LFOS 44
- .byte   VOL , 127*songE8_mvl/mxv
+ .byte   VOL , 127*MissionStreet_mvl/mxv
  .byte   W96
 @  #03 @001   ----------------------------------------
  .byte   W96
@@ -2730,14 +2730,14 @@ Label_01497AF6:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-songE8_004:
+MissionStreet_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , songE8_key+0
+ .byte   KEYSH , MissionStreet_key+0
 Label_01497D56:
  .byte   VOICE , 4
  .byte   MODT 0
  .byte   LFOS 44
- .byte   VOL , 127*songE8_mvl/mxv
+ .byte   VOL , 127*MissionStreet_mvl/mxv
  .byte   W96
 @  #04 @001   ----------------------------------------
  .byte   W96
@@ -3913,14 +3913,14 @@ Label_01497DCA:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-songE8_005:
+MissionStreet_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , songE8_key+0
+ .byte   KEYSH , MissionStreet_key+0
 Label_01498296:
  .byte   VOICE , 18
  .byte   MODT 0
  .byte   LFOS 44
- .byte   VOL , 117*songE8_mvl/mxv
+ .byte   VOL , 117*MissionStreet_mvl/mxv
  .byte   W96
 @  #05 @001   ----------------------------------------
  .byte   W96
@@ -4445,14 +4445,14 @@ Label_014982D2:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-songE8_006:
+MissionStreet_006:
 @  #06 @000   ----------------------------------------
- .byte   KEYSH , songE8_key+0
+ .byte   KEYSH , MissionStreet_key+0
 Label_0149844E:
  .byte   VOICE , 52
  .byte   MODT 0
  .byte   LFOS 44
- .byte   VOL , 78*songE8_mvl/mxv
+ .byte   VOL , 78*MissionStreet_mvl/mxv
  .byte   W96
 @  #06 @001   ----------------------------------------
  .byte   W96
@@ -4973,14 +4973,14 @@ Label_0149848A:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-songE8_007:
+MissionStreet_007:
 @  #07 @000   ----------------------------------------
- .byte   KEYSH , songE8_key+0
+ .byte   KEYSH , MissionStreet_key+0
 Label_014985EE:
  .byte   VOICE , 14
  .byte   MODT 0
  .byte   LFOS 44
- .byte   VOL , 127*songE8_mvl/mxv
+ .byte   VOL , 127*MissionStreet_mvl/mxv
  .byte   W96
 @  #07 @001   ----------------------------------------
  .byte   W96
@@ -5489,14 +5489,14 @@ Label_0149865D:
 
 @**************** Track 8 (Midi-Chn.7) ****************@
 
-songE8_008:
+MissionStreet_008:
 @  #08 @000   ----------------------------------------
- .byte   KEYSH , songE8_key+0
+ .byte   KEYSH , MissionStreet_key+0
 Label_01498796:
  .byte   VOICE , 127
  .byte   MODT 0
  .byte   LFOS 44
- .byte   VOL , 85*songE8_mvl/mxv
+ .byte   VOL , 85*MissionStreet_mvl/mxv
  .byte   N06 ,Cn1 ,v044
  .byte   W24
  .byte   N06
@@ -6720,21 +6720,21 @@ Label_01498CA9:
 @******************************************************@
 	.align	2
 
-songE8:
+MissionStreet:
 	.byte	8	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	songE8_pri	@ Priority
-	.byte	songE8_rev	@ Reverb.
+	.byte	MissionStreet_pri	@ Priority
+	.byte	MissionStreet_rev	@ Reverb.
     
-	.word	songE8_grp
+	.word	MissionStreet_grp
     
-	.word	songE8_001
-	.word	songE8_002
-	.word	songE8_003
-	.word	songE8_004
-	.word	songE8_005
-	.word	songE8_006
-	.word	songE8_007
-	.word	songE8_008
+	.word	MissionStreet_001
+	.word	MissionStreet_002
+	.word	MissionStreet_003
+	.word	MissionStreet_004
+	.word	MissionStreet_005
+	.word	MissionStreet_006
+	.word	MissionStreet_007
+	.word	MissionStreet_008
 
 	.end

@@ -1,37 +1,37 @@
 	.include "MPlayDef.s"
 
-	.equ	song0197_grp, voicegroup000
-	.equ	song0197_pri, 0
-	.equ	song0197_rev, 0
-	.equ	song0197_mvl, 127
-	.equ	song0197_key, 0
-	.equ	song0197_tbs, 1
-	.equ	song0197_exg, 0
-	.equ	song0197_cmp, 1
+	.equ	LikeAGlintOfLight_grp, voicegroup000
+	.equ	LikeAGlintOfLight_pri, 0
+	.equ	LikeAGlintOfLight_rev, 0
+	.equ	LikeAGlintOfLight_mvl, 127
+	.equ	LikeAGlintOfLight_key, 0
+	.equ	LikeAGlintOfLight_tbs, 1
+	.equ	LikeAGlintOfLight_exg, 0
+	.equ	LikeAGlintOfLight_cmp, 1
 
 	.section .rodata
-	.global	song0197
+	.global	LikeAGlintOfLight
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song0197_001:
+LikeAGlintOfLight_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , song0197_key+0
+ .byte   KEYSH , LikeAGlintOfLight_key+0
 Label_012B7D1A:
- .byte   TEMPO , 240*song0197_tbs/2
+ .byte   TEMPO , 240*LikeAGlintOfLight_tbs/2
  .byte   VOICE , 41
  .byte   MODT 0
  .byte   CnM2 ,v000
  .byte   LFOS 0
  .byte   CnM2 ,v044
- .byte   VOL , 59*song0197_mvl/mxv
+ .byte   VOL , 59*LikeAGlintOfLight_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 38*song0197_mvl/mxv
+ .byte   VOL , 38*LikeAGlintOfLight_mvl/mxv
  .byte   N60 ,Bn3 ,v088
  .byte   W24
- .byte   TEMPO , 200*song0197_tbs/2
+ .byte   TEMPO , 200*LikeAGlintOfLight_tbs/2
  .byte   W36
  .byte   N12 ,Cn4
  .byte   W12
@@ -141,7 +141,7 @@ Label_012B7DAB:
  .byte   W48
  .byte   PEND 
 @  #01 @016   ----------------------------------------
- .byte   VOL , 45*song0197_mvl/mxv
+ .byte   VOL , 45*LikeAGlintOfLight_mvl/mxv
  .byte   N48 ,Cs4
  .byte   W48
  .byte   N24 ,Bn3
@@ -270,7 +270,7 @@ Label_012B7E1B:
  .byte   PATT
   .word Label_012B7E1B
 @  #01 @038   ----------------------------------------
- .byte   VOL , 38*song0197_mvl/mxv
+ .byte   VOL , 38*LikeAGlintOfLight_mvl/mxv
  .byte   N60 ,Bn3 ,v088
  .byte   W60
  .byte   N12 ,Cn4
@@ -325,7 +325,7 @@ Label_012B7E1B:
  .byte   PATT
   .word Label_012B7DAB
 @  #01 @054   ----------------------------------------
- .byte   VOL , 34*song0197_mvl/mxv
+ .byte   VOL , 34*LikeAGlintOfLight_mvl/mxv
  .byte   N12 ,Cn3 ,v088
  .byte   W36
  .byte   N12
@@ -414,18 +414,18 @@ Label_012B7EC8:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song0197_002:
+LikeAGlintOfLight_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , song0197_key+0
+ .byte   KEYSH , LikeAGlintOfLight_key+0
 Label_012B7F13:
  .byte   VOICE , 41
  .byte   MODT 0
  .byte   CnM2 ,v000
  .byte   LFOS 0
  .byte   CnM2 ,v044
- .byte   VOL , 53*song0197_mvl/mxv
+ .byte   VOL , 53*LikeAGlintOfLight_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 42*song0197_mvl/mxv
+ .byte   VOL , 42*LikeAGlintOfLight_mvl/mxv
  .byte   N96 ,Gn3 ,v088
  .byte   W96
 @  #02 @001   ----------------------------------------
@@ -656,18 +656,18 @@ Label_012B7FB9:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song0197_003:
+LikeAGlintOfLight_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , song0197_key+0
+ .byte   KEYSH , LikeAGlintOfLight_key+0
 Label_012B7FE8:
  .byte   VOICE , 41
  .byte   MODT 0
  .byte   CnM2 ,v000
  .byte   LFOS 0
  .byte   CnM2 ,v044
- .byte   VOL , 53*song0197_mvl/mxv
+ .byte   VOL , 53*LikeAGlintOfLight_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 42*song0197_mvl/mxv
+ .byte   VOL , 42*LikeAGlintOfLight_mvl/mxv
  .byte   N96 ,En3 ,v088
  .byte   W96
 @  #03 @001   ----------------------------------------
@@ -898,18 +898,18 @@ Label_012B808D:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song0197_004:
+LikeAGlintOfLight_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , song0197_key+0
+ .byte   KEYSH , LikeAGlintOfLight_key+0
 Label_012B80BC:
  .byte   VOICE , 40
  .byte   MODT 0
  .byte   CnM2 ,v000
  .byte   LFOS 0
  .byte   CnM2 ,v044
- .byte   VOL , 53*song0197_mvl/mxv
+ .byte   VOL , 53*LikeAGlintOfLight_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 42*song0197_mvl/mxv
+ .byte   VOL , 42*LikeAGlintOfLight_mvl/mxv
  .byte   N96 ,Bn2 ,v088
  .byte   W96
 @  #04 @001   ----------------------------------------
@@ -1136,18 +1136,18 @@ Label_012B8161:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song0197_005:
+LikeAGlintOfLight_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , song0197_key+0
+ .byte   KEYSH , LikeAGlintOfLight_key+0
 Label_012B8190:
  .byte   VOICE , 41
  .byte   MODT 0
  .byte   CnM2 ,v000
  .byte   LFOS 0
  .byte   CnM2 ,v044
- .byte   VOL , 65*song0197_mvl/mxv
+ .byte   VOL , 65*LikeAGlintOfLight_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 48*song0197_mvl/mxv
+ .byte   VOL , 48*LikeAGlintOfLight_mvl/mxv
  .byte   W96
 @  #05 @001   ----------------------------------------
  .byte   W96
@@ -1411,18 +1411,18 @@ Label_012B8260:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song0197_006:
+LikeAGlintOfLight_006:
 @  #06 @000   ----------------------------------------
- .byte   KEYSH , song0197_key+0
+ .byte   KEYSH , LikeAGlintOfLight_key+0
 Label_012B8299:
  .byte   VOICE , 41
  .byte   MODT 0
  .byte   CnM2 ,v000
  .byte   LFOS 0
  .byte   CnM2 ,v044
- .byte   VOL , 65*song0197_mvl/mxv
+ .byte   VOL , 65*LikeAGlintOfLight_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 48*song0197_mvl/mxv
+ .byte   VOL , 48*LikeAGlintOfLight_mvl/mxv
  .byte   W96
 @  #06 @001   ----------------------------------------
  .byte   W96
@@ -1628,18 +1628,18 @@ Label_012B82E6:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-song0197_007:
+LikeAGlintOfLight_007:
 @  #07 @000   ----------------------------------------
- .byte   KEYSH , song0197_key+0
+ .byte   KEYSH , LikeAGlintOfLight_key+0
 Label_012B8349:
  .byte   VOICE , 56
  .byte   MODT 0
  .byte   CnM2 ,v000
  .byte   LFOS 0
  .byte   CnM2 ,v044
- .byte   VOL , 65*song0197_mvl/mxv
+ .byte   VOL , 65*LikeAGlintOfLight_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 55*song0197_mvl/mxv
+ .byte   VOL , 55*LikeAGlintOfLight_mvl/mxv
  .byte   W96
 @  #07 @001   ----------------------------------------
  .byte   W96
@@ -1832,7 +1832,7 @@ Label_012B83D0:
 @  #07 @053   ----------------------------------------
  .byte   W96
 @  #07 @054   ----------------------------------------
- .byte   VOL , 65*song0197_mvl/mxv
+ .byte   VOL , 65*LikeAGlintOfLight_mvl/mxv
  .byte   N60 ,Cn3 ,v088
  .byte   W60
  .byte   N12 ,Bn2
@@ -1944,18 +1944,18 @@ Label_012B8459:
 
 @**************** Track 8 (Midi-Chn.7) ****************@
 
-song0197_008:
+LikeAGlintOfLight_008:
 @  #08 @000   ----------------------------------------
- .byte   KEYSH , song0197_key+0
+ .byte   KEYSH , LikeAGlintOfLight_key+0
 Label_012B8497:
  .byte   VOICE , 35
  .byte   MODT 0
  .byte   CnM2 ,v000
  .byte   LFOS 0
  .byte   CnM2 ,v044
- .byte   VOL , 70*song0197_mvl/mxv
+ .byte   VOL , 70*LikeAGlintOfLight_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 53*song0197_mvl/mxv
+ .byte   VOL , 53*LikeAGlintOfLight_mvl/mxv
  .byte   N12 ,En1 ,v088
  .byte   W12
  .byte   N12
@@ -2520,18 +2520,18 @@ Label_012B86F7:
 
 @**************** Track 9 (Midi-Chn.8) ****************@
 
-song0197_009:
+LikeAGlintOfLight_009:
 @  #09 @000   ----------------------------------------
- .byte   KEYSH , song0197_key+0
+ .byte   KEYSH , LikeAGlintOfLight_key+0
 Label_012B873F:
  .byte   VOICE , 124
  .byte   MODT 0
  .byte   CnM2 ,v000
  .byte   LFOS 0
  .byte   CnM2 ,v044
- .byte   VOL , 48*song0197_mvl/mxv
+ .byte   VOL , 48*LikeAGlintOfLight_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 48*song0197_mvl/mxv
+ .byte   VOL , 48*LikeAGlintOfLight_mvl/mxv
  .byte   N48 ,Bn0 ,v088
  .byte   W48
  .byte   N48
@@ -2853,18 +2853,18 @@ Label_012B889F:
 
 @**************** Track 10 (Midi-Chn.9) ****************@
 
-song0197_010:
+LikeAGlintOfLight_010:
 @  #10 @000   ----------------------------------------
- .byte   KEYSH , song0197_key+0
+ .byte   KEYSH , LikeAGlintOfLight_key+0
 Label_012B88F2:
  .byte   VOICE , 124
  .byte   MODT 0
  .byte   CnM2 ,v000
  .byte   LFOS 0
  .byte   CnM2 ,v044
- .byte   VOL , 48*song0197_mvl/mxv
+ .byte   VOL , 48*LikeAGlintOfLight_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 48*song0197_mvl/mxv
+ .byte   VOL , 48*LikeAGlintOfLight_mvl/mxv
  .byte   N96 ,An2 ,v088
  .byte   W96
 @  #10 @001   ----------------------------------------
@@ -3257,18 +3257,18 @@ Label_012B8AB8:
 
 @**************** Track 11 (Midi-Chn.10) ****************@
 
-song0197_011:
+LikeAGlintOfLight_011:
 @  #11 @000   ----------------------------------------
- .byte   KEYSH , song0197_key+0
+ .byte   KEYSH , LikeAGlintOfLight_key+0
 Label_012B8AF3:
  .byte   VOICE , 124
  .byte   MODT 0
  .byte   CnM2 ,v000
  .byte   LFOS 0
  .byte   CnM2 ,v044
- .byte   VOL , 48*song0197_mvl/mxv
+ .byte   VOL , 48*LikeAGlintOfLight_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 48*song0197_mvl/mxv
+ .byte   VOL , 48*LikeAGlintOfLight_mvl/mxv
  .byte   N24 ,Fs1 ,v088
  .byte   W24
  .byte   Dn1
@@ -3603,18 +3603,18 @@ Label_012B8C85:
 
 @**************** Track 12 (Midi-Chn.11) ****************@
 
-song0197_012:
+LikeAGlintOfLight_012:
 @  #12 @000   ----------------------------------------
- .byte   KEYSH , song0197_key+0
+ .byte   KEYSH , LikeAGlintOfLight_key+0
 Label_012B8CB7:
  .byte   VOICE , 124
  .byte   MODT 0
  .byte   CnM2 ,v000
  .byte   LFOS 0
  .byte   CnM2 ,v044
- .byte   VOL , 48*song0197_mvl/mxv
+ .byte   VOL , 48*LikeAGlintOfLight_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 48*song0197_mvl/mxv
+ .byte   VOL , 48*LikeAGlintOfLight_mvl/mxv
  .byte   W24
  .byte   N24 ,As1 ,v088
  .byte   W48
@@ -3919,18 +3919,18 @@ Label_012B8E26:
 
 @**************** Track 13 (Midi-Chn.12) ****************@
 
-song0197_013:
+LikeAGlintOfLight_013:
 @  #13 @000   ----------------------------------------
- .byte   KEYSH , song0197_key+0
+ .byte   KEYSH , LikeAGlintOfLight_key+0
 Label_012B8E58:
  .byte   VOICE , 124
  .byte   MODT 0
  .byte   CnM2 ,v000
  .byte   LFOS 0
  .byte   CnM2 ,v044
- .byte   VOL , 48*song0197_mvl/mxv
+ .byte   VOL , 48*LikeAGlintOfLight_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 48*song0197_mvl/mxv
+ .byte   VOL , 48*LikeAGlintOfLight_mvl/mxv
  .byte   W24
  .byte   N24 ,Fs1 ,v088
  .byte   W48
@@ -4139,26 +4139,26 @@ Label_012B8EFA:
 @******************************************************@
 	.align	2
 
-song0197:
+LikeAGlintOfLight:
 	.byte	13	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song0197_pri	@ Priority
-	.byte	song0197_rev	@ Reverb.
+	.byte	LikeAGlintOfLight_pri	@ Priority
+	.byte	LikeAGlintOfLight_rev	@ Reverb.
     
-	.word	song0197_grp
+	.word	LikeAGlintOfLight_grp
     
-	.word	song0197_001
-	.word	song0197_002
-	.word	song0197_003
-	.word	song0197_004
-	.word	song0197_005
-	.word	song0197_006
-	.word	song0197_007
-	.word	song0197_008
-	.word	song0197_009
-	.word	song0197_010
-	.word	song0197_011
-	.word	song0197_012
-	.word	song0197_013
+	.word	LikeAGlintOfLight_001
+	.word	LikeAGlintOfLight_002
+	.word	LikeAGlintOfLight_003
+	.word	LikeAGlintOfLight_004
+	.word	LikeAGlintOfLight_005
+	.word	LikeAGlintOfLight_006
+	.word	LikeAGlintOfLight_007
+	.word	LikeAGlintOfLight_008
+	.word	LikeAGlintOfLight_009
+	.word	LikeAGlintOfLight_010
+	.word	LikeAGlintOfLight_011
+	.word	LikeAGlintOfLight_012
+	.word	LikeAGlintOfLight_013
 
 	.end

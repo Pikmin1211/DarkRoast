@@ -1,28 +1,28 @@
 	.include "MPlayDef.s"
 
-	.equ	song07_grp, voicegroup000
-	.equ	song07_pri, 10
-	.equ	song07_rev, 0
-	.equ	song07_mvl, 127
-	.equ	song07_key, 0
-	.equ	song07_tbs, 1
-	.equ	song07_exg, 0
-	.equ	song07_cmp, 1
+	.equ	BeforeTheBattle_grp, voicegroup000
+	.equ	BeforeTheBattle_pri, 10
+	.equ	BeforeTheBattle_rev, 0
+	.equ	BeforeTheBattle_mvl, 127
+	.equ	BeforeTheBattle_key, 0
+	.equ	BeforeTheBattle_tbs, 1
+	.equ	BeforeTheBattle_exg, 0
+	.equ	BeforeTheBattle_cmp, 1
 
 	.section .rodata
-	.global	song07
+	.global	BeforeTheBattle
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song07_001:
+BeforeTheBattle_001:
 @  #01 @000   ----------------------------------------
 Label_011728D0:
- .byte   TEMPO , 116*song07_tbs/2
- .byte   KEYSH , song07_key+0
+ .byte   TEMPO , 116*BeforeTheBattle_tbs/2
+ .byte   KEYSH , BeforeTheBattle_key+0
  .byte   VOICE , 68
- .byte   VOL , 42*song07_mvl/mxv
+ .byte   VOL , 42*BeforeTheBattle_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #01 @001   ----------------------------------------
@@ -301,7 +301,7 @@ Label_01172921:
  .byte   W96
 @  #01 @033   ----------------------------------------
  .byte   W76
- .byte   TEMPO , 116*song07_tbs/2
+ .byte   TEMPO , 116*BeforeTheBattle_tbs/2
  .byte   W04
  .byte   GOTO
   .word Label_011728D0
@@ -309,13 +309,13 @@ Label_01172921:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song07_002:
+BeforeTheBattle_002:
 @  #02 @000   ----------------------------------------
 Label_01172A4C:
- .byte   TEMPO , 116*song07_tbs/2
- .byte   KEYSH , song07_key+0
+ .byte   TEMPO , 116*BeforeTheBattle_tbs/2
+ .byte   KEYSH , BeforeTheBattle_key+0
  .byte   VOICE , 73
- .byte   VOL , 35*song07_mvl/mxv
+ .byte   VOL , 35*BeforeTheBattle_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #02 @001   ----------------------------------------
@@ -735,7 +735,7 @@ Label_01172C25:
  .byte   W08
  .byte   Cn5
  .byte   W08
- .byte   TEMPO , 116*song07_tbs/2
+ .byte   TEMPO , 116*BeforeTheBattle_tbs/2
  .byte   W04
  .byte   GOTO
   .word Label_01172A4C
@@ -743,13 +743,13 @@ Label_01172C25:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song07_003:
+BeforeTheBattle_003:
 @  #03 @000   ----------------------------------------
 Label_01172C74:
- .byte   TEMPO , 116*song07_tbs/2
- .byte   KEYSH , song07_key+0
+ .byte   TEMPO , 116*BeforeTheBattle_tbs/2
+ .byte   KEYSH , BeforeTheBattle_key+0
  .byte   VOICE , 48
- .byte   VOL , 20*song07_mvl/mxv
+ .byte   VOL , 20*BeforeTheBattle_mvl/mxv
  .byte   PAN , c_v+10
  .byte   W96
 @  #03 @001   ----------------------------------------
@@ -1000,7 +1000,7 @@ Label_01172CDE:
  .byte   As4
  .byte   W96
 @  #03 @042   ----------------------------------------
- .byte   TEMPO , 116*song07_tbs/2
+ .byte   TEMPO , 116*BeforeTheBattle_tbs/2
  .byte   W04
  .byte   GOTO
   .word Label_01172C74
@@ -1008,13 +1008,13 @@ Label_01172CDE:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song07_004:
+BeforeTheBattle_004:
 @  #04 @000   ----------------------------------------
 Label_01172DA0:
- .byte   TEMPO , 116*song07_tbs/2
- .byte   KEYSH , song07_key+0
+ .byte   TEMPO , 116*BeforeTheBattle_tbs/2
+ .byte   KEYSH , BeforeTheBattle_key+0
  .byte   VOICE , 100
- .byte   VOL , 22*song07_mvl/mxv
+ .byte   VOL , 22*BeforeTheBattle_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #04 @001   ----------------------------------------
@@ -1114,7 +1114,7 @@ Label_01172DA0:
  .byte   W96
 @  #04 @046   ----------------------------------------
  .byte   W48
- .byte   TEMPO , 116*song07_tbs/2
+ .byte   TEMPO , 116*BeforeTheBattle_tbs/2
  .byte   W04
  .byte   GOTO
   .word Label_01172DA0
@@ -1122,13 +1122,13 @@ Label_01172DA0:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song07_005:
+BeforeTheBattle_005:
 @  #05 @000   ----------------------------------------
 Label_01172DEC:
- .byte   TEMPO , 116*song07_tbs/2
- .byte   KEYSH , song07_key+0
+ .byte   TEMPO , 116*BeforeTheBattle_tbs/2
+ .byte   KEYSH , BeforeTheBattle_key+0
  .byte   VOICE , 54
- .byte   VOL , 47*song07_mvl/mxv
+ .byte   VOL , 47*BeforeTheBattle_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W07
  .byte   N96 ,Gn1 ,v083
@@ -1232,7 +1232,7 @@ Label_01172DEC:
 @  #05 @046   ----------------------------------------
  .byte   W36
  .byte   W02
- .byte   TEMPO , 116*song07_tbs/2
+ .byte   TEMPO , 116*BeforeTheBattle_tbs/2
  .byte   W04
  .byte   GOTO
   .word Label_01172DEC
@@ -1240,13 +1240,13 @@ Label_01172DEC:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song07_006:
+BeforeTheBattle_006:
 @  #06 @000   ----------------------------------------
 Label_01172E3C:
- .byte   TEMPO , 116*song07_tbs/2
- .byte   KEYSH , song07_key+0
+ .byte   TEMPO , 116*BeforeTheBattle_tbs/2
+ .byte   KEYSH , BeforeTheBattle_key+0
  .byte   VOICE , 36
- .byte   VOL , 103*song07_mvl/mxv
+ .byte   VOL , 103*BeforeTheBattle_mvl/mxv
  .byte   PAN , c_v-17
  .byte   W07
  .byte   N08 ,Gn1 ,v088
@@ -1758,7 +1758,7 @@ Label_0117307C:
  .byte   As1 ,v081
  .byte   W08
 @  #06 @047   ----------------------------------------
- .byte   TEMPO , 116*song07_tbs/2
+ .byte   TEMPO , 116*BeforeTheBattle_tbs/2
  .byte   W04
  .byte   GOTO
   .word Label_01172E3C
@@ -1766,13 +1766,13 @@ Label_0117307C:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-song07_007:
+BeforeTheBattle_007:
 @  #07 @000   ----------------------------------------
 Label_0117314C:
- .byte   TEMPO , 116*song07_tbs/2
- .byte   KEYSH , song07_key+0
+ .byte   TEMPO , 116*BeforeTheBattle_tbs/2
+ .byte   KEYSH , BeforeTheBattle_key+0
  .byte   VOICE , 127
- .byte   VOL , 76*song07_mvl/mxv
+ .byte   VOL , 76*BeforeTheBattle_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W23
  .byte   N08 ,Cn3 ,v064
@@ -2380,7 +2380,7 @@ Label_011733A9:
  .byte   N08 ,En1 ,v082
  .byte   W08
 @  #07 @046   ----------------------------------------
- .byte   TEMPO , 116*song07_tbs/2
+ .byte   TEMPO , 116*BeforeTheBattle_tbs/2
  .byte   W04
  .byte   GOTO
   .word Label_0117314C
@@ -2389,20 +2389,20 @@ Label_011733A9:
 @******************************************************@
 	.align	2
 
-song07:
+BeforeTheBattle:
 	.byte	7	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song07_pri	@ Priority
-	.byte	song07_rev	@ Reverb.
+	.byte	BeforeTheBattle_pri	@ Priority
+	.byte	BeforeTheBattle_rev	@ Reverb.
     
-	.word	song07_grp
+	.word	BeforeTheBattle_grp
     
-	.word	song07_001
-	.word	song07_002
-	.word	song07_003
-	.word	song07_004
-	.word	song07_005
-	.word	song07_006
-	.word	song07_007
+	.word	BeforeTheBattle_001
+	.word	BeforeTheBattle_002
+	.word	BeforeTheBattle_003
+	.word	BeforeTheBattle_004
+	.word	BeforeTheBattle_005
+	.word	BeforeTheBattle_006
+	.word	BeforeTheBattle_007
 
 	.end

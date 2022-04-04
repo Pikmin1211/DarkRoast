@@ -1,29 +1,29 @@
 	.include "MPlayDef.s"
 
-	.equ	song30_grp, voicegroup000
-	.equ	song30_pri, 10
-	.equ	song30_rev, 148
-	.equ	song30_mvl, 127
-	.equ	song30_key, 0
-	.equ	song30_tbs, 1
-	.equ	song30_exg, 0
-	.equ	song30_cmp, 1
+	.equ	FromEnemyToFriendFE4_grp, voicegroup000
+	.equ	FromEnemyToFriendFE4_pri, 10
+	.equ	FromEnemyToFriendFE4_rev, 148
+	.equ	FromEnemyToFriendFE4_mvl, 127
+	.equ	FromEnemyToFriendFE4_key, 0
+	.equ	FromEnemyToFriendFE4_tbs, 1
+	.equ	FromEnemyToFriendFE4_exg, 0
+	.equ	FromEnemyToFriendFE4_cmp, 1
 
 	.section .rodata
-	.global	song30
+	.global	FromEnemyToFriendFE4
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song30_001:
+FromEnemyToFriendFE4_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , song30_key+0
+ .byte   KEYSH , FromEnemyToFriendFE4_key+0
 Label_0117107E:
- .byte   TEMPO , 166*song30_tbs/2
+ .byte   TEMPO , 166*FromEnemyToFriendFE4_tbs/2
  .byte   W04
  .byte   VOICE , 63
- .byte   VOL , 60*song30_mvl/mxv
+ .byte   VOL , 60*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v+34
  .byte   N07 ,Cn2 ,v072
  .byte   W12
@@ -171,15 +171,15 @@ Label_0117107E:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song30_002:
+FromEnemyToFriendFE4_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , song30_key+0
+ .byte   KEYSH , FromEnemyToFriendFE4_key+0
 Label_0117118A:
  .byte   VOICE , 38
  .byte   W96
 @  #02 @001   ----------------------------------------
  .byte   W52
- .byte   VOL , 95*song30_mvl/mxv
+ .byte   VOL , 95*FromEnemyToFriendFE4_mvl/mxv
  .byte   W44
 @  #02 @002   ----------------------------------------
  .byte   W04
@@ -261,19 +261,19 @@ Label_0117118A:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song30_003:
+FromEnemyToFriendFE4_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , song30_key+0
+ .byte   KEYSH , FromEnemyToFriendFE4_key+0
 Label_01171216:
  .byte   W04
- .byte   VOL , 74*song30_mvl/mxv
+ .byte   VOL , 74*FromEnemyToFriendFE4_mvl/mxv
  .byte   W96
 @  #03 @001   ----------------------------------------
  .byte   W92
  .byte   W04
 @  #03 @002   ----------------------------------------
  .byte   VOICE , 19
- .byte   VOL , 74*song30_mvl/mxv
+ .byte   VOL , 74*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v+0
  .byte   PAN , c_v+14
  .byte   N07 ,Gn2 ,v072
@@ -402,7 +402,7 @@ Label_01171216:
  .byte   N07 ,An2 ,v072
  .byte   W12
 @  #03 @007   ----------------------------------------
- .byte   VOL , 74*song30_mvl/mxv
+ .byte   VOL , 74*FromEnemyToFriendFE4_mvl/mxv
  .byte   W92
  .byte   W96
 @  #03 @008   ----------------------------------------
@@ -410,12 +410,12 @@ Label_01171216:
 @  #03 @009   ----------------------------------------
  .byte   W04
  .byte   VOICE , 19
- .byte   VOL , 62*song30_mvl/mxv
+ .byte   VOL , 62*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v+25
  .byte   PAN , c_v+23
  .byte   N04 ,Fn4 ,v072
  .byte   W01
- .byte   VOL , 62*song30_mvl/mxv
+ .byte   VOL , 62*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v+22
  .byte   W01
  .byte   PAN , c_v+20
@@ -424,7 +424,7 @@ Label_01171216:
  .byte   W01
  .byte   PAN , c_v+17
  .byte   W01
- .byte   VOL , 63*song30_mvl/mxv
+ .byte   VOL , 63*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v+15
  .byte   W01
  .byte   PAN , c_v+14
@@ -434,7 +434,7 @@ Label_01171216:
  .byte   W01
  .byte   PAN , c_v+10
  .byte   W01
- .byte   VOL , 63*song30_mvl/mxv
+ .byte   VOL , 63*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v+9
  .byte   W01
  .byte   PAN , c_v+7
@@ -444,7 +444,7 @@ Label_01171216:
  .byte   PAN , c_v+4
  .byte   N04 ,Dn4 ,v072
  .byte   W01
- .byte   VOL , 64*song30_mvl/mxv
+ .byte   VOL , 64*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v+2
  .byte   W01
  .byte   PAN , c_v+1
@@ -453,7 +453,7 @@ Label_01171216:
  .byte   W01
  .byte   PAN , c_v-3
  .byte   W01
- .byte   VOL , 64*song30_mvl/mxv
+ .byte   VOL , 64*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v-4
  .byte   W01
  .byte   PAN , c_v-6
@@ -463,14 +463,14 @@ Label_01171216:
  .byte   W01
  .byte   PAN , c_v-9
  .byte   W01
- .byte   VOL , 65*song30_mvl/mxv
+ .byte   VOL , 65*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v-11
  .byte   W01
  .byte   PAN , c_v-12
  .byte   W01
  .byte   PAN , c_v-14
  .byte   W01
- .byte   VOL , 65*song30_mvl/mxv
+ .byte   VOL , 65*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v+34
  .byte   PAN , c_v+33
  .byte   N04 ,En4 ,v072
@@ -481,7 +481,7 @@ Label_01171216:
  .byte   W01
  .byte   PAN , c_v+30
  .byte   W01
- .byte   VOL , 65*song30_mvl/mxv
+ .byte   VOL , 65*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v+29
  .byte   W01
  .byte   PAN , c_v+28
@@ -491,7 +491,7 @@ Label_01171216:
  .byte   W01
  .byte   PAN , c_v+25
  .byte   W01
- .byte   VOL , 66*song30_mvl/mxv
+ .byte   VOL , 66*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v+24
  .byte   W01
  .byte   PAN , c_v+23
@@ -500,7 +500,7 @@ Label_01171216:
  .byte   W01
  .byte   PAN , c_v+21
  .byte   W01
- .byte   VOL , 66*song30_mvl/mxv
+ .byte   VOL , 66*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v+20
  .byte   N04 ,Cs4 ,v072
  .byte   W01
@@ -510,7 +510,7 @@ Label_01171216:
  .byte   W01
  .byte   PAN , c_v+17
  .byte   W01
- .byte   VOL , 67*song30_mvl/mxv
+ .byte   VOL , 67*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v+16
  .byte   W01
  .byte   PAN , c_v+15
@@ -520,14 +520,14 @@ Label_01171216:
  .byte   W01
  .byte   PAN , c_v+13
  .byte   W01
- .byte   VOL , 67*song30_mvl/mxv
+ .byte   VOL , 67*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v+12
  .byte   W01
  .byte   PAN , c_v+10
  .byte   W01
  .byte   PAN , c_v+9
  .byte   W01
- .byte   VOL , 68*song30_mvl/mxv
+ .byte   VOL , 68*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v+8
  .byte   W01
  .byte   PAN , c_v+7
@@ -537,7 +537,7 @@ Label_01171216:
  .byte   W01
  .byte   PAN , c_v+5
  .byte   W01
- .byte   VOL , 68*song30_mvl/mxv
+ .byte   VOL , 68*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v+4
  .byte   W01
  .byte   PAN , c_v+3
@@ -547,7 +547,7 @@ Label_01171216:
  .byte   PAN , c_v+1
  .byte   N04 ,Gn3 ,v072
  .byte   W01
- .byte   VOL , 69*song30_mvl/mxv
+ .byte   VOL , 69*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W01
  .byte   PAN , c_v-1
@@ -556,7 +556,7 @@ Label_01171216:
  .byte   W01
  .byte   PAN , c_v-3
  .byte   W01
- .byte   VOL , 69*song30_mvl/mxv
+ .byte   VOL , 69*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v-4
  .byte   W01
  .byte   PAN , c_v-6
@@ -566,7 +566,7 @@ Label_01171216:
  .byte   W01
  .byte   PAN , c_v-8
  .byte   W01
- .byte   VOL , 70*song30_mvl/mxv
+ .byte   VOL , 70*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v-9
  .byte   W01
  .byte   PAN , c_v-10
@@ -576,7 +576,7 @@ Label_01171216:
  .byte   PAN , c_v-12
  .byte   N04 ,En3 ,v072
  .byte   W01
- .byte   VOL , 70*song30_mvl/mxv
+ .byte   VOL , 70*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v-13
  .byte   W01
  .byte   PAN , c_v-14
@@ -585,7 +585,7 @@ Label_01171216:
  .byte   W01
  .byte   PAN , c_v-16
  .byte   W01
- .byte   VOL , 71*song30_mvl/mxv
+ .byte   VOL , 71*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v-17
  .byte   W01
  .byte   PAN , c_v-18
@@ -593,7 +593,7 @@ Label_01171216:
  .byte   W01
  .byte   PAN , c_v-19
  .byte   W01
- .byte   VOL , 71*song30_mvl/mxv
+ .byte   VOL , 71*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v-21
  .byte   W01
  .byte   PAN , c_v-22
@@ -602,7 +602,7 @@ Label_01171216:
  .byte   W01
  .byte   PAN , c_v-24
  .byte   W01
- .byte   VOL , 72*song30_mvl/mxv
+ .byte   VOL , 72*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v-25
  .byte   N04 ,Cs3 ,v076
  .byte   W01
@@ -612,7 +612,7 @@ Label_01171216:
  .byte   W01
  .byte   PAN , c_v-28
  .byte   W01
- .byte   VOL , 72*song30_mvl/mxv
+ .byte   VOL , 72*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v-29
  .byte   W01
  .byte   PAN , c_v-30
@@ -622,7 +622,7 @@ Label_01171216:
  .byte   W01
  .byte   PAN , c_v-32
  .byte   W01
- .byte   VOL , 73*song30_mvl/mxv
+ .byte   VOL , 73*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v-33
  .byte   W01
  .byte   PAN , c_v-34
@@ -631,7 +631,7 @@ Label_01171216:
  .byte   W01
  .byte   PAN , c_v-37
  .byte   W01
- .byte   VOL , 73*song30_mvl/mxv
+ .byte   VOL , 73*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v-38
  .byte   N04 ,An2 ,v076
  .byte   W01
@@ -645,7 +645,7 @@ Label_01171216:
  .byte   W01
  .byte   PAN , c_v-41
  .byte   W01
- .byte   VOL , 74*song30_mvl/mxv
+ .byte   VOL , 74*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v-42
  .byte   W01
  .byte   PAN , c_v-43
@@ -653,13 +653,13 @@ Label_01171216:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song30_004:
+FromEnemyToFriendFE4_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , song30_key+0
+ .byte   KEYSH , FromEnemyToFriendFE4_key+0
 Label_011714AE:
  .byte   W04
  .byte   VOICE , 63
- .byte   VOL , 60*song30_mvl/mxv
+ .byte   VOL , 60*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v-34
  .byte   N07 ,Gn2 ,v076
  .byte   W12
@@ -807,10 +807,10 @@ Label_011714AE:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song30_005:
+FromEnemyToFriendFE4_005:
 @  #05 @000   ----------------------------------------
- .byte   VOL , 60*song30_mvl/mxv
- .byte   KEYSH , song30_key+0
+ .byte   VOL , 60*FromEnemyToFriendFE4_mvl/mxv
+ .byte   KEYSH , FromEnemyToFriendFE4_key+0
 Label_011715BC:
  .byte   VOICE , 124
  .byte   W04
@@ -966,15 +966,15 @@ Label_011715BC:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song30_006:
+FromEnemyToFriendFE4_006:
 @  #06 @000   ----------------------------------------
- .byte   KEYSH , song30_key+0
+ .byte   KEYSH , FromEnemyToFriendFE4_key+0
  .byte   W09
 Label_011716D3:
- .byte   TEMPO , 166*song30_tbs/2
+ .byte   TEMPO , 166*FromEnemyToFriendFE4_tbs/2
  .byte   W04
  .byte   VOICE , 63
- .byte   VOL , 20*song30_mvl/mxv
+ .byte   VOL , 20*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v+34
  .byte   N07 ,Cn2 ,v072
  .byte   W12
@@ -1122,16 +1122,16 @@ Label_011716D3:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-song30_007:
+FromEnemyToFriendFE4_007:
 @  #07 @000   ----------------------------------------
- .byte   KEYSH , song30_key+0
+ .byte   KEYSH , FromEnemyToFriendFE4_key+0
  .byte   W09
 Label_011717E3:
  .byte   VOICE , 38
  .byte   W96
 @  #07 @001   ----------------------------------------
  .byte   W52
- .byte   VOL , 55*song30_mvl/mxv
+ .byte   VOL , 55*FromEnemyToFriendFE4_mvl/mxv
  .byte   W44
 @  #07 @002   ----------------------------------------
  .byte   W04
@@ -1213,20 +1213,20 @@ Label_011717E3:
 
 @**************** Track 8 (Midi-Chn.7) ****************@
 
-song30_008:
+FromEnemyToFriendFE4_008:
 @  #08 @000   ----------------------------------------
- .byte   KEYSH , song30_key+0
+ .byte   KEYSH , FromEnemyToFriendFE4_key+0
  .byte   W09
 Label_0117186F:
  .byte   W04
- .byte   VOL , 34*song30_mvl/mxv
+ .byte   VOL , 34*FromEnemyToFriendFE4_mvl/mxv
  .byte   W96
 @  #08 @001   ----------------------------------------
  .byte   W92
  .byte   W04
 @  #08 @002   ----------------------------------------
  .byte   VOICE , 19
- .byte   VOL , 34*song30_mvl/mxv
+ .byte   VOL , 34*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v+0
  .byte   PAN , c_v+14
  .byte   N07 ,Gn2 ,v072
@@ -1355,7 +1355,7 @@ Label_0117186F:
  .byte   N07 ,An2 ,v072
  .byte   W12
 @  #08 @007   ----------------------------------------
- .byte   VOL , 34*song30_mvl/mxv
+ .byte   VOL , 34*FromEnemyToFriendFE4_mvl/mxv
  .byte   W92
  .byte   W96
 @  #08 @008   ----------------------------------------
@@ -1363,12 +1363,12 @@ Label_0117186F:
 @  #08 @009   ----------------------------------------
  .byte   W04
  .byte   VOICE , 19
- .byte   VOL , 22*song30_mvl/mxv
+ .byte   VOL , 22*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v+25
  .byte   PAN , c_v+23
  .byte   N04 ,Fn4 ,v072
  .byte   W01
- .byte   VOL , 22*song30_mvl/mxv
+ .byte   VOL , 22*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v+22
  .byte   W01
  .byte   PAN , c_v+20
@@ -1377,7 +1377,7 @@ Label_0117186F:
  .byte   W01
  .byte   PAN , c_v+17
  .byte   W01
- .byte   VOL , 23*song30_mvl/mxv
+ .byte   VOL , 23*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v+15
  .byte   W01
  .byte   PAN , c_v+14
@@ -1387,7 +1387,7 @@ Label_0117186F:
  .byte   W01
  .byte   PAN , c_v+10
  .byte   W01
- .byte   VOL , 23*song30_mvl/mxv
+ .byte   VOL , 23*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v+9
  .byte   W01
  .byte   PAN , c_v+7
@@ -1397,7 +1397,7 @@ Label_0117186F:
  .byte   PAN , c_v+4
  .byte   N04 ,Dn4 ,v072
  .byte   W01
- .byte   VOL , 24*song30_mvl/mxv
+ .byte   VOL , 24*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v+2
  .byte   W01
  .byte   PAN , c_v+1
@@ -1406,7 +1406,7 @@ Label_0117186F:
  .byte   W01
  .byte   PAN , c_v-3
  .byte   W01
- .byte   VOL , 24*song30_mvl/mxv
+ .byte   VOL , 24*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v-4
  .byte   W01
  .byte   PAN , c_v-6
@@ -1416,14 +1416,14 @@ Label_0117186F:
  .byte   W01
  .byte   PAN , c_v-9
  .byte   W01
- .byte   VOL , 25*song30_mvl/mxv
+ .byte   VOL , 25*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v-11
  .byte   W01
  .byte   PAN , c_v-12
  .byte   W01
  .byte   PAN , c_v-14
  .byte   W01
- .byte   VOL , 25*song30_mvl/mxv
+ .byte   VOL , 25*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v+34
  .byte   PAN , c_v+33
  .byte   N04 ,En4 ,v072
@@ -1434,7 +1434,7 @@ Label_0117186F:
  .byte   W01
  .byte   PAN , c_v+30
  .byte   W01
- .byte   VOL , 25*song30_mvl/mxv
+ .byte   VOL , 25*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v+29
  .byte   W01
  .byte   PAN , c_v+28
@@ -1444,7 +1444,7 @@ Label_0117186F:
  .byte   W01
  .byte   PAN , c_v+25
  .byte   W01
- .byte   VOL , 26*song30_mvl/mxv
+ .byte   VOL , 26*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v+24
  .byte   W01
  .byte   PAN , c_v+23
@@ -1453,7 +1453,7 @@ Label_0117186F:
  .byte   W01
  .byte   PAN , c_v+21
  .byte   W01
- .byte   VOL , 26*song30_mvl/mxv
+ .byte   VOL , 26*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v+20
  .byte   N04 ,Cs4 ,v072
  .byte   W01
@@ -1463,7 +1463,7 @@ Label_0117186F:
  .byte   W01
  .byte   PAN , c_v+17
  .byte   W01
- .byte   VOL , 27*song30_mvl/mxv
+ .byte   VOL , 27*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v+16
  .byte   W01
  .byte   PAN , c_v+15
@@ -1473,14 +1473,14 @@ Label_0117186F:
  .byte   W01
  .byte   PAN , c_v+13
  .byte   W01
- .byte   VOL , 27*song30_mvl/mxv
+ .byte   VOL , 27*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v+12
  .byte   W01
  .byte   PAN , c_v+10
  .byte   W01
  .byte   PAN , c_v+9
  .byte   W01
- .byte   VOL , 28*song30_mvl/mxv
+ .byte   VOL , 28*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v+8
  .byte   W01
  .byte   PAN , c_v+7
@@ -1490,7 +1490,7 @@ Label_0117186F:
  .byte   W01
  .byte   PAN , c_v+5
  .byte   W01
- .byte   VOL , 28*song30_mvl/mxv
+ .byte   VOL , 28*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v+4
  .byte   W01
  .byte   PAN , c_v+3
@@ -1500,7 +1500,7 @@ Label_0117186F:
  .byte   PAN , c_v+1
  .byte   N04 ,Gn3 ,v072
  .byte   W01
- .byte   VOL , 29*song30_mvl/mxv
+ .byte   VOL , 29*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W01
  .byte   PAN , c_v-1
@@ -1509,7 +1509,7 @@ Label_0117186F:
  .byte   W01
  .byte   PAN , c_v-3
  .byte   W01
- .byte   VOL , 29*song30_mvl/mxv
+ .byte   VOL , 29*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v-4
  .byte   W01
  .byte   PAN , c_v-6
@@ -1519,7 +1519,7 @@ Label_0117186F:
  .byte   W01
  .byte   PAN , c_v-8
  .byte   W01
- .byte   VOL , 30*song30_mvl/mxv
+ .byte   VOL , 30*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v-9
  .byte   W01
  .byte   PAN , c_v-10
@@ -1529,7 +1529,7 @@ Label_0117186F:
  .byte   PAN , c_v-12
  .byte   N04 ,En3 ,v072
  .byte   W01
- .byte   VOL , 30*song30_mvl/mxv
+ .byte   VOL , 30*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v-13
  .byte   W01
  .byte   PAN , c_v-14
@@ -1538,7 +1538,7 @@ Label_0117186F:
  .byte   W01
  .byte   PAN , c_v-16
  .byte   W01
- .byte   VOL , 31*song30_mvl/mxv
+ .byte   VOL , 31*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v-17
  .byte   W01
  .byte   PAN , c_v-18
@@ -1546,7 +1546,7 @@ Label_0117186F:
  .byte   W01
  .byte   PAN , c_v-19
  .byte   W01
- .byte   VOL , 31*song30_mvl/mxv
+ .byte   VOL , 31*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v-21
  .byte   W01
  .byte   PAN , c_v-22
@@ -1555,7 +1555,7 @@ Label_0117186F:
  .byte   W01
  .byte   PAN , c_v-24
  .byte   W01
- .byte   VOL , 32*song30_mvl/mxv
+ .byte   VOL , 32*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v-25
  .byte   N04 ,Cs3 ,v076
  .byte   W01
@@ -1565,7 +1565,7 @@ Label_0117186F:
  .byte   W01
  .byte   PAN , c_v-28
  .byte   W01
- .byte   VOL , 32*song30_mvl/mxv
+ .byte   VOL , 32*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v-29
  .byte   W01
  .byte   PAN , c_v-30
@@ -1575,7 +1575,7 @@ Label_0117186F:
  .byte   W01
  .byte   PAN , c_v-32
  .byte   W01
- .byte   VOL , 33*song30_mvl/mxv
+ .byte   VOL , 33*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v-33
  .byte   W01
  .byte   PAN , c_v-34
@@ -1584,7 +1584,7 @@ Label_0117186F:
  .byte   W01
  .byte   PAN , c_v-37
  .byte   W01
- .byte   VOL , 33*song30_mvl/mxv
+ .byte   VOL , 33*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v-38
  .byte   N04 ,An2 ,v076
  .byte   W01
@@ -1598,7 +1598,7 @@ Label_0117186F:
  .byte   W01
  .byte   PAN , c_v-41
  .byte   W01
- .byte   VOL , 34*song30_mvl/mxv
+ .byte   VOL , 34*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v-42
  .byte   W01
  .byte   PAN , c_v-43
@@ -1606,14 +1606,14 @@ Label_0117186F:
 
 @**************** Track 9 (Midi-Chn.8) ****************@
 
-song30_009:
+FromEnemyToFriendFE4_009:
 @  #09 @000   ----------------------------------------
- .byte   KEYSH , song30_key+0
+ .byte   KEYSH , FromEnemyToFriendFE4_key+0
  .byte   W09
 Label_01171B07:
  .byte   W04
  .byte   VOICE , 63
- .byte   VOL , 20*song30_mvl/mxv
+ .byte   VOL , 20*FromEnemyToFriendFE4_mvl/mxv
  .byte   PAN , c_v-34
  .byte   N07 ,Gn2 ,v076
  .byte   W12
@@ -1761,10 +1761,10 @@ Label_01171B07:
 
 @**************** Track 10 (Midi-Chn.9) ****************@
 
-song30_010:
+FromEnemyToFriendFE4_010:
 @  #10 @000   ----------------------------------------
- .byte   VOL , 20*song30_mvl/mxv
- .byte   KEYSH , song30_key+0
+ .byte   VOL , 20*FromEnemyToFriendFE4_mvl/mxv
+ .byte   KEYSH , FromEnemyToFriendFE4_key+0
  .byte   W09
 Label_01171C15:
  .byte   VOICE , 124
@@ -1922,23 +1922,23 @@ Label_01171C15:
 @******************************************************@
 	.align	2
 
-song30:
+FromEnemyToFriendFE4:
 	.byte	10	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song30_pri	@ Priority
-	.byte	song30_rev	@ Reverb.
+	.byte	FromEnemyToFriendFE4_pri	@ Priority
+	.byte	FromEnemyToFriendFE4_rev	@ Reverb.
     
-	.word	song30_grp
+	.word	FromEnemyToFriendFE4_grp
     
-	.word	song30_001
-	.word	song30_002
-	.word	song30_003
-	.word	song30_004
-	.word	song30_005
-	.word	song30_006
-	.word	song30_007
-	.word	song30_008
-	.word	song30_009
-	.word	song30_010
+	.word	FromEnemyToFriendFE4_001
+	.word	FromEnemyToFriendFE4_002
+	.word	FromEnemyToFriendFE4_003
+	.word	FromEnemyToFriendFE4_004
+	.word	FromEnemyToFriendFE4_005
+	.word	FromEnemyToFriendFE4_006
+	.word	FromEnemyToFriendFE4_007
+	.word	FromEnemyToFriendFE4_008
+	.word	FromEnemyToFriendFE4_009
+	.word	FromEnemyToFriendFE4_010
 
 	.end

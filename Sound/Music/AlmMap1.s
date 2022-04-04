@@ -1,27 +1,27 @@
 	.include "MPlayDef.s"
 
-	.equ	song5E_grp, voicegroup000
-	.equ	song5E_pri, 10
-	.equ	song5E_rev, 158
-	.equ	song5E_mvl, 127
-	.equ	song5E_key, 0
-	.equ	song5E_tbs, 1
-	.equ	song5E_exg, 0
-	.equ	song5E_cmp, 1
+	.equ	AlmMap1_grp, voicegroup000
+	.equ	AlmMap1_pri, 10
+	.equ	AlmMap1_rev, 158
+	.equ	AlmMap1_mvl, 127
+	.equ	AlmMap1_key, 0
+	.equ	AlmMap1_tbs, 1
+	.equ	AlmMap1_exg, 0
+	.equ	AlmMap1_cmp, 1
 
 	.section .rodata
-	.global	song5E
+	.global	AlmMap1
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song5E_001:
+AlmMap1_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , song5E_key+0
- .byte   TEMPO , 132*song5E_tbs/2
+ .byte   KEYSH , AlmMap1_key+0
+ .byte   TEMPO , 132*AlmMap1_tbs/2
  .byte   VOICE , 73
- .byte   VOL , 71*song5E_mvl/mxv
+ .byte   VOL , 71*AlmMap1_mvl/mxv
  .byte   PAN , c_v-13
  .byte   W24
 Label_01171D8B:
@@ -331,13 +331,13 @@ Label_01171D8B:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song5E_002:
+AlmMap1_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , song5E_key+0
+ .byte   KEYSH , AlmMap1_key+0
  .byte   VOICE , 73
  .byte   MOD 0
  .byte   CnM2 ,v001
- .byte   VOL , 67*song5E_mvl/mxv
+ .byte   VOL , 67*AlmMap1_mvl/mxv
  .byte   PAN , c_v+12
  .byte   W24
 Label_01171F55:
@@ -577,7 +577,7 @@ Label_01171F55:
  .byte   N76 ,Fn3 ,v084
  .byte   W72
  .byte   VOICE , 60
- .byte   VOL , 69*song5E_mvl/mxv
+ .byte   VOL , 69*AlmMap1_mvl/mxv
  .byte   PAN , c_v-13
  .byte   W24
 @  #02 @016   ----------------------------------------
@@ -681,9 +681,9 @@ Label_01171F55:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song5E_003:
+AlmMap1_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , song5E_key+0
+ .byte   KEYSH , AlmMap1_key+0
  .byte   W24
 Label_01172157:
  .byte   W96
@@ -692,7 +692,7 @@ Label_01172157:
 @  #03 @002   ----------------------------------------
  .byte   W72
  .byte   VOICE , 52
- .byte   VOL , 59*song5E_mvl/mxv
+ .byte   VOL , 59*AlmMap1_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W24
 @  #03 @003   ----------------------------------------
@@ -845,11 +845,11 @@ Label_011721A5:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song5E_004:
+AlmMap1_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , song5E_key+0
+ .byte   KEYSH , AlmMap1_key+0
  .byte   VOICE , 52
- .byte   VOL , 60*song5E_mvl/mxv
+ .byte   VOL , 60*AlmMap1_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W24
 Label_01172219:
@@ -857,7 +857,7 @@ Label_01172219:
  .byte   N10 ,En2 ,v096
  .byte   W12
  .byte   VOICE , 52
- .byte   VOL , 60*song5E_mvl/mxv
+ .byte   VOL , 60*AlmMap1_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N10 ,An1 ,v008
  .byte   N10 ,En2 ,v016
@@ -1102,11 +1102,11 @@ Label_01172339:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song5E_005:
+AlmMap1_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , song5E_key+0
+ .byte   KEYSH , AlmMap1_key+0
  .byte   VOICE , 33
- .byte   VOL , 75*song5E_mvl/mxv
+ .byte   VOL , 75*AlmMap1_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N18 ,An2 ,v088
  .byte   W24
@@ -1397,11 +1397,11 @@ Label_011724D3:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song5E_006:
+AlmMap1_006:
 @  #06 @000   ----------------------------------------
- .byte   KEYSH , song5E_key+0
+ .byte   KEYSH , AlmMap1_key+0
  .byte   VOICE , 127
- .byte   VOL , 75*song5E_mvl/mxv
+ .byte   VOL , 75*AlmMap1_mvl/mxv
  .byte   PAN , c_v-4
  .byte   W24
 Label_011725A1:
@@ -1651,19 +1651,19 @@ Label_011725E1:
 @******************************************************@
 	.align	2
 
-song5E:
+AlmMap1:
 	.byte	6	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song5E_pri	@ Priority
-	.byte	song5E_rev	@ Reverb.
+	.byte	AlmMap1_pri	@ Priority
+	.byte	AlmMap1_rev	@ Reverb.
     
-	.word	song5E_grp
+	.word	AlmMap1_grp
     
-	.word	song5E_001
-	.word	song5E_002
-	.word	song5E_003
-	.word	song5E_004
-	.word	song5E_005
-	.word	song5E_006
+	.word	AlmMap1_001
+	.word	AlmMap1_002
+	.word	AlmMap1_003
+	.word	AlmMap1_004
+	.word	AlmMap1_005
+	.word	AlmMap1_006
 
 	.end

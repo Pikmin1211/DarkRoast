@@ -1,27 +1,27 @@
 	.include "MPlayDef.s"
 
-	.equ	songA8_grp, voicegroup000
-	.equ	songA8_pri, 0
-	.equ	songA8_rev, 0
-	.equ	songA8_mvl, 127
-	.equ	songA8_key, 0
-	.equ	songA8_tbs, 1
-	.equ	songA8_exg, 0
-	.equ	songA8_cmp, 1
+	.equ	Destiny_grp, voicegroup000
+	.equ	Destiny_pri, 0
+	.equ	Destiny_rev, 0
+	.equ	Destiny_mvl, 127
+	.equ	Destiny_key, 0
+	.equ	Destiny_tbs, 1
+	.equ	Destiny_exg, 0
+	.equ	Destiny_cmp, 1
 
 	.section .rodata
-	.global	songA8
+	.global	Destiny
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-songA8_001:
+Destiny_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , songA8_key+0
- .byte   TEMPO , 94*songA8_tbs/2
+ .byte   KEYSH , Destiny_key+0
+ .byte   TEMPO , 94*Destiny_tbs/2
  .byte   VOICE , 75
- .byte   VOL , 49*songA8_mvl/mxv
+ .byte   VOL , 49*Destiny_mvl/mxv
  .byte   TIE ,En1 ,v100
  .byte   W96
 @  #01 @001   ----------------------------------------
@@ -114,11 +114,11 @@ songA8_001:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-songA8_002:
+Destiny_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , songA8_key+0
+ .byte   KEYSH , Destiny_key+0
  .byte   VOICE , 42
- .byte   VOL , 27*songA8_mvl/mxv
+ .byte   VOL , 27*Destiny_mvl/mxv
  .byte   N12 ,Gn3 ,v100
  .byte   W12
  .byte   An3
@@ -261,7 +261,7 @@ Label_016750B2:
  .byte   PATT
   .word Label_016750B2
 @  #02 @016   ----------------------------------------
- .byte   VOL , 27*songA8_mvl/mxv
+ .byte   VOL , 27*Destiny_mvl/mxv
  .byte   N12 ,Gn3 ,v100
  .byte   W12
  .byte   An3
@@ -327,11 +327,11 @@ Label_016750B2:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-songA8_003:
+Destiny_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , songA8_key+0
+ .byte   KEYSH , Destiny_key+0
  .byte   VOICE , 42
- .byte   VOL , 27*songA8_mvl/mxv
+ .byte   VOL , 27*Destiny_mvl/mxv
  .byte   N12 ,Bn3 ,v100
  .byte   W12
  .byte   Cs4
@@ -474,7 +474,7 @@ Label_016751BE:
  .byte   PATT
   .word Label_016751BE
 @  #03 @016   ----------------------------------------
- .byte   VOL , 27*songA8_mvl/mxv
+ .byte   VOL , 27*Destiny_mvl/mxv
  .byte   N12 ,Bn3 ,v100
  .byte   W12
  .byte   Cs4
@@ -540,11 +540,11 @@ Label_016751BE:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-songA8_004:
+Destiny_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , songA8_key+0
+ .byte   KEYSH , Destiny_key+0
  .byte   VOICE , 42
- .byte   VOL , 15*songA8_mvl/mxv
+ .byte   VOL , 15*Destiny_mvl/mxv
  .byte   N12 ,Gn2 ,v100
  .byte   W12
  .byte   An2
@@ -687,7 +687,7 @@ Label_016752CA:
  .byte   PATT
   .word Label_016752CA
 @  #04 @016   ----------------------------------------
- .byte   VOL , 15*songA8_mvl/mxv
+ .byte   VOL , 15*Destiny_mvl/mxv
  .byte   N12 ,Gn2 ,v100
  .byte   W12
  .byte   An2
@@ -753,11 +753,11 @@ Label_016752CA:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-songA8_005:
+Destiny_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , songA8_key+0
+ .byte   KEYSH , Destiny_key+0
  .byte   VOICE , 42
- .byte   VOL , 15*songA8_mvl/mxv
+ .byte   VOL , 15*Destiny_mvl/mxv
  .byte   N12 ,Bn2 ,v100
  .byte   W12
  .byte   Cs3
@@ -900,7 +900,7 @@ Label_016753D6:
  .byte   PATT
   .word Label_016753D6
 @  #05 @016   ----------------------------------------
- .byte   VOL , 15*songA8_mvl/mxv
+ .byte   VOL , 15*Destiny_mvl/mxv
  .byte   N12 ,Bn2 ,v100
  .byte   W12
  .byte   Cs3
@@ -966,11 +966,11 @@ Label_016753D6:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-songA8_006:
+Destiny_006:
 @  #06 @000   ----------------------------------------
- .byte   KEYSH , songA8_key+0
+ .byte   KEYSH , Destiny_key+0
  .byte   VOICE , 42
- .byte   VOL , 44*songA8_mvl/mxv
+ .byte   VOL , 44*Destiny_mvl/mxv
  .byte   N84 ,Fs4 ,v100
  .byte   W84
  .byte   N04 ,Gn4
@@ -1170,11 +1170,11 @@ Label_01675509:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-songA8_007:
+Destiny_007:
 @  #07 @000   ----------------------------------------
- .byte   KEYSH , songA8_key+0
+ .byte   KEYSH , Destiny_key+0
  .byte   VOICE , 42
- .byte   VOL , 29*songA8_mvl/mxv
+ .byte   VOL , 29*Destiny_mvl/mxv
  .byte   N84 ,Fs3 ,v100
  .byte   W84
  .byte   N04 ,Gn3
@@ -1311,7 +1311,7 @@ Label_01675605:
  .byte   W06
  .byte   PEND 
 @  #07 @016   ----------------------------------------
- .byte   VOL , 29*songA8_mvl/mxv
+ .byte   VOL , 29*Destiny_mvl/mxv
  .byte   N84 ,Fs3
  .byte   W84
  .byte   N04 ,Gn3
@@ -1375,11 +1375,11 @@ Label_01675605:
 
 @**************** Track 8 (Midi-Chn.7) ****************@
 
-songA8_008:
+Destiny_008:
 @  #08 @000   ----------------------------------------
- .byte   KEYSH , songA8_key+0
+ .byte   KEYSH , Destiny_key+0
  .byte   VOICE , 73
- .byte   VOL , 46*songA8_mvl/mxv
+ .byte   VOL , 46*Destiny_mvl/mxv
  .byte   N84 ,Fs4 ,v100
  .byte   W84
  .byte   N04 ,Gn4
@@ -1574,7 +1574,7 @@ Label_01675737:
  .byte   W06
  .byte   PEND 
 @  #08 @016   ----------------------------------------
- .byte   VOL , 46*songA8_mvl/mxv
+ .byte   VOL , 46*Destiny_mvl/mxv
  .byte   N84 ,Fs4
  .byte   W84
  .byte   N04 ,Gn4
@@ -1632,11 +1632,11 @@ Label_01675737:
 
 @**************** Track 9 (Midi-Chn.8) ****************@
 
-songA8_009:
+Destiny_009:
 @  #09 @000   ----------------------------------------
- .byte   KEYSH , songA8_key+0
+ .byte   KEYSH , Destiny_key+0
  .byte   VOICE , 46
- .byte   VOL , 19*songA8_mvl/mxv
+ .byte   VOL , 19*Destiny_mvl/mxv
  .byte   W96
 @  #09 @001   ----------------------------------------
  .byte   W96
@@ -1787,11 +1787,11 @@ Label_016757E4:
 
 @**************** Track 10 (Midi-Chn.9) ****************@
 
-songA8_010:
+Destiny_010:
 @  #10 @000   ----------------------------------------
- .byte   KEYSH , songA8_key+0
+ .byte   KEYSH , Destiny_key+0
  .byte   VOICE , 124
- .byte   VOL , 37*songA8_mvl/mxv
+ .byte   VOL , 37*Destiny_mvl/mxv
  .byte   N06 ,Dn1 ,v100
  .byte   W12
  .byte   Dn1 ,v052
@@ -1947,11 +1947,11 @@ Label_01675858:
 
 @**************** Track 11 (Midi-Chn.10) ****************@
 
-songA8_011:
+Destiny_011:
 @  #11 @000   ----------------------------------------
- .byte   KEYSH , songA8_key+0
+ .byte   KEYSH , Destiny_key+0
  .byte   VOICE , 46
- .byte   VOL , 29*songA8_mvl/mxv
+ .byte   VOL , 29*Destiny_mvl/mxv
  .byte   W96
 @  #11 @001   ----------------------------------------
  .byte   W96
@@ -2103,24 +2103,24 @@ Label_01675974:
 @******************************************************@
 	.align	2
 
-songA8:
+Destiny:
 	.byte	11	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	songA8_pri	@ Priority
-	.byte	songA8_rev	@ Reverb.
+	.byte	Destiny_pri	@ Priority
+	.byte	Destiny_rev	@ Reverb.
     
-	.word	songA8_grp
+	.word	Destiny_grp
     
-	.word	songA8_001
-	.word	songA8_002
-	.word	songA8_003
-	.word	songA8_004
-	.word	songA8_005
-	.word	songA8_006
-	.word	songA8_007
-	.word	songA8_008
-	.word	songA8_009
-	.word	songA8_010
-	.word	songA8_011
+	.word	Destiny_001
+	.word	Destiny_002
+	.word	Destiny_003
+	.word	Destiny_004
+	.word	Destiny_005
+	.word	Destiny_006
+	.word	Destiny_007
+	.word	Destiny_008
+	.word	Destiny_009
+	.word	Destiny_010
+	.word	Destiny_011
 
 	.end

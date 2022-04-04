@@ -1,27 +1,27 @@
 	.include "MPlayDef.s"
 
-	.equ	song17_grp, voicegroup000
-	.equ	song17_pri, 10
-	.equ	song17_rev, 128
-	.equ	song17_mvl, 127
-	.equ	song17_key, 0
-	.equ	song17_tbs, 1
-	.equ	song17_exg, 0
-	.equ	song17_cmp, 1
+	.equ	CelicaMap2_grp, voicegroup000
+	.equ	CelicaMap2_pri, 10
+	.equ	CelicaMap2_rev, 128
+	.equ	CelicaMap2_mvl, 127
+	.equ	CelicaMap2_key, 0
+	.equ	CelicaMap2_tbs, 1
+	.equ	CelicaMap2_exg, 0
+	.equ	CelicaMap2_cmp, 1
 
 	.section .rodata
-	.global	song17
+	.global	CelicaMap2
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song17_001:
+CelicaMap2_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , song17_key+0
- .byte   TEMPO , 166*song17_tbs/2
+ .byte   KEYSH , CelicaMap2_key+0
+ .byte   TEMPO , 166*CelicaMap2_tbs/2
  .byte   VOICE , 1
- .byte   VOL , 74*song17_mvl/mxv
+ .byte   VOL , 74*CelicaMap2_mvl/mxv
  .byte   W80
  .byte   W02
  .byte   W01
@@ -400,11 +400,11 @@ Label_01311184:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song17_002:
+CelicaMap2_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , song17_key+0
+ .byte   KEYSH , CelicaMap2_key+0
  .byte   VOICE , 0
- .byte   VOL , 47*song17_mvl/mxv
+ .byte   VOL , 47*CelicaMap2_mvl/mxv
  .byte   N03 ,DnM2 ,v100
  .byte   N03 ,DsM2
  .byte   W24
@@ -784,11 +784,11 @@ Label_013113B0:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song17_003:
+CelicaMap2_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , song17_key+0
+ .byte   KEYSH , CelicaMap2_key+0
  .byte   VOICE , 15
- .byte   VOL , 67*song17_mvl/mxv
+ .byte   VOL , 67*CelicaMap2_mvl/mxv
  .byte   W66
  .byte   PAN , c_v+19
  .byte   W30
@@ -1034,11 +1034,11 @@ Label_013114D5:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song17_004:
+CelicaMap2_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , song17_key+0
+ .byte   KEYSH , CelicaMap2_key+0
  .byte   VOICE , 16
- .byte   VOL , 34*song17_mvl/mxv
+ .byte   VOL , 34*CelicaMap2_mvl/mxv
  .byte   W96
 @  #04 @001   ----------------------------------------
 Label_01311549:
@@ -1203,11 +1203,11 @@ Label_013115A1:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song17_005:
+CelicaMap2_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , song17_key+0
+ .byte   KEYSH , CelicaMap2_key+0
  .byte   VOICE , 17
- .byte   VOL , 43*song17_mvl/mxv
+ .byte   VOL , 43*CelicaMap2_mvl/mxv
  .byte   W96
 @  #05 @001   ----------------------------------------
 Label_0131161A:
@@ -1497,11 +1497,11 @@ Label_0131161A:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song17_006:
+CelicaMap2_006:
 @  #06 @000   ----------------------------------------
- .byte   KEYSH , song17_key+0
+ .byte   KEYSH , CelicaMap2_key+0
  .byte   VOICE , 18
- .byte   VOL , 32*song17_mvl/mxv
+ .byte   VOL , 32*CelicaMap2_mvl/mxv
  .byte   W96
 @  #06 @001   ----------------------------------------
 Label_0131176D:
@@ -1630,11 +1630,11 @@ Label_0131176D:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-song17_007:
+CelicaMap2_007:
 @  #07 @000   ----------------------------------------
- .byte   KEYSH , song17_key+0
+ .byte   KEYSH , CelicaMap2_key+0
  .byte   VOICE , 19
- .byte   VOL , 34*song17_mvl/mxv
+ .byte   VOL , 34*CelicaMap2_mvl/mxv
  .byte   W68
  .byte   W01
  .byte   PAN , c_v-15
@@ -1795,20 +1795,20 @@ Label_0131185C:
 @******************************************************@
 	.align	2
 
-song17:
+CelicaMap2:
 	.byte	7	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song17_pri	@ Priority
-	.byte	song17_rev	@ Reverb.
+	.byte	CelicaMap2_pri	@ Priority
+	.byte	CelicaMap2_rev	@ Reverb.
     
-	.word	song17_grp
+	.word	CelicaMap2_grp
     
-	.word	song17_001
-	.word	song17_002
-	.word	song17_003
-	.word	song17_004
-	.word	song17_005
-	.word	song17_006
-	.word	song17_007
+	.word	CelicaMap2_001
+	.word	CelicaMap2_002
+	.word	CelicaMap2_003
+	.word	CelicaMap2_004
+	.word	CelicaMap2_005
+	.word	CelicaMap2_006
+	.word	CelicaMap2_007
 
 	.end

@@ -1,31 +1,31 @@
 	.include "MPlayDef.s"
 
-	.equ	song02_grp, voicegroup000
-	.equ	song02_pri, 10
-	.equ	song02_rev, 0
-	.equ	song02_mvl, 127
-	.equ	song02_key, 0
-	.equ	song02_tbs, 1
-	.equ	song02_exg, 0
-	.equ	song02_cmp, 1
+	.equ	SMB2MonkyGolf_grp, voicegroup000
+	.equ	SMB2MonkyGolf_pri, 10
+	.equ	SMB2MonkyGolf_rev, 0
+	.equ	SMB2MonkyGolf_mvl, 127
+	.equ	SMB2MonkyGolf_key, 0
+	.equ	SMB2MonkyGolf_tbs, 1
+	.equ	SMB2MonkyGolf_exg, 0
+	.equ	SMB2MonkyGolf_cmp, 1
 
 	.section .rodata
-	.global	song02
+	.global	SMB2MonkyGolf
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song02_001:
+SMB2MonkyGolf_001:
 @  #01 @000   ----------------------------------------
 Label_546E4C:
- .byte   TEMPO , 132*song02_tbs/2
- .byte   KEYSH , song02_key+0
+ .byte   TEMPO , 132*SMB2MonkyGolf_tbs/2
+ .byte   KEYSH , SMB2MonkyGolf_key+0
  .byte   VOICE , 24
- .byte   VOL , 55*song02_mvl/mxv
- .byte   VOL , 55*song02_mvl/mxv
- .byte   VOL , 55*song02_mvl/mxv
- .byte   VOL , 55*song02_mvl/mxv
+ .byte   VOL , 55*SMB2MonkyGolf_mvl/mxv
+ .byte   VOL , 55*SMB2MonkyGolf_mvl/mxv
+ .byte   VOL , 55*SMB2MonkyGolf_mvl/mxv
+ .byte   VOL , 55*SMB2MonkyGolf_mvl/mxv
  .byte   PAN , c_v+0
  .byte   PAN , c_v+0
  .byte   PAN , c_v+0
@@ -319,16 +319,16 @@ Label_546F2A:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song02_002:
+SMB2MonkyGolf_002:
 @  #02 @000   ----------------------------------------
 Label_546FD0:
- .byte   TEMPO , 132*song02_tbs/2
- .byte   KEYSH , song02_key+0
+ .byte   TEMPO , 132*SMB2MonkyGolf_tbs/2
+ .byte   KEYSH , SMB2MonkyGolf_key+0
  .byte   VOICE , 24
- .byte   VOL , 55*song02_mvl/mxv
- .byte   VOL , 55*song02_mvl/mxv
- .byte   VOL , 55*song02_mvl/mxv
- .byte   VOL , 55*song02_mvl/mxv
+ .byte   VOL , 55*SMB2MonkyGolf_mvl/mxv
+ .byte   VOL , 55*SMB2MonkyGolf_mvl/mxv
+ .byte   VOL , 55*SMB2MonkyGolf_mvl/mxv
+ .byte   VOL , 55*SMB2MonkyGolf_mvl/mxv
  .byte   PAN , c_v+0
  .byte   PAN , c_v+0
  .byte   PAN , c_v+0
@@ -790,16 +790,16 @@ Label_547169:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song02_003:
+SMB2MonkyGolf_003:
 @  #03 @000   ----------------------------------------
 Label_014B615C:
- .byte   TEMPO , 132*song02_tbs/2
- .byte   KEYSH , song02_key+0
+ .byte   TEMPO , 132*SMB2MonkyGolf_tbs/2
+ .byte   KEYSH , SMB2MonkyGolf_key+0
  .byte   VOICE , 33
- .byte   VOL , 55*song02_mvl/mxv
- .byte   VOL , 55*song02_mvl/mxv
- .byte   VOL , 55*song02_mvl/mxv
- .byte   VOL , 55*song02_mvl/mxv
+ .byte   VOL , 55*SMB2MonkyGolf_mvl/mxv
+ .byte   VOL , 55*SMB2MonkyGolf_mvl/mxv
+ .byte   VOL , 55*SMB2MonkyGolf_mvl/mxv
+ .byte   VOL , 55*SMB2MonkyGolf_mvl/mxv
  .byte   PAN , c_v+0
  .byte   PAN , c_v+0
  .byte   PAN , c_v+0
@@ -1251,16 +1251,16 @@ Label_014B62A2:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song02_004:
+SMB2MonkyGolf_004:
 @  #04 @000   ----------------------------------------
 Label_5471FC:
- .byte   TEMPO , 132*song02_tbs/2
- .byte   KEYSH , song02_key+0
+ .byte   TEMPO , 132*SMB2MonkyGolf_tbs/2
+ .byte   KEYSH , SMB2MonkyGolf_key+0
  .byte   VOICE , 24
- .byte   VOL , 55*song02_mvl/mxv
- .byte   VOL , 55*song02_mvl/mxv
- .byte   VOL , 55*song02_mvl/mxv
- .byte   VOL , 55*song02_mvl/mxv
+ .byte   VOL , 55*SMB2MonkyGolf_mvl/mxv
+ .byte   VOL , 55*SMB2MonkyGolf_mvl/mxv
+ .byte   VOL , 55*SMB2MonkyGolf_mvl/mxv
+ .byte   VOL , 55*SMB2MonkyGolf_mvl/mxv
  .byte   PAN , c_v+0
  .byte   PAN , c_v+0
  .byte   PAN , c_v+0
@@ -1452,16 +1452,16 @@ Label_54723B:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song02_005:
+SMB2MonkyGolf_005:
 @  #05 @000   ----------------------------------------
 Label_014B6394:
- .byte   TEMPO , 132*song02_tbs/2
- .byte   KEYSH , song02_key+0
+ .byte   TEMPO , 132*SMB2MonkyGolf_tbs/2
+ .byte   KEYSH , SMB2MonkyGolf_key+0
  .byte   VOICE , 75
- .byte   VOL , 45*song02_mvl/mxv
- .byte   VOL , 45*song02_mvl/mxv
- .byte   VOL , 45*song02_mvl/mxv
- .byte   VOL , 45*song02_mvl/mxv
+ .byte   VOL , 45*SMB2MonkyGolf_mvl/mxv
+ .byte   VOL , 45*SMB2MonkyGolf_mvl/mxv
+ .byte   VOL , 45*SMB2MonkyGolf_mvl/mxv
+ .byte   VOL , 45*SMB2MonkyGolf_mvl/mxv
  .byte   PAN , c_v+0
  .byte   PAN , c_v+0
  .byte   PAN , c_v+0
@@ -1580,16 +1580,16 @@ Label_014B63AE:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song02_006:
+SMB2MonkyGolf_006:
 @  #06 @000   ----------------------------------------
 Label_014B6408:
- .byte   TEMPO , 132*song02_tbs/2
- .byte   KEYSH , song02_key+0
+ .byte   TEMPO , 132*SMB2MonkyGolf_tbs/2
+ .byte   KEYSH , SMB2MonkyGolf_key+0
  .byte   VOICE , 48
- .byte   VOL , 20*song02_mvl/mxv
- .byte   VOL , 20*song02_mvl/mxv
- .byte   VOL , 20*song02_mvl/mxv
- .byte   VOL , 20*song02_mvl/mxv
+ .byte   VOL , 20*SMB2MonkyGolf_mvl/mxv
+ .byte   VOL , 20*SMB2MonkyGolf_mvl/mxv
+ .byte   VOL , 20*SMB2MonkyGolf_mvl/mxv
+ .byte   VOL , 20*SMB2MonkyGolf_mvl/mxv
  .byte   PAN , c_v+0
  .byte   PAN , c_v+0
  .byte   PAN , c_v+0
@@ -1971,16 +1971,16 @@ Label_014B654D:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-song02_007:
+SMB2MonkyGolf_007:
 @  #07 @000   ----------------------------------------
 Label_014D0D24:
- .byte   TEMPO , 132*song02_tbs/2
- .byte   KEYSH , song02_key+0
+ .byte   TEMPO , 132*SMB2MonkyGolf_tbs/2
+ .byte   KEYSH , SMB2MonkyGolf_key+0
  .byte   VOICE , 88
- .byte   VOL , 25*song02_mvl/mxv
- .byte   VOL , 25*song02_mvl/mxv
- .byte   VOL , 25*song02_mvl/mxv
- .byte   VOL , 25*song02_mvl/mxv
+ .byte   VOL , 25*SMB2MonkyGolf_mvl/mxv
+ .byte   VOL , 25*SMB2MonkyGolf_mvl/mxv
+ .byte   VOL , 25*SMB2MonkyGolf_mvl/mxv
+ .byte   VOL , 25*SMB2MonkyGolf_mvl/mxv
  .byte   PAN , c_v+0
  .byte   PAN , c_v+0
  .byte   PAN , c_v+0
@@ -2739,16 +2739,16 @@ Label_014D104F:
 
 @**************** Track 8 (Midi-Chn.7) ****************@
 
-song02_008:
+SMB2MonkyGolf_008:
 @  #08 @000   ----------------------------------------
 Label_014D123C:
- .byte   TEMPO , 132*song02_tbs/2
- .byte   KEYSH , song02_key+0
+ .byte   TEMPO , 132*SMB2MonkyGolf_tbs/2
+ .byte   KEYSH , SMB2MonkyGolf_key+0
  .byte   VOICE , 119
- .byte   VOL , 20*song02_mvl/mxv
- .byte   VOL , 20*song02_mvl/mxv
- .byte   VOL , 20*song02_mvl/mxv
- .byte   VOL , 20*song02_mvl/mxv
+ .byte   VOL , 20*SMB2MonkyGolf_mvl/mxv
+ .byte   VOL , 20*SMB2MonkyGolf_mvl/mxv
+ .byte   VOL , 20*SMB2MonkyGolf_mvl/mxv
+ .byte   VOL , 20*SMB2MonkyGolf_mvl/mxv
  .byte   PAN , c_v+0
  .byte   PAN , c_v+0
  .byte   PAN , c_v+0
@@ -2844,16 +2844,16 @@ Label_014D1253:
 
 @**************** Track 9 (Midi-Chn.8) ****************@
 
-song02_009:
+SMB2MonkyGolf_009:
 @  #09 @000   ----------------------------------------
 Label_014D12DC:
- .byte   TEMPO , 132*song02_tbs/2
- .byte   KEYSH , song02_key+0
+ .byte   TEMPO , 132*SMB2MonkyGolf_tbs/2
+ .byte   KEYSH , SMB2MonkyGolf_key+0
  .byte   VOICE , 123
- .byte   VOL , 50*song02_mvl/mxv
- .byte   VOL , 50*song02_mvl/mxv
- .byte   VOL , 50*song02_mvl/mxv
- .byte   VOL , 50*song02_mvl/mxv
+ .byte   VOL , 50*SMB2MonkyGolf_mvl/mxv
+ .byte   VOL , 50*SMB2MonkyGolf_mvl/mxv
+ .byte   VOL , 50*SMB2MonkyGolf_mvl/mxv
+ .byte   VOL , 50*SMB2MonkyGolf_mvl/mxv
  .byte   PAN , c_v+0
  .byte   PAN , c_v+0
  .byte   PAN , c_v+0
@@ -3500,22 +3500,22 @@ Label_014D155A:
 @******************************************************@
 	.align	2
 
-song02:
+SMB2MonkyGolf:
 	.byte	9	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song02_pri	@ Priority
-	.byte	song02_rev	@ Reverb.
+	.byte	SMB2MonkyGolf_pri	@ Priority
+	.byte	SMB2MonkyGolf_rev	@ Reverb.
     
-	.word	song02_grp
+	.word	SMB2MonkyGolf_grp
     
-	.word	song02_001
-	.word	song02_002
-	.word	song02_003
-	.word	song02_004
-	.word	song02_005
-	.word	song02_006
-	.word	song02_007
-	.word	song02_008
-	.word	song02_009
+	.word	SMB2MonkyGolf_001
+	.word	SMB2MonkyGolf_002
+	.word	SMB2MonkyGolf_003
+	.word	SMB2MonkyGolf_004
+	.word	SMB2MonkyGolf_005
+	.word	SMB2MonkyGolf_006
+	.word	SMB2MonkyGolf_007
+	.word	SMB2MonkyGolf_008
+	.word	SMB2MonkyGolf_009
 
 	.end

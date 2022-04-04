@@ -1,28 +1,28 @@
 	.include "MPlayDef.s"
 
-	.equ	song03_grp, voicegroup000
-	.equ	song03_pri, 10
-	.equ	song03_rev, 0
-	.equ	song03_mvl, 127
-	.equ	song03_key, 0
-	.equ	song03_tbs, 1
-	.equ	song03_exg, 0
-	.equ	song03_cmp, 1
+	.equ	Pyramid Cave SA2B_grp, voicegroup000
+	.equ	Pyramid Cave SA2B_pri, 10
+	.equ	Pyramid Cave SA2B_rev, 0
+	.equ	Pyramid Cave SA2B_mvl, 127
+	.equ	Pyramid Cave SA2B_key, 0
+	.equ	Pyramid Cave SA2B_tbs, 1
+	.equ	Pyramid Cave SA2B_exg, 0
+	.equ	Pyramid Cave SA2B_cmp, 1
 
 	.section .rodata
-	.global	song03
+	.global	Pyramid Cave SA2B
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song03_001:
+Pyramid Cave SA2B_001:
 @  #01 @000   ----------------------------------------
 Label_01000420:
- .byte   TEMPO , 132*song03_tbs/2
- .byte   KEYSH , song03_key+0
+ .byte   TEMPO , 132*Pyramid Cave SA2B_tbs/2
+ .byte   KEYSH , Pyramid Cave SA2B_key+0
  .byte   VOICE , 65
- .byte   VOL , 18*song03_mvl/mxv
+ .byte   VOL , 18*Pyramid Cave SA2B_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N02 ,Dn1 ,v127
  .byte   W03
@@ -714,13 +714,13 @@ Label_01000673:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song03_002:
+Pyramid Cave SA2B_002:
 @  #02 @000   ----------------------------------------
 Label_010007C8:
- .byte   TEMPO , 132*song03_tbs/2
- .byte   KEYSH , song03_key+0
+ .byte   TEMPO , 132*Pyramid Cave SA2B_tbs/2
+ .byte   KEYSH , Pyramid Cave SA2B_key+0
  .byte   VOICE , 73
- .byte   VOL , 68*song03_mvl/mxv
+ .byte   VOL , 68*Pyramid Cave SA2B_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #02 @001   ----------------------------------------
@@ -1336,13 +1336,13 @@ Label_010009F0:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song03_003:
+Pyramid Cave SA2B_003:
 @  #03 @000   ----------------------------------------
 Label_01000AE0:
- .byte   TEMPO , 132*song03_tbs/2
- .byte   KEYSH , song03_key+0
+ .byte   TEMPO , 132*Pyramid Cave SA2B_tbs/2
+ .byte   KEYSH , Pyramid Cave SA2B_key+0
  .byte   VOICE , 56
- .byte   VOL , 4*song03_mvl/mxv
+ .byte   VOL , 4*Pyramid Cave SA2B_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #03 @001   ----------------------------------------
@@ -1642,13 +1642,13 @@ Label_01000B51:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song03_004:
+Pyramid Cave SA2B_004:
 @  #04 @000   ----------------------------------------
 Label_01000BFC:
- .byte   TEMPO , 132*song03_tbs/2
- .byte   KEYSH , song03_key+0
+ .byte   TEMPO , 132*Pyramid Cave SA2B_tbs/2
+ .byte   KEYSH , Pyramid Cave SA2B_key+0
  .byte   VOICE , 52
- .byte   VOL , 34*song03_mvl/mxv
+ .byte   VOL , 34*Pyramid Cave SA2B_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N36 ,En3 ,v110
  .byte   N36 ,Bn2
@@ -2132,13 +2132,13 @@ Label_01000D8E:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song03_005:
+Pyramid Cave SA2B_005:
 @  #05 @000   ----------------------------------------
 Label_547CB0:
- .byte   TEMPO , 132*song03_tbs/2
- .byte   KEYSH , song03_key+0
+ .byte   TEMPO , 132*Pyramid Cave SA2B_tbs/2
+ .byte   KEYSH , Pyramid Cave SA2B_key+0
  .byte   VOICE , 66
- .byte   VOL , 66*song03_mvl/mxv
+ .byte   VOL , 66*Pyramid Cave SA2B_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #05 @001   ----------------------------------------
@@ -2400,13 +2400,13 @@ Label_547CE4:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song03_006:
+Pyramid Cave SA2B_006:
 @  #06 @000   ----------------------------------------
 Label_01000E9C:
- .byte   TEMPO , 132*song03_tbs/2
- .byte   KEYSH , song03_key+0
+ .byte   TEMPO , 132*Pyramid Cave SA2B_tbs/2
+ .byte   KEYSH , Pyramid Cave SA2B_key+0
  .byte   VOICE , 71
- .byte   VOL , 57*song03_mvl/mxv
+ .byte   VOL , 57*Pyramid Cave SA2B_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #06 @001   ----------------------------------------
@@ -2706,13 +2706,13 @@ Label_01000F12:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-song03_007:
+Pyramid Cave SA2B_007:
 @  #07 @000   ----------------------------------------
 Label_01000FA8:
- .byte   TEMPO , 132*song03_tbs/2
- .byte   KEYSH , song03_key+0
+ .byte   TEMPO , 132*Pyramid Cave SA2B_tbs/2
+ .byte   KEYSH , Pyramid Cave SA2B_key+0
  .byte   VOICE , 36
- .byte   VOL , 85*song03_mvl/mxv
+ .byte   VOL , 85*Pyramid Cave SA2B_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N02 ,Dn2 ,v110
  .byte   W03
@@ -3112,13 +3112,13 @@ Label_010010D7:
 
 @**************** Track 8 (Midi-Chn.7) ****************@
 
-song03_008:
+Pyramid Cave SA2B_008:
 @  #08 @000   ----------------------------------------
 Label_010011B0:
- .byte   TEMPO , 132*song03_tbs/2
- .byte   KEYSH , song03_key+0
+ .byte   TEMPO , 132*Pyramid Cave SA2B_tbs/2
+ .byte   KEYSH , Pyramid Cave SA2B_key+0
  .byte   VOICE , 121
- .byte   VOL , 49*song03_mvl/mxv
+ .byte   VOL , 49*Pyramid Cave SA2B_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N11 ,Cs2 ,v110
  .byte   N11 ,Dn1
@@ -4676,21 +4676,21 @@ Label_01001983:
 @******************************************************@
 	.align	2
 
-song03:
+Pyramid Cave SA2B:
 	.byte	8	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song03_pri	@ Priority
-	.byte	song03_rev	@ Reverb.
+	.byte	Pyramid Cave SA2B_pri	@ Priority
+	.byte	Pyramid Cave SA2B_rev	@ Reverb.
     
-	.word	song03_grp
+	.word	Pyramid Cave SA2B_grp
     
-	.word	song03_001
-	.word	song03_002
-	.word	song03_003
-	.word	song03_004
-	.word	song03_005
-	.word	song03_006
-	.word	song03_007
-	.word	song03_008
+	.word	Pyramid Cave SA2B_001
+	.word	Pyramid Cave SA2B_002
+	.word	Pyramid Cave SA2B_003
+	.word	Pyramid Cave SA2B_004
+	.word	Pyramid Cave SA2B_005
+	.word	Pyramid Cave SA2B_006
+	.word	Pyramid Cave SA2B_007
+	.word	Pyramid Cave SA2B_008
 
 	.end

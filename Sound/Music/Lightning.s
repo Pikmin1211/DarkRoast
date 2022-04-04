@@ -1,30 +1,30 @@
 	.include "MPlayDef.s"
 
-	.equ	song0153_grp, voicegroup000
-	.equ	song0153_pri, 0
-	.equ	song0153_rev, 0
-	.equ	song0153_mvl, 127
-	.equ	song0153_key, 0
-	.equ	song0153_tbs, 1
-	.equ	song0153_exg, 0
-	.equ	song0153_cmp, 1
+	.equ	Lightning_grp, voicegroup000
+	.equ	Lightning_pri, 0
+	.equ	Lightning_rev, 0
+	.equ	Lightning_mvl, 127
+	.equ	Lightning_key, 0
+	.equ	Lightning_tbs, 1
+	.equ	Lightning_exg, 0
+	.equ	Lightning_cmp, 1
 
 	.section .rodata
-	.global	song0153
+	.global	Lightning
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song0153_001:
+Lightning_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , song0153_key+0
+ .byte   KEYSH , Lightning_key+0
 Label_012814B6:
- .byte   TEMPO , 92*song0153_tbs/2
+ .byte   TEMPO , 92*Lightning_tbs/2
  .byte   VOICE , 28
- .byte   VOL , 40*song0153_mvl/mxv
+ .byte   VOL , 40*Lightning_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 40*song0153_mvl/mxv
+ .byte   VOL , 40*Lightning_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N06 ,An3 ,v127
  .byte   W06
@@ -286,12 +286,12 @@ Label_012814E4:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song0153_002:
+Lightning_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , song0153_key+0
+ .byte   KEYSH , Lightning_key+0
 Label_012819BE:
  .byte   VOICE , 30
- .byte   VOL , 40*song0153_mvl/mxv
+ .byte   VOL , 40*Lightning_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N90 ,En2 ,v127
  .byte   N90 ,An2
@@ -1231,12 +1231,12 @@ Label_01281DBE:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song0153_003:
+Lightning_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , song0153_key+0
+ .byte   KEYSH , Lightning_key+0
 Label_0128159E:
  .byte   VOICE , 34
- .byte   VOL , 40*song0153_mvl/mxv
+ .byte   VOL , 40*Lightning_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N12 ,An0 ,v127
  .byte   W12
@@ -1858,12 +1858,12 @@ Label_01281737:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song0153_004:
+Lightning_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , song0153_key+0
+ .byte   KEYSH , Lightning_key+0
 Label_012818AE:
  .byte   VOICE , 52
- .byte   VOL , 40*song0153_mvl/mxv
+ .byte   VOL , 40*Lightning_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N24 ,An2 ,v127
  .byte   N24 ,An3
@@ -2121,12 +2121,12 @@ Label_01281915:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song0153_005:
+Lightning_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , song0153_key+0
+ .byte   KEYSH , Lightning_key+0
 Label_01281F42:
  .byte   VOICE , 28
- .byte   VOL , 40*song0153_mvl/mxv
+ .byte   VOL , 40*Lightning_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W03
  .byte   N06 ,An3 ,v076
@@ -2423,14 +2423,14 @@ Label_01281F94:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song0153_006:
+Lightning_006:
 @  #06 @000   ----------------------------------------
- .byte   KEYSH , song0153_key+0
+ .byte   KEYSH , Lightning_key+0
 Label_0127F40E:
  .byte   VOICE , 29
- .byte   VOL , 40*song0153_mvl/mxv
+ .byte   VOL , 40*Lightning_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 40*song0153_mvl/mxv
+ .byte   VOL , 40*Lightning_mvl/mxv
  .byte   W96
 @  #06 @001   ----------------------------------------
  .byte   W96
@@ -2794,166 +2794,166 @@ Label_0127F58F:
  .byte   PEND 
 @  #06 @020   ----------------------------------------
 Label_0127F5AA:
- .byte   VOL , 40*song0153_mvl/mxv
+ .byte   VOL , 40*Lightning_mvl/mxv
  .byte   N96 ,En4 ,v127
  .byte   W01
- .byte   VOL , 39*song0153_mvl/mxv
+ .byte   VOL , 39*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 78*song0153_mvl/mxv
+ .byte   VOL , 78*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 78*song0153_mvl/mxv
+ .byte   VOL , 78*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 77*song0153_mvl/mxv
+ .byte   VOL , 77*Lightning_mvl/mxv
  .byte   W02
- .byte   VOL , 76*song0153_mvl/mxv
+ .byte   VOL , 76*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 76*song0153_mvl/mxv
+ .byte   VOL , 76*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 75*song0153_mvl/mxv
+ .byte   VOL , 75*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 74*song0153_mvl/mxv
+ .byte   VOL , 74*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 74*song0153_mvl/mxv
+ .byte   VOL , 74*Lightning_mvl/mxv
  .byte   W02
- .byte   VOL , 73*song0153_mvl/mxv
+ .byte   VOL , 73*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 73*song0153_mvl/mxv
+ .byte   VOL , 73*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 72*song0153_mvl/mxv
+ .byte   VOL , 72*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 71*song0153_mvl/mxv
+ .byte   VOL , 71*Lightning_mvl/mxv
  .byte   W02
- .byte   VOL , 71*song0153_mvl/mxv
+ .byte   VOL , 71*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 70*song0153_mvl/mxv
+ .byte   VOL , 70*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 69*song0153_mvl/mxv
+ .byte   VOL , 69*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 69*song0153_mvl/mxv
+ .byte   VOL , 69*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 68*song0153_mvl/mxv
+ .byte   VOL , 68*Lightning_mvl/mxv
  .byte   W02
- .byte   VOL , 68*song0153_mvl/mxv
+ .byte   VOL , 68*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 67*song0153_mvl/mxv
+ .byte   VOL , 67*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 66*song0153_mvl/mxv
+ .byte   VOL , 66*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 66*song0153_mvl/mxv
+ .byte   VOL , 66*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 65*song0153_mvl/mxv
+ .byte   VOL , 65*Lightning_mvl/mxv
  .byte   W02
- .byte   VOL , 64*song0153_mvl/mxv
+ .byte   VOL , 64*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 64*song0153_mvl/mxv
+ .byte   VOL , 64*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 63*song0153_mvl/mxv
+ .byte   VOL , 63*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 62*song0153_mvl/mxv
+ .byte   VOL , 62*Lightning_mvl/mxv
  .byte   W02
- .byte   VOL , 62*song0153_mvl/mxv
+ .byte   VOL , 62*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 61*song0153_mvl/mxv
+ .byte   VOL , 61*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 61*song0153_mvl/mxv
+ .byte   VOL , 61*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 60*song0153_mvl/mxv
+ .byte   VOL , 60*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 59*song0153_mvl/mxv
+ .byte   VOL , 59*Lightning_mvl/mxv
  .byte   W02
- .byte   VOL , 59*song0153_mvl/mxv
+ .byte   VOL , 59*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 58*song0153_mvl/mxv
+ .byte   VOL , 58*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 57*song0153_mvl/mxv
+ .byte   VOL , 57*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 57*song0153_mvl/mxv
+ .byte   VOL , 57*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 56*song0153_mvl/mxv
+ .byte   VOL , 56*Lightning_mvl/mxv
  .byte   W02
- .byte   VOL , 56*song0153_mvl/mxv
+ .byte   VOL , 56*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 55*song0153_mvl/mxv
+ .byte   VOL , 55*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 54*song0153_mvl/mxv
+ .byte   VOL , 54*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 54*song0153_mvl/mxv
+ .byte   VOL , 54*Lightning_mvl/mxv
  .byte   W02
- .byte   VOL , 53*song0153_mvl/mxv
+ .byte   VOL , 53*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 52*song0153_mvl/mxv
+ .byte   VOL , 52*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 52*song0153_mvl/mxv
+ .byte   VOL , 52*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 51*song0153_mvl/mxv
+ .byte   VOL , 51*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 51*song0153_mvl/mxv
+ .byte   VOL , 51*Lightning_mvl/mxv
  .byte   W02
- .byte   VOL , 50*song0153_mvl/mxv
+ .byte   VOL , 50*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 49*song0153_mvl/mxv
+ .byte   VOL , 49*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 49*song0153_mvl/mxv
+ .byte   VOL , 49*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 48*song0153_mvl/mxv
+ .byte   VOL , 48*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 47*song0153_mvl/mxv
+ .byte   VOL , 47*Lightning_mvl/mxv
  .byte   W02
- .byte   VOL , 47*song0153_mvl/mxv
+ .byte   VOL , 47*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 46*song0153_mvl/mxv
+ .byte   VOL , 46*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 45*song0153_mvl/mxv
+ .byte   VOL , 45*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 45*song0153_mvl/mxv
+ .byte   VOL , 45*Lightning_mvl/mxv
  .byte   W02
- .byte   VOL , 44*song0153_mvl/mxv
+ .byte   VOL , 44*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 44*song0153_mvl/mxv
+ .byte   VOL , 44*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 43*song0153_mvl/mxv
+ .byte   VOL , 43*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 42*song0153_mvl/mxv
+ .byte   VOL , 42*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 42*song0153_mvl/mxv
+ .byte   VOL , 42*Lightning_mvl/mxv
  .byte   W02
- .byte   VOL , 41*song0153_mvl/mxv
+ .byte   VOL , 41*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 40*song0153_mvl/mxv
+ .byte   VOL , 40*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 40*song0153_mvl/mxv
+ .byte   VOL , 40*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 39*song0153_mvl/mxv
+ .byte   VOL , 39*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 39*song0153_mvl/mxv
+ .byte   VOL , 39*Lightning_mvl/mxv
  .byte   W02
- .byte   VOL , 38*song0153_mvl/mxv
+ .byte   VOL , 38*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 37*song0153_mvl/mxv
+ .byte   VOL , 37*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 37*song0153_mvl/mxv
+ .byte   VOL , 37*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 36*song0153_mvl/mxv
+ .byte   VOL , 36*Lightning_mvl/mxv
  .byte   W02
- .byte   VOL , 35*song0153_mvl/mxv
+ .byte   VOL , 35*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 35*song0153_mvl/mxv
+ .byte   VOL , 35*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 34*song0153_mvl/mxv
+ .byte   VOL , 34*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 34*song0153_mvl/mxv
+ .byte   VOL , 34*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 33*song0153_mvl/mxv
+ .byte   VOL , 33*Lightning_mvl/mxv
  .byte   W02
- .byte   VOL , 32*song0153_mvl/mxv
+ .byte   VOL , 32*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 32*song0153_mvl/mxv
+ .byte   VOL , 32*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 31*song0153_mvl/mxv
+ .byte   VOL , 31*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 30*song0153_mvl/mxv
+ .byte   VOL , 30*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 30*song0153_mvl/mxv
+ .byte   VOL , 30*Lightning_mvl/mxv
  .byte   W01
  .byte   PEND 
 @  #06 @021   ----------------------------------------
@@ -3021,10 +3021,10 @@ Label_0127F5AA:
  .byte   PATT
   .word Label_0127F5AA
 @  #06 @043   ----------------------------------------
- .byte   VOL , 0*song0153_mvl/mxv
+ .byte   VOL , 0*Lightning_mvl/mxv
  .byte   W96
 @  #06 @044   ----------------------------------------
- .byte   VOL , 80*song0153_mvl/mxv
+ .byte   VOL , 80*Lightning_mvl/mxv
  .byte   W96
 @  #06 @045   ----------------------------------------
  .byte   W96
@@ -3081,10 +3081,10 @@ Label_0127F5AA:
  .byte   PATT
   .word Label_0127F5AA
 @  #06 @065   ----------------------------------------
- .byte   VOL , 0*song0153_mvl/mxv
+ .byte   VOL , 0*Lightning_mvl/mxv
  .byte   W96
 @  #06 @066   ----------------------------------------
- .byte   VOL , 80*song0153_mvl/mxv
+ .byte   VOL , 80*Lightning_mvl/mxv
  .byte   W96
 @  #06 @067   ----------------------------------------
  .byte   W96
@@ -3145,7 +3145,7 @@ Label_0127F5AA:
  .byte   PATT
   .word Label_0127F5AA
 @  #06 @087   ----------------------------------------
- .byte   VOL , 0*song0153_mvl/mxv
+ .byte   VOL , 0*Lightning_mvl/mxv
  .byte   W96
 @  #06 @088   ----------------------------------------
  .byte   GOTO
@@ -3154,12 +3154,12 @@ Label_0127F5AA:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-song0153_007:
+Lightning_007:
 @  #07 @000   ----------------------------------------
- .byte   KEYSH , song0153_key+0
+ .byte   KEYSH , Lightning_key+0
 Label_01282046:
  .byte   VOICE , 48
- .byte   VOL , 40*song0153_mvl/mxv
+ .byte   VOL , 40*Lightning_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #07 @001   ----------------------------------------
@@ -3528,15 +3528,15 @@ Label_012820F4:
 
 @**************** Track 8 (Midi-Chn.7) ****************@
 
-song0153_008:
+Lightning_008:
 @  #08 @000   ----------------------------------------
- .byte   KEYSH , song0153_key+0
+ .byte   KEYSH , Lightning_key+0
 Label_0127F76E:
  .byte   VOICE , 29
- .byte   VOL , 40*song0153_mvl/mxv
+ .byte   VOL , 40*Lightning_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W03
- .byte   VOL , 7*song0153_mvl/mxv
+ .byte   VOL , 7*Lightning_mvl/mxv
  .byte   W92
  .byte   W01
 @  #08 @001   ----------------------------------------
@@ -3981,170 +3981,170 @@ Label_0127F947:
 @  #08 @020   ----------------------------------------
 Label_0127F963:
  .byte   W03
- .byte   VOL , 7*song0153_mvl/mxv
+ .byte   VOL , 7*Lightning_mvl/mxv
  .byte   N96 ,En4 ,v127
  .byte   W01
- .byte   VOL , 6*song0153_mvl/mxv
+ .byte   VOL , 6*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 45*song0153_mvl/mxv
+ .byte   VOL , 45*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 45*song0153_mvl/mxv
+ .byte   VOL , 45*Lightning_mvl/mxv
  .byte   W02
- .byte   VOL , 44*song0153_mvl/mxv
+ .byte   VOL , 44*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 44*song0153_mvl/mxv
+ .byte   VOL , 44*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 43*song0153_mvl/mxv
+ .byte   VOL , 43*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 42*song0153_mvl/mxv
+ .byte   VOL , 42*Lightning_mvl/mxv
  .byte   W02
- .byte   VOL , 42*song0153_mvl/mxv
+ .byte   VOL , 42*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 41*song0153_mvl/mxv
+ .byte   VOL , 41*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 40*song0153_mvl/mxv
+ .byte   VOL , 40*Lightning_mvl/mxv
  .byte   W02
- .byte   VOL , 40*song0153_mvl/mxv
+ .byte   VOL , 40*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 39*song0153_mvl/mxv
+ .byte   VOL , 39*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 39*song0153_mvl/mxv
+ .byte   VOL , 39*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 38*song0153_mvl/mxv
+ .byte   VOL , 38*Lightning_mvl/mxv
  .byte   W02
- .byte   VOL , 37*song0153_mvl/mxv
+ .byte   VOL , 37*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 37*song0153_mvl/mxv
+ .byte   VOL , 37*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 36*song0153_mvl/mxv
+ .byte   VOL , 36*Lightning_mvl/mxv
  .byte   W02
- .byte   VOL , 35*song0153_mvl/mxv
+ .byte   VOL , 35*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 35*song0153_mvl/mxv
+ .byte   VOL , 35*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 34*song0153_mvl/mxv
+ .byte   VOL , 34*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 34*song0153_mvl/mxv
+ .byte   VOL , 34*Lightning_mvl/mxv
  .byte   W02
- .byte   VOL , 33*song0153_mvl/mxv
+ .byte   VOL , 33*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 32*song0153_mvl/mxv
+ .byte   VOL , 32*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 32*song0153_mvl/mxv
+ .byte   VOL , 32*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 31*song0153_mvl/mxv
+ .byte   VOL , 31*Lightning_mvl/mxv
  .byte   W02
- .byte   VOL , 30*song0153_mvl/mxv
+ .byte   VOL , 30*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 30*song0153_mvl/mxv
+ .byte   VOL , 30*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 29*song0153_mvl/mxv
+ .byte   VOL , 29*Lightning_mvl/mxv
  .byte   W02
- .byte   VOL , 28*song0153_mvl/mxv
+ .byte   VOL , 28*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 28*song0153_mvl/mxv
+ .byte   VOL , 28*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 27*song0153_mvl/mxv
+ .byte   VOL , 27*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 27*song0153_mvl/mxv
+ .byte   VOL , 27*Lightning_mvl/mxv
  .byte   W02
- .byte   VOL , 26*song0153_mvl/mxv
+ .byte   VOL , 26*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 25*song0153_mvl/mxv
+ .byte   VOL , 25*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 25*song0153_mvl/mxv
+ .byte   VOL , 25*Lightning_mvl/mxv
  .byte   W02
- .byte   VOL , 24*song0153_mvl/mxv
+ .byte   VOL , 24*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 23*song0153_mvl/mxv
+ .byte   VOL , 23*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 23*song0153_mvl/mxv
+ .byte   VOL , 23*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 22*song0153_mvl/mxv
+ .byte   VOL , 22*Lightning_mvl/mxv
  .byte   W02
- .byte   VOL , 22*song0153_mvl/mxv
+ .byte   VOL , 22*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 21*song0153_mvl/mxv
+ .byte   VOL , 21*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 20*song0153_mvl/mxv
+ .byte   VOL , 20*Lightning_mvl/mxv
  .byte   W02
- .byte   VOL , 20*song0153_mvl/mxv
+ .byte   VOL , 20*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 19*song0153_mvl/mxv
+ .byte   VOL , 19*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 18*song0153_mvl/mxv
+ .byte   VOL , 18*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 18*song0153_mvl/mxv
+ .byte   VOL , 18*Lightning_mvl/mxv
  .byte   W02
- .byte   VOL , 17*song0153_mvl/mxv
+ .byte   VOL , 17*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 17*song0153_mvl/mxv
+ .byte   VOL , 17*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 16*song0153_mvl/mxv
+ .byte   VOL , 16*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 15*song0153_mvl/mxv
+ .byte   VOL , 15*Lightning_mvl/mxv
  .byte   W02
- .byte   VOL , 15*song0153_mvl/mxv
+ .byte   VOL , 15*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 14*song0153_mvl/mxv
+ .byte   VOL , 14*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 13*song0153_mvl/mxv
+ .byte   VOL , 13*Lightning_mvl/mxv
  .byte   W02
- .byte   VOL , 13*song0153_mvl/mxv
+ .byte   VOL , 13*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 12*song0153_mvl/mxv
+ .byte   VOL , 12*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 11*song0153_mvl/mxv
+ .byte   VOL , 11*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 11*song0153_mvl/mxv
+ .byte   VOL , 11*Lightning_mvl/mxv
  .byte   W02
- .byte   VOL , 10*song0153_mvl/mxv
+ .byte   VOL , 10*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 10*song0153_mvl/mxv
+ .byte   VOL , 10*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 9*song0153_mvl/mxv
+ .byte   VOL , 9*Lightning_mvl/mxv
  .byte   W02
- .byte   VOL , 8*song0153_mvl/mxv
+ .byte   VOL , 8*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 8*song0153_mvl/mxv
+ .byte   VOL , 8*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 7*song0153_mvl/mxv
+ .byte   VOL , 7*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 6*song0153_mvl/mxv
+ .byte   VOL , 6*Lightning_mvl/mxv
  .byte   W02
- .byte   VOL , 6*song0153_mvl/mxv
+ .byte   VOL , 6*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 5*song0153_mvl/mxv
+ .byte   VOL , 5*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 5*song0153_mvl/mxv
+ .byte   VOL , 5*Lightning_mvl/mxv
  .byte   W02
- .byte   VOL , 4*song0153_mvl/mxv
+ .byte   VOL , 4*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 3*song0153_mvl/mxv
+ .byte   VOL , 3*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 3*song0153_mvl/mxv
+ .byte   VOL , 3*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 2*song0153_mvl/mxv
+ .byte   VOL , 2*Lightning_mvl/mxv
  .byte   W02
- .byte   VOL , 1*song0153_mvl/mxv
+ .byte   VOL , 1*Lightning_mvl/mxv
  .byte   W01
  .byte   PEND 
 @  #08 @021   ----------------------------------------
 Label_0127F9FC:
- .byte   VOL , 0*song0153_mvl/mxv
+ .byte   VOL , 0*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 0*song0153_mvl/mxv
+ .byte   VOL , 0*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 0*song0153_mvl/mxv
+ .byte   VOL , 0*Lightning_mvl/mxv
  .byte   W01
- .byte   VOL , 0*song0153_mvl/mxv
+ .byte   VOL , 0*Lightning_mvl/mxv
  .byte   W92
  .byte   W01
  .byte   PEND 
 @  #08 @022   ----------------------------------------
 Label_0127FA07:
  .byte   W03
- .byte   VOL , 7*song0153_mvl/mxv
+ .byte   VOL , 7*Lightning_mvl/mxv
  .byte   W92
  .byte   W01
  .byte   PEND 
@@ -4340,16 +4340,16 @@ Label_0127FA07:
 
 @**************** Track 9 (Midi-Chn.8) ****************@
 
-song0153_009:
+Lightning_009:
 @  #09 @000   ----------------------------------------
- .byte   KEYSH , song0153_key+0
+ .byte   KEYSH , Lightning_key+0
 Label_0127FE9A:
  .byte   VOICE , 121
- .byte   VOL , 40*song0153_mvl/mxv
+ .byte   VOL , 40*Lightning_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 40*song0153_mvl/mxv
+ .byte   VOL , 40*Lightning_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 40*song0153_mvl/mxv
+ .byte   VOL , 40*Lightning_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N12 ,Cn1 ,v127
  .byte   N12 ,Cs2
@@ -5208,22 +5208,22 @@ Label_012802A3:
 @******************************************************@
 	.align	2
 
-song0153:
+Lightning:
 	.byte	9	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song0153_pri	@ Priority
-	.byte	song0153_rev	@ Reverb.
+	.byte	Lightning_pri	@ Priority
+	.byte	Lightning_rev	@ Reverb.
     
-	.word	song0153_grp
+	.word	Lightning_grp
     
-	.word	song0153_001
-	.word	song0153_002
-	.word	song0153_003
-	.word	song0153_004
-	.word	song0153_005
-	.word	song0153_006
-	.word	song0153_007
-	.word	song0153_008
-	.word	song0153_009
+	.word	Lightning_001
+	.word	Lightning_002
+	.word	Lightning_003
+	.word	Lightning_004
+	.word	Lightning_005
+	.word	Lightning_006
+	.word	Lightning_007
+	.word	Lightning_008
+	.word	Lightning_009
 
 	.end

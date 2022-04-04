@@ -1,28 +1,28 @@
 	.include "MPlayDef.s"
 
-	.equ	song94_grp, voicegroup000
-	.equ	song94_pri, 0
-	.equ	song94_rev, 0
-	.equ	song94_mvl, 127
-	.equ	song94_key, 0
-	.equ	song94_tbs, 1
-	.equ	song94_exg, 0
-	.equ	song94_cmp, 1
+	.equ	GatheringOfHeroesTRS_grp, voicegroup000
+	.equ	GatheringOfHeroesTRS_pri, 0
+	.equ	GatheringOfHeroesTRS_rev, 0
+	.equ	GatheringOfHeroesTRS_mvl, 127
+	.equ	GatheringOfHeroesTRS_key, 0
+	.equ	GatheringOfHeroesTRS_tbs, 1
+	.equ	GatheringOfHeroesTRS_exg, 0
+	.equ	GatheringOfHeroesTRS_cmp, 1
 
 	.section .rodata
-	.global	song94
+	.global	GatheringOfHeroesTRS
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song94_001:
+GatheringOfHeroesTRS_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , song94_key+0
+ .byte   KEYSH , GatheringOfHeroesTRS_key+0
 Label_0108EF12:
- .byte   TEMPO , 130*song94_tbs/2
+ .byte   TEMPO , 130*GatheringOfHeroesTRS_tbs/2
  .byte   VOICE , 47
- .byte   VOL , 77*song94_mvl/mxv
+ .byte   VOL , 77*GatheringOfHeroesTRS_mvl/mxv
  .byte   PAN , c_v+0
  .byte   BEND , c_v+0
  .byte   N16 ,En1 ,v092
@@ -624,13 +624,13 @@ Label_0108F227:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song94_002:
+GatheringOfHeroesTRS_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , song94_key+0
+ .byte   KEYSH , GatheringOfHeroesTRS_key+0
 Label_0108F2C6:
  .byte   VOICE , 127
  .byte   PAN , c_v+0
- .byte   VOL , 73*song94_mvl/mxv
+ .byte   VOL , 73*GatheringOfHeroesTRS_mvl/mxv
  .byte   BEND , c_v+0
  .byte   N05 ,Dn1 ,v076
  .byte   W16
@@ -880,12 +880,12 @@ Label_0108F331:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song94_003:
+GatheringOfHeroesTRS_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , song94_key+0
+ .byte   KEYSH , GatheringOfHeroesTRS_key+0
 Label_0108F432:
  .byte   VOICE , 41
- .byte   VOL , 56*song94_mvl/mxv
+ .byte   VOL , 56*GatheringOfHeroesTRS_mvl/mxv
  .byte   PAN , c_v-28
  .byte   BEND , c_v+0
  .byte   N52 ,En3 ,v096
@@ -1291,12 +1291,12 @@ Label_0108F565:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song94_004:
+GatheringOfHeroesTRS_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , song94_key+0
+ .byte   KEYSH , GatheringOfHeroesTRS_key+0
 Label_0108F66A:
  .byte   VOICE , 50
- .byte   VOL , 38*song94_mvl/mxv
+ .byte   VOL , 38*GatheringOfHeroesTRS_mvl/mxv
  .byte   PAN , c_v+31
  .byte   BEND , c_v+0
  .byte   N04 ,En2 ,v100
@@ -1799,13 +1799,13 @@ Label_0108F7BA:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song94_005:
+GatheringOfHeroesTRS_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , song94_key+0
+ .byte   KEYSH , GatheringOfHeroesTRS_key+0
 Label_0108F8AE:
  .byte   VOICE , 40
  .byte   PAN , c_v+0
- .byte   VOL , 50*song94_mvl/mxv
+ .byte   VOL , 50*GatheringOfHeroesTRS_mvl/mxv
  .byte   BEND , c_v+0
  .byte   W96
 @  #05 @001   ----------------------------------------
@@ -2261,12 +2261,12 @@ Label_0108FA14:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song94_006:
+GatheringOfHeroesTRS_006:
 @  #06 @000   ----------------------------------------
- .byte   KEYSH , song94_key+0
+ .byte   KEYSH , GatheringOfHeroesTRS_key+0
 Label_0108FAFE:
  .byte   VOICE , 50
- .byte   VOL , 42*song94_mvl/mxv
+ .byte   VOL , 42*GatheringOfHeroesTRS_mvl/mxv
  .byte   PAN , c_v+0
  .byte   BEND , c_v+0
  .byte   N54 ,Bn2 ,v120
@@ -2525,13 +2525,13 @@ Label_0108FB28:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-song94_007:
+GatheringOfHeroesTRS_007:
 @  #07 @000   ----------------------------------------
- .byte   KEYSH , song94_key+0
+ .byte   KEYSH , GatheringOfHeroesTRS_key+0
 Label_0108FC32:
  .byte   VOICE , 56
  .byte   PAN , c_v+16
- .byte   VOL , 77*song94_mvl/mxv
+ .byte   VOL , 77*GatheringOfHeroesTRS_mvl/mxv
  .byte   BEND , c_v+0
  .byte   W96
 @  #07 @001   ----------------------------------------
@@ -2732,13 +2732,13 @@ Label_0108FC3D:
 
 @**************** Track 8 (Midi-Chn.7) ****************@
 
-song94_008:
+GatheringOfHeroesTRS_008:
 @  #08 @000   ----------------------------------------
- .byte   KEYSH , song94_key+0
+ .byte   KEYSH , GatheringOfHeroesTRS_key+0
 Label_0108FCEE:
  .byte   VOICE , 127
  .byte   PAN , c_v+0
- .byte   VOL , 70*song94_mvl/mxv
+ .byte   VOL , 70*GatheringOfHeroesTRS_mvl/mxv
  .byte   BEND , c_v+0
  .byte   W96
 @  #08 @001   ----------------------------------------
@@ -2765,94 +2765,94 @@ Label_0108FCEE:
  .byte   W96
 @  #08 @011   ----------------------------------------
  .byte   W23
- .byte   VOL , 0*song94_mvl/mxv
+ .byte   VOL , 0*GatheringOfHeroesTRS_mvl/mxv
  .byte   W01
  .byte   N72 ,En2 ,v072
  .byte   W01
- .byte   VOL , 0*song94_mvl/mxv
+ .byte   VOL , 0*GatheringOfHeroesTRS_mvl/mxv
  .byte   W02
- .byte   VOL , 13*song94_mvl/mxv
+ .byte   VOL , 13*GatheringOfHeroesTRS_mvl/mxv
  .byte   W01
- .byte   VOL , 14*song94_mvl/mxv
+ .byte   VOL , 14*GatheringOfHeroesTRS_mvl/mxv
  .byte   W02
- .byte   VOL , 16*song94_mvl/mxv
+ .byte   VOL , 16*GatheringOfHeroesTRS_mvl/mxv
  .byte   W03
- .byte   VOL , 17*song94_mvl/mxv
+ .byte   VOL , 17*GatheringOfHeroesTRS_mvl/mxv
  .byte   W01
- .byte   VOL , 18*song94_mvl/mxv
+ .byte   VOL , 18*GatheringOfHeroesTRS_mvl/mxv
  .byte   W02
- .byte   VOL , 19*song94_mvl/mxv
+ .byte   VOL , 19*GatheringOfHeroesTRS_mvl/mxv
  .byte   W03
- .byte   VOL , 20*song94_mvl/mxv
+ .byte   VOL , 20*GatheringOfHeroesTRS_mvl/mxv
  .byte   W03
- .byte   VOL , 22*song94_mvl/mxv
+ .byte   VOL , 22*GatheringOfHeroesTRS_mvl/mxv
  .byte   W01
- .byte   VOL , 23*song94_mvl/mxv
+ .byte   VOL , 23*GatheringOfHeroesTRS_mvl/mxv
  .byte   W02
- .byte   VOL , 24*song94_mvl/mxv
+ .byte   VOL , 24*GatheringOfHeroesTRS_mvl/mxv
  .byte   W03
- .byte   VOL , 27*song94_mvl/mxv
+ .byte   VOL , 27*GatheringOfHeroesTRS_mvl/mxv
  .byte   W03
- .byte   VOL , 29*song94_mvl/mxv
+ .byte   VOL , 29*GatheringOfHeroesTRS_mvl/mxv
  .byte   W03
- .byte   VOL , 30*song94_mvl/mxv
+ .byte   VOL , 30*GatheringOfHeroesTRS_mvl/mxv
  .byte   W01
- .byte   VOL , 32*song94_mvl/mxv
+ .byte   VOL , 32*GatheringOfHeroesTRS_mvl/mxv
  .byte   W02
- .byte   VOL , 33*song94_mvl/mxv
+ .byte   VOL , 33*GatheringOfHeroesTRS_mvl/mxv
  .byte   W01
- .byte   VOL , 34*song94_mvl/mxv
+ .byte   VOL , 34*GatheringOfHeroesTRS_mvl/mxv
  .byte   W02
- .byte   VOL , 36*song94_mvl/mxv
+ .byte   VOL , 36*GatheringOfHeroesTRS_mvl/mxv
  .byte   W01
- .byte   VOL , 37*song94_mvl/mxv
+ .byte   VOL , 37*GatheringOfHeroesTRS_mvl/mxv
  .byte   W02
- .byte   VOL , 38*song94_mvl/mxv
+ .byte   VOL , 38*GatheringOfHeroesTRS_mvl/mxv
  .byte   W01
- .byte   VOL , 39*song94_mvl/mxv
+ .byte   VOL , 39*GatheringOfHeroesTRS_mvl/mxv
  .byte   W02
- .byte   VOL , 40*song94_mvl/mxv
+ .byte   VOL , 40*GatheringOfHeroesTRS_mvl/mxv
  .byte   W01
- .byte   VOL , 42*song94_mvl/mxv
+ .byte   VOL , 42*GatheringOfHeroesTRS_mvl/mxv
  .byte   W02
- .byte   VOL , 44*song94_mvl/mxv
+ .byte   VOL , 44*GatheringOfHeroesTRS_mvl/mxv
  .byte   W01
- .byte   VOL , 46*song94_mvl/mxv
+ .byte   VOL , 46*GatheringOfHeroesTRS_mvl/mxv
  .byte   W02
- .byte   VOL , 48*song94_mvl/mxv
+ .byte   VOL , 48*GatheringOfHeroesTRS_mvl/mxv
  .byte   W01
- .byte   VOL , 49*song94_mvl/mxv
+ .byte   VOL , 49*GatheringOfHeroesTRS_mvl/mxv
  .byte   W02
- .byte   VOL , 52*song94_mvl/mxv
+ .byte   VOL , 52*GatheringOfHeroesTRS_mvl/mxv
  .byte   W01
- .byte   VOL , 54*song94_mvl/mxv
+ .byte   VOL , 54*GatheringOfHeroesTRS_mvl/mxv
  .byte   W02
- .byte   VOL , 58*song94_mvl/mxv
+ .byte   VOL , 58*GatheringOfHeroesTRS_mvl/mxv
  .byte   W01
- .byte   VOL , 59*song94_mvl/mxv
+ .byte   VOL , 59*GatheringOfHeroesTRS_mvl/mxv
  .byte   W02
- .byte   VOL , 64*song94_mvl/mxv
+ .byte   VOL , 64*GatheringOfHeroesTRS_mvl/mxv
  .byte   W01
- .byte   VOL , 68*song94_mvl/mxv
+ .byte   VOL , 68*GatheringOfHeroesTRS_mvl/mxv
  .byte   W02
- .byte   VOL , 74*song94_mvl/mxv
+ .byte   VOL , 74*GatheringOfHeroesTRS_mvl/mxv
  .byte   W01
- .byte   VOL , 78*song94_mvl/mxv
+ .byte   VOL , 78*GatheringOfHeroesTRS_mvl/mxv
  .byte   W02
- .byte   VOL , 86*song94_mvl/mxv
+ .byte   VOL , 86*GatheringOfHeroesTRS_mvl/mxv
  .byte   W01
- .byte   VOL , 89*song94_mvl/mxv
+ .byte   VOL , 89*GatheringOfHeroesTRS_mvl/mxv
  .byte   W02
- .byte   VOL , 99*song94_mvl/mxv
+ .byte   VOL , 99*GatheringOfHeroesTRS_mvl/mxv
  .byte   W01
- .byte   VOL , 106*song94_mvl/mxv
+ .byte   VOL , 106*GatheringOfHeroesTRS_mvl/mxv
  .byte   W02
- .byte   VOL , 115*song94_mvl/mxv
+ .byte   VOL , 115*GatheringOfHeroesTRS_mvl/mxv
  .byte   W01
- .byte   VOL , 117*song94_mvl/mxv
+ .byte   VOL , 117*GatheringOfHeroesTRS_mvl/mxv
  .byte   W02
 @  #08 @012   ----------------------------------------
- .byte   VOL , 120*song94_mvl/mxv
+ .byte   VOL , 120*GatheringOfHeroesTRS_mvl/mxv
  .byte   N48 ,An2 ,v080
  .byte   W96
 @  #08 @013   ----------------------------------------
@@ -2878,90 +2878,90 @@ Label_0108FCEE:
 @  #08 @023   ----------------------------------------
  .byte   W96
 @  #08 @024   ----------------------------------------
- .byte   VOL , 0*song94_mvl/mxv
+ .byte   VOL , 0*GatheringOfHeroesTRS_mvl/mxv
  .byte   W72
  .byte   N72 ,En2 ,v072
  .byte   W01
- .byte   VOL , 0*song94_mvl/mxv
+ .byte   VOL , 0*GatheringOfHeroesTRS_mvl/mxv
  .byte   W03
- .byte   VOL , 9*song94_mvl/mxv
+ .byte   VOL , 9*GatheringOfHeroesTRS_mvl/mxv
  .byte   W03
- .byte   VOL , 10*song94_mvl/mxv
+ .byte   VOL , 10*GatheringOfHeroesTRS_mvl/mxv
  .byte   W02
- .byte   VOL , 12*song94_mvl/mxv
+ .byte   VOL , 12*GatheringOfHeroesTRS_mvl/mxv
  .byte   W01
- .byte   VOL , 13*song94_mvl/mxv
+ .byte   VOL , 13*GatheringOfHeroesTRS_mvl/mxv
  .byte   W03
- .byte   VOL , 14*song94_mvl/mxv
+ .byte   VOL , 14*GatheringOfHeroesTRS_mvl/mxv
  .byte   W03
- .byte   VOL , 16*song94_mvl/mxv
+ .byte   VOL , 16*GatheringOfHeroesTRS_mvl/mxv
  .byte   W03
- .byte   VOL , 17*song94_mvl/mxv
+ .byte   VOL , 17*GatheringOfHeroesTRS_mvl/mxv
  .byte   W02
- .byte   VOL , 18*song94_mvl/mxv
+ .byte   VOL , 18*GatheringOfHeroesTRS_mvl/mxv
  .byte   W01
- .byte   VOL , 19*song94_mvl/mxv
+ .byte   VOL , 19*GatheringOfHeroesTRS_mvl/mxv
  .byte   W02
 @  #08 @025   ----------------------------------------
- .byte   VOL , 20*song94_mvl/mxv
+ .byte   VOL , 20*GatheringOfHeroesTRS_mvl/mxv
  .byte   W01
- .byte   VOL , 22*song94_mvl/mxv
+ .byte   VOL , 22*GatheringOfHeroesTRS_mvl/mxv
  .byte   W03
- .byte   VOL , 23*song94_mvl/mxv
+ .byte   VOL , 23*GatheringOfHeroesTRS_mvl/mxv
  .byte   W02
- .byte   VOL , 24*song94_mvl/mxv
+ .byte   VOL , 24*GatheringOfHeroesTRS_mvl/mxv
  .byte   W01
- .byte   VOL , 26*song94_mvl/mxv
+ .byte   VOL , 26*GatheringOfHeroesTRS_mvl/mxv
  .byte   W02
- .byte   VOL , 27*song94_mvl/mxv
+ .byte   VOL , 27*GatheringOfHeroesTRS_mvl/mxv
  .byte   W01
- .byte   VOL , 28*song94_mvl/mxv
+ .byte   VOL , 28*GatheringOfHeroesTRS_mvl/mxv
  .byte   W03
- .byte   VOL , 30*song94_mvl/mxv
+ .byte   VOL , 30*GatheringOfHeroesTRS_mvl/mxv
  .byte   W02
- .byte   VOL , 32*song94_mvl/mxv
+ .byte   VOL , 32*GatheringOfHeroesTRS_mvl/mxv
  .byte   W01
- .byte   VOL , 33*song94_mvl/mxv
+ .byte   VOL , 33*GatheringOfHeroesTRS_mvl/mxv
  .byte   W02
- .byte   VOL , 34*song94_mvl/mxv
+ .byte   VOL , 34*GatheringOfHeroesTRS_mvl/mxv
  .byte   W01
- .byte   VOL , 37*song94_mvl/mxv
+ .byte   VOL , 37*GatheringOfHeroesTRS_mvl/mxv
  .byte   W03
- .byte   VOL , 39*song94_mvl/mxv
+ .byte   VOL , 39*GatheringOfHeroesTRS_mvl/mxv
  .byte   W02
- .byte   VOL , 40*song94_mvl/mxv
+ .byte   VOL , 40*GatheringOfHeroesTRS_mvl/mxv
  .byte   W01
- .byte   VOL , 43*song94_mvl/mxv
+ .byte   VOL , 43*GatheringOfHeroesTRS_mvl/mxv
  .byte   W02
- .byte   VOL , 44*song94_mvl/mxv
+ .byte   VOL , 44*GatheringOfHeroesTRS_mvl/mxv
  .byte   W01
- .byte   VOL , 48*song94_mvl/mxv
+ .byte   VOL , 48*GatheringOfHeroesTRS_mvl/mxv
  .byte   W02
- .byte   VOL , 49*song94_mvl/mxv
+ .byte   VOL , 49*GatheringOfHeroesTRS_mvl/mxv
  .byte   W01
- .byte   VOL , 53*song94_mvl/mxv
+ .byte   VOL , 53*GatheringOfHeroesTRS_mvl/mxv
  .byte   W02
- .byte   VOL , 56*song94_mvl/mxv
+ .byte   VOL , 56*GatheringOfHeroesTRS_mvl/mxv
  .byte   W01
- .byte   VOL , 60*song94_mvl/mxv
+ .byte   VOL , 60*GatheringOfHeroesTRS_mvl/mxv
  .byte   W02
- .byte   VOL , 63*song94_mvl/mxv
+ .byte   VOL , 63*GatheringOfHeroesTRS_mvl/mxv
  .byte   W01
- .byte   VOL , 69*song94_mvl/mxv
+ .byte   VOL , 69*GatheringOfHeroesTRS_mvl/mxv
  .byte   W02
- .byte   VOL , 73*song94_mvl/mxv
+ .byte   VOL , 73*GatheringOfHeroesTRS_mvl/mxv
  .byte   W01
- .byte   VOL , 80*song94_mvl/mxv
+ .byte   VOL , 80*GatheringOfHeroesTRS_mvl/mxv
  .byte   W02
- .byte   VOL , 84*song94_mvl/mxv
+ .byte   VOL , 84*GatheringOfHeroesTRS_mvl/mxv
  .byte   W01
- .byte   VOL , 96*song94_mvl/mxv
+ .byte   VOL , 96*GatheringOfHeroesTRS_mvl/mxv
  .byte   W02
- .byte   VOL , 103*song94_mvl/mxv
+ .byte   VOL , 103*GatheringOfHeroesTRS_mvl/mxv
  .byte   W01
- .byte   VOL , 117*song94_mvl/mxv
+ .byte   VOL , 117*GatheringOfHeroesTRS_mvl/mxv
  .byte   W02
- .byte   VOL , 120*song94_mvl/mxv
+ .byte   VOL , 120*GatheringOfHeroesTRS_mvl/mxv
  .byte   N48 ,An2 ,v120
  .byte   W48
 @  #08 @026   ----------------------------------------
@@ -3004,89 +3004,89 @@ Label_0108FCEE:
  .byte   W96
 @  #08 @044   ----------------------------------------
  .byte   W23
- .byte   VOL , 0*song94_mvl/mxv
+ .byte   VOL , 0*GatheringOfHeroesTRS_mvl/mxv
  .byte   W01
  .byte   N72 ,En2 ,v072
  .byte   W01
- .byte   VOL , 0*song94_mvl/mxv
+ .byte   VOL , 0*GatheringOfHeroesTRS_mvl/mxv
  .byte   W02
- .byte   VOL , 9*song94_mvl/mxv
+ .byte   VOL , 9*GatheringOfHeroesTRS_mvl/mxv
  .byte   W01
- .byte   VOL , 10*song94_mvl/mxv
+ .byte   VOL , 10*GatheringOfHeroesTRS_mvl/mxv
  .byte   W03
- .byte   VOL , 12*song94_mvl/mxv
+ .byte   VOL , 12*GatheringOfHeroesTRS_mvl/mxv
  .byte   W03
- .byte   VOL , 13*song94_mvl/mxv
+ .byte   VOL , 13*GatheringOfHeroesTRS_mvl/mxv
  .byte   W02
- .byte   VOL , 14*song94_mvl/mxv
+ .byte   VOL , 14*GatheringOfHeroesTRS_mvl/mxv
  .byte   W03
- .byte   VOL , 16*song94_mvl/mxv
+ .byte   VOL , 16*GatheringOfHeroesTRS_mvl/mxv
  .byte   W01
- .byte   VOL , 17*song94_mvl/mxv
+ .byte   VOL , 17*GatheringOfHeroesTRS_mvl/mxv
  .byte   W03
- .byte   VOL , 18*song94_mvl/mxv
+ .byte   VOL , 18*GatheringOfHeroesTRS_mvl/mxv
  .byte   W02
- .byte   VOL , 19*song94_mvl/mxv
+ .byte   VOL , 19*GatheringOfHeroesTRS_mvl/mxv
  .byte   W01
- .byte   VOL , 20*song94_mvl/mxv
+ .byte   VOL , 20*GatheringOfHeroesTRS_mvl/mxv
  .byte   W02
- .byte   VOL , 22*song94_mvl/mxv
+ .byte   VOL , 22*GatheringOfHeroesTRS_mvl/mxv
  .byte   W01
- .byte   VOL , 23*song94_mvl/mxv
+ .byte   VOL , 23*GatheringOfHeroesTRS_mvl/mxv
  .byte   W03
- .byte   VOL , 26*song94_mvl/mxv
+ .byte   VOL , 26*GatheringOfHeroesTRS_mvl/mxv
  .byte   W03
- .byte   VOL , 27*song94_mvl/mxv
+ .byte   VOL , 27*GatheringOfHeroesTRS_mvl/mxv
  .byte   W02
- .byte   VOL , 28*song94_mvl/mxv
+ .byte   VOL , 28*GatheringOfHeroesTRS_mvl/mxv
  .byte   W01
- .byte   VOL , 29*song94_mvl/mxv
+ .byte   VOL , 29*GatheringOfHeroesTRS_mvl/mxv
  .byte   W02
- .byte   VOL , 30*song94_mvl/mxv
+ .byte   VOL , 30*GatheringOfHeroesTRS_mvl/mxv
  .byte   W01
- .byte   VOL , 33*song94_mvl/mxv
+ .byte   VOL , 33*GatheringOfHeroesTRS_mvl/mxv
  .byte   W03
- .byte   VOL , 36*song94_mvl/mxv
+ .byte   VOL , 36*GatheringOfHeroesTRS_mvl/mxv
  .byte   W02
- .byte   VOL , 37*song94_mvl/mxv
+ .byte   VOL , 37*GatheringOfHeroesTRS_mvl/mxv
  .byte   W01
- .byte   VOL , 38*song94_mvl/mxv
+ .byte   VOL , 38*GatheringOfHeroesTRS_mvl/mxv
  .byte   W02
- .byte   VOL , 39*song94_mvl/mxv
+ .byte   VOL , 39*GatheringOfHeroesTRS_mvl/mxv
  .byte   W01
- .byte   VOL , 42*song94_mvl/mxv
+ .byte   VOL , 42*GatheringOfHeroesTRS_mvl/mxv
  .byte   W02
- .byte   VOL , 43*song94_mvl/mxv
+ .byte   VOL , 43*GatheringOfHeroesTRS_mvl/mxv
  .byte   W01
- .byte   VOL , 47*song94_mvl/mxv
+ .byte   VOL , 47*GatheringOfHeroesTRS_mvl/mxv
  .byte   W02
- .byte   VOL , 48*song94_mvl/mxv
+ .byte   VOL , 48*GatheringOfHeroesTRS_mvl/mxv
  .byte   W01
- .byte   VOL , 52*song94_mvl/mxv
+ .byte   VOL , 52*GatheringOfHeroesTRS_mvl/mxv
  .byte   W02
- .byte   VOL , 53*song94_mvl/mxv
+ .byte   VOL , 53*GatheringOfHeroesTRS_mvl/mxv
  .byte   W01
- .byte   VOL , 58*song94_mvl/mxv
+ .byte   VOL , 58*GatheringOfHeroesTRS_mvl/mxv
  .byte   W02
- .byte   VOL , 60*song94_mvl/mxv
+ .byte   VOL , 60*GatheringOfHeroesTRS_mvl/mxv
  .byte   W01
- .byte   VOL , 64*song94_mvl/mxv
+ .byte   VOL , 64*GatheringOfHeroesTRS_mvl/mxv
  .byte   W02
- .byte   VOL , 68*song94_mvl/mxv
+ .byte   VOL , 68*GatheringOfHeroesTRS_mvl/mxv
  .byte   W01
- .byte   VOL , 74*song94_mvl/mxv
+ .byte   VOL , 74*GatheringOfHeroesTRS_mvl/mxv
  .byte   W02
- .byte   VOL , 77*song94_mvl/mxv
+ .byte   VOL , 77*GatheringOfHeroesTRS_mvl/mxv
  .byte   W01
- .byte   VOL , 84*song94_mvl/mxv
+ .byte   VOL , 84*GatheringOfHeroesTRS_mvl/mxv
  .byte   W02
- .byte   VOL , 88*song94_mvl/mxv
+ .byte   VOL , 88*GatheringOfHeroesTRS_mvl/mxv
  .byte   W01
- .byte   VOL , 98*song94_mvl/mxv
+ .byte   VOL , 98*GatheringOfHeroesTRS_mvl/mxv
  .byte   W02
- .byte   VOL , 104*song94_mvl/mxv
+ .byte   VOL , 104*GatheringOfHeroesTRS_mvl/mxv
  .byte   W01
- .byte   VOL , 117*song94_mvl/mxv
+ .byte   VOL , 117*GatheringOfHeroesTRS_mvl/mxv
  .byte   W02
 @  #08 @045   ----------------------------------------
  .byte   N48 ,An2 ,v120
@@ -3119,13 +3119,13 @@ Label_0108FCEE:
 
 @**************** Track 9 (Midi-Chn.8) ****************@
 
-song94_009:
+GatheringOfHeroesTRS_009:
 @  #09 @000   ----------------------------------------
- .byte   KEYSH , song94_key+0
+ .byte   KEYSH , GatheringOfHeroesTRS_key+0
 Label_0108FE52:
  .byte   VOICE , 40
  .byte   PAN , c_v-34
- .byte   VOL , 40*song94_mvl/mxv
+ .byte   VOL , 40*GatheringOfHeroesTRS_mvl/mxv
  .byte   BEND , c_v+0
  .byte   W96
 @  #09 @001   ----------------------------------------
@@ -3601,13 +3601,13 @@ Label_0108FFC7:
 
 @**************** Track 10 (Midi-Chn.9) ****************@
 
-song94_010:
+GatheringOfHeroesTRS_010:
 @  #10 @000   ----------------------------------------
- .byte   KEYSH , song94_key+0
+ .byte   KEYSH , GatheringOfHeroesTRS_key+0
 Label_010900B6:
  .byte   VOICE , 68
  .byte   PAN , c_v-10
- .byte   VOL , 75*song94_mvl/mxv
+ .byte   VOL , 75*GatheringOfHeroesTRS_mvl/mxv
  .byte   BEND , c_v+0
  .byte   W96
 @  #10 @001   ----------------------------------------
@@ -3760,13 +3760,13 @@ Label_010900B6:
 
 @**************** Track 11 (Midi-Chn.10) ****************@
 
-song94_011:
+GatheringOfHeroesTRS_011:
 @  #11 @000   ----------------------------------------
- .byte   KEYSH , song94_key+0
+ .byte   KEYSH , GatheringOfHeroesTRS_key+0
 Label_01090136:
  .byte   VOICE , 73
  .byte   PAN , c_v+10
- .byte   VOL , 70*song94_mvl/mxv
+ .byte   VOL , 70*GatheringOfHeroesTRS_mvl/mxv
  .byte   BEND , c_v+0
  .byte   W96
 @  #11 @001   ----------------------------------------
@@ -3932,13 +3932,13 @@ Label_01090136:
 
 @**************** Track 12 (Midi-Chn.11) ****************@
 
-song94_012:
+GatheringOfHeroesTRS_012:
 @  #12 @000   ----------------------------------------
- .byte   KEYSH , song94_key+0
+ .byte   KEYSH , GatheringOfHeroesTRS_key+0
 Label_010901CA:
  .byte   VOICE , 1
  .byte   PAN , c_v+0
- .byte   VOL , 73*song94_mvl/mxv
+ .byte   VOL , 73*GatheringOfHeroesTRS_mvl/mxv
  .byte   BEND , c_v+0
  .byte   N68 ,En1 ,v096
  .byte   N23 ,En3 ,v112
@@ -5021,25 +5021,25 @@ Label_01090686:
 @******************************************************@
 	.align	2
 
-song94:
+GatheringOfHeroesTRS:
 	.byte	12	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song94_pri	@ Priority
-	.byte	song94_rev	@ Reverb.
+	.byte	GatheringOfHeroesTRS_pri	@ Priority
+	.byte	GatheringOfHeroesTRS_rev	@ Reverb.
     
-	.word	song94_grp
+	.word	GatheringOfHeroesTRS_grp
     
-	.word	song94_001
-	.word	song94_002
-	.word	song94_003
-	.word	song94_004
-	.word	song94_005
-	.word	song94_006
-	.word	song94_007
-	.word	song94_008
-	.word	song94_009
-	.word	song94_010
-	.word	song94_011
-	.word	song94_012
+	.word	GatheringOfHeroesTRS_001
+	.word	GatheringOfHeroesTRS_002
+	.word	GatheringOfHeroesTRS_003
+	.word	GatheringOfHeroesTRS_004
+	.word	GatheringOfHeroesTRS_005
+	.word	GatheringOfHeroesTRS_006
+	.word	GatheringOfHeroesTRS_007
+	.word	GatheringOfHeroesTRS_008
+	.word	GatheringOfHeroesTRS_009
+	.word	GatheringOfHeroesTRS_010
+	.word	GatheringOfHeroesTRS_011
+	.word	GatheringOfHeroesTRS_012
 
 	.end

@@ -1,27 +1,27 @@
 	.include "MPlayDef.s"
 
-	.equ	song16_grp, voicegroup000
-	.equ	song16_pri, 0
-	.equ	song16_rev, 0
-	.equ	song16_mvl, 127
-	.equ	song16_key, 0
-	.equ	song16_tbs, 1
-	.equ	song16_exg, 0
-	.equ	song16_cmp, 1
+	.equ	AlmEnemyPhase_grp, voicegroup000
+	.equ	AlmEnemyPhase_pri, 0
+	.equ	AlmEnemyPhase_rev, 0
+	.equ	AlmEnemyPhase_mvl, 127
+	.equ	AlmEnemyPhase_key, 0
+	.equ	AlmEnemyPhase_tbs, 1
+	.equ	AlmEnemyPhase_exg, 0
+	.equ	AlmEnemyPhase_cmp, 1
 
 	.section .rodata
-	.global	song16
+	.global	AlmEnemyPhase
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song16_001:
+AlmEnemyPhase_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , song16_key+0
- .byte   TEMPO , 138*song16_tbs/2
+ .byte   KEYSH , AlmEnemyPhase_key+0
+ .byte   TEMPO , 138*AlmEnemyPhase_tbs/2
  .byte   VOICE , 41
- .byte   VOL , 56*song16_mvl/mxv
+ .byte   VOL , 56*AlmEnemyPhase_mvl/mxv
  .byte   W96
 @  #01 @001   ----------------------------------------
 Label_559FB1:
@@ -151,11 +151,11 @@ Label_559FD2:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song16_002:
+AlmEnemyPhase_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , song16_key+0
+ .byte   KEYSH , AlmEnemyPhase_key+0
  .byte   VOICE , 75
- .byte   VOL , 58*song16_mvl/mxv
+ .byte   VOL , 58*AlmEnemyPhase_mvl/mxv
  .byte   W96
 @  #02 @001   ----------------------------------------
 Label_55A033:
@@ -348,11 +348,11 @@ Label_55A033:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song16_003:
+AlmEnemyPhase_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , song16_key+0
+ .byte   KEYSH , AlmEnemyPhase_key+0
  .byte   VOICE , 61
- .byte   VOL , 46*song16_mvl/mxv
+ .byte   VOL , 46*AlmEnemyPhase_mvl/mxv
  .byte   N21 ,An1 ,v100
  .byte   N21 ,En2
  .byte   W24
@@ -621,11 +621,11 @@ Label_559DCE:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song16_004:
+AlmEnemyPhase_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , song16_key+0
+ .byte   KEYSH , AlmEnemyPhase_key+0
  .byte   VOICE , 32
- .byte   VOL , 48*song16_mvl/mxv
+ .byte   VOL , 48*AlmEnemyPhase_mvl/mxv
  .byte   W96
 @  #04 @001   ----------------------------------------
 Label_55A0FB:
@@ -765,11 +765,11 @@ Label_55A0FB:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song16_005:
+AlmEnemyPhase_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , song16_key+0
+ .byte   KEYSH , AlmEnemyPhase_key+0
  .byte   VOICE , 57
- .byte   VOL , 54*song16_mvl/mxv
+ .byte   VOL , 54*AlmEnemyPhase_mvl/mxv
  .byte   W96
 @  #05 @001   ----------------------------------------
 Label_55A177:
@@ -977,11 +977,11 @@ Label_55A196:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song16_006:
+AlmEnemyPhase_006:
 @  #06 @000   ----------------------------------------
- .byte   KEYSH , song16_key+0
+ .byte   KEYSH , AlmEnemyPhase_key+0
  .byte   VOICE , 121
- .byte   VOL , 62*song16_mvl/mxv
+ .byte   VOL , 62*AlmEnemyPhase_mvl/mxv
  .byte   N01 ,Cs0 ,v100
  .byte   N01 ,Bn0
  .byte   N01 ,Cn1
@@ -1332,11 +1332,11 @@ Label_55A2C1:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-song16_007:
+AlmEnemyPhase_007:
 @  #07 @000   ----------------------------------------
- .byte   KEYSH , song16_key+0
+ .byte   KEYSH , AlmEnemyPhase_key+0
  .byte   VOICE , 47
- .byte   VOL , 67*song16_mvl/mxv
+ .byte   VOL , 67*AlmEnemyPhase_mvl/mxv
  .byte   N21 ,Fs2 ,v104
  .byte   W72
  .byte   Cn3 ,v084
@@ -1480,20 +1480,20 @@ Label_01169354:
 @******************************************************@
 	.align	2
 
-song16:
+AlmEnemyPhase:
 	.byte	7	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song16_pri	@ Priority
-	.byte	song16_rev	@ Reverb.
+	.byte	AlmEnemyPhase_pri	@ Priority
+	.byte	AlmEnemyPhase_rev	@ Reverb.
     
-	.word	song16_grp
+	.word	AlmEnemyPhase_grp
     
-	.word	song16_001
-	.word	song16_002
-	.word	song16_003
-	.word	song16_004
-	.word	song16_005
-	.word	song16_006
-	.word	song16_007
+	.word	AlmEnemyPhase_001
+	.word	AlmEnemyPhase_002
+	.word	AlmEnemyPhase_003
+	.word	AlmEnemyPhase_004
+	.word	AlmEnemyPhase_005
+	.word	AlmEnemyPhase_006
+	.word	AlmEnemyPhase_007
 
 	.end

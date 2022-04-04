@@ -1,28 +1,28 @@
 	.include "MPlayDef.s"
 
-	.equ	song01_grp, voicegroup000
-	.equ	song01_pri, 10
-	.equ	song01_rev, 0
-	.equ	song01_mvl, 127
-	.equ	song01_key, 0
-	.equ	song01_tbs, 1
-	.equ	song01_exg, 0
-	.equ	song01_cmp, 1
+	.equ	ItDoesntMatterSA2B_grp, voicegroup000
+	.equ	ItDoesntMatterSA2B_pri, 10
+	.equ	ItDoesntMatterSA2B_rev, 0
+	.equ	ItDoesntMatterSA2B_mvl, 127
+	.equ	ItDoesntMatterSA2B_key, 0
+	.equ	ItDoesntMatterSA2B_tbs, 1
+	.equ	ItDoesntMatterSA2B_exg, 0
+	.equ	ItDoesntMatterSA2B_cmp, 1
 
 	.section .rodata
-	.global	song01
+	.global	ItDoesntMatterSA2B
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song01_001:
+ItDoesntMatterSA2B_001:
 @  #01 @000   ----------------------------------------
 Label_014B7454:
- .byte   TEMPO , 124*song01_tbs/2
- .byte   KEYSH , song01_key+0
+ .byte   TEMPO , 124*ItDoesntMatterSA2B_tbs/2
+ .byte   KEYSH , ItDoesntMatterSA2B_key+0
  .byte   VOICE , 36
- .byte   VOL , 29*song01_mvl/mxv
+ .byte   VOL , 29*ItDoesntMatterSA2B_mvl/mxv
  .byte   PAN , c_v+0
  .byte   PAN , c_v+0
  .byte   N17 ,An1 ,v110
@@ -801,13 +801,13 @@ Label_014B7710:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song01_002:
+ItDoesntMatterSA2B_002:
 @  #02 @000   ----------------------------------------
 Label_014D1104:
- .byte   TEMPO , 124*song01_tbs/2
- .byte   KEYSH , song01_key+0
+ .byte   TEMPO , 124*ItDoesntMatterSA2B_tbs/2
+ .byte   KEYSH , ItDoesntMatterSA2B_key+0
  .byte   VOICE , 73
- .byte   VOL , 40*song01_mvl/mxv
+ .byte   VOL , 40*ItDoesntMatterSA2B_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N17 ,Cs3 ,v110
  .byte   W18
@@ -1304,13 +1304,13 @@ Label_014D12EE:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song01_003:
+ItDoesntMatterSA2B_003:
 @  #03 @000   ----------------------------------------
 Label_014D4750:
- .byte   TEMPO , 124*song01_tbs/2
- .byte   KEYSH , song01_key+0
+ .byte   TEMPO , 124*ItDoesntMatterSA2B_tbs/2
+ .byte   KEYSH , ItDoesntMatterSA2B_key+0
  .byte   VOICE , 36
- .byte   VOL , 15*song01_mvl/mxv
+ .byte   VOL , 15*ItDoesntMatterSA2B_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #03 @001   ----------------------------------------
@@ -2016,13 +2016,13 @@ Label_014D4994:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song01_004:
+ItDoesntMatterSA2B_004:
 @  #04 @000   ----------------------------------------
 Label_014D2650:
- .byte   TEMPO , 124*song01_tbs/2
- .byte   KEYSH , song01_key+0
+ .byte   TEMPO , 124*ItDoesntMatterSA2B_tbs/2
+ .byte   KEYSH , ItDoesntMatterSA2B_key+0
  .byte   VOICE , 68
- .byte   VOL , 32*song01_mvl/mxv
+ .byte   VOL , 32*ItDoesntMatterSA2B_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N17 ,Cs3 ,v110
  .byte   W18
@@ -2666,13 +2666,13 @@ Label_014D28C2:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song01_005:
+ItDoesntMatterSA2B_005:
 @  #05 @000   ----------------------------------------
 Label_014B7880:
- .byte   TEMPO , 124*song01_tbs/2
- .byte   KEYSH , song01_key+0
+ .byte   TEMPO , 124*ItDoesntMatterSA2B_tbs/2
+ .byte   KEYSH , ItDoesntMatterSA2B_key+0
  .byte   VOICE , 127
- .byte   VOL , 25*song01_mvl/mxv
+ .byte   VOL , 25*ItDoesntMatterSA2B_mvl/mxv
  .byte   PAN , c_v+0
  .byte   PAN , c_v+0
  .byte   N11 ,Cn1 ,v110
@@ -3347,18 +3347,18 @@ Label_014B7B62:
 @******************************************************@
 	.align	2
 
-song01:
+ItDoesntMatterSA2B:
 	.byte	5	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song01_pri	@ Priority
-	.byte	song01_rev	@ Reverb.
+	.byte	ItDoesntMatterSA2B_pri	@ Priority
+	.byte	ItDoesntMatterSA2B_rev	@ Reverb.
     
-	.word	song01_grp
+	.word	ItDoesntMatterSA2B_grp
     
-	.word	song01_001
-	.word	song01_002
-	.word	song01_003
-	.word	song01_004
-	.word	song01_005
+	.word	ItDoesntMatterSA2B_001
+	.word	ItDoesntMatterSA2B_002
+	.word	ItDoesntMatterSA2B_003
+	.word	ItDoesntMatterSA2B_004
+	.word	ItDoesntMatterSA2B_005
 
 	.end

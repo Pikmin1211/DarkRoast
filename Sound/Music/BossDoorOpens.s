@@ -1,39 +1,39 @@
 	.include "MPlayDef.s"
 
-	.equ	song23_grp, voicegroup000
-	.equ	song23_pri, 0
-	.equ	song23_rev, 0
-	.equ	song23_mvl, 127
-	.equ	song23_key, 0
-	.equ	song23_tbs, 1
-	.equ	song23_exg, 0
-	.equ	song23_cmp, 1
+	.equ	BossDoorOpens_grp, voicegroup000
+	.equ	BossDoorOpens_pri, 0
+	.equ	BossDoorOpens_rev, 0
+	.equ	BossDoorOpens_mvl, 127
+	.equ	BossDoorOpens_key, 0
+	.equ	BossDoorOpens_tbs, 1
+	.equ	BossDoorOpens_exg, 0
+	.equ	BossDoorOpens_cmp, 1
 
 	.section .rodata
-	.global	song23
+	.global	BossDoorOpens
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song23_001:
+BossDoorOpens_001:
 @  #01 @000   ----------------------------------------
- .byte   VOL , 35*song23_mvl/mxv
- .byte   KEYSH , song23_key+0
- .byte   TEMPO , 142*song23_tbs/2
+ .byte   VOL , 35*BossDoorOpens_mvl/mxv
+ .byte   KEYSH , BossDoorOpens_key+0
+ .byte   TEMPO , 142*BossDoorOpens_tbs/2
  .byte   W12
- .byte   TEMPO , 142*song23_tbs/2
+ .byte   TEMPO , 142*BossDoorOpens_tbs/2
  .byte   W12
  .byte   VOICE , 52
  .byte   W72
 @  #01 @001   ----------------------------------------
- .byte   TEMPO , 142*song23_tbs/2
+ .byte   TEMPO , 142*BossDoorOpens_tbs/2
  .byte   N48 ,Fn2 ,v112
  .byte   N48 ,Gs2
  .byte   N48 ,Cn3
  .byte   N48 ,Ds3
  .byte   W12
- .byte   TEMPO , 142*song23_tbs/2
+ .byte   TEMPO , 142*BossDoorOpens_tbs/2
  .byte   W36
  .byte   As2
  .byte   N48 ,Dn3
@@ -58,10 +58,10 @@ song23_001:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song23_002:
+BossDoorOpens_002:
 @  #02 @000   ----------------------------------------
- .byte   VOL , 35*song23_mvl/mxv
- .byte   KEYSH , song23_key+0
+ .byte   VOL , 35*BossDoorOpens_mvl/mxv
+ .byte   KEYSH , BossDoorOpens_key+0
  .byte   W24
  .byte   VOICE , 77
  .byte   W72
@@ -114,10 +114,10 @@ song23_002:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song23_003:
+BossDoorOpens_003:
 @  #03 @000   ----------------------------------------
- .byte   VOL , 35*song23_mvl/mxv
- .byte   KEYSH , song23_key+0
+ .byte   VOL , 35*BossDoorOpens_mvl/mxv
+ .byte   KEYSH , BossDoorOpens_key+0
  .byte   W24
  .byte   VOICE , 62
  .byte   W72
@@ -170,10 +170,10 @@ song23_003:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song23_004:
+BossDoorOpens_004:
 @  #04 @000   ----------------------------------------
- .byte   VOL , 35*song23_mvl/mxv
- .byte   KEYSH , song23_key+0
+ .byte   VOL , 35*BossDoorOpens_mvl/mxv
+ .byte   KEYSH , BossDoorOpens_key+0
  .byte   W24
  .byte   VOICE , 11
  .byte   W72
@@ -226,13 +226,13 @@ song23_004:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song23_005:
+BossDoorOpens_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , song23_key+0
+ .byte   KEYSH , BossDoorOpens_key+0
  .byte   W24
  .byte   W01
  .byte   VOICE , 121
- .byte   VOL , 35*song23_mvl/mxv
+ .byte   VOL , 35*BossDoorOpens_mvl/mxv
  .byte   W68
  .byte   W03
 @  #05 @001   ----------------------------------------
@@ -382,380 +382,380 @@ Label_012B67F2:
  .byte   PATT
   .word Label_012B67F2
 @  #05 @013   ----------------------------------------
- .byte   VOL , 35*song23_mvl/mxv
+ .byte   VOL , 35*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v076
  .byte   N12 ,Fs1 ,v127
  .byte   W06
- .byte   VOL , 34*song23_mvl/mxv
+ .byte   VOL , 34*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 78*song23_mvl/mxv
+ .byte   VOL , 78*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v040
  .byte   N12 ,Fs1 ,v104
  .byte   W06
- .byte   VOL , 33*song23_mvl/mxv
+ .byte   VOL , 33*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 77*song23_mvl/mxv
+ .byte   VOL , 77*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v076
  .byte   N12 ,Fs1 ,v127
  .byte   W06
- .byte   VOL , 31*song23_mvl/mxv
+ .byte   VOL , 31*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 76*song23_mvl/mxv
+ .byte   VOL , 76*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v040
  .byte   N12 ,Fs1 ,v104
  .byte   W06
- .byte   VOL , 30*song23_mvl/mxv
+ .byte   VOL , 30*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 74*song23_mvl/mxv
+ .byte   VOL , 74*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v076
  .byte   N12 ,Fs1 ,v127
  .byte   W06
- .byte   VOL , 28*song23_mvl/mxv
+ .byte   VOL , 28*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 73*song23_mvl/mxv
+ .byte   VOL , 73*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v040
  .byte   N12 ,Fs1 ,v104
  .byte   W06
- .byte   VOL , 27*song23_mvl/mxv
+ .byte   VOL , 27*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 71*song23_mvl/mxv
+ .byte   VOL , 71*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v076
  .byte   N12 ,Fs1 ,v127
  .byte   W06
- .byte   VOL , 26*song23_mvl/mxv
+ .byte   VOL , 26*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 70*song23_mvl/mxv
+ .byte   VOL , 70*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v040
  .byte   N12 ,Fs1 ,v104
  .byte   W06
- .byte   VOL , 24*song23_mvl/mxv
+ .byte   VOL , 24*BossDoorOpens_mvl/mxv
  .byte   W06
 @  #05 @014   ----------------------------------------
- .byte   VOL , 69*song23_mvl/mxv
+ .byte   VOL , 69*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v076
  .byte   N12 ,Fs1 ,v127
  .byte   W06
- .byte   VOL , 23*song23_mvl/mxv
+ .byte   VOL , 23*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 68*song23_mvl/mxv
+ .byte   VOL , 68*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v040
  .byte   N12 ,Fs1 ,v104
  .byte   W06
- .byte   VOL , 22*song23_mvl/mxv
+ .byte   VOL , 22*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 66*song23_mvl/mxv
+ .byte   VOL , 66*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v076
  .byte   N12 ,Fs1 ,v127
  .byte   W06
- .byte   VOL , 21*song23_mvl/mxv
+ .byte   VOL , 21*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 65*song23_mvl/mxv
+ .byte   VOL , 65*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v040
  .byte   N12 ,Fs1 ,v104
  .byte   W06
- .byte   VOL , 19*song23_mvl/mxv
+ .byte   VOL , 19*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 64*song23_mvl/mxv
+ .byte   VOL , 64*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v076
  .byte   N12 ,Fs1 ,v127
  .byte   W06
- .byte   VOL , 18*song23_mvl/mxv
+ .byte   VOL , 18*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 62*song23_mvl/mxv
+ .byte   VOL , 62*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v040
  .byte   N12 ,Fs1 ,v104
  .byte   W06
- .byte   VOL , 16*song23_mvl/mxv
+ .byte   VOL , 16*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 61*song23_mvl/mxv
+ .byte   VOL , 61*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v076
  .byte   N12 ,Fs1 ,v127
  .byte   W06
- .byte   VOL , 15*song23_mvl/mxv
+ .byte   VOL , 15*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 59*song23_mvl/mxv
+ .byte   VOL , 59*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v040
  .byte   N12 ,Fs1 ,v104
  .byte   W06
- .byte   VOL , 14*song23_mvl/mxv
+ .byte   VOL , 14*BossDoorOpens_mvl/mxv
  .byte   W06
 @  #05 @015   ----------------------------------------
- .byte   VOL , 58*song23_mvl/mxv
+ .byte   VOL , 58*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v076
  .byte   N12 ,Fs1 ,v127
  .byte   W06
- .byte   VOL , 12*song23_mvl/mxv
+ .byte   VOL , 12*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 57*song23_mvl/mxv
+ .byte   VOL , 57*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v040
  .byte   N12 ,Fs1 ,v104
  .byte   W06
- .byte   VOL , 11*song23_mvl/mxv
+ .byte   VOL , 11*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 56*song23_mvl/mxv
+ .byte   VOL , 56*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v076
  .byte   N12 ,Fs1 ,v127
  .byte   W06
- .byte   VOL , 10*song23_mvl/mxv
+ .byte   VOL , 10*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 54*song23_mvl/mxv
+ .byte   VOL , 54*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v040
  .byte   N12 ,Fs1 ,v104
  .byte   W06
- .byte   VOL , 9*song23_mvl/mxv
+ .byte   VOL , 9*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 53*song23_mvl/mxv
+ .byte   VOL , 53*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v076
  .byte   N12 ,Fs1 ,v127
  .byte   W06
- .byte   VOL , 7*song23_mvl/mxv
+ .byte   VOL , 7*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 52*song23_mvl/mxv
+ .byte   VOL , 52*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v040
  .byte   N12 ,Fs1 ,v104
  .byte   W06
- .byte   VOL , 6*song23_mvl/mxv
+ .byte   VOL , 6*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 50*song23_mvl/mxv
+ .byte   VOL , 50*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v076
  .byte   N12 ,Fs1 ,v127
  .byte   W06
- .byte   VOL , 4*song23_mvl/mxv
+ .byte   VOL , 4*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 49*song23_mvl/mxv
+ .byte   VOL , 49*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v040
  .byte   N12 ,Fs1 ,v104
  .byte   W06
- .byte   VOL , 3*song23_mvl/mxv
+ .byte   VOL , 3*BossDoorOpens_mvl/mxv
  .byte   W06
 @  #05 @016   ----------------------------------------
- .byte   VOL , 47*song23_mvl/mxv
+ .byte   VOL , 47*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v076
  .byte   N12 ,Fs1 ,v127
  .byte   W06
- .byte   VOL , 2*song23_mvl/mxv
+ .byte   VOL , 2*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 46*song23_mvl/mxv
+ .byte   VOL , 46*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v040
  .byte   N12 ,Fs1 ,v104
  .byte   N12 ,Bn1
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 45*song23_mvl/mxv
+ .byte   VOL , 45*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v076
  .byte   N12 ,Fs1 ,v127
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 44*song23_mvl/mxv
+ .byte   VOL , 44*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v040
  .byte   N12 ,Fs1 ,v104
  .byte   N12 ,An1
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 42*song23_mvl/mxv
+ .byte   VOL , 42*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v076
  .byte   N12 ,Fs1 ,v127
  .byte   N12 ,Gn1 ,v104
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 41*song23_mvl/mxv
+ .byte   VOL , 41*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v040
  .byte   N12 ,Fs1 ,v104
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 40*song23_mvl/mxv
+ .byte   VOL , 40*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v076
  .byte   N12 ,Fn1 ,v104
  .byte   N12 ,Fs1 ,v127
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 38*song23_mvl/mxv
+ .byte   VOL , 38*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v040
  .byte   N12 ,Fs1 ,v104
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
 @  #05 @017   ----------------------------------------
- .byte   VOL , 37*song23_mvl/mxv
+ .byte   VOL , 37*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v076
  .byte   N12 ,Fs1 ,v127
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 35*song23_mvl/mxv
+ .byte   VOL , 35*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v040
  .byte   N12 ,Fs1 ,v104
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 34*song23_mvl/mxv
+ .byte   VOL , 34*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v076
  .byte   N12 ,Fs1 ,v127
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 33*song23_mvl/mxv
+ .byte   VOL , 33*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v040
  .byte   N12 ,Fs1 ,v104
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 32*song23_mvl/mxv
+ .byte   VOL , 32*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v076
  .byte   N12 ,Fs1 ,v127
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 30*song23_mvl/mxv
+ .byte   VOL , 30*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v040
  .byte   N12 ,Fs1 ,v104
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 29*song23_mvl/mxv
+ .byte   VOL , 29*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v076
  .byte   N12 ,Fs1 ,v127
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 27*song23_mvl/mxv
+ .byte   VOL , 27*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v040
  .byte   N12 ,Fs1 ,v104
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
 @  #05 @018   ----------------------------------------
- .byte   VOL , 26*song23_mvl/mxv
+ .byte   VOL , 26*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v076
  .byte   N12 ,Fs1 ,v127
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 25*song23_mvl/mxv
+ .byte   VOL , 25*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v040
  .byte   N12 ,Fs1 ,v104
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 23*song23_mvl/mxv
+ .byte   VOL , 23*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v076
  .byte   N12 ,Fs1 ,v127
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 22*song23_mvl/mxv
+ .byte   VOL , 22*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v040
  .byte   N12 ,Fs1 ,v104
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 21*song23_mvl/mxv
+ .byte   VOL , 21*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v076
  .byte   N12 ,Fs1 ,v127
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 20*song23_mvl/mxv
+ .byte   VOL , 20*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v040
  .byte   N12 ,Fs1 ,v104
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 18*song23_mvl/mxv
+ .byte   VOL , 18*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v076
  .byte   N12 ,Fs1 ,v127
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 17*song23_mvl/mxv
+ .byte   VOL , 17*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v040
  .byte   N12 ,Fs1 ,v104
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
 @  #05 @019   ----------------------------------------
- .byte   VOL , 15*song23_mvl/mxv
+ .byte   VOL , 15*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v076
  .byte   N12 ,Fs1 ,v127
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 14*song23_mvl/mxv
+ .byte   VOL , 14*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v040
  .byte   N12 ,Fs1 ,v104
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 13*song23_mvl/mxv
+ .byte   VOL , 13*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v076
  .byte   N12 ,Fs1 ,v127
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 11*song23_mvl/mxv
+ .byte   VOL , 11*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v040
  .byte   N12 ,Fs1 ,v104
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 10*song23_mvl/mxv
+ .byte   VOL , 10*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v076
  .byte   N12 ,Fs1 ,v127
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 9*song23_mvl/mxv
+ .byte   VOL , 9*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v040
  .byte   N12 ,Fs1 ,v104
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 8*song23_mvl/mxv
+ .byte   VOL , 8*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v076
  .byte   N12 ,Fs1 ,v127
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 6*song23_mvl/mxv
+ .byte   VOL , 6*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v040
  .byte   N12 ,Fs1 ,v104
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
 @  #05 @020   ----------------------------------------
- .byte   VOL , 5*song23_mvl/mxv
+ .byte   VOL , 5*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v076
  .byte   N12 ,Fs1 ,v127
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 3*song23_mvl/mxv
+ .byte   VOL , 3*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v040
  .byte   N12 ,Fs1 ,v104
  .byte   N12 ,Bn1
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 2*song23_mvl/mxv
+ .byte   VOL , 2*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v076
  .byte   N12 ,Fs1 ,v127
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 1*song23_mvl/mxv
+ .byte   VOL , 1*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v040
  .byte   N12 ,Fs1 ,v104
  .byte   N12 ,An1
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   N12 ,En0 ,v076
  .byte   N12 ,Fs1 ,v127
  .byte   N12 ,Gn1 ,v104
@@ -774,12 +774,12 @@ Label_012B67F2:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song23_006:
+BossDoorOpens_006:
 @  #06 @000   ----------------------------------------
- .byte   KEYSH , song23_key+0
+ .byte   KEYSH , BossDoorOpens_key+0
  .byte   W24
  .byte   VOICE , 28
- .byte   VOL , 35*song23_mvl/mxv
+ .byte   VOL , 35*BossDoorOpens_mvl/mxv
  .byte   W72
 @  #06 @001   ----------------------------------------
 Label_012B6B20:
@@ -850,307 +850,307 @@ Label_012B6B3F:
  .byte   PATT
   .word Label_012B6B3F
 @  #06 @013   ----------------------------------------
- .byte   VOL , 35*song23_mvl/mxv
+ .byte   VOL , 35*BossDoorOpens_mvl/mxv
  .byte   N06 ,Cn1 ,v100
  .byte   W06
- .byte   VOL , 34*song23_mvl/mxv
+ .byte   VOL , 34*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 78*song23_mvl/mxv
+ .byte   VOL , 78*BossDoorOpens_mvl/mxv
  .byte   N06 ,Gn1
  .byte   W06
- .byte   VOL , 33*song23_mvl/mxv
+ .byte   VOL , 33*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 77*song23_mvl/mxv
+ .byte   VOL , 77*BossDoorOpens_mvl/mxv
  .byte   N06 ,Cn2
  .byte   W06
- .byte   VOL , 31*song23_mvl/mxv
+ .byte   VOL , 31*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 76*song23_mvl/mxv
+ .byte   VOL , 76*BossDoorOpens_mvl/mxv
  .byte   N06 ,Cn1
  .byte   W06
- .byte   VOL , 30*song23_mvl/mxv
+ .byte   VOL , 30*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 74*song23_mvl/mxv
+ .byte   VOL , 74*BossDoorOpens_mvl/mxv
  .byte   N06 ,Gn1
  .byte   W06
- .byte   VOL , 28*song23_mvl/mxv
+ .byte   VOL , 28*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 73*song23_mvl/mxv
+ .byte   VOL , 73*BossDoorOpens_mvl/mxv
  .byte   N06 ,As1
  .byte   W06
- .byte   VOL , 27*song23_mvl/mxv
+ .byte   VOL , 27*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 71*song23_mvl/mxv
+ .byte   VOL , 71*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 71*song23_mvl/mxv
+ .byte   VOL , 71*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 70*song23_mvl/mxv
+ .byte   VOL , 70*BossDoorOpens_mvl/mxv
  .byte   N06 ,Gn1
  .byte   W06
- .byte   VOL , 24*song23_mvl/mxv
+ .byte   VOL , 24*BossDoorOpens_mvl/mxv
  .byte   W06
 @  #06 @014   ----------------------------------------
- .byte   VOL , 69*song23_mvl/mxv
+ .byte   VOL , 69*BossDoorOpens_mvl/mxv
  .byte   N06 ,Cn1
  .byte   W06
- .byte   VOL , 23*song23_mvl/mxv
+ .byte   VOL , 23*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 68*song23_mvl/mxv
+ .byte   VOL , 68*BossDoorOpens_mvl/mxv
  .byte   N06 ,Gn1
  .byte   W06
- .byte   VOL , 22*song23_mvl/mxv
+ .byte   VOL , 22*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 66*song23_mvl/mxv
+ .byte   VOL , 66*BossDoorOpens_mvl/mxv
  .byte   N06 ,Cn2
  .byte   W06
- .byte   VOL , 21*song23_mvl/mxv
+ .byte   VOL , 21*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 65*song23_mvl/mxv
+ .byte   VOL , 65*BossDoorOpens_mvl/mxv
  .byte   N06 ,Cn1
  .byte   W06
- .byte   VOL , 19*song23_mvl/mxv
+ .byte   VOL , 19*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 64*song23_mvl/mxv
+ .byte   VOL , 64*BossDoorOpens_mvl/mxv
  .byte   N06 ,Gn1
  .byte   W06
- .byte   VOL , 18*song23_mvl/mxv
+ .byte   VOL , 18*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 62*song23_mvl/mxv
+ .byte   VOL , 62*BossDoorOpens_mvl/mxv
  .byte   N06 ,As1
  .byte   W06
- .byte   VOL , 16*song23_mvl/mxv
+ .byte   VOL , 16*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 61*song23_mvl/mxv
+ .byte   VOL , 61*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 60*song23_mvl/mxv
+ .byte   VOL , 60*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 59*song23_mvl/mxv
+ .byte   VOL , 59*BossDoorOpens_mvl/mxv
  .byte   N06 ,Gn1
  .byte   W06
- .byte   VOL , 14*song23_mvl/mxv
+ .byte   VOL , 14*BossDoorOpens_mvl/mxv
  .byte   W06
 @  #06 @015   ----------------------------------------
- .byte   VOL , 58*song23_mvl/mxv
+ .byte   VOL , 58*BossDoorOpens_mvl/mxv
  .byte   N06 ,Cn1
  .byte   W06
- .byte   VOL , 12*song23_mvl/mxv
+ .byte   VOL , 12*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 57*song23_mvl/mxv
+ .byte   VOL , 57*BossDoorOpens_mvl/mxv
  .byte   N06 ,Gn1
  .byte   W06
- .byte   VOL , 11*song23_mvl/mxv
+ .byte   VOL , 11*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 56*song23_mvl/mxv
+ .byte   VOL , 56*BossDoorOpens_mvl/mxv
  .byte   N06 ,Cn2
  .byte   W06
- .byte   VOL , 10*song23_mvl/mxv
+ .byte   VOL , 10*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 54*song23_mvl/mxv
+ .byte   VOL , 54*BossDoorOpens_mvl/mxv
  .byte   N06 ,Cn1
  .byte   W06
- .byte   VOL , 9*song23_mvl/mxv
+ .byte   VOL , 9*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 53*song23_mvl/mxv
+ .byte   VOL , 53*BossDoorOpens_mvl/mxv
  .byte   N06 ,Gn1
  .byte   W06
- .byte   VOL , 7*song23_mvl/mxv
+ .byte   VOL , 7*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 52*song23_mvl/mxv
+ .byte   VOL , 52*BossDoorOpens_mvl/mxv
  .byte   N06 ,As1
  .byte   W06
- .byte   VOL , 6*song23_mvl/mxv
+ .byte   VOL , 6*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 50*song23_mvl/mxv
+ .byte   VOL , 50*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 49*song23_mvl/mxv
+ .byte   VOL , 49*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 49*song23_mvl/mxv
+ .byte   VOL , 49*BossDoorOpens_mvl/mxv
  .byte   N06 ,Gn1
  .byte   W06
- .byte   VOL , 3*song23_mvl/mxv
+ .byte   VOL , 3*BossDoorOpens_mvl/mxv
  .byte   W06
 @  #06 @016   ----------------------------------------
- .byte   VOL , 47*song23_mvl/mxv
+ .byte   VOL , 47*BossDoorOpens_mvl/mxv
  .byte   N06 ,Cn1
  .byte   W06
- .byte   VOL , 2*song23_mvl/mxv
+ .byte   VOL , 2*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 46*song23_mvl/mxv
+ .byte   VOL , 46*BossDoorOpens_mvl/mxv
  .byte   N06 ,Gn1
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 45*song23_mvl/mxv
+ .byte   VOL , 45*BossDoorOpens_mvl/mxv
  .byte   N06 ,Cn2
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 44*song23_mvl/mxv
+ .byte   VOL , 44*BossDoorOpens_mvl/mxv
  .byte   N06 ,Cn1
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 42*song23_mvl/mxv
+ .byte   VOL , 42*BossDoorOpens_mvl/mxv
  .byte   N06 ,Gn1
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 41*song23_mvl/mxv
+ .byte   VOL , 41*BossDoorOpens_mvl/mxv
  .byte   N06 ,As1
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 40*song23_mvl/mxv
+ .byte   VOL , 40*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 39*song23_mvl/mxv
+ .byte   VOL , 39*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 38*song23_mvl/mxv
+ .byte   VOL , 38*BossDoorOpens_mvl/mxv
  .byte   N06 ,Gn1
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
 @  #06 @017   ----------------------------------------
- .byte   VOL , 37*song23_mvl/mxv
+ .byte   VOL , 37*BossDoorOpens_mvl/mxv
  .byte   N06 ,Cn1
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 35*song23_mvl/mxv
+ .byte   VOL , 35*BossDoorOpens_mvl/mxv
  .byte   N06 ,Gn1
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 34*song23_mvl/mxv
+ .byte   VOL , 34*BossDoorOpens_mvl/mxv
  .byte   N06 ,Cn2
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 33*song23_mvl/mxv
+ .byte   VOL , 33*BossDoorOpens_mvl/mxv
  .byte   N06 ,Cn1
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 32*song23_mvl/mxv
+ .byte   VOL , 32*BossDoorOpens_mvl/mxv
  .byte   N06 ,Gn1
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 30*song23_mvl/mxv
+ .byte   VOL , 30*BossDoorOpens_mvl/mxv
  .byte   N06 ,As1
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 29*song23_mvl/mxv
+ .byte   VOL , 29*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 28*song23_mvl/mxv
+ .byte   VOL , 28*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 27*song23_mvl/mxv
+ .byte   VOL , 27*BossDoorOpens_mvl/mxv
  .byte   N06 ,Gn1
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
 @  #06 @018   ----------------------------------------
- .byte   VOL , 26*song23_mvl/mxv
+ .byte   VOL , 26*BossDoorOpens_mvl/mxv
  .byte   N06 ,Cn1
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 25*song23_mvl/mxv
+ .byte   VOL , 25*BossDoorOpens_mvl/mxv
  .byte   N06 ,Gn1
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 23*song23_mvl/mxv
+ .byte   VOL , 23*BossDoorOpens_mvl/mxv
  .byte   N06 ,Cn2
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 22*song23_mvl/mxv
+ .byte   VOL , 22*BossDoorOpens_mvl/mxv
  .byte   N06 ,Cn1
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 21*song23_mvl/mxv
+ .byte   VOL , 21*BossDoorOpens_mvl/mxv
  .byte   N06 ,Gn1
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 20*song23_mvl/mxv
+ .byte   VOL , 20*BossDoorOpens_mvl/mxv
  .byte   N06 ,As1
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 18*song23_mvl/mxv
+ .byte   VOL , 18*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 18*song23_mvl/mxv
+ .byte   VOL , 18*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 17*song23_mvl/mxv
+ .byte   VOL , 17*BossDoorOpens_mvl/mxv
  .byte   N06 ,Gn1
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
 @  #06 @019   ----------------------------------------
- .byte   VOL , 15*song23_mvl/mxv
+ .byte   VOL , 15*BossDoorOpens_mvl/mxv
  .byte   N06 ,Cn1
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 14*song23_mvl/mxv
+ .byte   VOL , 14*BossDoorOpens_mvl/mxv
  .byte   N06 ,Gn1
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 13*song23_mvl/mxv
+ .byte   VOL , 13*BossDoorOpens_mvl/mxv
  .byte   N06 ,Cn2
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 11*song23_mvl/mxv
+ .byte   VOL , 11*BossDoorOpens_mvl/mxv
  .byte   N06 ,Cn1
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 10*song23_mvl/mxv
+ .byte   VOL , 10*BossDoorOpens_mvl/mxv
  .byte   N06 ,Gn1
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 9*song23_mvl/mxv
+ .byte   VOL , 9*BossDoorOpens_mvl/mxv
  .byte   N06 ,As1
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 8*song23_mvl/mxv
+ .byte   VOL , 8*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 7*song23_mvl/mxv
+ .byte   VOL , 7*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 6*song23_mvl/mxv
+ .byte   VOL , 6*BossDoorOpens_mvl/mxv
  .byte   N06 ,Gn1
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
 @  #06 @020   ----------------------------------------
- .byte   VOL , 5*song23_mvl/mxv
+ .byte   VOL , 5*BossDoorOpens_mvl/mxv
  .byte   N06 ,Cn1
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 3*song23_mvl/mxv
+ .byte   VOL , 3*BossDoorOpens_mvl/mxv
  .byte   N06 ,Gn1
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 2*song23_mvl/mxv
+ .byte   VOL , 2*BossDoorOpens_mvl/mxv
  .byte   N06 ,Cn2
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 1*song23_mvl/mxv
+ .byte   VOL , 1*BossDoorOpens_mvl/mxv
  .byte   N06 ,Cn1
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   N06 ,Gn1
  .byte   W12
  .byte   As1
@@ -1161,12 +1161,12 @@ Label_012B6B3F:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-song23_007:
+BossDoorOpens_007:
 @  #07 @000   ----------------------------------------
- .byte   KEYSH , song23_key+0
+ .byte   KEYSH , BossDoorOpens_key+0
  .byte   W24
  .byte   VOICE , 48
- .byte   VOL , 35*song23_mvl/mxv
+ .byte   VOL , 35*BossDoorOpens_mvl/mxv
  .byte   W72
 @  #07 @001   ----------------------------------------
  .byte   N48 ,Fn2 ,v088
@@ -1196,12 +1196,12 @@ song23_007:
 @  #07 @004   ----------------------------------------
  .byte   W96
 @  #07 @005   ----------------------------------------
- .byte   VOL , 26*song23_mvl/mxv
+ .byte   VOL , 26*BossDoorOpens_mvl/mxv
  .byte   N96 ,Gs2
  .byte   N96 ,Cn3
  .byte   N96 ,Ds3
  .byte   W01
- .byte   VOL , 26*song23_mvl/mxv
+ .byte   VOL , 26*BossDoorOpens_mvl/mxv
  .byte   W92
  .byte   W03
 @  #07 @006   ----------------------------------------
@@ -1240,130 +1240,130 @@ Label_562320:
  .byte   EOT
  .byte   Cn3 ,v064
  .byte   Gn3
- .byte   VOL , 26*song23_mvl/mxv
+ .byte   VOL , 26*BossDoorOpens_mvl/mxv
  .byte   N96 ,Gs2 ,v088
  .byte   N96 ,Cn3
  .byte   N96 ,Ds3
  .byte   W07
- .byte   VOL , 26*song23_mvl/mxv
+ .byte   VOL , 26*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 70*song23_mvl/mxv
+ .byte   VOL , 70*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 69*song23_mvl/mxv
+ .byte   VOL , 69*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 69*song23_mvl/mxv
+ .byte   VOL , 69*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 68*song23_mvl/mxv
+ .byte   VOL , 68*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 67*song23_mvl/mxv
+ .byte   VOL , 67*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 66*song23_mvl/mxv
+ .byte   VOL , 66*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 66*song23_mvl/mxv
+ .byte   VOL , 66*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 65*song23_mvl/mxv
+ .byte   VOL , 65*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 64*song23_mvl/mxv
+ .byte   VOL , 64*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 64*song23_mvl/mxv
+ .byte   VOL , 64*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 63*song23_mvl/mxv
+ .byte   VOL , 63*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 62*song23_mvl/mxv
+ .byte   VOL , 62*BossDoorOpens_mvl/mxv
  .byte   W05
 @  #07 @014   ----------------------------------------
  .byte   N96 ,As2
  .byte   N96 ,Dn3
  .byte   N96 ,Fn3
  .byte   W02
- .byte   VOL , 16*song23_mvl/mxv
+ .byte   VOL , 16*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 61*song23_mvl/mxv
+ .byte   VOL , 61*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 60*song23_mvl/mxv
+ .byte   VOL , 60*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 59*song23_mvl/mxv
+ .byte   VOL , 59*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 59*song23_mvl/mxv
+ .byte   VOL , 59*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 58*song23_mvl/mxv
+ .byte   VOL , 58*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 57*song23_mvl/mxv
+ .byte   VOL , 57*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 57*song23_mvl/mxv
+ .byte   VOL , 57*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 56*song23_mvl/mxv
+ .byte   VOL , 56*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 56*song23_mvl/mxv
+ .byte   VOL , 56*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 54*song23_mvl/mxv
+ .byte   VOL , 54*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 54*song23_mvl/mxv
+ .byte   VOL , 54*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 53*song23_mvl/mxv
+ .byte   VOL , 53*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 52*song23_mvl/mxv
+ .byte   VOL , 52*BossDoorOpens_mvl/mxv
  .byte   W03
 @  #07 @015   ----------------------------------------
  .byte   TIE ,Cn3
  .byte   TIE ,En3
  .byte   TIE ,Gn3
  .byte   W04
- .byte   VOL , 7*song23_mvl/mxv
+ .byte   VOL , 7*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 51*song23_mvl/mxv
+ .byte   VOL , 51*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 51*song23_mvl/mxv
+ .byte   VOL , 51*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 50*song23_mvl/mxv
+ .byte   VOL , 50*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 49*song23_mvl/mxv
+ .byte   VOL , 49*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 48*song23_mvl/mxv
+ .byte   VOL , 48*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 47*song23_mvl/mxv
+ .byte   VOL , 47*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 47*song23_mvl/mxv
+ .byte   VOL , 47*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 46*song23_mvl/mxv
+ .byte   VOL , 46*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 45*song23_mvl/mxv
+ .byte   VOL , 45*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 45*song23_mvl/mxv
+ .byte   VOL , 45*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 44*song23_mvl/mxv
+ .byte   VOL , 44*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 44*song23_mvl/mxv
+ .byte   VOL , 44*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 43*song23_mvl/mxv
+ .byte   VOL , 43*BossDoorOpens_mvl/mxv
  .byte   W01
 @  #07 @016   ----------------------------------------
  .byte   W06
- .byte   VOL , 42*song23_mvl/mxv
+ .byte   VOL , 42*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 41*song23_mvl/mxv
+ .byte   VOL , 41*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 40*song23_mvl/mxv
+ .byte   VOL , 40*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 40*song23_mvl/mxv
+ .byte   VOL , 40*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 39*song23_mvl/mxv
+ .byte   VOL , 39*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 39*song23_mvl/mxv
+ .byte   VOL , 39*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 38*song23_mvl/mxv
+ .byte   VOL , 38*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 37*song23_mvl/mxv
+ .byte   VOL , 37*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 37*song23_mvl/mxv
+ .byte   VOL , 37*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 35*song23_mvl/mxv
+ .byte   VOL , 35*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 35*song23_mvl/mxv
+ .byte   VOL , 35*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 34*song23_mvl/mxv
+ .byte   VOL , 34*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 34*song23_mvl/mxv
+ .byte   VOL , 34*BossDoorOpens_mvl/mxv
  .byte   W06
 @  #07 @017   ----------------------------------------
  .byte   EOT
@@ -1373,114 +1373,114 @@ Label_562320:
  .byte   N96 ,Cn3
  .byte   N96 ,Ds3
  .byte   W01
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 32*song23_mvl/mxv
+ .byte   VOL , 32*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 32*song23_mvl/mxv
+ .byte   VOL , 32*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 31*song23_mvl/mxv
+ .byte   VOL , 31*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 30*song23_mvl/mxv
+ .byte   VOL , 30*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 29*song23_mvl/mxv
+ .byte   VOL , 29*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 28*song23_mvl/mxv
+ .byte   VOL , 28*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 28*song23_mvl/mxv
+ .byte   VOL , 28*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 27*song23_mvl/mxv
+ .byte   VOL , 27*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 27*song23_mvl/mxv
+ .byte   VOL , 27*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 26*song23_mvl/mxv
+ .byte   VOL , 26*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 25*song23_mvl/mxv
+ .byte   VOL , 25*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 25*song23_mvl/mxv
+ .byte   VOL , 25*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 24*song23_mvl/mxv
+ .byte   VOL , 24*BossDoorOpens_mvl/mxv
  .byte   W04
 @  #07 @018   ----------------------------------------
  .byte   N96 ,As2
  .byte   N96 ,Dn3
  .byte   N96 ,Fn3
  .byte   W03
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 22*song23_mvl/mxv
+ .byte   VOL , 22*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 22*song23_mvl/mxv
+ .byte   VOL , 22*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 21*song23_mvl/mxv
+ .byte   VOL , 21*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 20*song23_mvl/mxv
+ .byte   VOL , 20*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 20*song23_mvl/mxv
+ .byte   VOL , 20*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 19*song23_mvl/mxv
+ .byte   VOL , 19*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 18*song23_mvl/mxv
+ .byte   VOL , 18*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 18*song23_mvl/mxv
+ .byte   VOL , 18*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 17*song23_mvl/mxv
+ .byte   VOL , 17*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 16*song23_mvl/mxv
+ .byte   VOL , 16*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 15*song23_mvl/mxv
+ .byte   VOL , 15*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 15*song23_mvl/mxv
+ .byte   VOL , 15*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 14*song23_mvl/mxv
+ .byte   VOL , 14*BossDoorOpens_mvl/mxv
  .byte   W02
 @  #07 @019   ----------------------------------------
  .byte   TIE ,Cn3
  .byte   TIE ,En3
  .byte   TIE ,Gn3
  .byte   W05
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 13*song23_mvl/mxv
+ .byte   VOL , 13*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 12*song23_mvl/mxv
+ .byte   VOL , 12*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 11*song23_mvl/mxv
+ .byte   VOL , 11*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 11*song23_mvl/mxv
+ .byte   VOL , 11*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 10*song23_mvl/mxv
+ .byte   VOL , 10*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 9*song23_mvl/mxv
+ .byte   VOL , 9*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 8*song23_mvl/mxv
+ .byte   VOL , 8*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 8*song23_mvl/mxv
+ .byte   VOL , 8*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 7*song23_mvl/mxv
+ .byte   VOL , 7*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 6*song23_mvl/mxv
+ .byte   VOL , 6*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 6*song23_mvl/mxv
+ .byte   VOL , 6*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 5*song23_mvl/mxv
+ .byte   VOL , 5*BossDoorOpens_mvl/mxv
  .byte   W07
 @  #07 @020   ----------------------------------------
- .byte   VOL , 5*song23_mvl/mxv
+ .byte   VOL , 5*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 3*song23_mvl/mxv
+ .byte   VOL , 3*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 3*song23_mvl/mxv
+ .byte   VOL , 3*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 2*song23_mvl/mxv
+ .byte   VOL , 2*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 1*song23_mvl/mxv
+ .byte   VOL , 1*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 1*song23_mvl/mxv
+ .byte   VOL , 1*BossDoorOpens_mvl/mxv
  .byte   W07
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W48
 @  #07 @021   ----------------------------------------
  .byte   EOT
@@ -1490,12 +1490,12 @@ Label_562320:
 
 @**************** Track 8 (Midi-Chn.7) ****************@
 
-song23_008:
+BossDoorOpens_008:
 @  #08 @000   ----------------------------------------
- .byte   KEYSH , song23_key+0
+ .byte   KEYSH , BossDoorOpens_key+0
  .byte   W24
  .byte   VOICE , 79
- .byte   VOL , 35*song23_mvl/mxv
+ .byte   VOL , 35*BossDoorOpens_mvl/mxv
  .byte   W72
 @  #08 @001   ----------------------------------------
  .byte   W96
@@ -1549,277 +1549,277 @@ Label_012C2259:
  .byte   PATT
   .word Label_012C2259
 @  #08 @013   ----------------------------------------
- .byte   VOL , 35*song23_mvl/mxv
+ .byte   VOL , 35*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 79*song23_mvl/mxv
+ .byte   VOL , 79*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 78*song23_mvl/mxv
+ .byte   VOL , 78*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 78*song23_mvl/mxv
+ .byte   VOL , 78*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 77*song23_mvl/mxv
+ .byte   VOL , 77*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 76*song23_mvl/mxv
+ .byte   VOL , 76*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 76*song23_mvl/mxv
+ .byte   VOL , 76*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 75*song23_mvl/mxv
+ .byte   VOL , 75*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 74*song23_mvl/mxv
+ .byte   VOL , 74*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 73*song23_mvl/mxv
+ .byte   VOL , 73*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 73*song23_mvl/mxv
+ .byte   VOL , 73*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 72*song23_mvl/mxv
+ .byte   VOL , 72*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 71*song23_mvl/mxv
+ .byte   VOL , 71*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 71*song23_mvl/mxv
+ .byte   VOL , 71*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 70*song23_mvl/mxv
+ .byte   VOL , 70*BossDoorOpens_mvl/mxv
  .byte   N12 ,Fn5 ,v056
  .byte   W06
- .byte   VOL , 24*song23_mvl/mxv
+ .byte   VOL , 24*BossDoorOpens_mvl/mxv
  .byte   W06
 @  #08 @014   ----------------------------------------
- .byte   VOL , 69*song23_mvl/mxv
+ .byte   VOL , 69*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 68*song23_mvl/mxv
+ .byte   VOL , 68*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 68*song23_mvl/mxv
+ .byte   VOL , 68*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 67*song23_mvl/mxv
+ .byte   VOL , 67*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 66*song23_mvl/mxv
+ .byte   VOL , 66*BossDoorOpens_mvl/mxv
  .byte   N12 ,Gn5
  .byte   W06
- .byte   VOL , 21*song23_mvl/mxv
+ .byte   VOL , 21*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 65*song23_mvl/mxv
+ .byte   VOL , 65*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 64*song23_mvl/mxv
+ .byte   VOL , 64*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 64*song23_mvl/mxv
+ .byte   VOL , 64*BossDoorOpens_mvl/mxv
  .byte   N12 ,Dn5
  .byte   W06
- .byte   VOL , 18*song23_mvl/mxv
+ .byte   VOL , 18*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 62*song23_mvl/mxv
+ .byte   VOL , 62*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 61*song23_mvl/mxv
+ .byte   VOL , 61*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 61*song23_mvl/mxv
+ .byte   VOL , 61*BossDoorOpens_mvl/mxv
  .byte   N12 ,Fn5
  .byte   N12 ,As5
  .byte   W06
- .byte   VOL , 15*song23_mvl/mxv
+ .byte   VOL , 15*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 59*song23_mvl/mxv
+ .byte   VOL , 59*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 59*song23_mvl/mxv
+ .byte   VOL , 59*BossDoorOpens_mvl/mxv
  .byte   W06
 @  #08 @015   ----------------------------------------
- .byte   VOL , 58*song23_mvl/mxv
+ .byte   VOL , 58*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 57*song23_mvl/mxv
+ .byte   VOL , 57*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 57*song23_mvl/mxv
+ .byte   VOL , 57*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 56*song23_mvl/mxv
+ .byte   VOL , 56*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 56*song23_mvl/mxv
+ .byte   VOL , 56*BossDoorOpens_mvl/mxv
  .byte   N12 ,Gn5
  .byte   W06
- .byte   VOL , 10*song23_mvl/mxv
+ .byte   VOL , 10*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 54*song23_mvl/mxv
+ .byte   VOL , 54*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 54*song23_mvl/mxv
+ .byte   VOL , 54*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 53*song23_mvl/mxv
+ .byte   VOL , 53*BossDoorOpens_mvl/mxv
  .byte   N12 ,Dn5
  .byte   W06
- .byte   VOL , 7*song23_mvl/mxv
+ .byte   VOL , 7*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 52*song23_mvl/mxv
+ .byte   VOL , 52*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 51*song23_mvl/mxv
+ .byte   VOL , 51*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 50*song23_mvl/mxv
+ .byte   VOL , 50*BossDoorOpens_mvl/mxv
  .byte   N12 ,Fn5
  .byte   W06
- .byte   VOL , 4*song23_mvl/mxv
+ .byte   VOL , 4*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 49*song23_mvl/mxv
+ .byte   VOL , 49*BossDoorOpens_mvl/mxv
  .byte   N12 ,Dn5
  .byte   W06
- .byte   VOL , 3*song23_mvl/mxv
+ .byte   VOL , 3*BossDoorOpens_mvl/mxv
  .byte   W06
 @  #08 @016   ----------------------------------------
- .byte   VOL , 47*song23_mvl/mxv
+ .byte   VOL , 47*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 47*song23_mvl/mxv
+ .byte   VOL , 47*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 46*song23_mvl/mxv
+ .byte   VOL , 46*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 45*song23_mvl/mxv
+ .byte   VOL , 45*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 45*song23_mvl/mxv
+ .byte   VOL , 45*BossDoorOpens_mvl/mxv
  .byte   N12 ,Gn5
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 44*song23_mvl/mxv
+ .byte   VOL , 44*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 43*song23_mvl/mxv
+ .byte   VOL , 43*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 42*song23_mvl/mxv
+ .byte   VOL , 42*BossDoorOpens_mvl/mxv
  .byte   N12 ,Dn5
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 41*song23_mvl/mxv
+ .byte   VOL , 41*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 40*song23_mvl/mxv
+ .byte   VOL , 40*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 40*song23_mvl/mxv
+ .byte   VOL , 40*BossDoorOpens_mvl/mxv
  .byte   N12 ,Fn5
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 38*song23_mvl/mxv
+ .byte   VOL , 38*BossDoorOpens_mvl/mxv
  .byte   N12 ,Dn5
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
 @  #08 @017   ----------------------------------------
- .byte   VOL , 37*song23_mvl/mxv
+ .byte   VOL , 37*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 36*song23_mvl/mxv
+ .byte   VOL , 36*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 35*song23_mvl/mxv
+ .byte   VOL , 35*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 35*song23_mvl/mxv
+ .byte   VOL , 35*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 34*song23_mvl/mxv
+ .byte   VOL , 34*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 34*song23_mvl/mxv
+ .byte   VOL , 34*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 33*song23_mvl/mxv
+ .byte   VOL , 33*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 32*song23_mvl/mxv
+ .byte   VOL , 32*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 32*song23_mvl/mxv
+ .byte   VOL , 32*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 31*song23_mvl/mxv
+ .byte   VOL , 31*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 30*song23_mvl/mxv
+ .byte   VOL , 30*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 30*song23_mvl/mxv
+ .byte   VOL , 30*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 29*song23_mvl/mxv
+ .byte   VOL , 29*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 28*song23_mvl/mxv
+ .byte   VOL , 28*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 27*song23_mvl/mxv
+ .byte   VOL , 27*BossDoorOpens_mvl/mxv
  .byte   N12 ,Fn5
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
 @  #08 @018   ----------------------------------------
- .byte   VOL , 26*song23_mvl/mxv
+ .byte   VOL , 26*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 25*song23_mvl/mxv
+ .byte   VOL , 25*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 25*song23_mvl/mxv
+ .byte   VOL , 25*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 24*song23_mvl/mxv
+ .byte   VOL , 24*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 23*song23_mvl/mxv
+ .byte   VOL , 23*BossDoorOpens_mvl/mxv
  .byte   N12 ,Gn5
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 22*song23_mvl/mxv
+ .byte   VOL , 22*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 22*song23_mvl/mxv
+ .byte   VOL , 22*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 21*song23_mvl/mxv
+ .byte   VOL , 21*BossDoorOpens_mvl/mxv
  .byte   N12 ,Dn5
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 20*song23_mvl/mxv
+ .byte   VOL , 20*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 19*song23_mvl/mxv
+ .byte   VOL , 19*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 18*song23_mvl/mxv
+ .byte   VOL , 18*BossDoorOpens_mvl/mxv
  .byte   N12 ,Fn5
  .byte   N12 ,As5
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 17*song23_mvl/mxv
+ .byte   VOL , 17*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 16*song23_mvl/mxv
+ .byte   VOL , 16*BossDoorOpens_mvl/mxv
  .byte   W06
 @  #08 @019   ----------------------------------------
- .byte   VOL , 15*song23_mvl/mxv
+ .byte   VOL , 15*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 15*song23_mvl/mxv
+ .byte   VOL , 15*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 14*song23_mvl/mxv
+ .byte   VOL , 14*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 13*song23_mvl/mxv
+ .byte   VOL , 13*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 13*song23_mvl/mxv
+ .byte   VOL , 13*BossDoorOpens_mvl/mxv
  .byte   N12 ,Gn5
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 11*song23_mvl/mxv
+ .byte   VOL , 11*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 11*song23_mvl/mxv
+ .byte   VOL , 11*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 10*song23_mvl/mxv
+ .byte   VOL , 10*BossDoorOpens_mvl/mxv
  .byte   N12 ,Dn5
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 9*song23_mvl/mxv
+ .byte   VOL , 9*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 8*song23_mvl/mxv
+ .byte   VOL , 8*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 8*song23_mvl/mxv
+ .byte   VOL , 8*BossDoorOpens_mvl/mxv
  .byte   N12 ,Fn5
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 6*song23_mvl/mxv
+ .byte   VOL , 6*BossDoorOpens_mvl/mxv
  .byte   N12 ,Dn5
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
 @  #08 @020   ----------------------------------------
- .byte   VOL , 5*song23_mvl/mxv
+ .byte   VOL , 5*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 4*song23_mvl/mxv
+ .byte   VOL , 4*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 3*song23_mvl/mxv
+ .byte   VOL , 3*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 3*song23_mvl/mxv
+ .byte   VOL , 3*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 2*song23_mvl/mxv
+ .byte   VOL , 2*BossDoorOpens_mvl/mxv
  .byte   N12 ,Gn5
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 1*song23_mvl/mxv
+ .byte   VOL , 1*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   W06
- .byte   VOL , 0*song23_mvl/mxv
+ .byte   VOL , 0*BossDoorOpens_mvl/mxv
  .byte   N12 ,Dn5
  .byte   W24
  .byte   Fn5
@@ -1830,10 +1830,10 @@ Label_012C2259:
 
 @**************** Track 9 (Midi-Chn.8) ****************@
 
-song23_009:
+BossDoorOpens_009:
 @  #09 @000   ----------------------------------------
- .byte   VOL , 35*song23_mvl/mxv
- .byte   KEYSH , song23_key+0
+ .byte   VOL , 35*BossDoorOpens_mvl/mxv
+ .byte   KEYSH , BossDoorOpens_key+0
  .byte   W24
  .byte   VOICE , 62
  .byte   W72
@@ -1892,13 +1892,13 @@ song23_009:
 
 @**************** Track 10 (Midi-Chn.9) ****************@
 
-song23_010:
+BossDoorOpens_010:
 @  #10 @000   ----------------------------------------
- .byte   KEYSH , song23_key+0
+ .byte   KEYSH , BossDoorOpens_key+0
  .byte   W24
  .byte   W01
  .byte   VOICE , 75
- .byte   VOL , 35*song23_mvl/mxv
+ .byte   VOL , 35*BossDoorOpens_mvl/mxv
  .byte   W68
  .byte   W03
 @  #10 @001   ----------------------------------------
@@ -1951,23 +1951,23 @@ song23_010:
 @******************************************************@
 	.align	2
 
-song23:
+BossDoorOpens:
 	.byte	10	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song23_pri	@ Priority
-	.byte	song23_rev	@ Reverb.
+	.byte	BossDoorOpens_pri	@ Priority
+	.byte	BossDoorOpens_rev	@ Reverb.
     
-	.word	song23_grp
+	.word	BossDoorOpens_grp
     
-	.word	song23_001
-	.word	song23_002
-	.word	song23_003
-	.word	song23_004
-	.word	song23_005
-	.word	song23_006
-	.word	song23_007
-	.word	song23_008
-	.word	song23_009
-	.word	song23_010
+	.word	BossDoorOpens_001
+	.word	BossDoorOpens_002
+	.word	BossDoorOpens_003
+	.word	BossDoorOpens_004
+	.word	BossDoorOpens_005
+	.word	BossDoorOpens_006
+	.word	BossDoorOpens_007
+	.word	BossDoorOpens_008
+	.word	BossDoorOpens_009
+	.word	BossDoorOpens_010
 
 	.end

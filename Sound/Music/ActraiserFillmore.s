@@ -1,27 +1,27 @@
 	.include "MPlayDef.s"
 
-	.equ	song64_grp, voicegroup000
-	.equ	song64_pri, 0
-	.equ	song64_rev, 0
-	.equ	song64_mvl, 127
-	.equ	song64_key, 0
-	.equ	song64_tbs, 1
-	.equ	song64_exg, 0
-	.equ	song64_cmp, 1
+	.equ	ActraiserFillmore_grp, voicegroup000
+	.equ	ActraiserFillmore_pri, 0
+	.equ	ActraiserFillmore_rev, 0
+	.equ	ActraiserFillmore_mvl, 127
+	.equ	ActraiserFillmore_key, 0
+	.equ	ActraiserFillmore_tbs, 1
+	.equ	ActraiserFillmore_exg, 0
+	.equ	ActraiserFillmore_cmp, 1
 
 	.section .rodata
-	.global	song64
+	.global	ActraiserFillmore
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song64_001:
+ActraiserFillmore_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , song64_key+0
- .byte   TEMPO , 118*song64_tbs/2
+ .byte   KEYSH , ActraiserFillmore_key+0
+ .byte   TEMPO , 118*ActraiserFillmore_tbs/2
  .byte   VOICE , 34
- .byte   VOL , 45*song64_mvl/mxv
+ .byte   VOL , 45*ActraiserFillmore_mvl/mxv
  .byte   PAN , c_v-32
  .byte   N24 ,Cn2 ,v104
  .byte   W24
@@ -440,12 +440,12 @@ Label_010529AE:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song64_002:
+ActraiserFillmore_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , song64_key+0
+ .byte   KEYSH , ActraiserFillmore_key+0
  .byte   VOICE , 41
  .byte   PAN , c_v+0
- .byte   VOL , 62*song64_mvl/mxv
+ .byte   VOL , 62*ActraiserFillmore_mvl/mxv
  .byte   W06
  .byte   N06 ,Gn3 ,v072
  .byte   W06
@@ -766,11 +766,11 @@ Label_01052AD0:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song64_003:
+ActraiserFillmore_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , song64_key+0
+ .byte   KEYSH , ActraiserFillmore_key+0
  .byte   VOICE , 20
- .byte   VOL , 38*song64_mvl/mxv
+ .byte   VOL , 38*ActraiserFillmore_mvl/mxv
  .byte   PAN , c_v+32
  .byte   N06 ,Cn4 ,v080
  .byte   W06
@@ -1272,11 +1272,11 @@ Label_010577FA:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song64_004:
+ActraiserFillmore_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , song64_key+0
+ .byte   KEYSH , ActraiserFillmore_key+0
  .byte   VOICE , 79
- .byte   VOL , 44*song64_mvl/mxv
+ .byte   VOL , 44*ActraiserFillmore_mvl/mxv
  .byte   PAN , c_v-8
  .byte   N22 ,Gn2 ,v080
  .byte   W24
@@ -1519,12 +1519,12 @@ Label_01052560:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song64_005:
+ActraiserFillmore_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , song64_key+0
+ .byte   KEYSH , ActraiserFillmore_key+0
  .byte   VOICE , 110
  .byte   PAN , c_v+16
- .byte   VOL , 62*song64_mvl/mxv
+ .byte   VOL , 62*ActraiserFillmore_mvl/mxv
  .byte   W06
  .byte   N06 ,Gn3 ,v100
  .byte   W06
@@ -2010,11 +2010,11 @@ Label_010579E5:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song64_006:
+ActraiserFillmore_006:
 @  #06 @000   ----------------------------------------
- .byte   KEYSH , song64_key+0
+ .byte   KEYSH , ActraiserFillmore_key+0
  .byte   VOICE , 40
- .byte   VOL , 35*song64_mvl/mxv
+ .byte   VOL , 35*ActraiserFillmore_mvl/mxv
  .byte   PAN , c_v-24
  .byte   W06
  .byte   N06 ,Gn2 ,v100
@@ -2451,11 +2451,11 @@ Label_01057C0F:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-song64_007:
+ActraiserFillmore_007:
 @  #07 @000   ----------------------------------------
- .byte   KEYSH , song64_key+0
+ .byte   KEYSH , ActraiserFillmore_key+0
  .byte   VOICE , 124
- .byte   VOL , 44*song64_mvl/mxv
+ .byte   VOL , 44*ActraiserFillmore_mvl/mxv
  .byte   N12 ,Cn1 ,v127
  .byte   W12
  .byte   N06 ,En1 ,v104
@@ -3082,20 +3082,20 @@ Label_01058099:
 @******************************************************@
 	.align	2
 
-song64:
+ActraiserFillmore:
 	.byte	7	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song64_pri	@ Priority
-	.byte	song64_rev	@ Reverb.
+	.byte	ActraiserFillmore_pri	@ Priority
+	.byte	ActraiserFillmore_rev	@ Reverb.
     
-	.word	song64_grp
+	.word	ActraiserFillmore_grp
     
-	.word	song64_001
-	.word	song64_002
-	.word	song64_003
-	.word	song64_004
-	.word	song64_005
-	.word	song64_006
-	.word	song64_007
+	.word	ActraiserFillmore_001
+	.word	ActraiserFillmore_002
+	.word	ActraiserFillmore_003
+	.word	ActraiserFillmore_004
+	.word	ActraiserFillmore_005
+	.word	ActraiserFillmore_006
+	.word	ActraiserFillmore_007
 
 	.end

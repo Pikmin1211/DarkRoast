@@ -1,28 +1,28 @@
 	.include "MPlayDef.s"
 
-	.equ	song01_grp, voicegroup000
-	.equ	song01_pri, 10
-	.equ	song01_rev, 0
-	.equ	song01_mvl, 127
-	.equ	song01_key, 0
-	.equ	song01_tbs, 1
-	.equ	song01_exg, 0
-	.equ	song01_cmp, 1
+	.equ	FE6Attack_grp, voicegroup000
+	.equ	FE6Attack_pri, 10
+	.equ	FE6Attack_rev, 0
+	.equ	FE6Attack_mvl, 127
+	.equ	FE6Attack_key, 0
+	.equ	FE6Attack_tbs, 1
+	.equ	FE6Attack_exg, 0
+	.equ	FE6Attack_cmp, 1
 
 	.section .rodata
-	.global	song01
+	.global	FE6Attack
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song01_001:
+FE6Attack_001:
 @  #01 @000   ----------------------------------------
 Label_545664:
- .byte   TEMPO , 174*song01_tbs/2
- .byte   KEYSH , song01_key+0
+ .byte   TEMPO , 174*FE6Attack_tbs/2
+ .byte   KEYSH , FE6Attack_key+0
  .byte   VOICE , 71
- .byte   VOL , 90*song01_mvl/mxv
+ .byte   VOL , 90*FE6Attack_mvl/mxv
  .byte   PAN , c_v+3
  .byte   W12
  .byte   N08 ,Fs2 ,v096
@@ -227,13 +227,13 @@ Label_545664:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song01_002:
+FE6Attack_002:
 @  #02 @000   ----------------------------------------
 Label_5451D0:
- .byte   TEMPO , 174*song01_tbs/2
- .byte   KEYSH , song01_key+0
+ .byte   TEMPO , 174*FE6Attack_tbs/2
+ .byte   KEYSH , FE6Attack_key+0
  .byte   VOICE , 18
- .byte   VOL , 70*song01_mvl/mxv
+ .byte   VOL , 70*FE6Attack_mvl/mxv
  .byte   PAN , c_v-5
  .byte   W12
  .byte   N13 ,Bn1 ,v100
@@ -399,13 +399,13 @@ Label_5451D0:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song01_003:
+FE6Attack_003:
 @  #03 @000   ----------------------------------------
 Label_545B74:
- .byte   TEMPO , 174*song01_tbs/2
- .byte   KEYSH , song01_key+0
+ .byte   TEMPO , 174*FE6Attack_tbs/2
+ .byte   KEYSH , FE6Attack_key+0
  .byte   VOICE , 18
- .byte   VOL , 50*song01_mvl/mxv
+ .byte   VOL , 50*FE6Attack_mvl/mxv
  .byte   PAN , c_v-1
  .byte   N96 ,An2 ,v088
  .byte   W96
@@ -492,13 +492,13 @@ Label_545BBF:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song01_004:
+FE6Attack_004:
 @  #04 @000   ----------------------------------------
 Label_014B3F88:
- .byte   TEMPO , 174*song01_tbs/2
- .byte   KEYSH , song01_key+0
+ .byte   TEMPO , 174*FE6Attack_tbs/2
+ .byte   KEYSH , FE6Attack_key+0
  .byte   VOICE , 36
- .byte   VOL , 64*song01_mvl/mxv
+ .byte   VOL , 64*FE6Attack_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N10 ,Bn2 ,v096
  .byte   W12
@@ -675,13 +675,13 @@ Label_014B404E:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song01_005:
+FE6Attack_005:
 @  #05 @000   ----------------------------------------
 Label_014B408C:
- .byte   TEMPO , 174*song01_tbs/2
- .byte   KEYSH , song01_key+0
+ .byte   TEMPO , 174*FE6Attack_tbs/2
+ .byte   KEYSH , FE6Attack_key+0
  .byte   VOICE , 127
- .byte   VOL , 71*song01_mvl/mxv
+ .byte   VOL , 71*FE6Attack_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N23 ,Dn1 ,v120
  .byte   N44 ,Cs2 ,v076
@@ -977,18 +977,18 @@ Label_014B4159:
 @******************************************************@
 	.align	2
 
-song01:
+FE6Attack:
 	.byte	5	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song01_pri	@ Priority
-	.byte	song01_rev	@ Reverb.
+	.byte	FE6Attack_pri	@ Priority
+	.byte	FE6Attack_rev	@ Reverb.
     
-	.word	song01_grp
+	.word	FE6Attack_grp
     
-	.word	song01_001
-	.word	song01_002
-	.word	song01_003
-	.word	song01_004
-	.word	song01_005
+	.word	FE6Attack_001
+	.word	FE6Attack_002
+	.word	FE6Attack_003
+	.word	FE6Attack_004
+	.word	FE6Attack_005
 
 	.end

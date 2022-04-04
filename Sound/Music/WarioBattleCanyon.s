@@ -1,28 +1,28 @@
 	.include "MPlayDef.s"
 
-	.equ	song0171_grp, voicegroup000
-	.equ	song0171_pri, 0
-	.equ	song0171_rev, 0
-	.equ	song0171_mvl, 127
-	.equ	song0171_key, 0
-	.equ	song0171_tbs, 1
-	.equ	song0171_exg, 0
-	.equ	song0171_cmp, 1
+	.equ	WarioBattleCanyon_grp, voicegroup000
+	.equ	WarioBattleCanyon_pri, 0
+	.equ	WarioBattleCanyon_rev, 0
+	.equ	WarioBattleCanyon_mvl, 127
+	.equ	WarioBattleCanyon_key, 0
+	.equ	WarioBattleCanyon_tbs, 1
+	.equ	WarioBattleCanyon_exg, 0
+	.equ	WarioBattleCanyon_cmp, 1
 
 	.section .rodata
-	.global	song0171
+	.global	WarioBattleCanyon
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song0171_001:
+WarioBattleCanyon_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , song0171_key+0
+ .byte   KEYSH , WarioBattleCanyon_key+0
 Label_0128A14E:
- .byte   TEMPO , 174*song0171_tbs/2
+ .byte   TEMPO , 174*WarioBattleCanyon_tbs/2
  .byte   VOICE , 58
- .byte   VOL , 45*song0171_mvl/mxv
+ .byte   VOL , 45*WarioBattleCanyon_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N12 ,Cn1 ,v100
  .byte   W24
@@ -199,12 +199,12 @@ Label_0128A197:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song0171_002:
+WarioBattleCanyon_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , song0171_key+0
+ .byte   KEYSH , WarioBattleCanyon_key+0
 Label_0128A226:
  .byte   VOICE , 50
- .byte   VOL , 15*song0171_mvl/mxv
+ .byte   VOL , 15*WarioBattleCanyon_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N12 ,Cn1 ,v100
  .byte   W24
@@ -366,12 +366,12 @@ Label_0128A296:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song0171_003:
+WarioBattleCanyon_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , song0171_key+0
+ .byte   KEYSH , WarioBattleCanyon_key+0
 Label_0128A2F6:
  .byte   VOICE , 48
- .byte   VOL , 22*song0171_mvl/mxv
+ .byte   VOL , 22*WarioBattleCanyon_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #03 @001   ----------------------------------------
@@ -502,12 +502,12 @@ Label_0128A33C:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song0171_004:
+WarioBattleCanyon_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , song0171_key+0
+ .byte   KEYSH , WarioBattleCanyon_key+0
 Label_0128A38A:
  .byte   VOICE , 10
- .byte   VOL , 17*song0171_mvl/mxv
+ .byte   VOL , 17*WarioBattleCanyon_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W48
  .byte   N24 ,Ds6 ,v100
@@ -674,12 +674,12 @@ Label_0128A3FC:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song0171_005:
+WarioBattleCanyon_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , song0171_key+0
+ .byte   KEYSH , WarioBattleCanyon_key+0
 Label_0128A45E:
  .byte   VOICE , 68
- .byte   VOL , 12*song0171_mvl/mxv
+ .byte   VOL , 12*WarioBattleCanyon_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W48
  .byte   N24 ,Cn3 ,v100
@@ -912,12 +912,12 @@ Label_0128A50D:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song0171_006:
+WarioBattleCanyon_006:
 @  #06 @000   ----------------------------------------
- .byte   KEYSH , song0171_key+0
+ .byte   KEYSH , WarioBattleCanyon_key+0
 Label_0128A5A6:
  .byte   VOICE , 57
- .byte   VOL , 24*song0171_mvl/mxv
+ .byte   VOL , 24*WarioBattleCanyon_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #06 @001   ----------------------------------------
@@ -1092,12 +1092,12 @@ Label_0128A62D:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-song0171_007:
+WarioBattleCanyon_007:
 @  #07 @000   ----------------------------------------
- .byte   KEYSH , song0171_key+0
+ .byte   KEYSH , WarioBattleCanyon_key+0
 Label_0128A686:
  .byte   VOICE , 73
- .byte   VOL , 3*song0171_mvl/mxv
+ .byte   VOL , 3*WarioBattleCanyon_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #07 @001   ----------------------------------------
@@ -1299,12 +1299,12 @@ Label_0128A6AD:
 
 @**************** Track 8 (Midi-Chn.7) ****************@
 
-song0171_008:
+WarioBattleCanyon_008:
 @  #08 @000   ----------------------------------------
- .byte   KEYSH , song0171_key+0
+ .byte   KEYSH , WarioBattleCanyon_key+0
 Label_0128A75E:
  .byte   VOICE , 47
- .byte   VOL , 45*song0171_mvl/mxv
+ .byte   VOL , 45*WarioBattleCanyon_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W48
  .byte   N24 ,Cn2 ,v064
@@ -1463,12 +1463,12 @@ Label_0128A798:
 
 @**************** Track 9 (Midi-Chn.8) ****************@
 
-song0171_009:
+WarioBattleCanyon_009:
 @  #09 @000   ----------------------------------------
- .byte   KEYSH , song0171_key+0
+ .byte   KEYSH , WarioBattleCanyon_key+0
 Label_0128A7F2:
  .byte   VOICE , 121
- .byte   VOL , 23*song0171_mvl/mxv
+ .byte   VOL , 23*WarioBattleCanyon_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N03 ,En1 ,v080
  .byte   W72
@@ -1738,12 +1738,12 @@ Label_0128A8DC:
 
 @**************** Track 10 (Midi-Chn.9) ****************@
 
-song0171_010:
+WarioBattleCanyon_010:
 @  #10 @000   ----------------------------------------
- .byte   KEYSH , song0171_key+0
+ .byte   KEYSH , WarioBattleCanyon_key+0
 Label_0128A96A:
  .byte   VOICE , 119
- .byte   VOL , 34*song0171_mvl/mxv
+ .byte   VOL , 34*WarioBattleCanyon_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #10 @001   ----------------------------------------
@@ -1840,23 +1840,23 @@ Label_0128A96A:
 @******************************************************@
 	.align	2
 
-song0171:
+WarioBattleCanyon:
 	.byte	10	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song0171_pri	@ Priority
-	.byte	song0171_rev	@ Reverb.
+	.byte	WarioBattleCanyon_pri	@ Priority
+	.byte	WarioBattleCanyon_rev	@ Reverb.
     
-	.word	song0171_grp
+	.word	WarioBattleCanyon_grp
     
-	.word	song0171_001
-	.word	song0171_002
-	.word	song0171_003
-	.word	song0171_004
-	.word	song0171_005
-	.word	song0171_006
-	.word	song0171_007
-	.word	song0171_008
-	.word	song0171_009
-	.word	song0171_010
+	.word	WarioBattleCanyon_001
+	.word	WarioBattleCanyon_002
+	.word	WarioBattleCanyon_003
+	.word	WarioBattleCanyon_004
+	.word	WarioBattleCanyon_005
+	.word	WarioBattleCanyon_006
+	.word	WarioBattleCanyon_007
+	.word	WarioBattleCanyon_008
+	.word	WarioBattleCanyon_009
+	.word	WarioBattleCanyon_010
 
 	.end

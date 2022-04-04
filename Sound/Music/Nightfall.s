@@ -1,27 +1,27 @@
 	.include "MPlayDef.s"
 
-	.equ	song63_grp, voicegroup000
-	.equ	song63_pri, 0
-	.equ	song63_rev, 0
-	.equ	song63_mvl, 127
-	.equ	song63_key, 0
-	.equ	song63_tbs, 1
-	.equ	song63_exg, 0
-	.equ	song63_cmp, 1
+	.equ	Nightfall_grp, voicegroup000
+	.equ	Nightfall_pri, 0
+	.equ	Nightfall_rev, 0
+	.equ	Nightfall_mvl, 127
+	.equ	Nightfall_key, 0
+	.equ	Nightfall_tbs, 1
+	.equ	Nightfall_exg, 0
+	.equ	Nightfall_cmp, 1
 
 	.section .rodata
-	.global	song63
+	.global	Nightfall
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song63_001:
+Nightfall_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , song63_key+0
- .byte   TEMPO , 76*song63_tbs/2
+ .byte   KEYSH , Nightfall_key+0
+ .byte   TEMPO , 76*Nightfall_tbs/2
  .byte   VOICE , 24
- .byte   VOL , 68*song63_mvl/mxv
+ .byte   VOL , 68*Nightfall_mvl/mxv
  .byte   N96 ,Gn2 ,v127
  .byte   W06
  .byte   N06 ,An2
@@ -169,11 +169,11 @@ Label_01177341:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song63_002:
+Nightfall_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , song63_key+0
+ .byte   KEYSH , Nightfall_key+0
  .byte   VOICE , 50
- .byte   VOL , 25*song63_mvl/mxv
+ .byte   VOL , 25*Nightfall_mvl/mxv
  .byte   TIE ,Dn3 ,v127
  .byte   TIE ,An3
  .byte   W96
@@ -251,11 +251,11 @@ Label_011773A9:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song63_003:
+Nightfall_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , song63_key+0
+ .byte   KEYSH , Nightfall_key+0
  .byte   VOICE , 11
- .byte   VOL , 55*song63_mvl/mxv
+ .byte   VOL , 55*Nightfall_mvl/mxv
  .byte   W96
 @  #03 @001   ----------------------------------------
  .byte   W96
@@ -318,11 +318,11 @@ Label_011773FC:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song63_004:
+Nightfall_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , song63_key+0
+ .byte   KEYSH , Nightfall_key+0
  .byte   VOICE , 121
- .byte   VOL , 54*song63_mvl/mxv
+ .byte   VOL , 54*Nightfall_mvl/mxv
  .byte   W96
 @  #04 @001   ----------------------------------------
  .byte   W96
@@ -827,17 +827,17 @@ Label_01177436:
 @******************************************************@
 	.align	2
 
-song63:
+Nightfall:
 	.byte	4	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song63_pri	@ Priority
-	.byte	song63_rev	@ Reverb.
+	.byte	Nightfall_pri	@ Priority
+	.byte	Nightfall_rev	@ Reverb.
     
-	.word	song63_grp
+	.word	Nightfall_grp
     
-	.word	song63_001
-	.word	song63_002
-	.word	song63_003
-	.word	song63_004
+	.word	Nightfall_001
+	.word	Nightfall_002
+	.word	Nightfall_003
+	.word	Nightfall_004
 
 	.end

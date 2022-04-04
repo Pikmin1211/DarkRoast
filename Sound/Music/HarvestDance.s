@@ -1,28 +1,28 @@
 	.include "MPlayDef.s"
 
-	.equ	songD9_grp, voicegroup000
-	.equ	songD9_pri, 0
-	.equ	songD9_rev, 0
-	.equ	songD9_mvl, 127
-	.equ	songD9_key, 0
-	.equ	songD9_tbs, 1
-	.equ	songD9_exg, 0
-	.equ	songD9_cmp, 1
+	.equ	HarvestDance_grp, voicegroup000
+	.equ	HarvestDance_pri, 0
+	.equ	HarvestDance_rev, 0
+	.equ	HarvestDance_mvl, 127
+	.equ	HarvestDance_key, 0
+	.equ	HarvestDance_tbs, 1
+	.equ	HarvestDance_exg, 0
+	.equ	HarvestDance_cmp, 1
 
 	.section .rodata
-	.global	songD9
+	.global	HarvestDance
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-songD9_001:
+HarvestDance_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , songD9_key+0
- .byte   TEMPO , 134*songD9_tbs/2
+ .byte   KEYSH , HarvestDance_key+0
+ .byte   TEMPO , 134*HarvestDance_tbs/2
  .byte   VOICE , 56
  .byte   W48
- .byte   VOL , 70*songD9_mvl/mxv
+ .byte   VOL , 70*HarvestDance_mvl/mxv
  .byte   W48
 @  #01 @001   ----------------------------------------
 Label_011C737E:
@@ -349,12 +349,12 @@ Label_011C745F:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-songD9_002:
+HarvestDance_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , songD9_key+0
+ .byte   KEYSH , HarvestDance_key+0
  .byte   VOICE , 48
  .byte   W48
- .byte   VOL , 70*songD9_mvl/mxv
+ .byte   VOL , 70*HarvestDance_mvl/mxv
  .byte   W48
 @  #02 @001   ----------------------------------------
  .byte   W96
@@ -503,156 +503,156 @@ Label_011C7600:
 @  #02 @019   ----------------------------------------
 Label_011C7612:
  .byte   W48
- .byte   VOL , 70*songD9_mvl/mxv
+ .byte   VOL , 70*HarvestDance_mvl/mxv
  .byte   W01
- .byte   VOL , 111*songD9_mvl/mxv
+ .byte   VOL , 111*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 110*songD9_mvl/mxv
+ .byte   VOL , 110*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 109*songD9_mvl/mxv
+ .byte   VOL , 109*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 108*songD9_mvl/mxv
+ .byte   VOL , 108*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 107*songD9_mvl/mxv
+ .byte   VOL , 107*HarvestDance_mvl/mxv
  .byte   W01
- .byte   VOL , 106*songD9_mvl/mxv
+ .byte   VOL , 106*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 105*songD9_mvl/mxv
+ .byte   VOL , 105*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 104*songD9_mvl/mxv
+ .byte   VOL , 104*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 103*songD9_mvl/mxv
+ .byte   VOL , 103*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 102*songD9_mvl/mxv
+ .byte   VOL , 102*HarvestDance_mvl/mxv
  .byte   W01
- .byte   VOL , 101*songD9_mvl/mxv
+ .byte   VOL , 101*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 100*songD9_mvl/mxv
+ .byte   VOL , 100*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 99*songD9_mvl/mxv
+ .byte   VOL , 99*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 98*songD9_mvl/mxv
+ .byte   VOL , 98*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 97*songD9_mvl/mxv
+ .byte   VOL , 97*HarvestDance_mvl/mxv
  .byte   W01
- .byte   VOL , 96*songD9_mvl/mxv
+ .byte   VOL , 96*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 95*songD9_mvl/mxv
+ .byte   VOL , 95*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 94*songD9_mvl/mxv
+ .byte   VOL , 94*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 93*songD9_mvl/mxv
+ .byte   VOL , 93*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 92*songD9_mvl/mxv
+ .byte   VOL , 92*HarvestDance_mvl/mxv
  .byte   W01
- .byte   VOL , 91*songD9_mvl/mxv
+ .byte   VOL , 91*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 90*songD9_mvl/mxv
+ .byte   VOL , 90*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 89*songD9_mvl/mxv
+ .byte   VOL , 89*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 88*songD9_mvl/mxv
+ .byte   VOL , 88*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 87*songD9_mvl/mxv
+ .byte   VOL , 87*HarvestDance_mvl/mxv
  .byte   W01
- .byte   VOL , 86*songD9_mvl/mxv
+ .byte   VOL , 86*HarvestDance_mvl/mxv
  .byte   W02
  .byte   PEND 
 @  #02 @020   ----------------------------------------
 Label_011C764B:
- .byte   VOL , 43*songD9_mvl/mxv
+ .byte   VOL , 43*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 84*songD9_mvl/mxv
+ .byte   VOL , 84*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 83*songD9_mvl/mxv
+ .byte   VOL , 83*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 82*songD9_mvl/mxv
+ .byte   VOL , 82*HarvestDance_mvl/mxv
  .byte   W01
- .byte   VOL , 81*songD9_mvl/mxv
+ .byte   VOL , 81*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 80*songD9_mvl/mxv
+ .byte   VOL , 80*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 79*songD9_mvl/mxv
+ .byte   VOL , 79*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 78*songD9_mvl/mxv
+ .byte   VOL , 78*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 77*songD9_mvl/mxv
+ .byte   VOL , 77*HarvestDance_mvl/mxv
  .byte   W01
- .byte   VOL , 76*songD9_mvl/mxv
+ .byte   VOL , 76*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 75*songD9_mvl/mxv
+ .byte   VOL , 75*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 74*songD9_mvl/mxv
+ .byte   VOL , 74*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 73*songD9_mvl/mxv
+ .byte   VOL , 73*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 72*songD9_mvl/mxv
+ .byte   VOL , 72*HarvestDance_mvl/mxv
  .byte   W01
- .byte   VOL , 71*songD9_mvl/mxv
+ .byte   VOL , 71*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 70*songD9_mvl/mxv
+ .byte   VOL , 70*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 69*songD9_mvl/mxv
+ .byte   VOL , 69*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 68*songD9_mvl/mxv
+ .byte   VOL , 68*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 67*songD9_mvl/mxv
+ .byte   VOL , 67*HarvestDance_mvl/mxv
  .byte   W01
- .byte   VOL , 66*songD9_mvl/mxv
+ .byte   VOL , 66*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 65*songD9_mvl/mxv
+ .byte   VOL , 65*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 64*songD9_mvl/mxv
+ .byte   VOL , 64*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 63*songD9_mvl/mxv
+ .byte   VOL , 63*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 62*songD9_mvl/mxv
+ .byte   VOL , 62*HarvestDance_mvl/mxv
  .byte   W01
- .byte   VOL , 61*songD9_mvl/mxv
+ .byte   VOL , 61*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 60*songD9_mvl/mxv
+ .byte   VOL , 60*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 59*songD9_mvl/mxv
+ .byte   VOL , 59*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 58*songD9_mvl/mxv
+ .byte   VOL , 58*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 57*songD9_mvl/mxv
+ .byte   VOL , 57*HarvestDance_mvl/mxv
  .byte   W01
- .byte   VOL , 56*songD9_mvl/mxv
+ .byte   VOL , 56*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 55*songD9_mvl/mxv
+ .byte   VOL , 55*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 54*songD9_mvl/mxv
+ .byte   VOL , 54*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 53*songD9_mvl/mxv
+ .byte   VOL , 53*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 52*songD9_mvl/mxv
+ .byte   VOL , 52*HarvestDance_mvl/mxv
  .byte   W01
- .byte   VOL , 51*songD9_mvl/mxv
+ .byte   VOL , 51*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 50*songD9_mvl/mxv
+ .byte   VOL , 50*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 49*songD9_mvl/mxv
+ .byte   VOL , 49*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 48*songD9_mvl/mxv
+ .byte   VOL , 48*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 47*songD9_mvl/mxv
+ .byte   VOL , 47*HarvestDance_mvl/mxv
  .byte   W01
- .byte   VOL , 46*songD9_mvl/mxv
+ .byte   VOL , 46*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 45*songD9_mvl/mxv
+ .byte   VOL , 45*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 44*songD9_mvl/mxv
+ .byte   VOL , 44*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 43*songD9_mvl/mxv
+ .byte   VOL , 43*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 42*songD9_mvl/mxv
+ .byte   VOL , 42*HarvestDance_mvl/mxv
  .byte   W01
- .byte   VOL , 41*songD9_mvl/mxv
+ .byte   VOL , 41*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 40*songD9_mvl/mxv
+ .byte   VOL , 40*HarvestDance_mvl/mxv
  .byte   W02
- .byte   VOL , 39*songD9_mvl/mxv
+ .byte   VOL , 39*HarvestDance_mvl/mxv
  .byte   W01
  .byte   PEND 
  .byte   EOT
@@ -660,7 +660,7 @@ Label_011C764B:
  .byte   W12
 @  #02 @021   ----------------------------------------
 Label_011C76AF:
- .byte   VOL , 70*songD9_mvl/mxv
+ .byte   VOL , 70*HarvestDance_mvl/mxv
  .byte   N09 ,Gs4 ,v127
  .byte   W96
  .byte   PEND 
@@ -827,12 +827,12 @@ Label_011C76BD:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-songD9_003:
+HarvestDance_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , songD9_key+0
+ .byte   KEYSH , HarvestDance_key+0
  .byte   VOICE , 48
  .byte   W48
- .byte   VOL , 70*songD9_mvl/mxv
+ .byte   VOL , 70*HarvestDance_mvl/mxv
  .byte   W48
 @  #03 @001   ----------------------------------------
 Label_011C778C:
@@ -1137,12 +1137,12 @@ Label_011C788C:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-songD9_004:
+HarvestDance_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , songD9_key+0
+ .byte   KEYSH , HarvestDance_key+0
  .byte   VOICE , 47
  .byte   W48
- .byte   VOL , 70*songD9_mvl/mxv
+ .byte   VOL , 70*HarvestDance_mvl/mxv
  .byte   W48
 @  #04 @001   ----------------------------------------
  .byte   W96
@@ -1381,12 +1381,12 @@ Label_011C79FB:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-songD9_005:
+HarvestDance_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , songD9_key+0
+ .byte   KEYSH , HarvestDance_key+0
  .byte   VOICE , 60
  .byte   W48
- .byte   VOL , 70*songD9_mvl/mxv
+ .byte   VOL , 70*HarvestDance_mvl/mxv
  .byte   W48
 @  #05 @001   ----------------------------------------
 Label_011C7AB8:
@@ -1713,12 +1713,12 @@ Label_011C7B96:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-songD9_006:
+HarvestDance_006:
 @  #06 @000   ----------------------------------------
- .byte   KEYSH , songD9_key+0
+ .byte   KEYSH , HarvestDance_key+0
  .byte   VOICE , 57
  .byte   W48
- .byte   VOL , 70*songD9_mvl/mxv
+ .byte   VOL , 70*HarvestDance_mvl/mxv
  .byte   W48
 @  #06 @001   ----------------------------------------
  .byte   W96
@@ -1927,12 +1927,12 @@ Label_011C7CE6:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-songD9_007:
+HarvestDance_007:
 @  #07 @000   ----------------------------------------
- .byte   KEYSH , songD9_key+0
+ .byte   KEYSH , HarvestDance_key+0
  .byte   VOICE , 56
  .byte   W48
- .byte   VOL , 70*songD9_mvl/mxv
+ .byte   VOL , 70*HarvestDance_mvl/mxv
  .byte   W48
 @  #07 @001   ----------------------------------------
 Label_011C7D68:
@@ -2274,12 +2274,12 @@ Label_011C7E54:
 
 @**************** Track 8 (Midi-Chn.7) ****************@
 
-songD9_008:
+HarvestDance_008:
 @  #08 @000   ----------------------------------------
- .byte   KEYSH , songD9_key+0
+ .byte   KEYSH , HarvestDance_key+0
  .byte   VOICE , 60
  .byte   W48
- .byte   VOL , 70*songD9_mvl/mxv
+ .byte   VOL , 70*HarvestDance_mvl/mxv
  .byte   W48
 @  #08 @001   ----------------------------------------
 Label_011C7F58:
@@ -2621,12 +2621,12 @@ Label_011C803F:
 
 @**************** Track 9 (Midi-Chn.8) ****************@
 
-songD9_009:
+HarvestDance_009:
 @  #09 @000   ----------------------------------------
- .byte   KEYSH , songD9_key+0
+ .byte   KEYSH , HarvestDance_key+0
  .byte   VOICE , 57
  .byte   W48
- .byte   VOL , 70*songD9_mvl/mxv
+ .byte   VOL , 70*HarvestDance_mvl/mxv
  .byte   W48
 @  #09 @001   ----------------------------------------
  .byte   W96
@@ -2842,12 +2842,12 @@ Label_011C8196:
 
 @**************** Track 10 (Midi-Chn.9) ****************@
 
-songD9_010:
+HarvestDance_010:
 @  #10 @000   ----------------------------------------
- .byte   KEYSH , songD9_key+0
+ .byte   KEYSH , HarvestDance_key+0
  .byte   VOICE , 48
  .byte   W48
- .byte   VOL , 70*songD9_mvl/mxv
+ .byte   VOL , 70*HarvestDance_mvl/mxv
  .byte   W48
 @  #10 @001   ----------------------------------------
 Label_011C8218:
@@ -3161,23 +3161,23 @@ Label_011C8312:
 @******************************************************@
 	.align	2
 
-songD9:
+HarvestDance:
 	.byte	10	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	songD9_pri	@ Priority
-	.byte	songD9_rev	@ Reverb.
+	.byte	HarvestDance_pri	@ Priority
+	.byte	HarvestDance_rev	@ Reverb.
     
-	.word	songD9_grp
+	.word	HarvestDance_grp
     
-	.word	songD9_001
-	.word	songD9_002
-	.word	songD9_003
-	.word	songD9_004
-	.word	songD9_005
-	.word	songD9_006
-	.word	songD9_007
-	.word	songD9_008
-	.word	songD9_009
-	.word	songD9_010
+	.word	HarvestDance_001
+	.word	HarvestDance_002
+	.word	HarvestDance_003
+	.word	HarvestDance_004
+	.word	HarvestDance_005
+	.word	HarvestDance_006
+	.word	HarvestDance_007
+	.word	HarvestDance_008
+	.word	HarvestDance_009
+	.word	HarvestDance_010
 
 	.end

@@ -1,27 +1,27 @@
 	.include "MPlayDef.s"
 
-	.equ	song0107_grp, voicegroup000
-	.equ	song0107_pri, 10
-	.equ	song0107_rev, 128
-	.equ	song0107_mvl, 127
-	.equ	song0107_key, 0
-	.equ	song0107_tbs, 1
-	.equ	song0107_exg, 0
-	.equ	song0107_cmp, 1
+	.equ	LightAndDark_grp, voicegroup000
+	.equ	LightAndDark_pri, 10
+	.equ	LightAndDark_rev, 128
+	.equ	LightAndDark_mvl, 127
+	.equ	LightAndDark_key, 0
+	.equ	LightAndDark_tbs, 1
+	.equ	LightAndDark_exg, 0
+	.equ	LightAndDark_cmp, 1
 
 	.section .rodata
-	.global	song0107
+	.global	LightAndDark
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song0107_001:
+LightAndDark_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , song0107_key+0
- .byte   TEMPO , 126*song0107_tbs/2
+ .byte   KEYSH , LightAndDark_key+0
+ .byte   TEMPO , 126*LightAndDark_tbs/2
  .byte   VOICE , 101
- .byte   VOL , 55*song0107_mvl/mxv
+ .byte   VOL , 55*LightAndDark_mvl/mxv
  .byte   PAN , c_v-14
  .byte   N44 ,Dn3 ,v120
  .byte   W48
@@ -243,11 +243,11 @@ Label_012604D6:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song0107_002:
+LightAndDark_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , song0107_key+0
+ .byte   KEYSH , LightAndDark_key+0
  .byte   VOICE , 101
- .byte   VOL , 55*song0107_mvl/mxv
+ .byte   VOL , 55*LightAndDark_mvl/mxv
  .byte   PAN , c_v+63
  .byte   W96
 @  #02 @001   ----------------------------------------
@@ -487,11 +487,11 @@ Label_012605DE:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song0107_003:
+LightAndDark_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , song0107_key+0
+ .byte   KEYSH , LightAndDark_key+0
  .byte   VOICE , 48
- .byte   VOL , 55*song0107_mvl/mxv
+ .byte   VOL , 55*LightAndDark_mvl/mxv
  .byte   PAN , c_v+12
  .byte   N44 ,Dn3 ,v080
  .byte   W48
@@ -596,11 +596,11 @@ Label_01260637:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song0107_004:
+LightAndDark_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , song0107_key+0
+ .byte   KEYSH , LightAndDark_key+0
  .byte   VOICE , 86
- .byte   VOL , 50*song0107_mvl/mxv
+ .byte   VOL , 50*LightAndDark_mvl/mxv
  .byte   PAN , c_v-28
  .byte   W96
 @  #04 @001   ----------------------------------------
@@ -776,11 +776,11 @@ Label_0126071A:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song0107_005:
+LightAndDark_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , song0107_key+0
+ .byte   KEYSH , LightAndDark_key+0
  .byte   VOICE , 45
- .byte   VOL , 55*song0107_mvl/mxv
+ .byte   VOL , 55*LightAndDark_mvl/mxv
  .byte   PAN , c_v-24
  .byte   W96
 @  #05 @001   ----------------------------------------
@@ -897,11 +897,11 @@ Label_0126079C:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song0107_006:
+LightAndDark_006:
 @  #06 @000   ----------------------------------------
- .byte   KEYSH , song0107_key+0
+ .byte   KEYSH , LightAndDark_key+0
  .byte   VOICE , 58
- .byte   VOL , 55*song0107_mvl/mxv
+ .byte   VOL , 55*LightAndDark_mvl/mxv
  .byte   PAN , c_v+46
  .byte   N44 ,Fn2 ,v100
  .byte   W48
@@ -1122,11 +1122,11 @@ Label_01260879:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-song0107_007:
+LightAndDark_007:
 @  #07 @000   ----------------------------------------
- .byte   KEYSH , song0107_key+0
+ .byte   KEYSH , LightAndDark_key+0
  .byte   VOICE , 0
- .byte   VOL , 50*song0107_mvl/mxv
+ .byte   VOL , 50*LightAndDark_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N09 ,Cn2 ,v100
  .byte   W12
@@ -1268,11 +1268,11 @@ Label_01260909:
 
 @**************** Track 8 (Midi-Chn.7) ****************@
 
-song0107_008:
+LightAndDark_008:
 @  #08 @000   ----------------------------------------
- .byte   KEYSH , song0107_key+0
+ .byte   KEYSH , LightAndDark_key+0
  .byte   VOICE , 90
- .byte   VOL , 50*song0107_mvl/mxv
+ .byte   VOL , 50*LightAndDark_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #08 @001   ----------------------------------------
@@ -1415,21 +1415,21 @@ Label_012609B6:
 @******************************************************@
 	.align	2
 
-song0107:
+LightAndDark:
 	.byte	8	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song0107_pri	@ Priority
-	.byte	song0107_rev	@ Reverb.
+	.byte	LightAndDark_pri	@ Priority
+	.byte	LightAndDark_rev	@ Reverb.
     
-	.word	song0107_grp
+	.word	LightAndDark_grp
     
-	.word	song0107_001
-	.word	song0107_002
-	.word	song0107_003
-	.word	song0107_004
-	.word	song0107_005
-	.word	song0107_006
-	.word	song0107_007
-	.word	song0107_008
+	.word	LightAndDark_001
+	.word	LightAndDark_002
+	.word	LightAndDark_003
+	.word	LightAndDark_004
+	.word	LightAndDark_005
+	.word	LightAndDark_006
+	.word	LightAndDark_007
+	.word	LightAndDark_008
 
 	.end

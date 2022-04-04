@@ -1,35 +1,35 @@
 	.include "MPlayDef.s"
 
-	.equ	song0118_grp, voicegroup000
-	.equ	song0118_pri, 0
-	.equ	song0118_rev, 0
-	.equ	song0118_mvl, 127
-	.equ	song0118_key, 0
-	.equ	song0118_tbs, 1
-	.equ	song0118_exg, 0
-	.equ	song0118_cmp, 1
+	.equ	FightingOfTheSpirit_grp, voicegroup000
+	.equ	FightingOfTheSpirit_pri, 0
+	.equ	FightingOfTheSpirit_rev, 0
+	.equ	FightingOfTheSpirit_mvl, 127
+	.equ	FightingOfTheSpirit_key, 0
+	.equ	FightingOfTheSpirit_tbs, 1
+	.equ	FightingOfTheSpirit_exg, 0
+	.equ	FightingOfTheSpirit_cmp, 1
 
 	.section .rodata
-	.global	song0118
+	.global	FightingOfTheSpirit
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song0118_001:
+FightingOfTheSpirit_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , song0118_key+0
+ .byte   KEYSH , FightingOfTheSpirit_key+0
 Label_01264346:
- .byte   TEMPO , 174*song0118_tbs/2
+ .byte   TEMPO , 174*FightingOfTheSpirit_tbs/2
  .byte   VOICE , 29
- .byte   VOL , 33*song0118_mvl/mxv
+ .byte   VOL , 33*FightingOfTheSpirit_mvl/mxv
  .byte   MODT 0
  .byte   MODT 0
  .byte   LFOS 0
  .byte   LFOS 44
- .byte   VOL , 45*song0118_mvl/mxv
+ .byte   VOL , 45*FightingOfTheSpirit_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 45*song0118_mvl/mxv
+ .byte   VOL , 45*FightingOfTheSpirit_mvl/mxv
  .byte   N36 ,Cn4 ,v127
  .byte   W36
  .byte   Bn3
@@ -137,42 +137,42 @@ Label_01264373:
  .byte   W24
  .byte   N60 ,An3
  .byte   W36
- .byte   VOL , 29*song0118_mvl/mxv
+ .byte   VOL , 29*FightingOfTheSpirit_mvl/mxv
  .byte   W06
- .byte   VOL , 17*song0118_mvl/mxv
+ .byte   VOL , 17*FightingOfTheSpirit_mvl/mxv
  .byte   W06
- .byte   VOL , 16*song0118_mvl/mxv
+ .byte   VOL , 16*FightingOfTheSpirit_mvl/mxv
  .byte   W06
- .byte   VOL , 14*song0118_mvl/mxv
+ .byte   VOL , 14*FightingOfTheSpirit_mvl/mxv
  .byte   W06
 @  #01 @015   ----------------------------------------
- .byte   VOL , 12*song0118_mvl/mxv
+ .byte   VOL , 12*FightingOfTheSpirit_mvl/mxv
  .byte   W06
- .byte   VOL , 14*song0118_mvl/mxv
+ .byte   VOL , 14*FightingOfTheSpirit_mvl/mxv
  .byte   W06
- .byte   VOL , 16*song0118_mvl/mxv
+ .byte   VOL , 16*FightingOfTheSpirit_mvl/mxv
  .byte   W06
- .byte   VOL , 17*song0118_mvl/mxv
+ .byte   VOL , 17*FightingOfTheSpirit_mvl/mxv
  .byte   W06
- .byte   VOL , 19*song0118_mvl/mxv
+ .byte   VOL , 19*FightingOfTheSpirit_mvl/mxv
  .byte   W06
- .byte   VOL , 21*song0118_mvl/mxv
+ .byte   VOL , 21*FightingOfTheSpirit_mvl/mxv
  .byte   W06
- .byte   VOL , 23*song0118_mvl/mxv
+ .byte   VOL , 23*FightingOfTheSpirit_mvl/mxv
  .byte   N60
  .byte   W06
- .byte   VOL , 35*song0118_mvl/mxv
+ .byte   VOL , 35*FightingOfTheSpirit_mvl/mxv
  .byte   W06
- .byte   VOL , 27*song0118_mvl/mxv
+ .byte   VOL , 27*FightingOfTheSpirit_mvl/mxv
  .byte   W06
- .byte   VOL , 29*song0118_mvl/mxv
+ .byte   VOL , 29*FightingOfTheSpirit_mvl/mxv
  .byte   W06
- .byte   VOL , 31*song0118_mvl/mxv
+ .byte   VOL , 31*FightingOfTheSpirit_mvl/mxv
  .byte   W12
- .byte   VOL , 35*song0118_mvl/mxv
+ .byte   VOL , 35*FightingOfTheSpirit_mvl/mxv
  .byte   W24
 @  #01 @016   ----------------------------------------
- .byte   VOL , 23*song0118_mvl/mxv
+ .byte   VOL , 23*FightingOfTheSpirit_mvl/mxv
  .byte   N84 ,Dn4
  .byte   W84
  .byte   N12 ,Cn4
@@ -531,7 +531,7 @@ Label_01264553:
  .byte   W24
  .byte   N36 ,Cn3
  .byte   W36
- .byte   VOL , 45*song0118_mvl/mxv
+ .byte   VOL , 45*FightingOfTheSpirit_mvl/mxv
  .byte   W12
 @  #01 @064   ----------------------------------------
  .byte   GOTO
@@ -540,19 +540,19 @@ Label_01264553:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song0118_002:
+FightingOfTheSpirit_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , song0118_key+0
+ .byte   KEYSH , FightingOfTheSpirit_key+0
 Label_012645A2:
  .byte   VOICE , 6
- .byte   VOL , 17*song0118_mvl/mxv
+ .byte   VOL , 17*FightingOfTheSpirit_mvl/mxv
  .byte   MODT 0
  .byte   MODT 0
  .byte   LFOS 0
  .byte   LFOS 44
- .byte   VOL , 24*song0118_mvl/mxv
+ .byte   VOL , 24*FightingOfTheSpirit_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 24*song0118_mvl/mxv
+ .byte   VOL , 24*FightingOfTheSpirit_mvl/mxv
  .byte   N12 ,An2 ,v127
  .byte   W12
  .byte   Cn3
@@ -877,19 +877,19 @@ Label_01264718:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song0118_003:
+FightingOfTheSpirit_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , song0118_key+0
+ .byte   KEYSH , FightingOfTheSpirit_key+0
 Label_0126477A:
  .byte   VOICE , 52
- .byte   VOL , 17*song0118_mvl/mxv
+ .byte   VOL , 17*FightingOfTheSpirit_mvl/mxv
  .byte   MODT 0
  .byte   MODT 0
  .byte   LFOS 0
  .byte   LFOS 44
- .byte   VOL , 24*song0118_mvl/mxv
+ .byte   VOL , 24*FightingOfTheSpirit_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 24*song0118_mvl/mxv
+ .byte   VOL , 24*FightingOfTheSpirit_mvl/mxv
  .byte   TIE ,An3 ,v127
  .byte   W96
 @  #03 @001   ----------------------------------------
@@ -1094,19 +1094,19 @@ Label_0126477A:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song0118_004:
+FightingOfTheSpirit_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , song0118_key+0
+ .byte   KEYSH , FightingOfTheSpirit_key+0
 Label_01264832:
  .byte   VOICE , 51
- .byte   VOL , 15*song0118_mvl/mxv
+ .byte   VOL , 15*FightingOfTheSpirit_mvl/mxv
  .byte   MODT 0
  .byte   MODT 0
  .byte   LFOS 0
  .byte   LFOS 44
- .byte   VOL , 23*song0118_mvl/mxv
+ .byte   VOL , 23*FightingOfTheSpirit_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 23*song0118_mvl/mxv
+ .byte   VOL , 23*FightingOfTheSpirit_mvl/mxv
  .byte   N36 ,En4 ,v127
  .byte   W36
  .byte   Dn4
@@ -1397,7 +1397,7 @@ Label_01264945:
 @  #04 @055   ----------------------------------------
  .byte   W96
 @  #04 @056   ----------------------------------------
- .byte   VOL , 23*song0118_mvl/mxv
+ .byte   VOL , 23*FightingOfTheSpirit_mvl/mxv
  .byte   TIE ,An2
  .byte   W96
 @  #04 @057   ----------------------------------------
@@ -1450,19 +1450,19 @@ Label_01264945:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song0118_005:
+FightingOfTheSpirit_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , song0118_key+0
+ .byte   KEYSH , FightingOfTheSpirit_key+0
 Label_012649BA:
  .byte   VOICE , 33
- .byte   VOL , 17*song0118_mvl/mxv
+ .byte   VOL , 17*FightingOfTheSpirit_mvl/mxv
  .byte   MODT 0
  .byte   MODT 0
  .byte   LFOS 0
  .byte   LFOS 44
- .byte   VOL , 24*song0118_mvl/mxv
+ .byte   VOL , 24*FightingOfTheSpirit_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 24*song0118_mvl/mxv
+ .byte   VOL , 24*FightingOfTheSpirit_mvl/mxv
  .byte   N12 ,An1 ,v127
  .byte   W12
  .byte   En1
@@ -1874,7 +1874,7 @@ Label_01264B89:
  .byte   W24
  .byte   N36 ,An1
  .byte   W36
- .byte   VOL , 24*song0118_mvl/mxv
+ .byte   VOL , 24*FightingOfTheSpirit_mvl/mxv
  .byte   W12
 @  #05 @064   ----------------------------------------
  .byte   GOTO
@@ -1883,26 +1883,26 @@ Label_01264B89:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song0118_006:
+FightingOfTheSpirit_006:
 @  #06 @000   ----------------------------------------
- .byte   KEYSH , song0118_key+0
+ .byte   KEYSH , FightingOfTheSpirit_key+0
 Label_01264BD6:
  .byte   VOICE , 121
- .byte   VOL , 24*song0118_mvl/mxv
+ .byte   VOL , 24*FightingOfTheSpirit_mvl/mxv
  .byte   MODT 0
  .byte   MODT 0
  .byte   LFOS 0
  .byte   LFOS 44
- .byte   VOL , 24*song0118_mvl/mxv
+ .byte   VOL , 24*FightingOfTheSpirit_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 24*song0118_mvl/mxv
+ .byte   VOL , 24*FightingOfTheSpirit_mvl/mxv
  .byte   MODT 0
  .byte   MODT 0
  .byte   LFOS 0
  .byte   LFOS 44
- .byte   VOL , 24*song0118_mvl/mxv
+ .byte   VOL , 24*FightingOfTheSpirit_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 24*song0118_mvl/mxv
+ .byte   VOL , 24*FightingOfTheSpirit_mvl/mxv
  .byte   N06 ,Bn0 ,v127
  .byte   N06 ,An2
  .byte   W12
@@ -2547,19 +2547,19 @@ Label_01264EA8:
 @******************************************************@
 	.align	2
 
-song0118:
+FightingOfTheSpirit:
 	.byte	6	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song0118_pri	@ Priority
-	.byte	song0118_rev	@ Reverb.
+	.byte	FightingOfTheSpirit_pri	@ Priority
+	.byte	FightingOfTheSpirit_rev	@ Reverb.
     
-	.word	song0118_grp
+	.word	FightingOfTheSpirit_grp
     
-	.word	song0118_001
-	.word	song0118_002
-	.word	song0118_003
-	.word	song0118_004
-	.word	song0118_005
-	.word	song0118_006
+	.word	FightingOfTheSpirit_001
+	.word	FightingOfTheSpirit_002
+	.word	FightingOfTheSpirit_003
+	.word	FightingOfTheSpirit_004
+	.word	FightingOfTheSpirit_005
+	.word	FightingOfTheSpirit_006
 
 	.end

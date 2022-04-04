@@ -1,26 +1,26 @@
 	.include "MPlayDef.s"
 
-	.equ	song02_grp, voicegroup000
-	.equ	song02_pri, 10
-	.equ	song02_rev, 0
-	.equ	song02_mvl, 127
-	.equ	song02_key, 0
-	.equ	song02_tbs, 1
-	.equ	song02_exg, 0
-	.equ	song02_cmp, 1
+	.equ	AKnightsOath_grp, voicegroup000
+	.equ	AKnightsOath_pri, 10
+	.equ	AKnightsOath_rev, 0
+	.equ	AKnightsOath_mvl, 127
+	.equ	AKnightsOath_key, 0
+	.equ	AKnightsOath_tbs, 1
+	.equ	AKnightsOath_exg, 0
+	.equ	AKnightsOath_cmp, 1
 
 	.section .rodata
-	.global	song02
+	.global	AKnightsOath
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song02_001:
+AKnightsOath_001:
 @  #01 @000   ----------------------------------------
 Label_5473BC:
- .byte   TEMPO , 128*song02_tbs/2
- .byte   KEYSH , song02_key+0
+ .byte   TEMPO , 128*AKnightsOath_tbs/2
+ .byte   KEYSH , AKnightsOath_key+0
  .byte   VOICE , 68
  .byte   PAN , c_v+0
  .byte   W96
@@ -40,7 +40,7 @@ Label_5473BC:
  .byte   W96
 @  #01 @008   ----------------------------------------
  .byte   W03
- .byte   VOL , 52*song02_mvl/mxv
+ .byte   VOL , 52*AKnightsOath_mvl/mxv
  .byte   W21
  .byte   N23 ,Fn4 ,v076
  .byte   W24
@@ -98,14 +98,14 @@ Label_5473F1:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song02_002:
+AKnightsOath_002:
 @  #02 @000   ----------------------------------------
 Label_54742C:
- .byte   TEMPO , 128*song02_tbs/2
- .byte   KEYSH , song02_key+0
+ .byte   TEMPO , 128*AKnightsOath_tbs/2
+ .byte   KEYSH , AKnightsOath_key+0
  .byte   VOICE , 61
  .byte   W03
- .byte   VOL , 60*song02_mvl/mxv
+ .byte   VOL , 60*AKnightsOath_mvl/mxv
  .byte   W03
  .byte   PAN , c_v+20
  .byte   W18
@@ -183,13 +183,13 @@ Label_547456:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song02_003:
+AKnightsOath_003:
 @  #03 @000   ----------------------------------------
 Label_5462B0:
- .byte   TEMPO , 128*song02_tbs/2
- .byte   KEYSH , song02_key+0
+ .byte   TEMPO , 128*AKnightsOath_tbs/2
+ .byte   KEYSH , AKnightsOath_key+0
  .byte   VOICE , 33
- .byte   VOL , 55*song02_mvl/mxv
+ .byte   VOL , 55*AKnightsOath_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N07 ,Dn2 ,v096
  .byte   W16
@@ -355,13 +355,13 @@ Label_546376:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song02_004:
+AKnightsOath_004:
 @  #04 @000   ----------------------------------------
 Label_547720:
- .byte   TEMPO , 128*song02_tbs/2
- .byte   KEYSH , song02_key+0
+ .byte   TEMPO , 128*AKnightsOath_tbs/2
+ .byte   KEYSH , AKnightsOath_key+0
  .byte   VOICE , 48
- .byte   VOL , 42*song02_mvl/mxv
+ .byte   VOL , 42*AKnightsOath_mvl/mxv
  .byte   PAN , c_v+20
  .byte   N07 ,Dn3 ,v080
  .byte   W08
@@ -593,13 +593,13 @@ Label_547813:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song02_005:
+AKnightsOath_005:
 @  #05 @000   ----------------------------------------
 Label_5466C0:
- .byte   TEMPO , 128*song02_tbs/2
- .byte   KEYSH , song02_key+0
+ .byte   TEMPO , 128*AKnightsOath_tbs/2
+ .byte   KEYSH , AKnightsOath_key+0
  .byte   VOICE , 79
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*AKnightsOath_mvl/mxv
  .byte   PAN , c_v-1
  .byte   N07 ,Dn2 ,v060
  .byte   W08
@@ -868,13 +868,13 @@ Label_546786:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song02_006:
+AKnightsOath_006:
 @  #06 @000   ----------------------------------------
 Label_014B46CC:
- .byte   TEMPO , 128*song02_tbs/2
- .byte   KEYSH , song02_key+0
+ .byte   TEMPO , 128*AKnightsOath_tbs/2
+ .byte   KEYSH , AKnightsOath_key+0
  .byte   VOICE , 60
- .byte   VOL , 30*song02_mvl/mxv
+ .byte   VOL , 30*AKnightsOath_mvl/mxv
  .byte   PAN , c_v-20
  .byte   N07 ,An2 ,v068
  .byte   N07 ,Fn3
@@ -1089,13 +1089,13 @@ Label_014B47E3:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-song02_007:
+AKnightsOath_007:
 @  #07 @000   ----------------------------------------
 Label_546850:
- .byte   TEMPO , 128*song02_tbs/2
- .byte   KEYSH , song02_key+0
+ .byte   TEMPO , 128*AKnightsOath_tbs/2
+ .byte   KEYSH , AKnightsOath_key+0
  .byte   VOICE , 127
- .byte   VOL , 47*song02_mvl/mxv
+ .byte   VOL , 47*AKnightsOath_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N07 ,Dn1 ,v092
  .byte   W16
@@ -1202,20 +1202,20 @@ Label_5468B4:
 @******************************************************@
 	.align	2
 
-song02:
+AKnightsOath:
 	.byte	7	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song02_pri	@ Priority
-	.byte	song02_rev	@ Reverb.
+	.byte	AKnightsOath_pri	@ Priority
+	.byte	AKnightsOath_rev	@ Reverb.
     
-	.word	song02_grp
+	.word	AKnightsOath_grp
     
-	.word	song02_001
-	.word	song02_002
-	.word	song02_003
-	.word	song02_004
-	.word	song02_005
-	.word	song02_006
-	.word	song02_007
+	.word	AKnightsOath_001
+	.word	AKnightsOath_002
+	.word	AKnightsOath_003
+	.word	AKnightsOath_004
+	.word	AKnightsOath_005
+	.word	AKnightsOath_006
+	.word	AKnightsOath_007
 
 	.end

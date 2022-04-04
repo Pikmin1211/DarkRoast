@@ -1,29 +1,29 @@
 	.include "MPlayDef.s"
 
-	.equ	song0365_grp, voicegroup000
-	.equ	song0365_pri, 0
-	.equ	song0365_rev, 0
-	.equ	song0365_mvl, 127
-	.equ	song0365_key, 0
-	.equ	song0365_tbs, 1
-	.equ	song0365_exg, 0
-	.equ	song0365_cmp, 1
+	.equ	ChaseOfShadow_grp, voicegroup000
+	.equ	ChaseOfShadow_pri, 0
+	.equ	ChaseOfShadow_rev, 0
+	.equ	ChaseOfShadow_mvl, 127
+	.equ	ChaseOfShadow_key, 0
+	.equ	ChaseOfShadow_tbs, 1
+	.equ	ChaseOfShadow_exg, 0
+	.equ	ChaseOfShadow_cmp, 1
 
 	.section .rodata
-	.global	song0365
+	.global	ChaseOfShadow
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song0365_001:
+ChaseOfShadow_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , song0365_key+0
+ .byte   KEYSH , ChaseOfShadow_key+0
 Label_01201A9E:
- .byte   TEMPO , 160*song0365_tbs/2
+ .byte   TEMPO , 160*ChaseOfShadow_tbs/2
  .byte   VOICE , 39
  .byte   PAN , c_v+0
- .byte   VOL , 30*song0365_mvl/mxv
+ .byte   VOL , 30*ChaseOfShadow_mvl/mxv
  .byte   MOD 0
  .byte   BEND , c_v-1
  .byte   N11 ,En1 ,v108
@@ -340,14 +340,14 @@ Label_01201BFF:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song0365_002:
+ChaseOfShadow_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , song0365_key+0
+ .byte   KEYSH , ChaseOfShadow_key+0
 Label_01201C32:
  .byte   VOICE , 40
  .byte   MOD 0
  .byte   PAN , c_v+23
- .byte   VOL , 31*song0365_mvl/mxv
+ .byte   VOL , 31*ChaseOfShadow_mvl/mxv
  .byte   BEND , c_v+0
  .byte   N05 ,En2 ,v112
  .byte   W08
@@ -809,13 +809,13 @@ Label_01201DD3:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song0365_003:
+ChaseOfShadow_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , song0365_key+0
+ .byte   KEYSH , ChaseOfShadow_key+0
 Label_01201EAE:
  .byte   VOICE , 49
  .byte   PAN , c_v+10
- .byte   VOL , 29*song0365_mvl/mxv
+ .byte   VOL , 29*ChaseOfShadow_mvl/mxv
  .byte   MOD 0
  .byte   BEND , c_v-1
  .byte   W96
@@ -905,13 +905,13 @@ Label_01201ECF:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song0365_004:
+ChaseOfShadow_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , song0365_key+0
+ .byte   KEYSH , ChaseOfShadow_key+0
 Label_01201F12:
  .byte   VOICE , 10
  .byte   PAN , c_v+30
- .byte   VOL , 29*song0365_mvl/mxv
+ .byte   VOL , 29*ChaseOfShadow_mvl/mxv
  .byte   MOD 0
  .byte   BEND , c_v-1
  .byte   N04 ,Bn4 ,v092
@@ -1394,13 +1394,13 @@ Label_012020F1:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song0365_005:
+ChaseOfShadow_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , song0365_key+0
+ .byte   KEYSH , ChaseOfShadow_key+0
 Label_01202132:
  .byte   VOICE , 42
  .byte   PAN , c_v+0
- .byte   VOL , 21*song0365_mvl/mxv
+ .byte   VOL , 21*ChaseOfShadow_mvl/mxv
  .byte   MOD 0
  .byte   BEND , c_v-1
  .byte   W96
@@ -1496,13 +1496,13 @@ Label_01202132:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song0365_006:
+ChaseOfShadow_006:
 @  #06 @000   ----------------------------------------
- .byte   KEYSH , song0365_key+0
+ .byte   KEYSH , ChaseOfShadow_key+0
 Label_01202186:
  .byte   VOICE , 124
  .byte   PAN , c_v+0
- .byte   VOL , 26*song0365_mvl/mxv
+ .byte   VOL , 26*ChaseOfShadow_mvl/mxv
  .byte   MOD 0
  .byte   BEND , c_v+0
  .byte   N01 ,Cn1 ,v100
@@ -1817,12 +1817,12 @@ Label_01202331:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-song0365_007:
+ChaseOfShadow_007:
 @  #07 @000   ----------------------------------------
- .byte   KEYSH , song0365_key+0
+ .byte   KEYSH , ChaseOfShadow_key+0
 Label_0120234E:
  .byte   VOICE , 63
- .byte   VOL , 34*song0365_mvl/mxv
+ .byte   VOL , 34*ChaseOfShadow_mvl/mxv
  .byte   PAN , c_v-20
  .byte   MOD 0
  .byte   BEND , c_v+0
@@ -2040,13 +2040,13 @@ Label_01202424:
 
 @**************** Track 8 (Midi-Chn.7) ****************@
 
-song0365_008:
+ChaseOfShadow_008:
 @  #08 @000   ----------------------------------------
- .byte   KEYSH , song0365_key+0
+ .byte   KEYSH , ChaseOfShadow_key+0
 Label_0120246E:
  .byte   VOICE , 0
  .byte   PAN , c_v+0
- .byte   VOL , 32*song0365_mvl/mxv
+ .byte   VOL , 32*ChaseOfShadow_mvl/mxv
  .byte   MOD 0
  .byte   BEND , c_v+0
  .byte   W96
@@ -2163,13 +2163,13 @@ Label_012024AB:
 
 @**************** Track 9 (Midi-Chn.8) ****************@
 
-song0365_009:
+ChaseOfShadow_009:
 @  #09 @000   ----------------------------------------
- .byte   KEYSH , song0365_key+0
+ .byte   KEYSH , ChaseOfShadow_key+0
 Label_012024DA:
  .byte   VOICE , 110
  .byte   PAN , c_v+0
- .byte   VOL , 18*song0365_mvl/mxv
+ .byte   VOL , 18*ChaseOfShadow_mvl/mxv
  .byte   MOD 0
  .byte   BEND , c_v+0
  .byte   N48 ,En3 ,v100
@@ -2295,13 +2295,13 @@ Label_0120257A:
 
 @**************** Track 10 (Midi-Chn.9) ****************@
 
-song0365_010:
+ChaseOfShadow_010:
 @  #10 @000   ----------------------------------------
- .byte   KEYSH , song0365_key+0
+ .byte   KEYSH , ChaseOfShadow_key+0
 Label_0120259E:
  .byte   VOICE , 47
  .byte   PAN , c_v+10
- .byte   VOL , 29*song0365_mvl/mxv
+ .byte   VOL , 29*ChaseOfShadow_mvl/mxv
  .byte   MOD 0
  .byte   BEND , c_v+0
  .byte   N24 ,En1 ,v112
@@ -2475,23 +2475,23 @@ Label_01202650:
 @******************************************************@
 	.align	2
 
-song0365:
+ChaseOfShadow:
 	.byte	10	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song0365_pri	@ Priority
-	.byte	song0365_rev	@ Reverb.
+	.byte	ChaseOfShadow_pri	@ Priority
+	.byte	ChaseOfShadow_rev	@ Reverb.
     
-	.word	song0365_grp
+	.word	ChaseOfShadow_grp
     
-	.word	song0365_001
-	.word	song0365_002
-	.word	song0365_003
-	.word	song0365_004
-	.word	song0365_005
-	.word	song0365_006
-	.word	song0365_007
-	.word	song0365_008
-	.word	song0365_009
-	.word	song0365_010
+	.word	ChaseOfShadow_001
+	.word	ChaseOfShadow_002
+	.word	ChaseOfShadow_003
+	.word	ChaseOfShadow_004
+	.word	ChaseOfShadow_005
+	.word	ChaseOfShadow_006
+	.word	ChaseOfShadow_007
+	.word	ChaseOfShadow_008
+	.word	ChaseOfShadow_009
+	.word	ChaseOfShadow_010
 
 	.end

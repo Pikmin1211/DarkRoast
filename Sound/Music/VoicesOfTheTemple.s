@@ -1,30 +1,30 @@
 	.include "MPlayDef.s"
 
-	.equ	song0A_grp, voicegroup000
-	.equ	song0A_pri, 0
-	.equ	song0A_rev, 0
-	.equ	song0A_mvl, 127
-	.equ	song0A_key, 0
-	.equ	song0A_tbs, 1
-	.equ	song0A_exg, 0
-	.equ	song0A_cmp, 1
+	.equ	VoicesOfTheTemple_grp, voicegroup000
+	.equ	VoicesOfTheTemple_pri, 0
+	.equ	VoicesOfTheTemple_rev, 0
+	.equ	VoicesOfTheTemple_mvl, 127
+	.equ	VoicesOfTheTemple_key, 0
+	.equ	VoicesOfTheTemple_tbs, 1
+	.equ	VoicesOfTheTemple_exg, 0
+	.equ	VoicesOfTheTemple_cmp, 1
 
 	.section .rodata
-	.global	song0A
+	.global	VoicesOfTheTemple
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song0A_001:
+VoicesOfTheTemple_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , song0A_key+0
+ .byte   KEYSH , VoicesOfTheTemple_key+0
 Label_54D75A:
- .byte   TEMPO , 60*song0A_tbs/2
+ .byte   TEMPO , 60*VoicesOfTheTemple_tbs/2
  .byte   VOICE , 49
- .byte   VOL , 60*song0A_mvl/mxv
+ .byte   VOL , 60*VoicesOfTheTemple_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 37*song0A_mvl/mxv
+ .byte   VOL , 37*VoicesOfTheTemple_mvl/mxv
  .byte   N96 ,Cn1 ,v127
  .byte   N96 ,Gn1
  .byte   N96 ,Gn2
@@ -241,218 +241,218 @@ Label_54D803:
  .byte   N96 ,Gn2
  .byte   W04
 @  #01 @049   ----------------------------------------
- .byte   VOL , 37*song0A_mvl/mxv
+ .byte   VOL , 37*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 56*song0A_mvl/mxv
+ .byte   VOL , 56*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 56*song0A_mvl/mxv
+ .byte   VOL , 56*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 55*song0A_mvl/mxv
+ .byte   VOL , 55*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 54*song0A_mvl/mxv
+ .byte   VOL , 54*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 54*song0A_mvl/mxv
+ .byte   VOL , 54*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 53*song0A_mvl/mxv
+ .byte   VOL , 53*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 52*song0A_mvl/mxv
+ .byte   VOL , 52*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 52*song0A_mvl/mxv
+ .byte   VOL , 52*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 51*song0A_mvl/mxv
+ .byte   VOL , 51*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 51*song0A_mvl/mxv
+ .byte   VOL , 51*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 50*song0A_mvl/mxv
+ .byte   VOL , 50*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 49*song0A_mvl/mxv
+ .byte   VOL , 49*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 49*song0A_mvl/mxv
+ .byte   VOL , 49*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 48*song0A_mvl/mxv
+ .byte   VOL , 48*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 47*song0A_mvl/mxv
+ .byte   VOL , 47*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 47*song0A_mvl/mxv
+ .byte   VOL , 47*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 46*song0A_mvl/mxv
+ .byte   VOL , 46*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 45*song0A_mvl/mxv
+ .byte   VOL , 45*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 45*song0A_mvl/mxv
+ .byte   VOL , 45*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 44*song0A_mvl/mxv
+ .byte   VOL , 44*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 44*song0A_mvl/mxv
+ .byte   VOL , 44*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 43*song0A_mvl/mxv
+ .byte   VOL , 43*VoicesOfTheTemple_mvl/mxv
  .byte   W01
  .byte   N96 ,Cs1
  .byte   N96 ,Gs1
  .byte   N96 ,Gs2
  .byte   W04
 @  #01 @050   ----------------------------------------
- .byte   VOL , 22*song0A_mvl/mxv
+ .byte   VOL , 22*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 42*song0A_mvl/mxv
+ .byte   VOL , 42*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 41*song0A_mvl/mxv
+ .byte   VOL , 41*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 40*song0A_mvl/mxv
+ .byte   VOL , 40*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 40*song0A_mvl/mxv
+ .byte   VOL , 40*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 39*song0A_mvl/mxv
+ .byte   VOL , 39*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 39*song0A_mvl/mxv
+ .byte   VOL , 39*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 38*song0A_mvl/mxv
+ .byte   VOL , 38*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 37*song0A_mvl/mxv
+ .byte   VOL , 37*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 37*song0A_mvl/mxv
+ .byte   VOL , 37*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 36*song0A_mvl/mxv
+ .byte   VOL , 36*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 35*song0A_mvl/mxv
+ .byte   VOL , 35*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 35*song0A_mvl/mxv
+ .byte   VOL , 35*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 34*song0A_mvl/mxv
+ .byte   VOL , 34*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 34*song0A_mvl/mxv
+ .byte   VOL , 34*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 33*song0A_mvl/mxv
+ .byte   VOL , 33*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 32*song0A_mvl/mxv
+ .byte   VOL , 32*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 32*song0A_mvl/mxv
+ .byte   VOL , 32*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 31*song0A_mvl/mxv
+ .byte   VOL , 31*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 30*song0A_mvl/mxv
+ .byte   VOL , 30*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 30*song0A_mvl/mxv
+ .byte   VOL , 30*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 29*song0A_mvl/mxv
+ .byte   VOL , 29*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 28*song0A_mvl/mxv
+ .byte   VOL , 28*VoicesOfTheTemple_mvl/mxv
  .byte   W01
  .byte   N96 ,Cn1
  .byte   N96 ,Gn1
  .byte   N96 ,Gn2
  .byte   W04
 @  #01 @051   ----------------------------------------
- .byte   VOL , 8*song0A_mvl/mxv
+ .byte   VOL , 8*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 27*song0A_mvl/mxv
+ .byte   VOL , 27*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 27*song0A_mvl/mxv
+ .byte   VOL , 27*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 26*song0A_mvl/mxv
+ .byte   VOL , 26*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 25*song0A_mvl/mxv
+ .byte   VOL , 25*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 25*song0A_mvl/mxv
+ .byte   VOL , 25*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 24*song0A_mvl/mxv
+ .byte   VOL , 24*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 23*song0A_mvl/mxv
+ .byte   VOL , 23*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 23*song0A_mvl/mxv
+ .byte   VOL , 23*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 22*song0A_mvl/mxv
+ .byte   VOL , 22*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 22*song0A_mvl/mxv
+ .byte   VOL , 22*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 21*song0A_mvl/mxv
+ .byte   VOL , 21*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 20*song0A_mvl/mxv
+ .byte   VOL , 20*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 20*song0A_mvl/mxv
+ .byte   VOL , 20*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 19*song0A_mvl/mxv
+ .byte   VOL , 19*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 18*song0A_mvl/mxv
+ .byte   VOL , 18*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 18*song0A_mvl/mxv
+ .byte   VOL , 18*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 17*song0A_mvl/mxv
+ .byte   VOL , 17*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 17*song0A_mvl/mxv
+ .byte   VOL , 17*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 16*song0A_mvl/mxv
+ .byte   VOL , 16*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song0A_mvl/mxv
+ .byte   VOL , 15*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song0A_mvl/mxv
+ .byte   VOL , 15*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 14*song0A_mvl/mxv
+ .byte   VOL , 14*VoicesOfTheTemple_mvl/mxv
  .byte   W01
  .byte   N96 ,Cs1
  .byte   N96 ,Gs1
  .byte   N96 ,Gs2
  .byte   W04
 @  #01 @052   ----------------------------------------
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 13*song0A_mvl/mxv
+ .byte   VOL , 13*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 12*song0A_mvl/mxv
+ .byte   VOL , 12*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 11*song0A_mvl/mxv
+ .byte   VOL , 11*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 11*song0A_mvl/mxv
+ .byte   VOL , 11*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 10*song0A_mvl/mxv
+ .byte   VOL , 10*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 10*song0A_mvl/mxv
+ .byte   VOL , 10*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 9*song0A_mvl/mxv
+ .byte   VOL , 9*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 8*song0A_mvl/mxv
+ .byte   VOL , 8*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 8*song0A_mvl/mxv
+ .byte   VOL , 8*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 7*song0A_mvl/mxv
+ .byte   VOL , 7*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 6*song0A_mvl/mxv
+ .byte   VOL , 6*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 6*song0A_mvl/mxv
+ .byte   VOL , 6*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 5*song0A_mvl/mxv
+ .byte   VOL , 5*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 5*song0A_mvl/mxv
+ .byte   VOL , 5*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 4*song0A_mvl/mxv
+ .byte   VOL , 4*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 3*song0A_mvl/mxv
+ .byte   VOL , 3*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 3*song0A_mvl/mxv
+ .byte   VOL , 3*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 2*song0A_mvl/mxv
+ .byte   VOL , 2*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 1*song0A_mvl/mxv
+ .byte   VOL , 1*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 1*song0A_mvl/mxv
+ .byte   VOL , 1*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   FINE
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song0A_002:
+VoicesOfTheTemple_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , song0A_key+0
+ .byte   KEYSH , VoicesOfTheTemple_key+0
 Label_54EAFD:
  .byte   VOICE , 47
- .byte   VOL , 60*song0A_mvl/mxv
+ .byte   VOL , 60*VoicesOfTheTemple_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 27*song0A_mvl/mxv
+ .byte   VOL , 27*VoicesOfTheTemple_mvl/mxv
  .byte   N03 ,Ds1 ,v127
  .byte   W12
  .byte   N03
@@ -659,256 +659,256 @@ Label_54EB1F:
  .byte   N03
  .byte   W05
 @  #02 @045   ----------------------------------------
- .byte   VOL , 26*song0A_mvl/mxv
+ .byte   VOL , 26*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 45*song0A_mvl/mxv
+ .byte   VOL , 45*VoicesOfTheTemple_mvl/mxv
  .byte   W02
  .byte   N03
  .byte   W03
- .byte   VOL , 25*song0A_mvl/mxv
+ .byte   VOL , 25*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 44*song0A_mvl/mxv
+ .byte   VOL , 44*VoicesOfTheTemple_mvl/mxv
  .byte   W01
  .byte   N03
  .byte   W03
  .byte   N03
  .byte   W01
- .byte   VOL , 24*song0A_mvl/mxv
+ .byte   VOL , 24*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 43*song0A_mvl/mxv
+ .byte   VOL , 43*VoicesOfTheTemple_mvl/mxv
  .byte   N03
  .byte   W05
- .byte   VOL , 22*song0A_mvl/mxv
+ .byte   VOL , 22*VoicesOfTheTemple_mvl/mxv
  .byte   W01
  .byte   N03
  .byte   W04
- .byte   VOL , 22*song0A_mvl/mxv
+ .byte   VOL , 22*VoicesOfTheTemple_mvl/mxv
  .byte   W06
- .byte   VOL , 41*song0A_mvl/mxv
+ .byte   VOL , 41*VoicesOfTheTemple_mvl/mxv
  .byte   W02
  .byte   N03
  .byte   W03
- .byte   VOL , 20*song0A_mvl/mxv
+ .byte   VOL , 20*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 40*song0A_mvl/mxv
+ .byte   VOL , 40*VoicesOfTheTemple_mvl/mxv
  .byte   W04
  .byte   N03
  .byte   W01
- .byte   VOL , 19*song0A_mvl/mxv
+ .byte   VOL , 19*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 39*song0A_mvl/mxv
+ .byte   VOL , 39*VoicesOfTheTemple_mvl/mxv
  .byte   W03
  .byte   N03
  .byte   W02
- .byte   VOL , 18*song0A_mvl/mxv
+ .byte   VOL , 18*VoicesOfTheTemple_mvl/mxv
  .byte   W01
  .byte   N03
  .byte   W04
- .byte   VOL , 17*song0A_mvl/mxv
+ .byte   VOL , 17*VoicesOfTheTemple_mvl/mxv
  .byte   W02
  .byte   N03
  .byte   W03
- .byte   VOL , 17*song0A_mvl/mxv
+ .byte   VOL , 17*VoicesOfTheTemple_mvl/mxv
  .byte   W03
  .byte   N03
  .byte   W03
- .byte   VOL , 16*song0A_mvl/mxv
+ .byte   VOL , 16*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 35*song0A_mvl/mxv
+ .byte   VOL , 35*VoicesOfTheTemple_mvl/mxv
  .byte   W04
  .byte   N03
  .byte   W01
- .byte   VOL , 15*song0A_mvl/mxv
+ .byte   VOL , 15*VoicesOfTheTemple_mvl/mxv
  .byte   W05
 @  #02 @046   ----------------------------------------
- .byte   VOL , 34*song0A_mvl/mxv
+ .byte   VOL , 34*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 34*song0A_mvl/mxv
+ .byte   VOL , 34*VoicesOfTheTemple_mvl/mxv
  .byte   W01
  .byte   N03
  .byte   W04
- .byte   VOL , 13*song0A_mvl/mxv
+ .byte   VOL , 13*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 32*song0A_mvl/mxv
+ .byte   VOL , 32*VoicesOfTheTemple_mvl/mxv
  .byte   N03
  .byte   W03
  .byte   N03
  .byte   W02
- .byte   VOL , 12*song0A_mvl/mxv
+ .byte   VOL , 12*VoicesOfTheTemple_mvl/mxv
  .byte   W04
  .byte   N03
  .byte   W01
- .byte   VOL , 11*song0A_mvl/mxv
+ .byte   VOL , 11*VoicesOfTheTemple_mvl/mxv
  .byte   W05
  .byte   N03
  .byte   W01
- .byte   VOL , 10*song0A_mvl/mxv
+ .byte   VOL , 10*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 30*song0A_mvl/mxv
+ .byte   VOL , 30*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 29*song0A_mvl/mxv
+ .byte   VOL , 29*VoicesOfTheTemple_mvl/mxv
  .byte   W01
  .byte   N03
  .byte   W04
- .byte   VOL , 8*song0A_mvl/mxv
+ .byte   VOL , 8*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 28*song0A_mvl/mxv
+ .byte   VOL , 28*VoicesOfTheTemple_mvl/mxv
  .byte   W03
  .byte   N03
  .byte   W02
- .byte   VOL , 7*song0A_mvl/mxv
+ .byte   VOL , 7*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 27*song0A_mvl/mxv
+ .byte   VOL , 27*VoicesOfTheTemple_mvl/mxv
  .byte   W02
  .byte   N03
  .byte   W03
- .byte   VOL , 6*song0A_mvl/mxv
+ .byte   VOL , 6*VoicesOfTheTemple_mvl/mxv
  .byte   N03
  .byte   W06
- .byte   VOL , 5*song0A_mvl/mxv
+ .byte   VOL , 5*VoicesOfTheTemple_mvl/mxv
  .byte   N03
  .byte   W05
- .byte   VOL , 5*song0A_mvl/mxv
+ .byte   VOL , 5*VoicesOfTheTemple_mvl/mxv
  .byte   W01
  .byte   N03
  .byte   W04
- .byte   VOL , 4*song0A_mvl/mxv
+ .byte   VOL , 4*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 23*song0A_mvl/mxv
+ .byte   VOL , 23*VoicesOfTheTemple_mvl/mxv
  .byte   W03
  .byte   N03
  .byte   W02
- .byte   VOL , 3*song0A_mvl/mxv
+ .byte   VOL , 3*VoicesOfTheTemple_mvl/mxv
  .byte   W05
 @  #02 @047   ----------------------------------------
- .byte   VOL , 22*song0A_mvl/mxv
+ .byte   VOL , 22*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 22*song0A_mvl/mxv
+ .byte   VOL , 22*VoicesOfTheTemple_mvl/mxv
  .byte   N03
  .byte   W05
- .byte   VOL , 1*song0A_mvl/mxv
+ .byte   VOL , 1*VoicesOfTheTemple_mvl/mxv
  .byte   W04
  .byte   N03
  .byte   W02
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W01
  .byte   N03
  .byte   W04
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W02
  .byte   N03
  .byte   W03
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W03
  .byte   N03
  .byte   W02
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 18*song0A_mvl/mxv
+ .byte   VOL , 18*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 17*song0A_mvl/mxv
+ .byte   VOL , 17*VoicesOfTheTemple_mvl/mxv
  .byte   N03
  .byte   W05
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 16*song0A_mvl/mxv
+ .byte   VOL , 16*VoicesOfTheTemple_mvl/mxv
  .byte   W02
  .byte   N03
  .byte   W03
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W06
- .byte   VOL , 15*song0A_mvl/mxv
+ .byte   VOL , 15*VoicesOfTheTemple_mvl/mxv
  .byte   N03
  .byte   W03
  .byte   N03
  .byte   W02
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W04
  .byte   N03
  .byte   W01
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 13*song0A_mvl/mxv
+ .byte   VOL , 13*VoicesOfTheTemple_mvl/mxv
  .byte   N03
  .byte   W05
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 11*song0A_mvl/mxv
+ .byte   VOL , 11*VoicesOfTheTemple_mvl/mxv
  .byte   W02
  .byte   N03
  .byte   W03
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W05
 @  #02 @048   ----------------------------------------
- .byte   VOL , 10*song0A_mvl/mxv
+ .byte   VOL , 10*VoicesOfTheTemple_mvl/mxv
  .byte   W04
  .byte   N03
  .byte   W02
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 9*song0A_mvl/mxv
- .byte   W02
- .byte   N03
- .byte   W03
- .byte   VOL , 0*song0A_mvl/mxv
- .byte   N03
- .byte   W05
- .byte   VOL , 0*song0A_mvl/mxv
- .byte   W01
- .byte   N03
- .byte   W04
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 9*VoicesOfTheTemple_mvl/mxv
  .byte   W02
  .byte   N03
  .byte   W03
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
+ .byte   N03
  .byte   W05
- .byte   VOL , 6*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
+ .byte   W01
+ .byte   N03
+ .byte   W04
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
+ .byte   W02
+ .byte   N03
+ .byte   W03
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
+ .byte   W05
+ .byte   VOL , 6*VoicesOfTheTemple_mvl/mxv
  .byte   W04
  .byte   N03
  .byte   W01
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W06
- .byte   VOL , 5*song0A_mvl/mxv
+ .byte   VOL , 5*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 4*song0A_mvl/mxv
+ .byte   VOL , 4*VoicesOfTheTemple_mvl/mxv
  .byte   N03
  .byte   W05
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W04
  .byte   N03
  .byte   W01
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W02
  .byte   N03
  .byte   W03
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W03
  .byte   N03
  .byte   W02
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W04
  .byte   N03
  .byte   W01
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   FINE
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song0A_003:
+VoicesOfTheTemple_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , song0A_key+0
+ .byte   KEYSH , VoicesOfTheTemple_key+0
 Label_0113D992:
  .byte   VOICE , 73
- .byte   VOL , 60*song0A_mvl/mxv
+ .byte   VOL , 60*VoicesOfTheTemple_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 40*song0A_mvl/mxv
+ .byte   VOL , 40*VoicesOfTheTemple_mvl/mxv
  .byte   W96
 @  #03 @001   ----------------------------------------
  .byte   W96
@@ -932,136 +932,136 @@ Label_0113D9A5:
  .byte   W03
  .byte   N72 ,Gn3
  .byte   W01
- .byte   VOL , 39*song0A_mvl/mxv
+ .byte   VOL , 39*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 59*song0A_mvl/mxv
+ .byte   VOL , 59*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 58*song0A_mvl/mxv
+ .byte   VOL , 58*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 57*song0A_mvl/mxv
+ .byte   VOL , 57*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 57*song0A_mvl/mxv
+ .byte   VOL , 57*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 56*song0A_mvl/mxv
+ .byte   VOL , 56*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 56*song0A_mvl/mxv
+ .byte   VOL , 56*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 55*song0A_mvl/mxv
+ .byte   VOL , 55*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 54*song0A_mvl/mxv
+ .byte   VOL , 54*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 54*song0A_mvl/mxv
+ .byte   VOL , 54*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 53*song0A_mvl/mxv
+ .byte   VOL , 53*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 52*song0A_mvl/mxv
+ .byte   VOL , 52*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 52*song0A_mvl/mxv
+ .byte   VOL , 52*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 51*song0A_mvl/mxv
+ .byte   VOL , 51*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 51*song0A_mvl/mxv
+ .byte   VOL , 51*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 50*song0A_mvl/mxv
+ .byte   VOL , 50*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 49*song0A_mvl/mxv
+ .byte   VOL , 49*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 49*song0A_mvl/mxv
+ .byte   VOL , 49*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 48*song0A_mvl/mxv
+ .byte   VOL , 48*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 47*song0A_mvl/mxv
+ .byte   VOL , 47*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 47*song0A_mvl/mxv
+ .byte   VOL , 47*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 46*song0A_mvl/mxv
+ .byte   VOL , 46*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 45*song0A_mvl/mxv
+ .byte   VOL , 45*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 45*song0A_mvl/mxv
+ .byte   VOL , 45*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 44*song0A_mvl/mxv
+ .byte   VOL , 44*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 44*song0A_mvl/mxv
+ .byte   VOL , 44*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 43*song0A_mvl/mxv
+ .byte   VOL , 43*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 42*song0A_mvl/mxv
+ .byte   VOL , 42*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 42*song0A_mvl/mxv
+ .byte   VOL , 42*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 41*song0A_mvl/mxv
+ .byte   VOL , 41*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 40*song0A_mvl/mxv
+ .byte   VOL , 40*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 40*song0A_mvl/mxv
+ .byte   VOL , 40*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 39*song0A_mvl/mxv
+ .byte   VOL , 39*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 39*song0A_mvl/mxv
+ .byte   VOL , 39*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 38*song0A_mvl/mxv
+ .byte   VOL , 38*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 37*song0A_mvl/mxv
+ .byte   VOL , 37*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 37*song0A_mvl/mxv
+ .byte   VOL , 37*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 36*song0A_mvl/mxv
+ .byte   VOL , 36*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 35*song0A_mvl/mxv
+ .byte   VOL , 35*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 35*song0A_mvl/mxv
+ .byte   VOL , 35*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 34*song0A_mvl/mxv
+ .byte   VOL , 34*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 34*song0A_mvl/mxv
+ .byte   VOL , 34*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 33*song0A_mvl/mxv
+ .byte   VOL , 33*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 32*song0A_mvl/mxv
+ .byte   VOL , 32*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 32*song0A_mvl/mxv
+ .byte   VOL , 32*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 31*song0A_mvl/mxv
+ .byte   VOL , 31*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 30*song0A_mvl/mxv
+ .byte   VOL , 30*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 30*song0A_mvl/mxv
+ .byte   VOL , 30*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 29*song0A_mvl/mxv
+ .byte   VOL , 29*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 28*song0A_mvl/mxv
+ .byte   VOL , 28*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 28*song0A_mvl/mxv
+ .byte   VOL , 28*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 27*song0A_mvl/mxv
+ .byte   VOL , 27*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 27*song0A_mvl/mxv
+ .byte   VOL , 27*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 26*song0A_mvl/mxv
+ .byte   VOL , 26*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 25*song0A_mvl/mxv
+ .byte   VOL , 25*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 25*song0A_mvl/mxv
+ .byte   VOL , 25*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 24*song0A_mvl/mxv
+ .byte   VOL , 24*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 23*song0A_mvl/mxv
+ .byte   VOL , 23*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 23*song0A_mvl/mxv
+ .byte   VOL , 23*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 22*song0A_mvl/mxv
+ .byte   VOL , 22*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 22*song0A_mvl/mxv
+ .byte   VOL , 22*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 21*song0A_mvl/mxv
+ .byte   VOL , 21*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 20*song0A_mvl/mxv
+ .byte   VOL , 20*VoicesOfTheTemple_mvl/mxv
  .byte   W02
  .byte   PEND 
 @  #03 @005   ----------------------------------------
 Label_0113DA31:
- .byte   VOL , 40*song0A_mvl/mxv
+ .byte   VOL , 40*VoicesOfTheTemple_mvl/mxv
  .byte   W90
  .byte   N03 ,Gn4 ,v127
  .byte   W03
@@ -1094,140 +1094,140 @@ Label_0113DA3B:
 @  #03 @007   ----------------------------------------
 Label_0113DA56:
  .byte   W01
- .byte   VOL , 39*song0A_mvl/mxv
+ .byte   VOL , 39*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 59*song0A_mvl/mxv
+ .byte   VOL , 59*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 58*song0A_mvl/mxv
+ .byte   VOL , 58*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 57*song0A_mvl/mxv
+ .byte   VOL , 57*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 57*song0A_mvl/mxv
+ .byte   VOL , 57*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 56*song0A_mvl/mxv
+ .byte   VOL , 56*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 56*song0A_mvl/mxv
+ .byte   VOL , 56*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 55*song0A_mvl/mxv
+ .byte   VOL , 55*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 54*song0A_mvl/mxv
+ .byte   VOL , 54*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 54*song0A_mvl/mxv
+ .byte   VOL , 54*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 53*song0A_mvl/mxv
+ .byte   VOL , 53*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 52*song0A_mvl/mxv
+ .byte   VOL , 52*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 52*song0A_mvl/mxv
+ .byte   VOL , 52*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 51*song0A_mvl/mxv
+ .byte   VOL , 51*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 51*song0A_mvl/mxv
+ .byte   VOL , 51*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 50*song0A_mvl/mxv
+ .byte   VOL , 50*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 49*song0A_mvl/mxv
+ .byte   VOL , 49*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 49*song0A_mvl/mxv
+ .byte   VOL , 49*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 48*song0A_mvl/mxv
+ .byte   VOL , 48*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 47*song0A_mvl/mxv
+ .byte   VOL , 47*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 47*song0A_mvl/mxv
+ .byte   VOL , 47*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 46*song0A_mvl/mxv
+ .byte   VOL , 46*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 45*song0A_mvl/mxv
+ .byte   VOL , 45*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 45*song0A_mvl/mxv
+ .byte   VOL , 45*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 44*song0A_mvl/mxv
+ .byte   VOL , 44*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 44*song0A_mvl/mxv
+ .byte   VOL , 44*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 43*song0A_mvl/mxv
+ .byte   VOL , 43*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 42*song0A_mvl/mxv
+ .byte   VOL , 42*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 42*song0A_mvl/mxv
+ .byte   VOL , 42*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 41*song0A_mvl/mxv
+ .byte   VOL , 41*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 40*song0A_mvl/mxv
+ .byte   VOL , 40*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 40*song0A_mvl/mxv
+ .byte   VOL , 40*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 39*song0A_mvl/mxv
+ .byte   VOL , 39*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 39*song0A_mvl/mxv
+ .byte   VOL , 39*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 38*song0A_mvl/mxv
+ .byte   VOL , 38*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 37*song0A_mvl/mxv
+ .byte   VOL , 37*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 37*song0A_mvl/mxv
+ .byte   VOL , 37*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 36*song0A_mvl/mxv
+ .byte   VOL , 36*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 35*song0A_mvl/mxv
+ .byte   VOL , 35*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 35*song0A_mvl/mxv
+ .byte   VOL , 35*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 34*song0A_mvl/mxv
+ .byte   VOL , 34*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 34*song0A_mvl/mxv
+ .byte   VOL , 34*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 33*song0A_mvl/mxv
+ .byte   VOL , 33*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 32*song0A_mvl/mxv
+ .byte   VOL , 32*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 32*song0A_mvl/mxv
+ .byte   VOL , 32*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 31*song0A_mvl/mxv
+ .byte   VOL , 31*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 30*song0A_mvl/mxv
+ .byte   VOL , 30*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 30*song0A_mvl/mxv
+ .byte   VOL , 30*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 29*song0A_mvl/mxv
+ .byte   VOL , 29*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 28*song0A_mvl/mxv
+ .byte   VOL , 28*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 28*song0A_mvl/mxv
+ .byte   VOL , 28*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 27*song0A_mvl/mxv
+ .byte   VOL , 27*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 27*song0A_mvl/mxv
+ .byte   VOL , 27*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 26*song0A_mvl/mxv
+ .byte   VOL , 26*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 25*song0A_mvl/mxv
+ .byte   VOL , 25*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 25*song0A_mvl/mxv
+ .byte   VOL , 25*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 24*song0A_mvl/mxv
+ .byte   VOL , 24*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 23*song0A_mvl/mxv
+ .byte   VOL , 23*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 23*song0A_mvl/mxv
+ .byte   VOL , 23*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 22*song0A_mvl/mxv
+ .byte   VOL , 22*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 22*song0A_mvl/mxv
+ .byte   VOL , 22*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 21*song0A_mvl/mxv
+ .byte   VOL , 21*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 20*song0A_mvl/mxv
+ .byte   VOL , 20*VoicesOfTheTemple_mvl/mxv
  .byte   W02
  .byte   PEND 
 @  #03 @008   ----------------------------------------
  .byte   EOT
  .byte   Cn3
 Label_0113DAD9:
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W48
- .byte   VOL , 60*song0A_mvl/mxv
+ .byte   VOL , 60*VoicesOfTheTemple_mvl/mxv
  .byte   W12
  .byte   N03 ,Cn4 ,v127
  .byte   W03
@@ -1329,268 +1329,268 @@ Label_0113DB3B:
 Label_0113DB4D:
  .byte   N96 ,Dn3 ,v127
  .byte   W01
- .byte   VOL , 39*song0A_mvl/mxv
+ .byte   VOL , 39*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 59*song0A_mvl/mxv
+ .byte   VOL , 59*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 58*song0A_mvl/mxv
+ .byte   VOL , 58*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 57*song0A_mvl/mxv
+ .byte   VOL , 57*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 57*song0A_mvl/mxv
+ .byte   VOL , 57*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 56*song0A_mvl/mxv
+ .byte   VOL , 56*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 56*song0A_mvl/mxv
+ .byte   VOL , 56*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 55*song0A_mvl/mxv
+ .byte   VOL , 55*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 54*song0A_mvl/mxv
+ .byte   VOL , 54*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 54*song0A_mvl/mxv
+ .byte   VOL , 54*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 53*song0A_mvl/mxv
+ .byte   VOL , 53*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 52*song0A_mvl/mxv
+ .byte   VOL , 52*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 52*song0A_mvl/mxv
+ .byte   VOL , 52*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 51*song0A_mvl/mxv
+ .byte   VOL , 51*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 51*song0A_mvl/mxv
+ .byte   VOL , 51*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 50*song0A_mvl/mxv
+ .byte   VOL , 50*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 49*song0A_mvl/mxv
+ .byte   VOL , 49*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 49*song0A_mvl/mxv
+ .byte   VOL , 49*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 48*song0A_mvl/mxv
+ .byte   VOL , 48*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 47*song0A_mvl/mxv
+ .byte   VOL , 47*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 47*song0A_mvl/mxv
+ .byte   VOL , 47*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 46*song0A_mvl/mxv
+ .byte   VOL , 46*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 45*song0A_mvl/mxv
+ .byte   VOL , 45*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 45*song0A_mvl/mxv
+ .byte   VOL , 45*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 44*song0A_mvl/mxv
+ .byte   VOL , 44*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 44*song0A_mvl/mxv
+ .byte   VOL , 44*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 43*song0A_mvl/mxv
+ .byte   VOL , 43*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 42*song0A_mvl/mxv
+ .byte   VOL , 42*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 42*song0A_mvl/mxv
+ .byte   VOL , 42*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 41*song0A_mvl/mxv
+ .byte   VOL , 41*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 40*song0A_mvl/mxv
+ .byte   VOL , 40*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 40*song0A_mvl/mxv
+ .byte   VOL , 40*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 39*song0A_mvl/mxv
+ .byte   VOL , 39*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 39*song0A_mvl/mxv
+ .byte   VOL , 39*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 38*song0A_mvl/mxv
+ .byte   VOL , 38*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 37*song0A_mvl/mxv
+ .byte   VOL , 37*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 37*song0A_mvl/mxv
+ .byte   VOL , 37*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 36*song0A_mvl/mxv
+ .byte   VOL , 36*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 35*song0A_mvl/mxv
+ .byte   VOL , 35*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 35*song0A_mvl/mxv
+ .byte   VOL , 35*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 34*song0A_mvl/mxv
+ .byte   VOL , 34*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 34*song0A_mvl/mxv
+ .byte   VOL , 34*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 33*song0A_mvl/mxv
+ .byte   VOL , 33*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 32*song0A_mvl/mxv
+ .byte   VOL , 32*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 32*song0A_mvl/mxv
+ .byte   VOL , 32*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 31*song0A_mvl/mxv
+ .byte   VOL , 31*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 30*song0A_mvl/mxv
+ .byte   VOL , 30*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 30*song0A_mvl/mxv
+ .byte   VOL , 30*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 29*song0A_mvl/mxv
+ .byte   VOL , 29*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 28*song0A_mvl/mxv
+ .byte   VOL , 28*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 28*song0A_mvl/mxv
+ .byte   VOL , 28*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 27*song0A_mvl/mxv
+ .byte   VOL , 27*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 27*song0A_mvl/mxv
+ .byte   VOL , 27*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 26*song0A_mvl/mxv
+ .byte   VOL , 26*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 25*song0A_mvl/mxv
+ .byte   VOL , 25*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 25*song0A_mvl/mxv
+ .byte   VOL , 25*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 24*song0A_mvl/mxv
+ .byte   VOL , 24*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 23*song0A_mvl/mxv
+ .byte   VOL , 23*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 23*song0A_mvl/mxv
+ .byte   VOL , 23*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 22*song0A_mvl/mxv
+ .byte   VOL , 22*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 22*song0A_mvl/mxv
+ .byte   VOL , 22*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 21*song0A_mvl/mxv
+ .byte   VOL , 21*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 20*song0A_mvl/mxv
+ .byte   VOL , 20*VoicesOfTheTemple_mvl/mxv
  .byte   W02
  .byte   PEND 
 @  #03 @019   ----------------------------------------
 Label_0113DBD1:
- .byte   VOL , 40*song0A_mvl/mxv
+ .byte   VOL , 40*VoicesOfTheTemple_mvl/mxv
  .byte   N96 ,Cs3 ,v127
  .byte   W01
- .byte   VOL , 39*song0A_mvl/mxv
+ .byte   VOL , 39*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 59*song0A_mvl/mxv
+ .byte   VOL , 59*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 58*song0A_mvl/mxv
+ .byte   VOL , 58*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 57*song0A_mvl/mxv
+ .byte   VOL , 57*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 57*song0A_mvl/mxv
+ .byte   VOL , 57*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 56*song0A_mvl/mxv
+ .byte   VOL , 56*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 56*song0A_mvl/mxv
+ .byte   VOL , 56*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 55*song0A_mvl/mxv
+ .byte   VOL , 55*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 54*song0A_mvl/mxv
+ .byte   VOL , 54*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 54*song0A_mvl/mxv
+ .byte   VOL , 54*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 53*song0A_mvl/mxv
+ .byte   VOL , 53*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 52*song0A_mvl/mxv
+ .byte   VOL , 52*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 52*song0A_mvl/mxv
+ .byte   VOL , 52*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 51*song0A_mvl/mxv
+ .byte   VOL , 51*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 51*song0A_mvl/mxv
+ .byte   VOL , 51*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 50*song0A_mvl/mxv
+ .byte   VOL , 50*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 49*song0A_mvl/mxv
+ .byte   VOL , 49*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 49*song0A_mvl/mxv
+ .byte   VOL , 49*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 48*song0A_mvl/mxv
+ .byte   VOL , 48*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 47*song0A_mvl/mxv
+ .byte   VOL , 47*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 47*song0A_mvl/mxv
+ .byte   VOL , 47*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 46*song0A_mvl/mxv
+ .byte   VOL , 46*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 45*song0A_mvl/mxv
+ .byte   VOL , 45*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 45*song0A_mvl/mxv
+ .byte   VOL , 45*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 44*song0A_mvl/mxv
+ .byte   VOL , 44*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 44*song0A_mvl/mxv
+ .byte   VOL , 44*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 43*song0A_mvl/mxv
+ .byte   VOL , 43*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 42*song0A_mvl/mxv
+ .byte   VOL , 42*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 42*song0A_mvl/mxv
+ .byte   VOL , 42*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 41*song0A_mvl/mxv
+ .byte   VOL , 41*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 40*song0A_mvl/mxv
+ .byte   VOL , 40*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 40*song0A_mvl/mxv
+ .byte   VOL , 40*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 39*song0A_mvl/mxv
+ .byte   VOL , 39*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 39*song0A_mvl/mxv
+ .byte   VOL , 39*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 38*song0A_mvl/mxv
+ .byte   VOL , 38*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 37*song0A_mvl/mxv
+ .byte   VOL , 37*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 37*song0A_mvl/mxv
+ .byte   VOL , 37*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 36*song0A_mvl/mxv
+ .byte   VOL , 36*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 35*song0A_mvl/mxv
+ .byte   VOL , 35*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 35*song0A_mvl/mxv
+ .byte   VOL , 35*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 34*song0A_mvl/mxv
+ .byte   VOL , 34*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 34*song0A_mvl/mxv
+ .byte   VOL , 34*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 33*song0A_mvl/mxv
+ .byte   VOL , 33*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 32*song0A_mvl/mxv
+ .byte   VOL , 32*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 32*song0A_mvl/mxv
+ .byte   VOL , 32*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 31*song0A_mvl/mxv
+ .byte   VOL , 31*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 30*song0A_mvl/mxv
+ .byte   VOL , 30*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 30*song0A_mvl/mxv
+ .byte   VOL , 30*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 29*song0A_mvl/mxv
+ .byte   VOL , 29*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 28*song0A_mvl/mxv
+ .byte   VOL , 28*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 28*song0A_mvl/mxv
+ .byte   VOL , 28*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 27*song0A_mvl/mxv
+ .byte   VOL , 27*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 27*song0A_mvl/mxv
+ .byte   VOL , 27*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 26*song0A_mvl/mxv
+ .byte   VOL , 26*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 25*song0A_mvl/mxv
+ .byte   VOL , 25*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 25*song0A_mvl/mxv
+ .byte   VOL , 25*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 24*song0A_mvl/mxv
+ .byte   VOL , 24*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 23*song0A_mvl/mxv
+ .byte   VOL , 23*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 23*song0A_mvl/mxv
+ .byte   VOL , 23*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 22*song0A_mvl/mxv
+ .byte   VOL , 22*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 22*song0A_mvl/mxv
+ .byte   VOL , 22*VoicesOfTheTemple_mvl/mxv
  .byte   W02
- .byte   VOL , 21*song0A_mvl/mxv
+ .byte   VOL , 21*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 20*song0A_mvl/mxv
+ .byte   VOL , 20*VoicesOfTheTemple_mvl/mxv
  .byte   W02
  .byte   PEND 
 @  #03 @020   ----------------------------------------
 Label_0113DC57:
- .byte   VOL , 40*song0A_mvl/mxv
+ .byte   VOL , 40*VoicesOfTheTemple_mvl/mxv
  .byte   N48 ,Cn3 ,v127
  .byte   W48
  .byte   N06 ,Fn2
@@ -1675,172 +1675,172 @@ Label_0113DC57:
  .byte   PATT
   .word Label_0113D9A5
 @  #03 @047   ----------------------------------------
- .byte   VOL , 20*song0A_mvl/mxv
+ .byte   VOL , 20*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 39*song0A_mvl/mxv
+ .byte   VOL , 39*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 39*song0A_mvl/mxv
+ .byte   VOL , 39*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 38*song0A_mvl/mxv
+ .byte   VOL , 38*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 37*song0A_mvl/mxv
+ .byte   VOL , 37*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 37*song0A_mvl/mxv
+ .byte   VOL , 37*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 36*song0A_mvl/mxv
+ .byte   VOL , 36*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 35*song0A_mvl/mxv
+ .byte   VOL , 35*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 35*song0A_mvl/mxv
+ .byte   VOL , 35*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 34*song0A_mvl/mxv
+ .byte   VOL , 34*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 34*song0A_mvl/mxv
+ .byte   VOL , 34*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 33*song0A_mvl/mxv
+ .byte   VOL , 33*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 32*song0A_mvl/mxv
+ .byte   VOL , 32*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 32*song0A_mvl/mxv
+ .byte   VOL , 32*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 31*song0A_mvl/mxv
+ .byte   VOL , 31*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 30*song0A_mvl/mxv
+ .byte   VOL , 30*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 30*song0A_mvl/mxv
+ .byte   VOL , 30*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 29*song0A_mvl/mxv
+ .byte   VOL , 29*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 28*song0A_mvl/mxv
+ .byte   VOL , 28*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 28*song0A_mvl/mxv
+ .byte   VOL , 28*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 27*song0A_mvl/mxv
+ .byte   VOL , 27*VoicesOfTheTemple_mvl/mxv
  .byte   N03 ,Gn4 ,v127
  .byte   W03
  .byte   Gs4
  .byte   W01
- .byte   VOL , 7*song0A_mvl/mxv
+ .byte   VOL , 7*VoicesOfTheTemple_mvl/mxv
  .byte   W02
 @  #03 @048   ----------------------------------------
  .byte   N06 ,Gn4
  .byte   W03
- .byte   VOL , 6*song0A_mvl/mxv
+ .byte   VOL , 6*VoicesOfTheTemple_mvl/mxv
  .byte   W03
  .byte   N06 ,Fn4
  .byte   W01
- .byte   VOL , 5*song0A_mvl/mxv
+ .byte   VOL , 5*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 25*song0A_mvl/mxv
+ .byte   VOL , 25*VoicesOfTheTemple_mvl/mxv
  .byte   N06 ,As3
  .byte   W04
- .byte   VOL , 4*song0A_mvl/mxv
+ .byte   VOL , 4*VoicesOfTheTemple_mvl/mxv
  .byte   W02
  .byte   N24 ,Cn4
  .byte   W03
- .byte   VOL , 3*song0A_mvl/mxv
+ .byte   VOL , 3*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 23*song0A_mvl/mxv
+ .byte   VOL , 23*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 22*song0A_mvl/mxv
+ .byte   VOL , 22*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 22*song0A_mvl/mxv
+ .byte   VOL , 22*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 21*song0A_mvl/mxv
+ .byte   VOL , 21*VoicesOfTheTemple_mvl/mxv
  .byte   W03
  .byte   N03 ,Gn3
  .byte   W01
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W02
  .byte   N03 ,Gs3
  .byte   W03
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   N06 ,Gn3
  .byte   W04
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W02
  .byte   N06 ,Fn3
  .byte   W03
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W03
  .byte   N06 ,As2
  .byte   W01
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 17*song0A_mvl/mxv
+ .byte   VOL , 17*VoicesOfTheTemple_mvl/mxv
  .byte   TIE ,Cn3
  .byte   W04
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 16*song0A_mvl/mxv
+ .byte   VOL , 16*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 15*song0A_mvl/mxv
+ .byte   VOL , 15*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 15*song0A_mvl/mxv
+ .byte   VOL , 15*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 14*song0A_mvl/mxv
+ .byte   VOL , 14*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 13*song0A_mvl/mxv
+ .byte   VOL , 13*VoicesOfTheTemple_mvl/mxv
  .byte   W03
 @  #03 @049   ----------------------------------------
  .byte   W01
- .byte   VOL , 13*song0A_mvl/mxv
+ .byte   VOL , 13*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 12*song0A_mvl/mxv
+ .byte   VOL , 12*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 11*song0A_mvl/mxv
+ .byte   VOL , 11*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 11*song0A_mvl/mxv
+ .byte   VOL , 11*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 10*song0A_mvl/mxv
+ .byte   VOL , 10*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 10*song0A_mvl/mxv
+ .byte   VOL , 10*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 9*song0A_mvl/mxv
+ .byte   VOL , 9*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 8*song0A_mvl/mxv
+ .byte   VOL , 8*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 8*song0A_mvl/mxv
+ .byte   VOL , 8*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 7*song0A_mvl/mxv
+ .byte   VOL , 7*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 6*song0A_mvl/mxv
+ .byte   VOL , 6*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 6*song0A_mvl/mxv
+ .byte   VOL , 6*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 5*song0A_mvl/mxv
+ .byte   VOL , 5*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 5*song0A_mvl/mxv
+ .byte   VOL , 5*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 4*song0A_mvl/mxv
+ .byte   VOL , 4*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 3*song0A_mvl/mxv
+ .byte   VOL , 3*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 3*song0A_mvl/mxv
+ .byte   VOL , 3*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 2*song0A_mvl/mxv
+ .byte   VOL , 2*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 1*song0A_mvl/mxv
+ .byte   VOL , 1*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 1*song0A_mvl/mxv
+ .byte   VOL , 1*VoicesOfTheTemple_mvl/mxv
  .byte   W04
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W05
 @  #03 @050   ----------------------------------------
  .byte   EOT
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   FINE
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song0A_004:
+VoicesOfTheTemple_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , song0A_key+0
+ .byte   KEYSH , VoicesOfTheTemple_key+0
 Label_54E0BA:
  .byte   VOICE , 45
- .byte   VOL , 60*song0A_mvl/mxv
+ .byte   VOL , 60*VoicesOfTheTemple_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 27*song0A_mvl/mxv
+ .byte   VOL , 27*VoicesOfTheTemple_mvl/mxv
  .byte   W96
 @  #04 @001   ----------------------------------------
  .byte   W96
@@ -2123,14 +2123,14 @@ Label_54E170:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song0A_005:
+VoicesOfTheTemple_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , song0A_key+0
+ .byte   KEYSH , VoicesOfTheTemple_key+0
 Label_0113DD7E:
  .byte   VOICE , 46
- .byte   VOL , 60*song0A_mvl/mxv
+ .byte   VOL , 60*VoicesOfTheTemple_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 27*song0A_mvl/mxv
+ .byte   VOL , 27*VoicesOfTheTemple_mvl/mxv
  .byte   N04 ,Fn2 ,v127
  .byte   W04
  .byte   Gn2
@@ -2741,342 +2741,342 @@ Label_0113DFC0:
 @  #05 @045   ----------------------------------------
  .byte   Gn2
  .byte   W01
- .byte   VOL , 26*song0A_mvl/mxv
+ .byte   VOL , 26*VoicesOfTheTemple_mvl/mxv
  .byte   W04
  .byte   N03 ,Cn2
  .byte   W01
- .byte   VOL , 25*song0A_mvl/mxv
+ .byte   VOL , 25*VoicesOfTheTemple_mvl/mxv
  .byte   W02
  .byte   N04 ,Fn2
  .byte   W03
- .byte   VOL , 25*song0A_mvl/mxv
+ .byte   VOL , 25*VoicesOfTheTemple_mvl/mxv
  .byte   W01
  .byte   N04 ,Gn2
  .byte   W04
- .byte   VOL , 24*song0A_mvl/mxv
+ .byte   VOL , 24*VoicesOfTheTemple_mvl/mxv
  .byte   W01
  .byte   N03 ,Cn2
  .byte   W03
  .byte   N04 ,Fn2
  .byte   W01
- .byte   VOL , 24*song0A_mvl/mxv
+ .byte   VOL , 24*VoicesOfTheTemple_mvl/mxv
  .byte   W03
  .byte   N04 ,Gn2
  .byte   W02
- .byte   VOL , 23*song0A_mvl/mxv
+ .byte   VOL , 23*VoicesOfTheTemple_mvl/mxv
  .byte   W03
  .byte   N03 ,Cn2
  .byte   W02
- .byte   VOL , 22*song0A_mvl/mxv
+ .byte   VOL , 22*VoicesOfTheTemple_mvl/mxv
  .byte   W01
  .byte   N04 ,Fn2
  .byte   W04
- .byte   VOL , 22*song0A_mvl/mxv
+ .byte   VOL , 22*VoicesOfTheTemple_mvl/mxv
  .byte   N04 ,Gn2
  .byte   W05
  .byte   N03 ,Cn2
  .byte   W01
- .byte   VOL , 21*song0A_mvl/mxv
+ .byte   VOL , 21*VoicesOfTheTemple_mvl/mxv
  .byte   W02
  .byte   N04 ,Fn2
  .byte   W03
- .byte   VOL , 20*song0A_mvl/mxv
+ .byte   VOL , 20*VoicesOfTheTemple_mvl/mxv
  .byte   W01
  .byte   N04 ,Gn2
  .byte   W04
- .byte   VOL , 20*song0A_mvl/mxv
+ .byte   VOL , 20*VoicesOfTheTemple_mvl/mxv
  .byte   W01
  .byte   N03 ,Cn2
  .byte   W03
  .byte   N04 ,Fn2
  .byte   W01
- .byte   VOL , 19*song0A_mvl/mxv
+ .byte   VOL , 19*VoicesOfTheTemple_mvl/mxv
  .byte   W03
  .byte   N04 ,Gn2
  .byte   W02
- .byte   VOL , 19*song0A_mvl/mxv
+ .byte   VOL , 19*VoicesOfTheTemple_mvl/mxv
  .byte   W03
  .byte   N03 ,Cn2
  .byte   W02
- .byte   VOL , 18*song0A_mvl/mxv
+ .byte   VOL , 18*VoicesOfTheTemple_mvl/mxv
  .byte   W01
  .byte   N04 ,Fn2
  .byte   W04
- .byte   VOL , 17*song0A_mvl/mxv
+ .byte   VOL , 17*VoicesOfTheTemple_mvl/mxv
  .byte   N04 ,Gn2
  .byte   W05
- .byte   VOL , 17*song0A_mvl/mxv
+ .byte   VOL , 17*VoicesOfTheTemple_mvl/mxv
  .byte   N03 ,Cn2
  .byte   W03
  .byte   N04 ,Fn2
  .byte   W03
- .byte   VOL , 16*song0A_mvl/mxv
+ .byte   VOL , 16*VoicesOfTheTemple_mvl/mxv
  .byte   W01
  .byte   N04 ,Gn2
  .byte   W04
- .byte   VOL , 15*song0A_mvl/mxv
+ .byte   VOL , 15*VoicesOfTheTemple_mvl/mxv
  .byte   W01
  .byte   N03 ,Cn2
  .byte   W03
  .byte   N04 ,Gn2
  .byte   W01
- .byte   VOL , 15*song0A_mvl/mxv
+ .byte   VOL , 15*VoicesOfTheTemple_mvl/mxv
  .byte   W03
 @  #05 @046   ----------------------------------------
  .byte   N04 ,Gs2
  .byte   W02
- .byte   VOL , 14*song0A_mvl/mxv
+ .byte   VOL , 14*VoicesOfTheTemple_mvl/mxv
  .byte   W03
  .byte   N03 ,Cs2
  .byte   W02
- .byte   VOL , 14*song0A_mvl/mxv
+ .byte   VOL , 14*VoicesOfTheTemple_mvl/mxv
  .byte   W01
  .byte   N04 ,Gn2
  .byte   W04
- .byte   VOL , 13*song0A_mvl/mxv
+ .byte   VOL , 13*VoicesOfTheTemple_mvl/mxv
  .byte   N04 ,Gs2
  .byte   W05
- .byte   VOL , 12*song0A_mvl/mxv
+ .byte   VOL , 12*VoicesOfTheTemple_mvl/mxv
  .byte   N03 ,Cs2
  .byte   W03
  .byte   N04 ,Gn2
  .byte   W02
- .byte   VOL , 12*song0A_mvl/mxv
+ .byte   VOL , 12*VoicesOfTheTemple_mvl/mxv
  .byte   W02
  .byte   N04 ,Gs2
  .byte   W03
- .byte   VOL , 11*song0A_mvl/mxv
+ .byte   VOL , 11*VoicesOfTheTemple_mvl/mxv
  .byte   W02
  .byte   N03 ,Cs2
  .byte   W03
  .byte   N04 ,Gn2
  .byte   W01
- .byte   VOL , 10*song0A_mvl/mxv
+ .byte   VOL , 10*VoicesOfTheTemple_mvl/mxv
  .byte   W03
  .byte   N04 ,Gs2
  .byte   W02
- .byte   VOL , 10*song0A_mvl/mxv
+ .byte   VOL , 10*VoicesOfTheTemple_mvl/mxv
  .byte   W03
  .byte   N03 ,Cs2
  .byte   W02
- .byte   VOL , 9*song0A_mvl/mxv
+ .byte   VOL , 9*VoicesOfTheTemple_mvl/mxv
  .byte   W01
  .byte   N04 ,Gn2
  .byte   W04
- .byte   VOL , 8*song0A_mvl/mxv
+ .byte   VOL , 8*VoicesOfTheTemple_mvl/mxv
  .byte   N04 ,Gs2
  .byte   W05
- .byte   VOL , 8*song0A_mvl/mxv
+ .byte   VOL , 8*VoicesOfTheTemple_mvl/mxv
  .byte   N03 ,Cs2
  .byte   W03
  .byte   N04 ,Gn2
  .byte   W02
- .byte   VOL , 7*song0A_mvl/mxv
+ .byte   VOL , 7*VoicesOfTheTemple_mvl/mxv
  .byte   W02
  .byte   N04 ,Gs2
  .byte   W03
- .byte   VOL , 7*song0A_mvl/mxv
+ .byte   VOL , 7*VoicesOfTheTemple_mvl/mxv
  .byte   W02
  .byte   N03 ,Cs2
  .byte   W03
- .byte   VOL , 6*song0A_mvl/mxv
+ .byte   VOL , 6*VoicesOfTheTemple_mvl/mxv
  .byte   N04 ,Gn2
  .byte   W04
  .byte   Gs2
  .byte   W02
- .byte   VOL , 5*song0A_mvl/mxv
+ .byte   VOL , 5*VoicesOfTheTemple_mvl/mxv
  .byte   W03
  .byte   N03 ,Cs2
  .byte   W02
- .byte   VOL , 5*song0A_mvl/mxv
+ .byte   VOL , 5*VoicesOfTheTemple_mvl/mxv
  .byte   W01
  .byte   N04 ,Gn2
  .byte   W04
- .byte   VOL , 4*song0A_mvl/mxv
+ .byte   VOL , 4*VoicesOfTheTemple_mvl/mxv
  .byte   N04 ,Gs2
  .byte   W05
- .byte   VOL , 3*song0A_mvl/mxv
+ .byte   VOL , 3*VoicesOfTheTemple_mvl/mxv
  .byte   N03 ,Cs2
  .byte   W03
  .byte   N04 ,Fn2
  .byte   W02
- .byte   VOL , 3*song0A_mvl/mxv
+ .byte   VOL , 3*VoicesOfTheTemple_mvl/mxv
  .byte   W02
 @  #05 @047   ----------------------------------------
  .byte   N04 ,Gn2
  .byte   W03
- .byte   VOL , 2*song0A_mvl/mxv
+ .byte   VOL , 2*VoicesOfTheTemple_mvl/mxv
  .byte   W02
  .byte   N03 ,Cn2
  .byte   W03
- .byte   VOL , 2*song0A_mvl/mxv
+ .byte   VOL , 2*VoicesOfTheTemple_mvl/mxv
  .byte   N04 ,Fn2
  .byte   W04
  .byte   Gn2
  .byte   W01
- .byte   VOL , 1*song0A_mvl/mxv
+ .byte   VOL , 1*VoicesOfTheTemple_mvl/mxv
  .byte   W04
  .byte   N03 ,Cn2
  .byte   W02
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W01
  .byte   N04 ,Fn2
  .byte   W04
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   N04 ,Gn2
  .byte   W05
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   N03 ,Cn2
  .byte   W03
  .byte   N04 ,Fn2
  .byte   W02
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W02
  .byte   N04 ,Gn2
  .byte   W03
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W02
  .byte   N03 ,Cn2
  .byte   W03
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   N04 ,Fn2
  .byte   W04
  .byte   Gn2
  .byte   W01
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W04
  .byte   N03 ,Cn2
  .byte   W01
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W02
  .byte   N04 ,Fn2
  .byte   W03
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W01
  .byte   N04 ,Gn2
  .byte   W05
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   N03 ,Cn2
  .byte   W03
  .byte   N04 ,Fn2
  .byte   W02
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W02
  .byte   N04 ,Gn2
  .byte   W03
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W02
  .byte   N03 ,Cn2
  .byte   W03
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   N04 ,Fn2
  .byte   W04
  .byte   Gn2
  .byte   W01
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W04
  .byte   N03 ,Cn2
  .byte   W01
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W02
  .byte   N04 ,Gn2
  .byte   W03
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W01
 @  #05 @048   ----------------------------------------
  .byte   N04 ,Gs2
  .byte   W04
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W01
  .byte   N03 ,Cs2
  .byte   W03
  .byte   N04 ,Gn2
  .byte   W02
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W02
  .byte   N04 ,Gs2
  .byte   W03
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W02
  .byte   N03 ,Cs2
  .byte   W03
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   N04 ,Gn2
  .byte   W04
  .byte   Gs2
  .byte   W01
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W04
  .byte   N03 ,Cs2
  .byte   W01
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W02
  .byte   N04 ,Gn2
  .byte   W03
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W01
  .byte   N04 ,Gs2
  .byte   W04
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W01
  .byte   N03 ,Cs2
  .byte   W03
  .byte   N04 ,Gn2
  .byte   W01
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W03
  .byte   N04 ,Gs2
  .byte   W03
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W02
  .byte   N03 ,Cs2
  .byte   W03
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   N04 ,Gn2
  .byte   W04
  .byte   Gs2
  .byte   W01
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W04
  .byte   N03 ,Cn2
  .byte   W01
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W02
  .byte   N04 ,Cs2
  .byte   W03
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W01
  .byte   N04 ,Fn2
  .byte   W04
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W01
  .byte   N03 ,Gs2
  .byte   W03
  .byte   N04 ,Cs3
  .byte   W01
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W03
  .byte   N04 ,Gs2
  .byte   W02
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W03
  .byte   N03 ,Fn2
  .byte   W02
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   FINE
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song0A_006:
+VoicesOfTheTemple_006:
 @  #06 @000   ----------------------------------------
- .byte   KEYSH , song0A_key+0
+ .byte   KEYSH , VoicesOfTheTemple_key+0
 Label_54E1F2:
  .byte   VOICE , 11
- .byte   VOL , 60*song0A_mvl/mxv
+ .byte   VOL , 60*VoicesOfTheTemple_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 27*song0A_mvl/mxv
+ .byte   VOL , 27*VoicesOfTheTemple_mvl/mxv
  .byte   W96
 @  #06 @001   ----------------------------------------
 Label_54E1FB:
@@ -3288,237 +3288,237 @@ Label_54E220:
  .byte   W03
  .byte   W05
 @  #06 @045   ----------------------------------------
- .byte   VOL , 26*song0A_mvl/mxv
+ .byte   VOL , 26*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 45*song0A_mvl/mxv
+ .byte   VOL , 45*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 45*song0A_mvl/mxv
+ .byte   VOL , 45*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 44*song0A_mvl/mxv
+ .byte   VOL , 44*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 44*song0A_mvl/mxv
+ .byte   VOL , 44*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 43*song0A_mvl/mxv
+ .byte   VOL , 43*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 42*song0A_mvl/mxv
+ .byte   VOL , 42*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 42*song0A_mvl/mxv
+ .byte   VOL , 42*VoicesOfTheTemple_mvl/mxv
  .byte   W06
- .byte   VOL , 41*song0A_mvl/mxv
+ .byte   VOL , 41*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 40*song0A_mvl/mxv
+ .byte   VOL , 40*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 40*song0A_mvl/mxv
+ .byte   VOL , 40*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 39*song0A_mvl/mxv
+ .byte   VOL , 39*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 39*song0A_mvl/mxv
+ .byte   VOL , 39*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 38*song0A_mvl/mxv
+ .byte   VOL , 38*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 37*song0A_mvl/mxv
+ .byte   VOL , 37*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 37*song0A_mvl/mxv
+ .byte   VOL , 37*VoicesOfTheTemple_mvl/mxv
  .byte   W06
- .byte   VOL , 36*song0A_mvl/mxv
+ .byte   VOL , 36*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 35*song0A_mvl/mxv
+ .byte   VOL , 35*VoicesOfTheTemple_mvl/mxv
  .byte   W04
  .byte   N03 ,Cn3
  .byte   W01
- .byte   VOL , 15*song0A_mvl/mxv
+ .byte   VOL , 15*VoicesOfTheTemple_mvl/mxv
  .byte   W02
  .byte   N03 ,Dn3
  .byte   W03
 @  #06 @046   ----------------------------------------
- .byte   VOL , 14*song0A_mvl/mxv
+ .byte   VOL , 14*VoicesOfTheTemple_mvl/mxv
  .byte   N03
  .byte   W03
  .byte   Cn3
  .byte   W02
- .byte   VOL , 14*song0A_mvl/mxv
+ .byte   VOL , 14*VoicesOfTheTemple_mvl/mxv
  .byte   W01
  .byte   N03
  .byte   W03
  .byte   Dn3
  .byte   W01
- .byte   VOL , 13*song0A_mvl/mxv
+ .byte   VOL , 13*VoicesOfTheTemple_mvl/mxv
  .byte   W02
  .byte   N03
  .byte   W03
- .byte   VOL , 12*song0A_mvl/mxv
+ .byte   VOL , 12*VoicesOfTheTemple_mvl/mxv
  .byte   N03 ,Cn3
  .byte   W03
  .byte   N03
  .byte   W02
- .byte   VOL , 12*song0A_mvl/mxv
+ .byte   VOL , 12*VoicesOfTheTemple_mvl/mxv
  .byte   W01
  .byte   N03 ,Dn3
  .byte   W03
  .byte   N03
  .byte   W01
- .byte   VOL , 11*song0A_mvl/mxv
+ .byte   VOL , 11*VoicesOfTheTemple_mvl/mxv
  .byte   W02
  .byte   N03 ,Cn3
  .byte   W03
  .byte   N03
  .byte   W01
- .byte   VOL , 10*song0A_mvl/mxv
+ .byte   VOL , 10*VoicesOfTheTemple_mvl/mxv
  .byte   W02
  .byte   N03 ,Dn3
  .byte   W03
- .byte   VOL , 10*song0A_mvl/mxv
+ .byte   VOL , 10*VoicesOfTheTemple_mvl/mxv
  .byte   N03
  .byte   W03
  .byte   Cn3
  .byte   W02
- .byte   VOL , 9*song0A_mvl/mxv
+ .byte   VOL , 9*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 28*song0A_mvl/mxv
+ .byte   VOL , 28*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 28*song0A_mvl/mxv
+ .byte   VOL , 28*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 27*song0A_mvl/mxv
+ .byte   VOL , 27*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 27*song0A_mvl/mxv
+ .byte   VOL , 27*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 26*song0A_mvl/mxv
+ .byte   VOL , 26*VoicesOfTheTemple_mvl/mxv
  .byte   W06
- .byte   VOL , 25*song0A_mvl/mxv
+ .byte   VOL , 25*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 25*song0A_mvl/mxv
+ .byte   VOL , 25*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 24*song0A_mvl/mxv
+ .byte   VOL , 24*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 23*song0A_mvl/mxv
+ .byte   VOL , 23*VoicesOfTheTemple_mvl/mxv
  .byte   W03
  .byte   W02
- .byte   VOL , 23*song0A_mvl/mxv
+ .byte   VOL , 23*VoicesOfTheTemple_mvl/mxv
  .byte   W05
 @  #06 @047   ----------------------------------------
- .byte   VOL , 22*song0A_mvl/mxv
+ .byte   VOL , 22*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 22*song0A_mvl/mxv
+ .byte   VOL , 22*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 21*song0A_mvl/mxv
+ .byte   VOL , 21*VoicesOfTheTemple_mvl/mxv
  .byte   W06
- .byte   VOL , 20*song0A_mvl/mxv
+ .byte   VOL , 20*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 20*song0A_mvl/mxv
+ .byte   VOL , 20*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 19*song0A_mvl/mxv
+ .byte   VOL , 19*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 18*song0A_mvl/mxv
+ .byte   VOL , 18*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 18*song0A_mvl/mxv
+ .byte   VOL , 18*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 17*song0A_mvl/mxv
+ .byte   VOL , 17*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 17*song0A_mvl/mxv
+ .byte   VOL , 17*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 16*song0A_mvl/mxv
+ .byte   VOL , 16*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 15*song0A_mvl/mxv
+ .byte   VOL , 15*VoicesOfTheTemple_mvl/mxv
  .byte   W06
- .byte   VOL , 15*song0A_mvl/mxv
+ .byte   VOL , 15*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 14*song0A_mvl/mxv
+ .byte   VOL , 14*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 13*song0A_mvl/mxv
+ .byte   VOL , 13*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 13*song0A_mvl/mxv
+ .byte   VOL , 13*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 12*song0A_mvl/mxv
+ .byte   VOL , 12*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 11*song0A_mvl/mxv
+ .byte   VOL , 11*VoicesOfTheTemple_mvl/mxv
  .byte   W02
  .byte   N03 ,Ds3
  .byte   W03
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   N03 ,En3
  .byte   W03
  .byte   N03
  .byte   W02
 @  #06 @048   ----------------------------------------
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W01
  .byte   N03 ,Ds3
  .byte   W03
  .byte   N03
  .byte   W02
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W01
  .byte   N03 ,En3
  .byte   W03
  .byte   N03
  .byte   W01
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W02
  .byte   N03 ,Ds3
  .byte   W03
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   N03
  .byte   W03
  .byte   En3
  .byte   W02
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W01
  .byte   N03
  .byte   W03
  .byte   Ds3
  .byte   W01
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W02
  .byte   N03
  .byte   W03
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   N03 ,En3
  .byte   W03
  .byte   N03
  .byte   W02
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W01
  .byte   N03 ,Ds3
  .byte   W04
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W06
- .byte   VOL , 5*song0A_mvl/mxv
+ .byte   VOL , 5*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 4*song0A_mvl/mxv
+ .byte   VOL , 4*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 3*song0A_mvl/mxv
+ .byte   VOL , 3*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 3*song0A_mvl/mxv
+ .byte   VOL , 3*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 2*song0A_mvl/mxv
+ .byte   VOL , 2*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 1*song0A_mvl/mxv
+ .byte   VOL , 1*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 1*song0A_mvl/mxv
+ .byte   VOL , 1*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W05
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   W01
- .byte   VOL , 0*song0A_mvl/mxv
+ .byte   VOL , 0*VoicesOfTheTemple_mvl/mxv
  .byte   FINE
 
 @******************************************************@
 	.align	2
 
-song0A:
+VoicesOfTheTemple:
 	.byte	6	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song0A_pri	@ Priority
-	.byte	song0A_rev	@ Reverb.
+	.byte	VoicesOfTheTemple_pri	@ Priority
+	.byte	VoicesOfTheTemple_rev	@ Reverb.
     
-	.word	song0A_grp
+	.word	VoicesOfTheTemple_grp
     
-	.word	song0A_001
-	.word	song0A_002
-	.word	song0A_003
-	.word	song0A_004
-	.word	song0A_005
-	.word	song0A_006
+	.word	VoicesOfTheTemple_001
+	.word	VoicesOfTheTemple_002
+	.word	VoicesOfTheTemple_003
+	.word	VoicesOfTheTemple_004
+	.word	VoicesOfTheTemple_005
+	.word	VoicesOfTheTemple_006
 
 	.end

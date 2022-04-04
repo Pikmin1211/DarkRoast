@@ -1,35 +1,35 @@
 	.include "MPlayDef.s"
 
-	.equ	song013A_grp, voicegroup000
-	.equ	song013A_pri, 0
-	.equ	song013A_rev, 0
-	.equ	song013A_mvl, 127
-	.equ	song013A_key, 0
-	.equ	song013A_tbs, 1
-	.equ	song013A_exg, 0
-	.equ	song013A_cmp, 1
+	.equ	InsideTheWhale_grp, voicegroup000
+	.equ	InsideTheWhale_pri, 0
+	.equ	InsideTheWhale_rev, 0
+	.equ	InsideTheWhale_mvl, 127
+	.equ	InsideTheWhale_key, 0
+	.equ	InsideTheWhale_tbs, 1
+	.equ	InsideTheWhale_exg, 0
+	.equ	InsideTheWhale_cmp, 1
 
 	.section .rodata
-	.global	song013A
+	.global	InsideTheWhale
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song013A_001:
+InsideTheWhale_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , song013A_key+0
+ .byte   KEYSH , InsideTheWhale_key+0
 Label_01312382:
- .byte   TEMPO , 120*song013A_tbs/2
+ .byte   TEMPO , 120*InsideTheWhale_tbs/2
  .byte   VOICE , 34
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   BEND , c_v+0
  .byte   N11 ,Cn2 ,v127
  .byte   W12
@@ -296,29 +296,29 @@ Label_013123EB:
 @  #01 @065   ----------------------------------------
  .byte   VOICE , 34
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   BEND , c_v+0
  .byte   FINE
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song013A_002:
+InsideTheWhale_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , song013A_key+0
+ .byte   KEYSH , InsideTheWhale_key+0
 Label_01312536:
  .byte   VOICE , 35
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   BEND , c_v+0
  .byte   N11 ,Cn2 ,v127
  .byte   W12
@@ -585,29 +585,29 @@ Label_0131259D:
 @  #02 @065   ----------------------------------------
  .byte   VOICE , 35
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   BEND , c_v+0
  .byte   FINE
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song013A_003:
+InsideTheWhale_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , song013A_key+0
+ .byte   KEYSH , InsideTheWhale_key+0
 Label_013126E6:
  .byte   VOICE , 48
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   BEND , c_v+0
  .byte   TIE ,Cn3 ,v127
  .byte   TIE ,Ds3
@@ -848,29 +848,29 @@ Label_01312724:
 @  #03 @065   ----------------------------------------
  .byte   VOICE , 48
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   BEND , c_v+0
  .byte   FINE
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song013A_004:
+InsideTheWhale_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , song013A_key+0
+ .byte   KEYSH , InsideTheWhale_key+0
 Label_01312806:
  .byte   VOICE , 80
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   BEND , c_v+0
  .byte   W36
  .byte   N05 ,Gn4 ,v127
@@ -1094,29 +1094,29 @@ Label_01312831:
 @  #04 @065   ----------------------------------------
  .byte   VOICE , 80
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   BEND , c_v+0
  .byte   FINE
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song013A_005:
+InsideTheWhale_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , song013A_key+0
+ .byte   KEYSH , InsideTheWhale_key+0
 Label_01312986:
  .byte   VOICE , 80
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   BEND , c_v+0
  .byte   W48
  .byte   N05 ,Gn4 ,v096
@@ -1340,29 +1340,29 @@ Label_013129B2:
 @  #05 @065   ----------------------------------------
  .byte   VOICE , 80
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   BEND , c_v+0
  .byte   FINE
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song013A_006:
+InsideTheWhale_006:
 @  #06 @000   ----------------------------------------
- .byte   KEYSH , song013A_key+0
+ .byte   KEYSH , InsideTheWhale_key+0
 Label_01312B0A:
  .byte   VOICE , 80
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   BEND , c_v+0
  .byte   W60
  .byte   N05 ,Gn4 ,v064
@@ -1586,29 +1586,29 @@ Label_01312B35:
 @  #06 @065   ----------------------------------------
  .byte   VOICE , 80
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   BEND , c_v+0
  .byte   FINE
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-song013A_007:
+InsideTheWhale_007:
 @  #07 @000   ----------------------------------------
- .byte   KEYSH , song013A_key+0
+ .byte   KEYSH , InsideTheWhale_key+0
 Label_01312C8A:
  .byte   VOICE , 127
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   BEND , c_v+0
  .byte   N05 ,Cn1 ,v127
  .byte   N05 ,Cs2
@@ -2005,29 +2005,29 @@ Label_01312DF2:
 @  #07 @065   ----------------------------------------
  .byte   VOICE , 127
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   BEND , c_v+0
  .byte   FINE
 
 @**************** Track 8 (Midi-Chn.7) ****************@
 
-song013A_008:
+InsideTheWhale_008:
 @  #08 @000   ----------------------------------------
- .byte   KEYSH , song013A_key+0
+ .byte   KEYSH , InsideTheWhale_key+0
 Label_01312EE6:
  .byte   VOICE , 48
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   BEND , c_v+0
  .byte   W96
 @  #08 @001   ----------------------------------------
@@ -2168,32 +2168,32 @@ Label_01312F09:
 @  #08 @065   ----------------------------------------
  .byte   VOICE , 48
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 42*song013A_mvl/mxv
+ .byte   VOL , 42*InsideTheWhale_mvl/mxv
  .byte   BEND , c_v+0
  .byte   FINE
 
 @******************************************************@
 	.align	2
 
-song013A:
+InsideTheWhale:
 	.byte	8	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song013A_pri	@ Priority
-	.byte	song013A_rev	@ Reverb.
+	.byte	InsideTheWhale_pri	@ Priority
+	.byte	InsideTheWhale_rev	@ Reverb.
     
-	.word	song013A_grp
+	.word	InsideTheWhale_grp
     
-	.word	song013A_001
-	.word	song013A_002
-	.word	song013A_003
-	.word	song013A_004
-	.word	song013A_005
-	.word	song013A_006
-	.word	song013A_007
-	.word	song013A_008
+	.word	InsideTheWhale_001
+	.word	InsideTheWhale_002
+	.word	InsideTheWhale_003
+	.word	InsideTheWhale_004
+	.word	InsideTheWhale_005
+	.word	InsideTheWhale_006
+	.word	InsideTheWhale_007
+	.word	InsideTheWhale_008
 
 	.end

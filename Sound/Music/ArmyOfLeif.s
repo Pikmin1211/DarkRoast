@@ -1,27 +1,27 @@
 	.include "MPlayDef.s"
 
-	.equ	song92_grp, voicegroup000
-	.equ	song92_pri, 0
-	.equ	song92_rev, 0
-	.equ	song92_mvl, 127
-	.equ	song92_key, 0
-	.equ	song92_tbs, 1
-	.equ	song92_exg, 0
-	.equ	song92_cmp, 1
+	.equ	ArmyOfLeif_grp, voicegroup000
+	.equ	ArmyOfLeif_pri, 0
+	.equ	ArmyOfLeif_rev, 0
+	.equ	ArmyOfLeif_mvl, 127
+	.equ	ArmyOfLeif_key, 0
+	.equ	ArmyOfLeif_tbs, 1
+	.equ	ArmyOfLeif_exg, 0
+	.equ	ArmyOfLeif_cmp, 1
 
 	.section .rodata
-	.global	song92
+	.global	ArmyOfLeif
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song92_001:
+ArmyOfLeif_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , song92_key+0
- .byte   TEMPO , 112*song92_tbs/2
+ .byte   KEYSH , ArmyOfLeif_key+0
+ .byte   TEMPO , 112*ArmyOfLeif_tbs/2
  .byte   VOICE , 57
- .byte   VOL , 65*song92_mvl/mxv
+ .byte   VOL , 65*ArmyOfLeif_mvl/mxv
  .byte   W84
  .byte   N06 ,Fn2 ,v112
  .byte   W06
@@ -223,7 +223,7 @@ Label_01672528:
  .byte   W06
  .byte   PEND 
 @  #01 @032   ----------------------------------------
- .byte   VOL , 65*song92_mvl/mxv
+ .byte   VOL , 65*ArmyOfLeif_mvl/mxv
  .byte   N72 ,An3
  .byte   W84
  .byte   N06 ,Fn2 ,v112
@@ -321,11 +321,11 @@ Label_01672528:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song92_002:
+ArmyOfLeif_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , song92_key+0
+ .byte   KEYSH , ArmyOfLeif_key+0
  .byte   VOICE , 56
- .byte   VOL , 74*song92_mvl/mxv
+ .byte   VOL , 74*ArmyOfLeif_mvl/mxv
  .byte   W96
 @  #02 @001   ----------------------------------------
  .byte   W96
@@ -522,11 +522,11 @@ Label_0167261A:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song92_003:
+ArmyOfLeif_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , song92_key+0
+ .byte   KEYSH , ArmyOfLeif_key+0
  .byte   VOICE , 46
- .byte   VOL , 44*song92_mvl/mxv
+ .byte   VOL , 44*ArmyOfLeif_mvl/mxv
  .byte   W96
 @  #03 @001   ----------------------------------------
 Label_01672677:
@@ -912,11 +912,11 @@ Label_016727AC:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song92_004:
+ArmyOfLeif_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , song92_key+0
+ .byte   KEYSH , ArmyOfLeif_key+0
  .byte   VOICE , 56
- .byte   VOL , 76*song92_mvl/mxv
+ .byte   VOL , 76*ArmyOfLeif_mvl/mxv
  .byte   W96
 @  #04 @001   ----------------------------------------
  .byte   N72 ,Fn2 ,v100
@@ -1178,12 +1178,12 @@ Label_016728DF:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song92_005:
+ArmyOfLeif_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , song92_key+0
+ .byte   KEYSH , ArmyOfLeif_key+0
  .byte   VOICE , 61
  .byte   PAN , c_v-16
- .byte   VOL , 73*song92_mvl/mxv
+ .byte   VOL , 73*ArmyOfLeif_mvl/mxv
  .byte   W96
 @  #05 @001   ----------------------------------------
  .byte   TIE ,As0 ,v100
@@ -1361,11 +1361,11 @@ Label_016729A0:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song92_006:
+ArmyOfLeif_006:
 @  #06 @000   ----------------------------------------
- .byte   KEYSH , song92_key+0
+ .byte   KEYSH , ArmyOfLeif_key+0
  .byte   VOICE , 33
- .byte   VOL , 72*song92_mvl/mxv
+ .byte   VOL , 72*ArmyOfLeif_mvl/mxv
  .byte   W96
 @  #06 @001   ----------------------------------------
  .byte   W96
@@ -1595,11 +1595,11 @@ Label_01672A68:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-song92_007:
+ArmyOfLeif_007:
 @  #07 @000   ----------------------------------------
- .byte   KEYSH , song92_key+0
+ .byte   KEYSH , ArmyOfLeif_key+0
  .byte   VOICE , 56
- .byte   VOL , 57*song92_mvl/mxv
+ .byte   VOL , 57*ArmyOfLeif_mvl/mxv
  .byte   W96
 @  #07 @001   ----------------------------------------
 Label_01672ACB:
@@ -1897,11 +1897,11 @@ Label_01672B9C:
 
 @**************** Track 8 (Midi-Chn.7) ****************@
 
-song92_008:
+ArmyOfLeif_008:
 @  #08 @000   ----------------------------------------
- .byte   KEYSH , song92_key+0
+ .byte   KEYSH , ArmyOfLeif_key+0
  .byte   VOICE , 127
- .byte   VOL , 53*song92_mvl/mxv
+ .byte   VOL , 53*ArmyOfLeif_mvl/mxv
  .byte   W96
 @  #08 @001   ----------------------------------------
 Label_01672C33:
@@ -2346,11 +2346,11 @@ Label_01672E12:
 
 @**************** Track 9 (Midi-Chn.8) ****************@
 
-song92_009:
+ArmyOfLeif_009:
 @  #09 @000   ----------------------------------------
- .byte   KEYSH , song92_key+0
+ .byte   KEYSH , ArmyOfLeif_key+0
  .byte   VOICE , 46
- .byte   VOL , 55*song92_mvl/mxv
+ .byte   VOL , 55*ArmyOfLeif_mvl/mxv
  .byte   W96
 @  #09 @001   ----------------------------------------
  .byte   W96
@@ -2570,11 +2570,11 @@ Label_01672FBF:
 
 @**************** Track 10 (Midi-Chn.9) ****************@
 
-song92_010:
+ArmyOfLeif_010:
 @  #10 @000   ----------------------------------------
- .byte   KEYSH , song92_key+0
+ .byte   KEYSH , ArmyOfLeif_key+0
  .byte   VOICE , 56
- .byte   VOL , 69*song92_mvl/mxv
+ .byte   VOL , 69*ArmyOfLeif_mvl/mxv
  .byte   W96
 @  #10 @001   ----------------------------------------
  .byte   W96
@@ -2845,11 +2845,11 @@ Label_016730C5:
 
 @**************** Track 11 (Midi-Chn.10) ****************@
 
-song92_011:
+ArmyOfLeif_011:
 @  #11 @000   ----------------------------------------
- .byte   KEYSH , song92_key+0
+ .byte   KEYSH , ArmyOfLeif_key+0
  .byte   VOICE , 57
- .byte   VOL , 65*song92_mvl/mxv
+ .byte   VOL , 65*ArmyOfLeif_mvl/mxv
  .byte   W96
 @  #11 @001   ----------------------------------------
  .byte   W96
@@ -2999,12 +2999,12 @@ Label_01673154:
 
 @**************** Track 12 (Midi-Chn.11) ****************@
 
-song92_012:
+ArmyOfLeif_012:
 @  #12 @000   ----------------------------------------
- .byte   KEYSH , song92_key+0
+ .byte   KEYSH , ArmyOfLeif_key+0
  .byte   VOICE , 60
  .byte   PAN , c_v+16
- .byte   VOL , 62*song92_mvl/mxv
+ .byte   VOL , 62*ArmyOfLeif_mvl/mxv
  .byte   W84
  .byte   N06 ,Fn2 ,v112
  .byte   W06
@@ -3263,7 +3263,7 @@ Label_016732A6:
  .byte   PEND 
 @  #12 @032   ----------------------------------------
  .byte   PAN , c_v+16
- .byte   VOL , 62*song92_mvl/mxv
+ .byte   VOL , 62*ArmyOfLeif_mvl/mxv
  .byte   N72 ,An3
  .byte   W84
  .byte   N06 ,Fn2 ,v112
@@ -3361,11 +3361,11 @@ Label_016732A6:
 
 @**************** Track 13 (Midi-Chn.12) ****************@
 
-song92_013:
+ArmyOfLeif_013:
 @  #13 @000   ----------------------------------------
- .byte   KEYSH , song92_key+0
+ .byte   KEYSH , ArmyOfLeif_key+0
  .byte   VOICE , 46
- .byte   VOL , 60*song92_mvl/mxv
+ .byte   VOL , 60*ArmyOfLeif_mvl/mxv
  .byte   W96
 @  #13 @001   ----------------------------------------
  .byte   W96
@@ -3567,12 +3567,12 @@ Label_0167339A:
 
 @**************** Track 14 (Midi-Chn.13) ****************@
 
-song92_014:
+ArmyOfLeif_014:
 @  #14 @000   ----------------------------------------
- .byte   KEYSH , song92_key+0
+ .byte   KEYSH , ArmyOfLeif_key+0
  .byte   VOICE , 60
  .byte   PAN , c_v+16
- .byte   VOL , 54*song92_mvl/mxv
+ .byte   VOL , 54*ArmyOfLeif_mvl/mxv
  .byte   W96
 @  #14 @001   ----------------------------------------
  .byte   W96
@@ -3718,11 +3718,11 @@ Label_0167341A:
 
 @**************** Track 15 (Midi-Chn.14) ****************@
 
-song92_015:
+ArmyOfLeif_015:
 @  #15 @000   ----------------------------------------
- .byte   KEYSH , song92_key+0
+ .byte   KEYSH , ArmyOfLeif_key+0
  .byte   VOICE , 47
- .byte   VOL , 65*song92_mvl/mxv
+ .byte   VOL , 65*ArmyOfLeif_mvl/mxv
  .byte   W96
 @  #15 @001   ----------------------------------------
 Label_01673473:
@@ -3962,11 +3962,11 @@ Label_01673502:
 
 @**************** Track 16 (Midi-Chn.15) ****************@
 
-song92_016:
+ArmyOfLeif_016:
 @  #16 @000   ----------------------------------------
- .byte   KEYSH , song92_key+0
+ .byte   KEYSH , ArmyOfLeif_key+0
  .byte   VOICE , 81
- .byte   VOL , 66*song92_mvl/mxv
+ .byte   VOL , 66*ArmyOfLeif_mvl/mxv
  .byte   W96
 @  #16 @001   ----------------------------------------
  .byte   W96
@@ -4162,29 +4162,29 @@ Label_01673649:
 @******************************************************@
 	.align	2
 
-song92:
+ArmyOfLeif:
 	.byte	16	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song92_pri	@ Priority
-	.byte	song92_rev	@ Reverb.
+	.byte	ArmyOfLeif_pri	@ Priority
+	.byte	ArmyOfLeif_rev	@ Reverb.
     
-	.word	song92_grp
+	.word	ArmyOfLeif_grp
     
-	.word	song92_001
-	.word	song92_002
-	.word	song92_003
-	.word	song92_004
-	.word	song92_005
-	.word	song92_006
-	.word	song92_007
-	.word	song92_008
-	.word	song92_009
-	.word	song92_010
-	.word	song92_011
-	.word	song92_012
-	.word	song92_013
-	.word	song92_014
-	.word	song92_015
-	.word	song92_016
+	.word	ArmyOfLeif_001
+	.word	ArmyOfLeif_002
+	.word	ArmyOfLeif_003
+	.word	ArmyOfLeif_004
+	.word	ArmyOfLeif_005
+	.word	ArmyOfLeif_006
+	.word	ArmyOfLeif_007
+	.word	ArmyOfLeif_008
+	.word	ArmyOfLeif_009
+	.word	ArmyOfLeif_010
+	.word	ArmyOfLeif_011
+	.word	ArmyOfLeif_012
+	.word	ArmyOfLeif_013
+	.word	ArmyOfLeif_014
+	.word	ArmyOfLeif_015
+	.word	ArmyOfLeif_016
 
 	.end

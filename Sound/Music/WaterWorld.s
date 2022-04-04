@@ -1,29 +1,29 @@
 	.include "MPlayDef.s"
 
-	.equ	song0B_grp, voicegroup000
-	.equ	song0B_pri, 0
-	.equ	song0B_rev, 0
-	.equ	song0B_mvl, 127
-	.equ	song0B_key, 0
-	.equ	song0B_tbs, 1
-	.equ	song0B_exg, 0
-	.equ	song0B_cmp, 1
+	.equ	WaterWorld_grp, voicegroup000
+	.equ	WaterWorld_pri, 0
+	.equ	WaterWorld_rev, 0
+	.equ	WaterWorld_mvl, 127
+	.equ	WaterWorld_key, 0
+	.equ	WaterWorld_tbs, 1
+	.equ	WaterWorld_exg, 0
+	.equ	WaterWorld_cmp, 1
 
 	.section .rodata
-	.global	song0B
+	.global	WaterWorld
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song0B_001:
+WaterWorld_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , song0B_key+0
+ .byte   KEYSH , WaterWorld_key+0
 Label_55028A:
- .byte   TEMPO , 80*song0B_tbs/2
+ .byte   TEMPO , 80*WaterWorld_tbs/2
  .byte   VOICE , 52
  .byte   PAN , c_v-14
- .byte   VOL , 65*song0B_mvl/mxv
+ .byte   VOL , 65*WaterWorld_mvl/mxv
  .byte   W24
  .byte   TIE ,Dn0 ,v104
  .byte   TIE ,Dn1
@@ -202,12 +202,12 @@ Label_55028A:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song0B_002:
+WaterWorld_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , song0B_key+0
+ .byte   KEYSH , WaterWorld_key+0
 Label_54FE0D:
  .byte   VOICE , 89
- .byte   VOL , 64*song0B_mvl/mxv
+ .byte   VOL , 64*WaterWorld_mvl/mxv
  .byte   W68
  .byte   W03
  .byte   BEND , c_v+0
@@ -607,13 +607,13 @@ Label_54FF61:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song0B_003:
+WaterWorld_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , song0B_key+0
+ .byte   KEYSH , WaterWorld_key+0
 Label_550382:
  .byte   VOICE , 79
  .byte   PAN , c_v+32
- .byte   VOL , 64*song0B_mvl/mxv
+ .byte   VOL , 64*WaterWorld_mvl/mxv
  .byte   W72
  .byte   W72
 @  #03 @001   ----------------------------------------
@@ -1053,13 +1053,13 @@ Label_550475:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song0B_004:
+WaterWorld_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , song0B_key+0
+ .byte   KEYSH , WaterWorld_key+0
 Label_54F892:
  .byte   VOICE , 1
  .byte   PAN , c_v+19
- .byte   VOL , 80*song0B_mvl/mxv
+ .byte   VOL , 80*WaterWorld_mvl/mxv
  .byte   W72
  .byte   W72
 @  #04 @001   ----------------------------------------
@@ -1302,13 +1302,13 @@ Label_54F943:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song0B_005:
+WaterWorld_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , song0B_key+0
+ .byte   KEYSH , WaterWorld_key+0
 Label_54F9BA:
  .byte   VOICE , 48
  .byte   PAN , c_v+31
- .byte   VOL , 35*song0B_mvl/mxv
+ .byte   VOL , 35*WaterWorld_mvl/mxv
  .byte   W72
  .byte   W72
 @  #05 @001   ----------------------------------------
@@ -1509,12 +1509,12 @@ Label_54F9FB:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song0B_006:
+WaterWorld_006:
 @  #06 @000   ----------------------------------------
- .byte   KEYSH , song0B_key+0
+ .byte   KEYSH , WaterWorld_key+0
 Label_54FA96:
  .byte   VOICE , 121
- .byte   VOL , 60*song0B_mvl/mxv
+ .byte   VOL , 60*WaterWorld_mvl/mxv
  .byte   W72
  .byte   W72
 @  #06 @001   ----------------------------------------
@@ -1778,12 +1778,12 @@ Label_54FAC8:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-song0B_007:
+WaterWorld_007:
 @  #07 @000   ----------------------------------------
- .byte   KEYSH , song0B_key+0
+ .byte   KEYSH , WaterWorld_key+0
 Label_54F3E2:
  .byte   VOICE , 88
- .byte   VOL , 56*song0B_mvl/mxv
+ .byte   VOL , 56*WaterWorld_mvl/mxv
  .byte   W72
  .byte   W72
 @  #07 @001   ----------------------------------------
@@ -1962,13 +1962,13 @@ Label_54F42D:
 
 @**************** Track 8 (Midi-Chn.7) ****************@
 
-song0B_008:
+WaterWorld_008:
 @  #08 @000   ----------------------------------------
- .byte   KEYSH , song0B_key+0
+ .byte   KEYSH , WaterWorld_key+0
 Label_54F49E:
  .byte   VOICE , 93
  .byte   PAN , c_v+19
- .byte   VOL , 64*song0B_mvl/mxv
+ .byte   VOL , 64*WaterWorld_mvl/mxv
  .byte   W72
  .byte   W12
  .byte   N96 ,Dn5 ,v104
@@ -2203,12 +2203,12 @@ Label_54F540:
 
 @**************** Track 9 (Midi-Chn.8) ****************@
 
-song0B_009:
+WaterWorld_009:
 @  #09 @000   ----------------------------------------
- .byte   KEYSH , song0B_key+0
+ .byte   KEYSH , WaterWorld_key+0
 Label_54F57E:
  .byte   VOICE , 91
- .byte   VOL , 56*song0B_mvl/mxv
+ .byte   VOL , 56*WaterWorld_mvl/mxv
  .byte   PAN , c_v-19
  .byte   W72
  .byte   W72
@@ -2369,22 +2369,22 @@ Label_54F5C1:
 @******************************************************@
 	.align	2
 
-song0B:
+WaterWorld:
 	.byte	9	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song0B_pri	@ Priority
-	.byte	song0B_rev	@ Reverb.
+	.byte	WaterWorld_pri	@ Priority
+	.byte	WaterWorld_rev	@ Reverb.
     
-	.word	song0B_grp
+	.word	WaterWorld_grp
     
-	.word	song0B_001
-	.word	song0B_002
-	.word	song0B_003
-	.word	song0B_004
-	.word	song0B_005
-	.word	song0B_006
-	.word	song0B_007
-	.word	song0B_008
-	.word	song0B_009
+	.word	WaterWorld_001
+	.word	WaterWorld_002
+	.word	WaterWorld_003
+	.word	WaterWorld_004
+	.word	WaterWorld_005
+	.word	WaterWorld_006
+	.word	WaterWorld_007
+	.word	WaterWorld_008
+	.word	WaterWorld_009
 
 	.end
