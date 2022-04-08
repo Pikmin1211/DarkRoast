@@ -1,0 +1,18 @@
+## Chapter_03_Name 
+Fort Otinar[X]
+
+## Chapter_03__Objective 
+Seize the gate.[X]
+
+## Chapter_03_Goal_Window 
+Seize[X]
+
+## Chapter_03_Opening
+
+## Chapter_03_Fideos_Intro
+
+## Chapter_03_Boss
+
+## Chapter_03_DeathQuote
+
+## Chapter_03_Ending
