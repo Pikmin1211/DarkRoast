@@ -1,0 +1,42 @@
+DARK ROAST TRAGEDY -- CREDITS
+-----------------------------
+Thanks to all the folks of the FE hacking community that created hacks and other assets. It's not possible without you all
+
+----
+PANDAN & FRIENDS
+----
+Project Chief - Pandan
+Technical Chief / Co-Lead - Pikmin1211
+Eventing - Pandan, Pikmin1211
+Mapping - Pandan
+Writing / Storyboarding - Pandan, Xilirite, Kyrads
+Tech Support - Pikmin1211, Vennobennu, LegendOfLoog
+Art - Pandan, L95, Levin, Laurent_Lacroix, Autonima
+Palettes - Pandan, Pikmin1211
+Music - Pandan, Pikmin1211
+Playtest & Design - Pandan, Pikmin1211, Kyrads, LegendOfLoog, knabepicer, WarPath, TDAWS, Levin, Xilirite, Pushwall, L95, Autonima, Vlak, Laurent_Lacroix, Stan, Scraiza, Zanryu, hypergammaspaces, Snakey1 
+
+----
+COMMUNITY RESOURCES
+----
+FEBuilder & Various Fixes - 7743
+Music - 7743, RandomWizard, A_Reliable_Chair, SurfingKyogre, Dolkar, Sme
+ModularMiniMugBox - ZaneAvernathy
+Map Sprites - AstraLunaSol, TheBlindArcher, Subbastian, Alusq, Team SALVAGED, Flasuban, Author_Pendragon, BatimaTheBat, DerTheVaporeon, Nuramon
+Animations - AstraLunaSol, TheBlindArcher, Temp, Alusq, Team SALVAGED, Maiser6, Ukulele, SD9K, Black Mage, Wan, BatimaTheBat, DerTheVaporeon, Iscaneus, Nuramon
+Mugs - NickT, Capybara
+Icons - GabrielKnight, LordGlenn, Ereskigal
+Map Palettes - RandomWizard
+16_tracks_12_sounds - Agro, Brendor
+Anti-Huffman - Hextator
+01command_hack - Hextator
+48command_hack - Hextator
+Fixed Weak Promoted Enemies - Gryz
+Enable Faster Movement by Holding A - Gryz
+Adjust Mode Coefficient Gain - Vennobennu
+Magic Sword Rework - Sme
+Show battle stats w/ anims off - Tequila
+Narrowfont - Scraiza
+Staves - Teraspark, Colorz
+Str/Mag split - Mohka, Kirb
+AutoNewLine - Zeta
