@@ -145,31 +145,34 @@ BeginningScene:
 	
 	MUSC Grim_Journey
 	Background(Outside_Village_Day)
-	Text(Chapter_01_Opening_1)
-	MUSC Tension
-	Text(Chapter_01_Opening_2)
+	Text(Chapter_02_Opening_1)
 	Background(Harbor)
-	Text(Chapter_01_Opening_3)
+	Text(Chapter_02_Opening_2)
+	Text(Chapter_03_Opening_3)
 	FADI 0x10
 	CALL ClearBackground
-	CAM1 Hacha
-	FlashCursor(Hacha, 60)
-	Text(Chapter_01_Opening_4)
-	CAM1 Olmos
-	FlashCursor(Olmos, 60)
-	Text(Chapter_01_Opening_5)
+	LOAD2 0x1 Units1
+	ENUN
+	LOAD1 0x1 ExtraUnits
+	ENUN
+	LOAD1 0x1 EnemyUnits
+	ENUN
+	GotoPrepScreen
+	CAM1 Recaudo
+	FlashCursor(Recaudo, 60)
+	Text(Chapter_02_Post_Prep)
+	CAM1 Perez
+	FlashCursor(Perez, 60)
+	Text(Chapter_02_Boss_Intro)
+	CenterTextbox(Chapter_02_SysText_Opening)
 	NoFade
 	ENDA
 
 EndingScene:
 	MUSC Into_The_Shadow_of_Victory
 	Background(House_BG)
-	Text(Chapter_01_Ending_1)
-	MUSC Treasured_Memories
-	Text(Chapter_01_Ending_2)
-	MUSC Grim_Journey
-	Text(Chapter_01_Ending_3)
-	MNC2 Chapter_02
+	Text(Chapter_02_Ending_1)
+	MNC2 Chapter_03
 	NoFade
 	ENDA
 

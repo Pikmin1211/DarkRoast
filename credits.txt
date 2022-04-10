@@ -14,7 +14,7 @@ Tech Support - Pikmin1211, Vennobennu, LegendOfLoog
 Art - Pandan, L95, Levin, Laurent_Lacroix, Autonima
 Palettes - Pandan, Pikmin1211
 Music - Pandan, Pikmin1211
-Playtest & Design - Pandan, Pikmin1211, Kyrads, LegendOfLoog, knabepicer, WarPath, TDAWS, Levin, Xilirite, Pushwall, L95, Autonima, Vlak, Laurent_Lacroix, Stan, Scraiza, Zanryu, hypergammaspaces, Snakey1 
+Playtest & Design - Pandan, Pikmin1211, Kyrads, LegendOfLoog, knabepicer, WarPath, TDAWS, Levin, Xilirite, Pushwall, L95, Autonima, Vlak, Laurent_Lacroix, Stan, Scraiza, Zanryu, hypergammaspaces, Snakey1, MournfulRelic
 
 ----
 COMMUNITY RESOURCES
@@ -40,3 +40,34 @@ Narrowfont - Scraiza
 Staves - Teraspark, Colorz
 Str/Mag split - Mohka, Kirb
 AutoNewLine - Zeta
+
+
+----
+INSPIRATIONS / Special Thanks
+----
+Listing some key inspirations here that helped shape direction of the project across its story, map objectives, item design, mechanic design, sound direction, and visual direction. While I take inspiration from many sources, I wanted to list those that have been major touchstones throughout development.
+
+Hacks --
+
+Road to Ruin - PrimeFusion
+Dream of Five - AstraLunaSol
+Souls of the Forest - Scraiza
+The Last Promise - Blazer
+Sword of Heaven & Earth - 38%
+FE7x - BwdYeti
+Call of the Armor - Team Distant Roads (& other projects) // I know crediting myself is weird but I only made 2/20ths of it.
+Iron Emblem - MournfulRelic // Relic did all of the work here, I only made a few maps
+
+And the vanilla FE I borrowed most heavily from --
+
+Fire Emblem Shadow Dragon // Numbers, unit design, cast design
+Fire Emblem Gaiden // Shrines, statboost design, the vibes
+Fire Emblem Thracia 776 // Fatigue
+Fire Emblem Fates // EXP
+
+And lastly, other media --
+
+Romance of the Three Kingdoms // Plot elements
+Tales of Symphonia // the vibes
+Super Mario Sunshine // Location design
+Shenmue // Interlude stuff
