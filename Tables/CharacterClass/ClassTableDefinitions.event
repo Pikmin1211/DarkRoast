@@ -45,7 +45,7 @@
 #define Druid_F 0x30
 #define Deserter 0x31
 #define Nomad 0x32
-#define Rogue 0x33
+#define Diabolist 0x33
 #define LancePaladin 0x35
 #define LancePaladin_F 0x36
 #define AxePaladin 0x37
@@ -77,6 +77,8 @@
 #define Berserker_F 0x5e
 #define SkyKnight 0x5f
 #define HolyKnight 0x60
+#define Outlaw 0x76
+#define Grassrunner 0x77
 #define StaffMage 0x7c
 #define Curate 0x7d
 #define Ballistician 0x7e

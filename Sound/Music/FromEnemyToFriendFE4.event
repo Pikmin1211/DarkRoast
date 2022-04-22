@@ -1,0 +1,1945 @@
+//Event file generated from Sappy .s format.
+	
+
+	#define	FromEnemyToFriendFE4_grp  voicegroup000
+	#define	FromEnemyToFriendFE4_pri  10
+	#define	FromEnemyToFriendFE4_rev  148
+	#define	FromEnemyToFriendFE4_mvl  127
+	#define	FromEnemyToFriendFE4_key  0
+	#define	FromEnemyToFriendFE4_tbs  1
+	#define	FromEnemyToFriendFE4_exg  0
+	#define	FromEnemyToFriendFE4_cmp  1
+
+	// .rodata
+	//	FromEnemyToFriendFE4
+	ALIGN 4
+
+
+//**************** Track 1 (Midi-Chn.0) ****************//
+
+FromEnemyToFriendFE4_001:
+//  #01 //000   ----------------------------------------
+ BYTE   KEYSH   FromEnemyToFriendFE4_key+0
+Label_0117107E:
+ BYTE   TEMPO   166*FromEnemyToFriendFE4_tbs/2
+ BYTE   W04
+ BYTE   VOICE   63
+ BYTE   VOL   60*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v+34
+ BYTE   N07  Cn2  v072
+ BYTE   W12
+ BYTE   N07  Ds2  v072
+ BYTE   W12
+ BYTE   N07  Dn2  v072
+ BYTE   W12
+ BYTE   N07  As1  v072
+ BYTE   W12
+ BYTE   N07  Cn2  v072
+ BYTE   W12
+ BYTE   N07  Ds2  v072
+ BYTE   W12
+ BYTE   N07  Dn2  v072
+ BYTE   W12
+ BYTE   N07  As1  v072
+ BYTE   W12
+//  #01 //001   ----------------------------------------
+ BYTE   N07  Cn2  v072
+ BYTE   W12
+ BYTE   N07  Ds2  v072
+ BYTE   W12
+ BYTE   N07  Dn2  v072
+ BYTE   W12
+ BYTE   N07  As1  v072
+ BYTE   W12
+ BYTE   N07  Cn2  v072
+ BYTE   W12
+ BYTE   N07  Ds2  v072
+ BYTE   W12
+ BYTE   N07  Dn2  v072
+ BYTE   W12
+ BYTE   N05  En2  v072
+ BYTE   W08
+ BYTE   W04
+//  #01 //002   ----------------------------------------
+ BYTE   PAN   c_v+14
+ BYTE   N24  As2  v056
+ BYTE   W36
+ BYTE   N28  Dn3  v068
+ BYTE   W36
+ BYTE   N28  Cn3  v076
+ BYTE   W36
+//  #01 //003   ----------------------------------------
+ BYTE   N24  Gn2  v080
+ BYTE   W36
+ BYTE   N09  As2  v056
+ BYTE   W24
+ BYTE   N10  Cn3  v072
+ BYTE   W20
+ BYTE   W04
+ BYTE   N24  As2  v060
+ BYTE   W36
+//  #01 //004   ----------------------------------------
+ BYTE   N24  Fn3  v064
+ BYTE   W36
+ BYTE   N21  En3  v068
+ BYTE   W36
+ BYTE   N23  Cn3  v076
+ BYTE   W36
+//  #01 //005   ----------------------------------------
+ BYTE   N08  Dn3  v072
+ BYTE   W24
+ BYTE   N09  En3  v072
+ BYTE   W20
+ BYTE   W16
+ BYTE   N10  Dn3  v064
+ BYTE   W12
+ BYTE   N10  Cn3  v060
+ BYTE   W12
+ BYTE   N10  Gn2  v052
+ BYTE   W12
+//  #01 //006   ----------------------------------------
+ BYTE   N10  As2  v064
+ BYTE   W12
+ BYTE   N10  Fn2  v056
+ BYTE   W12
+ BYTE   N10  En2  v064
+ BYTE   W12
+ BYTE   N10  Cn2  v060
+ BYTE   W12
+ BYTE   PAN   c_v+25
+ BYTE   W24
+ BYTE   N06  As2  v060
+ BYTE   W12
+ BYTE   N06  Cn3  v052
+ BYTE   W12
+//  #01 //007   ----------------------------------------
+ BYTE   N06  Dn3  v064
+ BYTE   W12
+ BYTE   N06  En3  v056
+ BYTE   W12
+ BYTE   N10  Fn3  v064
+ BYTE   W12
+ BYTE   N04  En3  v056
+ BYTE   W06
+ BYTE   N04  Dn3  v060
+ BYTE   W02
+ BYTE   W28
+ BYTE   N06  Cs3  v060
+ BYTE   W12
+ BYTE   N06  Dn3  v052
+ BYTE   W12
+//  #01 //008   ----------------------------------------
+ BYTE   N06  En3  v064
+ BYTE   W12
+ BYTE   N06  Fn3  v056
+ BYTE   W12
+ BYTE   N06  Gn3  v064
+ BYTE   W12
+ BYTE   N06  En3  v056
+ BYTE   W12
+ BYTE   N20  Dn3  v056
+ BYTE   W24
+ BYTE   N20  Fn3  v056
+ BYTE   W24
+//  #01 //009   ----------------------------------------
+ BYTE   N20  En3  v072
+ BYTE   W24
+ BYTE   N20  Gn3  v068
+ BYTE   W20
+ BYTE   W10
+ BYTE   N04  En4  v052
+ BYTE   W12
+ BYTE   N05  Cs4  v060
+ BYTE   W12
+ BYTE   N05  Dn4  v064
+ BYTE   W12
+ BYTE   N06  As3  v064
+ BYTE   W12
+//  #01 //010   ----------------------------------------
+ BYTE   N07  Gn3  v072
+ BYTE   W12
+ BYTE   N07  En3  v072
+ BYTE   W12
+ BYTE   N08  Cs3  v072
+ BYTE   W12
+ BYTE   N04  An2  v068
+ BYTE   W02
+ BYTE   GoTo
+  POIN2 Label_0117107E
+//  #01 //011   ----------------------------------------
+ BYTE   W03
+ BYTE   FINE
+
+//**************** Track 2 (Midi-Chn.1) ****************//
+
+FromEnemyToFriendFE4_002:
+//  #02 //000   ----------------------------------------
+ BYTE   KEYSH   FromEnemyToFriendFE4_key+0
+Label_0117118A:
+ BYTE   VOICE   38
+ BYTE   W96
+//  #02 //001   ----------------------------------------
+ BYTE   W52
+ BYTE   VOL   95*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   W44
+//  #02 //002   ----------------------------------------
+ BYTE   W04
+ BYTE   N24  Gn0  v080
+ BYTE   W36
+ BYTE   N15  Gn0  v076
+ BYTE   W24
+ BYTE   N04  Fn0  v072
+ BYTE   W12
+ BYTE   N19  Gn0  v080
+ BYTE   W36
+//  #02 //003   ----------------------------------------
+ BYTE   N19  Gn0  v084
+ BYTE   W24
+ BYTE   N17  Gn0  v076
+ BYTE   W24
+ BYTE   N08  Fn0  v076
+ BYTE   W12
+ BYTE   N20  Gn0  v084
+ BYTE   W20
+ BYTE   W04
+ BYTE   N24  Gn0  v080
+ BYTE   W36
+//  #02 //004   ----------------------------------------
+ BYTE   N15  Gn0  v076
+ BYTE   W24
+ BYTE   N04  Fn0  v072
+ BYTE   W12
+ BYTE   N19  Gn0  v080
+ BYTE   W36
+ BYTE   N17  Gn0  v076
+ BYTE   W24
+//  #02 //005   ----------------------------------------
+ BYTE   N17  Gn0  v076
+ BYTE   W24
+ BYTE   N08  Dn1  v076
+ BYTE   W12
+ BYTE   N10  Gn0  v084
+ BYTE   W12
+ BYTE   N10  Fn0  v084
+ BYTE   W08
+ BYTE   W04
+ BYTE   N24  Gn0  v088
+ BYTE   W36
+//  #02 //006   ----------------------------------------
+ BYTE   N13  Gn0  v080
+ BYTE   W24
+ BYTE   N10  Fn0  v076
+ BYTE   W12
+ BYTE   N10  Gn0  v084
+ BYTE   W12
+ BYTE   N10  An0  v076
+ BYTE   W12
+ BYTE   N72  As0  v088
+ BYTE   W84
+//  #02 //007   ----------------------------------------
+ BYTE   N05  As0  v076
+ BYTE   W08
+ BYTE   W04
+ BYTE   N68  An0  v092
+ BYTE   W84
+//  #02 //008   ----------------------------------------
+ BYTE   N04  An0  v088
+ BYTE   W12
+ BYTE   N60  As0  v080
+ BYTE   W72
+ BYTE   N13  As0  v076
+ BYTE   W20
+//  #02 //009   ----------------------------------------
+ BYTE   W04
+ BYTE   N80  An0  v088
+ BYTE   W92
+//  #02 //010   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_0117118A
+//  #02 //011   ----------------------------------------
+ BYTE   W03
+ BYTE   FINE
+
+//**************** Track 3 (Midi-Chn.2) ****************//
+
+FromEnemyToFriendFE4_003:
+//  #03 //000   ----------------------------------------
+ BYTE   KEYSH   FromEnemyToFriendFE4_key+0
+Label_01171216:
+ BYTE   W04
+ BYTE   VOL   74*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   W96
+//  #03 //001   ----------------------------------------
+ BYTE   W92
+ BYTE   W04
+//  #03 //002   ----------------------------------------
+ BYTE   VOICE   19
+ BYTE   VOL   74*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v+0
+ BYTE   PAN   c_v+14
+ BYTE   N07  Gn2  v072
+ BYTE   W12
+ BYTE   PAN   c_v+34
+ BYTE   N07  As2  v072
+ BYTE   W12
+ BYTE   PAN   c_v-14
+ BYTE   N07  An2  v072
+ BYTE   W12
+ BYTE   PAN   c_v+25
+ BYTE   N07  Fn2  v072
+ BYTE   W12
+ BYTE   PAN   c_v-14
+ BYTE   N07  Gn2  v072
+ BYTE   W12
+ BYTE   PAN   c_v-34
+ BYTE   N07  Dn3  v072
+ BYTE   W12
+ BYTE   PAN   c_v+14
+ BYTE   N07  Cn3  v072
+ BYTE   W12
+ BYTE   PAN   c_v-25
+ BYTE   N07  An2  v072
+ BYTE   W12
+//  #03 //003   ----------------------------------------
+ BYTE   PAN   c_v+14
+ BYTE   N07  Gn2  v072
+ BYTE   W12
+ BYTE   PAN   c_v+34
+ BYTE   N07  As2  v072
+ BYTE   W12
+ BYTE   PAN   c_v-14
+ BYTE   N07  An2  v072
+ BYTE   W12
+ BYTE   PAN   c_v+25
+ BYTE   N07  Fn2  v072
+ BYTE   W12
+ BYTE   PAN   c_v-14
+ BYTE   N07  Gn2  v072
+ BYTE   W12
+ BYTE   PAN   c_v-34
+ BYTE   N07  Dn3  v072
+ BYTE   W12
+ BYTE   PAN   c_v+14
+ BYTE   N07  Cn3  v072
+ BYTE   W12
+ BYTE   PAN   c_v-25
+ BYTE   N07  An2  v072
+ BYTE   W08
+ BYTE   W04
+//  #03 //004   ----------------------------------------
+ BYTE   PAN   c_v+14
+ BYTE   N07  Gn2  v072
+ BYTE   W12
+ BYTE   PAN   c_v+34
+ BYTE   N07  As2  v072
+ BYTE   W12
+ BYTE   PAN   c_v-14
+ BYTE   N07  An2  v072
+ BYTE   W12
+ BYTE   PAN   c_v+25
+ BYTE   N07  Fn2  v072
+ BYTE   W12
+ BYTE   PAN   c_v-14
+ BYTE   N07  Gn2  v072
+ BYTE   W12
+ BYTE   PAN   c_v-34
+ BYTE   N07  Dn3  v072
+ BYTE   W12
+ BYTE   PAN   c_v+14
+ BYTE   N07  Cn3  v072
+ BYTE   W12
+ BYTE   PAN   c_v-25
+ BYTE   N07  An2  v072
+ BYTE   W12
+//  #03 //005   ----------------------------------------
+ BYTE   PAN   c_v+14
+ BYTE   N07  Gn2  v072
+ BYTE   W12
+ BYTE   PAN   c_v+34
+ BYTE   N07  As2  v072
+ BYTE   W12
+ BYTE   PAN   c_v-14
+ BYTE   N07  An2  v072
+ BYTE   W12
+ BYTE   PAN   c_v+25
+ BYTE   N07  Fn2  v072
+ BYTE   W12
+ BYTE   PAN   c_v-14
+ BYTE   N07  Gn2  v072
+ BYTE   W12
+ BYTE   PAN   c_v-34
+ BYTE   N07  Dn3  v072
+ BYTE   W12
+ BYTE   PAN   c_v+14
+ BYTE   N07  Cn3  v072
+ BYTE   W12
+ BYTE   PAN   c_v-25
+ BYTE   N07  An2  v072
+ BYTE   W08
+ BYTE   W04
+//  #03 //006   ----------------------------------------
+ BYTE   PAN   c_v+14
+ BYTE   N07  Gn2  v072
+ BYTE   W12
+ BYTE   PAN   c_v+34
+ BYTE   N07  As2  v072
+ BYTE   W12
+ BYTE   PAN   c_v-14
+ BYTE   N07  An2  v072
+ BYTE   W12
+ BYTE   PAN   c_v+25
+ BYTE   N07  Fn2  v072
+ BYTE   W12
+ BYTE   PAN   c_v-14
+ BYTE   N07  Gn2  v072
+ BYTE   W12
+ BYTE   PAN   c_v-34
+ BYTE   N07  Dn3  v072
+ BYTE   W12
+ BYTE   PAN   c_v+14
+ BYTE   N07  Cn3  v072
+ BYTE   W12
+ BYTE   PAN   c_v-25
+ BYTE   N07  An2  v072
+ BYTE   W12
+//  #03 //007   ----------------------------------------
+ BYTE   VOL   74*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   W92
+ BYTE   W96
+//  #03 //008   ----------------------------------------
+ BYTE   W96
+//  #03 //009   ----------------------------------------
+ BYTE   W04
+ BYTE   VOICE   19
+ BYTE   VOL   62*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v+25
+ BYTE   PAN   c_v+23
+ BYTE   N04  Fn4  v072
+ BYTE   W01
+ BYTE   VOL   62*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v+22
+ BYTE   W01
+ BYTE   PAN   c_v+20
+ BYTE   W01
+ BYTE   PAN   c_v+19
+ BYTE   W01
+ BYTE   PAN   c_v+17
+ BYTE   W01
+ BYTE   VOL   63*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v+15
+ BYTE   W01
+ BYTE   PAN   c_v+14
+ BYTE   N04  En4  v072
+ BYTE   W01
+ BYTE   PAN   c_v+12
+ BYTE   W01
+ BYTE   PAN   c_v+10
+ BYTE   W01
+ BYTE   VOL   63*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v+9
+ BYTE   W01
+ BYTE   PAN   c_v+7
+ BYTE   W01
+ BYTE   PAN   c_v+6
+ BYTE   W01
+ BYTE   PAN   c_v+4
+ BYTE   N04  Dn4  v072
+ BYTE   W01
+ BYTE   VOL   64*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v+2
+ BYTE   W01
+ BYTE   PAN   c_v+1
+ BYTE   W01
+ BYTE   PAN   c_v-1
+ BYTE   W01
+ BYTE   PAN   c_v-3
+ BYTE   W01
+ BYTE   VOL   64*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v-4
+ BYTE   W01
+ BYTE   PAN   c_v-6
+ BYTE   N04  Cs4  v072
+ BYTE   W01
+ BYTE   PAN   c_v-7
+ BYTE   W01
+ BYTE   PAN   c_v-9
+ BYTE   W01
+ BYTE   VOL   65*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v-11
+ BYTE   W01
+ BYTE   PAN   c_v-12
+ BYTE   W01
+ BYTE   PAN   c_v-14
+ BYTE   W01
+ BYTE   VOL   65*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v+34
+ BYTE   PAN   c_v+33
+ BYTE   N04  En4  v072
+ BYTE   W01
+ BYTE   PAN   c_v+32
+ BYTE   W01
+ BYTE   PAN   c_v+31
+ BYTE   W01
+ BYTE   PAN   c_v+30
+ BYTE   W01
+ BYTE   VOL   65*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v+29
+ BYTE   W01
+ BYTE   PAN   c_v+28
+ BYTE   W01
+ BYTE   PAN   c_v+27
+ BYTE   N04  Dn4  v072
+ BYTE   W01
+ BYTE   PAN   c_v+25
+ BYTE   W01
+ BYTE   VOL   66*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v+24
+ BYTE   W01
+ BYTE   PAN   c_v+23
+ BYTE   W01
+ BYTE   PAN   c_v+22
+ BYTE   W01
+ BYTE   PAN   c_v+21
+ BYTE   W01
+ BYTE   VOL   66*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v+20
+ BYTE   N04  Cs4  v072
+ BYTE   W01
+ BYTE   PAN   c_v+19
+ BYTE   W01
+ BYTE   PAN   c_v+18
+ BYTE   W01
+ BYTE   PAN   c_v+17
+ BYTE   W01
+ BYTE   VOL   67*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v+16
+ BYTE   W01
+ BYTE   PAN   c_v+15
+ BYTE   W01
+ BYTE   PAN   c_v+14
+ BYTE   N04  As3  v072
+ BYTE   W01
+ BYTE   PAN   c_v+13
+ BYTE   W01
+ BYTE   VOL   67*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v+12
+ BYTE   W01
+ BYTE   PAN   c_v+10
+ BYTE   W01
+ BYTE   PAN   c_v+9
+ BYTE   W01
+ BYTE   VOL   68*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v+8
+ BYTE   W01
+ BYTE   PAN   c_v+7
+ BYTE   N04  An3  v072
+ BYTE   W01
+ BYTE   PAN   c_v+6
+ BYTE   W01
+ BYTE   PAN   c_v+5
+ BYTE   W01
+ BYTE   VOL   68*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v+4
+ BYTE   W01
+ BYTE   PAN   c_v+3
+ BYTE   W01
+ BYTE   PAN   c_v+2
+ BYTE   W01
+ BYTE   PAN   c_v+1
+ BYTE   N04  Gn3  v072
+ BYTE   W01
+ BYTE   VOL   69*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v+0
+ BYTE   W01
+ BYTE   PAN   c_v-1
+ BYTE   W01
+ BYTE   PAN   c_v-2
+ BYTE   W01
+ BYTE   PAN   c_v-3
+ BYTE   W01
+ BYTE   VOL   69*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v-4
+ BYTE   W01
+ BYTE   PAN   c_v-6
+ BYTE   N04  Fn3  v072
+ BYTE   W01
+ BYTE   PAN   c_v-7
+ BYTE   W01
+ BYTE   PAN   c_v-8
+ BYTE   W01
+ BYTE   VOL   70*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v-9
+ BYTE   W01
+ BYTE   PAN   c_v-10
+ BYTE   W01
+ BYTE   PAN   c_v-11
+ BYTE   W01
+ BYTE   PAN   c_v-12
+ BYTE   N04  En3  v072
+ BYTE   W01
+ BYTE   VOL   70*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v-13
+ BYTE   W01
+ BYTE   PAN   c_v-14
+ BYTE   W01
+ BYTE   PAN   c_v-15
+ BYTE   W01
+ BYTE   PAN   c_v-16
+ BYTE   W01
+ BYTE   VOL   71*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v-17
+ BYTE   W01
+ BYTE   PAN   c_v-18
+ BYTE   N04  Dn3  v072
+ BYTE   W01
+ BYTE   PAN   c_v-19
+ BYTE   W01
+ BYTE   VOL   71*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v-21
+ BYTE   W01
+ BYTE   PAN   c_v-22
+ BYTE   W01
+ BYTE   PAN   c_v-23
+ BYTE   W01
+ BYTE   PAN   c_v-24
+ BYTE   W01
+ BYTE   VOL   72*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v-25
+ BYTE   N04  Cs3  v076
+ BYTE   W01
+ BYTE   PAN   c_v-26
+ BYTE   W01
+ BYTE   PAN   c_v-27
+ BYTE   W01
+ BYTE   PAN   c_v-28
+ BYTE   W01
+ BYTE   VOL   72*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v-29
+ BYTE   W01
+ BYTE   PAN   c_v-30
+ BYTE   W01
+ BYTE   PAN   c_v-31
+ BYTE   N04  As2  v076
+ BYTE   W01
+ BYTE   PAN   c_v-32
+ BYTE   W01
+ BYTE   VOL   73*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v-33
+ BYTE   W01
+ BYTE   PAN   c_v-34
+ BYTE   W01
+ BYTE   PAN   c_v-36
+ BYTE   W01
+ BYTE   PAN   c_v-37
+ BYTE   W01
+ BYTE   VOL   73*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v-38
+ BYTE   N04  An2  v076
+ BYTE   W01
+ BYTE   PAN   c_v-39
+ BYTE   W01
+//  #03 //010   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_01171216
+//  #03 //011   ----------------------------------------
+ BYTE   PAN   c_v-40
+ BYTE   W01
+ BYTE   PAN   c_v-41
+ BYTE   W01
+ BYTE   VOL   74*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v-42
+ BYTE   W01
+ BYTE   PAN   c_v-43
+ BYTE   FINE
+
+//**************** Track 4 (Midi-Chn.3) ****************//
+
+FromEnemyToFriendFE4_004:
+//  #04 //000   ----------------------------------------
+ BYTE   KEYSH   FromEnemyToFriendFE4_key+0
+Label_011714AE:
+ BYTE   W04
+ BYTE   VOICE   63
+ BYTE   VOL   60*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v-34
+ BYTE   N07  Gn2  v076
+ BYTE   W12
+ BYTE   N07  As2  v072
+ BYTE   W12
+ BYTE   N07  An2  v072
+ BYTE   W12
+ BYTE   N07  Fn2  v072
+ BYTE   W12
+ BYTE   N07  Gn2  v076
+ BYTE   W12
+ BYTE   N07  Dn3  v072
+ BYTE   W12
+ BYTE   N07  Cn3  v072
+ BYTE   W12
+ BYTE   N07  An2  v072
+ BYTE   W12
+//  #04 //001   ----------------------------------------
+ BYTE   N07  Gn2  v076
+ BYTE   W12
+ BYTE   N07  As2  v072
+ BYTE   W12
+ BYTE   N07  An2  v072
+ BYTE   W12
+ BYTE   N07  Fn2  v072
+ BYTE   W12
+ BYTE   N07  Gn2  v076
+ BYTE   W12
+ BYTE   N07  Dn3  v072
+ BYTE   W12
+ BYTE   N07  Cn3  v072
+ BYTE   W12
+ BYTE   N05  An2  v072
+ BYTE   W08
+ BYTE   W04
+//  #04 //002   ----------------------------------------
+ BYTE   PAN   c_v-14
+ BYTE   N24  Dn3  v068
+ BYTE   W36
+ BYTE   N24  Fn3  v068
+ BYTE   W36
+ BYTE   N28  En3  v068
+ BYTE   W36
+//  #04 //003   ----------------------------------------
+ BYTE   N24  Cn3  v080
+ BYTE   W36
+ BYTE   N09  Dn3  v068
+ BYTE   W24
+ BYTE   N10  En3  v056
+ BYTE   W20
+ BYTE   W04
+ BYTE   N24  Dn3  v068
+ BYTE   W36
+//  #04 //004   ----------------------------------------
+ BYTE   N24  An3  v068
+ BYTE   W36
+ BYTE   N20  Gn3  v072
+ BYTE   W36
+ BYTE   N23  En3  v076
+ BYTE   W36
+//  #04 //005   ----------------------------------------
+ BYTE   N08  Fn3  v072
+ BYTE   W24
+ BYTE   N09  Gn3  v068
+ BYTE   W20
+ BYTE   W16
+ BYTE   N10  Fn3  v064
+ BYTE   W12
+ BYTE   N10  En3  v060
+ BYTE   W12
+ BYTE   N10  Cn3  v052
+ BYTE   W12
+//  #04 //006   ----------------------------------------
+ BYTE   N10  Dn3  v064
+ BYTE   W12
+ BYTE   N10  An2  v056
+ BYTE   W12
+ BYTE   N10  Gn2  v064
+ BYTE   W12
+ BYTE   N10  En2  v060
+ BYTE   W12
+ BYTE   PAN   c_v-25
+ BYTE   W24
+ BYTE   N06  Dn3  v060
+ BYTE   W12
+ BYTE   N06  En3  v052
+ BYTE   W12
+//  #04 //007   ----------------------------------------
+ BYTE   N06  Fn3  v064
+ BYTE   W12
+ BYTE   N06  Gn3  v056
+ BYTE   W12
+ BYTE   N10  An3  v064
+ BYTE   W12
+ BYTE   N04  Gn3  v056
+ BYTE   W06
+ BYTE   N04  Fn3  v060
+ BYTE   W02
+ BYTE   W28
+ BYTE   N06  En3  v060
+ BYTE   W12
+ BYTE   N06  Fn3  v052
+ BYTE   W12
+//  #04 //008   ----------------------------------------
+ BYTE   N06  Gn3  v064
+ BYTE   W12
+ BYTE   N06  An3  v056
+ BYTE   W12
+ BYTE   N06  As3  v064
+ BYTE   W12
+ BYTE   N06  Gn3  v056
+ BYTE   W12
+ BYTE   N20  An3  v060
+ BYTE   W24
+ BYTE   N20  Dn4  v068
+ BYTE   W24
+//  #04 //009   ----------------------------------------
+ BYTE   N20  Cs4  v072
+ BYTE   W24
+ BYTE   N20  En4  v068
+ BYTE   W20
+ BYTE   W04
+ BYTE   N04  Fn4  v052
+ BYTE   W12
+ BYTE   N05  Dn4  v060
+ BYTE   W12
+ BYTE   N05  En4  v056
+ BYTE   W12
+ BYTE   N06  Cs4  v064
+ BYTE   W12
+//  #04 //010   ----------------------------------------
+ BYTE   N07  An3  v072
+ BYTE   W12
+ BYTE   N07  Fn3  v072
+ BYTE   W12
+ BYTE   N08  Dn3  v072
+ BYTE   W12
+ BYTE   N08  As2  v068
+ BYTE   W08
+ BYTE   GoTo
+  POIN2 Label_011714AE
+//  #04 //011   ----------------------------------------
+ BYTE   W03
+ BYTE   FINE
+
+//**************** Track 5 (Midi-Chn.4) ****************//
+
+FromEnemyToFriendFE4_005:
+//  #05 //000   ----------------------------------------
+ BYTE   VOL   60*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   KEYSH   FromEnemyToFriendFE4_key+0
+Label_011715BC:
+ BYTE   VOICE   124
+ BYTE   W04
+ BYTE   N22  Cn1  v092
+ BYTE   N92  Cs2  v076
+ BYTE   W24
+ BYTE   N10  Dn1  v092
+ BYTE   W12
+ BYTE   N22  Cn1  v092
+ BYTE   W24
+ BYTE   N10  Cn1  v076
+ BYTE   W12
+ BYTE   N10  Dn1  v092
+ BYTE   W12
+ BYTE   N10  Cn1  v084
+ BYTE   W12
+//  #05 //001   ----------------------------------------
+ BYTE   N10  Cn1  v096
+ BYTE   W12
+ BYTE   N10  Cn1  v084
+ BYTE   W12
+ BYTE   N10  Dn1  v096
+ BYTE   W12
+ BYTE   N10  Cn1  v084
+ BYTE   W12
+ BYTE   N06  Dn1  v084
+ BYTE   W06
+ BYTE   N02  Dn1  v072
+ BYTE   W12
+ BYTE   N04  Dn1  v084
+ BYTE   W06
+ BYTE   N01  Dn1  v064
+ BYTE   W12
+ BYTE   N04  Dn1  v092
+ BYTE   W06
+ BYTE   N02  Dn1  v072
+ BYTE   W02
+ BYTE   W04
+//  #05 //002   ----------------------------------------
+ BYTE   N22  Cn1  v092
+ BYTE   N92  Cs2  v072
+ BYTE   W24
+ BYTE   N10  Dn1  v092
+ BYTE   W12
+ BYTE   N22  Cn1  v084
+ BYTE   W24
+ BYTE   N10  Cn1  v096
+ BYTE   W12
+ BYTE   N22  Dn1  v092
+ BYTE   W36
+//  #05 //003   ----------------------------------------
+ BYTE   N10  Cn1  v084
+ BYTE   W12
+ BYTE   N10  Dn1  v092
+ BYTE   W12
+ BYTE   N22  Cn1  v084
+ BYTE   W24
+ BYTE   N10  Cn1  v096
+ BYTE   W12
+ BYTE   N10  Dn1  v092
+ BYTE   W12
+ BYTE   N10  Dn1  v076
+ BYTE   W08
+ BYTE   W04
+ BYTE   N22  Cn1  v092
+ BYTE   W24
+//  #05 //004   ----------------------------------------
+ BYTE   N10  Dn1  v096
+ BYTE   W12
+ BYTE   N22  Cn1  v088
+ BYTE   W24
+ BYTE   N10  Cn1  v092
+ BYTE   W12
+ BYTE   N10  Dn1  v092
+ BYTE   W12
+ BYTE   N10  Cn1  v012
+ BYTE   W12
+ BYTE   N10  Cn1  v096
+ BYTE   W12
+ BYTE   N10  Cn1  v084
+ BYTE   W12
+//  #05 //005   ----------------------------------------
+ BYTE   N10  Dn1  v092
+ BYTE   W12
+ BYTE   N22  Cn1  v084
+ BYTE   W24
+ BYTE   N10  Cn1  v092
+ BYTE   W12
+ BYTE   N10  Dn1  v092
+ BYTE   W12
+ BYTE   N10  Dn1  v076
+ BYTE   W08
+ BYTE   W04
+ BYTE   N22  Cn1  v092
+ BYTE   W24
+//  #05 //006   ----------------------------------------
+ BYTE   N10  Dn1  v092
+ BYTE   W12
+ BYTE   N22  Cn1  v084
+ BYTE   W24
+ BYTE   N10  Cn1  v096
+ BYTE   W12
+ BYTE   N22  Dn1  v092
+ BYTE   W24
+ BYTE   N92  Cs2  v076
+ BYTE   N22  Cn1  v084
+ BYTE   W24
+//  #05 //007   ----------------------------------------
+ BYTE   N32  Dn1  v092
+ BYTE   W36
+ BYTE   N10  Cn1  v084
+ BYTE   W12
+ BYTE   N22  Dn1  v092
+ BYTE   W20
+ BYTE   W04
+ BYTE   N22  Cn1  v084
+ BYTE   W24
+//  #05 //008   ----------------------------------------
+ BYTE   N32  Dn1  v092
+ BYTE   W36
+ BYTE   N10  Cn1  v084
+ BYTE   W12
+ BYTE   N10  Dn1  v092
+ BYTE   W12
+ BYTE   N10  Cn1  v092
+ BYTE   W12
+ BYTE   N22  Cn1  v084
+ BYTE   W24
+//  #05 //009   ----------------------------------------
+ BYTE   N32  Dn1  v092
+ BYTE   W36
+ BYTE   N10  Cn1  v084
+ BYTE   W12
+ BYTE   N22  Dn1  v092
+ BYTE   W20
+ BYTE   W04
+ BYTE   N22  Cn1  v084
+ BYTE   W24
+//  #05 //010   ----------------------------------------
+ BYTE   N32  Dn1  v092
+ BYTE   W36
+ BYTE   N10  Cn1  v084
+ BYTE   W12
+ BYTE   N10  Dn1  v092
+ BYTE   W12
+ BYTE   N10  Cn1  v092
+ BYTE   W08
+ BYTE   GoTo
+  POIN2 Label_011715BC
+//  #05 //011   ----------------------------------------
+ BYTE   W03
+ BYTE   FINE
+
+//**************** Track 6 (Midi-Chn.5) ****************//
+
+FromEnemyToFriendFE4_006:
+//  #06 //000   ----------------------------------------
+ BYTE   KEYSH   FromEnemyToFriendFE4_key+0
+ BYTE   W09
+Label_011716D3:
+ BYTE   TEMPO   166*FromEnemyToFriendFE4_tbs/2
+ BYTE   W04
+ BYTE   VOICE   63
+ BYTE   VOL   20*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v+34
+ BYTE   N07  Cn2  v072
+ BYTE   W12
+ BYTE   N07  Ds2  v072
+ BYTE   W12
+ BYTE   N07  Dn2  v072
+ BYTE   W12
+ BYTE   N07  As1  v072
+ BYTE   W12
+ BYTE   N07  Cn2  v072
+ BYTE   W12
+ BYTE   N07  Ds2  v072
+ BYTE   W12
+ BYTE   N07  Dn2  v072
+ BYTE   W12
+//  #06 //001   ----------------------------------------
+ BYTE   N07  As1  v072
+ BYTE   W12
+ BYTE   N07  Cn2  v072
+ BYTE   W12
+ BYTE   N07  Ds2  v072
+ BYTE   W12
+ BYTE   N07  Dn2  v072
+ BYTE   W12
+ BYTE   N07  As1  v072
+ BYTE   W12
+ BYTE   N07  Cn2  v072
+ BYTE   W12
+ BYTE   N07  Ds2  v072
+ BYTE   W12
+ BYTE   N07  Dn2  v072
+ BYTE   W12
+//  #06 //002   ----------------------------------------
+ BYTE   N05  En2  v072
+ BYTE   W08
+ BYTE   W04
+ BYTE   PAN   c_v+14
+ BYTE   N24  As2  v056
+ BYTE   W36
+ BYTE   N28  Dn3  v068
+ BYTE   W36
+ BYTE   N28  Cn3  v076
+ BYTE   W36
+//  #06 //003   ----------------------------------------
+ BYTE   N24  Gn2  v080
+ BYTE   W36
+ BYTE   N09  As2  v056
+ BYTE   W24
+ BYTE   N10  Cn3  v072
+ BYTE   W20
+ BYTE   W04
+ BYTE   N24  As2  v060
+ BYTE   W36
+//  #06 //004   ----------------------------------------
+ BYTE   N24  Fn3  v064
+ BYTE   W36
+ BYTE   N21  En3  v068
+ BYTE   W36
+ BYTE   N23  Cn3  v076
+ BYTE   W36
+//  #06 //005   ----------------------------------------
+ BYTE   N08  Dn3  v072
+ BYTE   W24
+ BYTE   N09  En3  v072
+ BYTE   W20
+ BYTE   W16
+ BYTE   N10  Dn3  v064
+ BYTE   W12
+ BYTE   N10  Cn3  v060
+ BYTE   W12
+ BYTE   N10  Gn2  v052
+ BYTE   W12
+//  #06 //006   ----------------------------------------
+ BYTE   N10  As2  v064
+ BYTE   W12
+ BYTE   N10  Fn2  v056
+ BYTE   W12
+ BYTE   N10  En2  v064
+ BYTE   W12
+ BYTE   N10  Cn2  v060
+ BYTE   W12
+ BYTE   PAN   c_v+25
+ BYTE   W24
+ BYTE   N06  As2  v060
+ BYTE   W12
+ BYTE   N06  Cn3  v052
+ BYTE   W12
+//  #06 //007   ----------------------------------------
+ BYTE   N06  Dn3  v064
+ BYTE   W12
+ BYTE   N06  En3  v056
+ BYTE   W12
+ BYTE   N10  Fn3  v064
+ BYTE   W12
+ BYTE   N04  En3  v056
+ BYTE   W06
+ BYTE   N04  Dn3  v060
+ BYTE   W02
+ BYTE   W28
+ BYTE   N06  Cs3  v060
+ BYTE   W12
+ BYTE   N06  Dn3  v052
+ BYTE   W12
+//  #06 //008   ----------------------------------------
+ BYTE   N06  En3  v064
+ BYTE   W12
+ BYTE   N06  Fn3  v056
+ BYTE   W12
+ BYTE   N06  Gn3  v064
+ BYTE   W12
+ BYTE   N06  En3  v056
+ BYTE   W12
+ BYTE   N20  Dn3  v056
+ BYTE   W24
+ BYTE   N20  Fn3  v056
+ BYTE   W24
+//  #06 //009   ----------------------------------------
+ BYTE   N20  En3  v072
+ BYTE   W24
+ BYTE   N20  Gn3  v068
+ BYTE   W20
+ BYTE   W10
+ BYTE   N04  En4  v052
+ BYTE   W12
+ BYTE   N05  Cs4  v060
+ BYTE   W12
+ BYTE   N05  Dn4  v064
+ BYTE   W12
+ BYTE   N06  As3  v064
+ BYTE   W12
+//  #06 //010   ----------------------------------------
+ BYTE   N07  Gn3  v072
+ BYTE   W12
+ BYTE   N07  En3  v072
+ BYTE   W12
+ BYTE   N08  Cs3  v072
+ BYTE   W12
+ BYTE   N04  An2  v068
+ BYTE   W02
+ BYTE   GoTo
+  POIN2 Label_011716D3
+//  #06 //011   ----------------------------------------
+ BYTE   W03
+ BYTE   FINE
+
+//**************** Track 7 (Midi-Chn.6) ****************//
+
+FromEnemyToFriendFE4_007:
+//  #07 //000   ----------------------------------------
+ BYTE   KEYSH   FromEnemyToFriendFE4_key+0
+ BYTE   W09
+Label_011717E3:
+ BYTE   VOICE   38
+ BYTE   W96
+//  #07 //001   ----------------------------------------
+ BYTE   W52
+ BYTE   VOL   55*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   W44
+//  #07 //002   ----------------------------------------
+ BYTE   W04
+ BYTE   N24  Gn0  v080
+ BYTE   W36
+ BYTE   N15  Gn0  v076
+ BYTE   W24
+ BYTE   N04  Fn0  v072
+ BYTE   W12
+ BYTE   N19  Gn0  v080
+ BYTE   W36
+//  #07 //003   ----------------------------------------
+ BYTE   N19  Gn0  v084
+ BYTE   W24
+ BYTE   N17  Gn0  v076
+ BYTE   W24
+ BYTE   N08  Fn0  v076
+ BYTE   W12
+ BYTE   N20  Gn0  v084
+ BYTE   W20
+ BYTE   W04
+ BYTE   N24  Gn0  v080
+ BYTE   W36
+//  #07 //004   ----------------------------------------
+ BYTE   N15  Gn0  v076
+ BYTE   W24
+ BYTE   N04  Fn0  v072
+ BYTE   W12
+ BYTE   N19  Gn0  v080
+ BYTE   W36
+ BYTE   N17  Gn0  v076
+ BYTE   W24
+//  #07 //005   ----------------------------------------
+ BYTE   N17  Gn0  v076
+ BYTE   W24
+ BYTE   N08  Dn1  v076
+ BYTE   W12
+ BYTE   N10  Gn0  v084
+ BYTE   W12
+ BYTE   N10  Fn0  v084
+ BYTE   W08
+ BYTE   W04
+ BYTE   N24  Gn0  v088
+ BYTE   W36
+//  #07 //006   ----------------------------------------
+ BYTE   N13  Gn0  v080
+ BYTE   W24
+ BYTE   N10  Fn0  v076
+ BYTE   W12
+ BYTE   N10  Gn0  v084
+ BYTE   W12
+ BYTE   N10  An0  v076
+ BYTE   W12
+ BYTE   N72  As0  v088
+ BYTE   W84
+//  #07 //007   ----------------------------------------
+ BYTE   N05  As0  v076
+ BYTE   W08
+ BYTE   W04
+ BYTE   N68  An0  v092
+ BYTE   W84
+//  #07 //008   ----------------------------------------
+ BYTE   N04  An0  v088
+ BYTE   W12
+ BYTE   N60  As0  v080
+ BYTE   W72
+ BYTE   N13  As0  v076
+ BYTE   W20
+//  #07 //009   ----------------------------------------
+ BYTE   W04
+ BYTE   N80  An0  v088
+ BYTE   W92
+//  #07 //010   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_011717E3
+//  #07 //011   ----------------------------------------
+ BYTE   W03
+ BYTE   FINE
+
+//**************** Track 8 (Midi-Chn.7) ****************//
+
+FromEnemyToFriendFE4_008:
+//  #08 //000   ----------------------------------------
+ BYTE   KEYSH   FromEnemyToFriendFE4_key+0
+ BYTE   W09
+Label_0117186F:
+ BYTE   W04
+ BYTE   VOL   34*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   W96
+//  #08 //001   ----------------------------------------
+ BYTE   W92
+ BYTE   W04
+//  #08 //002   ----------------------------------------
+ BYTE   VOICE   19
+ BYTE   VOL   34*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v+0
+ BYTE   PAN   c_v+14
+ BYTE   N07  Gn2  v072
+ BYTE   W12
+ BYTE   PAN   c_v+34
+ BYTE   N07  As2  v072
+ BYTE   W12
+ BYTE   PAN   c_v-14
+ BYTE   N07  An2  v072
+ BYTE   W12
+ BYTE   PAN   c_v+25
+ BYTE   N07  Fn2  v072
+ BYTE   W12
+ BYTE   PAN   c_v-14
+ BYTE   N07  Gn2  v072
+ BYTE   W12
+ BYTE   PAN   c_v-34
+ BYTE   N07  Dn3  v072
+ BYTE   W12
+ BYTE   PAN   c_v+14
+ BYTE   N07  Cn3  v072
+ BYTE   W12
+ BYTE   PAN   c_v-25
+ BYTE   N07  An2  v072
+ BYTE   W12
+//  #08 //003   ----------------------------------------
+ BYTE   PAN   c_v+14
+ BYTE   N07  Gn2  v072
+ BYTE   W12
+ BYTE   PAN   c_v+34
+ BYTE   N07  As2  v072
+ BYTE   W12
+ BYTE   PAN   c_v-14
+ BYTE   N07  An2  v072
+ BYTE   W12
+ BYTE   PAN   c_v+25
+ BYTE   N07  Fn2  v072
+ BYTE   W12
+ BYTE   PAN   c_v-14
+ BYTE   N07  Gn2  v072
+ BYTE   W12
+ BYTE   PAN   c_v-34
+ BYTE   N07  Dn3  v072
+ BYTE   W12
+ BYTE   PAN   c_v+14
+ BYTE   N07  Cn3  v072
+ BYTE   W12
+ BYTE   PAN   c_v-25
+ BYTE   N07  An2  v072
+ BYTE   W08
+ BYTE   W04
+//  #08 //004   ----------------------------------------
+ BYTE   PAN   c_v+14
+ BYTE   N07  Gn2  v072
+ BYTE   W12
+ BYTE   PAN   c_v+34
+ BYTE   N07  As2  v072
+ BYTE   W12
+ BYTE   PAN   c_v-14
+ BYTE   N07  An2  v072
+ BYTE   W12
+ BYTE   PAN   c_v+25
+ BYTE   N07  Fn2  v072
+ BYTE   W12
+ BYTE   PAN   c_v-14
+ BYTE   N07  Gn2  v072
+ BYTE   W12
+ BYTE   PAN   c_v-34
+ BYTE   N07  Dn3  v072
+ BYTE   W12
+ BYTE   PAN   c_v+14
+ BYTE   N07  Cn3  v072
+ BYTE   W12
+ BYTE   PAN   c_v-25
+ BYTE   N07  An2  v072
+ BYTE   W12
+//  #08 //005   ----------------------------------------
+ BYTE   PAN   c_v+14
+ BYTE   N07  Gn2  v072
+ BYTE   W12
+ BYTE   PAN   c_v+34
+ BYTE   N07  As2  v072
+ BYTE   W12
+ BYTE   PAN   c_v-14
+ BYTE   N07  An2  v072
+ BYTE   W12
+ BYTE   PAN   c_v+25
+ BYTE   N07  Fn2  v072
+ BYTE   W12
+ BYTE   PAN   c_v-14
+ BYTE   N07  Gn2  v072
+ BYTE   W12
+ BYTE   PAN   c_v-34
+ BYTE   N07  Dn3  v072
+ BYTE   W12
+ BYTE   PAN   c_v+14
+ BYTE   N07  Cn3  v072
+ BYTE   W12
+ BYTE   PAN   c_v-25
+ BYTE   N07  An2  v072
+ BYTE   W08
+ BYTE   W04
+//  #08 //006   ----------------------------------------
+ BYTE   PAN   c_v+14
+ BYTE   N07  Gn2  v072
+ BYTE   W12
+ BYTE   PAN   c_v+34
+ BYTE   N07  As2  v072
+ BYTE   W12
+ BYTE   PAN   c_v-14
+ BYTE   N07  An2  v072
+ BYTE   W12
+ BYTE   PAN   c_v+25
+ BYTE   N07  Fn2  v072
+ BYTE   W12
+ BYTE   PAN   c_v-14
+ BYTE   N07  Gn2  v072
+ BYTE   W12
+ BYTE   PAN   c_v-34
+ BYTE   N07  Dn3  v072
+ BYTE   W12
+ BYTE   PAN   c_v+14
+ BYTE   N07  Cn3  v072
+ BYTE   W12
+ BYTE   PAN   c_v-25
+ BYTE   N07  An2  v072
+ BYTE   W12
+//  #08 //007   ----------------------------------------
+ BYTE   VOL   34*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   W92
+ BYTE   W96
+//  #08 //008   ----------------------------------------
+ BYTE   W96
+//  #08 //009   ----------------------------------------
+ BYTE   W04
+ BYTE   VOICE   19
+ BYTE   VOL   22*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v+25
+ BYTE   PAN   c_v+23
+ BYTE   N04  Fn4  v072
+ BYTE   W01
+ BYTE   VOL   22*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v+22
+ BYTE   W01
+ BYTE   PAN   c_v+20
+ BYTE   W01
+ BYTE   PAN   c_v+19
+ BYTE   W01
+ BYTE   PAN   c_v+17
+ BYTE   W01
+ BYTE   VOL   23*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v+15
+ BYTE   W01
+ BYTE   PAN   c_v+14
+ BYTE   N04  En4  v072
+ BYTE   W01
+ BYTE   PAN   c_v+12
+ BYTE   W01
+ BYTE   PAN   c_v+10
+ BYTE   W01
+ BYTE   VOL   23*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v+9
+ BYTE   W01
+ BYTE   PAN   c_v+7
+ BYTE   W01
+ BYTE   PAN   c_v+6
+ BYTE   W01
+ BYTE   PAN   c_v+4
+ BYTE   N04  Dn4  v072
+ BYTE   W01
+ BYTE   VOL   24*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v+2
+ BYTE   W01
+ BYTE   PAN   c_v+1
+ BYTE   W01
+ BYTE   PAN   c_v-1
+ BYTE   W01
+ BYTE   PAN   c_v-3
+ BYTE   W01
+ BYTE   VOL   24*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v-4
+ BYTE   W01
+ BYTE   PAN   c_v-6
+ BYTE   N04  Cs4  v072
+ BYTE   W01
+ BYTE   PAN   c_v-7
+ BYTE   W01
+ BYTE   PAN   c_v-9
+ BYTE   W01
+ BYTE   VOL   25*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v-11
+ BYTE   W01
+ BYTE   PAN   c_v-12
+ BYTE   W01
+ BYTE   PAN   c_v-14
+ BYTE   W01
+ BYTE   VOL   25*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v+34
+ BYTE   PAN   c_v+33
+ BYTE   N04  En4  v072
+ BYTE   W01
+ BYTE   PAN   c_v+32
+ BYTE   W01
+ BYTE   PAN   c_v+31
+ BYTE   W01
+ BYTE   PAN   c_v+30
+ BYTE   W01
+ BYTE   VOL   25*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v+29
+ BYTE   W01
+ BYTE   PAN   c_v+28
+ BYTE   W01
+ BYTE   PAN   c_v+27
+ BYTE   N04  Dn4  v072
+ BYTE   W01
+ BYTE   PAN   c_v+25
+ BYTE   W01
+ BYTE   VOL   26*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v+24
+ BYTE   W01
+ BYTE   PAN   c_v+23
+ BYTE   W01
+ BYTE   PAN   c_v+22
+ BYTE   W01
+ BYTE   PAN   c_v+21
+ BYTE   W01
+ BYTE   VOL   26*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v+20
+ BYTE   N04  Cs4  v072
+ BYTE   W01
+ BYTE   PAN   c_v+19
+ BYTE   W01
+ BYTE   PAN   c_v+18
+ BYTE   W01
+ BYTE   PAN   c_v+17
+ BYTE   W01
+ BYTE   VOL   27*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v+16
+ BYTE   W01
+ BYTE   PAN   c_v+15
+ BYTE   W01
+ BYTE   PAN   c_v+14
+ BYTE   N04  As3  v072
+ BYTE   W01
+ BYTE   PAN   c_v+13
+ BYTE   W01
+ BYTE   VOL   27*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v+12
+ BYTE   W01
+ BYTE   PAN   c_v+10
+ BYTE   W01
+ BYTE   PAN   c_v+9
+ BYTE   W01
+ BYTE   VOL   28*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v+8
+ BYTE   W01
+ BYTE   PAN   c_v+7
+ BYTE   N04  An3  v072
+ BYTE   W01
+ BYTE   PAN   c_v+6
+ BYTE   W01
+ BYTE   PAN   c_v+5
+ BYTE   W01
+ BYTE   VOL   28*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v+4
+ BYTE   W01
+ BYTE   PAN   c_v+3
+ BYTE   W01
+ BYTE   PAN   c_v+2
+ BYTE   W01
+ BYTE   PAN   c_v+1
+ BYTE   N04  Gn3  v072
+ BYTE   W01
+ BYTE   VOL   29*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v+0
+ BYTE   W01
+ BYTE   PAN   c_v-1
+ BYTE   W01
+ BYTE   PAN   c_v-2
+ BYTE   W01
+ BYTE   PAN   c_v-3
+ BYTE   W01
+ BYTE   VOL   29*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v-4
+ BYTE   W01
+ BYTE   PAN   c_v-6
+ BYTE   N04  Fn3  v072
+ BYTE   W01
+ BYTE   PAN   c_v-7
+ BYTE   W01
+ BYTE   PAN   c_v-8
+ BYTE   W01
+ BYTE   VOL   30*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v-9
+ BYTE   W01
+ BYTE   PAN   c_v-10
+ BYTE   W01
+ BYTE   PAN   c_v-11
+ BYTE   W01
+ BYTE   PAN   c_v-12
+ BYTE   N04  En3  v072
+ BYTE   W01
+ BYTE   VOL   30*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v-13
+ BYTE   W01
+ BYTE   PAN   c_v-14
+ BYTE   W01
+ BYTE   PAN   c_v-15
+ BYTE   W01
+ BYTE   PAN   c_v-16
+ BYTE   W01
+ BYTE   VOL   31*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v-17
+ BYTE   W01
+ BYTE   PAN   c_v-18
+ BYTE   N04  Dn3  v072
+ BYTE   W01
+ BYTE   PAN   c_v-19
+ BYTE   W01
+ BYTE   VOL   31*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v-21
+ BYTE   W01
+ BYTE   PAN   c_v-22
+ BYTE   W01
+ BYTE   PAN   c_v-23
+ BYTE   W01
+ BYTE   PAN   c_v-24
+ BYTE   W01
+ BYTE   VOL   32*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v-25
+ BYTE   N04  Cs3  v076
+ BYTE   W01
+ BYTE   PAN   c_v-26
+ BYTE   W01
+ BYTE   PAN   c_v-27
+ BYTE   W01
+ BYTE   PAN   c_v-28
+ BYTE   W01
+ BYTE   VOL   32*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v-29
+ BYTE   W01
+ BYTE   PAN   c_v-30
+ BYTE   W01
+ BYTE   PAN   c_v-31
+ BYTE   N04  As2  v076
+ BYTE   W01
+ BYTE   PAN   c_v-32
+ BYTE   W01
+ BYTE   VOL   33*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v-33
+ BYTE   W01
+ BYTE   PAN   c_v-34
+ BYTE   W01
+ BYTE   PAN   c_v-36
+ BYTE   W01
+ BYTE   PAN   c_v-37
+ BYTE   W01
+ BYTE   VOL   33*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v-38
+ BYTE   N04  An2  v076
+ BYTE   W01
+ BYTE   PAN   c_v-39
+ BYTE   W01
+//  #08 //010   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_0117186F
+//  #08 //011   ----------------------------------------
+ BYTE   PAN   c_v-40
+ BYTE   W01
+ BYTE   PAN   c_v-41
+ BYTE   W01
+ BYTE   VOL   34*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v-42
+ BYTE   W01
+ BYTE   PAN   c_v-43
+ BYTE   FINE
+
+//**************** Track 9 (Midi-Chn.8) ****************//
+
+FromEnemyToFriendFE4_009:
+//  #09 //000   ----------------------------------------
+ BYTE   KEYSH   FromEnemyToFriendFE4_key+0
+ BYTE   W09
+Label_01171B07:
+ BYTE   W04
+ BYTE   VOICE   63
+ BYTE   VOL   20*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   PAN   c_v-34
+ BYTE   N07  Gn2  v076
+ BYTE   W12
+ BYTE   N07  As2  v072
+ BYTE   W12
+ BYTE   N07  An2  v072
+ BYTE   W12
+ BYTE   N07  Fn2  v072
+ BYTE   W12
+ BYTE   N07  Gn2  v076
+ BYTE   W12
+ BYTE   N07  Dn3  v072
+ BYTE   W12
+ BYTE   N07  Cn3  v072
+ BYTE   W12
+//  #09 //001   ----------------------------------------
+ BYTE   N07  An2  v072
+ BYTE   W12
+ BYTE   N07  Gn2  v076
+ BYTE   W12
+ BYTE   N07  As2  v072
+ BYTE   W12
+ BYTE   N07  An2  v072
+ BYTE   W12
+ BYTE   N07  Fn2  v072
+ BYTE   W12
+ BYTE   N07  Gn2  v076
+ BYTE   W12
+ BYTE   N07  Dn3  v072
+ BYTE   W12
+ BYTE   N07  Cn3  v072
+ BYTE   W12
+//  #09 //002   ----------------------------------------
+ BYTE   N05  An2  v072
+ BYTE   W08
+ BYTE   W04
+ BYTE   PAN   c_v-14
+ BYTE   N24  Dn3  v068
+ BYTE   W36
+ BYTE   N24  Fn3  v068
+ BYTE   W36
+ BYTE   N28  En3  v068
+ BYTE   W36
+//  #09 //003   ----------------------------------------
+ BYTE   N24  Cn3  v080
+ BYTE   W36
+ BYTE   N09  Dn3  v068
+ BYTE   W24
+ BYTE   N10  En3  v056
+ BYTE   W20
+ BYTE   W04
+ BYTE   N24  Dn3  v068
+ BYTE   W36
+//  #09 //004   ----------------------------------------
+ BYTE   N24  An3  v068
+ BYTE   W36
+ BYTE   N20  Gn3  v072
+ BYTE   W36
+ BYTE   N23  En3  v076
+ BYTE   W36
+//  #09 //005   ----------------------------------------
+ BYTE   N08  Fn3  v072
+ BYTE   W24
+ BYTE   N09  Gn3  v068
+ BYTE   W20
+ BYTE   W16
+ BYTE   N10  Fn3  v064
+ BYTE   W12
+ BYTE   N10  En3  v060
+ BYTE   W12
+ BYTE   N10  Cn3  v052
+ BYTE   W12
+//  #09 //006   ----------------------------------------
+ BYTE   N10  Dn3  v064
+ BYTE   W12
+ BYTE   N10  An2  v056
+ BYTE   W12
+ BYTE   N10  Gn2  v064
+ BYTE   W12
+ BYTE   N10  En2  v060
+ BYTE   W12
+ BYTE   PAN   c_v-25
+ BYTE   W24
+ BYTE   N06  Dn3  v060
+ BYTE   W12
+ BYTE   N06  En3  v052
+ BYTE   W12
+//  #09 //007   ----------------------------------------
+ BYTE   N06  Fn3  v064
+ BYTE   W12
+ BYTE   N06  Gn3  v056
+ BYTE   W12
+ BYTE   N10  An3  v064
+ BYTE   W12
+ BYTE   N04  Gn3  v056
+ BYTE   W06
+ BYTE   N04  Fn3  v060
+ BYTE   W02
+ BYTE   W28
+ BYTE   N06  En3  v060
+ BYTE   W12
+ BYTE   N06  Fn3  v052
+ BYTE   W12
+//  #09 //008   ----------------------------------------
+ BYTE   N06  Gn3  v064
+ BYTE   W12
+ BYTE   N06  An3  v056
+ BYTE   W12
+ BYTE   N06  As3  v064
+ BYTE   W12
+ BYTE   N06  Gn3  v056
+ BYTE   W12
+ BYTE   N20  An3  v060
+ BYTE   W24
+ BYTE   N20  Dn4  v068
+ BYTE   W24
+//  #09 //009   ----------------------------------------
+ BYTE   N20  Cs4  v072
+ BYTE   W24
+ BYTE   N20  En4  v068
+ BYTE   W20
+ BYTE   W04
+ BYTE   N04  Fn4  v052
+ BYTE   W12
+ BYTE   N05  Dn4  v060
+ BYTE   W12
+ BYTE   N05  En4  v056
+ BYTE   W12
+ BYTE   N06  Cs4  v064
+ BYTE   W12
+//  #09 //010   ----------------------------------------
+ BYTE   N07  An3  v072
+ BYTE   W12
+ BYTE   N07  Fn3  v072
+ BYTE   W12
+ BYTE   N08  Dn3  v072
+ BYTE   W12
+ BYTE   N08  As2  v068
+ BYTE   W08
+ BYTE   GoTo
+  POIN2 Label_01171B07
+//  #09 //011   ----------------------------------------
+ BYTE   W03
+ BYTE   FINE
+
+//**************** Track 10 (Midi-Chn.9) ****************//
+
+FromEnemyToFriendFE4_010:
+//  #10 //000   ----------------------------------------
+ BYTE   VOL   20*FromEnemyToFriendFE4_mvl/mxv
+ BYTE   KEYSH   FromEnemyToFriendFE4_key+0
+ BYTE   W09
+Label_01171C15:
+ BYTE   VOICE   124
+ BYTE   W04
+ BYTE   N22  Cn1  v092
+ BYTE   N92  Cs2  v076
+ BYTE   W24
+ BYTE   N10  Dn1  v092
+ BYTE   W12
+ BYTE   N22  Cn1  v092
+ BYTE   W24
+ BYTE   N10  Cn1  v076
+ BYTE   W12
+ BYTE   N10  Dn1  v092
+ BYTE   W12
+//  #10 //001   ----------------------------------------
+ BYTE   N10  Cn1  v084
+ BYTE   W12
+ BYTE   N10  Cn1  v096
+ BYTE   W12
+ BYTE   N10  Cn1  v084
+ BYTE   W12
+ BYTE   N10  Dn1  v096
+ BYTE   W12
+ BYTE   N10  Cn1  v084
+ BYTE   W12
+ BYTE   N06  Dn1  v084
+ BYTE   W06
+ BYTE   N02  Dn1  v072
+ BYTE   W12
+ BYTE   N04  Dn1  v084
+ BYTE   W06
+ BYTE   N01  Dn1  v064
+ BYTE   W12
+//  #10 //002   ----------------------------------------
+ BYTE   N04  Dn1  v092
+ BYTE   W06
+ BYTE   N02  Dn1  v072
+ BYTE   W02
+ BYTE   W04
+ BYTE   N22  Cn1  v092
+ BYTE   N92  Cs2  v072
+ BYTE   W24
+ BYTE   N10  Dn1  v092
+ BYTE   W12
+ BYTE   N22  Cn1  v084
+ BYTE   W24
+ BYTE   N10  Cn1  v096
+ BYTE   W12
+ BYTE   N22  Dn1  v092
+ BYTE   W36
+//  #10 //003   ----------------------------------------
+ BYTE   N10  Cn1  v084
+ BYTE   W12
+ BYTE   N10  Dn1  v092
+ BYTE   W12
+ BYTE   N22  Cn1  v084
+ BYTE   W24
+ BYTE   N10  Cn1  v096
+ BYTE   W12
+ BYTE   N10  Dn1  v092
+ BYTE   W12
+ BYTE   N10  Dn1  v076
+ BYTE   W08
+ BYTE   W04
+ BYTE   N22  Cn1  v092
+ BYTE   W24
+//  #10 //004   ----------------------------------------
+ BYTE   N10  Dn1  v096
+ BYTE   W12
+ BYTE   N22  Cn1  v088
+ BYTE   W24
+ BYTE   N10  Cn1  v092
+ BYTE   W12
+ BYTE   N10  Dn1  v092
+ BYTE   W12
+ BYTE   N10  Cn1  v012
+ BYTE   W12
+ BYTE   N10  Cn1  v096
+ BYTE   W12
+ BYTE   N10  Cn1  v084
+ BYTE   W12
+//  #10 //005   ----------------------------------------
+ BYTE   N10  Dn1  v092
+ BYTE   W12
+ BYTE   N22  Cn1  v084
+ BYTE   W24
+ BYTE   N10  Cn1  v092
+ BYTE   W12
+ BYTE   N10  Dn1  v092
+ BYTE   W12
+ BYTE   N10  Dn1  v076
+ BYTE   W08
+ BYTE   W04
+ BYTE   N22  Cn1  v092
+ BYTE   W24
+//  #10 //006   ----------------------------------------
+ BYTE   N10  Dn1  v092
+ BYTE   W12
+ BYTE   N22  Cn1  v084
+ BYTE   W24
+ BYTE   N10  Cn1  v096
+ BYTE   W12
+ BYTE   N22  Dn1  v092
+ BYTE   W24
+ BYTE   N92  Cs2  v076
+ BYTE   N22  Cn1  v084
+ BYTE   W24
+//  #10 //007   ----------------------------------------
+ BYTE   N32  Dn1  v092
+ BYTE   W36
+ BYTE   N10  Cn1  v084
+ BYTE   W12
+ BYTE   N22  Dn1  v092
+ BYTE   W20
+ BYTE   W04
+ BYTE   N22  Cn1  v084
+ BYTE   W24
+//  #10 //008   ----------------------------------------
+ BYTE   N32  Dn1  v092
+ BYTE   W36
+ BYTE   N10  Cn1  v084
+ BYTE   W12
+ BYTE   N10  Dn1  v092
+ BYTE   W12
+ BYTE   N10  Cn1  v092
+ BYTE   W12
+ BYTE   N22  Cn1  v084
+ BYTE   W24
+//  #10 //009   ----------------------------------------
+ BYTE   N32  Dn1  v092
+ BYTE   W36
+ BYTE   N10  Cn1  v084
+ BYTE   W12
+ BYTE   N22  Dn1  v092
+ BYTE   W20
+ BYTE   W04
+ BYTE   N22  Cn1  v084
+ BYTE   W24
+//  #10 //010   ----------------------------------------
+ BYTE   N32  Dn1  v092
+ BYTE   W36
+ BYTE   N10  Cn1  v084
+ BYTE   W12
+ BYTE   N10  Dn1  v092
+ BYTE   W12
+ BYTE   N10  Cn1  v092
+ BYTE   W08
+ BYTE   GoTo
+  POIN2 Label_01171C15
+//  #10 //011   ----------------------------------------
+ BYTE   W03
+ BYTE   FINE
+
+//******************************************************//
+	ALIGN 4
+
+FromEnemyToFriendFE4:
+	BYTE	10	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	FromEnemyToFriendFE4_pri	// Priority
+	BYTE	FromEnemyToFriendFE4_rev	// Reverb.
+    
+	POIN2	FromEnemyToFriendFE4_grp
+    
+	POIN2	FromEnemyToFriendFE4_001
+	POIN2	FromEnemyToFriendFE4_002
+	POIN2	FromEnemyToFriendFE4_003
+	POIN2	FromEnemyToFriendFE4_004
+	POIN2	FromEnemyToFriendFE4_005
+	POIN2	FromEnemyToFriendFE4_006
+	POIN2	FromEnemyToFriendFE4_007
+	POIN2	FromEnemyToFriendFE4_008
+	POIN2	FromEnemyToFriendFE4_009
+	POIN2	FromEnemyToFriendFE4_010
+
+	

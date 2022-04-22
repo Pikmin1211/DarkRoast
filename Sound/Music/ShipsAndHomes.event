@@ -1,0 +1,721 @@
+//Event file generated from Sappy .s format.
+	
+
+	#define	ShipsAndHomes_grp  voicegroup000
+	#define	ShipsAndHomes_pri  10
+	#define	ShipsAndHomes_rev  0
+	#define	ShipsAndHomes_mvl  127
+	#define	ShipsAndHomes_key  0
+	#define	ShipsAndHomes_tbs  1
+	#define	ShipsAndHomes_exg  0
+	#define	ShipsAndHomes_cmp  1
+
+	// .rodata
+	//	ShipsAndHomes
+	ALIGN 4
+
+
+//**************** Track 1 (Midi-Chn.0) ****************//
+
+ShipsAndHomes_001:
+//  #01 //000   ----------------------------------------
+Label_01489908:
+ BYTE   TEMPO   96*ShipsAndHomes_tbs/2
+ BYTE   KEYSH   ShipsAndHomes_key+0
+ BYTE   VOICE   21
+ BYTE   VOL   43*ShipsAndHomes_mvl/mxv
+ BYTE   PAN   c_v-30
+ BYTE   N06  An3  v092
+ BYTE   W06
+ BYTE   Fn3  v072
+ BYTE   W06
+ BYTE   Gn3  v092
+ BYTE   W06
+ BYTE   Fn3  v072
+ BYTE   W06
+ BYTE   An3  v092
+ BYTE   W06
+ BYTE   Fn3  v072
+ BYTE   W06
+ BYTE   As3  v092
+ BYTE   W06
+ BYTE   Fn3  v072
+ BYTE   W06
+ BYTE   Cn4  v092
+ BYTE   W06
+ BYTE   Fn3  v072
+ BYTE   W06
+ BYTE   As3  v092
+ BYTE   W06
+ BYTE   Fn3  v072
+ BYTE   W06
+ BYTE   An3  v092
+ BYTE   W06
+ BYTE   Fn3  v072
+ BYTE   W06
+ BYTE   Gn3  v092
+ BYTE   W06
+ BYTE   Fn3  v072
+ BYTE   W06
+//  #01 //001   ----------------------------------------
+Label_01489943:
+ BYTE   N06  An3  v092
+ BYTE   W06
+ BYTE   Fn3  v072
+ BYTE   W06
+ BYTE   Gn3  v092
+ BYTE   W06
+ BYTE   Cn3  v072
+ BYTE   W06
+ BYTE   En3  v092
+ BYTE   W06
+ BYTE   Cn3  v072
+ BYTE   W06
+ BYTE   Gn3  v092
+ BYTE   W06
+ BYTE   Cn3  v072
+ BYTE   W06
+ BYTE   An3  v092
+ BYTE   W06
+ BYTE   Fn3  v072
+ BYTE   W06
+ BYTE   Gn3  v092
+ BYTE   W06
+ BYTE   Fn3  v072
+ BYTE   W06
+ BYTE   An3  v092
+ BYTE   W06
+ BYTE   Fn3  v072
+ BYTE   W06
+ BYTE   As3  v092
+ BYTE   W06
+ BYTE   Fn3  v072
+ BYTE   W06
+ BYTE   PEND 
+//  #01 //002   ----------------------------------------
+Label_01489975:
+ BYTE   N06  Cn4  v092
+ BYTE   W06
+ BYTE   Fn3  v072
+ BYTE   W06
+ BYTE   As3  v092
+ BYTE   W06
+ BYTE   Fn3  v072
+ BYTE   W06
+ BYTE   An3  v092
+ BYTE   W06
+ BYTE   Fn3  v072
+ BYTE   W06
+ BYTE   Gn3  v092
+ BYTE   W06
+ BYTE   Fn3  v072
+ BYTE   W06
+ BYTE   An3  v092
+ BYTE   W06
+ BYTE   Fn3  v072
+ BYTE   W06
+ BYTE   Gn3  v092
+ BYTE   W06
+ BYTE   Cn3  v072
+ BYTE   W06
+ BYTE   En3  v092
+ BYTE   W06
+ BYTE   Cn3  v072
+ BYTE   W06
+ BYTE   N12  Fn3  v092
+ BYTE   W12
+ BYTE   PEND 
+//  #01 //003   ----------------------------------------
+Label_014899A5:
+ BYTE   N06  Dn3  v092
+ BYTE   W06
+ BYTE   As2  v072
+ BYTE   W06
+ BYTE   En3  v092
+ BYTE   W06
+ BYTE   As2  v072
+ BYTE   W06
+ BYTE   Dn3  v092
+ BYTE   W06
+ BYTE   As2  v072
+ BYTE   W06
+ BYTE   Fn3  v092
+ BYTE   W06
+ BYTE   As2  v072
+ BYTE   W06
+ BYTE   En3  v092
+ BYTE   W06
+ BYTE   As2  v072
+ BYTE   W06
+ BYTE   Dn3  v092
+ BYTE   W06
+ BYTE   As2  v072
+ BYTE   W06
+ BYTE   Cn3  v092
+ BYTE   W06
+ BYTE   Gn2  v072
+ BYTE   W06
+ BYTE   Dn3  v092
+ BYTE   W06
+ BYTE   Gn2  v072
+ BYTE   W06
+ BYTE   PEND 
+//  #01 //004   ----------------------------------------
+Label_014899D7:
+ BYTE   N06  As2  v092
+ BYTE   W06
+ BYTE   Gn2  v072
+ BYTE   W06
+ BYTE   Cn3  v092
+ BYTE   W06
+ BYTE   Gn2  v072
+ BYTE   W06
+ BYTE   Dn3  v092
+ BYTE   W06
+ BYTE   Gn2  v072
+ BYTE   W06
+ BYTE   En3  v092
+ BYTE   W06
+ BYTE   Gn2  v072
+ BYTE   W06
+ BYTE   Dn3  v092
+ BYTE   W06
+ BYTE   As2  v072
+ BYTE   W06
+ BYTE   En3  v092
+ BYTE   W06
+ BYTE   As2  v072
+ BYTE   W06
+ BYTE   Dn3  v092
+ BYTE   W06
+ BYTE   As2  v072
+ BYTE   W06
+ BYTE   Fn3  v092
+ BYTE   W06
+ BYTE   As2  v072
+ BYTE   W06
+ BYTE   PEND 
+//  #01 //005   ----------------------------------------
+Label_01489A09:
+ BYTE   N06  En3  v092
+ BYTE   W06
+ BYTE   As2  v072
+ BYTE   W06
+ BYTE   Dn3  v092
+ BYTE   W06
+ BYTE   As2  v072
+ BYTE   W06
+ BYTE   Cn3  v092
+ BYTE   W06
+ BYTE   As2  v072
+ BYTE   W06
+ BYTE   Dn3  v092
+ BYTE   W06
+ BYTE   As2  v072
+ BYTE   W06
+ BYTE   En3  v092
+ BYTE   W06
+ BYTE   As2  v072
+ BYTE   W06
+ BYTE   Fn3  v092
+ BYTE   W06
+ BYTE   Cn3  v072
+ BYTE   W06
+ BYTE   Gn3  v092
+ BYTE   W06
+ BYTE   Cn3  v072
+ BYTE   W06
+ BYTE   N12  As3  v092
+ BYTE   W12
+ BYTE   PEND 
+//  #01 //006   ----------------------------------------
+ BYTE   N06  An3  v092
+ BYTE   W06
+ BYTE   Fn3  v072
+ BYTE   W06
+ BYTE   Gn3  v092
+ BYTE   W06
+ BYTE   Fn3  v072
+ BYTE   W06
+ BYTE   An3  v092
+ BYTE   W06
+ BYTE   Fn3  v072
+ BYTE   W06
+ BYTE   As3  v092
+ BYTE   W06
+ BYTE   Fn3  v072
+ BYTE   W06
+ BYTE   Cn4  v092
+ BYTE   W06
+ BYTE   Fn3  v072
+ BYTE   W06
+ BYTE   As3  v092
+ BYTE   W06
+ BYTE   Fn3  v072
+ BYTE   W06
+ BYTE   An3  v092
+ BYTE   W06
+ BYTE   Fn3  v072
+ BYTE   W06
+ BYTE   Gn3  v092
+ BYTE   W06
+ BYTE   Fn3  v072
+ BYTE   W06
+//  #01 //007   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01489943
+//  #01 //008   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01489975
+//  #01 //009   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_014899A5
+//  #01 //010   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_014899D7
+//  #01 //011   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01489A09
+//  #01 //012   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_01489908
+ BYTE   FINE
+
+//**************** Track 2 (Midi-Chn.1) ****************//
+
+ShipsAndHomes_002:
+//  #02 //000   ----------------------------------------
+Label_01489FA4:
+ BYTE   TEMPO   96*ShipsAndHomes_tbs/2
+ BYTE   KEYSH   ShipsAndHomes_key+0
+ BYTE   VOICE   70
+ BYTE   VOL   50*ShipsAndHomes_mvl/mxv
+ BYTE   PAN   c_v+0
+ BYTE   N05  Fn2  v080
+ BYTE   W36
+ BYTE   N06
+ BYTE   W36
+ BYTE   Fn2
+ BYTE   W36
+//  #02 //001   ----------------------------------------
+Label_01489FB6:
+ BYTE   N06  Fn2  v080
+ BYTE   W36
+ BYTE   Fn2
+ BYTE   W36
+ BYTE   Fn2
+ BYTE   W36
+ BYTE   PEND 
+//  #02 //002   ----------------------------------------
+ BYTE   N06  Fn2  v080
+ BYTE   W36
+ BYTE   Fn2
+ BYTE   W36
+ BYTE   As1
+ BYTE   W36
+//  #02 //003   ----------------------------------------
+ BYTE   As1
+ BYTE   W36
+ BYTE   Cn2
+ BYTE   W36
+ BYTE   Cn2
+ BYTE   W36
+//  #02 //004   ----------------------------------------
+ BYTE   As1
+ BYTE   W36
+ BYTE   As1
+ BYTE   W36
+ BYTE   As1
+ BYTE   W36
+//  #02 //005   ----------------------------------------
+ BYTE   N36  Cn2
+ BYTE   W36
+ BYTE   N06  Fn2
+ BYTE   W36
+ BYTE   Fn2
+ BYTE   W36
+//  #02 //006   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01489FB6
+//  #02 //007   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01489FB6
+//  #02 //008   ----------------------------------------
+ BYTE   N06  As1  v080
+ BYTE   W36
+ BYTE   As1
+ BYTE   W36
+ BYTE   Cn2
+ BYTE   W36
+//  #02 //009   ----------------------------------------
+ BYTE   Cn2
+ BYTE   W36
+ BYTE   As1
+ BYTE   W36
+ BYTE   As1
+ BYTE   W36
+//  #02 //010   ----------------------------------------
+ BYTE   As1
+ BYTE   W36
+ BYTE   N36  Cn2
+ BYTE   W36
+ BYTE   GoTo
+  POIN2 Label_01489FA4
+ BYTE   FINE
+
+//**************** Track 3 (Midi-Chn.2) ****************//
+
+ShipsAndHomes_003:
+//  #03 //000   ----------------------------------------
+Label_01489E00:
+ BYTE   TEMPO   96*ShipsAndHomes_tbs/2
+ BYTE   KEYSH   ShipsAndHomes_key+0
+ BYTE   VOICE   46
+ BYTE   VOL   50*ShipsAndHomes_mvl/mxv
+ BYTE   PAN   c_v+20
+ BYTE   N12  Fn3  v080
+ BYTE   W12
+ BYTE   An3
+ BYTE   W12
+ BYTE   Cn4
+ BYTE   W12
+ BYTE   N36  Fn4
+ BYTE   W36
+ BYTE   N12  Fn3
+ BYTE   W12
+ BYTE   An3
+ BYTE   W12
+//  #03 //001   ----------------------------------------
+ BYTE   Cn4
+ BYTE   W12
+ BYTE   En4
+ BYTE   W12
+ BYTE   Cn4
+ BYTE   W12
+ BYTE   Gn3
+ BYTE   W12
+ BYTE   Fn3
+ BYTE   W12
+ BYTE   An3
+ BYTE   W12
+ BYTE   Cn4
+ BYTE   W12
+ BYTE   N36  Fn4
+ BYTE   W36
+//  #03 //002   ----------------------------------------
+ BYTE   N12  Fn3
+ BYTE   W12
+ BYTE   An3
+ BYTE   W12
+ BYTE   Cn4
+ BYTE   W12
+ BYTE   En4
+ BYTE   W12
+ BYTE   Cn4
+ BYTE   W12
+ BYTE   Fn4
+ BYTE   W12
+ BYTE   Dn3
+ BYTE   W12
+ BYTE   Fn3
+ BYTE   W12
+//  #03 //003   ----------------------------------------
+ BYTE   As3
+ BYTE   W12
+ BYTE   N36  Dn4
+ BYTE   W36
+ BYTE   N12  En3
+ BYTE   W12
+ BYTE   Gn3
+ BYTE   W12
+ BYTE   Cn4
+ BYTE   W12
+ BYTE   En4
+ BYTE   W12
+//  #03 //004   ----------------------------------------
+ BYTE   Cn4
+ BYTE   W12
+ BYTE   Gn3
+ BYTE   W12
+ BYTE   Dn3
+ BYTE   W12
+ BYTE   Fn3
+ BYTE   W12
+ BYTE   As3
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   As3
+ BYTE   W12
+ BYTE   Fn3
+ BYTE   W12
+//  #03 //005   ----------------------------------------
+ BYTE   Dn3
+ BYTE   W12
+ BYTE   Fn3
+ BYTE   W12
+ BYTE   As3
+ BYTE   W12
+ BYTE   Cn4
+ BYTE   W12
+ BYTE   En4
+ BYTE   W12
+ BYTE   Gn4
+ BYTE   W96
+//  #03 //006   ----------------------------------------
+ BYTE   W96
+//  #03 //007   ----------------------------------------
+ BYTE   W96
+//  #03 //008   ----------------------------------------
+ BYTE   W96
+//  #03 //009   ----------------------------------------
+ BYTE   W96
+//  #03 //010   ----------------------------------------
+ BYTE   W96
+//  #03 //011   ----------------------------------------
+ BYTE   W12
+ BYTE   GoTo
+  POIN2 Label_01489E00
+ BYTE   FINE
+
+//**************** Track 4 (Midi-Chn.3) ****************//
+
+ShipsAndHomes_004:
+//  #04 //000   ----------------------------------------
+Label_01489BC8:
+ BYTE   TEMPO   96*ShipsAndHomes_tbs/2
+ BYTE   KEYSH   ShipsAndHomes_key+0
+ BYTE   VOICE   14
+ BYTE   W96
+//  #04 //001   ----------------------------------------
+ BYTE   W96
+//  #04 //002   ----------------------------------------
+ BYTE   W96
+//  #04 //003   ----------------------------------------
+ BYTE   W96
+//  #04 //004   ----------------------------------------
+ BYTE   W96
+//  #04 //005   ----------------------------------------
+ BYTE   W84
+ BYTE   VOL   45*ShipsAndHomes_mvl/mxv
+ BYTE   W06
+ BYTE   PAN   c_v+10
+ BYTE   W06
+//  #04 //006   ----------------------------------------
+ BYTE   N36  Fn4  v072
+ BYTE   W36
+ BYTE   Gn4
+ BYTE   W36
+ BYTE   An4
+ BYTE   W36
+//  #04 //007   ----------------------------------------
+ BYTE   N30  As4
+ BYTE   W30
+ BYTE   N06  As4  v020
+ BYTE   W06
+ BYTE   N36  An4  v072
+ BYTE   W36
+ BYTE   Fn4
+ BYTE   W36
+//  #04 //008   ----------------------------------------
+ BYTE   N24  Gn4
+ BYTE   W24
+ BYTE   En4
+ BYTE   W24
+ BYTE   N18  Fn4
+ BYTE   W18
+ BYTE   N06  Fn4  v020
+ BYTE   W06
+ BYTE   N36  Fn4  v072
+ BYTE   W36
+//  #04 //009   ----------------------------------------
+ BYTE   Dn4
+ BYTE   W36
+ BYTE   N42  En4
+ BYTE   W42
+ BYTE   N06  En4  v020
+ BYTE   W06
+ BYTE   N12  Gn4  v072
+ BYTE   W12
+//  #04 //010   ----------------------------------------
+ BYTE   En4
+ BYTE   W12
+ BYTE   N36  Fn4
+ BYTE   W36
+ BYTE   Dn4
+ BYTE   W36
+ BYTE   N24  En4
+ BYTE   W24
+//  #04 //011   ----------------------------------------
+ BYTE   Gn4
+ BYTE   W24
+ BYTE   N18  Cn5
+ BYTE   W18
+ BYTE   N06  Cn5  v020
+ BYTE   W06
+ BYTE   GoTo
+  POIN2 Label_01489BC8
+ BYTE   FINE
+
+//**************** Track 5 (Midi-Chn.4) ****************//
+
+ShipsAndHomes_005:
+//  #05 //000   ----------------------------------------
+Label_01489AB0:
+ BYTE   TEMPO   96*ShipsAndHomes_tbs/2
+ BYTE   KEYSH   ShipsAndHomes_key+0
+ BYTE   VOICE   127
+ BYTE   VOL   52*ShipsAndHomes_mvl/mxv
+ BYTE   PAN   c_v-15
+ BYTE   N11  Gs2  v096
+ BYTE   W12
+ BYTE   N12  Fs2  v080
+ BYTE   W12
+ BYTE   N11
+ BYTE   W12
+ BYTE   N12  Ds4  v112
+ BYTE   W12
+ BYTE   Fs2  v080
+ BYTE   W12
+ BYTE   N11
+ BYTE   W12
+ BYTE   Gs2  v096
+ BYTE   W12
+ BYTE   N12  Fs2  v080
+ BYTE   W12
+//  #05 //001   ----------------------------------------
+Label_01489AD4:
+ BYTE   N11  Fs2  v080
+ BYTE   W12
+ BYTE   N12  Ds4  v112
+ BYTE   W12
+ BYTE   N05  Fs2  v080
+ BYTE   W06
+ BYTE   Fs2
+ BYTE   W06
+ BYTE   N11
+ BYTE   W12
+ BYTE   Gs2  v096
+ BYTE   W12
+ BYTE   N05  Fs2  v080
+ BYTE   W06
+ BYTE   Fs2
+ BYTE   W06
+ BYTE   N11
+ BYTE   W12
+ BYTE   N12  Ds4  v112
+ BYTE   W12
+ BYTE   PEND 
+//  #05 //002   ----------------------------------------
+Label_01489AF4:
+ BYTE   N12  Fs2  v080
+ BYTE   W12
+ BYTE   N11
+ BYTE   N11  Ds4
+ BYTE   W12
+ BYTE   Gs2  v096
+ BYTE   W12
+ BYTE   N12  Fs2  v080
+ BYTE   W12
+ BYTE   N11
+ BYTE   N11  Ds4  v112
+ BYTE   W12
+ BYTE   Ds4
+ BYTE   W12
+ BYTE   N05  Fs2  v080
+ BYTE   W06
+ BYTE   Fs2
+ BYTE   W06
+ BYTE   N11
+ BYTE   W12
+ BYTE   PEND 
+//  #05 //003   ----------------------------------------
+Label_01489B13:
+ BYTE   N11  Gs2  v096
+ BYTE   W12
+ BYTE   N12  Fs2  v080
+ BYTE   W12
+ BYTE   N11
+ BYTE   W12
+ BYTE   N12  Ds4  v112
+ BYTE   W12
+ BYTE   Fs2  v080
+ BYTE   W12
+ BYTE   N11
+ BYTE   W12
+ BYTE   Gs2  v096
+ BYTE   W12
+ BYTE   N12  Fs2  v080
+ BYTE   W12
+ BYTE   PEND 
+//  #05 //004   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01489AD4
+//  #05 //005   ----------------------------------------
+Label_01489B33:
+ BYTE   N12  Fs2  v080
+ BYTE   W12
+ BYTE   N11
+ BYTE   N11  Ds4
+ BYTE   W12
+ BYTE   Gs2  v096
+ BYTE   W12
+ BYTE   N12  Fs2  v080
+ BYTE   W12
+ BYTE   N11
+ BYTE   N11  Ds4  v112
+ BYTE   W12
+ BYTE   Ds4
+ BYTE   W12
+ BYTE   N02  Fs2  v052
+ BYTE   W03
+ BYTE   N03  Fs2  v048
+ BYTE   W03
+ BYTE   Fs2  v040
+ BYTE   W03
+ BYTE   N02
+ BYTE   W03
+ BYTE   N11  Fs2  v080
+ BYTE   W12
+ BYTE   PEND 
+//  #05 //006   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01489B13
+//  #05 //007   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01489AD4
+//  #05 //008   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01489AF4
+//  #05 //009   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01489B13
+//  #05 //010   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01489AD4
+//  #05 //011   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01489B33
+//  #05 //012   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_01489AB0
+ BYTE   FINE
+
+//******************************************************//
+	ALIGN 4
+
+ShipsAndHomes:
+	BYTE	5	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	ShipsAndHomes_pri	// Priority
+	BYTE	ShipsAndHomes_rev	// Reverb.
+    
+	POIN2	ShipsAndHomes_grp
+    
+	POIN2	ShipsAndHomes_001
+	POIN2	ShipsAndHomes_002
+	POIN2	ShipsAndHomes_003
+	POIN2	ShipsAndHomes_004
+	POIN2	ShipsAndHomes_005
+
+	
