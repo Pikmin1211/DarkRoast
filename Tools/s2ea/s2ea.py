@@ -78,11 +78,11 @@ def s2ea(sfiledir: str, startindex = 0):
     path = os.path.commonprefix([sfiledir, file])
     file = os.path.relpath(file, path)
     file = file.replace(".s", ".event")
-    #installer.write("{\n")
+    installer.write("{\n")
     installer.write('#include "' + file + '"\n')
     installer.write('#define ' + name + "_Song " + hex(currentindex) + "\n")
     installer.write("SoundTableEntry(" + name + "_Song, " + name + ", 1)\n")
-    #installer.write("}\n")
+    installer.write("}\n")
     currentindex += 1
 
   installer.close()

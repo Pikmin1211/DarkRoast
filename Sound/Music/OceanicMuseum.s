@@ -1,27 +1,27 @@
 	.include "MPlayDef.s"
 
-	.equ	song02_grp, voicegroup000
-	.equ	song02_pri, 0
-	.equ	song02_rev, 0
-	.equ	song02_mvl, 127
-	.equ	song02_key, 0
-	.equ	song02_tbs, 1
-	.equ	song02_exg, 0
-	.equ	song02_cmp, 1
+	.equ	OceanicMuseum_grp, voicegroup000
+	.equ	OceanicMuseum_pri, 0
+	.equ	OceanicMuseum_rev, 0
+	.equ	OceanicMuseum_mvl, 127
+	.equ	OceanicMuseum_key, 0
+	.equ	OceanicMuseum_tbs, 1
+	.equ	OceanicMuseum_exg, 0
+	.equ	OceanicMuseum_cmp, 1
 
 	.section .rodata
-	.global	song02
+	.global	OceanicMuseum
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song02_001:
+OceanicMuseum_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
- .byte   TEMPO , 120*song02_tbs/2
+ .byte   KEYSH , OceanicMuseum_key+0
+ .byte   TEMPO , 120*OceanicMuseum_tbs/2
  .byte   VOICE , 0
- .byte   VOL , 40*song02_mvl/mxv
+ .byte   VOL , 40*OceanicMuseum_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N42 ,Dn2 ,v100
  .byte   W80
@@ -30,10 +30,10 @@ song02_001:
 @  #01 @001   ----------------------------------------
  .byte   N08
  .byte   W48
- .byte   TEMPO , 68*song02_tbs/2
+ .byte   TEMPO , 68*OceanicMuseum_tbs/2
  .byte   N30 ,Cs3
  .byte   W32
- .byte   TEMPO , 120*song02_tbs/2
+ .byte   TEMPO , 120*OceanicMuseum_tbs/2
  .byte   N16 ,Cs2
  .byte   W16
 @  #01 @002   ----------------------------------------
@@ -52,10 +52,10 @@ song02_001:
  .byte   W32
  .byte   N08 ,An1
  .byte   W16
- .byte   TEMPO , 68*song02_tbs/2
+ .byte   TEMPO , 68*OceanicMuseum_tbs/2
  .byte   N44 ,Cs2
  .byte   W32
- .byte   TEMPO , 120*song02_tbs/2
+ .byte   TEMPO , 120*OceanicMuseum_tbs/2
  .byte   W16
 @  #01 @004   ----------------------------------------
  .byte   N09 ,An3 ,v072
@@ -86,7 +86,7 @@ song02_001:
  .byte   W07
  .byte   An4
  .byte   W08
- .byte   TEMPO , 88*song02_tbs/2
+ .byte   TEMPO , 88*OceanicMuseum_tbs/2
  .byte   Cs4 ,v072
  .byte   W07
  .byte   Fs4 ,v052
@@ -493,11 +493,11 @@ Label_01005612:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song02_002:
+OceanicMuseum_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , OceanicMuseum_key+0
  .byte   VOICE , 68
- .byte   VOL , 47*song02_mvl/mxv
+ .byte   VOL , 47*OceanicMuseum_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N16 ,Dn3 ,v100
  .byte   W16
@@ -1093,11 +1093,11 @@ Label_01005BA5:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song02_003:
+OceanicMuseum_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , OceanicMuseum_key+0
  .byte   VOICE , 4
- .byte   VOL , 40*song02_mvl/mxv
+ .byte   VOL , 40*OceanicMuseum_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N44 ,An2 ,v100
  .byte   W48
@@ -1432,11 +1432,11 @@ Label_010052AD:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song02_004:
+OceanicMuseum_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , OceanicMuseum_key+0
  .byte   VOICE , 46
- .byte   VOL , 53*song02_mvl/mxv
+ .byte   VOL , 53*OceanicMuseum_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #04 @001   ----------------------------------------
@@ -1893,11 +1893,11 @@ Label_010058B4:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song02_005:
+OceanicMuseum_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , OceanicMuseum_key+0
  .byte   VOICE , 40
- .byte   VOL , 34*song02_mvl/mxv
+ .byte   VOL , 34*OceanicMuseum_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #05 @001   ----------------------------------------
@@ -2255,11 +2255,11 @@ Label_010050E1:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song02_006:
+OceanicMuseum_006:
 @  #06 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , OceanicMuseum_key+0
  .byte   VOICE , 36
- .byte   VOL , 53*song02_mvl/mxv
+ .byte   VOL , 53*OceanicMuseum_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #06 @001   ----------------------------------------
@@ -2689,11 +2689,11 @@ Label_0100D44D:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-song02_007:
+OceanicMuseum_007:
 @  #07 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , OceanicMuseum_key+0
  .byte   VOICE , 127
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*OceanicMuseum_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #07 @001   ----------------------------------------
@@ -3072,20 +3072,20 @@ Label_01004E36:
 @******************************************************@
 	.align	2
 
-song02:
+OceanicMuseum:
 	.byte	7	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song02_pri	@ Priority
-	.byte	song02_rev	@ Reverb.
+	.byte	OceanicMuseum_pri	@ Priority
+	.byte	OceanicMuseum_rev	@ Reverb.
     
-	.word	song02_grp
+	.word	OceanicMuseum_grp
     
-	.word	song02_001
-	.word	song02_002
-	.word	song02_003
-	.word	song02_004
-	.word	song02_005
-	.word	song02_006
-	.word	song02_007
+	.word	OceanicMuseum_001
+	.word	OceanicMuseum_002
+	.word	OceanicMuseum_003
+	.word	OceanicMuseum_004
+	.word	OceanicMuseum_005
+	.word	OceanicMuseum_006
+	.word	OceanicMuseum_007
 
 	.end

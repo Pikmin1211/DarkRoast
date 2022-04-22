@@ -1,28 +1,28 @@
 	.include "MPlayDef.s"
 
-	.equ	song015C_grp, voicegroup000
-	.equ	song015C_pri, 0
-	.equ	song015C_rev, 0
-	.equ	song015C_mvl, 127
-	.equ	song015C_key, 0
-	.equ	song015C_tbs, 1
-	.equ	song015C_exg, 0
-	.equ	song015C_cmp, 1
+	.equ	FirstStepTowardsWar_grp, voicegroup000
+	.equ	FirstStepTowardsWar_pri, 0
+	.equ	FirstStepTowardsWar_rev, 0
+	.equ	FirstStepTowardsWar_mvl, 127
+	.equ	FirstStepTowardsWar_key, 0
+	.equ	FirstStepTowardsWar_tbs, 1
+	.equ	FirstStepTowardsWar_exg, 0
+	.equ	FirstStepTowardsWar_cmp, 1
 
 	.section .rodata
-	.global	song015C
+	.global	FirstStepTowardsWar
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song015C_001:
+FirstStepTowardsWar_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , song015C_key+0
- .byte   TEMPO , 144*song015C_tbs/2
+ .byte   KEYSH , FirstStepTowardsWar_key+0
+ .byte   TEMPO , 144*FirstStepTowardsWar_tbs/2
  .byte   VOICE , 61
  .byte   PAN , c_v+0
- .byte   VOL , 31*song015C_mvl/mxv
+ .byte   VOL , 31*FirstStepTowardsWar_mvl/mxv
  .byte   W96
 @  #01 @001   ----------------------------------------
  .byte   W96
@@ -570,12 +570,12 @@ Label_011F2F6F:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song015C_002:
+FirstStepTowardsWar_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , song015C_key+0
+ .byte   KEYSH , FirstStepTowardsWar_key+0
  .byte   VOICE , 36
  .byte   PAN , c_v+0
- .byte   VOL , 25*song015C_mvl/mxv
+ .byte   VOL , 25*FirstStepTowardsWar_mvl/mxv
  .byte   W96
 @  #02 @001   ----------------------------------------
  .byte   W96
@@ -1686,12 +1686,12 @@ Label_011FB992:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song015C_003:
+FirstStepTowardsWar_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , song015C_key+0
+ .byte   KEYSH , FirstStepTowardsWar_key+0
  .byte   VOICE , 28
  .byte   PAN , c_v-10
- .byte   VOL , 20*song015C_mvl/mxv
+ .byte   VOL , 20*FirstStepTowardsWar_mvl/mxv
  .byte   BEND , c_v+0
  .byte   W96
 @  #03 @001   ----------------------------------------
@@ -1959,12 +1959,12 @@ Label_011F30C3:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song015C_004:
+FirstStepTowardsWar_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , song015C_key+0
+ .byte   KEYSH , FirstStepTowardsWar_key+0
  .byte   VOICE , 29
  .byte   PAN , c_v+26
- .byte   VOL , 20*song015C_mvl/mxv
+ .byte   VOL , 20*FirstStepTowardsWar_mvl/mxv
  .byte   BEND , c_v+0
  .byte   W96
 @  #04 @001   ----------------------------------------
@@ -3064,12 +3064,12 @@ Label_011FBF31:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song015C_005:
+FirstStepTowardsWar_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , song015C_key+0
+ .byte   KEYSH , FirstStepTowardsWar_key+0
  .byte   VOICE , 100
  .byte   PAN , c_v-10
- .byte   VOL , 16*song015C_mvl/mxv
+ .byte   VOL , 16*FirstStepTowardsWar_mvl/mxv
  .byte   BEND , c_v+0
  .byte   W96
 @  #05 @001   ----------------------------------------
@@ -3592,7 +3592,7 @@ Label_011F3352:
  .byte   W92
  .byte   W03
  .byte   VOICE , 60
- .byte   VOL , 20*song015C_mvl/mxv
+ .byte   VOL , 20*FirstStepTowardsWar_mvl/mxv
  .byte   W01
 @  #05 @095   ----------------------------------------
 Label_011F343B:
@@ -3713,12 +3713,12 @@ Label_011F3466:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song015C_006:
+FirstStepTowardsWar_006:
 @  #06 @000   ----------------------------------------
- .byte   KEYSH , song015C_key+0
+ .byte   KEYSH , FirstStepTowardsWar_key+0
  .byte   VOICE , 48
  .byte   PAN , c_v+0
- .byte   VOL , 22*song015C_mvl/mxv
+ .byte   VOL , 22*FirstStepTowardsWar_mvl/mxv
  .byte   MOD 0
  .byte   MOD 0
  .byte   N92 ,Dn1 ,v092
@@ -4473,12 +4473,12 @@ Label_011F3808:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-song015C_007:
+FirstStepTowardsWar_007:
 @  #07 @000   ----------------------------------------
- .byte   KEYSH , song015C_key+0
+ .byte   KEYSH , FirstStepTowardsWar_key+0
  .byte   VOICE , 61
  .byte   PAN , c_v+20
- .byte   VOL , 25*song015C_mvl/mxv
+ .byte   VOL , 25*FirstStepTowardsWar_mvl/mxv
  .byte   MOD 0
  .byte   MOD 0
  .byte   W96
@@ -4915,12 +4915,12 @@ Label_011F3A5E:
 
 @**************** Track 8 (Midi-Chn.7) ****************@
 
-song015C_008:
+FirstStepTowardsWar_008:
 @  #08 @000   ----------------------------------------
- .byte   KEYSH , song015C_key+0
+ .byte   KEYSH , FirstStepTowardsWar_key+0
  .byte   VOICE , 48
  .byte   PAN , c_v+26
- .byte   VOL , 22*song015C_mvl/mxv
+ .byte   VOL , 22*FirstStepTowardsWar_mvl/mxv
  .byte   W96
 @  #08 @001   ----------------------------------------
  .byte   W96
@@ -5226,12 +5226,12 @@ Label_011F3B8C:
 
 @**************** Track 9 (Midi-Chn.8) ****************@
 
-song015C_009:
+FirstStepTowardsWar_009:
 @  #09 @000   ----------------------------------------
- .byte   KEYSH , song015C_key+0
+ .byte   KEYSH , FirstStepTowardsWar_key+0
  .byte   VOICE , 48
  .byte   PAN , c_v-24
- .byte   VOL , 22*song015C_mvl/mxv
+ .byte   VOL , 22*FirstStepTowardsWar_mvl/mxv
  .byte   N11 ,Gn4 ,v100
  .byte   W12
  .byte   An3 ,v092
@@ -5685,12 +5685,12 @@ Label_011F3D78:
 
 @**************** Track 10 (Midi-Chn.9) ****************@
 
-song015C_010:
+FirstStepTowardsWar_010:
 @  #10 @000   ----------------------------------------
- .byte   KEYSH , song015C_key+0
+ .byte   KEYSH , FirstStepTowardsWar_key+0
  .byte   VOICE , 32
  .byte   PAN , c_v+26
- .byte   VOL , 22*song015C_mvl/mxv
+ .byte   VOL , 22*FirstStepTowardsWar_mvl/mxv
  .byte   W96
 @  #10 @001   ----------------------------------------
  .byte   W96
@@ -6008,12 +6008,12 @@ Label_011F3EAD:
 
 @**************** Track 11 (Midi-Chn.10) ****************@
 
-song015C_011:
+FirstStepTowardsWar_011:
 @  #11 @000   ----------------------------------------
- .byte   KEYSH , song015C_key+0
+ .byte   KEYSH , FirstStepTowardsWar_key+0
  .byte   VOICE , 124
  .byte   PAN , c_v+0
- .byte   VOL , 25*song015C_mvl/mxv
+ .byte   VOL , 25*FirstStepTowardsWar_mvl/mxv
  .byte   W96
 @  #11 @001   ----------------------------------------
  .byte   W96
@@ -7144,24 +7144,24 @@ Label_011FC5A8:
 @******************************************************@
 	.align	2
 
-song015C:
+FirstStepTowardsWar:
 	.byte	11	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song015C_pri	@ Priority
-	.byte	song015C_rev	@ Reverb.
+	.byte	FirstStepTowardsWar_pri	@ Priority
+	.byte	FirstStepTowardsWar_rev	@ Reverb.
     
-	.word	song015C_grp
+	.word	FirstStepTowardsWar_grp
     
-	.word	song015C_001
-	.word	song015C_002
-	.word	song015C_003
-	.word	song015C_004
-	.word	song015C_005
-	.word	song015C_006
-	.word	song015C_007
-	.word	song015C_008
-	.word	song015C_009
-	.word	song015C_010
-	.word	song015C_011
+	.word	FirstStepTowardsWar_001
+	.word	FirstStepTowardsWar_002
+	.word	FirstStepTowardsWar_003
+	.word	FirstStepTowardsWar_004
+	.word	FirstStepTowardsWar_005
+	.word	FirstStepTowardsWar_006
+	.word	FirstStepTowardsWar_007
+	.word	FirstStepTowardsWar_008
+	.word	FirstStepTowardsWar_009
+	.word	FirstStepTowardsWar_010
+	.word	FirstStepTowardsWar_011
 
 	.end

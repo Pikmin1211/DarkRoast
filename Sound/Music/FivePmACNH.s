@@ -1,28 +1,28 @@
 	.include "MPlayDef.s"
 
-	.equ	song02_grp, voicegroup000
-	.equ	song02_pri, 0
-	.equ	song02_rev, 0
-	.equ	song02_mvl, 127
-	.equ	song02_key, 0
-	.equ	song02_tbs, 1
-	.equ	song02_exg, 0
-	.equ	song02_cmp, 1
+	.equ	FivePmACNH_grp, voicegroup000
+	.equ	FivePmACNH_pri, 0
+	.equ	FivePmACNH_rev, 0
+	.equ	FivePmACNH_mvl, 127
+	.equ	FivePmACNH_key, 0
+	.equ	FivePmACNH_tbs, 1
+	.equ	FivePmACNH_exg, 0
+	.equ	FivePmACNH_cmp, 1
 
 	.section .rodata
-	.global	song02
+	.global	FivePmACNH
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song02_001:
+FivePmACNH_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , FivePmACNH_key+0
 Label_547722:
- .byte   TEMPO , 72*song02_tbs/2
+ .byte   TEMPO , 72*FivePmACNH_tbs/2
  .byte   VOICE , 0
- .byte   VOL , 52*song02_mvl/mxv
+ .byte   VOL , 52*FivePmACNH_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N07 ,Dn2 ,v064
  .byte   N07 ,Fs2
@@ -456,12 +456,12 @@ Label_5478F7:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song02_002:
+FivePmACNH_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , FivePmACNH_key+0
 Label_5462B2:
  .byte   VOICE , 81
- .byte   VOL , 67*song02_mvl/mxv
+ .byte   VOL , 67*FivePmACNH_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #02 @001   ----------------------------------------
@@ -729,12 +729,12 @@ Label_54635C:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song02_003:
+FivePmACNH_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , FivePmACNH_key+0
 Label_5473BE:
  .byte   VOICE , 4
- .byte   VOL , 52*song02_mvl/mxv
+ .byte   VOL , 52*FivePmACNH_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #03 @001   ----------------------------------------
@@ -946,12 +946,12 @@ Label_547429:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song02_004:
+FivePmACNH_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , FivePmACNH_key+0
 Label_5479B6:
  .byte   VOICE , 4
- .byte   VOL , 52*song02_mvl/mxv
+ .byte   VOL , 52*FivePmACNH_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #04 @001   ----------------------------------------
@@ -1104,12 +1104,12 @@ Label_5479C8:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song02_005:
+FivePmACNH_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , FivePmACNH_key+0
 Label_5463CA:
  .byte   VOICE , 4
- .byte   VOL , 52*song02_mvl/mxv
+ .byte   VOL , 52*FivePmACNH_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #05 @001   ----------------------------------------
@@ -1251,12 +1251,12 @@ Label_5463E9:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song02_006:
+FivePmACNH_006:
 @  #06 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , FivePmACNH_key+0
 Label_5466C2:
  .byte   VOICE , 28
- .byte   VOL , 90*song02_mvl/mxv
+ .byte   VOL , 90*FivePmACNH_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W07
  .byte   N04 ,En2 ,v040
@@ -1632,12 +1632,12 @@ Label_54680B:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-song02_007:
+FivePmACNH_007:
 @  #07 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , FivePmACNH_key+0
 Label_546E4E:
  .byte   VOICE , 34
- .byte   VOL , 72*song02_mvl/mxv
+ .byte   VOL , 72*FivePmACNH_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N11 ,Bn1 ,v080
  .byte   W90
@@ -1953,12 +1953,12 @@ Label_546F4D:
 
 @**************** Track 8 (Midi-Chn.7) ****************@
 
-song02_008:
+FivePmACNH_008:
 @  #08 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , FivePmACNH_key+0
 Label_547006:
  .byte   VOICE , 127
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*FivePmACNH_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N23 ,Cn1 ,v060
  .byte   N11 ,Fs1 ,v032
@@ -2416,21 +2416,21 @@ Label_547211:
 @******************************************************@
 	.align	2
 
-song02:
+FivePmACNH:
 	.byte	8	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song02_pri	@ Priority
-	.byte	song02_rev	@ Reverb.
+	.byte	FivePmACNH_pri	@ Priority
+	.byte	FivePmACNH_rev	@ Reverb.
     
-	.word	song02_grp
+	.word	FivePmACNH_grp
     
-	.word	song02_001
-	.word	song02_002
-	.word	song02_003
-	.word	song02_004
-	.word	song02_005
-	.word	song02_006
-	.word	song02_007
-	.word	song02_008
+	.word	FivePmACNH_001
+	.word	FivePmACNH_002
+	.word	FivePmACNH_003
+	.word	FivePmACNH_004
+	.word	FivePmACNH_005
+	.word	FivePmACNH_006
+	.word	FivePmACNH_007
+	.word	FivePmACNH_008
 
 	.end

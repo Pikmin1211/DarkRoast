@@ -1,28 +1,28 @@
 	.include "MPlayDef.s"
 
-	.equ	song01_grp, voicegroup000
-	.equ	song01_pri, 10
-	.equ	song01_rev, 0
-	.equ	song01_mvl, 127
-	.equ	song01_key, 0
-	.equ	song01_tbs, 1
-	.equ	song01_exg, 0
-	.equ	song01_cmp, 1
+	.equ	SML2StarCourseLooped_grp, voicegroup000
+	.equ	SML2StarCourseLooped_pri, 10
+	.equ	SML2StarCourseLooped_rev, 0
+	.equ	SML2StarCourseLooped_mvl, 127
+	.equ	SML2StarCourseLooped_key, 0
+	.equ	SML2StarCourseLooped_tbs, 1
+	.equ	SML2StarCourseLooped_exg, 0
+	.equ	SML2StarCourseLooped_cmp, 1
 
 	.section .rodata
-	.global	song01
+	.global	SML2StarCourseLooped
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song01_001:
+SML2StarCourseLooped_001:
 @  #01 @000   ----------------------------------------
 Label_014B3F88:
- .byte   TEMPO , 126*song01_tbs/2
- .byte   KEYSH , song01_key+0
+ .byte   TEMPO , 126*SML2StarCourseLooped_tbs/2
+ .byte   KEYSH , SML2StarCourseLooped_key+0
  .byte   VOICE , 46
- .byte   VOL , 44*song01_mvl/mxv
+ .byte   VOL , 44*SML2StarCourseLooped_mvl/mxv
  .byte   W96
 @  #01 @001   ----------------------------------------
  .byte   W96
@@ -343,13 +343,13 @@ Label_014B3FD4:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song01_002:
+SML2StarCourseLooped_002:
 @  #02 @000   ----------------------------------------
 Label_014D12E4:
- .byte   TEMPO , 126*song01_tbs/2
- .byte   KEYSH , song01_key+0
+ .byte   TEMPO , 126*SML2StarCourseLooped_tbs/2
+ .byte   KEYSH , SML2StarCourseLooped_key+0
  .byte   VOICE , 36
- .byte   VOL , 44*song01_mvl/mxv
+ .byte   VOL , 44*SML2StarCourseLooped_mvl/mxv
  .byte   N09 ,An1 ,v110
  .byte   W18
  .byte   N10 ,Fs1
@@ -1178,13 +1178,13 @@ Label_014D13DB:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song01_003:
+SML2StarCourseLooped_003:
 @  #03 @000   ----------------------------------------
 Label_014B4638:
- .byte   TEMPO , 126*song01_tbs/2
- .byte   KEYSH , song01_key+0
+ .byte   TEMPO , 126*SML2StarCourseLooped_tbs/2
+ .byte   KEYSH , SML2StarCourseLooped_key+0
  .byte   VOICE , 73
- .byte   VOL , 30*song01_mvl/mxv
+ .byte   VOL , 30*SML2StarCourseLooped_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N05 ,Gs5 ,v110
  .byte   W12
@@ -1820,13 +1820,13 @@ Label_014B46A7:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song01_004:
+SML2StarCourseLooped_004:
 @  #04 @000   ----------------------------------------
 Label_014D0D24:
- .byte   TEMPO , 126*song01_tbs/2
- .byte   KEYSH , song01_key+0
+ .byte   TEMPO , 126*SML2StarCourseLooped_tbs/2
+ .byte   KEYSH , SML2StarCourseLooped_key+0
  .byte   VOICE , 52
- .byte   VOL , 18*song01_mvl/mxv
+ .byte   VOL , 18*SML2StarCourseLooped_mvl/mxv
  .byte   W96
 @  #04 @001   ----------------------------------------
  .byte   W96
@@ -2143,13 +2143,13 @@ Label_014D0E5A:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song01_005:
+SML2StarCourseLooped_005:
 @  #05 @000   ----------------------------------------
 Label_014D16F0:
- .byte   TEMPO , 126*song01_tbs/2
- .byte   KEYSH , song01_key+0
+ .byte   TEMPO , 126*SML2StarCourseLooped_tbs/2
+ .byte   KEYSH , SML2StarCourseLooped_key+0
  .byte   VOICE , 127
- .byte   VOL , 43*song01_mvl/mxv
+ .byte   VOL , 43*SML2StarCourseLooped_mvl/mxv
  .byte   N04 ,Fs1 ,v080
  .byte   N04 ,Cn1 ,v110
  .byte   W06
@@ -4412,18 +4412,18 @@ Label_014D1956:
 @******************************************************@
 	.align	2
 
-song01:
+SML2StarCourseLooped:
 	.byte	5	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song01_pri	@ Priority
-	.byte	song01_rev	@ Reverb.
+	.byte	SML2StarCourseLooped_pri	@ Priority
+	.byte	SML2StarCourseLooped_rev	@ Reverb.
     
-	.word	song01_grp
+	.word	SML2StarCourseLooped_grp
     
-	.word	song01_001
-	.word	song01_002
-	.word	song01_003
-	.word	song01_004
-	.word	song01_005
+	.word	SML2StarCourseLooped_001
+	.word	SML2StarCourseLooped_002
+	.word	SML2StarCourseLooped_003
+	.word	SML2StarCourseLooped_004
+	.word	SML2StarCourseLooped_005
 
 	.end

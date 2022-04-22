@@ -1,33 +1,33 @@
 	.include "MPlayDef.s"
 
-	.equ	song02_grp, voicegroup000
-	.equ	song02_pri, 0
-	.equ	song02_rev, 0
-	.equ	song02_mvl, 127
-	.equ	song02_key, 0
-	.equ	song02_tbs, 1
-	.equ	song02_exg, 0
-	.equ	song02_cmp, 1
+	.equ	WoWTavern_grp, voicegroup000
+	.equ	WoWTavern_pri, 0
+	.equ	WoWTavern_rev, 0
+	.equ	WoWTavern_mvl, 127
+	.equ	WoWTavern_key, 0
+	.equ	WoWTavern_tbs, 1
+	.equ	WoWTavern_exg, 0
+	.equ	WoWTavern_cmp, 1
 
 	.section .rodata
-	.global	song02
+	.global	WoWTavern
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song02_001:
+WoWTavern_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , WoWTavern_key+0
 Label_013AEA3E:
- .byte   TEMPO , 120*song02_tbs/2
+ .byte   TEMPO , 120*WoWTavern_tbs/2
  .byte   VOICE , 24
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*WoWTavern_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #01 @001   ----------------------------------------
  .byte   W48
- .byte   TEMPO , 94*song02_tbs/2
+ .byte   TEMPO , 94*WoWTavern_tbs/2
  .byte   N11 ,Fs3 ,v080
  .byte   W12
  .byte   Cs4
@@ -307,12 +307,12 @@ Label_013AEAD0:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song02_002:
+WoWTavern_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , WoWTavern_key+0
 Label_013AEBE2:
  .byte   VOICE , 73
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*WoWTavern_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #02 @001   ----------------------------------------
@@ -589,12 +589,12 @@ Label_013AECC2:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song02_003:
+WoWTavern_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , WoWTavern_key+0
 Label_013AF0F6:
  .byte   VOICE , 40
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*WoWTavern_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #03 @001   ----------------------------------------
@@ -789,12 +789,12 @@ Label_013AF142:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song02_004:
+WoWTavern_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , WoWTavern_key+0
 Label_013AFFC2:
  .byte   VOICE , 47
- .byte   VOL , 56*song02_mvl/mxv
+ .byte   VOL , 56*WoWTavern_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N17 ,Fs2 ,v080
  .byte   W18
@@ -1000,12 +1000,12 @@ Label_013B0014:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song02_005:
+WoWTavern_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , WoWTavern_key+0
 Label_013AEEF2:
  .byte   VOICE , 34
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*WoWTavern_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #05 @001   ----------------------------------------
@@ -1188,12 +1188,12 @@ Label_013AEF3D:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song02_006:
+WoWTavern_006:
 @  #06 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , WoWTavern_key+0
 Label_013AFDAE:
  .byte   VOICE , 20
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*WoWTavern_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #06 @001   ----------------------------------------
@@ -1445,12 +1445,12 @@ Label_013AFE73:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-song02_007:
+WoWTavern_007:
 @  #07 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , WoWTavern_key+0
 Label_013AE49E:
  .byte   VOICE , 24
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*WoWTavern_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #07 @001   ----------------------------------------
@@ -1743,12 +1743,12 @@ Label_013AE581:
 
 @**************** Track 8 (Midi-Chn.7) ****************@
 
-song02_008:
+WoWTavern_008:
 @  #08 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , WoWTavern_key+0
 Label_013B052E:
  .byte   VOICE , 124
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*WoWTavern_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N17 ,Cn1 ,v080
  .byte   N17 ,Cs3
@@ -2098,21 +2098,21 @@ Label_013B0652:
 @******************************************************@
 	.align	2
 
-song02:
+WoWTavern:
 	.byte	8	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song02_pri	@ Priority
-	.byte	song02_rev	@ Reverb.
+	.byte	WoWTavern_pri	@ Priority
+	.byte	WoWTavern_rev	@ Reverb.
     
-	.word	song02_grp
+	.word	WoWTavern_grp
     
-	.word	song02_001
-	.word	song02_002
-	.word	song02_003
-	.word	song02_004
-	.word	song02_005
-	.word	song02_006
-	.word	song02_007
-	.word	song02_008
+	.word	WoWTavern_001
+	.word	WoWTavern_002
+	.word	WoWTavern_003
+	.word	WoWTavern_004
+	.word	WoWTavern_005
+	.word	WoWTavern_006
+	.word	WoWTavern_007
+	.word	WoWTavern_008
 
 	.end

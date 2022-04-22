@@ -1,27 +1,27 @@
 	.include "MPlayDef.s"
 
-	.equ	song02_grp, voicegroup000
-	.equ	song02_pri, 10
-	.equ	song02_rev, 0
-	.equ	song02_mvl, 127
-	.equ	song02_key, 0
-	.equ	song02_tbs, 1
-	.equ	song02_exg, 0
-	.equ	song02_cmp, 1
+	.equ	Verdanturf_grp, voicegroup000
+	.equ	Verdanturf_pri, 10
+	.equ	Verdanturf_rev, 0
+	.equ	Verdanturf_mvl, 127
+	.equ	Verdanturf_key, 0
+	.equ	Verdanturf_tbs, 1
+	.equ	Verdanturf_exg, 0
+	.equ	Verdanturf_cmp, 1
 
 	.section .rodata
-	.global	song02
+	.global	Verdanturf
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song02_001:
+Verdanturf_001:
 @  #01 @000   ----------------------------------------
- .byte   TEMPO , 82*song02_tbs/2
- .byte   KEYSH , song02_key+0
+ .byte   TEMPO , 82*Verdanturf_tbs/2
+ .byte   KEYSH , Verdanturf_key+0
  .byte   VOICE , 4
- .byte   VOL , 55*song02_mvl/mxv
+ .byte   VOL , 55*Verdanturf_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W24
 Label_01005B5B:
@@ -490,12 +490,12 @@ Label_01005CD2:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song02_002:
+Verdanturf_002:
 @  #02 @000   ----------------------------------------
- .byte   TEMPO , 82*song02_tbs/2
- .byte   KEYSH , song02_key+0
+ .byte   TEMPO , 82*Verdanturf_tbs/2
+ .byte   KEYSH , Verdanturf_key+0
  .byte   VOICE , 71
- .byte   VOL , 38*song02_mvl/mxv
+ .byte   VOL , 38*Verdanturf_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W24
 Label_01005D5B:
@@ -774,12 +774,12 @@ Label_01005E47:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song02_003:
+Verdanturf_003:
 @  #03 @000   ----------------------------------------
- .byte   TEMPO , 82*song02_tbs/2
- .byte   KEYSH , song02_key+0
+ .byte   TEMPO , 82*Verdanturf_tbs/2
+ .byte   KEYSH , Verdanturf_key+0
  .byte   VOICE , 4
- .byte   VOL , 50*song02_mvl/mxv
+ .byte   VOL , 50*Verdanturf_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W06
  .byte   N06 ,An3 ,v100
@@ -1083,12 +1083,12 @@ Label_01005FBC:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song02_004:
+Verdanturf_004:
 @  #04 @000   ----------------------------------------
- .byte   TEMPO , 82*song02_tbs/2
- .byte   KEYSH , song02_key+0
+ .byte   TEMPO , 82*Verdanturf_tbs/2
+ .byte   KEYSH , Verdanturf_key+0
  .byte   VOICE , 48
- .byte   VOL , 23*song02_mvl/mxv
+ .byte   VOL , 23*Verdanturf_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W24
 Label_0100603B:
@@ -1224,12 +1224,12 @@ Label_01006075:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song02_005:
+Verdanturf_005:
 @  #05 @000   ----------------------------------------
- .byte   TEMPO , 82*song02_tbs/2
- .byte   KEYSH , song02_key+0
+ .byte   TEMPO , 82*Verdanturf_tbs/2
+ .byte   KEYSH , Verdanturf_key+0
  .byte   VOICE , 73
- .byte   VOL , 15*song02_mvl/mxv
+ .byte   VOL , 15*Verdanturf_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W24
 Label_010060CB:
@@ -1480,12 +1480,12 @@ Label_01006191:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song02_006:
+Verdanturf_006:
 @  #06 @000   ----------------------------------------
- .byte   TEMPO , 82*song02_tbs/2
- .byte   KEYSH , song02_key+0
+ .byte   TEMPO , 82*Verdanturf_tbs/2
+ .byte   KEYSH , Verdanturf_key+0
  .byte   VOICE , 75
- .byte   VOL , 23*song02_mvl/mxv
+ .byte   VOL , 23*Verdanturf_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W24
 Label_010061F7:
@@ -1746,12 +1746,12 @@ Label_0100628A:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-song02_007:
+Verdanturf_007:
 @  #07 @000   ----------------------------------------
- .byte   TEMPO , 82*song02_tbs/2
- .byte   KEYSH , song02_key+0
+ .byte   TEMPO , 82*Verdanturf_tbs/2
+ .byte   KEYSH , Verdanturf_key+0
  .byte   VOICE , 79
- .byte   VOL , 54*song02_mvl/mxv
+ .byte   VOL , 54*Verdanturf_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W24
 Label_0100632F:
@@ -1924,12 +1924,12 @@ Label_0100639A:
 
 @**************** Track 8 (Midi-Chn.7) ****************@
 
-song02_008:
+Verdanturf_008:
 @  #08 @000   ----------------------------------------
- .byte   TEMPO , 82*song02_tbs/2
- .byte   KEYSH , song02_key+0
+ .byte   TEMPO , 82*Verdanturf_tbs/2
+ .byte   KEYSH , Verdanturf_key+0
  .byte   VOICE , 33
- .byte   VOL , 58*song02_mvl/mxv
+ .byte   VOL , 58*Verdanturf_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W24
 Label_010063FF:
@@ -2103,21 +2103,21 @@ Label_0100646A:
 @******************************************************@
 	.align	2
 
-song02:
+Verdanturf:
 	.byte	8	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song02_pri	@ Priority
-	.byte	song02_rev	@ Reverb.
+	.byte	Verdanturf_pri	@ Priority
+	.byte	Verdanturf_rev	@ Reverb.
     
-	.word	song02_grp
+	.word	Verdanturf_grp
     
-	.word	song02_001
-	.word	song02_002
-	.word	song02_003
-	.word	song02_004
-	.word	song02_005
-	.word	song02_006
-	.word	song02_007
-	.word	song02_008
+	.word	Verdanturf_001
+	.word	Verdanturf_002
+	.word	Verdanturf_003
+	.word	Verdanturf_004
+	.word	Verdanturf_005
+	.word	Verdanturf_006
+	.word	Verdanturf_007
+	.word	Verdanturf_008
 
 	.end

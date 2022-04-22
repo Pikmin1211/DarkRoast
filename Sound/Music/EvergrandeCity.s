@@ -1,28 +1,28 @@
 	.include "MPlayDef.s"
 
-	.equ	song02_grp, voicegroup000
-	.equ	song02_pri, 10
-	.equ	song02_rev, 0
-	.equ	song02_mvl, 127
-	.equ	song02_key, 0
-	.equ	song02_tbs, 1
-	.equ	song02_exg, 0
-	.equ	song02_cmp, 1
+	.equ	EvergrandeCity_grp, voicegroup000
+	.equ	EvergrandeCity_pri, 10
+	.equ	EvergrandeCity_rev, 0
+	.equ	EvergrandeCity_mvl, 127
+	.equ	EvergrandeCity_key, 0
+	.equ	EvergrandeCity_tbs, 1
+	.equ	EvergrandeCity_exg, 0
+	.equ	EvergrandeCity_cmp, 1
 
 	.section .rodata
-	.global	song02
+	.global	EvergrandeCity
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song02_001:
+EvergrandeCity_001:
 @  #01 @000   ----------------------------------------
 Label_010064FC:
- .byte   TEMPO , 128*song02_tbs/2
- .byte   KEYSH , song02_key+0
+ .byte   TEMPO , 128*EvergrandeCity_tbs/2
+ .byte   KEYSH , EvergrandeCity_key+0
  .byte   VOICE , 73
- .byte   VOL , 59*song02_mvl/mxv
+ .byte   VOL , 59*EvergrandeCity_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N04 ,Gn2 ,v100
  .byte   W04
@@ -699,13 +699,13 @@ Label_0100673B:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song02_002:
+EvergrandeCity_002:
 @  #02 @000   ----------------------------------------
 Label_0100684C:
- .byte   TEMPO , 128*song02_tbs/2
- .byte   KEYSH , song02_key+0
+ .byte   TEMPO , 128*EvergrandeCity_tbs/2
+ .byte   KEYSH , EvergrandeCity_key+0
  .byte   VOICE , 73
- .byte   VOL , 43*song02_mvl/mxv
+ .byte   VOL , 43*EvergrandeCity_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N04 ,Fn3 ,v100
  .byte   W04
@@ -1222,13 +1222,13 @@ Label_01006A2A:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song02_003:
+EvergrandeCity_003:
 @  #03 @000   ----------------------------------------
 Label_01006AF4:
- .byte   TEMPO , 128*song02_tbs/2
- .byte   KEYSH , song02_key+0
+ .byte   TEMPO , 128*EvergrandeCity_tbs/2
+ .byte   KEYSH , EvergrandeCity_key+0
  .byte   VOICE , 35
- .byte   VOL , 83*song02_mvl/mxv
+ .byte   VOL , 83*EvergrandeCity_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W24
  .byte   N04 ,Cn2 ,v100
@@ -2053,13 +2053,13 @@ Label_01006DAB:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song02_004:
+EvergrandeCity_004:
 @  #04 @000   ----------------------------------------
 Label_01005D50:
- .byte   TEMPO , 128*song02_tbs/2
- .byte   KEYSH , song02_key+0
+ .byte   TEMPO , 128*EvergrandeCity_tbs/2
+ .byte   KEYSH , EvergrandeCity_key+0
  .byte   VOICE , 14
- .byte   VOL , 56*song02_mvl/mxv
+ .byte   VOL , 56*EvergrandeCity_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #04 @001   ----------------------------------------
@@ -2380,13 +2380,13 @@ Label_01005D8C:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song02_005:
+EvergrandeCity_005:
 @  #05 @000   ----------------------------------------
 Label_01006E98:
- .byte   TEMPO , 128*song02_tbs/2
- .byte   KEYSH , song02_key+0
+ .byte   TEMPO , 128*EvergrandeCity_tbs/2
+ .byte   KEYSH , EvergrandeCity_key+0
  .byte   VOICE , 56
- .byte   VOL , 41*song02_mvl/mxv
+ .byte   VOL , 41*EvergrandeCity_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W24
  .byte   N96 ,Ds3 ,v100
@@ -2828,13 +2828,13 @@ Label_0100700C:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song02_006:
+EvergrandeCity_006:
 @  #06 @000   ----------------------------------------
 Label_010070C0:
- .byte   TEMPO , 128*song02_tbs/2
- .byte   KEYSH , song02_key+0
+ .byte   TEMPO , 128*EvergrandeCity_tbs/2
+ .byte   KEYSH , EvergrandeCity_key+0
  .byte   VOICE , 36
- .byte   VOL , 73*song02_mvl/mxv
+ .byte   VOL , 73*EvergrandeCity_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W24
  .byte   N04 ,Cn2 ,v100
@@ -3659,13 +3659,13 @@ Label_01007377:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-song02_007:
+EvergrandeCity_007:
 @  #07 @000   ----------------------------------------
 Label_01007464:
- .byte   TEMPO , 128*song02_tbs/2
- .byte   KEYSH , song02_key+0
+ .byte   TEMPO , 128*EvergrandeCity_tbs/2
+ .byte   KEYSH , EvergrandeCity_key+0
  .byte   VOICE , 74
- .byte   VOL , 40*song02_mvl/mxv
+ .byte   VOL , 40*EvergrandeCity_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W24
  .byte   BEND , c_v+8
@@ -4306,13 +4306,13 @@ Label_01007464:
 
 @**************** Track 8 (Midi-Chn.7) ****************@
 
-song02_008:
+EvergrandeCity_008:
 @  #08 @000   ----------------------------------------
 Label_01005B50:
- .byte   TEMPO , 128*song02_tbs/2
- .byte   KEYSH , song02_key+0
+ .byte   TEMPO , 128*EvergrandeCity_tbs/2
+ .byte   KEYSH , EvergrandeCity_key+0
  .byte   VOICE , 127
- .byte   VOL , 47*song02_mvl/mxv
+ .byte   VOL , 47*EvergrandeCity_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W24
  .byte   N04 ,Fs1 ,v100
@@ -4626,21 +4626,21 @@ Label_01005B8C:
 @******************************************************@
 	.align	2
 
-song02:
+EvergrandeCity:
 	.byte	8	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song02_pri	@ Priority
-	.byte	song02_rev	@ Reverb.
+	.byte	EvergrandeCity_pri	@ Priority
+	.byte	EvergrandeCity_rev	@ Reverb.
     
-	.word	song02_grp
+	.word	EvergrandeCity_grp
     
-	.word	song02_001
-	.word	song02_002
-	.word	song02_003
-	.word	song02_004
-	.word	song02_005
-	.word	song02_006
-	.word	song02_007
-	.word	song02_008
+	.word	EvergrandeCity_001
+	.word	EvergrandeCity_002
+	.word	EvergrandeCity_003
+	.word	EvergrandeCity_004
+	.word	EvergrandeCity_005
+	.word	EvergrandeCity_006
+	.word	EvergrandeCity_007
+	.word	EvergrandeCity_008
 
 	.end

@@ -1,28 +1,28 @@
 	.include "MPlayDef.s"
 
-	.equ	song02_grp, voicegroup000
-	.equ	song02_pri, 0
-	.equ	song02_rev, 0
-	.equ	song02_mvl, 127
-	.equ	song02_key, 0
-	.equ	song02_tbs, 1
-	.equ	song02_exg, 0
-	.equ	song02_cmp, 1
+	.equ	SpaceLand_grp, voicegroup000
+	.equ	SpaceLand_pri, 0
+	.equ	SpaceLand_rev, 0
+	.equ	SpaceLand_mvl, 127
+	.equ	SpaceLand_key, 0
+	.equ	SpaceLand_tbs, 1
+	.equ	SpaceLand_exg, 0
+	.equ	SpaceLand_cmp, 1
 
 	.section .rodata
-	.global	song02
+	.global	SpaceLand
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song02_001:
+SpaceLand_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , SpaceLand_key+0
 Label_01009ADA:
- .byte   TEMPO , 128*song02_tbs/2
+ .byte   TEMPO , 128*SpaceLand_tbs/2
  .byte   VOICE , 79
- .byte   VOL , 50*song02_mvl/mxv
+ .byte   VOL , 50*SpaceLand_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W16
  .byte   N07 ,Cn4 ,v076
@@ -462,12 +462,12 @@ Label_01009C27:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song02_002:
+SpaceLand_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , SpaceLand_key+0
 Label_01005EEA:
  .byte   VOICE , 79
- .byte   VOL , 39*song02_mvl/mxv
+ .byte   VOL , 39*SpaceLand_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N07 ,Fn3 ,v076
  .byte   W08
@@ -954,12 +954,12 @@ Label_01006056:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song02_003:
+SpaceLand_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , SpaceLand_key+0
 Label_01006186:
  .byte   VOICE , 35
- .byte   VOL , 50*song02_mvl/mxv
+ .byte   VOL , 50*SpaceLand_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N06 ,As0 ,v127
  .byte   W24
@@ -1233,12 +1233,12 @@ Label_01006216:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song02_004:
+SpaceLand_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , SpaceLand_key+0
 Label_01005C16:
  .byte   VOICE , 45
- .byte   VOL , 50*song02_mvl/mxv
+ .byte   VOL , 50*SpaceLand_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N15 ,As0 ,v127
  .byte   W24
@@ -1512,12 +1512,12 @@ Label_01005CA6:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song02_005:
+SpaceLand_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , SpaceLand_key+0
 Label_0100565A:
  .byte   VOICE , 47
- .byte   VOL , 50*song02_mvl/mxv
+ .byte   VOL , 50*SpaceLand_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #05 @001   ----------------------------------------
@@ -1741,12 +1741,12 @@ Label_010056C9:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song02_006:
+SpaceLand_006:
 @  #06 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , SpaceLand_key+0
 Label_01005006:
  .byte   VOICE , 14
- .byte   VOL , 50*song02_mvl/mxv
+ .byte   VOL , 50*SpaceLand_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #06 @001   ----------------------------------------
@@ -1928,12 +1928,12 @@ Label_0100500E:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-song02_007:
+SpaceLand_007:
 @  #07 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , SpaceLand_key+0
 Label_010064DA:
  .byte   VOICE , 57
- .byte   VOL , 50*song02_mvl/mxv
+ .byte   VOL , 50*SpaceLand_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #07 @001   ----------------------------------------
@@ -2431,12 +2431,12 @@ Label_010066B0:
 
 @**************** Track 8 (Midi-Chn.7) ****************@
 
-song02_008:
+SpaceLand_008:
 @  #08 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , SpaceLand_key+0
 Label_01006316:
  .byte   VOICE , 61
- .byte   VOL , 50*song02_mvl/mxv
+ .byte   VOL , 50*SpaceLand_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #08 @001   ----------------------------------------
@@ -2738,12 +2738,12 @@ Label_010063E2:
 
 @**************** Track 9 (Midi-Chn.8) ****************@
 
-song02_009:
+SpaceLand_009:
 @  #09 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , SpaceLand_key+0
 Label_01006776:
  .byte   VOICE , 48
- .byte   VOL , 50*song02_mvl/mxv
+ .byte   VOL , 50*SpaceLand_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #09 @001   ----------------------------------------
@@ -3015,12 +3015,12 @@ Label_0100684F:
 
 @**************** Track 10 (Midi-Chn.9) ****************@
 
-song02_010:
+SpaceLand_010:
 @  #10 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , SpaceLand_key+0
 Label_0100581A:
  .byte   VOICE , 124
- .byte   VOL , 50*song02_mvl/mxv
+ .byte   VOL , 50*SpaceLand_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N15 ,Dn1 ,v076
  .byte   N15 ,Cs2
@@ -3315,12 +3315,12 @@ Label_01005858:
 
 @**************** Track 11 (Midi-Chn.10) ****************@
 
-song02_011:
+SpaceLand_011:
 @  #11 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , SpaceLand_key+0
 Label_0100690A:
  .byte   VOICE , 124
- .byte   VOL , 50*song02_mvl/mxv
+ .byte   VOL , 50*SpaceLand_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N20 ,Cn1 ,v076
  .byte   W24
@@ -3549,24 +3549,24 @@ Label_0100697B:
 @******************************************************@
 	.align	2
 
-song02:
+SpaceLand:
 	.byte	11	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song02_pri	@ Priority
-	.byte	song02_rev	@ Reverb.
+	.byte	SpaceLand_pri	@ Priority
+	.byte	SpaceLand_rev	@ Reverb.
     
-	.word	song02_grp
+	.word	SpaceLand_grp
     
-	.word	song02_001
-	.word	song02_002
-	.word	song02_003
-	.word	song02_004
-	.word	song02_005
-	.word	song02_006
-	.word	song02_007
-	.word	song02_008
-	.word	song02_009
-	.word	song02_010
-	.word	song02_011
+	.word	SpaceLand_001
+	.word	SpaceLand_002
+	.word	SpaceLand_003
+	.word	SpaceLand_004
+	.word	SpaceLand_005
+	.word	SpaceLand_006
+	.word	SpaceLand_007
+	.word	SpaceLand_008
+	.word	SpaceLand_009
+	.word	SpaceLand_010
+	.word	SpaceLand_011
 
 	.end

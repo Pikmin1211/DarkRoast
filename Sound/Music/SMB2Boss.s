@@ -1,29 +1,29 @@
 	.include "MPlayDef.s"
 
-	.equ	song59_grp, voicegroup000
-	.equ	song59_pri, 0
-	.equ	song59_rev, 0
-	.equ	song59_mvl, 127
-	.equ	song59_key, 0
-	.equ	song59_tbs, 1
-	.equ	song59_exg, 0
-	.equ	song59_cmp, 1
+	.equ	SMB2Boss_grp, voicegroup000
+	.equ	SMB2Boss_pri, 0
+	.equ	SMB2Boss_rev, 0
+	.equ	SMB2Boss_mvl, 127
+	.equ	SMB2Boss_key, 0
+	.equ	SMB2Boss_tbs, 1
+	.equ	SMB2Boss_exg, 0
+	.equ	SMB2Boss_cmp, 1
 
 	.section .rodata
-	.global	song59
+	.global	SMB2Boss
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song59_001:
+SMB2Boss_001:
 @ 000   ----------------------------------------
- .byte   KEYSH , song59_key+0
+ .byte   KEYSH , SMB2Boss_key+0
 Label_0_015A3B96:
- .byte   TEMPO , 190*song59_tbs/2
+ .byte   TEMPO , 190*SMB2Boss_tbs/2
  .byte   VOICE , 36
  .byte   PAN , c_v-1
- .byte   VOL , 66*song59_mvl/mxv
+ .byte   VOL , 66*SMB2Boss_mvl/mxv
  .byte   N36 ,Fs1 ,v100
  .byte   W36
  .byte   N36
@@ -77,13 +77,13 @@ Label_0_015A3BC8:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song59_002:
+SMB2Boss_002:
 @ 000   ----------------------------------------
- .byte   KEYSH , song59_key+0
+ .byte   KEYSH , SMB2Boss_key+0
 Label_1_015A3BDE:
  .byte   VOICE , 31
  .byte   PAN , c_v-16
- .byte   VOL , 80*song59_mvl/mxv
+ .byte   VOL , 80*SMB2Boss_mvl/mxv
  .byte   N36 ,Fs1 ,v100
  .byte   W36
  .byte   N36
@@ -137,12 +137,12 @@ Label_1_015A3C0E:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song59_003:
+SMB2Boss_003:
 @ 000   ----------------------------------------
- .byte   KEYSH , song59_key+0
+ .byte   KEYSH , SMB2Boss_key+0
 Label_2_015A3C26:
  .byte   VOICE , 63
- .byte   VOL , 51*song59_mvl/mxv
+ .byte   VOL , 51*SMB2Boss_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N06 ,Dn2 ,v100
  .byte   W12
@@ -249,12 +249,12 @@ Label_2_015A3C7E:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song59_004:
+SMB2Boss_004:
 @ 000   ----------------------------------------
- .byte   KEYSH , song59_key+0
+ .byte   KEYSH , SMB2Boss_key+0
 Label_3_015A3CA6:
  .byte   VOICE , 93
- .byte   VOL , 62*song59_mvl/mxv
+ .byte   VOL , 62*SMB2Boss_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N06 ,Dn2 ,v100
  .byte   W12
@@ -361,12 +361,12 @@ Label_3_015A3CFE:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song59_005:
+SMB2Boss_005:
 @ 000   ----------------------------------------
- .byte   KEYSH , song59_key+0
+ .byte   KEYSH , SMB2Boss_key+0
 Label_4_015A3D26:
  .byte   VOICE , 30
- .byte   VOL , 67*song59_mvl/mxv
+ .byte   VOL , 67*SMB2Boss_mvl/mxv
  .byte   W12
  .byte   N06 ,An1 ,v100
  .byte   W12
@@ -445,13 +445,13 @@ Label_4_015A3D68:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song59_006:
+SMB2Boss_006:
 @ 000   ----------------------------------------
- .byte   KEYSH , song59_key+0
+ .byte   KEYSH , SMB2Boss_key+0
 Label_5_015A3D86:
  .byte   VOICE , 124
  .byte   PAN , c_v+0
- .byte   VOL , 56*song59_mvl/mxv
+ .byte   VOL , 56*SMB2Boss_mvl/mxv
  .byte   N12 ,Cn1 ,v127
  .byte   N12 ,Fn1 ,v100
  .byte   N12 ,An3
@@ -558,12 +558,12 @@ Label_5_015A3DC8:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-song59_007:
+SMB2Boss_007:
 @ 000   ----------------------------------------
- .byte   KEYSH , song59_key+0
+ .byte   KEYSH , SMB2Boss_key+0
 Label_6_015A3E5A:
  .byte   VOICE , 31
- .byte   VOL , 80*song59_mvl/mxv
+ .byte   VOL , 80*SMB2Boss_mvl/mxv
  .byte   W12
  .byte   N06 ,An1 ,v100
  .byte   W12
@@ -643,20 +643,20 @@ Label_6_015A3E9C:
 @******************************************************@
 	.align	2
 
-song59:
+SMB2Boss:
 	.byte	7	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song59_pri	@ Priority
-	.byte	song59_rev	@ Reverb.
+	.byte	SMB2Boss_pri	@ Priority
+	.byte	SMB2Boss_rev	@ Reverb.
     
-	.word	song59_grp
+	.word	SMB2Boss_grp
     
-	.word	song59_001
-	.word	song59_002
-	.word	song59_003
-	.word	song59_004
-	.word	song59_005
-	.word	song59_006
-	.word	song59_007
+	.word	SMB2Boss_001
+	.word	SMB2Boss_002
+	.word	SMB2Boss_003
+	.word	SMB2Boss_004
+	.word	SMB2Boss_005
+	.word	SMB2Boss_006
+	.word	SMB2Boss_007
 
 	.end

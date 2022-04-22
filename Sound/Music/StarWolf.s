@@ -1,29 +1,29 @@
 	.include "MPlayDef.s"
 
-	.equ	song02_grp, voicegroup000
-	.equ	song02_pri, 0
-	.equ	song02_rev, 0
-	.equ	song02_mvl, 127
-	.equ	song02_key, 0
-	.equ	song02_tbs, 1
-	.equ	song02_exg, 0
-	.equ	song02_cmp, 1
+	.equ	StarWolf_grp, voicegroup000
+	.equ	StarWolf_pri, 0
+	.equ	StarWolf_rev, 0
+	.equ	StarWolf_mvl, 127
+	.equ	StarWolf_key, 0
+	.equ	StarWolf_tbs, 1
+	.equ	StarWolf_exg, 0
+	.equ	StarWolf_cmp, 1
 
 	.section .rodata
-	.global	song02
+	.global	StarWolf
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song02_001:
+StarWolf_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
- .byte   TEMPO , 160*song02_tbs/2
+ .byte   KEYSH , StarWolf_key+0
+ .byte   TEMPO , 160*StarWolf_tbs/2
  .byte   VOICE , 73
- .byte   VOL , 88*song02_mvl/mxv
+ .byte   VOL , 88*StarWolf_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 89*song02_mvl/mxv
+ .byte   VOL , 89*StarWolf_mvl/mxv
  .byte   W96
 @  #01 @001   ----------------------------------------
  .byte   W96
@@ -37,7 +37,7 @@ Label_0100DF32:
 @  #01 @005   ----------------------------------------
  .byte   W96
 @  #01 @006   ----------------------------------------
- .byte   TEMPO , 160*song02_tbs/2
+ .byte   TEMPO , 160*StarWolf_tbs/2
  .byte   W96
 @  #01 @007   ----------------------------------------
  .byte   W96
@@ -208,7 +208,7 @@ Label_0100DFF1:
 @  #01 @037   ----------------------------------------
  .byte   W96
 @  #01 @038   ----------------------------------------
- .byte   TEMPO , 160*song02_tbs/2
+ .byte   TEMPO , 160*StarWolf_tbs/2
  .byte   W96
 @  #01 @039   ----------------------------------------
  .byte   W96
@@ -287,13 +287,13 @@ Label_0100DFF1:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song02_002:
+StarWolf_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , StarWolf_key+0
  .byte   VOICE , 59
- .byte   VOL , 98*song02_mvl/mxv
+ .byte   VOL , 98*StarWolf_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 99*song02_mvl/mxv
+ .byte   VOL , 99*StarWolf_mvl/mxv
  .byte   W96
 @  #02 @001   ----------------------------------------
  .byte   W96
@@ -307,7 +307,7 @@ Label_0100D2E8:
 @  #02 @005   ----------------------------------------
  .byte   W92
  .byte   W03
- .byte   VOL , 94*song02_mvl/mxv
+ .byte   VOL , 94*StarWolf_mvl/mxv
  .byte   W01
 @  #02 @006   ----------------------------------------
 Label_0100D2F0:
@@ -381,38 +381,38 @@ Label_0100D33C:
  .byte   W12
  .byte   N68 ,Cn3 ,v072
  .byte   W05
- .byte   VOL , 94*song02_mvl/mxv
+ .byte   VOL , 94*StarWolf_mvl/mxv
  .byte   W04
- .byte   VOL , 95*song02_mvl/mxv
+ .byte   VOL , 95*StarWolf_mvl/mxv
  .byte   W03
- .byte   VOL , 96*song02_mvl/mxv
+ .byte   VOL , 96*StarWolf_mvl/mxv
  .byte   W03
- .byte   VOL , 97*song02_mvl/mxv
+ .byte   VOL , 97*StarWolf_mvl/mxv
  .byte   W03
- .byte   VOL , 97*song02_mvl/mxv
+ .byte   VOL , 97*StarWolf_mvl/mxv
  .byte   W03
- .byte   VOL , 98*song02_mvl/mxv
+ .byte   VOL , 98*StarWolf_mvl/mxv
  .byte   W04
- .byte   VOL , 99*song02_mvl/mxv
+ .byte   VOL , 99*StarWolf_mvl/mxv
  .byte   W03
- .byte   VOL , 98*song02_mvl/mxv
+ .byte   VOL , 98*StarWolf_mvl/mxv
  .byte   W10
- .byte   VOL , 97*song02_mvl/mxv
+ .byte   VOL , 97*StarWolf_mvl/mxv
  .byte   W03
- .byte   VOL , 97*song02_mvl/mxv
+ .byte   VOL , 97*StarWolf_mvl/mxv
  .byte   W04
- .byte   VOL , 96*song02_mvl/mxv
+ .byte   VOL , 96*StarWolf_mvl/mxv
  .byte   W03
 @  #02 @013   ----------------------------------------
 Label_0100D36E:
  .byte   W03
- .byte   VOL , 96*song02_mvl/mxv
+ .byte   VOL , 96*StarWolf_mvl/mxv
  .byte   W03
- .byte   VOL , 95*song02_mvl/mxv
+ .byte   VOL , 95*StarWolf_mvl/mxv
  .byte   W04
- .byte   VOL , 94*song02_mvl/mxv
+ .byte   VOL , 94*StarWolf_mvl/mxv
  .byte   W03
- .byte   VOL , 94*song02_mvl/mxv
+ .byte   VOL , 94*StarWolf_mvl/mxv
  .byte   W11
  .byte   N21 ,Cn3 ,v072
  .byte   W24
@@ -508,7 +508,7 @@ Label_0100D3E6:
 @  #02 @022   ----------------------------------------
 Label_0100D41C:
  .byte   W05
- .byte   VOL , 99*song02_mvl/mxv
+ .byte   VOL , 99*StarWolf_mvl/mxv
  .byte   W90
  .byte   W01
  .byte   PEND 
@@ -605,31 +605,31 @@ Label_0100D451:
  .byte   W36
  .byte   N09 ,As2 ,v068
  .byte   W11
- .byte   VOL , 94*song02_mvl/mxv
+ .byte   VOL , 94*StarWolf_mvl/mxv
  .byte   W01
  .byte   N68 ,Cn3 ,v072
  .byte   W05
- .byte   VOL , 94*song02_mvl/mxv
+ .byte   VOL , 94*StarWolf_mvl/mxv
  .byte   W04
- .byte   VOL , 95*song02_mvl/mxv
+ .byte   VOL , 95*StarWolf_mvl/mxv
  .byte   W03
- .byte   VOL , 96*song02_mvl/mxv
+ .byte   VOL , 96*StarWolf_mvl/mxv
  .byte   W03
- .byte   VOL , 97*song02_mvl/mxv
+ .byte   VOL , 97*StarWolf_mvl/mxv
  .byte   W03
- .byte   VOL , 97*song02_mvl/mxv
+ .byte   VOL , 97*StarWolf_mvl/mxv
  .byte   W03
- .byte   VOL , 98*song02_mvl/mxv
+ .byte   VOL , 98*StarWolf_mvl/mxv
  .byte   W04
- .byte   VOL , 99*song02_mvl/mxv
+ .byte   VOL , 99*StarWolf_mvl/mxv
  .byte   W03
- .byte   VOL , 98*song02_mvl/mxv
+ .byte   VOL , 98*StarWolf_mvl/mxv
  .byte   W10
- .byte   VOL , 97*song02_mvl/mxv
+ .byte   VOL , 97*StarWolf_mvl/mxv
  .byte   W03
- .byte   VOL , 97*song02_mvl/mxv
+ .byte   VOL , 97*StarWolf_mvl/mxv
  .byte   W04
- .byte   VOL , 96*song02_mvl/mxv
+ .byte   VOL , 96*StarWolf_mvl/mxv
  .byte   W03
 @  #02 @045   ----------------------------------------
  .byte   PATT
@@ -702,86 +702,86 @@ Label_0100D451:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song02_003:
+StarWolf_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , StarWolf_key+0
  .byte   VOICE , 48
- .byte   VOL , 68*song02_mvl/mxv
+ .byte   VOL , 68*StarWolf_mvl/mxv
  .byte   PAN , c_v+10
- .byte   VOL , 69*song02_mvl/mxv
- .byte   VOL , 50*song02_mvl/mxv
+ .byte   VOL , 69*StarWolf_mvl/mxv
+ .byte   VOL , 50*StarWolf_mvl/mxv
  .byte   TIE ,As3 ,v064
  .byte   TIE ,Cs4
  .byte   TIE ,En4 ,v076
  .byte   W10
- .byte   VOL , 50*song02_mvl/mxv
+ .byte   VOL , 50*StarWolf_mvl/mxv
  .byte   W02
- .byte   VOL , 51*song02_mvl/mxv
+ .byte   VOL , 51*StarWolf_mvl/mxv
  .byte   W03
- .byte   VOL , 52*song02_mvl/mxv
+ .byte   VOL , 52*StarWolf_mvl/mxv
  .byte   W04
- .byte   VOL , 53*song02_mvl/mxv
+ .byte   VOL , 53*StarWolf_mvl/mxv
  .byte   W03
- .byte   VOL , 54*song02_mvl/mxv
+ .byte   VOL , 54*StarWolf_mvl/mxv
  .byte   W03
- .byte   VOL , 55*song02_mvl/mxv
+ .byte   VOL , 55*StarWolf_mvl/mxv
  .byte   W04
- .byte   VOL , 56*song02_mvl/mxv
+ .byte   VOL , 56*StarWolf_mvl/mxv
  .byte   W03
- .byte   VOL , 57*song02_mvl/mxv
+ .byte   VOL , 57*StarWolf_mvl/mxv
  .byte   W03
- .byte   VOL , 59*song02_mvl/mxv
+ .byte   VOL , 59*StarWolf_mvl/mxv
  .byte   W03
- .byte   VOL , 61*song02_mvl/mxv
+ .byte   VOL , 61*StarWolf_mvl/mxv
  .byte   W04
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*StarWolf_mvl/mxv
  .byte   W03
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*StarWolf_mvl/mxv
  .byte   W03
- .byte   VOL , 64*song02_mvl/mxv
+ .byte   VOL , 64*StarWolf_mvl/mxv
  .byte   W04
- .byte   VOL , 65*song02_mvl/mxv
+ .byte   VOL , 65*StarWolf_mvl/mxv
  .byte   W03
- .byte   VOL , 66*song02_mvl/mxv
+ .byte   VOL , 66*StarWolf_mvl/mxv
  .byte   W03
- .byte   VOL , 67*song02_mvl/mxv
+ .byte   VOL , 67*StarWolf_mvl/mxv
  .byte   W04
- .byte   VOL , 67*song02_mvl/mxv
+ .byte   VOL , 67*StarWolf_mvl/mxv
  .byte   W03
- .byte   VOL , 68*song02_mvl/mxv
+ .byte   VOL , 68*StarWolf_mvl/mxv
  .byte   W07
- .byte   VOL , 69*song02_mvl/mxv
+ .byte   VOL , 69*StarWolf_mvl/mxv
  .byte   W03
- .byte   VOL , 68*song02_mvl/mxv
+ .byte   VOL , 68*StarWolf_mvl/mxv
  .byte   W20
- .byte   VOL , 67*song02_mvl/mxv
+ .byte   VOL , 67*StarWolf_mvl/mxv
  .byte   W01
 @  #03 @001   ----------------------------------------
  .byte   W09
- .byte   VOL , 67*song02_mvl/mxv
+ .byte   VOL , 67*StarWolf_mvl/mxv
  .byte   W10
- .byte   VOL , 66*song02_mvl/mxv
+ .byte   VOL , 66*StarWolf_mvl/mxv
  .byte   W06
- .byte   VOL , 66*song02_mvl/mxv
+ .byte   VOL , 66*StarWolf_mvl/mxv
  .byte   W07
- .byte   VOL , 65*song02_mvl/mxv
+ .byte   VOL , 65*StarWolf_mvl/mxv
  .byte   W09
- .byte   VOL , 64*song02_mvl/mxv
+ .byte   VOL , 64*StarWolf_mvl/mxv
  .byte   W07
- .byte   VOL , 64*song02_mvl/mxv
+ .byte   VOL , 64*StarWolf_mvl/mxv
  .byte   W07
- .byte   VOL , 63*song02_mvl/mxv
+ .byte   VOL , 63*StarWolf_mvl/mxv
  .byte   W09
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*StarWolf_mvl/mxv
  .byte   W10
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*StarWolf_mvl/mxv
  .byte   W19
  .byte   EOT
  .byte   As3 ,v073
  .byte   En4
  .byte   VOICE , 48
  .byte   W01
- .byte   VOL , 69*song02_mvl/mxv
+ .byte   VOL , 69*StarWolf_mvl/mxv
  .byte   W02
 @  #03 @002   ----------------------------------------
 Label_01004D54:
@@ -959,86 +959,86 @@ Label_01004E90:
  .byte   N09 ,Cs4 ,v064
  .byte   N09 ,Fn4 ,v080
  .byte   W11
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*StarWolf_mvl/mxv
  .byte   W01
  .byte   N09 ,Fs2 ,v048
  .byte   N09 ,Cs3 ,v060
  .byte   TIE ,As3 ,v068
  .byte   TIE ,Ds4 ,v080
  .byte   W12
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*StarWolf_mvl/mxv
  .byte   N08 ,Fs2 ,v044
  .byte   N08 ,Cs3 ,v056
  .byte   W03
- .byte   VOL , 63*song02_mvl/mxv
+ .byte   VOL , 63*StarWolf_mvl/mxv
  .byte   W07
- .byte   VOL , 64*song02_mvl/mxv
+ .byte   VOL , 64*StarWolf_mvl/mxv
  .byte   W02
  .byte   N08 ,Fs2 ,v048
  .byte   N08 ,Cs3 ,v056
  .byte   W01
- .byte   VOL , 64*song02_mvl/mxv
+ .byte   VOL , 64*StarWolf_mvl/mxv
  .byte   W03
- .byte   VOL , 65*song02_mvl/mxv
+ .byte   VOL , 65*StarWolf_mvl/mxv
  .byte   W04
- .byte   VOL , 66*song02_mvl/mxv
+ .byte   VOL , 66*StarWolf_mvl/mxv
  .byte   W03
- .byte   VOL , 66*song02_mvl/mxv
+ .byte   VOL , 66*StarWolf_mvl/mxv
  .byte   W01
  .byte   N09 ,Fs2 ,v044
  .byte   N09 ,Cs3 ,v056
  .byte   W02
- .byte   VOL , 67*song02_mvl/mxv
+ .byte   VOL , 67*StarWolf_mvl/mxv
  .byte   W07
- .byte   VOL , 67*song02_mvl/mxv
+ .byte   VOL , 67*StarWolf_mvl/mxv
  .byte   W03
  .byte   PEND 
 @  #03 @019   ----------------------------------------
 Label_01004EF3:
- .byte   VOL , 68*song02_mvl/mxv
+ .byte   VOL , 68*StarWolf_mvl/mxv
  .byte   N09 ,Fs2 ,v052
  .byte   N09 ,Cs3 ,v060
  .byte   W10
- .byte   VOL , 69*song02_mvl/mxv
+ .byte   VOL , 69*StarWolf_mvl/mxv
  .byte   W02
  .byte   N09 ,Fs2 ,v044
  .byte   N09 ,Cs3 ,v056
  .byte   W01
- .byte   VOL , 68*song02_mvl/mxv
+ .byte   VOL , 68*StarWolf_mvl/mxv
  .byte   W11
  .byte   N08 ,Fs2 ,v048
  .byte   N08 ,Cs3 ,v056
  .byte   W02
- .byte   VOL , 67*song02_mvl/mxv
+ .byte   VOL , 67*StarWolf_mvl/mxv
  .byte   W10
- .byte   VOL , 67*song02_mvl/mxv
+ .byte   VOL , 67*StarWolf_mvl/mxv
  .byte   N09 ,Fs2 ,v044
  .byte   N09 ,Cs3 ,v056
  .byte   W03
- .byte   VOL , 66*song02_mvl/mxv
+ .byte   VOL , 66*StarWolf_mvl/mxv
  .byte   W07
- .byte   VOL , 66*song02_mvl/mxv
+ .byte   VOL , 66*StarWolf_mvl/mxv
  .byte   W02
  .byte   N09 ,Fs2 ,v048
  .byte   N09 ,Cs3 ,v060
  .byte   W04
- .byte   VOL , 65*song02_mvl/mxv
+ .byte   VOL , 65*StarWolf_mvl/mxv
  .byte   W03
- .byte   VOL , 64*song02_mvl/mxv
+ .byte   VOL , 64*StarWolf_mvl/mxv
  .byte   W05
  .byte   N08 ,Fs2 ,v044
  .byte   N08 ,Cs3 ,v056
  .byte   W02
- .byte   VOL , 64*song02_mvl/mxv
+ .byte   VOL , 64*StarWolf_mvl/mxv
  .byte   W06
- .byte   VOL , 63*song02_mvl/mxv
+ .byte   VOL , 63*StarWolf_mvl/mxv
  .byte   W03
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*StarWolf_mvl/mxv
  .byte   W01
  .byte   N08 ,Fs2 ,v048
  .byte   N08 ,Cs3 ,v056
  .byte   W09
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*StarWolf_mvl/mxv
  .byte   W03
  .byte   N09 ,Fs2 ,v044
  .byte   N09 ,Cs3 ,v056
@@ -1068,33 +1068,33 @@ Label_01004F50:
  .byte   N09 ,Cs3 ,v060
  .byte   TIE ,Fs3 ,v076
  .byte   W09
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*StarWolf_mvl/mxv
  .byte   W03
  .byte   N08 ,Fs2 ,v044
  .byte   N08 ,Cs3 ,v056
  .byte   W04
- .byte   VOL , 63*song02_mvl/mxv
+ .byte   VOL , 63*StarWolf_mvl/mxv
  .byte   W03
- .byte   VOL , 64*song02_mvl/mxv
+ .byte   VOL , 64*StarWolf_mvl/mxv
  .byte   W04
- .byte   VOL , 64*song02_mvl/mxv
+ .byte   VOL , 64*StarWolf_mvl/mxv
  .byte   W01
  .byte   N08 ,Fs2 ,v048
  .byte   N08 ,Cs3 ,v056
  .byte   W02
- .byte   VOL , 65*song02_mvl/mxv
+ .byte   VOL , 65*StarWolf_mvl/mxv
  .byte   W03
- .byte   VOL , 66*song02_mvl/mxv
+ .byte   VOL , 66*StarWolf_mvl/mxv
  .byte   W04
- .byte   VOL , 66*song02_mvl/mxv
+ .byte   VOL , 66*StarWolf_mvl/mxv
  .byte   W03
- .byte   VOL , 67*song02_mvl/mxv
+ .byte   VOL , 67*StarWolf_mvl/mxv
  .byte   N09 ,Fs2 ,v044
  .byte   N09 ,Cs3 ,v056
  .byte   W04
- .byte   VOL , 67*song02_mvl/mxv
+ .byte   VOL , 67*StarWolf_mvl/mxv
  .byte   W06
- .byte   VOL , 68*song02_mvl/mxv
+ .byte   VOL , 68*StarWolf_mvl/mxv
  .byte   W02
  .byte   PEND 
 @  #03 @021   ----------------------------------------
@@ -1102,9 +1102,9 @@ Label_01004FAB:
  .byte   N09 ,Fs2 ,v052
  .byte   N09 ,Cs3 ,v060
  .byte   W05
- .byte   VOL , 69*song02_mvl/mxv
+ .byte   VOL , 69*StarWolf_mvl/mxv
  .byte   W04
- .byte   VOL , 68*song02_mvl/mxv
+ .byte   VOL , 68*StarWolf_mvl/mxv
  .byte   W03
  .byte   N09 ,Fs2 ,v044
  .byte   N09 ,Cs3 ,v056
@@ -1112,36 +1112,36 @@ Label_01004FAB:
  .byte   N08 ,Fs2 ,v048
  .byte   N08 ,Cs3 ,v056
  .byte   W01
- .byte   VOL , 67*song02_mvl/mxv
+ .byte   VOL , 67*StarWolf_mvl/mxv
  .byte   W07
- .byte   VOL , 67*song02_mvl/mxv
+ .byte   VOL , 67*StarWolf_mvl/mxv
  .byte   W04
  .byte   N09 ,Fs2 ,v044
  .byte   N09 ,Cs3 ,v056
  .byte   W02
- .byte   VOL , 66*song02_mvl/mxv
+ .byte   VOL , 66*StarWolf_mvl/mxv
  .byte   W07
- .byte   VOL , 66*song02_mvl/mxv
+ .byte   VOL , 66*StarWolf_mvl/mxv
  .byte   W03
- .byte   VOL , 65*song02_mvl/mxv
+ .byte   VOL , 65*StarWolf_mvl/mxv
  .byte   N09 ,Fs2 ,v048
  .byte   N09 ,Cs3 ,v060
  .byte   W07
- .byte   VOL , 64*song02_mvl/mxv
+ .byte   VOL , 64*StarWolf_mvl/mxv
  .byte   W05
  .byte   N08 ,Fs2 ,v044
  .byte   N08 ,Cs3 ,v056
  .byte   W01
- .byte   VOL , 64*song02_mvl/mxv
+ .byte   VOL , 64*StarWolf_mvl/mxv
  .byte   W03
- .byte   VOL , 63*song02_mvl/mxv
+ .byte   VOL , 63*StarWolf_mvl/mxv
  .byte   W07
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*StarWolf_mvl/mxv
  .byte   W01
  .byte   N08 ,Fs2 ,v048
  .byte   N08 ,Cs3 ,v056
  .byte   W09
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*StarWolf_mvl/mxv
  .byte   W03
  .byte   N11 ,Fs2 ,v044
  .byte   N09 ,Cs3 ,v056
@@ -1309,7 +1309,7 @@ Label_01005100:
 @  #03 @026   ----------------------------------------
 Label_01005144:
  .byte   W05
- .byte   VOL , 69*song02_mvl/mxv
+ .byte   VOL , 69*StarWolf_mvl/mxv
  .byte   W90
  .byte   W01
  .byte   PEND 
@@ -1673,13 +1673,13 @@ Label_0100529C:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song02_004:
+StarWolf_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , StarWolf_key+0
  .byte   VOICE , 127
- .byte   VOL , 88*song02_mvl/mxv
+ .byte   VOL , 88*StarWolf_mvl/mxv
  .byte   PAN , c_v-14
- .byte   VOL , 80*song02_mvl/mxv
+ .byte   VOL , 80*StarWolf_mvl/mxv
  .byte   W96
 @  #04 @001   ----------------------------------------
  .byte   W96
@@ -1972,17 +1972,17 @@ Label_0100E19D:
 @******************************************************@
 	.align	2
 
-song02:
+StarWolf:
 	.byte	4	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song02_pri	@ Priority
-	.byte	song02_rev	@ Reverb.
+	.byte	StarWolf_pri	@ Priority
+	.byte	StarWolf_rev	@ Reverb.
     
-	.word	song02_grp
+	.word	StarWolf_grp
     
-	.word	song02_001
-	.word	song02_002
-	.word	song02_003
-	.word	song02_004
+	.word	StarWolf_001
+	.word	StarWolf_002
+	.word	StarWolf_003
+	.word	StarWolf_004
 
 	.end

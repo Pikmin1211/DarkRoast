@@ -1,30 +1,30 @@
 //Event file generated from Sappy .s format.
 	
 
-	#define	song02_grp  voicegroup000
-	#define	song02_pri  0
-	#define	song02_rev  0
-	#define	song02_mvl  127
-	#define	song02_key  0
-	#define	song02_tbs  1
-	#define	song02_exg  0
-	#define	song02_cmp  1
+	#define	StarWolf_grp  voicegroup000
+	#define	StarWolf_pri  0
+	#define	StarWolf_rev  0
+	#define	StarWolf_mvl  127
+	#define	StarWolf_key  0
+	#define	StarWolf_tbs  1
+	#define	StarWolf_exg  0
+	#define	StarWolf_cmp  1
 
 	// .rodata
-	//	song02
+	//	StarWolf
 	ALIGN 4
 
 
 //**************** Track 1 (Midi-Chn.0) ****************//
 
-song02_001:
+StarWolf_001:
 //  #01 //000   ----------------------------------------
- BYTE   KEYSH   song02_key+0
- BYTE   TEMPO   160*song02_tbs/2
+ BYTE   KEYSH   StarWolf_key+0
+ BYTE   TEMPO   160*StarWolf_tbs/2
  BYTE   VOICE   73
- BYTE   VOL   88*song02_mvl/mxv
+ BYTE   VOL   88*StarWolf_mvl/mxv
  BYTE   PAN   c_v+0
- BYTE   VOL   89*song02_mvl/mxv
+ BYTE   VOL   89*StarWolf_mvl/mxv
  BYTE   W96
 //  #01 //001   ----------------------------------------
  BYTE   W96
@@ -38,7 +38,7 @@ Label_0100DF32:
 //  #01 //005   ----------------------------------------
  BYTE   W96
 //  #01 //006   ----------------------------------------
- BYTE   TEMPO   160*song02_tbs/2
+ BYTE   TEMPO   160*StarWolf_tbs/2
  BYTE   W96
 //  #01 //007   ----------------------------------------
  BYTE   W96
@@ -209,7 +209,7 @@ Label_0100DFF1:
 //  #01 //037   ----------------------------------------
  BYTE   W96
 //  #01 //038   ----------------------------------------
- BYTE   TEMPO   160*song02_tbs/2
+ BYTE   TEMPO   160*StarWolf_tbs/2
  BYTE   W96
 //  #01 //039   ----------------------------------------
  BYTE   W96
@@ -288,13 +288,13 @@ Label_0100DFF1:
 
 //**************** Track 2 (Midi-Chn.1) ****************//
 
-song02_002:
+StarWolf_002:
 //  #02 //000   ----------------------------------------
- BYTE   KEYSH   song02_key+0
+ BYTE   KEYSH   StarWolf_key+0
  BYTE   VOICE   59
- BYTE   VOL   98*song02_mvl/mxv
+ BYTE   VOL   98*StarWolf_mvl/mxv
  BYTE   PAN   c_v+0
- BYTE   VOL   99*song02_mvl/mxv
+ BYTE   VOL   99*StarWolf_mvl/mxv
  BYTE   W96
 //  #02 //001   ----------------------------------------
  BYTE   W96
@@ -308,7 +308,7 @@ Label_0100D2E8:
 //  #02 //005   ----------------------------------------
  BYTE   W92
  BYTE   W03
- BYTE   VOL   94*song02_mvl/mxv
+ BYTE   VOL   94*StarWolf_mvl/mxv
  BYTE   W01
 //  #02 //006   ----------------------------------------
 Label_0100D2F0:
@@ -382,38 +382,38 @@ Label_0100D33C:
  BYTE   W12
  BYTE   N68  Cn3  v072
  BYTE   W05
- BYTE   VOL   94*song02_mvl/mxv
+ BYTE   VOL   94*StarWolf_mvl/mxv
  BYTE   W04
- BYTE   VOL   95*song02_mvl/mxv
+ BYTE   VOL   95*StarWolf_mvl/mxv
  BYTE   W03
- BYTE   VOL   96*song02_mvl/mxv
+ BYTE   VOL   96*StarWolf_mvl/mxv
  BYTE   W03
- BYTE   VOL   97*song02_mvl/mxv
+ BYTE   VOL   97*StarWolf_mvl/mxv
  BYTE   W03
- BYTE   VOL   97*song02_mvl/mxv
+ BYTE   VOL   97*StarWolf_mvl/mxv
  BYTE   W03
- BYTE   VOL   98*song02_mvl/mxv
+ BYTE   VOL   98*StarWolf_mvl/mxv
  BYTE   W04
- BYTE   VOL   99*song02_mvl/mxv
+ BYTE   VOL   99*StarWolf_mvl/mxv
  BYTE   W03
- BYTE   VOL   98*song02_mvl/mxv
+ BYTE   VOL   98*StarWolf_mvl/mxv
  BYTE   W10
- BYTE   VOL   97*song02_mvl/mxv
+ BYTE   VOL   97*StarWolf_mvl/mxv
  BYTE   W03
- BYTE   VOL   97*song02_mvl/mxv
+ BYTE   VOL   97*StarWolf_mvl/mxv
  BYTE   W04
- BYTE   VOL   96*song02_mvl/mxv
+ BYTE   VOL   96*StarWolf_mvl/mxv
  BYTE   W03
 //  #02 //013   ----------------------------------------
 Label_0100D36E:
  BYTE   W03
- BYTE   VOL   96*song02_mvl/mxv
+ BYTE   VOL   96*StarWolf_mvl/mxv
  BYTE   W03
- BYTE   VOL   95*song02_mvl/mxv
+ BYTE   VOL   95*StarWolf_mvl/mxv
  BYTE   W04
- BYTE   VOL   94*song02_mvl/mxv
+ BYTE   VOL   94*StarWolf_mvl/mxv
  BYTE   W03
- BYTE   VOL   94*song02_mvl/mxv
+ BYTE   VOL   94*StarWolf_mvl/mxv
  BYTE   W11
  BYTE   N21  Cn3  v072
  BYTE   W24
@@ -509,7 +509,7 @@ Label_0100D3E6:
 //  #02 //022   ----------------------------------------
 Label_0100D41C:
  BYTE   W05
- BYTE   VOL   99*song02_mvl/mxv
+ BYTE   VOL   99*StarWolf_mvl/mxv
  BYTE   W90
  BYTE   W01
  BYTE   PEND 
@@ -606,31 +606,31 @@ Label_0100D451:
  BYTE   W36
  BYTE   N09  As2  v068
  BYTE   W11
- BYTE   VOL   94*song02_mvl/mxv
+ BYTE   VOL   94*StarWolf_mvl/mxv
  BYTE   W01
  BYTE   N68  Cn3  v072
  BYTE   W05
- BYTE   VOL   94*song02_mvl/mxv
+ BYTE   VOL   94*StarWolf_mvl/mxv
  BYTE   W04
- BYTE   VOL   95*song02_mvl/mxv
+ BYTE   VOL   95*StarWolf_mvl/mxv
  BYTE   W03
- BYTE   VOL   96*song02_mvl/mxv
+ BYTE   VOL   96*StarWolf_mvl/mxv
  BYTE   W03
- BYTE   VOL   97*song02_mvl/mxv
+ BYTE   VOL   97*StarWolf_mvl/mxv
  BYTE   W03
- BYTE   VOL   97*song02_mvl/mxv
+ BYTE   VOL   97*StarWolf_mvl/mxv
  BYTE   W03
- BYTE   VOL   98*song02_mvl/mxv
+ BYTE   VOL   98*StarWolf_mvl/mxv
  BYTE   W04
- BYTE   VOL   99*song02_mvl/mxv
+ BYTE   VOL   99*StarWolf_mvl/mxv
  BYTE   W03
- BYTE   VOL   98*song02_mvl/mxv
+ BYTE   VOL   98*StarWolf_mvl/mxv
  BYTE   W10
- BYTE   VOL   97*song02_mvl/mxv
+ BYTE   VOL   97*StarWolf_mvl/mxv
  BYTE   W03
- BYTE   VOL   97*song02_mvl/mxv
+ BYTE   VOL   97*StarWolf_mvl/mxv
  BYTE   W04
- BYTE   VOL   96*song02_mvl/mxv
+ BYTE   VOL   96*StarWolf_mvl/mxv
  BYTE   W03
 //  #02 //045   ----------------------------------------
  BYTE   PATT
@@ -703,86 +703,86 @@ Label_0100D451:
 
 //**************** Track 3 (Midi-Chn.2) ****************//
 
-song02_003:
+StarWolf_003:
 //  #03 //000   ----------------------------------------
- BYTE   KEYSH   song02_key+0
+ BYTE   KEYSH   StarWolf_key+0
  BYTE   VOICE   48
- BYTE   VOL   68*song02_mvl/mxv
+ BYTE   VOL   68*StarWolf_mvl/mxv
  BYTE   PAN   c_v+10
- BYTE   VOL   69*song02_mvl/mxv
- BYTE   VOL   50*song02_mvl/mxv
+ BYTE   VOL   69*StarWolf_mvl/mxv
+ BYTE   VOL   50*StarWolf_mvl/mxv
  BYTE   TIE  As3  v064
  BYTE   TIE  Cs4
  BYTE   TIE  En4  v076
  BYTE   W10
- BYTE   VOL   50*song02_mvl/mxv
+ BYTE   VOL   50*StarWolf_mvl/mxv
  BYTE   W02
- BYTE   VOL   51*song02_mvl/mxv
+ BYTE   VOL   51*StarWolf_mvl/mxv
  BYTE   W03
- BYTE   VOL   52*song02_mvl/mxv
+ BYTE   VOL   52*StarWolf_mvl/mxv
  BYTE   W04
- BYTE   VOL   53*song02_mvl/mxv
+ BYTE   VOL   53*StarWolf_mvl/mxv
  BYTE   W03
- BYTE   VOL   54*song02_mvl/mxv
+ BYTE   VOL   54*StarWolf_mvl/mxv
  BYTE   W03
- BYTE   VOL   55*song02_mvl/mxv
+ BYTE   VOL   55*StarWolf_mvl/mxv
  BYTE   W04
- BYTE   VOL   56*song02_mvl/mxv
+ BYTE   VOL   56*StarWolf_mvl/mxv
  BYTE   W03
- BYTE   VOL   57*song02_mvl/mxv
+ BYTE   VOL   57*StarWolf_mvl/mxv
  BYTE   W03
- BYTE   VOL   59*song02_mvl/mxv
+ BYTE   VOL   59*StarWolf_mvl/mxv
  BYTE   W03
- BYTE   VOL   61*song02_mvl/mxv
+ BYTE   VOL   61*StarWolf_mvl/mxv
  BYTE   W04
- BYTE   VOL   62*song02_mvl/mxv
+ BYTE   VOL   62*StarWolf_mvl/mxv
  BYTE   W03
- BYTE   VOL   62*song02_mvl/mxv
+ BYTE   VOL   62*StarWolf_mvl/mxv
  BYTE   W03
- BYTE   VOL   64*song02_mvl/mxv
+ BYTE   VOL   64*StarWolf_mvl/mxv
  BYTE   W04
- BYTE   VOL   65*song02_mvl/mxv
+ BYTE   VOL   65*StarWolf_mvl/mxv
  BYTE   W03
- BYTE   VOL   66*song02_mvl/mxv
+ BYTE   VOL   66*StarWolf_mvl/mxv
  BYTE   W03
- BYTE   VOL   67*song02_mvl/mxv
+ BYTE   VOL   67*StarWolf_mvl/mxv
  BYTE   W04
- BYTE   VOL   67*song02_mvl/mxv
+ BYTE   VOL   67*StarWolf_mvl/mxv
  BYTE   W03
- BYTE   VOL   68*song02_mvl/mxv
+ BYTE   VOL   68*StarWolf_mvl/mxv
  BYTE   W07
- BYTE   VOL   69*song02_mvl/mxv
+ BYTE   VOL   69*StarWolf_mvl/mxv
  BYTE   W03
- BYTE   VOL   68*song02_mvl/mxv
+ BYTE   VOL   68*StarWolf_mvl/mxv
  BYTE   W20
- BYTE   VOL   67*song02_mvl/mxv
+ BYTE   VOL   67*StarWolf_mvl/mxv
  BYTE   W01
 //  #03 //001   ----------------------------------------
  BYTE   W09
- BYTE   VOL   67*song02_mvl/mxv
+ BYTE   VOL   67*StarWolf_mvl/mxv
  BYTE   W10
- BYTE   VOL   66*song02_mvl/mxv
+ BYTE   VOL   66*StarWolf_mvl/mxv
  BYTE   W06
- BYTE   VOL   66*song02_mvl/mxv
+ BYTE   VOL   66*StarWolf_mvl/mxv
  BYTE   W07
- BYTE   VOL   65*song02_mvl/mxv
+ BYTE   VOL   65*StarWolf_mvl/mxv
  BYTE   W09
- BYTE   VOL   64*song02_mvl/mxv
+ BYTE   VOL   64*StarWolf_mvl/mxv
  BYTE   W07
- BYTE   VOL   64*song02_mvl/mxv
+ BYTE   VOL   64*StarWolf_mvl/mxv
  BYTE   W07
- BYTE   VOL   63*song02_mvl/mxv
+ BYTE   VOL   63*StarWolf_mvl/mxv
  BYTE   W09
- BYTE   VOL   62*song02_mvl/mxv
+ BYTE   VOL   62*StarWolf_mvl/mxv
  BYTE   W10
- BYTE   VOL   62*song02_mvl/mxv
+ BYTE   VOL   62*StarWolf_mvl/mxv
  BYTE   W19
  BYTE   EOT
  BYTE   As3  v073
  BYTE   En4
  BYTE   VOICE   48
  BYTE   W01
- BYTE   VOL   69*song02_mvl/mxv
+ BYTE   VOL   69*StarWolf_mvl/mxv
  BYTE   W02
 //  #03 //002   ----------------------------------------
 Label_01004D54:
@@ -960,86 +960,86 @@ Label_01004E90:
  BYTE   N09  Cs4  v064
  BYTE   N09  Fn4  v080
  BYTE   W11
- BYTE   VOL   62*song02_mvl/mxv
+ BYTE   VOL   62*StarWolf_mvl/mxv
  BYTE   W01
  BYTE   N09  Fs2  v048
  BYTE   N09  Cs3  v060
  BYTE   TIE  As3  v068
  BYTE   TIE  Ds4  v080
  BYTE   W12
- BYTE   VOL   62*song02_mvl/mxv
+ BYTE   VOL   62*StarWolf_mvl/mxv
  BYTE   N08  Fs2  v044
  BYTE   N08  Cs3  v056
  BYTE   W03
- BYTE   VOL   63*song02_mvl/mxv
+ BYTE   VOL   63*StarWolf_mvl/mxv
  BYTE   W07
- BYTE   VOL   64*song02_mvl/mxv
+ BYTE   VOL   64*StarWolf_mvl/mxv
  BYTE   W02
  BYTE   N08  Fs2  v048
  BYTE   N08  Cs3  v056
  BYTE   W01
- BYTE   VOL   64*song02_mvl/mxv
+ BYTE   VOL   64*StarWolf_mvl/mxv
  BYTE   W03
- BYTE   VOL   65*song02_mvl/mxv
+ BYTE   VOL   65*StarWolf_mvl/mxv
  BYTE   W04
- BYTE   VOL   66*song02_mvl/mxv
+ BYTE   VOL   66*StarWolf_mvl/mxv
  BYTE   W03
- BYTE   VOL   66*song02_mvl/mxv
+ BYTE   VOL   66*StarWolf_mvl/mxv
  BYTE   W01
  BYTE   N09  Fs2  v044
  BYTE   N09  Cs3  v056
  BYTE   W02
- BYTE   VOL   67*song02_mvl/mxv
+ BYTE   VOL   67*StarWolf_mvl/mxv
  BYTE   W07
- BYTE   VOL   67*song02_mvl/mxv
+ BYTE   VOL   67*StarWolf_mvl/mxv
  BYTE   W03
  BYTE   PEND 
 //  #03 //019   ----------------------------------------
 Label_01004EF3:
- BYTE   VOL   68*song02_mvl/mxv
+ BYTE   VOL   68*StarWolf_mvl/mxv
  BYTE   N09  Fs2  v052
  BYTE   N09  Cs3  v060
  BYTE   W10
- BYTE   VOL   69*song02_mvl/mxv
+ BYTE   VOL   69*StarWolf_mvl/mxv
  BYTE   W02
  BYTE   N09  Fs2  v044
  BYTE   N09  Cs3  v056
  BYTE   W01
- BYTE   VOL   68*song02_mvl/mxv
+ BYTE   VOL   68*StarWolf_mvl/mxv
  BYTE   W11
  BYTE   N08  Fs2  v048
  BYTE   N08  Cs3  v056
  BYTE   W02
- BYTE   VOL   67*song02_mvl/mxv
+ BYTE   VOL   67*StarWolf_mvl/mxv
  BYTE   W10
- BYTE   VOL   67*song02_mvl/mxv
+ BYTE   VOL   67*StarWolf_mvl/mxv
  BYTE   N09  Fs2  v044
  BYTE   N09  Cs3  v056
  BYTE   W03
- BYTE   VOL   66*song02_mvl/mxv
+ BYTE   VOL   66*StarWolf_mvl/mxv
  BYTE   W07
- BYTE   VOL   66*song02_mvl/mxv
+ BYTE   VOL   66*StarWolf_mvl/mxv
  BYTE   W02
  BYTE   N09  Fs2  v048
  BYTE   N09  Cs3  v060
  BYTE   W04
- BYTE   VOL   65*song02_mvl/mxv
+ BYTE   VOL   65*StarWolf_mvl/mxv
  BYTE   W03
- BYTE   VOL   64*song02_mvl/mxv
+ BYTE   VOL   64*StarWolf_mvl/mxv
  BYTE   W05
  BYTE   N08  Fs2  v044
  BYTE   N08  Cs3  v056
  BYTE   W02
- BYTE   VOL   64*song02_mvl/mxv
+ BYTE   VOL   64*StarWolf_mvl/mxv
  BYTE   W06
- BYTE   VOL   63*song02_mvl/mxv
+ BYTE   VOL   63*StarWolf_mvl/mxv
  BYTE   W03
- BYTE   VOL   62*song02_mvl/mxv
+ BYTE   VOL   62*StarWolf_mvl/mxv
  BYTE   W01
  BYTE   N08  Fs2  v048
  BYTE   N08  Cs3  v056
  BYTE   W09
- BYTE   VOL   62*song02_mvl/mxv
+ BYTE   VOL   62*StarWolf_mvl/mxv
  BYTE   W03
  BYTE   N09  Fs2  v044
  BYTE   N09  Cs3  v056
@@ -1069,33 +1069,33 @@ Label_01004F50:
  BYTE   N09  Cs3  v060
  BYTE   TIE  Fs3  v076
  BYTE   W09
- BYTE   VOL   62*song02_mvl/mxv
+ BYTE   VOL   62*StarWolf_mvl/mxv
  BYTE   W03
  BYTE   N08  Fs2  v044
  BYTE   N08  Cs3  v056
  BYTE   W04
- BYTE   VOL   63*song02_mvl/mxv
+ BYTE   VOL   63*StarWolf_mvl/mxv
  BYTE   W03
- BYTE   VOL   64*song02_mvl/mxv
+ BYTE   VOL   64*StarWolf_mvl/mxv
  BYTE   W04
- BYTE   VOL   64*song02_mvl/mxv
+ BYTE   VOL   64*StarWolf_mvl/mxv
  BYTE   W01
  BYTE   N08  Fs2  v048
  BYTE   N08  Cs3  v056
  BYTE   W02
- BYTE   VOL   65*song02_mvl/mxv
+ BYTE   VOL   65*StarWolf_mvl/mxv
  BYTE   W03
- BYTE   VOL   66*song02_mvl/mxv
+ BYTE   VOL   66*StarWolf_mvl/mxv
  BYTE   W04
- BYTE   VOL   66*song02_mvl/mxv
+ BYTE   VOL   66*StarWolf_mvl/mxv
  BYTE   W03
- BYTE   VOL   67*song02_mvl/mxv
+ BYTE   VOL   67*StarWolf_mvl/mxv
  BYTE   N09  Fs2  v044
  BYTE   N09  Cs3  v056
  BYTE   W04
- BYTE   VOL   67*song02_mvl/mxv
+ BYTE   VOL   67*StarWolf_mvl/mxv
  BYTE   W06
- BYTE   VOL   68*song02_mvl/mxv
+ BYTE   VOL   68*StarWolf_mvl/mxv
  BYTE   W02
  BYTE   PEND 
 //  #03 //021   ----------------------------------------
@@ -1103,9 +1103,9 @@ Label_01004FAB:
  BYTE   N09  Fs2  v052
  BYTE   N09  Cs3  v060
  BYTE   W05
- BYTE   VOL   69*song02_mvl/mxv
+ BYTE   VOL   69*StarWolf_mvl/mxv
  BYTE   W04
- BYTE   VOL   68*song02_mvl/mxv
+ BYTE   VOL   68*StarWolf_mvl/mxv
  BYTE   W03
  BYTE   N09  Fs2  v044
  BYTE   N09  Cs3  v056
@@ -1113,36 +1113,36 @@ Label_01004FAB:
  BYTE   N08  Fs2  v048
  BYTE   N08  Cs3  v056
  BYTE   W01
- BYTE   VOL   67*song02_mvl/mxv
+ BYTE   VOL   67*StarWolf_mvl/mxv
  BYTE   W07
- BYTE   VOL   67*song02_mvl/mxv
+ BYTE   VOL   67*StarWolf_mvl/mxv
  BYTE   W04
  BYTE   N09  Fs2  v044
  BYTE   N09  Cs3  v056
  BYTE   W02
- BYTE   VOL   66*song02_mvl/mxv
+ BYTE   VOL   66*StarWolf_mvl/mxv
  BYTE   W07
- BYTE   VOL   66*song02_mvl/mxv
+ BYTE   VOL   66*StarWolf_mvl/mxv
  BYTE   W03
- BYTE   VOL   65*song02_mvl/mxv
+ BYTE   VOL   65*StarWolf_mvl/mxv
  BYTE   N09  Fs2  v048
  BYTE   N09  Cs3  v060
  BYTE   W07
- BYTE   VOL   64*song02_mvl/mxv
+ BYTE   VOL   64*StarWolf_mvl/mxv
  BYTE   W05
  BYTE   N08  Fs2  v044
  BYTE   N08  Cs3  v056
  BYTE   W01
- BYTE   VOL   64*song02_mvl/mxv
+ BYTE   VOL   64*StarWolf_mvl/mxv
  BYTE   W03
- BYTE   VOL   63*song02_mvl/mxv
+ BYTE   VOL   63*StarWolf_mvl/mxv
  BYTE   W07
- BYTE   VOL   62*song02_mvl/mxv
+ BYTE   VOL   62*StarWolf_mvl/mxv
  BYTE   W01
  BYTE   N08  Fs2  v048
  BYTE   N08  Cs3  v056
  BYTE   W09
- BYTE   VOL   62*song02_mvl/mxv
+ BYTE   VOL   62*StarWolf_mvl/mxv
  BYTE   W03
  BYTE   N11  Fs2  v044
  BYTE   N09  Cs3  v056
@@ -1310,7 +1310,7 @@ Label_01005100:
 //  #03 //026   ----------------------------------------
 Label_01005144:
  BYTE   W05
- BYTE   VOL   69*song02_mvl/mxv
+ BYTE   VOL   69*StarWolf_mvl/mxv
  BYTE   W90
  BYTE   W01
  BYTE   PEND 
@@ -1674,13 +1674,13 @@ Label_0100529C:
 
 //**************** Track 4 (Midi-Chn.3) ****************//
 
-song02_004:
+StarWolf_004:
 //  #04 //000   ----------------------------------------
- BYTE   KEYSH   song02_key+0
+ BYTE   KEYSH   StarWolf_key+0
  BYTE   VOICE   127
- BYTE   VOL   88*song02_mvl/mxv
+ BYTE   VOL   88*StarWolf_mvl/mxv
  BYTE   PAN   c_v-14
- BYTE   VOL   80*song02_mvl/mxv
+ BYTE   VOL   80*StarWolf_mvl/mxv
  BYTE   W96
 //  #04 //001   ----------------------------------------
  BYTE   W96
@@ -1973,17 +1973,17 @@ Label_0100E19D:
 //******************************************************//
 	ALIGN 4
 
-song02:
+StarWolf:
 	BYTE	4	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	song02_pri	// Priority
-	BYTE	song02_rev	// Reverb.
+	BYTE	StarWolf_pri	// Priority
+	BYTE	StarWolf_rev	// Reverb.
     
-	POIN2	song02_grp
+	POIN2	StarWolf_grp
     
-	POIN2	song02_001
-	POIN2	song02_002
-	POIN2	song02_003
-	POIN2	song02_004
+	POIN2	StarWolf_001
+	POIN2	StarWolf_002
+	POIN2	StarWolf_003
+	POIN2	StarWolf_004
 
 	

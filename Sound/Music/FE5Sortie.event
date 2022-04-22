@@ -1,28 +1,28 @@
 //Event file generated from Sappy .s format.
 	
 
-	#define	PrepScreenFE5_grp  voicegroup000
-	#define	PrepScreenFE5_pri  0
-	#define	PrepScreenFE5_rev  0
-	#define	PrepScreenFE5_mvl  85
-	#define	PrepScreenFE5_key  0
-	#define	PrepScreenFE5_tbs  1
-	#define	PrepScreenFE5_exg  0
-	#define	PrepScreenFE5_cmp  1
+	#define	FE5Sortie_grp  voicegroup000
+	#define	FE5Sortie_pri  0
+	#define	FE5Sortie_rev  0
+	#define	FE5Sortie_mvl  85
+	#define	FE5Sortie_key  0
+	#define	FE5Sortie_tbs  1
+	#define	FE5Sortie_exg  0
+	#define	FE5Sortie_cmp  1
 
 	// .rodata
-	//	PrepScreenFE5
+	//	FE5Sortie
 	ALIGN 4
 
 //**************** Track 1 (Midi-Chn.1) ****************//
 
-PrepScreenFE5_1:
-	BYTE	KEYSH   PrepScreenFE5_key+0
-PrepScreenFE5_1_B1:
+FE5Sortie_1:
+	BYTE	KEYSH   FE5Sortie_key+0
+FE5Sortie_1_B1:
 // 000   ----------------------------------------
-	BYTE	TEMPO   105*PrepScreenFE5_tbs/2
+	BYTE	TEMPO   105*FE5Sortie_tbs/2
 	BYTE		VOICE   61
-	BYTE		VOL     81*PrepScreenFE5_mvl/mxv
+	BYTE		VOL     81*FE5Sortie_mvl/mxv
 	BYTE	W01
 	BYTE		TIE     Dn3   v100
 	BYTE	W92
@@ -40,7 +40,7 @@ PrepScreenFE5_1_B1:
 	BYTE	W92
 	BYTE	W03
 // 003   ----------------------------------------
-PrepScreenFE5_1_003:
+FE5Sortie_1_003:
 	BYTE	W01
 	BYTE		N84     Cn3   v100
 	BYTE	W92
@@ -66,7 +66,7 @@ PrepScreenFE5_1_003:
 	BYTE	W03
 // 007   ----------------------------------------
 	BYTE	PATT
-	 POIN2	PrepScreenFE5_1_003
+	 POIN2	FE5Sortie_1_003
 // 008   ----------------------------------------
 	BYTE	W05
 	BYTE		N44     Dn4   v092
@@ -212,19 +212,19 @@ PrepScreenFE5_1_003:
 // 027   ----------------------------------------
 	BYTE	W96
 	BYTE	GoTo
-	 POIN2	PrepScreenFE5_1_B1
-PrepScreenFE5_1_B2:
+	 POIN2	FE5Sortie_1_B1
+FE5Sortie_1_B2:
 // 028   ----------------------------------------
 	BYTE	FINE
 
 //**************** Track 2 (Midi-Chn.2) ****************//
 
-PrepScreenFE5_2:
-	BYTE	KEYSH   PrepScreenFE5_key+0
-PrepScreenFE5_2_B1:
+FE5Sortie_2:
+	BYTE	KEYSH   FE5Sortie_key+0
+FE5Sortie_2_B1:
 // 000   ----------------------------------------
 	BYTE		VOICE   56
-	BYTE		VOL     81*PrepScreenFE5_mvl/mxv
+	BYTE		VOL     81*FE5Sortie_mvl/mxv
 	BYTE	W05
 	BYTE		TIE     Dn3   v100
 	BYTE	W90
@@ -418,20 +418,20 @@ PrepScreenFE5_2_B1:
 	BYTE	W44
 	BYTE	W01
 	BYTE	GoTo
-	 POIN2	PrepScreenFE5_2_B1
-PrepScreenFE5_2_B2:
+	 POIN2	FE5Sortie_2_B1
+FE5Sortie_2_B2:
 // 028   ----------------------------------------
 	BYTE	FINE
 
 //**************** Track 3 (Midi-Chn.3) ****************//
 
-PrepScreenFE5_3:
-	BYTE	KEYSH   PrepScreenFE5_key+0
-PrepScreenFE5_3_B1:
+FE5Sortie_3:
+	BYTE	KEYSH   FE5Sortie_key+0
+FE5Sortie_3_B1:
 // 000   ----------------------------------------
 	BYTE		VOICE   40
 	BYTE	W01
-	BYTE		VOL     90*PrepScreenFE5_mvl/mxv
+	BYTE		VOL     90*FE5Sortie_mvl/mxv
 	BYTE		PAN     c_v+0
 	BYTE	W01
 	BYTE		TIE     Fn2   v092
@@ -456,7 +456,7 @@ PrepScreenFE5_3_B1:
 	BYTE	W92
 	BYTE	W02
 // 004   ----------------------------------------
-PrepScreenFE5_3_004:
+FE5Sortie_3_004:
 	BYTE	W02
 	BYTE		TIE     Fn2   v096
 	BYTE	W92
@@ -481,7 +481,7 @@ PrepScreenFE5_3_004:
 	BYTE	W02
 // 008   ----------------------------------------
 	BYTE	PATT
-	 POIN2	PrepScreenFE5_3_004
+	 POIN2	FE5Sortie_3_004
 // 009   ----------------------------------------
 	BYTE	W84
 	BYTE	W03
@@ -499,7 +499,7 @@ PrepScreenFE5_3_004:
 	BYTE	W02
 // 012   ----------------------------------------
 	BYTE	W02
-	BYTE		VOL     90*PrepScreenFE5_mvl/mxv
+	BYTE		VOL     90*FE5Sortie_mvl/mxv
 	BYTE		PAN     c_v+0
 	BYTE	W01
 	BYTE		TIE     Fn2   v100
@@ -518,7 +518,7 @@ PrepScreenFE5_3_004:
 	BYTE	W92
 	BYTE	W01
 // 015   ----------------------------------------
-PrepScreenFE5_3_015:
+FE5Sortie_3_015:
 	BYTE	W03
 	BYTE		N84     En2   v096
 	BYTE	W92
@@ -544,7 +544,7 @@ PrepScreenFE5_3_015:
 	BYTE	W01
 // 019   ----------------------------------------
 	BYTE	PATT
-	 POIN2	PrepScreenFE5_3_015
+	 POIN2	FE5Sortie_3_015
 // 020   ----------------------------------------
 	BYTE	W03
 	BYTE		TIE     Fn2   v104
@@ -566,9 +566,9 @@ PrepScreenFE5_3_015:
 	BYTE	W01
 // 024   ----------------------------------------
 	BYTE	W03
-	BYTE		VOL     85*PrepScreenFE5_mvl/mxv
+	BYTE		VOL     85*FE5Sortie_mvl/mxv
 	BYTE		PAN     c_v+0
-	BYTE		VOL     62*PrepScreenFE5_mvl/mxv
+	BYTE		VOL     62*FE5Sortie_mvl/mxv
 	BYTE		PAN     c_v+25
 	BYTE		N80     Fn4   v104
 	BYTE	W84
@@ -587,7 +587,7 @@ PrepScreenFE5_3_015:
 	BYTE	W03
 	BYTE		N68     Gn4   v104
 	BYTE	W80
-	BYTE		VOL     82*PrepScreenFE5_mvl/mxv
+	BYTE		VOL     82*FE5Sortie_mvl/mxv
 	BYTE		PAN     c_v+14
 	BYTE		N02     Gn3   v084
 	BYTE	W08
@@ -605,20 +605,20 @@ PrepScreenFE5_3_015:
 	BYTE	W44
 	BYTE	W01
 	BYTE	GoTo
-	 POIN2	PrepScreenFE5_3_B1
-PrepScreenFE5_3_B2:
+	 POIN2	FE5Sortie_3_B1
+FE5Sortie_3_B2:
 // 028   ----------------------------------------
 	BYTE	FINE
 
 //**************** Track 4 (Midi-Chn.4) ****************//
 
-PrepScreenFE5_4:
-	BYTE	KEYSH   PrepScreenFE5_key+0
-PrepScreenFE5_4_B1:
+FE5Sortie_4:
+	BYTE	KEYSH   FE5Sortie_key+0
+FE5Sortie_4_B1:
 // 000   ----------------------------------------
 	BYTE		VOICE   41
 	BYTE	W01
-	BYTE		VOL     90*PrepScreenFE5_mvl/mxv
+	BYTE		VOL     90*FE5Sortie_mvl/mxv
 	BYTE		PAN     c_v+0
 	BYTE		TIE     Dn3   v100
 	BYTE	W92
@@ -636,14 +636,14 @@ PrepScreenFE5_4_B1:
 	BYTE	W92
 	BYTE	W03
 // 003   ----------------------------------------
-PrepScreenFE5_4_003:
+FE5Sortie_4_003:
 	BYTE	W01
 	BYTE		N84     Cn3   v100
 	BYTE	W92
 	BYTE	W03
 	BYTE	PEND
 // 004   ----------------------------------------
-PrepScreenFE5_4_004:
+FE5Sortie_4_004:
 	BYTE	W01
 	BYTE		TIE     Dn3   v108
 	BYTE	W92
@@ -664,10 +664,10 @@ PrepScreenFE5_4_004:
 	BYTE	W03
 // 007   ----------------------------------------
 	BYTE	PATT
-	 POIN2	PrepScreenFE5_4_003
+	 POIN2	FE5Sortie_4_003
 // 008   ----------------------------------------
 	BYTE	PATT
-	 POIN2	PrepScreenFE5_4_004
+	 POIN2	FE5Sortie_4_004
 // 009   ----------------------------------------
 	BYTE	W84
 	BYTE	W01
@@ -685,7 +685,7 @@ PrepScreenFE5_4_004:
 	BYTE	W03
 // 012   ----------------------------------------
 	BYTE	W02
-	BYTE		VOL     90*PrepScreenFE5_mvl/mxv
+	BYTE		VOL     90*FE5Sortie_mvl/mxv
 	BYTE		PAN     c_v+0
 	BYTE		TIE     Dn3   v100
 	BYTE	W92
@@ -704,7 +704,7 @@ PrepScreenFE5_4_004:
 	BYTE	W92
 	BYTE	W02
 // 015   ----------------------------------------
-PrepScreenFE5_4_015:
+FE5Sortie_4_015:
 	BYTE	W02
 	BYTE		N84     Cn3   v104
 	BYTE	W92
@@ -730,7 +730,7 @@ PrepScreenFE5_4_015:
 	BYTE	W02
 // 019   ----------------------------------------
 	BYTE	PATT
-	 POIN2	PrepScreenFE5_4_015
+	 POIN2	FE5Sortie_4_015
 // 020   ----------------------------------------
 	BYTE	W02
 	BYTE		TIE     Dn3   v112
@@ -753,7 +753,7 @@ PrepScreenFE5_4_015:
 	BYTE	W02
 // 024   ----------------------------------------
 	BYTE	W03
-	BYTE		VOL     90*PrepScreenFE5_mvl/mxv
+	BYTE		VOL     90*FE5Sortie_mvl/mxv
 	BYTE		PAN     c_v+0
 	BYTE	W01
 	BYTE		TIE     Gs2   v092
@@ -771,23 +771,23 @@ PrepScreenFE5_4_015:
 	BYTE	W03
 	BYTE		N92     Gn2 
 	BYTE	W01
-	BYTE		VOL     105*PrepScreenFE5_mvl/mxv
+	BYTE		VOL     105*FE5Sortie_mvl/mxv
 	BYTE		PAN     c_v+0
 	BYTE	W92
 	BYTE	GoTo
-	 POIN2	PrepScreenFE5_4_B1
-PrepScreenFE5_4_B2:
+	 POIN2	FE5Sortie_4_B1
+FE5Sortie_4_B2:
 // 028   ----------------------------------------
 	BYTE	FINE
 
 //**************** Track 5 (Midi-Chn.5) ****************//
 
-PrepScreenFE5_5:
-	BYTE	KEYSH   PrepScreenFE5_key+0
-PrepScreenFE5_5_B1:
+FE5Sortie_5:
+	BYTE	KEYSH   FE5Sortie_key+0
+FE5Sortie_5_B1:
 // 000   ----------------------------------------
 	BYTE		VOICE   66
-	BYTE		VOL     75*PrepScreenFE5_mvl/mxv
+	BYTE		VOL     75*FE5Sortie_mvl/mxv
 	BYTE	W01
 	BYTE		PAN     c_v+0
 	BYTE		N13     Gn2   v124
@@ -919,7 +919,7 @@ PrepScreenFE5_5_B1:
 	BYTE		N11   
 	BYTE	W22
 // 013   ----------------------------------------
-PrepScreenFE5_5_013:
+FE5Sortie_5_013:
 	BYTE	W02
 	BYTE		N11     Gn2   v124
 	BYTE	W24
@@ -932,22 +932,22 @@ PrepScreenFE5_5_013:
 	BYTE	PEND
 // 014   ----------------------------------------
 	BYTE	PATT
-	 POIN2	PrepScreenFE5_5_013
+	 POIN2	FE5Sortie_5_013
 // 015   ----------------------------------------
 	BYTE	PATT
-	 POIN2	PrepScreenFE5_5_013
+	 POIN2	FE5Sortie_5_013
 // 016   ----------------------------------------
 	BYTE	PATT
-	 POIN2	PrepScreenFE5_5_013
+	 POIN2	FE5Sortie_5_013
 // 017   ----------------------------------------
 	BYTE	PATT
-	 POIN2	PrepScreenFE5_5_013
+	 POIN2	FE5Sortie_5_013
 // 018   ----------------------------------------
 	BYTE	PATT
-	 POIN2	PrepScreenFE5_5_013
+	 POIN2	FE5Sortie_5_013
 // 019   ----------------------------------------
 	BYTE	PATT
-	 POIN2	PrepScreenFE5_5_013
+	 POIN2	FE5Sortie_5_013
 // 020   ----------------------------------------
 	BYTE	W02
 	BYTE		N92     Gn2   v124
@@ -956,7 +956,7 @@ PrepScreenFE5_5_013:
 // 021   ----------------------------------------
 	BYTE	W96
 // 022   ----------------------------------------
-PrepScreenFE5_5_022:
+FE5Sortie_5_022:
 	BYTE	W02
 	BYTE		N92     Cn3   v124
 	BYTE	W92
@@ -964,7 +964,7 @@ PrepScreenFE5_5_022:
 	BYTE	PEND
 // 023   ----------------------------------------
 	BYTE	PATT
-	 POIN2	PrepScreenFE5_5_022
+	 POIN2	FE5Sortie_5_022
 // 024   ----------------------------------------
 	BYTE	W03
 	BYTE		PAN     c_v+0
@@ -993,20 +993,20 @@ PrepScreenFE5_5_022:
 	BYTE	W92
 	BYTE	W01
 	BYTE	GoTo
-	 POIN2	PrepScreenFE5_5_B1
-PrepScreenFE5_5_B2:
+	 POIN2	FE5Sortie_5_B1
+FE5Sortie_5_B2:
 // 028   ----------------------------------------
 	BYTE	FINE
 
 //**************** Track 6 (Midi-Chn.6) ****************//
 
-PrepScreenFE5_6:
-	BYTE	KEYSH   PrepScreenFE5_key+0
-PrepScreenFE5_6_B1:
+FE5Sortie_6:
+	BYTE	KEYSH   FE5Sortie_key+0
+FE5Sortie_6_B1:
 // 000   ----------------------------------------
 	BYTE		VOICE   47
 	BYTE	W01
-	BYTE		VOL     110*PrepScreenFE5_mvl/mxv
+	BYTE		VOL     110*FE5Sortie_mvl/mxv
 	BYTE		PAN     c_v-14
 	BYTE		N36     Gn2   v116
 	BYTE	W92
@@ -1081,13 +1081,13 @@ PrepScreenFE5_6_B1:
 	BYTE	W11
 // 012   ----------------------------------------
 	BYTE	W02
-	BYTE		VOL     110*PrepScreenFE5_mvl/mxv
+	BYTE		VOL     110*FE5Sortie_mvl/mxv
 	BYTE		PAN     c_v-14
 	BYTE		N09     Gn2   v116
 	BYTE	W92
 	BYTE	W02
 // 013   ----------------------------------------
-PrepScreenFE5_6_013:
+FE5Sortie_6_013:
 	BYTE	W84
 	BYTE	W02
 	BYTE		N02     Dn2   v108
@@ -1116,7 +1116,7 @@ PrepScreenFE5_6_013:
 	BYTE	W02
 // 017   ----------------------------------------
 	BYTE	PATT
-	 POIN2	PrepScreenFE5_6_013
+	 POIN2	FE5Sortie_6_013
 // 018   ----------------------------------------
 	BYTE	W02
 	BYTE		N09     Gn2   v112
@@ -1227,7 +1227,7 @@ PrepScreenFE5_6_013:
 	BYTE	W10
 // 024   ----------------------------------------
 	BYTE	W03
-	BYTE		VOL     110*PrepScreenFE5_mvl/mxv
+	BYTE		VOL     110*FE5Sortie_mvl/mxv
 	BYTE		PAN     c_v-14
 	BYTE		N08     Gn2   v116
 	BYTE	W84
@@ -1254,17 +1254,17 @@ PrepScreenFE5_6_013:
 	BYTE		N01     Dn2   v104
 	BYTE	W11
 	BYTE	GoTo
-	 POIN2	PrepScreenFE5_6_B1
-PrepScreenFE5_6_B2:
+	 POIN2	FE5Sortie_6_B1
+FE5Sortie_6_B2:
 // 028   ----------------------------------------
 	BYTE	FINE
 
 //**************** Track 7 (Midi-Chn.7) ****************//
 
-PrepScreenFE5_7:
-	BYTE		VOL     127*PrepScreenFE5_mvl/mxv
-	BYTE	KEYSH   PrepScreenFE5_key+0
-PrepScreenFE5_7_B1:
+FE5Sortie_7:
+	BYTE		VOL     127*FE5Sortie_mvl/mxv
+	BYTE	KEYSH   FE5Sortie_key+0
+FE5Sortie_7_B1:
 // 000   ----------------------------------------
 	BYTE		VOICE   127
 	BYTE	W01
@@ -1297,7 +1297,7 @@ PrepScreenFE5_7_B1:
 	BYTE		        Dn1   v072
 	BYTE	W05
 // 001   ----------------------------------------
-PrepScreenFE5_7_001:
+FE5Sortie_7_001:
 	BYTE	W01
 	BYTE		N01     Dn1   v092
 	BYTE	W12
@@ -1330,36 +1330,36 @@ PrepScreenFE5_7_001:
 	BYTE	PEND
 // 002   ----------------------------------------
 	BYTE	PATT
-	 POIN2	PrepScreenFE5_7_001
+	 POIN2	FE5Sortie_7_001
 // 003   ----------------------------------------
 	BYTE	PATT
-	 POIN2	PrepScreenFE5_7_001
+	 POIN2	FE5Sortie_7_001
 // 004   ----------------------------------------
 	BYTE	PATT
-	 POIN2	PrepScreenFE5_7_001
+	 POIN2	FE5Sortie_7_001
 // 005   ----------------------------------------
 	BYTE	PATT
-	 POIN2	PrepScreenFE5_7_001
+	 POIN2	FE5Sortie_7_001
 // 006   ----------------------------------------
 	BYTE	PATT
-	 POIN2	PrepScreenFE5_7_001
+	 POIN2	FE5Sortie_7_001
 // 007   ----------------------------------------
 	BYTE	PATT
-	 POIN2	PrepScreenFE5_7_001
+	 POIN2	FE5Sortie_7_001
 // 008   ----------------------------------------
 	BYTE	PATT
-	 POIN2	PrepScreenFE5_7_001
+	 POIN2	FE5Sortie_7_001
 // 009   ----------------------------------------
 	BYTE	PATT
-	 POIN2	PrepScreenFE5_7_001
+	 POIN2	FE5Sortie_7_001
 // 010   ----------------------------------------
 	BYTE	PATT
-	 POIN2	PrepScreenFE5_7_001
+	 POIN2	FE5Sortie_7_001
 // 011   ----------------------------------------
 	BYTE	PATT
-	 POIN2	PrepScreenFE5_7_001
+	 POIN2	FE5Sortie_7_001
 // 012   ----------------------------------------
-PrepScreenFE5_7_012:
+FE5Sortie_7_012:
 	BYTE	W02
 	BYTE		N01     Dn1   v092
 	BYTE	W12
@@ -1392,25 +1392,25 @@ PrepScreenFE5_7_012:
 	BYTE	PEND
 // 013   ----------------------------------------
 	BYTE	PATT
-	 POIN2	PrepScreenFE5_7_012
+	 POIN2	FE5Sortie_7_012
 // 014   ----------------------------------------
 	BYTE	PATT
-	 POIN2	PrepScreenFE5_7_012
+	 POIN2	FE5Sortie_7_012
 // 015   ----------------------------------------
 	BYTE	PATT
-	 POIN2	PrepScreenFE5_7_012
+	 POIN2	FE5Sortie_7_012
 // 016   ----------------------------------------
 	BYTE	PATT
-	 POIN2	PrepScreenFE5_7_012
+	 POIN2	FE5Sortie_7_012
 // 017   ----------------------------------------
 	BYTE	PATT
-	 POIN2	PrepScreenFE5_7_012
+	 POIN2	FE5Sortie_7_012
 // 018   ----------------------------------------
 	BYTE	PATT
-	 POIN2	PrepScreenFE5_7_012
+	 POIN2	FE5Sortie_7_012
 // 019   ----------------------------------------
 	BYTE	PATT
-	 POIN2	PrepScreenFE5_7_012
+	 POIN2	FE5Sortie_7_012
 // 020   ----------------------------------------
 	BYTE	W96
 // 021   ----------------------------------------
@@ -1429,7 +1429,7 @@ PrepScreenFE5_7_012:
 	BYTE		N01   
 	BYTE	W04
 // 024   ----------------------------------------
-PrepScreenFE5_7_024:
+FE5Sortie_7_024:
 	BYTE	W03
 	BYTE		N10     Dn1   v096
 	BYTE	W12
@@ -1462,7 +1462,7 @@ PrepScreenFE5_7_024:
 	BYTE	PEND
 // 025   ----------------------------------------
 	BYTE	PATT
-	 POIN2	PrepScreenFE5_7_024
+	 POIN2	FE5Sortie_7_024
 // 026   ----------------------------------------
 	BYTE	W03
 	BYTE		N10     Dn1   v096
@@ -1489,28 +1489,28 @@ PrepScreenFE5_7_024:
 	BYTE		N03     Dn1   v104
 	BYTE	W12
 	BYTE	GoTo
-	 POIN2	PrepScreenFE5_7_B1
-PrepScreenFE5_7_B2:
+	 POIN2	FE5Sortie_7_B1
+FE5Sortie_7_B2:
 // 028   ----------------------------------------
 	BYTE	FINE
 
 //******************************************************//
 	ALIGN 4
 
-PrepScreenFE5:
+FE5Sortie:
 	BYTE	7	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	PrepScreenFE5_pri	// Priority
-	BYTE	PrepScreenFE5_rev	// Reverb.
+	BYTE	FE5Sortie_pri	// Priority
+	BYTE	FE5Sortie_rev	// Reverb.
 
-	POIN2	PrepScreenFE5_grp
+	POIN2	FE5Sortie_grp
 
-	POIN2	PrepScreenFE5_1
-	POIN2	PrepScreenFE5_2
-	POIN2	PrepScreenFE5_3
-	POIN2	PrepScreenFE5_4
-	POIN2	PrepScreenFE5_5
-	POIN2	PrepScreenFE5_6
-	POIN2	PrepScreenFE5_7
+	POIN2	FE5Sortie_1
+	POIN2	FE5Sortie_2
+	POIN2	FE5Sortie_3
+	POIN2	FE5Sortie_4
+	POIN2	FE5Sortie_5
+	POIN2	FE5Sortie_6
+	POIN2	FE5Sortie_7
 
 	

@@ -1,28 +1,28 @@
 	.include "MPlayDef.s"
 
-	.equ	song02_grp, voicegroup000
-	.equ	song02_pri, 0
-	.equ	song02_rev, 0
-	.equ	song02_mvl, 127
-	.equ	song02_key, 0
-	.equ	song02_tbs, 1
-	.equ	song02_exg, 0
-	.equ	song02_cmp, 1
+	.equ	BelieveInMyselfSA2B_grp, voicegroup000
+	.equ	BelieveInMyselfSA2B_pri, 0
+	.equ	BelieveInMyselfSA2B_rev, 0
+	.equ	BelieveInMyselfSA2B_mvl, 127
+	.equ	BelieveInMyselfSA2B_key, 0
+	.equ	BelieveInMyselfSA2B_tbs, 1
+	.equ	BelieveInMyselfSA2B_exg, 0
+	.equ	BelieveInMyselfSA2B_cmp, 1
 
 	.section .rodata
-	.global	song02
+	.global	BelieveInMyselfSA2B
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song02_001:
+BelieveInMyselfSA2B_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , BelieveInMyselfSA2B_key+0
 Label_010068CE:
- .byte   TEMPO , 172*song02_tbs/2
+ .byte   TEMPO , 172*BelieveInMyselfSA2B_tbs/2
  .byte   VOICE , 28
- .byte   VOL , 77*song02_mvl/mxv
+ .byte   VOL , 77*BelieveInMyselfSA2B_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #01 @001   ----------------------------------------
@@ -773,12 +773,12 @@ Label_01006BBE:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song02_002:
+BelieveInMyselfSA2B_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , BelieveInMyselfSA2B_key+0
 Label_01006C2A:
  .byte   VOICE , 46
- .byte   VOL , 77*song02_mvl/mxv
+ .byte   VOL , 77*BelieveInMyselfSA2B_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N44 ,Cs3 ,v112
  .byte   W48
@@ -1627,12 +1627,12 @@ Label_01006F34:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song02_003:
+BelieveInMyselfSA2B_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , BelieveInMyselfSA2B_key+0
 Label_01006FDE:
  .byte   VOICE , 4
- .byte   VOL , 42*song02_mvl/mxv
+ .byte   VOL , 42*BelieveInMyselfSA2B_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N90 ,An1 ,v096
  .byte   N90 ,Cs2
@@ -2434,12 +2434,12 @@ Label_010073FC:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song02_004:
+BelieveInMyselfSA2B_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , BelieveInMyselfSA2B_key+0
 Label_01007446:
  .byte   VOICE , 34
- .byte   VOL , 50*song02_mvl/mxv
+ .byte   VOL , 50*BelieveInMyselfSA2B_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N11 ,An2 ,v096
  .byte   W12
@@ -3716,17 +3716,17 @@ Label_010079CE:
 @******************************************************@
 	.align	2
 
-song02:
+BelieveInMyselfSA2B:
 	.byte	4	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song02_pri	@ Priority
-	.byte	song02_rev	@ Reverb.
+	.byte	BelieveInMyselfSA2B_pri	@ Priority
+	.byte	BelieveInMyselfSA2B_rev	@ Reverb.
     
-	.word	song02_grp
+	.word	BelieveInMyselfSA2B_grp
     
-	.word	song02_001
-	.word	song02_002
-	.word	song02_003
-	.word	song02_004
+	.word	BelieveInMyselfSA2B_001
+	.word	BelieveInMyselfSA2B_002
+	.word	BelieveInMyselfSA2B_003
+	.word	BelieveInMyselfSA2B_004
 
 	.end

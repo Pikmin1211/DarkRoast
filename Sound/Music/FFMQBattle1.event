@@ -1,29 +1,29 @@
 //Event file generated from Sappy .s format.
 	
 
-	#define	song19_grp  voicegroup000
-	#define	song19_pri  0
-	#define	song19_rev  0
-	#define	song19_mvl  127
-	#define	song19_key  0
-	#define	song19_tbs  1
-	#define	song19_exg  0
-	#define	song19_cmp  1
+	#define	FFMQBattle1_grp  voicegroup000
+	#define	FFMQBattle1_pri  0
+	#define	FFMQBattle1_rev  0
+	#define	FFMQBattle1_mvl  127
+	#define	FFMQBattle1_key  0
+	#define	FFMQBattle1_tbs  1
+	#define	FFMQBattle1_exg  0
+	#define	FFMQBattle1_cmp  1
 
 	// .rodata
-	//	song19
+	//	FFMQBattle1
 	ALIGN 4
 
 
 //**************** Track 1 (Midi-Chn.0) ****************//
 
-song19_001:
+FFMQBattle1_001:
 // 000   ----------------------------------------
- BYTE   KEYSH   song19_key+0
+ BYTE   KEYSH   FFMQBattle1_key+0
 Label_0_014C780A:
- BYTE   TEMPO   162*song19_tbs/2
+ BYTE   TEMPO   162*FFMQBattle1_tbs/2
  BYTE   VOICE   30
- BYTE   VOL   40*song19_mvl/mxv
+ BYTE   VOL   40*FFMQBattle1_mvl/mxv
  BYTE   N10  Bn0  v080
  BYTE   N10  Bn1
  BYTE   W12
@@ -280,7 +280,7 @@ Label_0_014C792B:
  BYTE   PATT
   POIN2 Label_0_014C792B
 // 014   ----------------------------------------
- BYTE   TEMPO   80*song19_tbs/2
+ BYTE   TEMPO   80*FFMQBattle1_tbs/2
  BYTE   W96
 // 015   ----------------------------------------
  BYTE   W96
@@ -307,7 +307,7 @@ Label_0_014C792B:
  BYTE   N04  An1
  BYTE   W06
 // 018   ----------------------------------------
- BYTE   TEMPO   162*song19_tbs/2
+ BYTE   TEMPO   162*FFMQBattle1_tbs/2
  BYTE   N10  Bn0
  BYTE   N10  Bn1
  BYTE   W12
@@ -369,12 +369,12 @@ Label_0_014C792B:
 
 //**************** Track 2 (Midi-Chn.1) ****************//
 
-song19_002:
+FFMQBattle1_002:
 // 000   ----------------------------------------
- BYTE   KEYSH   song19_key+0
+ BYTE   KEYSH   FFMQBattle1_key+0
 Label_1_014C7A22:
  BYTE   VOICE   99
- BYTE   VOL   36*song19_mvl/mxv
+ BYTE   VOL   36*FFMQBattle1_mvl/mxv
  BYTE   N10  Bn0  v080
  BYTE   N10  Bn1
  BYTE   W12
@@ -730,12 +730,12 @@ Label_1_014C7B94:
 
 //**************** Track 3 (Midi-Chn.2) ****************//
 
-song19_003:
+FFMQBattle1_003:
 // 000   ----------------------------------------
- BYTE   KEYSH   song19_key+0
+ BYTE   KEYSH   FFMQBattle1_key+0
 Label_2_014C7C52:
  BYTE   VOICE   38
- BYTE   VOL   40*song19_mvl/mxv
+ BYTE   VOL   40*FFMQBattle1_mvl/mxv
  BYTE   W96
 // 001   ----------------------------------------
  BYTE   W96
@@ -871,12 +871,12 @@ Label_2_014C7C68:
 
 //**************** Track 4 (Midi-Chn.3) ****************//
 
-song19_004:
+FFMQBattle1_004:
 // 000   ----------------------------------------
- BYTE   KEYSH   song19_key+0
+ BYTE   KEYSH   FFMQBattle1_key+0
 Label_3_014C7CE6:
  BYTE   VOICE   4
- BYTE   VOL   40*song19_mvl/mxv
+ BYTE   VOL   40*FFMQBattle1_mvl/mxv
  BYTE   N09  Bn3  v080
  BYTE   W12
  BYTE   Fs3
@@ -1152,12 +1152,12 @@ Label_3_014C7D6F:
 
 //**************** Track 5 (Midi-Chn.4) ****************//
 
-song19_005:
+FFMQBattle1_005:
 // 000   ----------------------------------------
- BYTE   KEYSH   song19_key+0
+ BYTE   KEYSH   FFMQBattle1_key+0
 Label_4_014C7E06:
  BYTE   VOICE   29
- BYTE   VOL   40*song19_mvl/mxv
+ BYTE   VOL   40*FFMQBattle1_mvl/mxv
  BYTE   W96
 // 001   ----------------------------------------
  BYTE   W96
@@ -1258,12 +1258,12 @@ Label_4_014C7E06:
 
 //**************** Track 6 (Midi-Chn.5) ****************//
 
-song19_006:
+FFMQBattle1_006:
 // 000   ----------------------------------------
- BYTE   KEYSH   song19_key+0
+ BYTE   KEYSH   FFMQBattle1_key+0
 Label_5_014C7E5E:
  BYTE   VOICE   73
- BYTE   VOL   40*song19_mvl/mxv
+ BYTE   VOL   40*FFMQBattle1_mvl/mxv
  BYTE   W96
 // 001   ----------------------------------------
  BYTE   W96
@@ -1372,12 +1372,12 @@ Label_5_014C7E5E:
 
 //**************** Track 7 (Midi-Chn.6) ****************//
 
-song19_007:
+FFMQBattle1_007:
 // 000   ----------------------------------------
- BYTE   KEYSH   song19_key+0
+ BYTE   KEYSH   FFMQBattle1_key+0
 Label_6_014C7EC2:
  BYTE   VOICE   58
- BYTE   VOL   40*song19_mvl/mxv
+ BYTE   VOL   40*FFMQBattle1_mvl/mxv
  BYTE   W96
 // 001   ----------------------------------------
  BYTE   W96
@@ -1806,12 +1806,12 @@ Label_6_014C7EC2:
 
 //**************** Track 8 (Midi-Chn.7) ****************//
 
-song19_008:
+FFMQBattle1_008:
 // 000   ----------------------------------------
- BYTE   KEYSH   song19_key+0
+ BYTE   KEYSH   FFMQBattle1_key+0
 Label_7_014C80DE:
  BYTE   VOICE   52
- BYTE   VOL   40*song19_mvl/mxv
+ BYTE   VOL   40*FFMQBattle1_mvl/mxv
  BYTE   W96
 // 001   ----------------------------------------
  BYTE   W96
@@ -2220,12 +2220,12 @@ Label_7_014C80DE:
 
 //**************** Track 9 (Midi-Chn.8) ****************//
 
-song19_009:
+FFMQBattle1_009:
 // 000   ----------------------------------------
- BYTE   KEYSH   song19_key+0
+ BYTE   KEYSH   FFMQBattle1_key+0
 Label_8_014C82DE:
  BYTE   VOICE   48
- BYTE   VOL   40*song19_mvl/mxv
+ BYTE   VOL   40*FFMQBattle1_mvl/mxv
  BYTE   W96
 // 001   ----------------------------------------
  BYTE   W96
@@ -2759,12 +2759,12 @@ Label_8_014C82DE:
 
 //**************** Track 10 (Midi-Chn.9) ****************//
 
-song19_010:
+FFMQBattle1_010:
 // 000   ----------------------------------------
- BYTE   KEYSH   song19_key+0
+ BYTE   KEYSH   FFMQBattle1_key+0
 Label_9_014C85E6:
  BYTE   VOICE   56
- BYTE   VOL   40*song19_mvl/mxv
+ BYTE   VOL   40*FFMQBattle1_mvl/mxv
  BYTE   W96
 // 001   ----------------------------------------
  BYTE   W96
@@ -3167,12 +3167,12 @@ Label_9_014C85E6:
 
 //**************** Track 11 (Midi-Chn.10) ****************//
 
-song19_011:
+FFMQBattle1_011:
 // 000   ----------------------------------------
- BYTE   KEYSH   song19_key+0
+ BYTE   KEYSH   FFMQBattle1_key+0
 Label_10_014C87DE:
  BYTE   VOICE   124
- BYTE   VOL   40*song19_mvl/mxv
+ BYTE   VOL   40*FFMQBattle1_mvl/mxv
  BYTE   N09  Bn0  v080
  BYTE   N09  Cn1
  BYTE   W12
@@ -3530,12 +3530,12 @@ Label_10_014C8933:
 
 //**************** Track 12 (Midi-Chn.11) ****************//
 
-song19_012:
+FFMQBattle1_012:
 // 000   ----------------------------------------
- BYTE   KEYSH   song19_key+0
+ BYTE   KEYSH   FFMQBattle1_key+0
 Label_11_014C89F2:
  BYTE   VOICE   127
- BYTE   VOL   40*song19_mvl/mxv
+ BYTE   VOL   40*FFMQBattle1_mvl/mxv
  BYTE   N09  Bn0  v080
  BYTE   N09  Cn1
  BYTE   W12
@@ -4010,25 +4010,25 @@ Label_11_014C8A7C:
 //******************************************************//
 	ALIGN 4
 
-song19:
+FFMQBattle1:
 	BYTE	12	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	song19_pri	// Priority
-	BYTE	song19_rev	// Reverb.
+	BYTE	FFMQBattle1_pri	// Priority
+	BYTE	FFMQBattle1_rev	// Reverb.
     
-	POIN2	song19_grp
+	POIN2	FFMQBattle1_grp
     
-	POIN2	song19_001
-	POIN2	song19_002
-	POIN2	song19_003
-	POIN2	song19_004
-	POIN2	song19_005
-	POIN2	song19_006
-	POIN2	song19_007
-	POIN2	song19_008
-	POIN2	song19_009
-	POIN2	song19_010
-	POIN2	song19_011
-	POIN2	song19_012
+	POIN2	FFMQBattle1_001
+	POIN2	FFMQBattle1_002
+	POIN2	FFMQBattle1_003
+	POIN2	FFMQBattle1_004
+	POIN2	FFMQBattle1_005
+	POIN2	FFMQBattle1_006
+	POIN2	FFMQBattle1_007
+	POIN2	FFMQBattle1_008
+	POIN2	FFMQBattle1_009
+	POIN2	FFMQBattle1_010
+	POIN2	FFMQBattle1_011
+	POIN2	FFMQBattle1_012
 
 	

@@ -1,29 +1,29 @@
 //Event file generated from Sappy .s format.
 	
 
-	#define	song02_grp  voicegroup000
-	#define	song02_pri  0
-	#define	song02_rev  0
-	#define	song02_mvl  127
-	#define	song02_key  0
-	#define	song02_tbs  1
-	#define	song02_exg  0
-	#define	song02_cmp  1
+	#define	FivePmACNH_grp  voicegroup000
+	#define	FivePmACNH_pri  0
+	#define	FivePmACNH_rev  0
+	#define	FivePmACNH_mvl  127
+	#define	FivePmACNH_key  0
+	#define	FivePmACNH_tbs  1
+	#define	FivePmACNH_exg  0
+	#define	FivePmACNH_cmp  1
 
 	// .rodata
-	//	song02
+	//	FivePmACNH
 	ALIGN 4
 
 
 //**************** Track 1 (Midi-Chn.0) ****************//
 
-song02_001:
+FivePmACNH_001:
 //  #01 //000   ----------------------------------------
- BYTE   KEYSH   song02_key+0
+ BYTE   KEYSH   FivePmACNH_key+0
 Label_547722:
- BYTE   TEMPO   72*song02_tbs/2
+ BYTE   TEMPO   72*FivePmACNH_tbs/2
  BYTE   VOICE   0
- BYTE   VOL   52*song02_mvl/mxv
+ BYTE   VOL   52*FivePmACNH_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   N07  Dn2  v064
  BYTE   N07  Fs2
@@ -457,12 +457,12 @@ Label_5478F7:
 
 //**************** Track 2 (Midi-Chn.1) ****************//
 
-song02_002:
+FivePmACNH_002:
 //  #02 //000   ----------------------------------------
- BYTE   KEYSH   song02_key+0
+ BYTE   KEYSH   FivePmACNH_key+0
 Label_5462B2:
  BYTE   VOICE   81
- BYTE   VOL   67*song02_mvl/mxv
+ BYTE   VOL   67*FivePmACNH_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W96
 //  #02 //001   ----------------------------------------
@@ -730,12 +730,12 @@ Label_54635C:
 
 //**************** Track 3 (Midi-Chn.2) ****************//
 
-song02_003:
+FivePmACNH_003:
 //  #03 //000   ----------------------------------------
- BYTE   KEYSH   song02_key+0
+ BYTE   KEYSH   FivePmACNH_key+0
 Label_5473BE:
  BYTE   VOICE   4
- BYTE   VOL   52*song02_mvl/mxv
+ BYTE   VOL   52*FivePmACNH_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W96
 //  #03 //001   ----------------------------------------
@@ -947,12 +947,12 @@ Label_547429:
 
 //**************** Track 4 (Midi-Chn.3) ****************//
 
-song02_004:
+FivePmACNH_004:
 //  #04 //000   ----------------------------------------
- BYTE   KEYSH   song02_key+0
+ BYTE   KEYSH   FivePmACNH_key+0
 Label_5479B6:
  BYTE   VOICE   4
- BYTE   VOL   52*song02_mvl/mxv
+ BYTE   VOL   52*FivePmACNH_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W96
 //  #04 //001   ----------------------------------------
@@ -1105,12 +1105,12 @@ Label_5479C8:
 
 //**************** Track 5 (Midi-Chn.4) ****************//
 
-song02_005:
+FivePmACNH_005:
 //  #05 //000   ----------------------------------------
- BYTE   KEYSH   song02_key+0
+ BYTE   KEYSH   FivePmACNH_key+0
 Label_5463CA:
  BYTE   VOICE   4
- BYTE   VOL   52*song02_mvl/mxv
+ BYTE   VOL   52*FivePmACNH_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W96
 //  #05 //001   ----------------------------------------
@@ -1252,12 +1252,12 @@ Label_5463E9:
 
 //**************** Track 6 (Midi-Chn.5) ****************//
 
-song02_006:
+FivePmACNH_006:
 //  #06 //000   ----------------------------------------
- BYTE   KEYSH   song02_key+0
+ BYTE   KEYSH   FivePmACNH_key+0
 Label_5466C2:
  BYTE   VOICE   28
- BYTE   VOL   90*song02_mvl/mxv
+ BYTE   VOL   90*FivePmACNH_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W07
  BYTE   N04  En2  v040
@@ -1633,12 +1633,12 @@ Label_54680B:
 
 //**************** Track 7 (Midi-Chn.6) ****************//
 
-song02_007:
+FivePmACNH_007:
 //  #07 //000   ----------------------------------------
- BYTE   KEYSH   song02_key+0
+ BYTE   KEYSH   FivePmACNH_key+0
 Label_546E4E:
  BYTE   VOICE   34
- BYTE   VOL   72*song02_mvl/mxv
+ BYTE   VOL   72*FivePmACNH_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   N11  Bn1  v080
  BYTE   W90
@@ -1954,12 +1954,12 @@ Label_546F4D:
 
 //**************** Track 8 (Midi-Chn.7) ****************//
 
-song02_008:
+FivePmACNH_008:
 //  #08 //000   ----------------------------------------
- BYTE   KEYSH   song02_key+0
+ BYTE   KEYSH   FivePmACNH_key+0
 Label_547006:
  BYTE   VOICE   127
- BYTE   VOL   62*song02_mvl/mxv
+ BYTE   VOL   62*FivePmACNH_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   N23  Cn1  v060
  BYTE   N11  Fs1  v032
@@ -2417,21 +2417,21 @@ Label_547211:
 //******************************************************//
 	ALIGN 4
 
-song02:
+FivePmACNH:
 	BYTE	8	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	song02_pri	// Priority
-	BYTE	song02_rev	// Reverb.
+	BYTE	FivePmACNH_pri	// Priority
+	BYTE	FivePmACNH_rev	// Reverb.
     
-	POIN2	song02_grp
+	POIN2	FivePmACNH_grp
     
-	POIN2	song02_001
-	POIN2	song02_002
-	POIN2	song02_003
-	POIN2	song02_004
-	POIN2	song02_005
-	POIN2	song02_006
-	POIN2	song02_007
-	POIN2	song02_008
+	POIN2	FivePmACNH_001
+	POIN2	FivePmACNH_002
+	POIN2	FivePmACNH_003
+	POIN2	FivePmACNH_004
+	POIN2	FivePmACNH_005
+	POIN2	FivePmACNH_006
+	POIN2	FivePmACNH_007
+	POIN2	FivePmACNH_008
 
 	

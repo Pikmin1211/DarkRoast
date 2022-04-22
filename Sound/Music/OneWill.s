@@ -1,29 +1,29 @@
 	.include "MPlayDef.s"
 
-	.equ	song02_grp, voicegroup000
-	.equ	song02_pri, 0
-	.equ	song02_rev, 0
-	.equ	song02_mvl, 127
-	.equ	song02_key, 0
-	.equ	song02_tbs, 1
-	.equ	song02_exg, 0
-	.equ	song02_cmp, 1
+	.equ	OneWill_grp, voicegroup000
+	.equ	OneWill_pri, 0
+	.equ	OneWill_rev, 0
+	.equ	OneWill_mvl, 127
+	.equ	OneWill_key, 0
+	.equ	OneWill_tbs, 1
+	.equ	OneWill_exg, 0
+	.equ	OneWill_cmp, 1
 
 	.section .rodata
-	.global	song02
+	.global	OneWill
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song02_001:
+OneWill_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , OneWill_key+0
 Label_01005C5A:
- .byte   TEMPO , 120*song02_tbs/2
+ .byte   TEMPO , 120*OneWill_tbs/2
  .byte   VOICE , 68
  .byte   W24
- .byte   VOL , 70*song02_mvl/mxv
+ .byte   VOL , 70*OneWill_mvl/mxv
  .byte   PAN , c_v+9
  .byte   N28 ,Fn2 ,v104
  .byte   N28 ,As2 ,v100
@@ -54,7 +54,7 @@ Label_01005C5A:
  .byte   W72
 @  #01 @003   ----------------------------------------
  .byte   W24
- .byte   VOL , 61*song02_mvl/mxv
+ .byte   VOL , 61*OneWill_mvl/mxv
  .byte   PAN , c_v+4
  .byte   N05 ,As2 ,v072
  .byte   W06
@@ -68,7 +68,7 @@ Label_01005C5A:
  .byte   W48
 @  #01 @004   ----------------------------------------
  .byte   W24
- .byte   VOL , 70*song02_mvl/mxv
+ .byte   VOL , 70*OneWill_mvl/mxv
  .byte   PAN , c_v+9
  .byte   N32 ,Fn2 ,v088
  .byte   N32 ,As2 ,v092
@@ -97,7 +97,7 @@ Label_01005C5A:
  .byte   N44 ,As2 ,v084
  .byte   N44 ,Cs3 ,v056
  .byte   W48
- .byte   VOL , 61*song02_mvl/mxv
+ .byte   VOL , 61*OneWill_mvl/mxv
  .byte   PAN , c_v+4
  .byte   N44 ,As3 ,v096
  .byte   W24
@@ -138,7 +138,7 @@ Label_01005C5A:
  .byte   W72
 @  #01 @012   ----------------------------------------
  .byte   W24
- .byte   VOL , 70*song02_mvl/mxv
+ .byte   VOL , 70*OneWill_mvl/mxv
  .byte   PAN , c_v+9
  .byte   N32 ,Fn3 ,v108
  .byte   W36
@@ -170,7 +170,7 @@ Label_01005C5A:
  .byte   N24 ,An3 ,v096
  .byte   W24
 @  #01 @016   ----------------------------------------
- .byte   VOL , 70*song02_mvl/mxv
+ .byte   VOL , 70*OneWill_mvl/mxv
  .byte   PAN , c_v+9
  .byte   W24
  .byte   N44 ,As3 ,v076
@@ -232,14 +232,14 @@ Label_01005C5A:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song02_002:
+OneWill_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , OneWill_key+0
 Label_0100D2DE:
  .byte   VOICE , 68
  .byte   W24
  .byte   MOD 0
- .byte   VOL , 38*song02_mvl/mxv
+ .byte   VOL , 38*OneWill_mvl/mxv
  .byte   PAN , c_v+1
  .byte   BEND , c_v-3
  .byte   TIE ,As2 ,v072
@@ -335,7 +335,7 @@ Label_0100D303:
  .byte   W24
 @  #02 @016   ----------------------------------------
  .byte   W24
- .byte   VOL , 61*song02_mvl/mxv
+ .byte   VOL , 61*OneWill_mvl/mxv
  .byte   PAN , c_v+4
  .byte   N44 ,Cs3 ,v088
  .byte   W48
@@ -396,14 +396,14 @@ Label_0100D303:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song02_003:
+OneWill_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , OneWill_key+0
 Label_01004CFA:
  .byte   VOICE , 50
  .byte   W24
  .byte   MOD 2
- .byte   VOL , 40*song02_mvl/mxv
+ .byte   VOL , 40*OneWill_mvl/mxv
  .byte   PAN , c_v+1
  .byte   TIE ,As2 ,v076
  .byte   W72
@@ -527,13 +527,13 @@ Label_01004D1D:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song02_004:
+OneWill_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , OneWill_key+0
 Label_01004FBE:
  .byte   VOICE , 58
  .byte   W24
- .byte   VOL , 63*song02_mvl/mxv
+ .byte   VOL , 63*OneWill_mvl/mxv
  .byte   PAN , c_v-20
  .byte   TIE ,As1 ,v108
  .byte   W72
@@ -642,13 +642,13 @@ Label_01004FBE:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song02_005:
+OneWill_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , OneWill_key+0
 Label_01006176:
  .byte   VOICE , 51
  .byte   W24
- .byte   VOL , 68*song02_mvl/mxv
+ .byte   VOL , 68*OneWill_mvl/mxv
  .byte   PAN , c_v-3
  .byte   N08 ,Fn3 ,v100
  .byte   W12
@@ -896,12 +896,12 @@ Label_010062E5:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song02_006:
+OneWill_006:
 @  #06 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , OneWill_key+0
 Label_0100652A:
  .byte   VOICE , 124
- .byte   VOL , 63*song02_mvl/mxv
+ .byte   VOL , 63*OneWill_mvl/mxv
  .byte   PAN , c_v-4
  .byte   W24
  .byte   N11 ,Dn1 ,v120
@@ -1216,12 +1216,12 @@ Label_01006577:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-song02_007:
+OneWill_007:
 @  #07 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , OneWill_key+0
 Label_0100671E:
  .byte   VOICE , 124
- .byte   VOL , 63*song02_mvl/mxv
+ .byte   VOL , 63*OneWill_mvl/mxv
  .byte   PAN , c_v-4
  .byte   W12
  .byte   N11 ,Cs3 ,v116
@@ -1439,20 +1439,20 @@ Label_0100671E:
 @******************************************************@
 	.align	2
 
-song02:
+OneWill:
 	.byte	7	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song02_pri	@ Priority
-	.byte	song02_rev	@ Reverb.
+	.byte	OneWill_pri	@ Priority
+	.byte	OneWill_rev	@ Reverb.
     
-	.word	song02_grp
+	.word	OneWill_grp
     
-	.word	song02_001
-	.word	song02_002
-	.word	song02_003
-	.word	song02_004
-	.word	song02_005
-	.word	song02_006
-	.word	song02_007
+	.word	OneWill_001
+	.word	OneWill_002
+	.word	OneWill_003
+	.word	OneWill_004
+	.word	OneWill_005
+	.word	OneWill_006
+	.word	OneWill_007
 
 	.end

@@ -1,29 +1,29 @@
 //Event file generated from Sappy .s format.
 	
 
-	#define	song02_grp  voicegroup000
-	#define	song02_pri  0
-	#define	song02_rev  0
-	#define	song02_mvl  127
-	#define	song02_key  0
-	#define	song02_tbs  1
-	#define	song02_exg  0
-	#define	song02_cmp  1
+	#define	KKCafe_grp  voicegroup000
+	#define	KKCafe_pri  0
+	#define	KKCafe_rev  0
+	#define	KKCafe_mvl  127
+	#define	KKCafe_key  0
+	#define	KKCafe_tbs  1
+	#define	KKCafe_exg  0
+	#define	KKCafe_cmp  1
 
 	// .rodata
-	//	song02
+	//	KKCafe
 	ALIGN 4
 
 
 //**************** Track 1 (Midi-Chn.0) ****************//
 
-song02_001:
+KKCafe_001:
 //  #01 //000   ----------------------------------------
- BYTE   KEYSH   song02_key+0
+ BYTE   KEYSH   KKCafe_key+0
 Label_013ADF6A:
- BYTE   TEMPO   210*song02_tbs/2
+ BYTE   TEMPO   210*KKCafe_tbs/2
  BYTE   VOICE   36
- BYTE   VOL   87*song02_mvl/mxv
+ BYTE   VOL   87*KKCafe_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W96
 //  #01 //001   ----------------------------------------
@@ -1559,12 +1559,12 @@ Label_013AE667:
 
 //**************** Track 2 (Midi-Chn.1) ****************//
 
-song02_002:
+KKCafe_002:
 //  #02 //000   ----------------------------------------
- BYTE   KEYSH   song02_key+0
+ BYTE   KEYSH   KKCafe_key+0
 Label_013AE732:
  BYTE   VOICE   67
- BYTE   VOL   78*song02_mvl/mxv
+ BYTE   VOL   78*KKCafe_mvl/mxv
  BYTE   N11  Ds2  v080
  BYTE   W36
  BYTE   W02
@@ -2896,12 +2896,12 @@ Label_013AEA0C:
 
 //**************** Track 3 (Midi-Chn.2) ****************//
 
-song02_003:
+KKCafe_003:
 //  #03 //000   ----------------------------------------
- BYTE   KEYSH   song02_key+0
+ BYTE   KEYSH   KKCafe_key+0
 Label_013AEEF2:
  BYTE   VOICE   68
- BYTE   VOL   67*song02_mvl/mxv
+ BYTE   VOL   67*KKCafe_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W96
 //  #03 //001   ----------------------------------------
@@ -3836,12 +3836,12 @@ Label_013AF02F:
 
 //**************** Track 4 (Midi-Chn.3) ****************//
 
-song02_004:
+KKCafe_004:
 //  #04 //000   ----------------------------------------
- BYTE   KEYSH   song02_key+0
+ BYTE   KEYSH   KKCafe_key+0
 Label_013AF216:
  BYTE   VOICE   0
- BYTE   VOL   57*song02_mvl/mxv
+ BYTE   VOL   57*KKCafe_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W14
  BYTE   N09  Gn2  v080
@@ -5286,12 +5286,12 @@ Label_013AF62D:
 
 //**************** Track 5 (Midi-Chn.4) ****************//
 
-song02_005:
+KKCafe_005:
 //  #05 //000   ----------------------------------------
- BYTE   KEYSH   song02_key+0
+ BYTE   KEYSH   KKCafe_key+0
 Label_013AFA4E:
  BYTE   VOICE   124
- BYTE   VOL   69*song02_mvl/mxv
+ BYTE   VOL   69*KKCafe_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   N23  As1  v080
  BYTE   W24
@@ -6515,18 +6515,18 @@ Label_013AFCC1:
 //******************************************************//
 	ALIGN 4
 
-song02:
+KKCafe:
 	BYTE	5	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	song02_pri	// Priority
-	BYTE	song02_rev	// Reverb.
+	BYTE	KKCafe_pri	// Priority
+	BYTE	KKCafe_rev	// Reverb.
     
-	POIN2	song02_grp
+	POIN2	KKCafe_grp
     
-	POIN2	song02_001
-	POIN2	song02_002
-	POIN2	song02_003
-	POIN2	song02_004
-	POIN2	song02_005
+	POIN2	KKCafe_001
+	POIN2	KKCafe_002
+	POIN2	KKCafe_003
+	POIN2	KKCafe_004
+	POIN2	KKCafe_005
 
 	

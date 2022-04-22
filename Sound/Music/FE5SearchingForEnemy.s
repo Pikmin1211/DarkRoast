@@ -1,28 +1,28 @@
 	.include "MPlayDef.s"
 
-	.equ	song11_grp, voicegroup000
-	.equ	song11_pri, 0
-	.equ	song11_rev, 0
-	.equ	song11_mvl, 127
-	.equ	song11_key, 0
-	.equ	song11_tbs, 1
-	.equ	song11_exg, 0
-	.equ	song11_cmp, 1
+	.equ	FE5SearchingForEnemy_grp, voicegroup000
+	.equ	FE5SearchingForEnemy_pri, 0
+	.equ	FE5SearchingForEnemy_rev, 0
+	.equ	FE5SearchingForEnemy_mvl, 127
+	.equ	FE5SearchingForEnemy_key, 0
+	.equ	FE5SearchingForEnemy_tbs, 1
+	.equ	FE5SearchingForEnemy_exg, 0
+	.equ	FE5SearchingForEnemy_cmp, 1
 
 	.section .rodata
-	.global	song11
+	.global	FE5SearchingForEnemy
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song11_001:
+FE5SearchingForEnemy_001:
 @ 000   ----------------------------------------
- .byte   KEYSH , song11_key+0
+ .byte   KEYSH , FE5SearchingForEnemy_key+0
 Label_0_014BA72E:
- .byte   TEMPO , 110*song11_tbs/2
+ .byte   TEMPO , 110*FE5SearchingForEnemy_tbs/2
  .byte   VOICE , 56
- .byte   VOL , 66*song11_mvl/mxv
+ .byte   VOL , 66*FE5SearchingForEnemy_mvl/mxv
  .byte   N24 ,An2 ,v100
  .byte   W42
  .byte   N06
@@ -134,7 +134,7 @@ Label_0_014BA79B:
  .byte   N72 ,Bn2
  .byte   W96
 @ 021   ----------------------------------------
- .byte   VOL , 66*song11_mvl/mxv
+ .byte   VOL , 66*FE5SearchingForEnemy_mvl/mxv
  .byte   N24 ,An2
  .byte   W42
  .byte   N06
@@ -200,12 +200,12 @@ Label_0_014BA79B:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song11_002:
+FE5SearchingForEnemy_002:
 @ 000   ----------------------------------------
- .byte   KEYSH , song11_key+0
+ .byte   KEYSH , FE5SearchingForEnemy_key+0
 Label_1_014BA802:
  .byte   VOICE , 56
- .byte   VOL , 66*song11_mvl/mxv
+ .byte   VOL , 66*FE5SearchingForEnemy_mvl/mxv
  .byte   N24 ,En2 ,v100
  .byte   W42
  .byte   N06
@@ -291,7 +291,7 @@ Label_1_014BA840:
  .byte   En2
  .byte   W96
 @ 021   ----------------------------------------
- .byte   VOL , 66*song11_mvl/mxv
+ .byte   VOL , 66*FE5SearchingForEnemy_mvl/mxv
  .byte   N24
  .byte   W42
  .byte   N06
@@ -356,12 +356,12 @@ Label_1_014BA840:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song11_003:
+FE5SearchingForEnemy_003:
 @ 000   ----------------------------------------
- .byte   KEYSH , song11_key+0
+ .byte   KEYSH , FE5SearchingForEnemy_key+0
 Label_2_014BA89E:
  .byte   VOICE , 57
- .byte   VOL , 60*song11_mvl/mxv
+ .byte   VOL , 60*FE5SearchingForEnemy_mvl/mxv
  .byte   W96
 @ 001   ----------------------------------------
  .byte   W96
@@ -515,12 +515,12 @@ Label_2_014BA8D9:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song11_004:
+FE5SearchingForEnemy_004:
 @ 000   ----------------------------------------
- .byte   KEYSH , song11_key+0
+ .byte   KEYSH , FE5SearchingForEnemy_key+0
 Label_3_014BA936:
  .byte   VOICE , 57
- .byte   VOL , 60*song11_mvl/mxv
+ .byte   VOL , 60*FE5SearchingForEnemy_mvl/mxv
  .byte   W84
  .byte   N06 ,En2 ,v100
  .byte   W06
@@ -711,12 +711,12 @@ Label_3_014BA9A5:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song11_005:
+FE5SearchingForEnemy_005:
 @ 000   ----------------------------------------
- .byte   KEYSH , song11_key+0
+ .byte   KEYSH , FE5SearchingForEnemy_key+0
 Label_4_014BAA1E:
  .byte   VOICE , 57
- .byte   VOL , 60*song11_mvl/mxv
+ .byte   VOL , 60*FE5SearchingForEnemy_mvl/mxv
  .byte   W96
 @ 001   ----------------------------------------
  .byte   N72 ,En2 ,v100
@@ -839,12 +839,12 @@ Label_4_014BAA42:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song11_006:
+FE5SearchingForEnemy_006:
 @ 000   ----------------------------------------
- .byte   KEYSH , song11_key+0
+ .byte   KEYSH , FE5SearchingForEnemy_key+0
 Label_5_014BAA8E:
  .byte   VOICE , 34
- .byte   VOL , 59*song11_mvl/mxv
+ .byte   VOL , 59*FE5SearchingForEnemy_mvl/mxv
  .byte   N12 ,An0 ,v127
  .byte   W12
  .byte   An0 ,v100
@@ -1038,12 +1038,12 @@ Label_5_014BAB32:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-song11_007:
+FE5SearchingForEnemy_007:
 @ 000   ----------------------------------------
- .byte   KEYSH , song11_key+0
+ .byte   KEYSH , FE5SearchingForEnemy_key+0
 Label_6_014BABEA:
  .byte   VOICE , 71
- .byte   VOL , 55*song11_mvl/mxv
+ .byte   VOL , 55*FE5SearchingForEnemy_mvl/mxv
  .byte   W96
 @ 001   ----------------------------------------
  .byte   W96
@@ -1161,12 +1161,12 @@ Label_6_014BABFB:
 
 @**************** Track 8 (Midi-Chn.7) ****************@
 
-song11_008:
+FE5SearchingForEnemy_008:
 @ 000   ----------------------------------------
- .byte   KEYSH , song11_key+0
+ .byte   KEYSH , FE5SearchingForEnemy_key+0
 Label_7_014BAC42:
  .byte   VOICE , 56
- .byte   VOL , 51*song11_mvl/mxv
+ .byte   VOL , 51*FE5SearchingForEnemy_mvl/mxv
  .byte   PAN , c_v-33
  .byte   W96
 @ 001   ----------------------------------------
@@ -1240,7 +1240,7 @@ Label_7_014BAC6F:
 @ 021   ----------------------------------------
  .byte   W96
 @ 022   ----------------------------------------
- .byte   VOL , 51*song11_mvl/mxv
+ .byte   VOL , 51*FE5SearchingForEnemy_mvl/mxv
  .byte   PAN , c_v-33
  .byte   W96
 @ 023   ----------------------------------------
@@ -1293,12 +1293,12 @@ Label_7_014BAC6F:
 
 @**************** Track 9 (Midi-Chn.8) ****************@
 
-song11_009:
+FE5SearchingForEnemy_009:
 @ 000   ----------------------------------------
- .byte   KEYSH , song11_key+0
+ .byte   KEYSH , FE5SearchingForEnemy_key+0
 Label_8_014BACB2:
  .byte   VOICE , 58
- .byte   VOL , 50*song11_mvl/mxv
+ .byte   VOL , 50*FE5SearchingForEnemy_mvl/mxv
  .byte   N12 ,An0 ,v100
  .byte   W36
  .byte   N12
@@ -1432,12 +1432,12 @@ Label_8_014BAD1A:
 
 @**************** Track 10 (Midi-Chn.9) ****************@
 
-song11_010:
+FE5SearchingForEnemy_010:
 @ 000   ----------------------------------------
- .byte   KEYSH , song11_key+0
+ .byte   KEYSH , FE5SearchingForEnemy_key+0
 Label_9_014BADB2:
  .byte   VOICE , 0
- .byte   VOL , 44*song11_mvl/mxv
+ .byte   VOL , 44*FE5SearchingForEnemy_mvl/mxv
  .byte   N06 ,Dn1 ,v100
  .byte   N06 ,En1
  .byte   W36
@@ -1569,12 +1569,12 @@ Label_9_014BADD3:
 
 @**************** Track 11 (Midi-Chn.10) ****************@
 
-song11_011:
+FE5SearchingForEnemy_011:
 @ 000   ----------------------------------------
- .byte   KEYSH , song11_key+0
+ .byte   KEYSH , FE5SearchingForEnemy_key+0
 Label_10_014BAE92:
  .byte   VOICE , 47
- .byte   VOL , 44*song11_mvl/mxv
+ .byte   VOL , 44*FE5SearchingForEnemy_mvl/mxv
  .byte   N12 ,An2 ,v100
  .byte   W96
 @ 001   ----------------------------------------
@@ -1741,12 +1741,12 @@ Label_10_014BAF02:
 
 @**************** Track 12 (Midi-Chn.11) ****************@
 
-song11_012:
+FE5SearchingForEnemy_012:
 @ 000   ----------------------------------------
- .byte   KEYSH , song11_key+0
+ .byte   KEYSH , FE5SearchingForEnemy_key+0
 Label_11_014BAF9E:
  .byte   VOICE , 47
- .byte   VOL , 53*song11_mvl/mxv
+ .byte   VOL , 53*FE5SearchingForEnemy_mvl/mxv
  .byte   N12 ,An1 ,v100
  .byte   W96
 @ 001   ----------------------------------------
@@ -1914,25 +1914,25 @@ Label_11_014BB00E:
 @******************************************************@
 	.align	2
 
-song11:
+FE5SearchingForEnemy:
 	.byte	12	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song11_pri	@ Priority
-	.byte	song11_rev	@ Reverb.
+	.byte	FE5SearchingForEnemy_pri	@ Priority
+	.byte	FE5SearchingForEnemy_rev	@ Reverb.
     
-	.word	song11_grp
+	.word	FE5SearchingForEnemy_grp
     
-	.word	song11_001
-	.word	song11_002
-	.word	song11_003
-	.word	song11_004
-	.word	song11_005
-	.word	song11_006
-	.word	song11_007
-	.word	song11_008
-	.word	song11_009
-	.word	song11_010
-	.word	song11_011
-	.word	song11_012
+	.word	FE5SearchingForEnemy_001
+	.word	FE5SearchingForEnemy_002
+	.word	FE5SearchingForEnemy_003
+	.word	FE5SearchingForEnemy_004
+	.word	FE5SearchingForEnemy_005
+	.word	FE5SearchingForEnemy_006
+	.word	FE5SearchingForEnemy_007
+	.word	FE5SearchingForEnemy_008
+	.word	FE5SearchingForEnemy_009
+	.word	FE5SearchingForEnemy_010
+	.word	FE5SearchingForEnemy_011
+	.word	FE5SearchingForEnemy_012
 
 	.end

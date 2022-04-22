@@ -1,29 +1,29 @@
 //Event file generated from Sappy .s format.
 	
 
-	#define	song02_grp  voicegroup000
-	#define	song02_pri  0
-	#define	song02_rev  0
-	#define	song02_mvl  127
-	#define	song02_key  0
-	#define	song02_tbs  1
-	#define	song02_exg  0
-	#define	song02_cmp  1
+	#define	TouchFuzzyGetDizzy_grp  voicegroup000
+	#define	TouchFuzzyGetDizzy_pri  0
+	#define	TouchFuzzyGetDizzy_rev  0
+	#define	TouchFuzzyGetDizzy_mvl  127
+	#define	TouchFuzzyGetDizzy_key  0
+	#define	TouchFuzzyGetDizzy_tbs  1
+	#define	TouchFuzzyGetDizzy_exg  0
+	#define	TouchFuzzyGetDizzy_cmp  1
 
 	// .rodata
-	//	song02
+	//	TouchFuzzyGetDizzy
 	ALIGN 4
 
 
 //**************** Track 1 (Midi-Chn.0) ****************//
 
-song02_001:
+TouchFuzzyGetDizzy_001:
 //  #01 //000   ----------------------------------------
- BYTE   KEYSH   song02_key+0
+ BYTE   KEYSH   TouchFuzzyGetDizzy_key+0
 Label_5462B2:
- BYTE   TEMPO   84*song02_tbs/2
+ BYTE   TEMPO   84*TouchFuzzyGetDizzy_tbs/2
  BYTE   VOICE   57
- BYTE   VOL   37*song02_mvl/mxv
+ BYTE   VOL   37*TouchFuzzyGetDizzy_mvl/mxv
  BYTE   N06  En4  v064
  BYTE   W06
  BYTE   N06
@@ -246,12 +246,12 @@ Label_54637B:
 
 //**************** Track 2 (Midi-Chn.1) ****************//
 
-song02_002:
+TouchFuzzyGetDizzy_002:
 //  #02 //000   ----------------------------------------
- BYTE   KEYSH   song02_key+0
+ BYTE   KEYSH   TouchFuzzyGetDizzy_key+0
 Label_5473BE:
  BYTE   VOICE   60
- BYTE   VOL   56*song02_mvl/mxv
+ BYTE   VOL   56*TouchFuzzyGetDizzy_mvl/mxv
  BYTE   N06  Gn2  v064
  BYTE   W06
  BYTE   N06
@@ -374,10 +374,10 @@ Label_5473F1:
 
 //**************** Track 3 (Midi-Chn.2) ****************//
 
-song02_003:
+TouchFuzzyGetDizzy_003:
 //  #03 //000   ----------------------------------------
- BYTE   VOL   80*song02_mvl/mxv
- BYTE   KEYSH   song02_key+0
+ BYTE   VOL   80*TouchFuzzyGetDizzy_mvl/mxv
+ BYTE   KEYSH   TouchFuzzyGetDizzy_key+0
 Label_54743C:
  BYTE   VOICE   73
  BYTE   W96
@@ -481,12 +481,12 @@ Label_54745E:
 
 //**************** Track 4 (Midi-Chn.3) ****************//
 
-song02_004:
+TouchFuzzyGetDizzy_004:
 //  #04 //000   ----------------------------------------
- BYTE   KEYSH   song02_key+0
+ BYTE   KEYSH   TouchFuzzyGetDizzy_key+0
 Label_5463D6:
  BYTE   VOICE   18
- BYTE   VOL   62*song02_mvl/mxv
+ BYTE   VOL   62*TouchFuzzyGetDizzy_mvl/mxv
  BYTE   W12
  BYTE   N06  An4  v064
  BYTE   W12
@@ -574,12 +574,12 @@ Label_5463F1:
 
 //**************** Track 5 (Midi-Chn.4) ****************//
 
-song02_005:
+TouchFuzzyGetDizzy_005:
 //  #05 //000   ----------------------------------------
- BYTE   KEYSH   song02_key+0
+ BYTE   KEYSH   TouchFuzzyGetDizzy_key+0
 Label_547722:
  BYTE   VOICE   36
- BYTE   VOL   80*song02_mvl/mxv
+ BYTE   VOL   80*TouchFuzzyGetDizzy_mvl/mxv
  BYTE   N06  Cn2  v064
  BYTE   W12
  BYTE   N06
@@ -710,10 +710,10 @@ Label_547778:
 
 //**************** Track 6 (Midi-Chn.5) ****************//
 
-song02_006:
+TouchFuzzyGetDizzy_006:
 //  #06 //000   ----------------------------------------
- BYTE   VOL   80*song02_mvl/mxv
- BYTE   KEYSH   song02_key+0
+ BYTE   VOL   80*TouchFuzzyGetDizzy_mvl/mxv
+ BYTE   KEYSH   TouchFuzzyGetDizzy_key+0
 Label_5477DC:
  BYTE   VOICE   18
  BYTE   W96
@@ -810,12 +810,12 @@ Label_5477FF:
 
 //**************** Track 7 (Midi-Chn.6) ****************//
 
-song02_007:
+TouchFuzzyGetDizzy_007:
 //  #07 //000   ----------------------------------------
- BYTE   KEYSH   song02_key+0
+ BYTE   KEYSH   TouchFuzzyGetDizzy_key+0
 Label_547846:
  BYTE   VOICE   124
- BYTE   VOL   54*song02_mvl/mxv
+ BYTE   VOL   54*TouchFuzzyGetDizzy_mvl/mxv
  BYTE   N06  Cn1  v127
  BYTE   W06
  BYTE   Cn1  v108
@@ -994,20 +994,20 @@ Label_5478B7:
 //******************************************************//
 	ALIGN 4
 
-song02:
+TouchFuzzyGetDizzy:
 	BYTE	7	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	song02_pri	// Priority
-	BYTE	song02_rev	// Reverb.
+	BYTE	TouchFuzzyGetDizzy_pri	// Priority
+	BYTE	TouchFuzzyGetDizzy_rev	// Reverb.
     
-	POIN2	song02_grp
+	POIN2	TouchFuzzyGetDizzy_grp
     
-	POIN2	song02_001
-	POIN2	song02_002
-	POIN2	song02_003
-	POIN2	song02_004
-	POIN2	song02_005
-	POIN2	song02_006
-	POIN2	song02_007
+	POIN2	TouchFuzzyGetDizzy_001
+	POIN2	TouchFuzzyGetDizzy_002
+	POIN2	TouchFuzzyGetDizzy_003
+	POIN2	TouchFuzzyGetDizzy_004
+	POIN2	TouchFuzzyGetDizzy_005
+	POIN2	TouchFuzzyGetDizzy_006
+	POIN2	TouchFuzzyGetDizzy_007
 
 	

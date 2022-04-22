@@ -1,28 +1,28 @@
 //Event file generated from Sappy .s format.
 	
 
-	#define	song02_grp  voicegroup000
-	#define	song02_pri  10
-	#define	song02_rev  0
-	#define	song02_mvl  127
-	#define	song02_key  0
-	#define	song02_tbs  1
-	#define	song02_exg  0
-	#define	song02_cmp  1
+	#define	LoZMMStoneTowerTemple_grp  voicegroup000
+	#define	LoZMMStoneTowerTemple_pri  10
+	#define	LoZMMStoneTowerTemple_rev  0
+	#define	LoZMMStoneTowerTemple_mvl  127
+	#define	LoZMMStoneTowerTemple_key  0
+	#define	LoZMMStoneTowerTemple_tbs  1
+	#define	LoZMMStoneTowerTemple_exg  0
+	#define	LoZMMStoneTowerTemple_cmp  1
 
 	// .rodata
-	//	song02
+	//	LoZMMStoneTowerTemple
 	ALIGN 4
 
 
 //**************** Track 1 (Midi-Chn.0) ****************//
 
-song02_001:
+LoZMMStoneTowerTemple_001:
 //  #01 //000   ----------------------------------------
 Label_01005D50:
- BYTE   TEMPO   100*song02_tbs/2
- BYTE   KEYSH   song02_key+0
- BYTE   VOL   61*song02_mvl/mxv
+ BYTE   TEMPO   100*LoZMMStoneTowerTemple_tbs/2
+ BYTE   KEYSH   LoZMMStoneTowerTemple_key+0
+ BYTE   VOL   61*LoZMMStoneTowerTemple_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W96
 //  #01 //001   ----------------------------------------
@@ -255,13 +255,13 @@ Label_01005DDE:
 
 //**************** Track 2 (Midi-Chn.1) ****************//
 
-song02_002:
+LoZMMStoneTowerTemple_002:
 //  #02 //000   ----------------------------------------
 Label_01005B50:
- BYTE   TEMPO   100*song02_tbs/2
- BYTE   KEYSH   song02_key+0
+ BYTE   TEMPO   100*LoZMMStoneTowerTemple_tbs/2
+ BYTE   KEYSH   LoZMMStoneTowerTemple_key+0
  BYTE   VOICE   66
- BYTE   VOL   90*song02_mvl/mxv
+ BYTE   VOL   90*LoZMMStoneTowerTemple_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W96
 //  #02 //001   ----------------------------------------
@@ -485,13 +485,13 @@ Label_01005BBD:
 
 //**************** Track 3 (Midi-Chn.2) ****************//
 
-song02_003:
+LoZMMStoneTowerTemple_003:
 //  #03 //000   ----------------------------------------
 Label_01006E98:
- BYTE   TEMPO   100*song02_tbs/2
- BYTE   KEYSH   song02_key+0
+ BYTE   TEMPO   100*LoZMMStoneTowerTemple_tbs/2
+ BYTE   KEYSH   LoZMMStoneTowerTemple_key+0
  BYTE   VOICE   75
- BYTE   VOL   35*song02_mvl/mxv
+ BYTE   VOL   35*LoZMMStoneTowerTemple_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W96
 //  #03 //001   ----------------------------------------
@@ -875,13 +875,13 @@ Label_01006FD3:
 
 //**************** Track 4 (Midi-Chn.3) ****************//
 
-song02_004:
+LoZMMStoneTowerTemple_004:
 //  #04 //000   ----------------------------------------
 Label_0100684C:
- BYTE   TEMPO   100*song02_tbs/2
- BYTE   KEYSH   song02_key+0
+ BYTE   TEMPO   100*LoZMMStoneTowerTemple_tbs/2
+ BYTE   KEYSH   LoZMMStoneTowerTemple_key+0
  BYTE   VOICE   105
- BYTE   VOL   45*song02_mvl/mxv
+ BYTE   VOL   45*LoZMMStoneTowerTemple_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W96
 //  #04 //001   ----------------------------------------
@@ -1076,13 +1076,13 @@ Label_01006874:
 
 //**************** Track 5 (Midi-Chn.4) ****************//
 
-song02_005:
+LoZMMStoneTowerTemple_005:
 //  #05 //000   ----------------------------------------
 Label_010068F8:
- BYTE   TEMPO   100*song02_tbs/2
- BYTE   KEYSH   song02_key+0
+ BYTE   TEMPO   100*LoZMMStoneTowerTemple_tbs/2
+ BYTE   KEYSH   LoZMMStoneTowerTemple_key+0
  BYTE   VOICE   49
- BYTE   VOL   87*song02_mvl/mxv
+ BYTE   VOL   87*LoZMMStoneTowerTemple_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W96
 //  #05 //001   ----------------------------------------
@@ -1288,13 +1288,13 @@ Label_01006981:
 
 //**************** Track 6 (Midi-Chn.5) ****************//
 
-song02_006:
+LoZMMStoneTowerTemple_006:
 //  #06 //000   ----------------------------------------
 Label_01006A18:
- BYTE   TEMPO   100*song02_tbs/2
- BYTE   KEYSH   song02_key+0
+ BYTE   TEMPO   100*LoZMMStoneTowerTemple_tbs/2
+ BYTE   KEYSH   LoZMMStoneTowerTemple_key+0
  BYTE   VOICE   48
- BYTE   VOL   41*song02_mvl/mxv
+ BYTE   VOL   41*LoZMMStoneTowerTemple_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W96
 //  #06 //001   ----------------------------------------
@@ -1410,13 +1410,13 @@ Label_01006A24:
 
 //**************** Track 7 (Midi-Chn.6) ****************//
 
-song02_007:
+LoZMMStoneTowerTemple_007:
 //  #07 //000   ----------------------------------------
 Label_01007464:
- BYTE   TEMPO   100*song02_tbs/2
- BYTE   KEYSH   song02_key+0
+ BYTE   TEMPO   100*LoZMMStoneTowerTemple_tbs/2
+ BYTE   KEYSH   LoZMMStoneTowerTemple_key+0
  BYTE   VOICE   127
- BYTE   VOL   67*song02_mvl/mxv
+ BYTE   VOL   67*LoZMMStoneTowerTemple_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   N24  Cn1  v127
  BYTE   W24
@@ -1529,7 +1529,7 @@ Label_0100747A:
  BYTE   W96
 //  #07 //031   ----------------------------------------
  BYTE   W24
- BYTE   VOL   67*song02_mvl/mxv
+ BYTE   VOL   67*LoZMMStoneTowerTemple_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   N24  Cn1  v127
  BYTE   W24
@@ -1816,20 +1816,20 @@ Label_0100747A:
 //******************************************************//
 	ALIGN 4
 
-song02:
+LoZMMStoneTowerTemple:
 	BYTE	7	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	song02_pri	// Priority
-	BYTE	song02_rev	// Reverb.
+	BYTE	LoZMMStoneTowerTemple_pri	// Priority
+	BYTE	LoZMMStoneTowerTemple_rev	// Reverb.
     
-	POIN2	song02_grp
+	POIN2	LoZMMStoneTowerTemple_grp
     
-	POIN2	song02_001
-	POIN2	song02_002
-	POIN2	song02_003
-	POIN2	song02_004
-	POIN2	song02_005
-	POIN2	song02_006
-	POIN2	song02_007
+	POIN2	LoZMMStoneTowerTemple_001
+	POIN2	LoZMMStoneTowerTemple_002
+	POIN2	LoZMMStoneTowerTemple_003
+	POIN2	LoZMMStoneTowerTemple_004
+	POIN2	LoZMMStoneTowerTemple_005
+	POIN2	LoZMMStoneTowerTemple_006
+	POIN2	LoZMMStoneTowerTemple_007
 
 	

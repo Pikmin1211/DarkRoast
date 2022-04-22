@@ -1,28 +1,28 @@
 	.include "MPlayDef.s"
 
-	.equ	song02_grp, voicegroup000
-	.equ	song02_pri, 10
-	.equ	song02_rev, 0
-	.equ	song02_mvl, 127
-	.equ	song02_key, 0
-	.equ	song02_tbs, 1
-	.equ	song02_exg, 0
-	.equ	song02_cmp, 1
+	.equ	BabiLighthouse_grp, voicegroup000
+	.equ	BabiLighthouse_pri, 10
+	.equ	BabiLighthouse_rev, 0
+	.equ	BabiLighthouse_mvl, 127
+	.equ	BabiLighthouse_key, 0
+	.equ	BabiLighthouse_tbs, 1
+	.equ	BabiLighthouse_exg, 0
+	.equ	BabiLighthouse_cmp, 1
 
 	.section .rodata
-	.global	song02
+	.global	BabiLighthouse
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song02_001:
+BabiLighthouse_001:
 @  #01 @000   ----------------------------------------
 Label_01008D3C:
- .byte   TEMPO , 112*song02_tbs/2
- .byte   KEYSH , song02_key+0
+ .byte   TEMPO , 112*BabiLighthouse_tbs/2
+ .byte   KEYSH , BabiLighthouse_key+0
  .byte   VOICE , 33
- .byte   VOL , 46*song02_mvl/mxv
+ .byte   VOL , 46*BabiLighthouse_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N23 ,Fs1 ,v127
  .byte   W24
@@ -761,13 +761,13 @@ Label_01008F4A:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song02_002:
+BabiLighthouse_002:
 @  #02 @000   ----------------------------------------
 Label_010085B8:
- .byte   TEMPO , 112*song02_tbs/2
- .byte   KEYSH , song02_key+0
+ .byte   TEMPO , 112*BabiLighthouse_tbs/2
+ .byte   KEYSH , BabiLighthouse_key+0
  .byte   VOICE , 73
- .byte   VOL , 26*song02_mvl/mxv
+ .byte   VOL , 26*BabiLighthouse_mvl/mxv
  .byte   PAN , c_v-9
  .byte   N05 ,Fs2 ,v127
  .byte   W12
@@ -1235,13 +1235,13 @@ Label_010086CB:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song02_003:
+BabiLighthouse_003:
 @  #03 @000   ----------------------------------------
 Label_01009144:
- .byte   TEMPO , 112*song02_tbs/2
- .byte   KEYSH , song02_key+0
+ .byte   TEMPO , 112*BabiLighthouse_tbs/2
+ .byte   KEYSH , BabiLighthouse_key+0
  .byte   VOICE , 8
- .byte   VOL , 46*song02_mvl/mxv
+ .byte   VOL , 46*BabiLighthouse_mvl/mxv
  .byte   PAN , c_v-9
  .byte   W96
 @  #03 @001   ----------------------------------------
@@ -1634,13 +1634,13 @@ Label_01009231:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song02_004:
+BabiLighthouse_004:
 @  #04 @000   ----------------------------------------
 Label_01003FC0:
- .byte   TEMPO , 112*song02_tbs/2
- .byte   KEYSH , song02_key+0
+ .byte   TEMPO , 112*BabiLighthouse_tbs/2
+ .byte   KEYSH , BabiLighthouse_key+0
  .byte   VOICE , 75
- .byte   VOL , 18*song02_mvl/mxv
+ .byte   VOL , 18*BabiLighthouse_mvl/mxv
  .byte   PAN , c_v+6
  .byte   N68 ,Fs3 ,v127
  .byte   N68 ,An3
@@ -2533,13 +2533,13 @@ Label_01003FC0:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song02_005:
+BabiLighthouse_005:
 @  #05 @000   ----------------------------------------
 Label_0100DF24:
- .byte   TEMPO , 112*song02_tbs/2
- .byte   KEYSH , song02_key+0
+ .byte   TEMPO , 112*BabiLighthouse_tbs/2
+ .byte   KEYSH , BabiLighthouse_key+0
  .byte   VOICE , 75
- .byte   VOL , 17*song02_mvl/mxv
+ .byte   VOL , 17*BabiLighthouse_mvl/mxv
  .byte   PAN , c_v-9
  .byte   BEND , c_v-5
  .byte   W12
@@ -3399,13 +3399,13 @@ Label_0100E25F:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song02_006:
+BabiLighthouse_006:
 @  #06 @000   ----------------------------------------
 Label_010092C0:
- .byte   TEMPO , 112*song02_tbs/2
- .byte   KEYSH , song02_key+0
+ .byte   TEMPO , 112*BabiLighthouse_tbs/2
+ .byte   KEYSH , BabiLighthouse_key+0
  .byte   VOICE , 48
- .byte   VOL , 28*song02_mvl/mxv
+ .byte   VOL , 28*BabiLighthouse_mvl/mxv
  .byte   PAN , c_v-9
  .byte   W96
 @  #06 @001   ----------------------------------------
@@ -3855,13 +3855,13 @@ Label_0100936F:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-song02_007:
+BabiLighthouse_007:
 @  #07 @000   ----------------------------------------
 Label_010094EC:
- .byte   TEMPO , 112*song02_tbs/2
- .byte   KEYSH , song02_key+0
+ .byte   TEMPO , 112*BabiLighthouse_tbs/2
+ .byte   KEYSH , BabiLighthouse_key+0
  .byte   VOICE , 48
- .byte   VOL , 28*song02_mvl/mxv
+ .byte   VOL , 28*BabiLighthouse_mvl/mxv
  .byte   PAN , c_v+6
  .byte   W96
 @  #07 @001   ----------------------------------------
@@ -4241,13 +4241,13 @@ Label_010095B1:
 
 @**************** Track 8 (Midi-Chn.7) ****************@
 
-song02_008:
+BabiLighthouse_008:
 @  #08 @000   ----------------------------------------
 Label_0100CF50:
- .byte   TEMPO , 112*song02_tbs/2
- .byte   KEYSH , song02_key+0
+ .byte   TEMPO , 112*BabiLighthouse_tbs/2
+ .byte   KEYSH , BabiLighthouse_key+0
  .byte   VOICE , 127
- .byte   VOL , 58*song02_mvl/mxv
+ .byte   VOL , 58*BabiLighthouse_mvl/mxv
  .byte   BEND , c_v+32
  .byte   N11 ,Cn1 ,v127
  .byte   N11 ,Cs2
@@ -5675,13 +5675,13 @@ Label_0100D134:
 
 @**************** Track 9 (Midi-Chn.8) ****************@
 
-song02_009:
+BabiLighthouse_009:
 @  #09 @000   ----------------------------------------
 Label_01004464:
- .byte   TEMPO , 112*song02_tbs/2
- .byte   KEYSH , song02_key+0
+ .byte   TEMPO , 112*BabiLighthouse_tbs/2
+ .byte   KEYSH , BabiLighthouse_key+0
  .byte   VOICE , 50
- .byte   VOL , 13*song02_mvl/mxv
+ .byte   VOL , 13*BabiLighthouse_mvl/mxv
  .byte   PAN , c_v+6
  .byte   W96
 @  #09 @001   ----------------------------------------
@@ -6061,13 +6061,13 @@ Label_01004529:
 
 @**************** Track 10 (Midi-Chn.9) ****************@
 
-song02_010:
+BabiLighthouse_010:
 @  #10 @000   ----------------------------------------
 Label_010045C8:
- .byte   TEMPO , 112*song02_tbs/2
- .byte   KEYSH , song02_key+0
+ .byte   TEMPO , 112*BabiLighthouse_tbs/2
+ .byte   KEYSH , BabiLighthouse_key+0
  .byte   VOICE , 68
- .byte   VOL , 26*song02_mvl/mxv
+ .byte   VOL , 26*BabiLighthouse_mvl/mxv
  .byte   W96
 @  #10 @001   ----------------------------------------
  .byte   W96
@@ -6333,13 +6333,13 @@ Label_01004640:
 
 @**************** Track 11 (Midi-Chn.10) ****************@
 
-song02_011:
+BabiLighthouse_011:
 @  #11 @000   ----------------------------------------
 Label_0100D6D0:
- .byte   TEMPO , 112*song02_tbs/2
- .byte   KEYSH , song02_key+0
+ .byte   TEMPO , 112*BabiLighthouse_tbs/2
+ .byte   KEYSH , BabiLighthouse_key+0
  .byte   VOICE , 68
- .byte   VOL , 21*song02_mvl/mxv
+ .byte   VOL , 21*BabiLighthouse_mvl/mxv
  .byte   W96
 @  #11 @001   ----------------------------------------
  .byte   W96
@@ -6670,24 +6670,24 @@ Label_0100D6D0:
 @******************************************************@
 	.align	2
 
-song02:
+BabiLighthouse:
 	.byte	11	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song02_pri	@ Priority
-	.byte	song02_rev	@ Reverb.
+	.byte	BabiLighthouse_pri	@ Priority
+	.byte	BabiLighthouse_rev	@ Reverb.
     
-	.word	song02_grp
+	.word	BabiLighthouse_grp
     
-	.word	song02_001
-	.word	song02_002
-	.word	song02_003
-	.word	song02_004
-	.word	song02_005
-	.word	song02_006
-	.word	song02_007
-	.word	song02_008
-	.word	song02_009
-	.word	song02_010
-	.word	song02_011
+	.word	BabiLighthouse_001
+	.word	BabiLighthouse_002
+	.word	BabiLighthouse_003
+	.word	BabiLighthouse_004
+	.word	BabiLighthouse_005
+	.word	BabiLighthouse_006
+	.word	BabiLighthouse_007
+	.word	BabiLighthouse_008
+	.word	BabiLighthouse_009
+	.word	BabiLighthouse_010
+	.word	BabiLighthouse_011
 
 	.end

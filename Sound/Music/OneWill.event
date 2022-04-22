@@ -1,30 +1,30 @@
 //Event file generated from Sappy .s format.
 	
 
-	#define	song02_grp  voicegroup000
-	#define	song02_pri  0
-	#define	song02_rev  0
-	#define	song02_mvl  127
-	#define	song02_key  0
-	#define	song02_tbs  1
-	#define	song02_exg  0
-	#define	song02_cmp  1
+	#define	OneWill_grp  voicegroup000
+	#define	OneWill_pri  0
+	#define	OneWill_rev  0
+	#define	OneWill_mvl  127
+	#define	OneWill_key  0
+	#define	OneWill_tbs  1
+	#define	OneWill_exg  0
+	#define	OneWill_cmp  1
 
 	// .rodata
-	//	song02
+	//	OneWill
 	ALIGN 4
 
 
 //**************** Track 1 (Midi-Chn.0) ****************//
 
-song02_001:
+OneWill_001:
 //  #01 //000   ----------------------------------------
- BYTE   KEYSH   song02_key+0
+ BYTE   KEYSH   OneWill_key+0
 Label_01005C5A:
- BYTE   TEMPO   120*song02_tbs/2
+ BYTE   TEMPO   120*OneWill_tbs/2
  BYTE   VOICE   68
  BYTE   W24
- BYTE   VOL   70*song02_mvl/mxv
+ BYTE   VOL   70*OneWill_mvl/mxv
  BYTE   PAN   c_v+9
  BYTE   N28  Fn2  v104
  BYTE   N28  As2  v100
@@ -55,7 +55,7 @@ Label_01005C5A:
  BYTE   W72
 //  #01 //003   ----------------------------------------
  BYTE   W24
- BYTE   VOL   61*song02_mvl/mxv
+ BYTE   VOL   61*OneWill_mvl/mxv
  BYTE   PAN   c_v+4
  BYTE   N05  As2  v072
  BYTE   W06
@@ -69,7 +69,7 @@ Label_01005C5A:
  BYTE   W48
 //  #01 //004   ----------------------------------------
  BYTE   W24
- BYTE   VOL   70*song02_mvl/mxv
+ BYTE   VOL   70*OneWill_mvl/mxv
  BYTE   PAN   c_v+9
  BYTE   N32  Fn2  v088
  BYTE   N32  As2  v092
@@ -98,7 +98,7 @@ Label_01005C5A:
  BYTE   N44  As2  v084
  BYTE   N44  Cs3  v056
  BYTE   W48
- BYTE   VOL   61*song02_mvl/mxv
+ BYTE   VOL   61*OneWill_mvl/mxv
  BYTE   PAN   c_v+4
  BYTE   N44  As3  v096
  BYTE   W24
@@ -139,7 +139,7 @@ Label_01005C5A:
  BYTE   W72
 //  #01 //012   ----------------------------------------
  BYTE   W24
- BYTE   VOL   70*song02_mvl/mxv
+ BYTE   VOL   70*OneWill_mvl/mxv
  BYTE   PAN   c_v+9
  BYTE   N32  Fn3  v108
  BYTE   W36
@@ -171,7 +171,7 @@ Label_01005C5A:
  BYTE   N24  An3  v096
  BYTE   W24
 //  #01 //016   ----------------------------------------
- BYTE   VOL   70*song02_mvl/mxv
+ BYTE   VOL   70*OneWill_mvl/mxv
  BYTE   PAN   c_v+9
  BYTE   W24
  BYTE   N44  As3  v076
@@ -233,14 +233,14 @@ Label_01005C5A:
 
 //**************** Track 2 (Midi-Chn.1) ****************//
 
-song02_002:
+OneWill_002:
 //  #02 //000   ----------------------------------------
- BYTE   KEYSH   song02_key+0
+ BYTE   KEYSH   OneWill_key+0
 Label_0100D2DE:
  BYTE   VOICE   68
  BYTE   W24
  BYTE   MOD 0
- BYTE   VOL   38*song02_mvl/mxv
+ BYTE   VOL   38*OneWill_mvl/mxv
  BYTE   PAN   c_v+1
  BYTE   BEND   c_v-3
  BYTE   TIE  As2  v072
@@ -336,7 +336,7 @@ Label_0100D303:
  BYTE   W24
 //  #02 //016   ----------------------------------------
  BYTE   W24
- BYTE   VOL   61*song02_mvl/mxv
+ BYTE   VOL   61*OneWill_mvl/mxv
  BYTE   PAN   c_v+4
  BYTE   N44  Cs3  v088
  BYTE   W48
@@ -397,14 +397,14 @@ Label_0100D303:
 
 //**************** Track 3 (Midi-Chn.2) ****************//
 
-song02_003:
+OneWill_003:
 //  #03 //000   ----------------------------------------
- BYTE   KEYSH   song02_key+0
+ BYTE   KEYSH   OneWill_key+0
 Label_01004CFA:
  BYTE   VOICE   50
  BYTE   W24
  BYTE   MOD 2
- BYTE   VOL   40*song02_mvl/mxv
+ BYTE   VOL   40*OneWill_mvl/mxv
  BYTE   PAN   c_v+1
  BYTE   TIE  As2  v076
  BYTE   W72
@@ -528,13 +528,13 @@ Label_01004D1D:
 
 //**************** Track 4 (Midi-Chn.3) ****************//
 
-song02_004:
+OneWill_004:
 //  #04 //000   ----------------------------------------
- BYTE   KEYSH   song02_key+0
+ BYTE   KEYSH   OneWill_key+0
 Label_01004FBE:
  BYTE   VOICE   58
  BYTE   W24
- BYTE   VOL   63*song02_mvl/mxv
+ BYTE   VOL   63*OneWill_mvl/mxv
  BYTE   PAN   c_v-20
  BYTE   TIE  As1  v108
  BYTE   W72
@@ -643,13 +643,13 @@ Label_01004FBE:
 
 //**************** Track 5 (Midi-Chn.4) ****************//
 
-song02_005:
+OneWill_005:
 //  #05 //000   ----------------------------------------
- BYTE   KEYSH   song02_key+0
+ BYTE   KEYSH   OneWill_key+0
 Label_01006176:
  BYTE   VOICE   51
  BYTE   W24
- BYTE   VOL   68*song02_mvl/mxv
+ BYTE   VOL   68*OneWill_mvl/mxv
  BYTE   PAN   c_v-3
  BYTE   N08  Fn3  v100
  BYTE   W12
@@ -897,12 +897,12 @@ Label_010062E5:
 
 //**************** Track 6 (Midi-Chn.5) ****************//
 
-song02_006:
+OneWill_006:
 //  #06 //000   ----------------------------------------
- BYTE   KEYSH   song02_key+0
+ BYTE   KEYSH   OneWill_key+0
 Label_0100652A:
  BYTE   VOICE   124
- BYTE   VOL   63*song02_mvl/mxv
+ BYTE   VOL   63*OneWill_mvl/mxv
  BYTE   PAN   c_v-4
  BYTE   W24
  BYTE   N11  Dn1  v120
@@ -1217,12 +1217,12 @@ Label_01006577:
 
 //**************** Track 7 (Midi-Chn.6) ****************//
 
-song02_007:
+OneWill_007:
 //  #07 //000   ----------------------------------------
- BYTE   KEYSH   song02_key+0
+ BYTE   KEYSH   OneWill_key+0
 Label_0100671E:
  BYTE   VOICE   124
- BYTE   VOL   63*song02_mvl/mxv
+ BYTE   VOL   63*OneWill_mvl/mxv
  BYTE   PAN   c_v-4
  BYTE   W12
  BYTE   N11  Cs3  v116
@@ -1440,20 +1440,20 @@ Label_0100671E:
 //******************************************************//
 	ALIGN 4
 
-song02:
+OneWill:
 	BYTE	7	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	song02_pri	// Priority
-	BYTE	song02_rev	// Reverb.
+	BYTE	OneWill_pri	// Priority
+	BYTE	OneWill_rev	// Reverb.
     
-	POIN2	song02_grp
+	POIN2	OneWill_grp
     
-	POIN2	song02_001
-	POIN2	song02_002
-	POIN2	song02_003
-	POIN2	song02_004
-	POIN2	song02_005
-	POIN2	song02_006
-	POIN2	song02_007
+	POIN2	OneWill_001
+	POIN2	OneWill_002
+	POIN2	OneWill_003
+	POIN2	OneWill_004
+	POIN2	OneWill_005
+	POIN2	OneWill_006
+	POIN2	OneWill_007
 
 	

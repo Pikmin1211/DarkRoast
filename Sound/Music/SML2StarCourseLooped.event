@@ -1,29 +1,29 @@
 //Event file generated from Sappy .s format.
 	
 
-	#define	song01_grp  voicegroup000
-	#define	song01_pri  10
-	#define	song01_rev  0
-	#define	song01_mvl  127
-	#define	song01_key  0
-	#define	song01_tbs  1
-	#define	song01_exg  0
-	#define	song01_cmp  1
+	#define	SML2StarCourseLooped_grp  voicegroup000
+	#define	SML2StarCourseLooped_pri  10
+	#define	SML2StarCourseLooped_rev  0
+	#define	SML2StarCourseLooped_mvl  127
+	#define	SML2StarCourseLooped_key  0
+	#define	SML2StarCourseLooped_tbs  1
+	#define	SML2StarCourseLooped_exg  0
+	#define	SML2StarCourseLooped_cmp  1
 
 	// .rodata
-	//	song01
+	//	SML2StarCourseLooped
 	ALIGN 4
 
 
 //**************** Track 1 (Midi-Chn.0) ****************//
 
-song01_001:
+SML2StarCourseLooped_001:
 //  #01 //000   ----------------------------------------
 Label_014B3F88:
- BYTE   TEMPO   126*song01_tbs/2
- BYTE   KEYSH   song01_key+0
+ BYTE   TEMPO   126*SML2StarCourseLooped_tbs/2
+ BYTE   KEYSH   SML2StarCourseLooped_key+0
  BYTE   VOICE   46
- BYTE   VOL   44*song01_mvl/mxv
+ BYTE   VOL   44*SML2StarCourseLooped_mvl/mxv
  BYTE   W96
 //  #01 //001   ----------------------------------------
  BYTE   W96
@@ -344,13 +344,13 @@ Label_014B3FD4:
 
 //**************** Track 2 (Midi-Chn.1) ****************//
 
-song01_002:
+SML2StarCourseLooped_002:
 //  #02 //000   ----------------------------------------
 Label_014D12E4:
- BYTE   TEMPO   126*song01_tbs/2
- BYTE   KEYSH   song01_key+0
+ BYTE   TEMPO   126*SML2StarCourseLooped_tbs/2
+ BYTE   KEYSH   SML2StarCourseLooped_key+0
  BYTE   VOICE   36
- BYTE   VOL   44*song01_mvl/mxv
+ BYTE   VOL   44*SML2StarCourseLooped_mvl/mxv
  BYTE   N09  An1  v110
  BYTE   W18
  BYTE   N10  Fs1
@@ -1179,13 +1179,13 @@ Label_014D13DB:
 
 //**************** Track 3 (Midi-Chn.2) ****************//
 
-song01_003:
+SML2StarCourseLooped_003:
 //  #03 //000   ----------------------------------------
 Label_014B4638:
- BYTE   TEMPO   126*song01_tbs/2
- BYTE   KEYSH   song01_key+0
+ BYTE   TEMPO   126*SML2StarCourseLooped_tbs/2
+ BYTE   KEYSH   SML2StarCourseLooped_key+0
  BYTE   VOICE   73
- BYTE   VOL   30*song01_mvl/mxv
+ BYTE   VOL   30*SML2StarCourseLooped_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   N05  Gs5  v110
  BYTE   W12
@@ -1821,13 +1821,13 @@ Label_014B46A7:
 
 //**************** Track 4 (Midi-Chn.3) ****************//
 
-song01_004:
+SML2StarCourseLooped_004:
 //  #04 //000   ----------------------------------------
 Label_014D0D24:
- BYTE   TEMPO   126*song01_tbs/2
- BYTE   KEYSH   song01_key+0
+ BYTE   TEMPO   126*SML2StarCourseLooped_tbs/2
+ BYTE   KEYSH   SML2StarCourseLooped_key+0
  BYTE   VOICE   52
- BYTE   VOL   18*song01_mvl/mxv
+ BYTE   VOL   18*SML2StarCourseLooped_mvl/mxv
  BYTE   W96
 //  #04 //001   ----------------------------------------
  BYTE   W96
@@ -2144,13 +2144,13 @@ Label_014D0E5A:
 
 //**************** Track 5 (Midi-Chn.4) ****************//
 
-song01_005:
+SML2StarCourseLooped_005:
 //  #05 //000   ----------------------------------------
 Label_014D16F0:
- BYTE   TEMPO   126*song01_tbs/2
- BYTE   KEYSH   song01_key+0
+ BYTE   TEMPO   126*SML2StarCourseLooped_tbs/2
+ BYTE   KEYSH   SML2StarCourseLooped_key+0
  BYTE   VOICE   127
- BYTE   VOL   43*song01_mvl/mxv
+ BYTE   VOL   43*SML2StarCourseLooped_mvl/mxv
  BYTE   N04  Fs1  v080
  BYTE   N04  Cn1  v110
  BYTE   W06
@@ -4413,18 +4413,18 @@ Label_014D1956:
 //******************************************************//
 	ALIGN 4
 
-song01:
+SML2StarCourseLooped:
 	BYTE	5	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	song01_pri	// Priority
-	BYTE	song01_rev	// Reverb.
+	BYTE	SML2StarCourseLooped_pri	// Priority
+	BYTE	SML2StarCourseLooped_rev	// Reverb.
     
-	POIN2	song01_grp
+	POIN2	SML2StarCourseLooped_grp
     
-	POIN2	song01_001
-	POIN2	song01_002
-	POIN2	song01_003
-	POIN2	song01_004
-	POIN2	song01_005
+	POIN2	SML2StarCourseLooped_001
+	POIN2	SML2StarCourseLooped_002
+	POIN2	SML2StarCourseLooped_003
+	POIN2	SML2StarCourseLooped_004
+	POIN2	SML2StarCourseLooped_005
 
 	

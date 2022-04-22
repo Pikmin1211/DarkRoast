@@ -1,28 +1,28 @@
 	.include "MPlayDef.s"
 
-	.equ	song02_grp, voicegroup000
-	.equ	song02_pri, 0
-	.equ	song02_rev, 0
-	.equ	song02_mvl, 127
-	.equ	song02_key, 0
-	.equ	song02_tbs, 1
-	.equ	song02_exg, 0
-	.equ	song02_cmp, 1
+	.equ	TouchFuzzyGetDizzy_grp, voicegroup000
+	.equ	TouchFuzzyGetDizzy_pri, 0
+	.equ	TouchFuzzyGetDizzy_rev, 0
+	.equ	TouchFuzzyGetDizzy_mvl, 127
+	.equ	TouchFuzzyGetDizzy_key, 0
+	.equ	TouchFuzzyGetDizzy_tbs, 1
+	.equ	TouchFuzzyGetDizzy_exg, 0
+	.equ	TouchFuzzyGetDizzy_cmp, 1
 
 	.section .rodata
-	.global	song02
+	.global	TouchFuzzyGetDizzy
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song02_001:
+TouchFuzzyGetDizzy_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , TouchFuzzyGetDizzy_key+0
 Label_5462B2:
- .byte   TEMPO , 84*song02_tbs/2
+ .byte   TEMPO , 84*TouchFuzzyGetDizzy_tbs/2
  .byte   VOICE , 57
- .byte   VOL , 37*song02_mvl/mxv
+ .byte   VOL , 37*TouchFuzzyGetDizzy_mvl/mxv
  .byte   N06 ,En4 ,v064
  .byte   W06
  .byte   N06
@@ -245,12 +245,12 @@ Label_54637B:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song02_002:
+TouchFuzzyGetDizzy_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , TouchFuzzyGetDizzy_key+0
 Label_5473BE:
  .byte   VOICE , 60
- .byte   VOL , 56*song02_mvl/mxv
+ .byte   VOL , 56*TouchFuzzyGetDizzy_mvl/mxv
  .byte   N06 ,Gn2 ,v064
  .byte   W06
  .byte   N06
@@ -373,10 +373,10 @@ Label_5473F1:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song02_003:
+TouchFuzzyGetDizzy_003:
 @  #03 @000   ----------------------------------------
- .byte   VOL , 80*song02_mvl/mxv
- .byte   KEYSH , song02_key+0
+ .byte   VOL , 80*TouchFuzzyGetDizzy_mvl/mxv
+ .byte   KEYSH , TouchFuzzyGetDizzy_key+0
 Label_54743C:
  .byte   VOICE , 73
  .byte   W96
@@ -480,12 +480,12 @@ Label_54745E:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song02_004:
+TouchFuzzyGetDizzy_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , TouchFuzzyGetDizzy_key+0
 Label_5463D6:
  .byte   VOICE , 18
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*TouchFuzzyGetDizzy_mvl/mxv
  .byte   W12
  .byte   N06 ,An4 ,v064
  .byte   W12
@@ -573,12 +573,12 @@ Label_5463F1:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song02_005:
+TouchFuzzyGetDizzy_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , TouchFuzzyGetDizzy_key+0
 Label_547722:
  .byte   VOICE , 36
- .byte   VOL , 80*song02_mvl/mxv
+ .byte   VOL , 80*TouchFuzzyGetDizzy_mvl/mxv
  .byte   N06 ,Cn2 ,v064
  .byte   W12
  .byte   N06
@@ -709,10 +709,10 @@ Label_547778:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song02_006:
+TouchFuzzyGetDizzy_006:
 @  #06 @000   ----------------------------------------
- .byte   VOL , 80*song02_mvl/mxv
- .byte   KEYSH , song02_key+0
+ .byte   VOL , 80*TouchFuzzyGetDizzy_mvl/mxv
+ .byte   KEYSH , TouchFuzzyGetDizzy_key+0
 Label_5477DC:
  .byte   VOICE , 18
  .byte   W96
@@ -809,12 +809,12 @@ Label_5477FF:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-song02_007:
+TouchFuzzyGetDizzy_007:
 @  #07 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , TouchFuzzyGetDizzy_key+0
 Label_547846:
  .byte   VOICE , 124
- .byte   VOL , 54*song02_mvl/mxv
+ .byte   VOL , 54*TouchFuzzyGetDizzy_mvl/mxv
  .byte   N06 ,Cn1 ,v127
  .byte   W06
  .byte   Cn1 ,v108
@@ -993,20 +993,20 @@ Label_5478B7:
 @******************************************************@
 	.align	2
 
-song02:
+TouchFuzzyGetDizzy:
 	.byte	7	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song02_pri	@ Priority
-	.byte	song02_rev	@ Reverb.
+	.byte	TouchFuzzyGetDizzy_pri	@ Priority
+	.byte	TouchFuzzyGetDizzy_rev	@ Reverb.
     
-	.word	song02_grp
+	.word	TouchFuzzyGetDizzy_grp
     
-	.word	song02_001
-	.word	song02_002
-	.word	song02_003
-	.word	song02_004
-	.word	song02_005
-	.word	song02_006
-	.word	song02_007
+	.word	TouchFuzzyGetDizzy_001
+	.word	TouchFuzzyGetDizzy_002
+	.word	TouchFuzzyGetDizzy_003
+	.word	TouchFuzzyGetDizzy_004
+	.word	TouchFuzzyGetDizzy_005
+	.word	TouchFuzzyGetDizzy_006
+	.word	TouchFuzzyGetDizzy_007
 
 	.end

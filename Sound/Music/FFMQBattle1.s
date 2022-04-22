@@ -1,28 +1,28 @@
 	.include "MPlayDef.s"
 
-	.equ	song19_grp, voicegroup000
-	.equ	song19_pri, 0
-	.equ	song19_rev, 0
-	.equ	song19_mvl, 127
-	.equ	song19_key, 0
-	.equ	song19_tbs, 1
-	.equ	song19_exg, 0
-	.equ	song19_cmp, 1
+	.equ	FFMQBattle1_grp, voicegroup000
+	.equ	FFMQBattle1_pri, 0
+	.equ	FFMQBattle1_rev, 0
+	.equ	FFMQBattle1_mvl, 127
+	.equ	FFMQBattle1_key, 0
+	.equ	FFMQBattle1_tbs, 1
+	.equ	FFMQBattle1_exg, 0
+	.equ	FFMQBattle1_cmp, 1
 
 	.section .rodata
-	.global	song19
+	.global	FFMQBattle1
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song19_001:
+FFMQBattle1_001:
 @ 000   ----------------------------------------
- .byte   KEYSH , song19_key+0
+ .byte   KEYSH , FFMQBattle1_key+0
 Label_0_014C780A:
- .byte   TEMPO , 162*song19_tbs/2
+ .byte   TEMPO , 162*FFMQBattle1_tbs/2
  .byte   VOICE , 30
- .byte   VOL , 40*song19_mvl/mxv
+ .byte   VOL , 40*FFMQBattle1_mvl/mxv
  .byte   N10 ,Bn0 ,v080
  .byte   N10 ,Bn1
  .byte   W12
@@ -279,7 +279,7 @@ Label_0_014C792B:
  .byte   PATT
   .word Label_0_014C792B
 @ 014   ----------------------------------------
- .byte   TEMPO , 80*song19_tbs/2
+ .byte   TEMPO , 80*FFMQBattle1_tbs/2
  .byte   W96
 @ 015   ----------------------------------------
  .byte   W96
@@ -306,7 +306,7 @@ Label_0_014C792B:
  .byte   N04 ,An1
  .byte   W06
 @ 018   ----------------------------------------
- .byte   TEMPO , 162*song19_tbs/2
+ .byte   TEMPO , 162*FFMQBattle1_tbs/2
  .byte   N10 ,Bn0
  .byte   N10 ,Bn1
  .byte   W12
@@ -368,12 +368,12 @@ Label_0_014C792B:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song19_002:
+FFMQBattle1_002:
 @ 000   ----------------------------------------
- .byte   KEYSH , song19_key+0
+ .byte   KEYSH , FFMQBattle1_key+0
 Label_1_014C7A22:
  .byte   VOICE , 99
- .byte   VOL , 36*song19_mvl/mxv
+ .byte   VOL , 36*FFMQBattle1_mvl/mxv
  .byte   N10 ,Bn0 ,v080
  .byte   N10 ,Bn1
  .byte   W12
@@ -729,12 +729,12 @@ Label_1_014C7B94:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song19_003:
+FFMQBattle1_003:
 @ 000   ----------------------------------------
- .byte   KEYSH , song19_key+0
+ .byte   KEYSH , FFMQBattle1_key+0
 Label_2_014C7C52:
  .byte   VOICE , 38
- .byte   VOL , 40*song19_mvl/mxv
+ .byte   VOL , 40*FFMQBattle1_mvl/mxv
  .byte   W96
 @ 001   ----------------------------------------
  .byte   W96
@@ -870,12 +870,12 @@ Label_2_014C7C68:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song19_004:
+FFMQBattle1_004:
 @ 000   ----------------------------------------
- .byte   KEYSH , song19_key+0
+ .byte   KEYSH , FFMQBattle1_key+0
 Label_3_014C7CE6:
  .byte   VOICE , 4
- .byte   VOL , 40*song19_mvl/mxv
+ .byte   VOL , 40*FFMQBattle1_mvl/mxv
  .byte   N09 ,Bn3 ,v080
  .byte   W12
  .byte   Fs3
@@ -1151,12 +1151,12 @@ Label_3_014C7D6F:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song19_005:
+FFMQBattle1_005:
 @ 000   ----------------------------------------
- .byte   KEYSH , song19_key+0
+ .byte   KEYSH , FFMQBattle1_key+0
 Label_4_014C7E06:
  .byte   VOICE , 29
- .byte   VOL , 40*song19_mvl/mxv
+ .byte   VOL , 40*FFMQBattle1_mvl/mxv
  .byte   W96
 @ 001   ----------------------------------------
  .byte   W96
@@ -1257,12 +1257,12 @@ Label_4_014C7E06:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song19_006:
+FFMQBattle1_006:
 @ 000   ----------------------------------------
- .byte   KEYSH , song19_key+0
+ .byte   KEYSH , FFMQBattle1_key+0
 Label_5_014C7E5E:
  .byte   VOICE , 73
- .byte   VOL , 40*song19_mvl/mxv
+ .byte   VOL , 40*FFMQBattle1_mvl/mxv
  .byte   W96
 @ 001   ----------------------------------------
  .byte   W96
@@ -1371,12 +1371,12 @@ Label_5_014C7E5E:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-song19_007:
+FFMQBattle1_007:
 @ 000   ----------------------------------------
- .byte   KEYSH , song19_key+0
+ .byte   KEYSH , FFMQBattle1_key+0
 Label_6_014C7EC2:
  .byte   VOICE , 58
- .byte   VOL , 40*song19_mvl/mxv
+ .byte   VOL , 40*FFMQBattle1_mvl/mxv
  .byte   W96
 @ 001   ----------------------------------------
  .byte   W96
@@ -1805,12 +1805,12 @@ Label_6_014C7EC2:
 
 @**************** Track 8 (Midi-Chn.7) ****************@
 
-song19_008:
+FFMQBattle1_008:
 @ 000   ----------------------------------------
- .byte   KEYSH , song19_key+0
+ .byte   KEYSH , FFMQBattle1_key+0
 Label_7_014C80DE:
  .byte   VOICE , 52
- .byte   VOL , 40*song19_mvl/mxv
+ .byte   VOL , 40*FFMQBattle1_mvl/mxv
  .byte   W96
 @ 001   ----------------------------------------
  .byte   W96
@@ -2219,12 +2219,12 @@ Label_7_014C80DE:
 
 @**************** Track 9 (Midi-Chn.8) ****************@
 
-song19_009:
+FFMQBattle1_009:
 @ 000   ----------------------------------------
- .byte   KEYSH , song19_key+0
+ .byte   KEYSH , FFMQBattle1_key+0
 Label_8_014C82DE:
  .byte   VOICE , 48
- .byte   VOL , 40*song19_mvl/mxv
+ .byte   VOL , 40*FFMQBattle1_mvl/mxv
  .byte   W96
 @ 001   ----------------------------------------
  .byte   W96
@@ -2758,12 +2758,12 @@ Label_8_014C82DE:
 
 @**************** Track 10 (Midi-Chn.9) ****************@
 
-song19_010:
+FFMQBattle1_010:
 @ 000   ----------------------------------------
- .byte   KEYSH , song19_key+0
+ .byte   KEYSH , FFMQBattle1_key+0
 Label_9_014C85E6:
  .byte   VOICE , 56
- .byte   VOL , 40*song19_mvl/mxv
+ .byte   VOL , 40*FFMQBattle1_mvl/mxv
  .byte   W96
 @ 001   ----------------------------------------
  .byte   W96
@@ -3166,12 +3166,12 @@ Label_9_014C85E6:
 
 @**************** Track 11 (Midi-Chn.10) ****************@
 
-song19_011:
+FFMQBattle1_011:
 @ 000   ----------------------------------------
- .byte   KEYSH , song19_key+0
+ .byte   KEYSH , FFMQBattle1_key+0
 Label_10_014C87DE:
  .byte   VOICE , 124
- .byte   VOL , 40*song19_mvl/mxv
+ .byte   VOL , 40*FFMQBattle1_mvl/mxv
  .byte   N09 ,Bn0 ,v080
  .byte   N09 ,Cn1
  .byte   W12
@@ -3529,12 +3529,12 @@ Label_10_014C8933:
 
 @**************** Track 12 (Midi-Chn.11) ****************@
 
-song19_012:
+FFMQBattle1_012:
 @ 000   ----------------------------------------
- .byte   KEYSH , song19_key+0
+ .byte   KEYSH , FFMQBattle1_key+0
 Label_11_014C89F2:
  .byte   VOICE , 127
- .byte   VOL , 40*song19_mvl/mxv
+ .byte   VOL , 40*FFMQBattle1_mvl/mxv
  .byte   N09 ,Bn0 ,v080
  .byte   N09 ,Cn1
  .byte   W12
@@ -4009,25 +4009,25 @@ Label_11_014C8A7C:
 @******************************************************@
 	.align	2
 
-song19:
+FFMQBattle1:
 	.byte	12	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song19_pri	@ Priority
-	.byte	song19_rev	@ Reverb.
+	.byte	FFMQBattle1_pri	@ Priority
+	.byte	FFMQBattle1_rev	@ Reverb.
     
-	.word	song19_grp
+	.word	FFMQBattle1_grp
     
-	.word	song19_001
-	.word	song19_002
-	.word	song19_003
-	.word	song19_004
-	.word	song19_005
-	.word	song19_006
-	.word	song19_007
-	.word	song19_008
-	.word	song19_009
-	.word	song19_010
-	.word	song19_011
-	.word	song19_012
+	.word	FFMQBattle1_001
+	.word	FFMQBattle1_002
+	.word	FFMQBattle1_003
+	.word	FFMQBattle1_004
+	.word	FFMQBattle1_005
+	.word	FFMQBattle1_006
+	.word	FFMQBattle1_007
+	.word	FFMQBattle1_008
+	.word	FFMQBattle1_009
+	.word	FFMQBattle1_010
+	.word	FFMQBattle1_011
+	.word	FFMQBattle1_012
 
 	.end

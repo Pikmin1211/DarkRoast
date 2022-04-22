@@ -1,28 +1,28 @@
 	.include "MPlayDef.s"
 
-	.equ	song02_grp, voicegroup000
-	.equ	song02_pri, 0
-	.equ	song02_rev, 0
-	.equ	song02_mvl, 127
-	.equ	song02_key, 0
-	.equ	song02_tbs, 1
-	.equ	song02_exg, 0
-	.equ	song02_cmp, 1
+	.equ	KKCafe_grp, voicegroup000
+	.equ	KKCafe_pri, 0
+	.equ	KKCafe_rev, 0
+	.equ	KKCafe_mvl, 127
+	.equ	KKCafe_key, 0
+	.equ	KKCafe_tbs, 1
+	.equ	KKCafe_exg, 0
+	.equ	KKCafe_cmp, 1
 
 	.section .rodata
-	.global	song02
+	.global	KKCafe
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song02_001:
+KKCafe_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , KKCafe_key+0
 Label_013ADF6A:
- .byte   TEMPO , 210*song02_tbs/2
+ .byte   TEMPO , 210*KKCafe_tbs/2
  .byte   VOICE , 36
- .byte   VOL , 87*song02_mvl/mxv
+ .byte   VOL , 87*KKCafe_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #01 @001   ----------------------------------------
@@ -1558,12 +1558,12 @@ Label_013AE667:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song02_002:
+KKCafe_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , KKCafe_key+0
 Label_013AE732:
  .byte   VOICE , 67
- .byte   VOL , 78*song02_mvl/mxv
+ .byte   VOL , 78*KKCafe_mvl/mxv
  .byte   N11 ,Ds2 ,v080
  .byte   W36
  .byte   W02
@@ -2895,12 +2895,12 @@ Label_013AEA0C:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song02_003:
+KKCafe_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , KKCafe_key+0
 Label_013AEEF2:
  .byte   VOICE , 68
- .byte   VOL , 67*song02_mvl/mxv
+ .byte   VOL , 67*KKCafe_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #03 @001   ----------------------------------------
@@ -3835,12 +3835,12 @@ Label_013AF02F:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song02_004:
+KKCafe_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , KKCafe_key+0
 Label_013AF216:
  .byte   VOICE , 0
- .byte   VOL , 57*song02_mvl/mxv
+ .byte   VOL , 57*KKCafe_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W14
  .byte   N09 ,Gn2 ,v080
@@ -5285,12 +5285,12 @@ Label_013AF62D:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song02_005:
+KKCafe_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , KKCafe_key+0
 Label_013AFA4E:
  .byte   VOICE , 124
- .byte   VOL , 69*song02_mvl/mxv
+ .byte   VOL , 69*KKCafe_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N23 ,As1 ,v080
  .byte   W24
@@ -6514,18 +6514,18 @@ Label_013AFCC1:
 @******************************************************@
 	.align	2
 
-song02:
+KKCafe:
 	.byte	5	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song02_pri	@ Priority
-	.byte	song02_rev	@ Reverb.
+	.byte	KKCafe_pri	@ Priority
+	.byte	KKCafe_rev	@ Reverb.
     
-	.word	song02_grp
+	.word	KKCafe_grp
     
-	.word	song02_001
-	.word	song02_002
-	.word	song02_003
-	.word	song02_004
-	.word	song02_005
+	.word	KKCafe_001
+	.word	KKCafe_002
+	.word	KKCafe_003
+	.word	KKCafe_004
+	.word	KKCafe_005
 
 	.end

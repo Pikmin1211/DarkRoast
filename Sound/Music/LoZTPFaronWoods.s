@@ -1,28 +1,28 @@
 	.include "MPlayDef.s"
 
-	.equ	song02_grp, voicegroup000
-	.equ	song02_pri, 10
-	.equ	song02_rev, 0
-	.equ	song02_mvl, 127
-	.equ	song02_key, 0
-	.equ	song02_tbs, 1
-	.equ	song02_exg, 0
-	.equ	song02_cmp, 1
+	.equ	LoZTPFaronWoods_grp, voicegroup000
+	.equ	LoZTPFaronWoods_pri, 10
+	.equ	LoZTPFaronWoods_rev, 0
+	.equ	LoZTPFaronWoods_mvl, 127
+	.equ	LoZTPFaronWoods_key, 0
+	.equ	LoZTPFaronWoods_tbs, 1
+	.equ	LoZTPFaronWoods_exg, 0
+	.equ	LoZTPFaronWoods_cmp, 1
 
 	.section .rodata
-	.global	song02
+	.global	LoZTPFaronWoods
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song02_001:
+LoZTPFaronWoods_001:
 @  #01 @000   ----------------------------------------
 Label_01005B50:
- .byte   TEMPO , 96*song02_tbs/2
- .byte   KEYSH , song02_key+0
+ .byte   TEMPO , 96*LoZTPFaronWoods_tbs/2
+ .byte   KEYSH , LoZTPFaronWoods_key+0
  .byte   VOICE , 46
- .byte   VOL , 55*song02_mvl/mxv
+ .byte   VOL , 55*LoZTPFaronWoods_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #01 @001   ----------------------------------------
@@ -188,13 +188,13 @@ Label_01005B80:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song02_002:
+LoZTPFaronWoods_002:
 @  #02 @000   ----------------------------------------
 Label_010068F8:
- .byte   TEMPO , 96*song02_tbs/2
- .byte   KEYSH , song02_key+0
+ .byte   TEMPO , 96*LoZTPFaronWoods_tbs/2
+ .byte   KEYSH , LoZTPFaronWoods_key+0
  .byte   VOICE , 46
- .byte   VOL , 55*song02_mvl/mxv
+ .byte   VOL , 55*LoZTPFaronWoods_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N12 ,Ds5 ,v100
  .byte   W02
@@ -321,13 +321,13 @@ Label_01006938:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song02_003:
+LoZTPFaronWoods_003:
 @  #03 @000   ----------------------------------------
 Label_01006984:
- .byte   TEMPO , 96*song02_tbs/2
- .byte   KEYSH , song02_key+0
+ .byte   TEMPO , 96*LoZTPFaronWoods_tbs/2
+ .byte   KEYSH , LoZTPFaronWoods_key+0
  .byte   VOICE , 49
- .byte   VOL , 42*song02_mvl/mxv
+ .byte   VOL , 42*LoZTPFaronWoods_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N96 ,Bn2 ,v080
  .byte   N96 ,Cs3
@@ -404,13 +404,13 @@ Label_01006984:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song02_004:
+LoZTPFaronWoods_004:
 @  #04 @000   ----------------------------------------
 Label_01006E98:
- .byte   TEMPO , 96*song02_tbs/2
- .byte   KEYSH , song02_key+0
+ .byte   TEMPO , 96*LoZTPFaronWoods_tbs/2
+ .byte   KEYSH , LoZTPFaronWoods_key+0
  .byte   VOICE , 71
- .byte   VOL , 67*song02_mvl/mxv
+ .byte   VOL , 67*LoZTPFaronWoods_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #04 @001   ----------------------------------------
@@ -585,13 +585,13 @@ Label_01006EE8:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song02_005:
+LoZTPFaronWoods_005:
 @  #05 @000   ----------------------------------------
 Label_010069C0:
- .byte   TEMPO , 96*song02_tbs/2
- .byte   KEYSH , song02_key+0
+ .byte   TEMPO , 96*LoZTPFaronWoods_tbs/2
+ .byte   KEYSH , LoZTPFaronWoods_key+0
  .byte   VOICE , 68
- .byte   VOL , 35*song02_mvl/mxv
+ .byte   VOL , 35*LoZTPFaronWoods_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #05 @001   ----------------------------------------
@@ -679,13 +679,13 @@ Label_010069C0:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song02_006:
+LoZTPFaronWoods_006:
 @  #06 @000   ----------------------------------------
 Label_01007464:
- .byte   TEMPO , 96*song02_tbs/2
- .byte   KEYSH , song02_key+0
+ .byte   TEMPO , 96*LoZTPFaronWoods_tbs/2
+ .byte   KEYSH , LoZTPFaronWoods_key+0
  .byte   VOICE , 62
- .byte   VOL , 55*song02_mvl/mxv
+ .byte   VOL , 55*LoZTPFaronWoods_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #06 @001   ----------------------------------------
@@ -812,19 +812,19 @@ Label_01007464:
 @******************************************************@
 	.align	2
 
-song02:
+LoZTPFaronWoods:
 	.byte	6	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song02_pri	@ Priority
-	.byte	song02_rev	@ Reverb.
+	.byte	LoZTPFaronWoods_pri	@ Priority
+	.byte	LoZTPFaronWoods_rev	@ Reverb.
     
-	.word	song02_grp
+	.word	LoZTPFaronWoods_grp
     
-	.word	song02_001
-	.word	song02_002
-	.word	song02_003
-	.word	song02_004
-	.word	song02_005
-	.word	song02_006
+	.word	LoZTPFaronWoods_001
+	.word	LoZTPFaronWoods_002
+	.word	LoZTPFaronWoods_003
+	.word	LoZTPFaronWoods_004
+	.word	LoZTPFaronWoods_005
+	.word	LoZTPFaronWoods_006
 
 	.end

@@ -1,43 +1,43 @@
 //Event file generated from Sappy .s format.
 	
 
-	#define	song1E_grp  voicegroup000
-	#define	song1E_pri  0
-	#define	song1E_rev  0
-	#define	song1E_mvl  127
-	#define	song1E_key  0
-	#define	song1E_tbs  1
-	#define	song1E_exg  0
-	#define	song1E_cmp  1
+	#define	ToSLawOfBattle_grp  voicegroup000
+	#define	ToSLawOfBattle_pri  0
+	#define	ToSLawOfBattle_rev  0
+	#define	ToSLawOfBattle_mvl  127
+	#define	ToSLawOfBattle_key  0
+	#define	ToSLawOfBattle_tbs  1
+	#define	ToSLawOfBattle_exg  0
+	#define	ToSLawOfBattle_cmp  1
 
 	// .rodata
-	//	song1E
+	//	ToSLawOfBattle
 	ALIGN 4
 
 
 //**************** Track 1 (Midi-Chn.0) ****************//
 
-song1E_001:
+ToSLawOfBattle_001:
 // 000   ----------------------------------------
- BYTE   KEYSH   song1E_key+0
+ BYTE   KEYSH   ToSLawOfBattle_key+0
 Label_0_0134DE6A:
- BYTE   TEMPO   200*song1E_tbs/2
+ BYTE   TEMPO   200*ToSLawOfBattle_tbs/2
  BYTE   VOICE   29
- BYTE   VOL   18*song1E_mvl/mxv
+ BYTE   VOL   18*ToSLawOfBattle_mvl/mxv
  BYTE   MODT 0
  BYTE   CnM2
  BYTE   LFOS 0
  BYTE   Gs1
- BYTE   VOL   28*song1E_mvl/mxv
+ BYTE   VOL   28*ToSLawOfBattle_mvl/mxv
  BYTE   PAN   c_v+0
- BYTE   VOL   18*song1E_mvl/mxv
+ BYTE   VOL   18*ToSLawOfBattle_mvl/mxv
  BYTE   MODT 0
  BYTE   CnM2
  BYTE   LFOS 0
  BYTE   Gs1
- BYTE   VOL   28*song1E_mvl/mxv
+ BYTE   VOL   28*ToSLawOfBattle_mvl/mxv
  BYTE   PAN   c_v+0
- BYTE   VOL   28*song1E_mvl/mxv
+ BYTE   VOL   28*ToSLawOfBattle_mvl/mxv
  BYTE   N48  En1  v127
  BYTE   N24  Bn1
  BYTE   W24
@@ -321,19 +321,19 @@ Label_0_0134DFC9:
 
 //**************** Track 2 (Midi-Chn.1) ****************//
 
-song1E_002:
+ToSLawOfBattle_002:
 // 000   ----------------------------------------
- BYTE   KEYSH   song1E_key+0
+ BYTE   KEYSH   ToSLawOfBattle_key+0
 Label_1_0134E052:
  BYTE   VOICE   32
- BYTE   VOL   12*song1E_mvl/mxv
+ BYTE   VOL   12*ToSLawOfBattle_mvl/mxv
  BYTE   MODT 0
  BYTE   CnM2
  BYTE   LFOS 0
  BYTE   Gs1
- BYTE   VOL   18*song1E_mvl/mxv
+ BYTE   VOL   18*ToSLawOfBattle_mvl/mxv
  BYTE   PAN   c_v+0
- BYTE   VOL   18*song1E_mvl/mxv
+ BYTE   VOL   18*ToSLawOfBattle_mvl/mxv
  BYTE   N12  En1  v127
  BYTE   W48
  BYTE   N12
@@ -601,26 +601,26 @@ Label_1_0134E154:
 
 //**************** Track 3 (Midi-Chn.2) ****************//
 
-song1E_003:
+ToSLawOfBattle_003:
 // 000   ----------------------------------------
- BYTE   KEYSH   song1E_key+0
+ BYTE   KEYSH   ToSLawOfBattle_key+0
 Label_2_0134E1DE:
  BYTE   VOICE   20
- BYTE   VOL   25*song1E_mvl/mxv
+ BYTE   VOL   25*ToSLawOfBattle_mvl/mxv
  BYTE   MODT 0
  BYTE   CnM2
  BYTE   LFOS 0
  BYTE   Gs1
- BYTE   VOL   39*song1E_mvl/mxv
+ BYTE   VOL   39*ToSLawOfBattle_mvl/mxv
  BYTE   PAN   c_v+0
- BYTE   VOL   25*song1E_mvl/mxv
+ BYTE   VOL   25*ToSLawOfBattle_mvl/mxv
  BYTE   MODT 0
  BYTE   CnM2
  BYTE   LFOS 0
  BYTE   Gs1
- BYTE   VOL   39*song1E_mvl/mxv
+ BYTE   VOL   39*ToSLawOfBattle_mvl/mxv
  BYTE   PAN   c_v+0
- BYTE   VOL   39*song1E_mvl/mxv
+ BYTE   VOL   39*ToSLawOfBattle_mvl/mxv
  BYTE   W96
 // 001   ----------------------------------------
  BYTE   W96
@@ -1219,26 +1219,26 @@ Label_2_0134E2E8:
 
 //**************** Track 4 (Midi-Chn.3) ****************//
 
-song1E_004:
+ToSLawOfBattle_004:
 // 000   ----------------------------------------
- BYTE   KEYSH   song1E_key+0
+ BYTE   KEYSH   ToSLawOfBattle_key+0
 Label_3_0134E48E:
  BYTE   VOICE   29
- BYTE   VOL   18*song1E_mvl/mxv
+ BYTE   VOL   18*ToSLawOfBattle_mvl/mxv
  BYTE   MODT 0
  BYTE   CnM2
  BYTE   LFOS 0
  BYTE   Gs1
- BYTE   VOL   28*song1E_mvl/mxv
+ BYTE   VOL   28*ToSLawOfBattle_mvl/mxv
  BYTE   PAN   c_v+0
- BYTE   VOL   18*song1E_mvl/mxv
+ BYTE   VOL   18*ToSLawOfBattle_mvl/mxv
  BYTE   MODT 0
  BYTE   CnM2
  BYTE   LFOS 0
  BYTE   Gs1
- BYTE   VOL   28*song1E_mvl/mxv
+ BYTE   VOL   28*ToSLawOfBattle_mvl/mxv
  BYTE   PAN   c_v+0
- BYTE   VOL   28*song1E_mvl/mxv
+ BYTE   VOL   28*ToSLawOfBattle_mvl/mxv
  BYTE   W96
 // 001   ----------------------------------------
  BYTE   W96
@@ -1978,33 +1978,33 @@ Label_3_0134E617:
 
 //**************** Track 5 (Midi-Chn.4) ****************//
 
-song1E_005:
+ToSLawOfBattle_005:
 // 000   ----------------------------------------
- BYTE   KEYSH   song1E_key+0
+ BYTE   KEYSH   ToSLawOfBattle_key+0
 Label_4_0134E842:
  BYTE   VOICE   121
- BYTE   VOL   18*song1E_mvl/mxv
+ BYTE   VOL   18*ToSLawOfBattle_mvl/mxv
  BYTE   MODT 0
  BYTE   CnM2
  BYTE   LFOS 0
  BYTE   Gs1
- BYTE   VOL   18*song1E_mvl/mxv
+ BYTE   VOL   18*ToSLawOfBattle_mvl/mxv
  BYTE   PAN   c_v+0
- BYTE   VOL   18*song1E_mvl/mxv
+ BYTE   VOL   18*ToSLawOfBattle_mvl/mxv
  BYTE   MODT 0
  BYTE   CnM2
  BYTE   LFOS 0
  BYTE   Gs1
- BYTE   VOL   18*song1E_mvl/mxv
+ BYTE   VOL   18*ToSLawOfBattle_mvl/mxv
  BYTE   PAN   c_v+0
- BYTE   VOL   18*song1E_mvl/mxv
+ BYTE   VOL   18*ToSLawOfBattle_mvl/mxv
  BYTE   MODT 0
  BYTE   CnM2
  BYTE   LFOS 0
  BYTE   Gs1
- BYTE   VOL   18*song1E_mvl/mxv
+ BYTE   VOL   18*ToSLawOfBattle_mvl/mxv
  BYTE   PAN   c_v+0
- BYTE   VOL   18*song1E_mvl/mxv
+ BYTE   VOL   18*ToSLawOfBattle_mvl/mxv
  BYTE   N48  Cs2  v127
  BYTE   W48
  BYTE   N12  Gs1
@@ -2445,18 +2445,18 @@ Label_4_0134EA64:
 //******************************************************//
 	ALIGN 4
 
-song1E:
+ToSLawOfBattle:
 	BYTE	5	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	song1E_pri	// Priority
-	BYTE	song1E_rev	// Reverb.
+	BYTE	ToSLawOfBattle_pri	// Priority
+	BYTE	ToSLawOfBattle_rev	// Reverb.
     
-	POIN2	song1E_grp
+	POIN2	ToSLawOfBattle_grp
     
-	POIN2	song1E_001
-	POIN2	song1E_002
-	POIN2	song1E_003
-	POIN2	song1E_004
-	POIN2	song1E_005
+	POIN2	ToSLawOfBattle_001
+	POIN2	ToSLawOfBattle_002
+	POIN2	ToSLawOfBattle_003
+	POIN2	ToSLawOfBattle_004
+	POIN2	ToSLawOfBattle_005
 
 	

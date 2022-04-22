@@ -1,28 +1,28 @@
 //Event file generated from Sappy .s format.
 	
 
-	#define	song0286_grp  voicegroup000
-	#define	song0286_pri  0
-	#define	song0286_rev  0
-	#define	song0286_mvl  127
-	#define	song0286_key  0
-	#define	song0286_tbs  1
-	#define	song0286_exg  0
-	#define	song0286_cmp  1
+	#define	ChineseTea_grp  voicegroup000
+	#define	ChineseTea_pri  0
+	#define	ChineseTea_rev  0
+	#define	ChineseTea_mvl  127
+	#define	ChineseTea_key  0
+	#define	ChineseTea_tbs  1
+	#define	ChineseTea_exg  0
+	#define	ChineseTea_cmp  1
 
 	// .rodata
-	//	song0286
+	//	ChineseTea
 	ALIGN 4
 
 
 //**************** Track 1 (Midi-Chn.0) ****************//
 
-song0286_001:
+ChineseTea_001:
 // 000   ----------------------------------------
- BYTE   KEYSH   song0286_key+0
- BYTE   TEMPO   130*song0286_tbs/2
+ BYTE   KEYSH   ChineseTea_key+0
+ BYTE   TEMPO   130*ChineseTea_tbs/2
  BYTE   VOICE   36
- BYTE   VOL   31*song0286_mvl/mxv
+ BYTE   VOL   31*ChineseTea_mvl/mxv
  BYTE   PAN   c_v+6
  BYTE   W96
 // 001   ----------------------------------------
@@ -33,56 +33,56 @@ song0286_001:
  BYTE   W96
 // 004   ----------------------------------------
  BYTE   W06
- BYTE   TEMPO   132*song0286_tbs/2
+ BYTE   TEMPO   132*ChineseTea_tbs/2
  BYTE   W10
- BYTE   TEMPO   132*song0286_tbs/2
+ BYTE   TEMPO   132*ChineseTea_tbs/2
  BYTE   W11
- BYTE   TEMPO   134*song0286_tbs/2
+ BYTE   TEMPO   134*ChineseTea_tbs/2
  BYTE   W09
- BYTE   TEMPO   134*song0286_tbs/2
+ BYTE   TEMPO   134*ChineseTea_tbs/2
  BYTE   W16
- BYTE   TEMPO   136*song0286_tbs/2
+ BYTE   TEMPO   136*ChineseTea_tbs/2
  BYTE   W10
- BYTE   TEMPO   134*song0286_tbs/2
+ BYTE   TEMPO   134*ChineseTea_tbs/2
  BYTE   W10
- BYTE   TEMPO   136*song0286_tbs/2
+ BYTE   TEMPO   136*ChineseTea_tbs/2
  BYTE   W24
 // 005   ----------------------------------------
- BYTE   TEMPO   134*song0286_tbs/2
+ BYTE   TEMPO   134*ChineseTea_tbs/2
  BYTE   W05
- BYTE   TEMPO   136*song0286_tbs/2
+ BYTE   TEMPO   136*ChineseTea_tbs/2
  BYTE   W84
- BYTE   TEMPO   134*song0286_tbs/2
+ BYTE   TEMPO   134*ChineseTea_tbs/2
  BYTE   W07
 // 006   ----------------------------------------
- BYTE   TEMPO   136*song0286_tbs/2
+ BYTE   TEMPO   136*ChineseTea_tbs/2
  BYTE   W04
- BYTE   TEMPO   134*song0286_tbs/2
+ BYTE   TEMPO   134*ChineseTea_tbs/2
  BYTE   W05
- BYTE   TEMPO   134*song0286_tbs/2
+ BYTE   TEMPO   134*ChineseTea_tbs/2
  BYTE   W04
- BYTE   TEMPO   132*song0286_tbs/2
+ BYTE   TEMPO   132*ChineseTea_tbs/2
  BYTE   W04
- BYTE   TEMPO   132*song0286_tbs/2
+ BYTE   TEMPO   132*ChineseTea_tbs/2
  BYTE   W03
- BYTE   TEMPO   130*song0286_tbs/2
+ BYTE   TEMPO   130*ChineseTea_tbs/2
  BYTE   W04
- BYTE   TEMPO   130*song0286_tbs/2
+ BYTE   TEMPO   130*ChineseTea_tbs/2
  BYTE   W03
- BYTE   TEMPO   128*song0286_tbs/2
+ BYTE   TEMPO   128*ChineseTea_tbs/2
  BYTE   W04
- BYTE   TEMPO   128*song0286_tbs/2
+ BYTE   TEMPO   128*ChineseTea_tbs/2
  BYTE   W04
- BYTE   TEMPO   126*song0286_tbs/2
+ BYTE   TEMPO   126*ChineseTea_tbs/2
  BYTE   W06
- BYTE   TEMPO   126*song0286_tbs/2
+ BYTE   TEMPO   126*ChineseTea_tbs/2
  BYTE   W10
- BYTE   TEMPO   124*song0286_tbs/2
+ BYTE   TEMPO   124*ChineseTea_tbs/2
  BYTE   W44
  BYTE   W01
 // 007   ----------------------------------------
  BYTE   W72
- BYTE   TEMPO   142*song0286_tbs/2
+ BYTE   TEMPO   142*ChineseTea_tbs/2
  BYTE   N23  Fs1  v100
  BYTE   N23  Cs2  v120
  BYTE   W24
@@ -464,16 +464,16 @@ Label_0_B7DA37:
  BYTE   PATT
   POIN2 Label_0_B7DA37
 // 039   ----------------------------------------
- BYTE   TEMPO   142*song0286_tbs/2
+ BYTE   TEMPO   142*ChineseTea_tbs/2
  BYTE   N11  Fs1  v120
  BYTE   W06
- BYTE   TEMPO   142*song0286_tbs/2
+ BYTE   TEMPO   142*ChineseTea_tbs/2
  BYTE   W01
- BYTE   TEMPO   142*song0286_tbs/2
+ BYTE   TEMPO   142*ChineseTea_tbs/2
  BYTE   W05
  BYTE   N17  Cs2
  BYTE   W14
- BYTE   TEMPO   140*song0286_tbs/2
+ BYTE   TEMPO   140*ChineseTea_tbs/2
  BYTE   W04
  BYTE   N06  An1
  BYTE   W06
@@ -481,7 +481,7 @@ Label_0_B7DA37:
  BYTE   W12
  BYTE   Fs1
  BYTE   W07
- BYTE   TEMPO   140*song0286_tbs/2
+ BYTE   TEMPO   140*ChineseTea_tbs/2
  BYTE   W05
  BYTE   Cs2
  BYTE   W12
@@ -493,7 +493,7 @@ Label_0_B7DA37:
  BYTE   N23  Dn1
  BYTE   N23  An1
  BYTE   W24
- BYTE   TEMPO   138*song0286_tbs/2
+ BYTE   TEMPO   138*ChineseTea_tbs/2
  BYTE   N06  An0
  BYTE   W06
  BYTE   Dn1
@@ -502,7 +502,7 @@ Label_0_B7DA37:
  BYTE   N11  Dn1
  BYTE   N11  An1
  BYTE   W10
- BYTE   TEMPO   138*song0286_tbs/2
+ BYTE   TEMPO   138*ChineseTea_tbs/2
  BYTE   W02
  BYTE   N23  En1
  BYTE   N23  Bn1
@@ -546,19 +546,19 @@ Label_0_B7DA37:
  BYTE   N17  Cs2
  BYTE   N17  An2
  BYTE   W09
- BYTE   TEMPO   138*song0286_tbs/2
+ BYTE   TEMPO   138*ChineseTea_tbs/2
  BYTE   W09
  BYTE   An1
  BYTE   N17  Cs2
  BYTE   W02
- BYTE   TEMPO   140*song0286_tbs/2
+ BYTE   TEMPO   140*ChineseTea_tbs/2
  BYTE   W09
- BYTE   TEMPO   140*song0286_tbs/2
+ BYTE   TEMPO   140*ChineseTea_tbs/2
  BYTE   W07
  BYTE   N11
  BYTE   N11  An2
  BYTE   W04
- BYTE   TEMPO   142*song0286_tbs/2
+ BYTE   TEMPO   142*ChineseTea_tbs/2
  BYTE   W08
 // 048   ----------------------------------------
  BYTE   PATT
@@ -615,11 +615,11 @@ Label_0_B7DA37:
 
 //**************** Track 2 (Midi-Chn.1) ****************//
 
-song0286_002:
+ChineseTea_002:
 // 000   ----------------------------------------
- BYTE   KEYSH   song0286_key+0
+ BYTE   KEYSH   ChineseTea_key+0
  BYTE   VOICE   110
- BYTE   VOL   54*song0286_mvl/mxv
+ BYTE   VOL   54*ChineseTea_mvl/mxv
  BYTE   PAN   c_v+8
  BYTE   N32  Fs3  v120
  BYTE   W36
@@ -981,11 +981,11 @@ Label_1_A5FF7F:
 
 //**************** Track 3 (Midi-Chn.2) ****************//
 
-song0286_003:
+ChineseTea_003:
 // 000   ----------------------------------------
- BYTE   KEYSH   song0286_key+0
+ BYTE   KEYSH   ChineseTea_key+0
  BYTE   VOICE   110
- BYTE   VOL   34*song0286_mvl/mxv
+ BYTE   VOL   34*ChineseTea_mvl/mxv
  BYTE   PAN   c_v-12
  BYTE   N32  Dn3  v120
  BYTE   W36
@@ -1375,11 +1375,11 @@ Label_2_B4AA7F:
 
 //**************** Track 4 (Midi-Chn.3) ****************//
 
-song0286_004:
+ChineseTea_004:
 // 000   ----------------------------------------
- BYTE   KEYSH   song0286_key+0
+ BYTE   KEYSH   ChineseTea_key+0
  BYTE   VOICE   1
- BYTE   VOL   13*song0286_mvl/mxv
+ BYTE   VOL   13*ChineseTea_mvl/mxv
  BYTE   PAN   c_v-34
  BYTE   N17  Dn2  v060
  BYTE   W18
@@ -2050,11 +2050,11 @@ Label_3_B7E4E9:
 
 //**************** Track 5 (Midi-Chn.4) ****************//
 
-song0286_005:
+ChineseTea_005:
 // 000   ----------------------------------------
- BYTE   KEYSH   song0286_key+0
+ BYTE   KEYSH   ChineseTea_key+0
  BYTE   VOICE   75
- BYTE   VOL   26*song0286_mvl/mxv
+ BYTE   VOL   26*ChineseTea_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W96
 // 001   ----------------------------------------
@@ -2310,11 +2310,11 @@ Label_4_B4AB03:
 
 //**************** Track 6 (Midi-Chn.5) ****************//
 
-song0286_006:
+ChineseTea_006:
 // 000   ----------------------------------------
- BYTE   KEYSH   song0286_key+0
+ BYTE   KEYSH   ChineseTea_key+0
  BYTE   VOICE   48
- BYTE   VOL   29*song0286_mvl/mxv
+ BYTE   VOL   29*ChineseTea_mvl/mxv
  BYTE   PAN   c_v+26
  BYTE   TIE  Fs2  v072
  BYTE   W96
@@ -2671,11 +2671,11 @@ Label_5_B3F3B0:
 
 //**************** Track 7 (Midi-Chn.6) ****************//
 
-song0286_007:
+ChineseTea_007:
 // 000   ----------------------------------------
- BYTE   KEYSH   song0286_key+0
+ BYTE   KEYSH   ChineseTea_key+0
  BYTE   VOICE   61
- BYTE   VOL   33*song0286_mvl/mxv
+ BYTE   VOL   33*ChineseTea_mvl/mxv
  BYTE   PAN   c_v-6
  BYTE   W96
 // 001   ----------------------------------------
@@ -2974,11 +2974,11 @@ Label_6_B485F0:
 
 //**************** Track 8 (Midi-Chn.7) ****************//
 
-song0286_008:
+ChineseTea_008:
 // 000   ----------------------------------------
- BYTE   KEYSH   song0286_key+0
+ BYTE   KEYSH   ChineseTea_key+0
  BYTE   VOICE   61
- BYTE   VOL   17*song0286_mvl/mxv
+ BYTE   VOL   17*ChineseTea_mvl/mxv
  BYTE   PAN   c_v+11
  BYTE   W96
 // 001   ----------------------------------------
@@ -3298,11 +3298,11 @@ Label_7_B48831:
 
 //**************** Track 9 (Midi-Chn.8) ****************//
 
-song0286_009:
+ChineseTea_009:
 // 000   ----------------------------------------
- BYTE   KEYSH   song0286_key+0
+ BYTE   KEYSH   ChineseTea_key+0
  BYTE   VOICE   8
- BYTE   VOL   35*song0286_mvl/mxv
+ BYTE   VOL   35*ChineseTea_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W96
 // 001   ----------------------------------------
@@ -4129,11 +4129,11 @@ Label_8_01552846:
 
 //**************** Track 10 (Midi-Chn.9) ****************//
 
-song0286_010:
+ChineseTea_010:
 // 000   ----------------------------------------
- BYTE   KEYSH   song0286_key+0
+ BYTE   KEYSH   ChineseTea_key+0
  BYTE   VOICE   1
- BYTE   VOL   27*song0286_mvl/mxv
+ BYTE   VOL   27*ChineseTea_mvl/mxv
  BYTE   PAN   c_v+16
  BYTE   N17  Dn3  v060
  BYTE   W18
@@ -4804,11 +4804,11 @@ Label_9_B76849:
 
 //**************** Track 11 (Midi-Chn.10) ****************//
 
-song0286_011:
+ChineseTea_011:
 // 000   ----------------------------------------
- BYTE   KEYSH   song0286_key+0
+ BYTE   KEYSH   ChineseTea_key+0
  BYTE   VOICE   4
- BYTE   VOL   27*song0286_mvl/mxv
+ BYTE   VOL   27*ChineseTea_mvl/mxv
  BYTE   PAN   c_v-14
  BYTE   N17  Dn1  v060
  BYTE   W18
@@ -5509,11 +5509,11 @@ Label_10_015322F8:
 
 //**************** Track 12 (Midi-Chn.11) ****************//
 
-song0286_012:
+ChineseTea_012:
 // 000   ----------------------------------------
- BYTE   KEYSH   song0286_key+0
+ BYTE   KEYSH   ChineseTea_key+0
  BYTE   VOICE   0
- BYTE   VOL   39*song0286_mvl/mxv
+ BYTE   VOL   39*ChineseTea_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W96
 // 001   ----------------------------------------
@@ -6250,11 +6250,11 @@ Label_11_01552D3B:
 
 //**************** Track 13 (Midi-Chn.12) ****************//
 
-song0286_013:
+ChineseTea_013:
 // 000   ----------------------------------------
- BYTE   KEYSH   song0286_key+0
+ BYTE   KEYSH   ChineseTea_key+0
  BYTE   VOICE   0
- BYTE   VOL   30*song0286_mvl/mxv
+ BYTE   VOL   30*ChineseTea_mvl/mxv
  BYTE   PAN   c_v+26
  BYTE   W96
 // 001   ----------------------------------------
@@ -6991,11 +6991,11 @@ Label_12_01531EEF:
 
 //**************** Track 14 (Midi-Chn.13) ****************//
 
-song0286_014:
+ChineseTea_014:
 // 000   ----------------------------------------
- BYTE   KEYSH   song0286_key+0
+ BYTE   KEYSH   ChineseTea_key+0
  BYTE   VOICE   110
- BYTE   VOL   24*song0286_mvl/mxv
+ BYTE   VOL   24*ChineseTea_mvl/mxv
  BYTE   PAN   c_v-24
  BYTE   N32  Fs2  v112
  BYTE   W36
@@ -7358,27 +7358,27 @@ Label_13_01F78B25:
 //******************************************************//
 	ALIGN 4
 
-song0286:
+ChineseTea:
 	BYTE	14	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	song0286_pri	// Priority
-	BYTE	song0286_rev	// Reverb.
+	BYTE	ChineseTea_pri	// Priority
+	BYTE	ChineseTea_rev	// Reverb.
     
-	POIN2	song0286_grp
+	POIN2	ChineseTea_grp
     
-	POIN2	song0286_001
-	POIN2	song0286_002
-	POIN2	song0286_003
-	POIN2	song0286_004
-	POIN2	song0286_005
-	POIN2	song0286_006
-	POIN2	song0286_007
-	POIN2	song0286_008
-	POIN2	song0286_009
-	POIN2	song0286_010
-	POIN2	song0286_011
-	POIN2	song0286_012
-	POIN2	song0286_013
-	POIN2	song0286_014
+	POIN2	ChineseTea_001
+	POIN2	ChineseTea_002
+	POIN2	ChineseTea_003
+	POIN2	ChineseTea_004
+	POIN2	ChineseTea_005
+	POIN2	ChineseTea_006
+	POIN2	ChineseTea_007
+	POIN2	ChineseTea_008
+	POIN2	ChineseTea_009
+	POIN2	ChineseTea_010
+	POIN2	ChineseTea_011
+	POIN2	ChineseTea_012
+	POIN2	ChineseTea_013
+	POIN2	ChineseTea_014
 
 	

@@ -1,28 +1,28 @@
 	.include "MPlayDef.s"
 
-	.equ	songEC_grp, voicegroup000
-	.equ	songEC_pri, 0
-	.equ	songEC_rev, 0
-	.equ	songEC_mvl, 127
-	.equ	songEC_key, 0
-	.equ	songEC_tbs, 1
-	.equ	songEC_exg, 0
-	.equ	songEC_cmp, 1
+	.equ	FE12BeforeBattleSwiftSaturn_grp, voicegroup000
+	.equ	FE12BeforeBattleSwiftSaturn_pri, 0
+	.equ	FE12BeforeBattleSwiftSaturn_rev, 0
+	.equ	FE12BeforeBattleSwiftSaturn_mvl, 127
+	.equ	FE12BeforeBattleSwiftSaturn_key, 0
+	.equ	FE12BeforeBattleSwiftSaturn_tbs, 1
+	.equ	FE12BeforeBattleSwiftSaturn_exg, 0
+	.equ	FE12BeforeBattleSwiftSaturn_cmp, 1
 
 	.section .rodata
-	.global	songEC
+	.global	FE12BeforeBattleSwiftSaturn
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-songEC_001:
+FE12BeforeBattleSwiftSaturn_001:
 @ 000   ----------------------------------------
- .byte   KEYSH , songEC_key+0
+ .byte   KEYSH , FE12BeforeBattleSwiftSaturn_key+0
 Label_0_01817E8A:
- .byte   TEMPO , 108*songEC_tbs/2
+ .byte   TEMPO , 108*FE12BeforeBattleSwiftSaturn_tbs/2
  .byte   VOICE , 2
- .byte   VOL , 80*songEC_mvl/mxv
+ .byte   VOL , 80*FE12BeforeBattleSwiftSaturn_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N05 ,Gn0 ,v116
  .byte   W06
@@ -252,12 +252,12 @@ Label_0_01817FD9:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-songEC_002:
+FE12BeforeBattleSwiftSaturn_002:
 @ 000   ----------------------------------------
- .byte   KEYSH , songEC_key+0
+ .byte   KEYSH , FE12BeforeBattleSwiftSaturn_key+0
 Label_1_01818016:
  .byte   VOICE , 51
- .byte   VOL , 64*songEC_mvl/mxv
+ .byte   VOL , 64*FE12BeforeBattleSwiftSaturn_mvl/mxv
  .byte   PAN , c_v+13
  .byte   W96
 @ 001   ----------------------------------------
@@ -1432,12 +1432,12 @@ Label_1_0181820A:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-songEC_003:
+FE12BeforeBattleSwiftSaturn_003:
 @ 000   ----------------------------------------
- .byte   KEYSH , songEC_key+0
+ .byte   KEYSH , FE12BeforeBattleSwiftSaturn_key+0
 Label_2_018184BE:
  .byte   VOICE , 51
- .byte   VOL , 62*songEC_mvl/mxv
+ .byte   VOL , 62*FE12BeforeBattleSwiftSaturn_mvl/mxv
  .byte   PAN , c_v+39
  .byte   W96
 @ 001   ----------------------------------------
@@ -2057,12 +2057,12 @@ Label_2_018185B6:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-songEC_004:
+FE12BeforeBattleSwiftSaturn_004:
 @ 000   ----------------------------------------
- .byte   KEYSH , songEC_key+0
+ .byte   KEYSH , FE12BeforeBattleSwiftSaturn_key+0
 Label_3_01818736:
  .byte   VOICE , 51
- .byte   VOL , 59*songEC_mvl/mxv
+ .byte   VOL , 59*FE12BeforeBattleSwiftSaturn_mvl/mxv
  .byte   PAN , c_v-2
  .byte   W96
 @ 001   ----------------------------------------
@@ -2677,9 +2677,9 @@ Label_3_01818839:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-songEC_005:
+FE12BeforeBattleSwiftSaturn_005:
 @ 000   ----------------------------------------
- .byte   KEYSH , songEC_key+0
+ .byte   KEYSH , FE12BeforeBattleSwiftSaturn_key+0
 Label_4_018189A2:
  .byte   W96
 @ 001   ----------------------------------------
@@ -2704,7 +2704,7 @@ Label_4_018189A2:
  .byte   W96
 @ 011   ----------------------------------------
  .byte   VOICE , 18
- .byte   VOL , 75*songEC_mvl/mxv
+ .byte   VOL , 75*FE12BeforeBattleSwiftSaturn_mvl/mxv
  .byte   PAN , c_v+19
  .byte   W96
 @ 012   ----------------------------------------
@@ -2846,12 +2846,12 @@ Label_4_018189EB:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-songEC_006:
+FE12BeforeBattleSwiftSaturn_006:
 @ 000   ----------------------------------------
- .byte   KEYSH , songEC_key+0
+ .byte   KEYSH , FE12BeforeBattleSwiftSaturn_key+0
 Label_5_01818A6E:
  .byte   VOICE , 4
- .byte   VOL , 75*songEC_mvl/mxv
+ .byte   VOL , 75*FE12BeforeBattleSwiftSaturn_mvl/mxv
  .byte   PAN , c_v-30
  .byte   W96
 @ 001   ----------------------------------------
@@ -3530,12 +3530,12 @@ Label_5_01818AAC:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-songEC_007:
+FE12BeforeBattleSwiftSaturn_007:
 @ 000   ----------------------------------------
- .byte   KEYSH , songEC_key+0
+ .byte   KEYSH , FE12BeforeBattleSwiftSaturn_key+0
 Label_6_01818D66:
  .byte   VOICE , 4
- .byte   VOL , 57*songEC_mvl/mxv
+ .byte   VOL , 57*FE12BeforeBattleSwiftSaturn_mvl/mxv
  .byte   PAN , c_v+35
  .byte   W96
 @ 001   ----------------------------------------
@@ -3829,12 +3829,12 @@ Label_6_01818D66:
 
 @**************** Track 8 (Midi-Chn.7) ****************@
 
-songEC_008:
+FE12BeforeBattleSwiftSaturn_008:
 @ 000   ----------------------------------------
- .byte   KEYSH , songEC_key+0
+ .byte   KEYSH , FE12BeforeBattleSwiftSaturn_key+0
 Label_7_01818EB6:
  .byte   VOICE , 41
- .byte   VOL , 75*songEC_mvl/mxv
+ .byte   VOL , 75*FE12BeforeBattleSwiftSaturn_mvl/mxv
  .byte   PAN , c_v+3
  .byte   W96
 @ 001   ----------------------------------------
@@ -4280,12 +4280,12 @@ Label_7_01818EB6:
 
 @**************** Track 9 (Midi-Chn.8) ****************@
 
-songEC_009:
+FE12BeforeBattleSwiftSaturn_009:
 @ 000   ----------------------------------------
- .byte   KEYSH , songEC_key+0
+ .byte   KEYSH , FE12BeforeBattleSwiftSaturn_key+0
 Label_8_0181906E:
  .byte   VOICE , 121
- .byte   VOL , 47*songEC_mvl/mxv
+ .byte   VOL , 47*FE12BeforeBattleSwiftSaturn_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N05 ,Cn1 ,v108
  .byte   N06 ,Fs1 ,v080
@@ -5129,12 +5129,12 @@ Label_8_018194BB:
 
 @**************** Track 10 (Midi-Chn.9) ****************@
 
-songEC_010:
+FE12BeforeBattleSwiftSaturn_010:
 @ 000   ----------------------------------------
- .byte   KEYSH , songEC_key+0
+ .byte   KEYSH , FE12BeforeBattleSwiftSaturn_key+0
 Label_9_01819636:
  .byte   VOICE , 0
- .byte   VOL , 75*songEC_mvl/mxv
+ .byte   VOL , 75*FE12BeforeBattleSwiftSaturn_mvl/mxv
  .byte   PAN , c_v-8
  .byte   N04 ,Gn2 ,v080
  .byte   W06
@@ -5382,12 +5382,12 @@ Label_9_01819721:
 
 @**************** Track 11 (Midi-Chn.10) ****************@
 
-songEC_011:
+FE12BeforeBattleSwiftSaturn_011:
 @ 000   ----------------------------------------
- .byte   KEYSH , songEC_key+0
+ .byte   KEYSH , FE12BeforeBattleSwiftSaturn_key+0
 Label_10_01819776:
  .byte   VOICE , 0
- .byte   VOL , 75*songEC_mvl/mxv
+ .byte   VOL , 75*FE12BeforeBattleSwiftSaturn_mvl/mxv
  .byte   PAN , c_v-14
  .byte   W96
 @ 001   ----------------------------------------
@@ -5611,12 +5611,12 @@ Label_10_01819863:
 
 @**************** Track 12 (Midi-Chn.11) ****************@
 
-songEC_012:
+FE12BeforeBattleSwiftSaturn_012:
 @ 000   ----------------------------------------
- .byte   KEYSH , songEC_key+0
+ .byte   KEYSH , FE12BeforeBattleSwiftSaturn_key+0
 Label_11_01819892:
  .byte   VOICE , 51
- .byte   VOL , 75*songEC_mvl/mxv
+ .byte   VOL , 75*FE12BeforeBattleSwiftSaturn_mvl/mxv
  .byte   PAN , c_v-18
  .byte   N32 ,Gn1 ,v116
  .byte   W36
@@ -5772,12 +5772,12 @@ Label_11_0181994A:
 
 @**************** Track 13 (Midi-Chn.12) ****************@
 
-songEC_013:
+FE12BeforeBattleSwiftSaturn_013:
 @ 000   ----------------------------------------
- .byte   KEYSH , songEC_key+0
+ .byte   KEYSH , FE12BeforeBattleSwiftSaturn_key+0
 Label_12_018199B2:
  .byte   VOICE , 19
- .byte   VOL , 80*songEC_mvl/mxv
+ .byte   VOL , 80*FE12BeforeBattleSwiftSaturn_mvl/mxv
  .byte   PAN , c_v+21
  .byte   N05 ,Gn1 ,v116
  .byte   W06
@@ -6008,26 +6008,26 @@ Label_12_01819AFF:
 @******************************************************@
 	.align	2
 
-songEC:
+FE12BeforeBattleSwiftSaturn:
 	.byte	13	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	songEC_pri	@ Priority
-	.byte	songEC_rev	@ Reverb.
+	.byte	FE12BeforeBattleSwiftSaturn_pri	@ Priority
+	.byte	FE12BeforeBattleSwiftSaturn_rev	@ Reverb.
     
-	.word	songEC_grp
+	.word	FE12BeforeBattleSwiftSaturn_grp
     
-	.word	songEC_001
-	.word	songEC_002
-	.word	songEC_003
-	.word	songEC_004
-	.word	songEC_005
-	.word	songEC_006
-	.word	songEC_007
-	.word	songEC_008
-	.word	songEC_009
-	.word	songEC_010
-	.word	songEC_011
-	.word	songEC_012
-	.word	songEC_013
+	.word	FE12BeforeBattleSwiftSaturn_001
+	.word	FE12BeforeBattleSwiftSaturn_002
+	.word	FE12BeforeBattleSwiftSaturn_003
+	.word	FE12BeforeBattleSwiftSaturn_004
+	.word	FE12BeforeBattleSwiftSaturn_005
+	.word	FE12BeforeBattleSwiftSaturn_006
+	.word	FE12BeforeBattleSwiftSaturn_007
+	.word	FE12BeforeBattleSwiftSaturn_008
+	.word	FE12BeforeBattleSwiftSaturn_009
+	.word	FE12BeforeBattleSwiftSaturn_010
+	.word	FE12BeforeBattleSwiftSaturn_011
+	.word	FE12BeforeBattleSwiftSaturn_012
+	.word	FE12BeforeBattleSwiftSaturn_013
 
 	.end

@@ -1,26 +1,26 @@
 	.include "MPlayDef.s"
 
-	.equ	song02_grp, voicegroup000
-	.equ	song02_pri, 0
-	.equ	song02_rev, 0
-	.equ	song02_mvl, 127
-	.equ	song02_key, 0
-	.equ	song02_tbs, 1
-	.equ	song02_exg, 0
-	.equ	song02_cmp, 1
+	.equ	DelfinoPlaza_grp, voicegroup000
+	.equ	DelfinoPlaza_pri, 0
+	.equ	DelfinoPlaza_rev, 0
+	.equ	DelfinoPlaza_mvl, 127
+	.equ	DelfinoPlaza_key, 0
+	.equ	DelfinoPlaza_tbs, 1
+	.equ	DelfinoPlaza_exg, 0
+	.equ	DelfinoPlaza_cmp, 1
 
 	.section .rodata
-	.global	song02
+	.global	DelfinoPlaza
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song02_001:
+DelfinoPlaza_001:
 @  #01 @000   ----------------------------------------
- .byte   VOL , 80*song02_mvl/mxv
- .byte   KEYSH , song02_key+0
- .byte   TEMPO , 140*song02_tbs/2
+ .byte   VOL , 80*DelfinoPlaza_mvl/mxv
+ .byte   KEYSH , DelfinoPlaza_key+0
+ .byte   TEMPO , 140*DelfinoPlaza_tbs/2
  .byte   VOICE , 21
  .byte   W06
  .byte   W02
@@ -39,7 +39,7 @@ song02_001:
  .byte   W01
  .byte   W06
  .byte   W02
- .byte   VOL , 63*song02_mvl/mxv
+ .byte   VOL , 63*DelfinoPlaza_mvl/mxv
  .byte   N10 ,Fn3 ,v032
  .byte   W04
  .byte   W02
@@ -65,7 +65,7 @@ song02_001:
 @  #01 @001   ----------------------------------------
  .byte   W02
  .byte   W02
- .byte   VOL , 63*song02_mvl/mxv
+ .byte   VOL , 63*DelfinoPlaza_mvl/mxv
  .byte   W02
  .byte   W03
  .byte   W02
@@ -76,70 +76,70 @@ song02_001:
  .byte   W02
  .byte   W02
  .byte   W03
- .byte   VOL , 58*song02_mvl/mxv
+ .byte   VOL , 58*DelfinoPlaza_mvl/mxv
  .byte   W02
  .byte   W01
- .byte   VOL , 54*song02_mvl/mxv
+ .byte   VOL , 54*DelfinoPlaza_mvl/mxv
  .byte   W01
  .byte   W01
- .byte   VOL , 50*song02_mvl/mxv
- .byte   W01
- .byte   W02
- .byte   VOL , 46*song02_mvl/mxv
+ .byte   VOL , 50*DelfinoPlaza_mvl/mxv
  .byte   W01
  .byte   W02
- .byte   VOL , 42*song02_mvl/mxv
- .byte   W03
- .byte   VOL , 38*song02_mvl/mxv
- .byte   W03
- .byte   VOL , 34*song02_mvl/mxv
+ .byte   VOL , 46*DelfinoPlaza_mvl/mxv
+ .byte   W01
  .byte   W02
- .byte   VOL , 30*song02_mvl/mxv
+ .byte   VOL , 42*DelfinoPlaza_mvl/mxv
  .byte   W03
- .byte   VOL , 27*song02_mvl/mxv
+ .byte   VOL , 38*DelfinoPlaza_mvl/mxv
  .byte   W03
- .byte   VOL , 23*song02_mvl/mxv
- .byte   W03
- .byte   VOL , 20*song02_mvl/mxv
- .byte   W03
- .byte   VOL , 18*song02_mvl/mxv
+ .byte   VOL , 34*DelfinoPlaza_mvl/mxv
  .byte   W02
- .byte   VOL , 15*song02_mvl/mxv
- .byte   W01
- .byte   W01
- .byte   W01
- .byte   VOL , 13*song02_mvl/mxv
- .byte   W01
- .byte   W01
- .byte   W01
- .byte   VOL , 12*song02_mvl/mxv
- .byte   W01
- .byte   W01
- .byte   W01
- .byte   VOL , 10*song02_mvl/mxv
- .byte   W01
- .byte   W01
- .byte   W01
- .byte   VOL , 8*song02_mvl/mxv
- .byte   W01
- .byte   W01
- .byte   VOL , 7*song02_mvl/mxv
- .byte   W01
- .byte   W01
- .byte   W01
- .byte   VOL , 5*song02_mvl/mxv
+ .byte   VOL , 30*DelfinoPlaza_mvl/mxv
  .byte   W03
- .byte   VOL , 3*song02_mvl/mxv
+ .byte   VOL , 27*DelfinoPlaza_mvl/mxv
  .byte   W03
- .byte   VOL , 2*song02_mvl/mxv
+ .byte   VOL , 23*DelfinoPlaza_mvl/mxv
  .byte   W03
- .byte   VOL , 1*song02_mvl/mxv
+ .byte   VOL , 20*DelfinoPlaza_mvl/mxv
+ .byte   W03
+ .byte   VOL , 18*DelfinoPlaza_mvl/mxv
+ .byte   W02
+ .byte   VOL , 15*DelfinoPlaza_mvl/mxv
+ .byte   W01
+ .byte   W01
+ .byte   W01
+ .byte   VOL , 13*DelfinoPlaza_mvl/mxv
+ .byte   W01
+ .byte   W01
+ .byte   W01
+ .byte   VOL , 12*DelfinoPlaza_mvl/mxv
+ .byte   W01
+ .byte   W01
+ .byte   W01
+ .byte   VOL , 10*DelfinoPlaza_mvl/mxv
+ .byte   W01
+ .byte   W01
+ .byte   W01
+ .byte   VOL , 8*DelfinoPlaza_mvl/mxv
+ .byte   W01
+ .byte   W01
+ .byte   VOL , 7*DelfinoPlaza_mvl/mxv
+ .byte   W01
+ .byte   W01
+ .byte   W01
+ .byte   VOL , 5*DelfinoPlaza_mvl/mxv
+ .byte   W03
+ .byte   VOL , 3*DelfinoPlaza_mvl/mxv
+ .byte   W03
+ .byte   VOL , 2*DelfinoPlaza_mvl/mxv
+ .byte   W03
+ .byte   VOL , 1*DelfinoPlaza_mvl/mxv
  .byte   W09
 Label_013B4BA1:
  .byte   W01
 @  #01 @002   ----------------------------------------
  .byte   W01
- .byte   VOL , 0*song02_mvl/mxv
+ .byte   VOL , 0*DelfinoPlaza_mvl/mxv
  .byte   W64
  .byte   W01
  .byte   W30
@@ -152,78 +152,78 @@ Label_013B4BA1:
 @  #01 @006   ----------------------------------------
  .byte   W72
  .byte   W01
- .byte   VOL , 68*song02_mvl/mxv
+ .byte   VOL , 68*DelfinoPlaza_mvl/mxv
  .byte   W11
- .byte   VOL , 68*song02_mvl/mxv
+ .byte   VOL , 68*DelfinoPlaza_mvl/mxv
  .byte   W12
 @  #01 @007   ----------------------------------------
  .byte   W22
- .byte   VOL , 69*song02_mvl/mxv
+ .byte   VOL , 69*DelfinoPlaza_mvl/mxv
  .byte   W22
- .byte   VOL , 69*song02_mvl/mxv
+ .byte   VOL , 69*DelfinoPlaza_mvl/mxv
  .byte   W32
  .byte   W02
- .byte   VOL , 70*song02_mvl/mxv
+ .byte   VOL , 70*DelfinoPlaza_mvl/mxv
  .byte   W18
 @  #01 @008   ----------------------------------------
  .byte   W04
- .byte   VOL , 71*song02_mvl/mxv
+ .byte   VOL , 71*DelfinoPlaza_mvl/mxv
  .byte   W32
  .byte   W02
- .byte   VOL , 71*song02_mvl/mxv
+ .byte   VOL , 71*DelfinoPlaza_mvl/mxv
  .byte   W22
- .byte   VOL , 71*song02_mvl/mxv
+ .byte   VOL , 71*DelfinoPlaza_mvl/mxv
  .byte   W32
  .byte   W02
- .byte   VOL , 72*song02_mvl/mxv
+ .byte   VOL , 72*DelfinoPlaza_mvl/mxv
  .byte   W02
 @  #01 @009   ----------------------------------------
  .byte   W20
- .byte   VOL , 73*song02_mvl/mxv
+ .byte   VOL , 73*DelfinoPlaza_mvl/mxv
  .byte   W32
  .byte   W02
- .byte   VOL , 73*song02_mvl/mxv
+ .byte   VOL , 73*DelfinoPlaza_mvl/mxv
  .byte   W22
- .byte   VOL , 74*song02_mvl/mxv
+ .byte   VOL , 74*DelfinoPlaza_mvl/mxv
  .byte   W20
 @  #01 @010   ----------------------------------------
  .byte   W14
- .byte   VOL , 74*song02_mvl/mxv
+ .byte   VOL , 74*DelfinoPlaza_mvl/mxv
  .byte   W22
- .byte   VOL , 75*song02_mvl/mxv
+ .byte   VOL , 75*DelfinoPlaza_mvl/mxv
  .byte   W32
  .byte   W02
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W22
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W04
 @  #01 @011   ----------------------------------------
  .byte   W30
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W22
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W44
 @  #01 @012   ----------------------------------------
 Label_013B4BDB:
  .byte   W12
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W56
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W28
  .byte   PEND 
 @  #01 @013   ----------------------------------------
 Label_013B4BE2:
  .byte   W28
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W56
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W12
  .byte   PEND 
 @  #01 @014   ----------------------------------------
  .byte   W12
  .byte   N30 ,Dn4 ,v100
  .byte   W32
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   N03 ,An3 ,v092
  .byte   W02
  .byte   Gs3
@@ -237,15 +237,15 @@ Label_013B4BE2:
 @  #01 @015   ----------------------------------------
  .byte   N92 ,Cs4
  .byte   W04
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W56
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W36
 @  #01 @016   ----------------------------------------
  .byte   W12
  .byte   N30 ,Dn4
  .byte   W08
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W23
  .byte   N03 ,An3 ,v092
  .byte   W02
@@ -257,18 +257,18 @@ Label_013B4BE2:
  .byte   W22
  .byte   N23 ,Dn4 ,v100
  .byte   W05
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W19
  .byte   N44 ,Cs4
  .byte   W01
 @  #01 @017   ----------------------------------------
  .byte   W36
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W11
  .byte   N44 ,An3
  .byte   W44
  .byte   W01
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W04
 @  #01 @018   ----------------------------------------
  .byte   W12
@@ -282,26 +282,26 @@ Label_013B4BE2:
  .byte   W02
  .byte   N23 ,Fs3 ,v120
  .byte   W04
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W20
  .byte   N23 ,Dn4 ,v100
  .byte   W24
 @  #01 @019   ----------------------------------------
  .byte   Cs4
  .byte   W12
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W12
  .byte   N23 ,Bn3
  .byte   W24
  .byte   N44 ,As3
  .byte   W20
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W28
 @  #01 @020   ----------------------------------------
  .byte   W12
  .byte   N28 ,An3
  .byte   W16
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W14
  .byte   N03 ,Gs3 ,v092
  .byte   W02
@@ -313,13 +313,13 @@ Label_013B4BE2:
  .byte   W24
  .byte   An3 ,v100
  .byte   W12
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W11
  .byte   N44 ,Gs3
  .byte   W01
 @  #01 @021   ----------------------------------------
  .byte   W44
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W03
  .byte   N44 ,En4
  .byte   W48
@@ -327,9 +327,9 @@ Label_013B4BE2:
 @  #01 @022   ----------------------------------------
 Label_013B4C79:
  .byte   W04
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W56
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W36
  .byte   PEND 
 @  #01 @023   ----------------------------------------
@@ -337,9 +337,9 @@ Label_013B4C79:
 @  #01 @024   ----------------------------------------
 Label_013B4C81:
  .byte   W36
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W56
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   PEND 
 @  #01 @025   ----------------------------------------
@@ -365,7 +365,7 @@ Label_013B4C81:
  .byte   N16 ,Dn3 ,v088
  .byte   N19 ,Gn3 ,v096
  .byte   W20
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N04 ,Bn2
  .byte   N05 ,Dn3 ,v088
@@ -379,11 +379,11 @@ Label_013B4C81:
  .byte   N36 ,Bn2 ,v088
  .byte   N40 ,En3 ,v112
  .byte   W28
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W20
  .byte   N40 ,An2 ,v088
  .byte   W36
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W12
 @  #01 @028   ----------------------------------------
  .byte   W12
@@ -399,7 +399,7 @@ Label_013B4C81:
  .byte   N05 ,En3
  .byte   N04 ,An3 ,v084
  .byte   W08
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N19 ,Bn2 ,v088
  .byte   N19 ,Dn3 ,v080
@@ -418,9 +418,9 @@ Label_013B4C81:
  .byte   N88 ,En3 ,v068
  .byte   N84 ,An3 ,v080
  .byte   W04
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W56
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W36
 @  #01 @030   ----------------------------------------
  .byte   W12
@@ -428,7 +428,7 @@ Label_013B4C81:
  .byte   N06 ,Gn3 ,v088
  .byte   N05 ,Cn4 ,v116
  .byte   W08
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N04 ,En3 ,v100
  .byte   N07 ,Gn3 ,v096
@@ -445,7 +445,7 @@ Label_013B4C81:
  .byte   N05 ,Dn3 ,v092
  .byte   N05 ,Fn3 ,v096
  .byte   W04
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N04 ,Dn3 ,v088
  .byte   N03 ,Fn3 ,v092
@@ -456,11 +456,11 @@ Label_013B4C81:
  .byte   N42 ,En3 ,v076
  .byte   N40 ,Gn3 ,v092
  .byte   W36
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W12
  .byte   N44 ,Cn3 ,v080
  .byte   W44
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W04
 @  #01 @032   ----------------------------------------
  .byte   W12
@@ -480,7 +480,7 @@ Label_013B4C81:
  .byte   N19 ,Fn3
  .byte   N17 ,As3 ,v092
  .byte   W04
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W20
  .byte   N07 ,Fn3 ,v104
  .byte   N05 ,As3 ,v088
@@ -495,9 +495,9 @@ Label_013B4C81:
  .byte   N76 ,Gn3 ,v076
  .byte   N68 ,Cn4 ,v088
  .byte   W12
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W56
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W28
 @  #01 @034   ----------------------------------------
  .byte   W12
@@ -509,7 +509,7 @@ Label_013B4C81:
  .byte   N06 ,En3 ,v104
  .byte   N05 ,An3 ,v092
  .byte   W04
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N05 ,Cs3 ,v100
  .byte   N06 ,En3
@@ -522,7 +522,7 @@ Label_013B4C81:
  .byte   N06 ,Ds3 ,v116
  .byte   N05 ,Fs3 ,v104
  .byte   W12
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   N06 ,Ds3 ,v120
  .byte   N05 ,An3 ,v112
  .byte   W12
@@ -531,7 +531,7 @@ Label_013B4C81:
  .byte   N42 ,En3 ,v092
  .byte   N44 ,Gs3 ,v112
  .byte   W44
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N48 ,Bn2 ,v080
  .byte   N20 ,En3 ,v088
@@ -542,7 +542,7 @@ Label_013B4C81:
  .byte   W24
 @  #01 @036   ----------------------------------------
  .byte   W04
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N05 ,Cs3 ,v100
  .byte   N06 ,En3
@@ -560,7 +560,7 @@ Label_013B4C81:
  .byte   N17 ,Fs3 ,v088
  .byte   N19 ,An3 ,v084
  .byte   W12
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W12
  .byte   N05 ,Ds3 ,v100
  .byte   N06 ,Fs3
@@ -573,34 +573,34 @@ Label_013B4C81:
  .byte   N32 ,Dn3 ,v072
  .byte   N32 ,Fs3 ,v088
  .byte   W20
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W28
  .byte   N32 ,Bn2 ,v060
  .byte   N32 ,En3 ,v080
  .byte   N32 ,Gs3 ,v092
  .byte   W28
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W20
 @  #01 @038   ----------------------------------------
  .byte   W36
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W60
 @  #01 @039   ----------------------------------------
  .byte   W96
 @  #01 @040   ----------------------------------------
 Label_013B4E6E:
  .byte   W12
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W56
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W28
  .byte   PEND 
 @  #01 @041   ----------------------------------------
 Label_013B4E75:
  .byte   W28
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W56
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W12
  .byte   PEND 
 @  #01 @042   ----------------------------------------
@@ -617,7 +617,7 @@ Label_013B4E75:
  .byte   W12
  .byte   N24 ,En4 ,v100
  .byte   W08
- .byte   VOL , 75*song02_mvl/mxv
+ .byte   VOL , 75*DelfinoPlaza_mvl/mxv
  .byte   W16
  .byte   N05 ,Ds4 ,v092
  .byte   W04
@@ -629,7 +629,7 @@ Label_013B4E75:
  .byte   W12
  .byte   Ds4 ,v092
  .byte   W04
- .byte   VOL , 75*song02_mvl/mxv
+ .byte   VOL , 75*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N11 ,En4
  .byte   W12
@@ -640,9 +640,9 @@ Label_013B4E75:
  .byte   W12
  .byte   N84 ,En3 ,v112
  .byte   W12
- .byte   VOL , 74*song02_mvl/mxv
+ .byte   VOL , 74*DelfinoPlaza_mvl/mxv
  .byte   W56
- .byte   VOL , 74*song02_mvl/mxv
+ .byte   VOL , 74*DelfinoPlaza_mvl/mxv
  .byte   W04
 @  #01 @046   ----------------------------------------
  .byte   W16
@@ -656,7 +656,7 @@ Label_013B4E75:
  .byte   W12
  .byte   Fs3
  .byte   W04
- .byte   VOL , 73*song02_mvl/mxv
+ .byte   VOL , 73*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N11 ,Bn3 ,v060
  .byte   W12
@@ -671,9 +671,9 @@ Label_013B4E75:
  .byte   W04
  .byte   N84 ,En4 ,v100
  .byte   W04
- .byte   VOL , 73*song02_mvl/mxv
+ .byte   VOL , 73*DelfinoPlaza_mvl/mxv
  .byte   W56
- .byte   VOL , 73*song02_mvl/mxv
+ .byte   VOL , 73*DelfinoPlaza_mvl/mxv
  .byte   W28
 @  #01 @048   ----------------------------------------
  .byte   W12
@@ -683,7 +683,7 @@ Label_013B4E75:
  .byte   W06
  .byte   N13 ,En4 ,v080
  .byte   W04
- .byte   VOL , 72*song02_mvl/mxv
+ .byte   VOL , 72*DelfinoPlaza_mvl/mxv
  .byte   W10
  .byte   N05 ,Dn4
  .byte   W06
@@ -697,7 +697,7 @@ Label_013B4E75:
  .byte   W06
  .byte   N11 ,An3 ,v080
  .byte   W10
- .byte   VOL , 71*song02_mvl/mxv
+ .byte   VOL , 71*DelfinoPlaza_mvl/mxv
  .byte   W02
  .byte   N05 ,Fs3 ,v112
  .byte   W06
@@ -715,7 +715,7 @@ Label_013B4E75:
  .byte   W12
  .byte   N05 ,Bn2 ,v080
  .byte   W06
- .byte   VOL , 71*song02_mvl/mxv
+ .byte   VOL , 71*DelfinoPlaza_mvl/mxv
  .byte   N05 ,Cs3
  .byte   W06
  .byte   N13 ,An2 ,v092
@@ -728,30 +728,30 @@ Label_013B4E75:
  .byte   W20
 @  #01 @050   ----------------------------------------
  .byte   W04
- .byte   VOL , 71*song02_mvl/mxv
+ .byte   VOL , 71*DelfinoPlaza_mvl/mxv
  .byte   W56
- .byte   VOL , 70*song02_mvl/mxv
+ .byte   VOL , 70*DelfinoPlaza_mvl/mxv
  .byte   W36
 @  #01 @051   ----------------------------------------
  .byte   W20
- .byte   VOL , 69*song02_mvl/mxv
+ .byte   VOL , 69*DelfinoPlaza_mvl/mxv
  .byte   W30
  .byte   W01
  .byte   EOT
  .byte   W24
  .byte   W01
- .byte   VOL , 69*song02_mvl/mxv
+ .byte   VOL , 69*DelfinoPlaza_mvl/mxv
  .byte   W20
 @  #01 @052   ----------------------------------------
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W36
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W56
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W04
 @  #01 @053   ----------------------------------------
  .byte   W52
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W44
 @  #01 @054   ----------------------------------------
  .byte   PATT
@@ -761,16 +761,16 @@ Label_013B4E75:
   .word Label_013B4BE2
 @  #01 @056   ----------------------------------------
  .byte   W44
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W52
 @  #01 @057   ----------------------------------------
  .byte   PATT
   .word Label_013B4C79
 @  #01 @058   ----------------------------------------
  .byte   W20
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W56
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W20
 @  #01 @059   ----------------------------------------
  .byte   PATT
@@ -787,7 +787,7 @@ Label_013B4E75:
  .byte   W02
  .byte   N21 ,Fs3 ,v120
  .byte   W02
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W20
  .byte   N23 ,Dn4 ,v100
  .byte   W24
@@ -798,7 +798,7 @@ Label_013B4E75:
  .byte   W12
  .byte   N30 ,Dn4
  .byte   W16
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W15
  .byte   N03 ,An3 ,v092
  .byte   W02
@@ -810,20 +810,20 @@ Label_013B4E75:
  .byte   W22
  .byte   N23 ,Dn4 ,v100
  .byte   W13
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W11
  .byte   N44 ,Cs4
  .byte   W01
 @  #01 @063   ----------------------------------------
  .byte   W44
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W03
  .byte   N44 ,An3
  .byte   W48
  .byte   W01
 @  #01 @064   ----------------------------------------
  .byte   W04
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N28 ,Dn4
  .byte   W30
@@ -835,26 +835,26 @@ Label_013B4E75:
  .byte   W02
  .byte   N23 ,Fs3 ,v120
  .byte   W12
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W12
  .byte   N23 ,Dn4 ,v100
  .byte   W24
 @  #01 @065   ----------------------------------------
  .byte   Cs4
  .byte   W20
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N23 ,Bn3
  .byte   W24
  .byte   N44 ,As3
  .byte   W28
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W20
 @  #01 @066   ----------------------------------------
  .byte   W12
  .byte   N28 ,An3
  .byte   W24
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W06
  .byte   N03 ,Gs3 ,v092
  .byte   W02
@@ -866,7 +866,7 @@ Label_013B4E75:
  .byte   W24
  .byte   An3 ,v100
  .byte   W20
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W03
  .byte   N44 ,Gs3
  .byte   W01
@@ -875,7 +875,7 @@ Label_013B4E75:
  .byte   W03
  .byte   En4
  .byte   W05
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W44
 @  #01 @068   ----------------------------------------
  .byte   PATT
@@ -885,13 +885,13 @@ Label_013B4E75:
   .word Label_013B4E75
 @  #01 @070   ----------------------------------------
  .byte   W44
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W52
 @  #01 @071   ----------------------------------------
  .byte   W04
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W56
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W36
 @  #01 @072   ----------------------------------------
  .byte   W12
@@ -899,7 +899,7 @@ Label_013B4E75:
  .byte   N05 ,En3 ,v116
  .byte   N05 ,An3 ,v104
  .byte   W08
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N04 ,Cs3 ,v112
  .byte   N05 ,En3 ,v100
@@ -916,7 +916,7 @@ Label_013B4E75:
  .byte   N04 ,Bn2
  .byte   N05 ,Dn3 ,v088
  .byte   W04
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N03 ,Bn2 ,v096
  .byte   N04 ,Dn3 ,v080
@@ -927,11 +927,11 @@ Label_013B4E75:
  .byte   N36 ,Bn2 ,v088
  .byte   N40 ,En3 ,v112
  .byte   W36
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W12
  .byte   N40 ,An2 ,v088
  .byte   W44
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W04
 @  #01 @074   ----------------------------------------
  .byte   W12
@@ -951,7 +951,7 @@ Label_013B4E75:
  .byte   N19 ,Dn3 ,v080
  .byte   N18 ,Gn3 ,v092
  .byte   W07
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W17
  .byte   N05 ,Dn3 ,v088
  .byte   N04 ,Gn3
@@ -966,9 +966,9 @@ Label_013B4E75:
  .byte   N88 ,En3 ,v068
  .byte   N84 ,An3 ,v080
  .byte   W15
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W56
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W24
  .byte   W01
 @  #01 @076   ----------------------------------------
@@ -981,7 +981,7 @@ Label_013B4E75:
  .byte   N07 ,Gn3 ,v096
  .byte   N04 ,Cn4 ,v092
  .byte   W07
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W05
  .byte   N04 ,En3 ,v096
  .byte   N06 ,Gn3 ,v068
@@ -1007,7 +1007,7 @@ Label_013B4E75:
  .byte   W48
 @  #01 @078   ----------------------------------------
  .byte   W07
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W05
  .byte   N05 ,En3 ,v104
  .byte   N04 ,Gn3 ,v080
@@ -1025,7 +1025,7 @@ Label_013B4E75:
  .byte   N19 ,Fn3
  .byte   N17 ,As3 ,v092
  .byte   W15
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W09
  .byte   N07 ,Fn3 ,v104
  .byte   N05 ,As3 ,v088
@@ -1040,9 +1040,9 @@ Label_013B4E75:
  .byte   N76 ,Gn3 ,v076
  .byte   N68 ,Cn4 ,v088
  .byte   W23
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W56
- .byte   VOL , 76*song02_mvl/mxv
+ .byte   VOL , 76*DelfinoPlaza_mvl/mxv
  .byte   W17
 @  #01 @080   ----------------------------------------
  .byte   W12
@@ -1058,7 +1058,7 @@ Label_013B4E75:
  .byte   N06 ,En3
  .byte   N03 ,An3 ,v080
  .byte   W03
- .byte   VOL , 75*song02_mvl/mxv
+ .byte   VOL , 75*DelfinoPlaza_mvl/mxv
  .byte   W09
  .byte   N18 ,Ds3
  .byte   N18 ,Fs3 ,v100
@@ -1070,7 +1070,7 @@ Label_013B4E75:
  .byte   N06 ,Ds3 ,v120
  .byte   N05 ,An3 ,v112
  .byte   W11
- .byte   VOL , 75*song02_mvl/mxv
+ .byte   VOL , 75*DelfinoPlaza_mvl/mxv
  .byte   W01
 @  #01 @081   ----------------------------------------
  .byte   N40 ,Bn2 ,v104
@@ -1081,7 +1081,7 @@ Label_013B4E75:
  .byte   N20 ,En3 ,v088
  .byte   N20 ,Fs3 ,v096
  .byte   W07
- .byte   VOL , 75*song02_mvl/mxv
+ .byte   VOL , 75*DelfinoPlaza_mvl/mxv
  .byte   W17
  .byte   N24 ,Dn3 ,v076
  .byte   N24 ,En3 ,v072
@@ -1092,7 +1092,7 @@ Label_013B4E75:
  .byte   N06 ,En3
  .byte   N04 ,An3 ,v104
  .byte   W03
- .byte   VOL , 75*song02_mvl/mxv
+ .byte   VOL , 75*DelfinoPlaza_mvl/mxv
  .byte   W09
  .byte   N05 ,Cs3
  .byte   N07 ,En3 ,v100
@@ -1106,7 +1106,7 @@ Label_013B4E75:
  .byte   N17 ,Fs3 ,v088
  .byte   N19 ,An3 ,v084
  .byte   W23
- .byte   VOL , 75*song02_mvl/mxv
+ .byte   VOL , 75*DelfinoPlaza_mvl/mxv
  .byte   W01
  .byte   N05 ,Ds3 ,v100
  .byte   N06 ,Fs3
@@ -1120,59 +1120,59 @@ Label_013B4E75:
  .byte   N32 ,Fs3 ,v088
  .byte   W30
  .byte   W01
- .byte   VOL , 74*song02_mvl/mxv
+ .byte   VOL , 74*DelfinoPlaza_mvl/mxv
  .byte   W17
  .byte   N32 ,Bn2 ,v060
  .byte   N32 ,En3 ,v080
  .byte   N32 ,Gs3 ,v092
  .byte   W36
  .byte   W03
- .byte   VOL , 74*song02_mvl/mxv
+ .byte   VOL , 74*DelfinoPlaza_mvl/mxv
  .byte   W09
 @  #01 @084   ----------------------------------------
  .byte   W44
  .byte   W03
- .byte   VOL , 74*song02_mvl/mxv
+ .byte   VOL , 74*DelfinoPlaza_mvl/mxv
  .byte   W48
  .byte   W01
 @  #01 @085   ----------------------------------------
  .byte   W07
- .byte   VOL , 73*song02_mvl/mxv
+ .byte   VOL , 73*DelfinoPlaza_mvl/mxv
  .byte   W56
- .byte   VOL , 73*song02_mvl/mxv
+ .byte   VOL , 73*DelfinoPlaza_mvl/mxv
  .byte   W32
  .byte   W01
 @  #01 @086   ----------------------------------------
  .byte   W23
- .byte   VOL , 72*song02_mvl/mxv
+ .byte   VOL , 72*DelfinoPlaza_mvl/mxv
  .byte   W56
- .byte   VOL , 71*song02_mvl/mxv
+ .byte   VOL , 71*DelfinoPlaza_mvl/mxv
  .byte   W17
 @  #01 @087   ----------------------------------------
  .byte   W36
  .byte   W03
- .byte   VOL , 71*song02_mvl/mxv
+ .byte   VOL , 71*DelfinoPlaza_mvl/mxv
  .byte   W56
- .byte   VOL , 71*song02_mvl/mxv
+ .byte   VOL , 71*DelfinoPlaza_mvl/mxv
  .byte   W01
 @  #01 @088   ----------------------------------------
  .byte   W54
  .byte   W01
- .byte   VOL , 70*song02_mvl/mxv
+ .byte   VOL , 70*DelfinoPlaza_mvl/mxv
  .byte   W40
  .byte   W01
 @  #01 @089   ----------------------------------------
  .byte   W15
- .byte   VOL , 69*song02_mvl/mxv
+ .byte   VOL , 69*DelfinoPlaza_mvl/mxv
  .byte   W56
- .byte   VOL , 69*song02_mvl/mxv
+ .byte   VOL , 69*DelfinoPlaza_mvl/mxv
  .byte   W24
  .byte   W01
 @  #01 @090   ----------------------------------------
  .byte   W12
  .byte   N24 ,En4 ,v100
  .byte   W19
- .byte   VOL , 69*song02_mvl/mxv
+ .byte   VOL , 69*DelfinoPlaza_mvl/mxv
  .byte   W05
  .byte   N05 ,Ds4 ,v092
  .byte   W04
@@ -1269,7 +1269,7 @@ Label_013B4E75:
 @  #01 @097   ----------------------------------------
  .byte   W44
  .byte   W01
- .byte   VOL , 51*song02_mvl/mxv
+ .byte   VOL , 51*DelfinoPlaza_mvl/mxv
  .byte   W06
  .byte   EOT
  .byte   W44
@@ -1279,10 +1279,10 @@ Label_013B4E75:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song02_002:
+DelfinoPlaza_002:
 @  #02 @000   ----------------------------------------
- .byte   VOL , 80*song02_mvl/mxv
- .byte   KEYSH , song02_key+0
+ .byte   VOL , 80*DelfinoPlaza_mvl/mxv
+ .byte   KEYSH , DelfinoPlaza_key+0
  .byte   VOICE , 24
  .byte   W96
 @  #02 @001   ----------------------------------------
@@ -1683,7 +1683,7 @@ Label_013B2D47:
 @  #02 @097   ----------------------------------------
  .byte   W44
  .byte   W01
- .byte   VOL , 73*song02_mvl/mxv
+ .byte   VOL , 73*DelfinoPlaza_mvl/mxv
  .byte   BEND , c_v+0
  .byte   W48
  .byte   W02
@@ -1693,36 +1693,36 @@ Label_013B2D47:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song02_003:
+DelfinoPlaza_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , DelfinoPlaza_key+0
  .byte   VOICE , 24
  .byte   W96
 @  #03 @001   ----------------------------------------
  .byte   W04
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*DelfinoPlaza_mvl/mxv
  .byte   W09
- .byte   VOL , 61*song02_mvl/mxv
+ .byte   VOL , 61*DelfinoPlaza_mvl/mxv
  .byte   W08
- .byte   VOL , 61*song02_mvl/mxv
+ .byte   VOL , 61*DelfinoPlaza_mvl/mxv
  .byte   W09
- .byte   VOL , 59*song02_mvl/mxv
+ .byte   VOL , 59*DelfinoPlaza_mvl/mxv
  .byte   W08
- .byte   VOL , 59*song02_mvl/mxv
+ .byte   VOL , 59*DelfinoPlaza_mvl/mxv
  .byte   W08
- .byte   VOL , 58*song02_mvl/mxv
+ .byte   VOL , 58*DelfinoPlaza_mvl/mxv
  .byte   W09
- .byte   VOL , 57*song02_mvl/mxv
+ .byte   VOL , 57*DelfinoPlaza_mvl/mxv
  .byte   W05
- .byte   VOL , 57*song02_mvl/mxv
+ .byte   VOL , 57*DelfinoPlaza_mvl/mxv
  .byte   W09
- .byte   VOL , 56*song02_mvl/mxv
+ .byte   VOL , 56*DelfinoPlaza_mvl/mxv
  .byte   W08
- .byte   VOL , 55*song02_mvl/mxv
+ .byte   VOL , 55*DelfinoPlaza_mvl/mxv
  .byte   W09
- .byte   VOL , 54*song02_mvl/mxv
+ .byte   VOL , 54*DelfinoPlaza_mvl/mxv
  .byte   W08
- .byte   VOL , 53*song02_mvl/mxv
+ .byte   VOL , 53*DelfinoPlaza_mvl/mxv
  .byte   W01
 Label_013B52BF:
  .byte   W01
@@ -1731,7 +1731,7 @@ Label_013B52BF:
  .byte   W12
  .byte   En2 ,v092
  .byte   W08
- .byte   VOL , 53*song02_mvl/mxv
+ .byte   VOL , 53*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N04 ,Gn2 ,v104
  .byte   W12
@@ -1743,7 +1743,7 @@ Label_013B52BF:
  .byte   W12
  .byte   N05 ,Fn2 ,v104
  .byte   W04
- .byte   VOL , 53*song02_mvl/mxv
+ .byte   VOL , 53*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N05 ,Fn2 ,v092
  .byte   W12
@@ -1756,7 +1756,7 @@ Label_013B52BF:
  .byte   W05
  .byte   W01
  .byte   W06
- .byte   VOL , 54*song02_mvl/mxv
+ .byte   VOL , 54*DelfinoPlaza_mvl/mxv
  .byte   N04 ,Gn2 ,v072
  .byte   W12
  .byte   N06 ,Fs2 ,v104
@@ -1767,7 +1767,7 @@ Label_013B52BF:
  .byte   W12
  .byte   N05 ,Fn2 ,v092
  .byte   W08
- .byte   VOL , 54*song02_mvl/mxv
+ .byte   VOL , 54*DelfinoPlaza_mvl/mxv
  .byte   W04
 @  #03 @004   ----------------------------------------
  .byte   N06 ,En2 ,v096
@@ -1780,7 +1780,7 @@ Label_013B52BF:
  .byte   W12
  .byte   N05 ,Fs2 ,v096
  .byte   W07
- .byte   VOL , 54*song02_mvl/mxv
+ .byte   VOL , 54*DelfinoPlaza_mvl/mxv
  .byte   W05
  .byte   N06 ,Fs2 ,v112
  .byte   W12
@@ -1793,7 +1793,7 @@ Label_013B52BF:
  .byte   W12
  .byte   N05 ,En2 ,v088
  .byte   W03
- .byte   VOL , 54*song02_mvl/mxv
+ .byte   VOL , 54*DelfinoPlaza_mvl/mxv
  .byte   W09
  .byte   N05 ,Gn2 ,v104
  .byte   W12
@@ -1807,7 +1807,7 @@ Label_013B52BF:
  .byte   W12
  .byte   N06 ,Fs2 ,v100
  .byte   W11
- .byte   VOL , 54*song02_mvl/mxv
+ .byte   VOL , 54*DelfinoPlaza_mvl/mxv
  .byte   W01
  .byte   N05 ,Fn2
  .byte   W12
@@ -1820,7 +1820,7 @@ Label_013B52BF:
  .byte   W12
  .byte   N04 ,Gn2 ,v104
  .byte   W07
- .byte   VOL , 54*song02_mvl/mxv
+ .byte   VOL , 54*DelfinoPlaza_mvl/mxv
  .byte   W05
  .byte   N04 ,Gn2 ,v088
  .byte   W12
@@ -1830,7 +1830,7 @@ Label_013B52BF:
  .byte   W12
  .byte   N05 ,Fn2 ,v104
  .byte   W12
- .byte   VOL , 54*song02_mvl/mxv
+ .byte   VOL , 54*DelfinoPlaza_mvl/mxv
  .byte   N05 ,Fn2 ,v092
  .byte   W12
 @  #03 @007   ----------------------------------------
@@ -1844,7 +1844,7 @@ Label_013B52BF:
  .byte   W06
  .byte   N04 ,Gn2 ,v072
  .byte   W08
- .byte   VOL , 54*song02_mvl/mxv
+ .byte   VOL , 54*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N06 ,Fs2 ,v104
  .byte   W12
@@ -1857,7 +1857,7 @@ Label_013B52BF:
 @  #03 @008   ----------------------------------------
  .byte   N06 ,En2 ,v096
  .byte   W04
- .byte   VOL , 54*song02_mvl/mxv
+ .byte   VOL , 54*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N05 ,En2 ,v088
  .byte   W12
@@ -1867,7 +1867,7 @@ Label_013B52BF:
  .byte   W12
  .byte   N05 ,Fs2 ,v096
  .byte   W12
- .byte   VOL , 54*song02_mvl/mxv
+ .byte   VOL , 54*DelfinoPlaza_mvl/mxv
  .byte   N06 ,Fs2 ,v112
  .byte   W12
  .byte   Fn2
@@ -1879,7 +1879,7 @@ Label_013B52BF:
  .byte   W12
  .byte   N05 ,En2 ,v088
  .byte   W08
- .byte   VOL , 55*song02_mvl/mxv
+ .byte   VOL , 55*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N05 ,Gn2 ,v104
  .byte   W12
@@ -1895,7 +1895,7 @@ Label_013B52BF:
  .byte   W12
  .byte   N05 ,Fn2
  .byte   W04
- .byte   VOL , 55*song02_mvl/mxv
+ .byte   VOL , 55*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N05 ,Fn2 ,v092
  .byte   W12
@@ -1906,7 +1906,7 @@ Label_013B52BF:
  .byte   W12
  .byte   N04 ,Gn2 ,v104
  .byte   W12
- .byte   VOL , 55*song02_mvl/mxv
+ .byte   VOL , 55*DelfinoPlaza_mvl/mxv
  .byte   N04 ,Gn2 ,v088
  .byte   W12
  .byte   N06 ,Fs2 ,v100
@@ -1917,7 +1917,7 @@ Label_013B52BF:
  .byte   W12
  .byte   Fn2 ,v092
  .byte   W08
- .byte   VOL , 55*song02_mvl/mxv
+ .byte   VOL , 55*DelfinoPlaza_mvl/mxv
  .byte   W04
 @  #03 @011   ----------------------------------------
  .byte   N05 ,En2 ,v096
@@ -1932,7 +1932,7 @@ Label_013B52BF:
  .byte   W12
  .byte   N06 ,Fs2 ,v104
  .byte   W04
- .byte   VOL , 55*song02_mvl/mxv
+ .byte   VOL , 55*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N06
  .byte   W12
@@ -1943,7 +1943,7 @@ Label_013B52BF:
 @  #03 @012   ----------------------------------------
  .byte   N06 ,En2 ,v096
  .byte   W12
- .byte   VOL , 56*song02_mvl/mxv
+ .byte   VOL , 56*DelfinoPlaza_mvl/mxv
  .byte   N05 ,En2 ,v088
  .byte   W12
  .byte   Gn2 ,v096
@@ -1954,7 +1954,7 @@ Label_013B52BF:
  .byte   W12
  .byte   N06 ,Fs2 ,v112
  .byte   W08
- .byte   VOL , 56*song02_mvl/mxv
+ .byte   VOL , 56*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N06 ,Fn2
  .byte   W12
@@ -1970,7 +1970,7 @@ Label_013B52BF:
  .byte   W06
  .byte   N05 ,En2 ,v124
  .byte   W04
- .byte   VOL , 56*song02_mvl/mxv
+ .byte   VOL , 56*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N04
  .byte   W06
@@ -1988,7 +1988,7 @@ Label_013B52BF:
  .byte   W06
  .byte   N04
  .byte   W03
- .byte   VOL , 56*song02_mvl/mxv
+ .byte   VOL , 56*DelfinoPlaza_mvl/mxv
  .byte   W12
 @  #03 @014   ----------------------------------------
  .byte   N06 ,Dn2 ,v112
@@ -2003,7 +2003,7 @@ Label_013B52BF:
  .byte   N04 ,Dn2 ,v088
  .byte   N05 ,Fs2 ,v116
  .byte   W08
- .byte   VOL , 56*song02_mvl/mxv
+ .byte   VOL , 56*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N05 ,Dn2 ,v096
  .byte   N06 ,Fs2 ,v124
@@ -2021,7 +2021,7 @@ Label_013B52BF:
  .byte   Cs2 ,v112
  .byte   N05 ,En2
  .byte   W04
- .byte   VOL , 56*song02_mvl/mxv
+ .byte   VOL , 56*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N04 ,Cs2
  .byte   N04 ,En2 ,v088
@@ -2035,7 +2035,7 @@ Label_013B52BF:
  .byte   N06 ,Cs2 ,v116
  .byte   N05 ,En2 ,v096
  .byte   W12
- .byte   VOL , 56*song02_mvl/mxv
+ .byte   VOL , 56*DelfinoPlaza_mvl/mxv
  .byte   N05 ,Cs2 ,v104
  .byte   N04 ,En2 ,v100
  .byte   W12
@@ -2052,7 +2052,7 @@ Label_013B52BF:
  .byte   Dn2 ,v096
  .byte   N05 ,Fs2 ,v116
  .byte   W08
- .byte   VOL , 56*song02_mvl/mxv
+ .byte   VOL , 56*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N05 ,Dn2 ,v104
  .byte   N06 ,Fs2 ,v124
@@ -2069,7 +2069,7 @@ Label_013B52BF:
  .byte   Dn2 ,v100
  .byte   N05 ,Fs2 ,v124
  .byte   W04
- .byte   VOL , 56*song02_mvl/mxv
+ .byte   VOL , 56*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N04 ,Dn2 ,v096
  .byte   N05 ,Fs2 ,v100
@@ -2084,7 +2084,7 @@ Label_013B52BF:
  .byte   N06 ,Cs2 ,v116
  .byte   N05 ,En2 ,v096
  .byte   W12
- .byte   VOL , 57*song02_mvl/mxv
+ .byte   VOL , 57*DelfinoPlaza_mvl/mxv
  .byte   N05 ,Cs2 ,v116
  .byte   N05 ,En2 ,v092
  .byte   W12
@@ -2100,7 +2100,7 @@ Label_013B52BF:
  .byte   En2
  .byte   N05 ,Gn2
  .byte   W08
- .byte   VOL , 57*song02_mvl/mxv
+ .byte   VOL , 57*DelfinoPlaza_mvl/mxv
  .byte   W04
 @  #03 @018   ----------------------------------------
  .byte   N05 ,Dn2 ,v104
@@ -2118,7 +2118,7 @@ Label_013B52BF:
  .byte   Dn2
  .byte   N06 ,Fs2 ,v116
  .byte   W04
- .byte   VOL , 57*song02_mvl/mxv
+ .byte   VOL , 57*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N04 ,Dn2 ,v100
  .byte   N04 ,Fs2 ,v104
@@ -2133,7 +2133,7 @@ Label_013B52BF:
  .byte   N05 ,Cs2 ,v116
  .byte   N05 ,En2
  .byte   W12
- .byte   VOL , 57*song02_mvl/mxv
+ .byte   VOL , 57*DelfinoPlaza_mvl/mxv
  .byte   N05 ,Cs2
  .byte   N05 ,En2 ,v092
  .byte   W12
@@ -2150,7 +2150,7 @@ Label_013B52BF:
  .byte   Cs2 ,v120
  .byte   N05 ,Fs2 ,v127
  .byte   W08
- .byte   VOL , 57*song02_mvl/mxv
+ .byte   VOL , 57*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N05 ,Cs2 ,v120
  .byte   N04 ,Fs2 ,v127
@@ -2168,7 +2168,7 @@ Label_013B52BF:
  .byte   N05 ,Cn2
  .byte   N05 ,Fn2 ,v104
  .byte   W04
- .byte   VOL , 57*song02_mvl/mxv
+ .byte   VOL , 57*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N04 ,Cn2 ,v096
  .byte   N04 ,Fn2 ,v104
@@ -2182,7 +2182,7 @@ Label_013B52BF:
  .byte   N05 ,Cn2 ,v116
  .byte   N05 ,Fn2 ,v092
  .byte   W12
- .byte   VOL , 57*song02_mvl/mxv
+ .byte   VOL , 57*DelfinoPlaza_mvl/mxv
  .byte   N04 ,Cn2 ,v100
  .byte   N06 ,Fn2 ,v096
  .byte   W12
@@ -2199,7 +2199,7 @@ Label_013B52BF:
  .byte   Bn1
  .byte   N05 ,En2 ,v100
  .byte   W08
- .byte   VOL , 57*song02_mvl/mxv
+ .byte   VOL , 57*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N06 ,Bn1 ,v104
  .byte   N05 ,En2 ,v100
@@ -2216,7 +2216,7 @@ Label_013B52BF:
 @  #03 @022   ----------------------------------------
  .byte   En2 ,v112
  .byte   W04
- .byte   VOL , 57*song02_mvl/mxv
+ .byte   VOL , 57*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N05 ,En2 ,v096
  .byte   W12
@@ -2226,7 +2226,7 @@ Label_013B52BF:
  .byte   W12
  .byte   Fs2 ,v127
  .byte   W12
- .byte   VOL , 57*song02_mvl/mxv
+ .byte   VOL , 57*DelfinoPlaza_mvl/mxv
  .byte   N05 ,Fs2 ,v112
  .byte   W12
  .byte   N06 ,Fn2
@@ -2238,7 +2238,7 @@ Label_013B52BF:
  .byte   W12
  .byte   N05 ,En2 ,v092
  .byte   W08
- .byte   VOL , 58*song02_mvl/mxv
+ .byte   VOL , 58*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N05 ,Gn2 ,v120
  .byte   W12
@@ -2250,7 +2250,7 @@ Label_013B52BF:
  .byte   W12
  .byte   N06 ,Fn2 ,v104
  .byte   W04
- .byte   VOL , 58*song02_mvl/mxv
+ .byte   VOL , 58*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N06 ,Fn2 ,v096
  .byte   W12
@@ -2261,7 +2261,7 @@ Label_013B52BF:
  .byte   W12
  .byte   N05 ,Gn2 ,v104
  .byte   W12
- .byte   VOL , 58*song02_mvl/mxv
+ .byte   VOL , 58*DelfinoPlaza_mvl/mxv
  .byte   N03 ,Gn2 ,v088
  .byte   W12
  .byte   N05 ,Fs2 ,v104
@@ -2272,7 +2272,7 @@ Label_013B52BF:
  .byte   W12
  .byte   N04 ,Fn2 ,v092
  .byte   W08
- .byte   VOL , 58*song02_mvl/mxv
+ .byte   VOL , 58*DelfinoPlaza_mvl/mxv
  .byte   W04
 @  #03 @025   ----------------------------------------
  .byte   N05 ,En2 ,v112
@@ -2289,7 +2289,7 @@ Label_013B52BF:
  .byte   W05
  .byte   En2 ,v116
  .byte   W03
- .byte   VOL , 58*song02_mvl/mxv
+ .byte   VOL , 58*DelfinoPlaza_mvl/mxv
  .byte   W03
  .byte   N01 ,En2 ,v104
  .byte   W04
@@ -2309,7 +2309,7 @@ Label_013B52BF:
  .byte   N06 ,En2 ,v100
  .byte   N05 ,An2 ,v116
  .byte   W12
- .byte   VOL , 59*song02_mvl/mxv
+ .byte   VOL , 59*DelfinoPlaza_mvl/mxv
  .byte   N04 ,En2 ,v092
  .byte   N04 ,An2 ,v104
  .byte   W12
@@ -2328,7 +2328,7 @@ Label_013B52BF:
  .byte   Dn2 ,v096
  .byte   N04 ,Gn2
  .byte   W08
- .byte   VOL , 59*song02_mvl/mxv
+ .byte   VOL , 59*DelfinoPlaza_mvl/mxv
  .byte   W03
  .byte   N05 ,Dn2 ,v112
  .byte   W01
@@ -2349,7 +2349,7 @@ Label_013B52BF:
  .byte   En2 ,v112
  .byte   N04 ,Gs2 ,v120
  .byte   W05
- .byte   VOL , 59*song02_mvl/mxv
+ .byte   VOL , 59*DelfinoPlaza_mvl/mxv
  .byte   W05
  .byte   N04 ,Gs2 ,v096
  .byte   W01
@@ -2370,7 +2370,7 @@ Label_013B52BF:
  .byte   W02
  .byte   N04 ,An2 ,v092
  .byte   W01
- .byte   VOL , 59*song02_mvl/mxv
+ .byte   VOL , 59*DelfinoPlaza_mvl/mxv
  .byte   W10
  .byte   N06 ,En2 ,v100
  .byte   W01
@@ -2390,7 +2390,7 @@ Label_013B52BF:
  .byte   W01
  .byte   An2 ,v096
  .byte   W09
- .byte   VOL , 59*song02_mvl/mxv
+ .byte   VOL , 59*DelfinoPlaza_mvl/mxv
  .byte   W02
  .byte   N05 ,Dn2 ,v120
  .byte   W01
@@ -2413,7 +2413,7 @@ Label_013B52BF:
  .byte   W01
  .byte   N04 ,An2 ,v116
  .byte   W03
- .byte   VOL , 59*song02_mvl/mxv
+ .byte   VOL , 59*DelfinoPlaza_mvl/mxv
  .byte   W06
  .byte   N05 ,En2 ,v100
  .byte   W02
@@ -2435,7 +2435,7 @@ Label_013B52BF:
  .byte   W01
  .byte   N04 ,An2 ,v100
  .byte   W01
- .byte   VOL , 59*song02_mvl/mxv
+ .byte   VOL , 59*DelfinoPlaza_mvl/mxv
  .byte   W11
  .byte   N04 ,Fn2 ,v112
  .byte   N03 ,As2 ,v124
@@ -2453,7 +2453,7 @@ Label_013B52BF:
  .byte   Gn2 ,v104
  .byte   N05 ,Cn3
  .byte   W10
- .byte   VOL , 59*song02_mvl/mxv
+ .byte   VOL , 59*DelfinoPlaza_mvl/mxv
  .byte   W02
  .byte   N04 ,Gn2 ,v088
  .byte   N05 ,Cn3 ,v104
@@ -2471,7 +2471,7 @@ Label_013B52BF:
  .byte   N05 ,Fn2 ,v112
  .byte   N04 ,As2
  .byte   W06
- .byte   VOL , 59*song02_mvl/mxv
+ .byte   VOL , 59*DelfinoPlaza_mvl/mxv
  .byte   W06
  .byte   N05 ,Fn2 ,v104
  .byte   N05 ,As2 ,v120
@@ -2492,7 +2492,7 @@ Label_013B52BF:
  .byte   W11
  .byte   N05 ,Gn2
  .byte   W01
- .byte   VOL , 59*song02_mvl/mxv
+ .byte   VOL , 59*DelfinoPlaza_mvl/mxv
  .byte   W01
  .byte   N04 ,Cn3
  .byte   W10
@@ -2511,7 +2511,7 @@ Label_013B52BF:
  .byte   W01
  .byte   N03 ,Cn3 ,v100
  .byte   W07
- .byte   VOL , 60*song02_mvl/mxv
+ .byte   VOL , 60*DelfinoPlaza_mvl/mxv
  .byte   W04
 @  #03 @032   ----------------------------------------
  .byte   N05 ,Gn2 ,v104
@@ -2533,7 +2533,7 @@ Label_013B52BF:
  .byte   N05 ,Fn2 ,v104
  .byte   N04 ,As2 ,v127
  .byte   W05
- .byte   VOL , 60*song02_mvl/mxv
+ .byte   VOL , 60*DelfinoPlaza_mvl/mxv
  .byte   W06
  .byte   N05 ,Fn2 ,v096
  .byte   N04 ,As2 ,v116
@@ -2552,7 +2552,7 @@ Label_013B52BF:
  .byte   W09
  .byte   Gn2 ,v096
  .byte   W03
- .byte   VOL , 60*song02_mvl/mxv
+ .byte   VOL , 60*DelfinoPlaza_mvl/mxv
  .byte   N04 ,Cn3 ,v100
  .byte   W10
  .byte   N05 ,Gn2 ,v116
@@ -2571,7 +2571,7 @@ Label_013B52BF:
  .byte   W01
  .byte   N04 ,Cn3 ,v100
  .byte   W08
- .byte   VOL , 60*song02_mvl/mxv
+ .byte   VOL , 60*DelfinoPlaza_mvl/mxv
  .byte   W03
  .byte   N04 ,Gn2
  .byte   W02
@@ -2593,7 +2593,7 @@ Label_013B52BF:
  .byte   W02
  .byte   N04 ,An2 ,v096
  .byte   W04
- .byte   VOL , 60*song02_mvl/mxv
+ .byte   VOL , 60*DelfinoPlaza_mvl/mxv
  .byte   W06
  .byte   N05 ,En2
  .byte   W02
@@ -2613,7 +2613,7 @@ Label_013B52BF:
  .byte   W09
  .byte   Fs2 ,v124
  .byte   W02
- .byte   VOL , 61*song02_mvl/mxv
+ .byte   VOL , 61*DelfinoPlaza_mvl/mxv
  .byte   N05 ,An2 ,v088
  .byte   W12
 @  #03 @035   ----------------------------------------
@@ -2633,7 +2633,7 @@ Label_013B52BF:
  .byte   W01
  .byte   En2 ,v116
  .byte   W09
- .byte   VOL , 61*song02_mvl/mxv
+ .byte   VOL , 61*DelfinoPlaza_mvl/mxv
  .byte   W03
  .byte   N05
  .byte   N05 ,Gs2 ,v127
@@ -2654,7 +2654,7 @@ Label_013B52BF:
  .byte   W01
 @  #03 @036   ----------------------------------------
  .byte   W04
- .byte   VOL , 61*song02_mvl/mxv
+ .byte   VOL , 61*DelfinoPlaza_mvl/mxv
  .byte   W06
  .byte   N06 ,En2 ,v100
  .byte   W02
@@ -2674,7 +2674,7 @@ Label_013B52BF:
  .byte   W10
  .byte   Fs2 ,v116
  .byte   W02
- .byte   VOL , 61*song02_mvl/mxv
+ .byte   VOL , 61*DelfinoPlaza_mvl/mxv
  .byte   N04 ,An2 ,v096
  .byte   W11
  .byte   Fs2 ,v120
@@ -2693,7 +2693,7 @@ Label_013B52BF:
  .byte   W01
  .byte   N04 ,Fs2 ,v124
  .byte   W08
- .byte   VOL , 61*song02_mvl/mxv
+ .byte   VOL , 61*DelfinoPlaza_mvl/mxv
  .byte   W03
  .byte   N05 ,Dn2 ,v092
  .byte   W01
@@ -2714,7 +2714,7 @@ Label_013B52BF:
  .byte   W01
  .byte   N06 ,En2 ,v104
  .byte   W04
- .byte   VOL , 61*song02_mvl/mxv
+ .byte   VOL , 61*DelfinoPlaza_mvl/mxv
  .byte   W07
  .byte   N05 ,Gs2 ,v116
  .byte   W01
@@ -2727,7 +2727,7 @@ Label_013B52BF:
  .byte   W12
  .byte   Gn2
  .byte   W12
- .byte   VOL , 61*song02_mvl/mxv
+ .byte   VOL , 61*DelfinoPlaza_mvl/mxv
  .byte   N05
  .byte   W12
  .byte   Fs2
@@ -2738,7 +2738,7 @@ Label_013B52BF:
  .byte   W12
  .byte   N05
  .byte   W08
- .byte   VOL , 61*song02_mvl/mxv
+ .byte   VOL , 61*DelfinoPlaza_mvl/mxv
  .byte   W04
 @  #03 @039   ----------------------------------------
  .byte   N05 ,En2
@@ -2751,7 +2751,7 @@ Label_013B52BF:
  .byte   W12
  .byte   Fs2
  .byte   W04
- .byte   VOL , 61*song02_mvl/mxv
+ .byte   VOL , 61*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N05
  .byte   W12
@@ -2762,7 +2762,7 @@ Label_013B52BF:
 @  #03 @040   ----------------------------------------
  .byte   En2
  .byte   W12
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*DelfinoPlaza_mvl/mxv
  .byte   N05
  .byte   W12
  .byte   Gn2
@@ -2773,7 +2773,7 @@ Label_013B52BF:
  .byte   W12
  .byte   N05
  .byte   W08
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N05 ,Gs2
  .byte   W12
@@ -2782,9 +2782,9 @@ Label_013B52BF:
 @  #03 @041   ----------------------------------------
  .byte   An2
  .byte   W28
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*DelfinoPlaza_mvl/mxv
  .byte   W56
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*DelfinoPlaza_mvl/mxv
  .byte   W12
 @  #03 @042   ----------------------------------------
  .byte   N05 ,En2
@@ -2795,7 +2795,7 @@ Label_013B52BF:
  .byte   W12
  .byte   N05
  .byte   W08
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N05 ,Fs2
  .byte   W12
@@ -2808,7 +2808,7 @@ Label_013B52BF:
 @  #03 @043   ----------------------------------------
  .byte   En2
  .byte   W04
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N05
  .byte   W12
@@ -2818,7 +2818,7 @@ Label_013B52BF:
  .byte   W12
  .byte   Fs2
  .byte   W12
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*DelfinoPlaza_mvl/mxv
  .byte   N05
  .byte   W12
  .byte   Fn2
@@ -2830,7 +2830,7 @@ Label_013B52BF:
  .byte   W12
  .byte   N05
  .byte   W08
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N05 ,Gn2
  .byte   W12
@@ -2842,7 +2842,7 @@ Label_013B52BF:
  .byte   W12
  .byte   Fn2
  .byte   W04
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N05
  .byte   W12
@@ -2853,7 +2853,7 @@ Label_013B52BF:
  .byte   W12
  .byte   Gn2
  .byte   W12
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*DelfinoPlaza_mvl/mxv
  .byte   N05
  .byte   W12
  .byte   Fs2
@@ -2899,14 +2899,14 @@ Label_013B5A30:
  .byte   PATT
   .word Label_013B5A30
 @  #03 @052   ----------------------------------------
- .byte   VOL , 54*song02_mvl/mxv
+ .byte   VOL , 54*DelfinoPlaza_mvl/mxv
  .byte   N05 ,En2 ,v116
  .byte   W12
  .byte   En2 ,v092
  .byte   W12
  .byte   N04 ,Gn2 ,v104
  .byte   W12
- .byte   VOL , 54*song02_mvl/mxv
+ .byte   VOL , 54*DelfinoPlaza_mvl/mxv
  .byte   N04 ,Gn2 ,v088
  .byte   W12
  .byte   N06 ,Fs2 ,v100
@@ -2917,7 +2917,7 @@ Label_013B5A30:
  .byte   W12
  .byte   Fn2 ,v092
  .byte   W08
- .byte   VOL , 54*song02_mvl/mxv
+ .byte   VOL , 54*DelfinoPlaza_mvl/mxv
  .byte   W04
 @  #03 @053   ----------------------------------------
  .byte   N05 ,En2 ,v096
@@ -2932,7 +2932,7 @@ Label_013B5A30:
  .byte   W12
  .byte   N06 ,Fs2 ,v104
  .byte   W04
- .byte   VOL , 54*song02_mvl/mxv
+ .byte   VOL , 54*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N06
  .byte   W12
@@ -2943,7 +2943,7 @@ Label_013B5A30:
 @  #03 @054   ----------------------------------------
  .byte   N06 ,En2 ,v096
  .byte   W12
- .byte   VOL , 54*song02_mvl/mxv
+ .byte   VOL , 54*DelfinoPlaza_mvl/mxv
  .byte   N05 ,En2 ,v088
  .byte   W12
  .byte   Gn2 ,v096
@@ -2954,7 +2954,7 @@ Label_013B5A30:
  .byte   W12
  .byte   N06 ,Fs2 ,v112
  .byte   W08
- .byte   VOL , 54*song02_mvl/mxv
+ .byte   VOL , 54*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N06 ,Fn2
  .byte   W12
@@ -2967,7 +2967,7 @@ Label_013B5A30:
  .byte   W12
  .byte   Gn2 ,v104
  .byte   W04
- .byte   VOL , 55*song02_mvl/mxv
+ .byte   VOL , 55*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N05 ,Gn2 ,v096
  .byte   W04
@@ -2981,7 +2981,7 @@ Label_013B5A30:
  .byte   W12
  .byte   N05 ,Fn2
  .byte   W12
- .byte   VOL , 55*song02_mvl/mxv
+ .byte   VOL , 55*DelfinoPlaza_mvl/mxv
  .byte   N05 ,Fn2 ,v092
  .byte   W12
 @  #03 @056   ----------------------------------------
@@ -2993,7 +2993,7 @@ Label_013B5A30:
  .byte   W12
  .byte   Gn2 ,v088
  .byte   W08
- .byte   VOL , 55*song02_mvl/mxv
+ .byte   VOL , 55*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N06 ,Fs2 ,v100
  .byte   W12
@@ -3006,7 +3006,7 @@ Label_013B5A30:
 @  #03 @057   ----------------------------------------
  .byte   En2 ,v096
  .byte   W04
- .byte   VOL , 55*song02_mvl/mxv
+ .byte   VOL , 55*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N05 ,En2 ,v088
  .byte   W12
@@ -3018,7 +3018,7 @@ Label_013B5A30:
  .byte   W12
  .byte   N06 ,Fs2 ,v104
  .byte   W12
- .byte   VOL , 56*song02_mvl/mxv
+ .byte   VOL , 56*DelfinoPlaza_mvl/mxv
  .byte   N06
  .byte   W12
  .byte   Fn2 ,v112
@@ -3030,7 +3030,7 @@ Label_013B5A30:
  .byte   W12
  .byte   N05 ,En2 ,v088
  .byte   W08
- .byte   VOL , 56*song02_mvl/mxv
+ .byte   VOL , 56*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N05 ,Gn2 ,v096
  .byte   W12
@@ -3042,7 +3042,7 @@ Label_013B5A30:
  .byte   W12
  .byte   Fn2
  .byte   W04
- .byte   VOL , 56*song02_mvl/mxv
+ .byte   VOL , 56*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N06 ,Fn2 ,v096
  .byte   W11
@@ -3056,7 +3056,7 @@ Label_013B5A30:
  .byte   W06
  .byte   N05 ,En2 ,v124
  .byte   W12
- .byte   VOL , 56*song02_mvl/mxv
+ .byte   VOL , 56*DelfinoPlaza_mvl/mxv
  .byte   N04
  .byte   W06
  .byte   En2 ,v127
@@ -3073,7 +3073,7 @@ Label_013B5A30:
  .byte   W06
  .byte   N04
  .byte   W11
- .byte   VOL , 56*song02_mvl/mxv
+ .byte   VOL , 56*DelfinoPlaza_mvl/mxv
  .byte   W04
 @  #03 @060   ----------------------------------------
  .byte   N06 ,Dn2 ,v112
@@ -3091,7 +3091,7 @@ Label_013B5A30:
  .byte   Dn2 ,v096
  .byte   N06 ,Fs2 ,v124
  .byte   W04
- .byte   VOL , 56*song02_mvl/mxv
+ .byte   VOL , 56*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N04 ,Dn2 ,v088
  .byte   N05 ,Fs2 ,v112
@@ -3106,7 +3106,7 @@ Label_013B5A30:
  .byte   Cs2 ,v112
  .byte   N05 ,En2
  .byte   W12
- .byte   VOL , 56*song02_mvl/mxv
+ .byte   VOL , 56*DelfinoPlaza_mvl/mxv
  .byte   N04 ,Cs2
  .byte   N04 ,En2 ,v088
  .byte   W12
@@ -3122,7 +3122,7 @@ Label_013B5A30:
  .byte   Cs2 ,v104
  .byte   N04 ,En2 ,v100
  .byte   W08
- .byte   VOL , 56*song02_mvl/mxv
+ .byte   VOL , 56*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N06 ,Cs2 ,v120
  .byte   N05 ,En2 ,v104
@@ -3140,7 +3140,7 @@ Label_013B5A30:
  .byte   Dn2 ,v104
  .byte   N06 ,Fs2 ,v124
  .byte   W04
- .byte   VOL , 56*song02_mvl/mxv
+ .byte   VOL , 56*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N04 ,Dn2 ,v092
  .byte   N06 ,Fs2 ,v120
@@ -3154,7 +3154,7 @@ Label_013B5A30:
  .byte   Dn2 ,v100
  .byte   N05 ,Fs2 ,v124
  .byte   W12
- .byte   VOL , 56*song02_mvl/mxv
+ .byte   VOL , 56*DelfinoPlaza_mvl/mxv
  .byte   N04 ,Dn2 ,v096
  .byte   N05 ,Fs2 ,v100
  .byte   W12
@@ -3171,7 +3171,7 @@ Label_013B5A30:
  .byte   Cs2 ,v116
  .byte   N05 ,En2 ,v092
  .byte   W08
- .byte   VOL , 57*song02_mvl/mxv
+ .byte   VOL , 57*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N05 ,En2 ,v100
  .byte   N05 ,An2
@@ -3189,7 +3189,7 @@ Label_013B5A30:
  .byte   Dn2 ,v104
  .byte   N06 ,Fs2 ,v127
  .byte   W04
- .byte   VOL , 57*song02_mvl/mxv
+ .byte   VOL , 57*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N04 ,Dn2 ,v096
  .byte   N05 ,Fs2 ,v120
@@ -3203,7 +3203,7 @@ Label_013B5A30:
  .byte   Dn2
  .byte   N06 ,Fs2 ,v116
  .byte   W12
- .byte   VOL , 57*song02_mvl/mxv
+ .byte   VOL , 57*DelfinoPlaza_mvl/mxv
  .byte   N04 ,Dn2 ,v100
  .byte   N04 ,Fs2 ,v104
  .byte   W12
@@ -3220,7 +3220,7 @@ Label_013B5A30:
  .byte   Cs2
  .byte   N05 ,En2 ,v092
  .byte   W08
- .byte   VOL , 57*song02_mvl/mxv
+ .byte   VOL , 57*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N05 ,Cs2 ,v120
  .byte   N05 ,En2 ,v104
@@ -3238,7 +3238,7 @@ Label_013B5A30:
  .byte   Cs2 ,v120
  .byte   N04 ,Fs2 ,v127
  .byte   W04
- .byte   VOL , 57*song02_mvl/mxv
+ .byte   VOL , 57*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N04 ,Cs2 ,v116
  .byte   N05 ,Fs2
@@ -3253,7 +3253,7 @@ Label_013B5A30:
  .byte   N05 ,Cn2
  .byte   N05 ,Fn2 ,v104
  .byte   W12
- .byte   VOL , 57*song02_mvl/mxv
+ .byte   VOL , 57*DelfinoPlaza_mvl/mxv
  .byte   N04 ,Cn2 ,v096
  .byte   N04 ,Fn2 ,v104
  .byte   W12
@@ -3269,7 +3269,7 @@ Label_013B5A30:
  .byte   N04 ,Cn2 ,v100
  .byte   N06 ,Fn2 ,v096
  .byte   W08
- .byte   VOL , 57*song02_mvl/mxv
+ .byte   VOL , 57*DelfinoPlaza_mvl/mxv
  .byte   W04
 @  #03 @067   ----------------------------------------
  .byte   N05 ,Bn1 ,v116
@@ -3287,7 +3287,7 @@ Label_013B5A30:
  .byte   N06 ,Bn1 ,v104
  .byte   N05 ,En2 ,v100
  .byte   W04
- .byte   VOL , 57*song02_mvl/mxv
+ .byte   VOL , 57*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N05 ,Bn1 ,v112
  .byte   N05 ,En2 ,v104
@@ -3301,7 +3301,7 @@ Label_013B5A30:
 @  #03 @068   ----------------------------------------
  .byte   En2 ,v112
  .byte   W12
- .byte   VOL , 57*song02_mvl/mxv
+ .byte   VOL , 57*DelfinoPlaza_mvl/mxv
  .byte   N05 ,En2 ,v096
  .byte   W12
  .byte   Gn2
@@ -3312,7 +3312,7 @@ Label_013B5A30:
  .byte   W12
  .byte   Fs2 ,v112
  .byte   W08
- .byte   VOL , 57*song02_mvl/mxv
+ .byte   VOL , 57*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N06 ,Fn2
  .byte   W12
@@ -3325,7 +3325,7 @@ Label_013B5A30:
  .byte   W12
  .byte   Gn2 ,v120
  .byte   W04
- .byte   VOL , 58*song02_mvl/mxv
+ .byte   VOL , 58*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N04 ,Gn2 ,v096
  .byte   W12
@@ -3335,7 +3335,7 @@ Label_013B5A30:
  .byte   W12
  .byte   N06 ,Fn2 ,v104
  .byte   W12
- .byte   VOL , 58*song02_mvl/mxv
+ .byte   VOL , 58*DelfinoPlaza_mvl/mxv
  .byte   N06 ,Fn2 ,v096
  .byte   W12
 @  #03 @070   ----------------------------------------
@@ -3347,7 +3347,7 @@ Label_013B5A30:
  .byte   W12
  .byte   N03 ,Gn2 ,v088
  .byte   W08
- .byte   VOL , 58*song02_mvl/mxv
+ .byte   VOL , 58*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N05 ,Fs2 ,v104
  .byte   W12
@@ -3360,7 +3360,7 @@ Label_013B5A30:
 @  #03 @071   ----------------------------------------
  .byte   N05 ,En2 ,v112
  .byte   W04
- .byte   VOL , 58*song02_mvl/mxv
+ .byte   VOL , 58*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N04 ,En2 ,v092
  .byte   W11
@@ -3378,7 +3378,7 @@ Label_013B5A30:
  .byte   W04
  .byte   N02 ,En2 ,v116
  .byte   W01
- .byte   VOL , 58*song02_mvl/mxv
+ .byte   VOL , 58*DelfinoPlaza_mvl/mxv
  .byte   W03
  .byte   N02 ,En2 ,v112
  .byte   W04
@@ -3397,7 +3397,7 @@ Label_013B5A30:
  .byte   N04 ,En2 ,v092
  .byte   N04 ,An2 ,v104
  .byte   W08
- .byte   VOL , 59*song02_mvl/mxv
+ .byte   VOL , 59*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N05 ,En2
  .byte   W01
@@ -3418,7 +3418,7 @@ Label_013B5A30:
  .byte   W01
  .byte   Gn2 ,v100
  .byte   W04
- .byte   VOL , 59*song02_mvl/mxv
+ .byte   VOL , 59*DelfinoPlaza_mvl/mxv
  .byte   W07
  .byte   N05 ,Dn2 ,v112
  .byte   N04 ,Gn2 ,v092
@@ -3439,7 +3439,7 @@ Label_013B5A30:
  .byte   W01
  .byte   N05 ,En2
  .byte   W02
- .byte   VOL , 59*song02_mvl/mxv
+ .byte   VOL , 59*DelfinoPlaza_mvl/mxv
  .byte   W10
  .byte   N06 ,En2 ,v112
  .byte   N05 ,An2
@@ -3456,7 +3456,7 @@ Label_013B5A30:
  .byte   W02
  .byte   N04 ,An2 ,v092
  .byte   W09
- .byte   VOL , 59*song02_mvl/mxv
+ .byte   VOL , 59*DelfinoPlaza_mvl/mxv
  .byte   W02
  .byte   N06 ,En2 ,v100
  .byte   W01
@@ -3480,7 +3480,7 @@ Label_013B5A30:
  .byte   W01
  .byte   Gn2
  .byte   W08
- .byte   VOL , 59*song02_mvl/mxv
+ .byte   VOL , 59*DelfinoPlaza_mvl/mxv
  .byte   W03
  .byte   N05 ,Dn2 ,v100
  .byte   W02
@@ -3503,7 +3503,7 @@ Label_013B5A30:
  .byte   W02
  .byte   N04 ,An2 ,v104
  .byte   W03
- .byte   VOL , 59*song02_mvl/mxv
+ .byte   VOL , 59*DelfinoPlaza_mvl/mxv
  .byte   W07
  .byte   N05 ,En2 ,v112
  .byte   W02
@@ -3521,7 +3521,7 @@ Label_013B5A30:
  .byte   W01
  .byte   N04 ,An2 ,v100
  .byte   W12
- .byte   VOL , 59*song02_mvl/mxv
+ .byte   VOL , 59*DelfinoPlaza_mvl/mxv
  .byte   N04 ,Fn2 ,v112
  .byte   N03 ,As2 ,v124
  .byte   W09
@@ -3541,7 +3541,7 @@ Label_013B5A30:
  .byte   N04 ,Gn2 ,v088
  .byte   N05 ,Cn3 ,v104
  .byte   W09
- .byte   VOL , 59*song02_mvl/mxv
+ .byte   VOL , 59*DelfinoPlaza_mvl/mxv
  .byte   W02
  .byte   N05 ,Gn2
  .byte   W01
@@ -3559,7 +3559,7 @@ Label_013B5A30:
  .byte   N05 ,Fn2 ,v104
  .byte   N05 ,As2 ,v120
  .byte   W05
- .byte   VOL , 59*song02_mvl/mxv
+ .byte   VOL , 59*DelfinoPlaza_mvl/mxv
  .byte   W07
  .byte   N06 ,Gn2 ,v124
  .byte   W01
@@ -3579,7 +3579,7 @@ Label_013B5A30:
  .byte   W02
  .byte   N04 ,Cn3
  .byte   W10
- .byte   VOL , 60*song02_mvl/mxv
+ .byte   VOL , 60*DelfinoPlaza_mvl/mxv
  .byte   N05 ,Gn2 ,v092
  .byte   W02
  .byte   N04 ,Cn3 ,v104
@@ -3600,7 +3600,7 @@ Label_013B5A30:
  .byte   W01
  .byte   Cn3 ,v116
  .byte   W06
- .byte   VOL , 60*song02_mvl/mxv
+ .byte   VOL , 60*DelfinoPlaza_mvl/mxv
  .byte   W05
  .byte   N05 ,Gn2 ,v100
  .byte   W01
@@ -3620,7 +3620,7 @@ Label_013B5A30:
  .byte   N05 ,Fn2 ,v096
  .byte   N04 ,As2 ,v116
  .byte   W05
- .byte   VOL , 60*song02_mvl/mxv
+ .byte   VOL , 60*DelfinoPlaza_mvl/mxv
  .byte   W07
  .byte   N05 ,Fn2 ,v112
  .byte   W01
@@ -3640,7 +3640,7 @@ Label_013B5A30:
  .byte   W10
  .byte   N05 ,Gn2 ,v116
  .byte   W01
- .byte   VOL , 60*song02_mvl/mxv
+ .byte   VOL , 60*DelfinoPlaza_mvl/mxv
  .byte   W01
  .byte   N04 ,Cn3
  .byte   W10
@@ -3660,7 +3660,7 @@ Label_013B5A30:
  .byte   W02
  .byte   Cn3 ,v092
  .byte   W06
- .byte   VOL , 60*song02_mvl/mxv
+ .byte   VOL , 60*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N03 ,Gn2
  .byte   N03 ,Cn3 ,v096
@@ -3682,7 +3682,7 @@ Label_013B5A30:
  .byte   W02
  .byte   N03 ,An2 ,v088
  .byte   W03
- .byte   VOL , 61*song02_mvl/mxv
+ .byte   VOL , 61*DelfinoPlaza_mvl/mxv
  .byte   W09
  .byte   N04 ,Fs2 ,v120
  .byte   N05 ,An2 ,v080
@@ -3700,7 +3700,7 @@ Label_013B5A30:
  .byte   W02
  .byte   An2 ,v088
  .byte   W11
- .byte   VOL , 61*song02_mvl/mxv
+ .byte   VOL , 61*DelfinoPlaza_mvl/mxv
  .byte   W01
 @  #03 @081   ----------------------------------------
  .byte   N06 ,En2 ,v124
@@ -3722,7 +3722,7 @@ Label_013B5A30:
  .byte   N05
  .byte   N05 ,Gs2 ,v127
  .byte   W08
- .byte   VOL , 61*song02_mvl/mxv
+ .byte   VOL , 61*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N04 ,Gs2 ,v124
  .byte   W01
@@ -3744,7 +3744,7 @@ Label_013B5A30:
  .byte   W02
  .byte   N04 ,An2 ,v096
  .byte   W03
- .byte   VOL , 61*song02_mvl/mxv
+ .byte   VOL , 61*DelfinoPlaza_mvl/mxv
  .byte   W07
  .byte   N05 ,En2 ,v100
  .byte   W02
@@ -3762,7 +3762,7 @@ Label_013B5A30:
  .byte   W02
  .byte   N04 ,An2 ,v096
  .byte   W11
- .byte   VOL , 61*song02_mvl/mxv
+ .byte   VOL , 61*DelfinoPlaza_mvl/mxv
  .byte   N04 ,Fs2 ,v120
  .byte   W01
  .byte   N05 ,An2 ,v096
@@ -3783,7 +3783,7 @@ Label_013B5A30:
  .byte   W01
  .byte   N04 ,Fs2 ,v124
  .byte   W07
- .byte   VOL , 61*song02_mvl/mxv
+ .byte   VOL , 61*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N05 ,Dn2 ,v104
  .byte   N05 ,Fs2 ,v124
@@ -3804,7 +3804,7 @@ Label_013B5A30:
  .byte   W01
  .byte   En2 ,v100
  .byte   W03
- .byte   VOL , 61*song02_mvl/mxv
+ .byte   VOL , 61*DelfinoPlaza_mvl/mxv
  .byte   W09
 @  #03 @084   ----------------------------------------
  .byte   N05
@@ -3815,7 +3815,7 @@ Label_013B5A30:
  .byte   W12
  .byte   N05
  .byte   W11
- .byte   VOL , 61*song02_mvl/mxv
+ .byte   VOL , 61*DelfinoPlaza_mvl/mxv
  .byte   W01
  .byte   N05 ,Fs2
  .byte   W12
@@ -3828,7 +3828,7 @@ Label_013B5A30:
 @  #03 @085   ----------------------------------------
  .byte   En2
  .byte   W07
- .byte   VOL , 61*song02_mvl/mxv
+ .byte   VOL , 61*DelfinoPlaza_mvl/mxv
  .byte   W05
  .byte   N05
  .byte   W12
@@ -3840,7 +3840,7 @@ Label_013B5A30:
  .byte   W12
  .byte   N05
  .byte   W03
- .byte   VOL , 61*song02_mvl/mxv
+ .byte   VOL , 61*DelfinoPlaza_mvl/mxv
  .byte   W09
  .byte   N05 ,Fn2
  .byte   W12
@@ -3851,7 +3851,7 @@ Label_013B5A30:
  .byte   W12
  .byte   N05
  .byte   W11
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*DelfinoPlaza_mvl/mxv
  .byte   W01
  .byte   N05 ,Gn2
  .byte   W12
@@ -3863,7 +3863,7 @@ Label_013B5A30:
  .byte   W12
  .byte   Gs2
  .byte   W07
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*DelfinoPlaza_mvl/mxv
  .byte   W05
  .byte   N05
  .byte   W12
@@ -3871,9 +3871,9 @@ Label_013B5A30:
  .byte   An2
  .byte   W36
  .byte   W03
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*DelfinoPlaza_mvl/mxv
  .byte   W56
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*DelfinoPlaza_mvl/mxv
  .byte   W01
 @  #03 @088   ----------------------------------------
  .byte   N05 ,En2
@@ -3886,7 +3886,7 @@ Label_013B5A30:
  .byte   W12
  .byte   Fs2
  .byte   W07
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*DelfinoPlaza_mvl/mxv
  .byte   W05
  .byte   N05
  .byte   W12
@@ -3899,7 +3899,7 @@ Label_013B5A30:
  .byte   W12
  .byte   N05
  .byte   W03
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*DelfinoPlaza_mvl/mxv
  .byte   W09
  .byte   N05 ,Gn2
  .byte   W12
@@ -3909,7 +3909,7 @@ Label_013B5A30:
  .byte   W12
  .byte   N05
  .byte   W11
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*DelfinoPlaza_mvl/mxv
  .byte   W01
  .byte   N05 ,Fn2
  .byte   W12
@@ -3922,7 +3922,7 @@ Label_013B5A30:
  .byte   W12
  .byte   Gn2
  .byte   W07
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*DelfinoPlaza_mvl/mxv
  .byte   W05
  .byte   N05
  .byte   W12
@@ -3934,7 +3934,7 @@ Label_013B5A30:
  .byte   W12
  .byte   N05
  .byte   W03
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*DelfinoPlaza_mvl/mxv
  .byte   W09
 @  #03 @091   ----------------------------------------
  .byte   PATT
@@ -3977,36 +3977,36 @@ Label_013B5A30:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song02_004:
+DelfinoPlaza_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , DelfinoPlaza_key+0
  .byte   VOICE , 24
  .byte   W96
 @  #04 @001   ----------------------------------------
  .byte   W04
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*DelfinoPlaza_mvl/mxv
  .byte   W09
- .byte   VOL , 61*song02_mvl/mxv
+ .byte   VOL , 61*DelfinoPlaza_mvl/mxv
  .byte   W08
- .byte   VOL , 61*song02_mvl/mxv
+ .byte   VOL , 61*DelfinoPlaza_mvl/mxv
  .byte   W09
- .byte   VOL , 59*song02_mvl/mxv
+ .byte   VOL , 59*DelfinoPlaza_mvl/mxv
  .byte   W08
- .byte   VOL , 59*song02_mvl/mxv
+ .byte   VOL , 59*DelfinoPlaza_mvl/mxv
  .byte   W08
- .byte   VOL , 58*song02_mvl/mxv
+ .byte   VOL , 58*DelfinoPlaza_mvl/mxv
  .byte   W09
- .byte   VOL , 57*song02_mvl/mxv
+ .byte   VOL , 57*DelfinoPlaza_mvl/mxv
  .byte   W05
- .byte   VOL , 57*song02_mvl/mxv
+ .byte   VOL , 57*DelfinoPlaza_mvl/mxv
  .byte   W09
- .byte   VOL , 56*song02_mvl/mxv
+ .byte   VOL , 56*DelfinoPlaza_mvl/mxv
  .byte   W08
- .byte   VOL , 55*song02_mvl/mxv
+ .byte   VOL , 55*DelfinoPlaza_mvl/mxv
  .byte   W09
- .byte   VOL , 54*song02_mvl/mxv
+ .byte   VOL , 54*DelfinoPlaza_mvl/mxv
  .byte   W08
- .byte   VOL , 53*song02_mvl/mxv
+ .byte   VOL , 53*DelfinoPlaza_mvl/mxv
  .byte   W01
 Label_013B618B:
  .byte   W01
@@ -4016,7 +4016,7 @@ Label_013B618B:
  .byte   N05 ,An1 ,v088
  .byte   W08
  .byte   PAN , c_v-20
- .byte   VOL , 53*song02_mvl/mxv
+ .byte   VOL , 53*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N05 ,As1 ,v116
  .byte   W12
@@ -4029,7 +4029,7 @@ Label_013B618B:
  .byte   N05 ,Gs1 ,v100
  .byte   W04
  .byte   PAN , c_v-20
- .byte   VOL , 53*song02_mvl/mxv
+ .byte   VOL , 53*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N06 ,Gs1 ,v092
  .byte   W12
@@ -4043,7 +4043,7 @@ Label_013B618B:
  .byte   W01
  .byte   W06
  .byte   PAN , c_v-20
- .byte   VOL , 54*song02_mvl/mxv
+ .byte   VOL , 54*DelfinoPlaza_mvl/mxv
  .byte   N05 ,As1 ,v104
  .byte   W12
  .byte   N06 ,Bn1 ,v100
@@ -4055,7 +4055,7 @@ Label_013B618B:
  .byte   N06 ,Gs1 ,v104
  .byte   W08
  .byte   PAN , c_v-20
- .byte   VOL , 54*song02_mvl/mxv
+ .byte   VOL , 54*DelfinoPlaza_mvl/mxv
  .byte   W04
 @  #04 @004   ----------------------------------------
  .byte   N06 ,An1 ,v092
@@ -4069,7 +4069,7 @@ Label_013B618B:
  .byte   Bn1 ,v092
  .byte   W07
  .byte   PAN , c_v-20
- .byte   VOL , 54*song02_mvl/mxv
+ .byte   VOL , 54*DelfinoPlaza_mvl/mxv
  .byte   W05
  .byte   N05
  .byte   W12
@@ -4083,7 +4083,7 @@ Label_013B618B:
  .byte   N06 ,An1 ,v088
  .byte   W03
  .byte   PAN , c_v-20
- .byte   VOL , 54*song02_mvl/mxv
+ .byte   VOL , 54*DelfinoPlaza_mvl/mxv
  .byte   W09
  .byte   N05 ,As1 ,v112
  .byte   W12
@@ -4098,7 +4098,7 @@ Label_013B618B:
  .byte   N06
  .byte   W11
  .byte   PAN , c_v-20
- .byte   VOL , 54*song02_mvl/mxv
+ .byte   VOL , 54*DelfinoPlaza_mvl/mxv
  .byte   W01
  .byte   N05 ,Gs1 ,v104
  .byte   W12
@@ -4112,7 +4112,7 @@ Label_013B618B:
  .byte   As1 ,v116
  .byte   W07
  .byte   PAN , c_v-20
- .byte   VOL , 54*song02_mvl/mxv
+ .byte   VOL , 54*DelfinoPlaza_mvl/mxv
  .byte   W05
  .byte   N05 ,As1 ,v088
  .byte   W12
@@ -4123,7 +4123,7 @@ Label_013B618B:
  .byte   N05 ,Gs1 ,v100
  .byte   W12
  .byte   PAN , c_v-20
- .byte   VOL , 54*song02_mvl/mxv
+ .byte   VOL , 54*DelfinoPlaza_mvl/mxv
  .byte   N06 ,Gs1 ,v092
  .byte   W12
 @  #04 @007   ----------------------------------------
@@ -4138,7 +4138,7 @@ Label_013B618B:
  .byte   As1 ,v104
  .byte   W08
  .byte   PAN , c_v-20
- .byte   VOL , 54*song02_mvl/mxv
+ .byte   VOL , 54*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N06 ,Bn1 ,v100
  .byte   W12
@@ -4152,7 +4152,7 @@ Label_013B618B:
  .byte   An1 ,v092
  .byte   W04
  .byte   PAN , c_v-20
- .byte   VOL , 54*song02_mvl/mxv
+ .byte   VOL , 54*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N06 ,An1 ,v080
  .byte   W12
@@ -4163,7 +4163,7 @@ Label_013B618B:
  .byte   Bn1 ,v092
  .byte   W12
  .byte   PAN , c_v-20
- .byte   VOL , 54*song02_mvl/mxv
+ .byte   VOL , 54*DelfinoPlaza_mvl/mxv
  .byte   N05
  .byte   W12
  .byte   Gs1 ,v100
@@ -4176,7 +4176,7 @@ Label_013B618B:
  .byte   N06 ,An1 ,v088
  .byte   W08
  .byte   PAN , c_v-20
- .byte   VOL , 54*song02_mvl/mxv
+ .byte   VOL , 54*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N05 ,As1 ,v112
  .byte   W12
@@ -4193,7 +4193,7 @@ Label_013B618B:
  .byte   N05 ,Gs1 ,v104
  .byte   W04
  .byte   PAN , c_v-20
- .byte   VOL , 55*song02_mvl/mxv
+ .byte   VOL , 55*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N06
  .byte   W12
@@ -4205,7 +4205,7 @@ Label_013B618B:
  .byte   As1 ,v116
  .byte   W12
  .byte   PAN , c_v-20
- .byte   VOL , 55*song02_mvl/mxv
+ .byte   VOL , 55*DelfinoPlaza_mvl/mxv
  .byte   N05 ,As1 ,v088
  .byte   W12
  .byte   N06 ,Bn1 ,v096
@@ -4217,7 +4217,7 @@ Label_013B618B:
  .byte   N06 ,Gs1 ,v092
  .byte   W08
  .byte   PAN , c_v-20
- .byte   VOL , 55*song02_mvl/mxv
+ .byte   VOL , 55*DelfinoPlaza_mvl/mxv
  .byte   W04
 @  #04 @011   ----------------------------------------
  .byte   N06 ,An1 ,v096
@@ -4233,7 +4233,7 @@ Label_013B618B:
  .byte   N06 ,Bn1 ,v100
  .byte   W04
  .byte   PAN , c_v-20
- .byte   VOL , 55*song02_mvl/mxv
+ .byte   VOL , 55*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N05 ,Bn1 ,v092
  .byte   W12
@@ -4245,7 +4245,7 @@ Label_013B618B:
  .byte   An1 ,v092
  .byte   W12
  .byte   PAN , c_v-20
- .byte   VOL , 55*song02_mvl/mxv
+ .byte   VOL , 55*DelfinoPlaza_mvl/mxv
  .byte   N06 ,An1 ,v080
  .byte   W12
  .byte   N05 ,As1 ,v112
@@ -4257,7 +4257,7 @@ Label_013B618B:
  .byte   N05
  .byte   W08
  .byte   PAN , c_v-20
- .byte   VOL , 56*song02_mvl/mxv
+ .byte   VOL , 56*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N05 ,Gs1 ,v100
  .byte   W12
@@ -4274,7 +4274,7 @@ Label_013B618B:
  .byte   N06 ,An1 ,v127
  .byte   W05
  .byte   PAN , c_v-20
- .byte   VOL , 56*song02_mvl/mxv
+ .byte   VOL , 56*DelfinoPlaza_mvl/mxv
  .byte   W07
  .byte   N04
  .byte   W05
@@ -4293,7 +4293,7 @@ Label_013B618B:
  .byte   N06
  .byte   W01
  .byte   PAN , c_v-20
- .byte   VOL , 56*song02_mvl/mxv
+ .byte   VOL , 56*DelfinoPlaza_mvl/mxv
  .byte   W12
 @  #04 @014   ----------------------------------------
  .byte   N06 ,An1 ,v116
@@ -4305,7 +4305,7 @@ Label_013B618B:
  .byte   N05 ,An1 ,v100
  .byte   W08
  .byte   PAN , c_v-20
- .byte   VOL , 56*song02_mvl/mxv
+ .byte   VOL , 56*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N06 ,An1 ,v104
  .byte   W12
@@ -4319,7 +4319,7 @@ Label_013B618B:
  .byte   N06 ,An1 ,v116
  .byte   W04
  .byte   PAN , c_v-20
- .byte   VOL , 56*song02_mvl/mxv
+ .byte   VOL , 56*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N05 ,An1 ,v112
  .byte   W12
@@ -4330,7 +4330,7 @@ Label_013B618B:
  .byte   N06 ,An1 ,v088
  .byte   W12
  .byte   PAN , c_v-20
- .byte   VOL , 56*song02_mvl/mxv
+ .byte   VOL , 56*DelfinoPlaza_mvl/mxv
  .byte   N05 ,An1 ,v092
  .byte   W12
  .byte   An1 ,v104
@@ -4343,7 +4343,7 @@ Label_013B618B:
  .byte   N04 ,An1 ,v104
  .byte   W08
  .byte   PAN , c_v-20
- .byte   VOL , 56*song02_mvl/mxv
+ .byte   VOL , 56*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N05 ,An1 ,v120
  .byte   W12
@@ -4356,7 +4356,7 @@ Label_013B618B:
  .byte   An1 ,v096
  .byte   W04
  .byte   PAN , c_v-20
- .byte   VOL , 56*song02_mvl/mxv
+ .byte   VOL , 56*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N05 ,An1 ,v116
  .byte   W12
@@ -4368,7 +4368,7 @@ Label_013B618B:
  .byte   N05 ,An1 ,v120
  .byte   W12
  .byte   PAN , c_v-20
- .byte   VOL , 56*song02_mvl/mxv
+ .byte   VOL , 56*DelfinoPlaza_mvl/mxv
  .byte   N05 ,An1 ,v116
  .byte   W12
  .byte   An1 ,v120
@@ -4380,7 +4380,7 @@ Label_013B618B:
  .byte   Cs2
  .byte   W08
  .byte   PAN , c_v-20
- .byte   VOL , 56*song02_mvl/mxv
+ .byte   VOL , 56*DelfinoPlaza_mvl/mxv
  .byte   W04
 @  #04 @018   ----------------------------------------
  .byte   N05 ,An1 ,v096
@@ -4394,7 +4394,7 @@ Label_013B618B:
  .byte   N05
  .byte   W04
  .byte   PAN , c_v-20
- .byte   VOL , 57*song02_mvl/mxv
+ .byte   VOL , 57*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N05 ,An1 ,v100
  .byte   W12
@@ -4406,7 +4406,7 @@ Label_013B618B:
  .byte   An1 ,v120
  .byte   W12
  .byte   PAN , c_v-20
- .byte   VOL , 57*song02_mvl/mxv
+ .byte   VOL , 57*DelfinoPlaza_mvl/mxv
  .byte   N05 ,An1 ,v104
  .byte   W12
  .byte   Bn1 ,v124
@@ -4418,7 +4418,7 @@ Label_013B618B:
  .byte   N05
  .byte   W08
  .byte   PAN , c_v-20
- .byte   VOL , 57*song02_mvl/mxv
+ .byte   VOL , 57*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N04
  .byte   W12
@@ -4432,7 +4432,7 @@ Label_013B618B:
  .byte   N05 ,An1 ,v120
  .byte   W04
  .byte   PAN , c_v-20
- .byte   VOL , 57*song02_mvl/mxv
+ .byte   VOL , 57*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N05
  .byte   W12
@@ -4443,7 +4443,7 @@ Label_013B618B:
  .byte   An1 ,v116
  .byte   W12
  .byte   PAN , c_v-20
- .byte   VOL , 57*song02_mvl/mxv
+ .byte   VOL , 57*DelfinoPlaza_mvl/mxv
  .byte   N05 ,An1 ,v100
  .byte   W12
 @  #04 @021   ----------------------------------------
@@ -4456,7 +4456,7 @@ Label_013B618B:
  .byte   N05
  .byte   W08
  .byte   PAN , c_v-20
- .byte   VOL , 57*song02_mvl/mxv
+ .byte   VOL , 57*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N05
  .byte   W12
@@ -4470,7 +4470,7 @@ Label_013B618B:
  .byte   An1 ,v104
  .byte   W04
  .byte   PAN , c_v-20
- .byte   VOL , 57*song02_mvl/mxv
+ .byte   VOL , 57*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N05 ,An1 ,v088
  .byte   W12
@@ -4481,7 +4481,7 @@ Label_013B618B:
  .byte   N06 ,Bn1 ,v096
  .byte   W12
  .byte   PAN , c_v-20
- .byte   VOL , 57*song02_mvl/mxv
+ .byte   VOL , 57*DelfinoPlaza_mvl/mxv
  .byte   N06 ,Bn1 ,v084
  .byte   W12
  .byte   N05 ,Gs1 ,v100
@@ -4494,7 +4494,7 @@ Label_013B618B:
  .byte   An1 ,v080
  .byte   W08
  .byte   PAN , c_v-20
- .byte   VOL , 57*song02_mvl/mxv
+ .byte   VOL , 57*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N05 ,As1 ,v100
  .byte   W05
@@ -4509,7 +4509,7 @@ Label_013B618B:
  .byte   Gs1 ,v116
  .byte   W04
  .byte   PAN , c_v-20
- .byte   VOL , 57*song02_mvl/mxv
+ .byte   VOL , 57*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N06 ,Gs1 ,v104
  .byte   W12
@@ -4521,7 +4521,7 @@ Label_013B618B:
  .byte   N05 ,As1 ,v112
  .byte   W12
  .byte   PAN , c_v-20
- .byte   VOL , 57*song02_mvl/mxv
+ .byte   VOL , 57*DelfinoPlaza_mvl/mxv
  .byte   N06 ,As1 ,v104
  .byte   W12
  .byte   Bn1 ,v092
@@ -4533,7 +4533,7 @@ Label_013B618B:
  .byte   N07 ,Gs1 ,v092
  .byte   W08
  .byte   PAN , c_v-20
- .byte   VOL , 58*song02_mvl/mxv
+ .byte   VOL , 58*DelfinoPlaza_mvl/mxv
  .byte   W04
 @  #04 @025   ----------------------------------------
  .byte   N07 ,An1 ,v096
@@ -4551,7 +4551,7 @@ Label_013B618B:
  .byte   N06 ,An1 ,v092
  .byte   W04
  .byte   PAN , c_v-20
- .byte   VOL , 58*song02_mvl/mxv
+ .byte   VOL , 58*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N06
  .byte   W12
@@ -4564,7 +4564,7 @@ Label_013B618B:
  .byte   N05 ,Cs2
  .byte   W12
  .byte   PAN , c_v-20
- .byte   VOL , 58*song02_mvl/mxv
+ .byte   VOL , 58*DelfinoPlaza_mvl/mxv
  .byte   N05 ,An1
  .byte   N05 ,Cs2
  .byte   W12
@@ -4581,7 +4581,7 @@ Label_013B618B:
  .byte   N05 ,Bn1
  .byte   W08
  .byte   PAN , c_v-20
- .byte   VOL , 58*song02_mvl/mxv
+ .byte   VOL , 58*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N05 ,Gn1
  .byte   N05 ,Bn1
@@ -4600,7 +4600,7 @@ Label_013B618B:
  .byte   N05 ,Bn1
  .byte   W04
  .byte   PAN , c_v-20
- .byte   VOL , 58*song02_mvl/mxv
+ .byte   VOL , 58*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N05 ,Gs1
  .byte   N05 ,Bn1
@@ -4615,7 +4615,7 @@ Label_013B618B:
  .byte   N05 ,Cs2
  .byte   W12
  .byte   PAN , c_v-20
- .byte   VOL , 59*song02_mvl/mxv
+ .byte   VOL , 59*DelfinoPlaza_mvl/mxv
  .byte   N05 ,An1
  .byte   N05 ,Cs2
  .byte   W12
@@ -4633,7 +4633,7 @@ Label_013B618B:
  .byte   N05 ,Cs2
  .byte   W08
  .byte   PAN , c_v-20
- .byte   VOL , 59*song02_mvl/mxv
+ .byte   VOL , 59*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N05 ,Gn1
  .byte   N05 ,Bn1
@@ -4652,7 +4652,7 @@ Label_013B618B:
  .byte   N05 ,Cs2
  .byte   W04
  .byte   PAN , c_v-20
- .byte   VOL , 59*song02_mvl/mxv
+ .byte   VOL , 59*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N05 ,An1
  .byte   N05 ,Cs2
@@ -4667,7 +4667,7 @@ Label_013B618B:
  .byte   N05 ,Cs2
  .byte   W12
  .byte   PAN , c_v-20
- .byte   VOL , 59*song02_mvl/mxv
+ .byte   VOL , 59*DelfinoPlaza_mvl/mxv
  .byte   N05 ,An1
  .byte   N05 ,Cs2
  .byte   W12
@@ -4685,7 +4685,7 @@ Label_013B618B:
  .byte   N05 ,En2
  .byte   W08
  .byte   PAN , c_v-20
- .byte   VOL , 59*song02_mvl/mxv
+ .byte   VOL , 59*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N05 ,Cn2
  .byte   N05 ,En2
@@ -4703,7 +4703,7 @@ Label_013B618B:
  .byte   N05 ,Dn2
  .byte   W04
  .byte   PAN , c_v-20
- .byte   VOL , 59*song02_mvl/mxv
+ .byte   VOL , 59*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N05 ,As1
  .byte   N05 ,Dn2
@@ -4719,7 +4719,7 @@ Label_013B618B:
  .byte   N05 ,En2
  .byte   W12
  .byte   PAN , c_v-20
- .byte   VOL , 59*song02_mvl/mxv
+ .byte   VOL , 59*DelfinoPlaza_mvl/mxv
  .byte   N05 ,Cn2
  .byte   N05 ,En2
  .byte   W12
@@ -4736,7 +4736,7 @@ Label_013B618B:
  .byte   N05 ,En2
  .byte   W08
  .byte   PAN , c_v-20
- .byte   VOL , 59*song02_mvl/mxv
+ .byte   VOL , 59*DelfinoPlaza_mvl/mxv
  .byte   W04
 @  #04 @032   ----------------------------------------
  .byte   N05 ,Cn2
@@ -4755,7 +4755,7 @@ Label_013B618B:
  .byte   N05 ,Dn2
  .byte   W04
  .byte   PAN , c_v-20
- .byte   VOL , 59*song02_mvl/mxv
+ .byte   VOL , 59*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N05 ,As1
  .byte   N05 ,Dn2
@@ -4771,7 +4771,7 @@ Label_013B618B:
  .byte   N05 ,En2
  .byte   W12
  .byte   PAN , c_v-20
- .byte   VOL , 59*song02_mvl/mxv
+ .byte   VOL , 59*DelfinoPlaza_mvl/mxv
  .byte   N05 ,Cn2
  .byte   N05 ,En2
  .byte   W12
@@ -4788,7 +4788,7 @@ Label_013B618B:
  .byte   N05 ,En2
  .byte   W08
  .byte   PAN , c_v-20
- .byte   VOL , 59*song02_mvl/mxv
+ .byte   VOL , 59*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N05 ,Cn2
  .byte   N05 ,En2
@@ -4804,7 +4804,7 @@ Label_013B618B:
  .byte   N05
  .byte   W04
  .byte   PAN , c_v-20
- .byte   VOL , 60*song02_mvl/mxv
+ .byte   VOL , 60*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N05
  .byte   W12
@@ -4815,7 +4815,7 @@ Label_013B618B:
  .byte   N05
  .byte   W12
  .byte   PAN , c_v-20
- .byte   VOL , 60*song02_mvl/mxv
+ .byte   VOL , 60*DelfinoPlaza_mvl/mxv
  .byte   N05
  .byte   W12
 @  #04 @035   ----------------------------------------
@@ -4828,7 +4828,7 @@ Label_013B618B:
  .byte   N05
  .byte   W08
  .byte   PAN , c_v-20
- .byte   VOL , 60*song02_mvl/mxv
+ .byte   VOL , 60*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N05
  .byte   W12
@@ -4842,7 +4842,7 @@ Label_013B618B:
  .byte   Cs2
  .byte   W04
  .byte   PAN , c_v-20
- .byte   VOL , 60*song02_mvl/mxv
+ .byte   VOL , 60*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N05
  .byte   W12
@@ -4853,7 +4853,7 @@ Label_013B618B:
  .byte   Ds2
  .byte   W12
  .byte   PAN , c_v-20
- .byte   VOL , 60*song02_mvl/mxv
+ .byte   VOL , 60*DelfinoPlaza_mvl/mxv
  .byte   N05
  .byte   W12
  .byte   N05
@@ -4866,7 +4866,7 @@ Label_013B618B:
  .byte   N05
  .byte   W08
  .byte   PAN , c_v-20
- .byte   VOL , 61*song02_mvl/mxv
+ .byte   VOL , 61*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N05
  .byte   W12
@@ -4882,7 +4882,7 @@ Label_013B618B:
  .byte   N05 ,Dn2
  .byte   W04
  .byte   PAN , c_v-20
- .byte   VOL , 61*song02_mvl/mxv
+ .byte   VOL , 61*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N05 ,Bn1
  .byte   N05 ,Dn2
@@ -4895,7 +4895,7 @@ Label_013B618B:
  .byte   As1
  .byte   W12
  .byte   PAN , c_v-20
- .byte   VOL , 61*song02_mvl/mxv
+ .byte   VOL , 61*DelfinoPlaza_mvl/mxv
  .byte   N05
  .byte   W12
  .byte   Bn1
@@ -4907,7 +4907,7 @@ Label_013B618B:
  .byte   N05
  .byte   W08
  .byte   PAN , c_v-20
- .byte   VOL , 61*song02_mvl/mxv
+ .byte   VOL , 61*DelfinoPlaza_mvl/mxv
  .byte   W04
 @  #04 @039   ----------------------------------------
  .byte   N05 ,An1
@@ -4921,7 +4921,7 @@ Label_013B618B:
  .byte   Bn1
  .byte   W04
  .byte   PAN , c_v-20
- .byte   VOL , 61*song02_mvl/mxv
+ .byte   VOL , 61*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N05
  .byte   W12
@@ -4935,7 +4935,7 @@ Label_013B618B:
  .byte   N05 ,An1
  .byte   W12
  .byte   PAN , c_v-20
- .byte   VOL , 61*song02_mvl/mxv
+ .byte   VOL , 61*DelfinoPlaza_mvl/mxv
  .byte   N05
  .byte   W12
  .byte   As1
@@ -4959,7 +4959,7 @@ Label_013B618B:
  .byte   N05 ,Dn2
  .byte   W08
  .byte   PAN , c_v-20
- .byte   VOL , 61*song02_mvl/mxv
+ .byte   VOL , 61*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N05 ,Bn1
  .byte   N05 ,Dn2
@@ -4984,7 +4984,7 @@ Label_013B618B:
  .byte   MOD 0
  .byte   W01
  .byte   PAN , c_v-20
- .byte   VOL , 61*song02_mvl/mxv
+ .byte   VOL , 61*DelfinoPlaza_mvl/mxv
  .byte   W07
  .byte   N03 ,En2 ,v092
  .byte   W01
@@ -5013,7 +5013,7 @@ Label_013B618B:
  .byte   N02 ,En2 ,v124
  .byte   W04
  .byte   PAN , c_v-20
- .byte   VOL , 61*song02_mvl/mxv
+ .byte   VOL , 61*DelfinoPlaza_mvl/mxv
  .byte   W01
  .byte   N04
  .byte   W03
@@ -5029,7 +5029,7 @@ Label_013B618B:
  .byte   N05
  .byte   W08
  .byte   PAN , c_v-20
- .byte   VOL , 61*song02_mvl/mxv
+ .byte   VOL , 61*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N05 ,Bn1
  .byte   W12
@@ -5043,7 +5043,7 @@ Label_013B618B:
  .byte   An1
  .byte   W04
  .byte   PAN , c_v-20
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N05
  .byte   W12
@@ -5054,7 +5054,7 @@ Label_013B618B:
  .byte   Bn1
  .byte   W12
  .byte   PAN , c_v-20
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*DelfinoPlaza_mvl/mxv
  .byte   N05
  .byte   W12
  .byte   Gs1
@@ -5067,7 +5067,7 @@ Label_013B618B:
  .byte   N05
  .byte   W08
  .byte   PAN , c_v-20
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N05 ,As1
  .byte   W12
@@ -5080,7 +5080,7 @@ Label_013B618B:
  .byte   Gs1
  .byte   W04
  .byte   PAN , c_v-20
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N05
  .byte   W12
@@ -5092,7 +5092,7 @@ Label_013B618B:
  .byte   As1
  .byte   W12
  .byte   PAN , c_v-20
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*DelfinoPlaza_mvl/mxv
  .byte   N05
  .byte   W12
  .byte   Bn1
@@ -5104,7 +5104,7 @@ Label_013B618B:
  .byte   N05
  .byte   W08
  .byte   PAN , c_v-21
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*DelfinoPlaza_mvl/mxv
  .byte   W04
 @  #04 @046   ----------------------------------------
  .byte   N05 ,An1
@@ -5118,7 +5118,7 @@ Label_013B618B:
  .byte   Bn1
  .byte   W04
  .byte   PAN , c_v-21
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N05
  .byte   W12
@@ -5130,7 +5130,7 @@ Label_013B618B:
  .byte   An1
  .byte   W12
  .byte   PAN , c_v-21
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*DelfinoPlaza_mvl/mxv
  .byte   N05
  .byte   W12
  .byte   As1
@@ -5142,7 +5142,7 @@ Label_013B618B:
  .byte   N05
  .byte   W08
  .byte   PAN , c_v-21
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N05 ,Gs1
  .byte   W12
@@ -5156,7 +5156,7 @@ Label_013B618B:
  .byte   As1
  .byte   W04
  .byte   PAN , c_v-21
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N05
  .byte   W12
@@ -5230,7 +5230,7 @@ Label_013B618B:
  .byte   N05
  .byte   W12
 @  #04 @052   ----------------------------------------
- .byte   VOL , 54*song02_mvl/mxv
+ .byte   VOL , 54*DelfinoPlaza_mvl/mxv
  .byte   N06 ,An1 ,v104
  .byte   W12
  .byte   N05 ,An1 ,v088
@@ -5238,7 +5238,7 @@ Label_013B618B:
  .byte   As1 ,v116
  .byte   W12
  .byte   PAN , c_v-21
- .byte   VOL , 54*song02_mvl/mxv
+ .byte   VOL , 54*DelfinoPlaza_mvl/mxv
  .byte   N05 ,As1 ,v088
  .byte   W12
  .byte   N06 ,Bn1 ,v096
@@ -5250,7 +5250,7 @@ Label_013B618B:
  .byte   N06 ,Gs1 ,v092
  .byte   W08
  .byte   PAN , c_v-21
- .byte   VOL , 54*song02_mvl/mxv
+ .byte   VOL , 54*DelfinoPlaza_mvl/mxv
  .byte   W04
 @  #04 @053   ----------------------------------------
  .byte   N06 ,An1 ,v096
@@ -5266,7 +5266,7 @@ Label_013B618B:
  .byte   N06 ,Bn1 ,v100
  .byte   W04
  .byte   PAN , c_v-21
- .byte   VOL , 54*song02_mvl/mxv
+ .byte   VOL , 54*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N05 ,Bn1 ,v092
  .byte   W12
@@ -5278,7 +5278,7 @@ Label_013B618B:
  .byte   An1 ,v092
  .byte   W12
  .byte   PAN , c_v-21
- .byte   VOL , 54*song02_mvl/mxv
+ .byte   VOL , 54*DelfinoPlaza_mvl/mxv
  .byte   N06 ,An1 ,v080
  .byte   W12
  .byte   N05 ,As1 ,v112
@@ -5290,7 +5290,7 @@ Label_013B618B:
  .byte   N05
  .byte   W08
  .byte   PAN , c_v-21
- .byte   VOL , 54*song02_mvl/mxv
+ .byte   VOL , 54*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N05 ,Gs1 ,v100
  .byte   W12
@@ -5304,7 +5304,7 @@ Label_013B618B:
  .byte   N05 ,As1 ,v112
  .byte   W04
  .byte   PAN , c_v-21
- .byte   VOL , 54*song02_mvl/mxv
+ .byte   VOL , 54*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N06 ,As1 ,v104
  .byte   W04
@@ -5319,7 +5319,7 @@ Label_013B618B:
  .byte   N05 ,Gs1 ,v104
  .byte   W12
  .byte   PAN , c_v-21
- .byte   VOL , 55*song02_mvl/mxv
+ .byte   VOL , 55*DelfinoPlaza_mvl/mxv
  .byte   N06
  .byte   W12
 @  #04 @056   ----------------------------------------
@@ -5332,7 +5332,7 @@ Label_013B618B:
  .byte   As1 ,v088
  .byte   W08
  .byte   PAN , c_v-21
- .byte   VOL , 55*song02_mvl/mxv
+ .byte   VOL , 55*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N06 ,Bn1 ,v096
  .byte   W12
@@ -5346,7 +5346,7 @@ Label_013B618B:
  .byte   An1 ,v096
  .byte   W04
  .byte   PAN , c_v-21
- .byte   VOL , 55*song02_mvl/mxv
+ .byte   VOL , 55*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N06 ,An1 ,v080
  .byte   W12
@@ -5359,7 +5359,7 @@ Label_013B618B:
  .byte   N06 ,Bn1 ,v100
  .byte   W12
  .byte   PAN , c_v-21
- .byte   VOL , 55*song02_mvl/mxv
+ .byte   VOL , 55*DelfinoPlaza_mvl/mxv
  .byte   N05 ,Bn1 ,v092
  .byte   W12
  .byte   Gs1 ,v116
@@ -5372,7 +5372,7 @@ Label_013B618B:
  .byte   An1 ,v080
  .byte   W08
  .byte   PAN , c_v-20
- .byte   VOL , 55*song02_mvl/mxv
+ .byte   VOL , 55*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N05 ,As1 ,v112
  .byte   W12
@@ -5385,7 +5385,7 @@ Label_013B618B:
  .byte   Gs1 ,v100
  .byte   W04
  .byte   PAN , c_v-20
- .byte   VOL , 56*song02_mvl/mxv
+ .byte   VOL , 56*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N07 ,Gs1 ,v092
  .byte   W09
@@ -5402,7 +5402,7 @@ Label_013B618B:
  .byte   N04
  .byte   W01
  .byte   PAN , c_v-20
- .byte   VOL , 56*song02_mvl/mxv
+ .byte   VOL , 56*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N04
  .byte   W06
@@ -5419,7 +5419,7 @@ Label_013B618B:
  .byte   N06
  .byte   W09
  .byte   PAN , c_v-20
- .byte   VOL , 56*song02_mvl/mxv
+ .byte   VOL , 56*DelfinoPlaza_mvl/mxv
  .byte   W04
 @  #04 @060   ----------------------------------------
  .byte   N06 ,An1 ,v116
@@ -5433,7 +5433,7 @@ Label_013B618B:
  .byte   N06 ,An1 ,v104
  .byte   W04
  .byte   PAN , c_v-20
- .byte   VOL , 56*song02_mvl/mxv
+ .byte   VOL , 56*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N05 ,An1 ,v112
  .byte   W12
@@ -5445,7 +5445,7 @@ Label_013B618B:
  .byte   N06 ,An1 ,v116
  .byte   W12
  .byte   PAN , c_v-20
- .byte   VOL , 56*song02_mvl/mxv
+ .byte   VOL , 56*DelfinoPlaza_mvl/mxv
  .byte   N05 ,An1 ,v112
  .byte   W12
  .byte   An1 ,v100
@@ -5457,7 +5457,7 @@ Label_013B618B:
  .byte   N05 ,An1 ,v092
  .byte   W08
  .byte   PAN , c_v-20
- .byte   VOL , 56*song02_mvl/mxv
+ .byte   VOL , 56*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N05 ,An1 ,v104
  .byte   W12
@@ -5471,7 +5471,7 @@ Label_013B618B:
  .byte   N05 ,An1 ,v120
  .byte   W04
  .byte   PAN , c_v-20
- .byte   VOL , 56*song02_mvl/mxv
+ .byte   VOL , 56*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N04 ,An1 ,v116
  .byte   W12
@@ -5482,7 +5482,7 @@ Label_013B618B:
  .byte   An1 ,v096
  .byte   W12
  .byte   PAN , c_v-20
- .byte   VOL , 56*song02_mvl/mxv
+ .byte   VOL , 56*DelfinoPlaza_mvl/mxv
  .byte   N05 ,An1 ,v116
  .byte   W12
 @  #04 @063   ----------------------------------------
@@ -5495,7 +5495,7 @@ Label_013B618B:
  .byte   An1 ,v116
  .byte   W08
  .byte   PAN , c_v-20
- .byte   VOL , 56*song02_mvl/mxv
+ .byte   VOL , 56*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N05 ,An1 ,v120
  .byte   W12
@@ -5509,7 +5509,7 @@ Label_013B618B:
  .byte   An1 ,v096
  .byte   W04
  .byte   PAN , c_v-20
- .byte   VOL , 56*song02_mvl/mxv
+ .byte   VOL , 56*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N05 ,An1 ,v112
  .byte   W12
@@ -5520,7 +5520,7 @@ Label_013B618B:
  .byte   N05
  .byte   W12
  .byte   PAN , c_v-20
- .byte   VOL , 57*song02_mvl/mxv
+ .byte   VOL , 57*DelfinoPlaza_mvl/mxv
  .byte   N05 ,An1 ,v100
  .byte   W12
  .byte   An1 ,v112
@@ -5533,7 +5533,7 @@ Label_013B618B:
  .byte   An1 ,v104
  .byte   W08
  .byte   PAN , c_v-20
- .byte   VOL , 57*song02_mvl/mxv
+ .byte   VOL , 57*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N05 ,Bn1 ,v124
  .byte   W12
@@ -5546,7 +5546,7 @@ Label_013B618B:
  .byte   N04
  .byte   W04
  .byte   PAN , c_v-20
- .byte   VOL , 57*song02_mvl/mxv
+ .byte   VOL , 57*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N04
  .byte   W12
@@ -5558,7 +5558,7 @@ Label_013B618B:
  .byte   N05 ,An1 ,v120
  .byte   W12
  .byte   PAN , c_v-20
- .byte   VOL , 57*song02_mvl/mxv
+ .byte   VOL , 57*DelfinoPlaza_mvl/mxv
  .byte   N05
  .byte   W12
  .byte   An1 ,v116
@@ -5570,7 +5570,7 @@ Label_013B618B:
  .byte   An1 ,v100
  .byte   W08
  .byte   PAN , c_v-20
- .byte   VOL , 57*song02_mvl/mxv
+ .byte   VOL , 57*DelfinoPlaza_mvl/mxv
  .byte   W04
 @  #04 @067   ----------------------------------------
  .byte   N06 ,Gs1 ,v127
@@ -5584,7 +5584,7 @@ Label_013B618B:
  .byte   N05
  .byte   W04
  .byte   PAN , c_v-20
- .byte   VOL , 57*song02_mvl/mxv
+ .byte   VOL , 57*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N05 ,Gs1 ,v124
  .byte   W12
@@ -5596,7 +5596,7 @@ Label_013B618B:
  .byte   An1 ,v104
  .byte   W12
  .byte   PAN , c_v-20
- .byte   VOL , 57*song02_mvl/mxv
+ .byte   VOL , 57*DelfinoPlaza_mvl/mxv
  .byte   N05 ,An1 ,v088
  .byte   W12
  .byte   As1 ,v116
@@ -5608,7 +5608,7 @@ Label_013B618B:
  .byte   Bn1 ,v084
  .byte   W08
  .byte   PAN , c_v-20
- .byte   VOL , 57*song02_mvl/mxv
+ .byte   VOL , 57*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N05 ,Gs1 ,v100
  .byte   W12
@@ -5622,7 +5622,7 @@ Label_013B618B:
  .byte   N05 ,As1 ,v100
  .byte   W04
  .byte   PAN , c_v-20
- .byte   VOL , 57*song02_mvl/mxv
+ .byte   VOL , 57*DelfinoPlaza_mvl/mxv
  .byte   W01
  .byte   W01
  .byte   W06
@@ -5635,7 +5635,7 @@ Label_013B618B:
  .byte   Gs1 ,v116
  .byte   W12
  .byte   PAN , c_v-20
- .byte   VOL , 57*song02_mvl/mxv
+ .byte   VOL , 57*DelfinoPlaza_mvl/mxv
  .byte   N06 ,Gs1 ,v104
  .byte   W12
 @  #04 @070   ----------------------------------------
@@ -5648,7 +5648,7 @@ Label_013B618B:
  .byte   N06 ,As1 ,v104
  .byte   W08
  .byte   PAN , c_v-20
- .byte   VOL , 57*song02_mvl/mxv
+ .byte   VOL , 57*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N06 ,Bn1 ,v092
  .byte   W12
@@ -5662,7 +5662,7 @@ Label_013B618B:
  .byte   An1 ,v096
  .byte   W04
  .byte   PAN , c_v-20
- .byte   VOL , 58*song02_mvl/mxv
+ .byte   VOL , 58*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N06 ,An1 ,v088
  .byte   W12
@@ -5677,7 +5677,7 @@ Label_013B618B:
  .byte   N06 ,An1 ,v092
  .byte   W12
  .byte   PAN , c_v-20
- .byte   VOL , 58*song02_mvl/mxv
+ .byte   VOL , 58*DelfinoPlaza_mvl/mxv
  .byte   N06
  .byte   W12
  .byte   N05 ,An1 ,v104
@@ -5692,7 +5692,7 @@ Label_013B618B:
  .byte   N05 ,Cs2
  .byte   W08
  .byte   PAN , c_v-20
- .byte   VOL , 58*song02_mvl/mxv
+ .byte   VOL , 58*DelfinoPlaza_mvl/mxv
  .byte   W04
  .byte   N05 ,An1
  .byte   N05 ,Cs2
@@ -5710,7 +5710,7 @@ Label_013B618B:
  .byte   N05 ,Bn1
  .byte   W04
  .byte   PAN , c_v-20
- .byte   VOL , 58*song02_mvl/mxv
+ .byte   VOL , 58*DelfinoPlaza_mvl/mxv
  .byte   W08
  .byte   N05 ,Gn1
  .byte   N05 ,Bn1
@@ -5726,7 +5726,7 @@ Label_013B618B:
  .byte   N05 ,Bn1
  .byte   W12
  .byte   PAN , c_v-20
- .byte   VOL , 58*song02_mvl/mxv
+ .byte   VOL , 58*DelfinoPlaza_mvl/mxv
  .byte   N05 ,Gs1
  .byte   N05 ,Bn1
  .byte   W12
@@ -5743,7 +5743,7 @@ Label_013B618B:
  .byte   N05 ,Cs2
  .byte   W08
  .byte   PAN , c_v-20
- .byte   VOL , 59*song02_mvl/mxv
+ .byte   VOL , 59*DelfinoPlaza_mvl/mxv
  .byte   W04
 @  #04 @074   ----------------------------------------
  .byte   N05 ,An1
@@ -5762,7 +5762,7 @@ Label_013B618B:
  .byte   N05 ,Bn1
  .byte   W07
  .byte   PAN , c_v-20
- .byte   VOL , 59*song02_mvl/mxv
+ .byte   VOL , 59*DelfinoPlaza_mvl/mxv
  .byte   W05
  .byte   N05 ,Gn1
  .byte   N05 ,Bn1
@@ -5781,7 +5781,7 @@ Label_013B618B:
  .byte   N05 ,Cs2
  .byte   W03
  .byte   PAN , c_v-20
- .byte   VOL , 59*song02_mvl/mxv
+ .byte   VOL , 59*DelfinoPlaza_mvl/mxv
  .byte   W09
  .byte   N05 ,An1
  .byte   N05 ,Cs2
@@ -5796,7 +5796,7 @@ Label_013B618B:
  .byte   N05 ,Cs2
  .byte   W11
  .byte   PAN , c_v-20
- .byte   VOL , 59*song02_mvl/mxv
+ .byte   VOL , 59*DelfinoPlaza_mvl/mxv
  .byte   W01
  .byte   N05 ,As1
  .byte   N05 ,Dn2
@@ -5815,7 +5815,7 @@ Label_013B618B:
  .byte   N05 ,En2
  .byte   W07
  .byte   PAN , c_v-20
- .byte   VOL , 59*song02_mvl/mxv
+ .byte   VOL , 59*DelfinoPlaza_mvl/mxv
  .byte   W05
  .byte   N05 ,Cn2
  .byte   N05 ,En2
@@ -5833,7 +5833,7 @@ Label_013B618B:
  .byte   N05 ,Dn2
  .byte   W03
  .byte   PAN , c_v-20
- .byte   VOL , 59*song02_mvl/mxv
+ .byte   VOL , 59*DelfinoPlaza_mvl/mxv
  .byte   W09
 @  #04 @077   ----------------------------------------
  .byte   N05 ,Cn2
@@ -5849,7 +5849,7 @@ Label_013B618B:
  .byte   N05 ,En2
  .byte   W11
  .byte   PAN , c_v-20
- .byte   VOL , 59*song02_mvl/mxv
+ .byte   VOL , 59*DelfinoPlaza_mvl/mxv
  .byte   W01
  .byte   N05 ,Cn2
  .byte   N05 ,En2
@@ -5868,7 +5868,7 @@ Label_013B618B:
  .byte   N05 ,En2
  .byte   W07
  .byte   PAN , c_v-20
- .byte   VOL , 59*song02_mvl/mxv
+ .byte   VOL , 59*DelfinoPlaza_mvl/mxv
  .byte   W05
  .byte   N05 ,Cn2
  .byte   N05 ,En2
@@ -5886,7 +5886,7 @@ Label_013B618B:
  .byte   N05 ,Dn2
  .byte   W03
  .byte   PAN , c_v-20
- .byte   VOL , 59*song02_mvl/mxv
+ .byte   VOL , 59*DelfinoPlaza_mvl/mxv
  .byte   W09
  .byte   N05 ,As1
  .byte   N05 ,Dn2
@@ -5902,7 +5902,7 @@ Label_013B618B:
  .byte   N05 ,En2
  .byte   W11
  .byte   PAN , c_v-20
- .byte   VOL , 59*song02_mvl/mxv
+ .byte   VOL , 59*DelfinoPlaza_mvl/mxv
  .byte   W01
  .byte   N05 ,Cn2
  .byte   N05 ,En2
@@ -5920,7 +5920,7 @@ Label_013B618B:
  .byte   N05 ,En2
  .byte   W07
  .byte   PAN , c_v-20
- .byte   VOL , 59*song02_mvl/mxv
+ .byte   VOL , 59*DelfinoPlaza_mvl/mxv
  .byte   W05
  .byte   N05 ,Cn2
  .byte   N05 ,En2
@@ -5935,7 +5935,7 @@ Label_013B618B:
  .byte   N05
  .byte   W03
  .byte   PAN , c_v-20
- .byte   VOL , 60*song02_mvl/mxv
+ .byte   VOL , 60*DelfinoPlaza_mvl/mxv
  .byte   W09
  .byte   N05 ,Ds2
  .byte   W12
@@ -5946,7 +5946,7 @@ Label_013B618B:
  .byte   N05
  .byte   W11
  .byte   PAN , c_v-20
- .byte   VOL , 60*song02_mvl/mxv
+ .byte   VOL , 60*DelfinoPlaza_mvl/mxv
  .byte   W01
 @  #04 @081   ----------------------------------------
  .byte   N05 ,Bn1
@@ -5960,7 +5960,7 @@ Label_013B618B:
  .byte   N05
  .byte   W07
  .byte   PAN , c_v-20
- .byte   VOL , 60*song02_mvl/mxv
+ .byte   VOL , 60*DelfinoPlaza_mvl/mxv
  .byte   W05
  .byte   N05
  .byte   W12
@@ -5974,7 +5974,7 @@ Label_013B618B:
  .byte   N05
  .byte   W03
  .byte   PAN , c_v-20
- .byte   VOL , 60*song02_mvl/mxv
+ .byte   VOL , 60*DelfinoPlaza_mvl/mxv
  .byte   W09
  .byte   N05
  .byte   W12
@@ -5985,7 +5985,7 @@ Label_013B618B:
  .byte   N05
  .byte   W11
  .byte   PAN , c_v-20
- .byte   VOL , 60*song02_mvl/mxv
+ .byte   VOL , 60*DelfinoPlaza_mvl/mxv
  .byte   W01
  .byte   N05
  .byte   W12
@@ -5999,7 +5999,7 @@ Label_013B618B:
  .byte   N05
  .byte   W07
  .byte   PAN , c_v-20
- .byte   VOL , 61*song02_mvl/mxv
+ .byte   VOL , 61*DelfinoPlaza_mvl/mxv
  .byte   W05
  .byte   N05
  .byte   W12
@@ -6016,7 +6016,7 @@ Label_013B618B:
  .byte   N05 ,Dn2
  .byte   W03
  .byte   PAN , c_v-20
- .byte   VOL , 61*song02_mvl/mxv
+ .byte   VOL , 61*DelfinoPlaza_mvl/mxv
  .byte   W09
 @  #04 @084   ----------------------------------------
  .byte   N05 ,An1
@@ -6028,7 +6028,7 @@ Label_013B618B:
  .byte   N05
  .byte   W11
  .byte   PAN , c_v-20
- .byte   VOL , 61*song02_mvl/mxv
+ .byte   VOL , 61*DelfinoPlaza_mvl/mxv
  .byte   W01
  .byte   N05 ,Bn1
  .byte   W12
@@ -6042,7 +6042,7 @@ Label_013B618B:
  .byte   An1
  .byte   W07
  .byte   PAN , c_v-20
- .byte   VOL , 61*song02_mvl/mxv
+ .byte   VOL , 61*DelfinoPlaza_mvl/mxv
  .byte   W05
  .byte   N05
  .byte   W12
@@ -6055,7 +6055,7 @@ Label_013B618B:
  .byte   N05
  .byte   W03
  .byte   PAN , c_v-20
- .byte   VOL , 61*song02_mvl/mxv
+ .byte   VOL , 61*DelfinoPlaza_mvl/mxv
  .byte   W09
  .byte   N05 ,Gs1
  .byte   W12
@@ -6069,7 +6069,7 @@ Label_013B618B:
  .byte   N05
  .byte   W11
  .byte   PAN , c_v-20
- .byte   VOL , 61*song02_mvl/mxv
+ .byte   VOL , 61*DelfinoPlaza_mvl/mxv
  .byte   W01
  .byte   N05 ,As1
  .byte   W07
@@ -6096,7 +6096,7 @@ Label_013B618B:
  .byte   N05 ,En2
  .byte   W07
  .byte   PAN , c_v-20
- .byte   VOL , 61*song02_mvl/mxv
+ .byte   VOL , 61*DelfinoPlaza_mvl/mxv
  .byte   W05
  .byte   N05 ,Bn1
  .byte   N05 ,Dn2
@@ -6123,7 +6123,7 @@ Label_013B618B:
  .byte   N03 ,En2 ,v112
  .byte   W01
  .byte   PAN , c_v-20
- .byte   VOL , 61*song02_mvl/mxv
+ .byte   VOL , 61*DelfinoPlaza_mvl/mxv
  .byte   W05
  .byte   N05 ,En2 ,v116
  .byte   W04
@@ -6150,7 +6150,7 @@ Label_013B618B:
  .byte   An1 ,v120
  .byte   W07
  .byte   PAN , c_v-20
- .byte   VOL , 61*song02_mvl/mxv
+ .byte   VOL , 61*DelfinoPlaza_mvl/mxv
  .byte   W01
 @  #04 @088   ----------------------------------------
  .byte   N05 ,An1 ,v100
@@ -6164,7 +6164,7 @@ Label_013B618B:
  .byte   Bn1
  .byte   W07
  .byte   PAN , c_v-20
- .byte   VOL , 61*song02_mvl/mxv
+ .byte   VOL , 61*DelfinoPlaza_mvl/mxv
  .byte   W05
  .byte   N05
  .byte   W12
@@ -6178,7 +6178,7 @@ Label_013B618B:
  .byte   N05
  .byte   W03
  .byte   PAN , c_v-20
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*DelfinoPlaza_mvl/mxv
  .byte   W09
  .byte   N05 ,As1
  .byte   W12
@@ -6189,7 +6189,7 @@ Label_013B618B:
  .byte   N05
  .byte   W11
  .byte   PAN , c_v-20
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*DelfinoPlaza_mvl/mxv
  .byte   W01
  .byte   N05 ,Gs1
  .byte   W12
@@ -6203,7 +6203,7 @@ Label_013B618B:
  .byte   As1
  .byte   W07
  .byte   PAN , c_v-20
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*DelfinoPlaza_mvl/mxv
  .byte   W05
  .byte   N05
  .byte   W12
@@ -6216,7 +6216,7 @@ Label_013B618B:
  .byte   N05
  .byte   W03
  .byte   PAN , c_v-20
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*DelfinoPlaza_mvl/mxv
  .byte   W09
 @  #04 @091   ----------------------------------------
  .byte   N05 ,An1
@@ -6228,7 +6228,7 @@ Label_013B618B:
  .byte   N05
  .byte   W11
  .byte   PAN , c_v-20
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*DelfinoPlaza_mvl/mxv
  .byte   W01
  .byte   N05 ,Bn1
  .byte   W12
@@ -6242,7 +6242,7 @@ Label_013B618B:
  .byte   An1
  .byte   W07
  .byte   PAN , c_v-20
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*DelfinoPlaza_mvl/mxv
  .byte   W05
  .byte   N05
  .byte   W12
@@ -6255,7 +6255,7 @@ Label_013B618B:
  .byte   N05
  .byte   W03
  .byte   PAN , c_v-20
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*DelfinoPlaza_mvl/mxv
  .byte   W09
  .byte   N05 ,Gs1
  .byte   W12
@@ -6267,7 +6267,7 @@ Label_013B618B:
  .byte   N05
  .byte   W11
  .byte   PAN , c_v-20
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*DelfinoPlaza_mvl/mxv
  .byte   W01
  .byte   N05 ,As1
  .byte   W12
@@ -6280,7 +6280,7 @@ Label_013B618B:
  .byte   Gs1
  .byte   W07
  .byte   PAN , c_v-20
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*DelfinoPlaza_mvl/mxv
  .byte   W05
  .byte   N05
  .byte   W12
@@ -6294,7 +6294,7 @@ Label_013B618B:
  .byte   N05
  .byte   W03
  .byte   PAN , c_v-20
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*DelfinoPlaza_mvl/mxv
  .byte   W09
  .byte   N05 ,Bn1
  .byte   W12
@@ -6373,9 +6373,9 @@ Label_013B618B:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song02_005:
+DelfinoPlaza_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , DelfinoPlaza_key+0
  .byte   VOICE , 124
  .byte   W96
 @  #05 @001   ----------------------------------------
@@ -6484,21 +6484,21 @@ Label_013B3A3F:
 @  #05 @051   ----------------------------------------
  .byte   W36
  .byte   W01
- .byte   VOL , 62*song02_mvl/mxv
+ .byte   VOL , 62*DelfinoPlaza_mvl/mxv
  .byte   W09
- .byte   VOL , 61*song02_mvl/mxv
+ .byte   VOL , 61*DelfinoPlaza_mvl/mxv
  .byte   W08
- .byte   VOL , 61*song02_mvl/mxv
+ .byte   VOL , 61*DelfinoPlaza_mvl/mxv
  .byte   W08
- .byte   VOL , 60*song02_mvl/mxv
+ .byte   VOL , 60*DelfinoPlaza_mvl/mxv
  .byte   W09
- .byte   VOL , 59*song02_mvl/mxv
+ .byte   VOL , 59*DelfinoPlaza_mvl/mxv
  .byte   W05
- .byte   VOL , 59*song02_mvl/mxv
+ .byte   VOL , 59*DelfinoPlaza_mvl/mxv
  .byte   W09
- .byte   VOL , 58*song02_mvl/mxv
+ .byte   VOL , 58*DelfinoPlaza_mvl/mxv
  .byte   W08
- .byte   VOL , 57*song02_mvl/mxv
+ .byte   VOL , 57*DelfinoPlaza_mvl/mxv
  .byte   W03
 @  #05 @052   ----------------------------------------
  .byte   N05 ,Cn3 ,v100
@@ -6515,7 +6515,7 @@ Label_013B3A3F:
  .byte   W03
  .byte   N11 ,Cs3
  .byte   W12
- .byte   VOL , 57*song02_mvl/mxv
+ .byte   VOL , 57*DelfinoPlaza_mvl/mxv
  .byte   N11 ,Cn3
  .byte   W12
  .byte   N05
@@ -7207,18 +7207,18 @@ Label_013B3B30:
 @******************************************************@
 	.align	2
 
-song02:
+DelfinoPlaza:
 	.byte	5	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song02_pri	@ Priority
-	.byte	song02_rev	@ Reverb.
+	.byte	DelfinoPlaza_pri	@ Priority
+	.byte	DelfinoPlaza_rev	@ Reverb.
     
-	.word	song02_grp
+	.word	DelfinoPlaza_grp
     
-	.word	song02_001
-	.word	song02_002
-	.word	song02_003
-	.word	song02_004
-	.word	song02_005
+	.word	DelfinoPlaza_001
+	.word	DelfinoPlaza_002
+	.word	DelfinoPlaza_003
+	.word	DelfinoPlaza_004
+	.word	DelfinoPlaza_005
 
 	.end

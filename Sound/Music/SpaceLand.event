@@ -1,29 +1,29 @@
 //Event file generated from Sappy .s format.
 	
 
-	#define	song02_grp  voicegroup000
-	#define	song02_pri  0
-	#define	song02_rev  0
-	#define	song02_mvl  127
-	#define	song02_key  0
-	#define	song02_tbs  1
-	#define	song02_exg  0
-	#define	song02_cmp  1
+	#define	SpaceLand_grp  voicegroup000
+	#define	SpaceLand_pri  0
+	#define	SpaceLand_rev  0
+	#define	SpaceLand_mvl  127
+	#define	SpaceLand_key  0
+	#define	SpaceLand_tbs  1
+	#define	SpaceLand_exg  0
+	#define	SpaceLand_cmp  1
 
 	// .rodata
-	//	song02
+	//	SpaceLand
 	ALIGN 4
 
 
 //**************** Track 1 (Midi-Chn.0) ****************//
 
-song02_001:
+SpaceLand_001:
 //  #01 //000   ----------------------------------------
- BYTE   KEYSH   song02_key+0
+ BYTE   KEYSH   SpaceLand_key+0
 Label_01009ADA:
- BYTE   TEMPO   128*song02_tbs/2
+ BYTE   TEMPO   128*SpaceLand_tbs/2
  BYTE   VOICE   79
- BYTE   VOL   50*song02_mvl/mxv
+ BYTE   VOL   50*SpaceLand_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W16
  BYTE   N07  Cn4  v076
@@ -463,12 +463,12 @@ Label_01009C27:
 
 //**************** Track 2 (Midi-Chn.1) ****************//
 
-song02_002:
+SpaceLand_002:
 //  #02 //000   ----------------------------------------
- BYTE   KEYSH   song02_key+0
+ BYTE   KEYSH   SpaceLand_key+0
 Label_01005EEA:
  BYTE   VOICE   79
- BYTE   VOL   39*song02_mvl/mxv
+ BYTE   VOL   39*SpaceLand_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   N07  Fn3  v076
  BYTE   W08
@@ -955,12 +955,12 @@ Label_01006056:
 
 //**************** Track 3 (Midi-Chn.2) ****************//
 
-song02_003:
+SpaceLand_003:
 //  #03 //000   ----------------------------------------
- BYTE   KEYSH   song02_key+0
+ BYTE   KEYSH   SpaceLand_key+0
 Label_01006186:
  BYTE   VOICE   35
- BYTE   VOL   50*song02_mvl/mxv
+ BYTE   VOL   50*SpaceLand_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   N06  As0  v127
  BYTE   W24
@@ -1234,12 +1234,12 @@ Label_01006216:
 
 //**************** Track 4 (Midi-Chn.3) ****************//
 
-song02_004:
+SpaceLand_004:
 //  #04 //000   ----------------------------------------
- BYTE   KEYSH   song02_key+0
+ BYTE   KEYSH   SpaceLand_key+0
 Label_01005C16:
  BYTE   VOICE   45
- BYTE   VOL   50*song02_mvl/mxv
+ BYTE   VOL   50*SpaceLand_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   N15  As0  v127
  BYTE   W24
@@ -1513,12 +1513,12 @@ Label_01005CA6:
 
 //**************** Track 5 (Midi-Chn.4) ****************//
 
-song02_005:
+SpaceLand_005:
 //  #05 //000   ----------------------------------------
- BYTE   KEYSH   song02_key+0
+ BYTE   KEYSH   SpaceLand_key+0
 Label_0100565A:
  BYTE   VOICE   47
- BYTE   VOL   50*song02_mvl/mxv
+ BYTE   VOL   50*SpaceLand_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W96
 //  #05 //001   ----------------------------------------
@@ -1742,12 +1742,12 @@ Label_010056C9:
 
 //**************** Track 6 (Midi-Chn.5) ****************//
 
-song02_006:
+SpaceLand_006:
 //  #06 //000   ----------------------------------------
- BYTE   KEYSH   song02_key+0
+ BYTE   KEYSH   SpaceLand_key+0
 Label_01005006:
  BYTE   VOICE   14
- BYTE   VOL   50*song02_mvl/mxv
+ BYTE   VOL   50*SpaceLand_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W96
 //  #06 //001   ----------------------------------------
@@ -1929,12 +1929,12 @@ Label_0100500E:
 
 //**************** Track 7 (Midi-Chn.6) ****************//
 
-song02_007:
+SpaceLand_007:
 //  #07 //000   ----------------------------------------
- BYTE   KEYSH   song02_key+0
+ BYTE   KEYSH   SpaceLand_key+0
 Label_010064DA:
  BYTE   VOICE   57
- BYTE   VOL   50*song02_mvl/mxv
+ BYTE   VOL   50*SpaceLand_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W96
 //  #07 //001   ----------------------------------------
@@ -2432,12 +2432,12 @@ Label_010066B0:
 
 //**************** Track 8 (Midi-Chn.7) ****************//
 
-song02_008:
+SpaceLand_008:
 //  #08 //000   ----------------------------------------
- BYTE   KEYSH   song02_key+0
+ BYTE   KEYSH   SpaceLand_key+0
 Label_01006316:
  BYTE   VOICE   61
- BYTE   VOL   50*song02_mvl/mxv
+ BYTE   VOL   50*SpaceLand_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W96
 //  #08 //001   ----------------------------------------
@@ -2739,12 +2739,12 @@ Label_010063E2:
 
 //**************** Track 9 (Midi-Chn.8) ****************//
 
-song02_009:
+SpaceLand_009:
 //  #09 //000   ----------------------------------------
- BYTE   KEYSH   song02_key+0
+ BYTE   KEYSH   SpaceLand_key+0
 Label_01006776:
  BYTE   VOICE   48
- BYTE   VOL   50*song02_mvl/mxv
+ BYTE   VOL   50*SpaceLand_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W96
 //  #09 //001   ----------------------------------------
@@ -3016,12 +3016,12 @@ Label_0100684F:
 
 //**************** Track 10 (Midi-Chn.9) ****************//
 
-song02_010:
+SpaceLand_010:
 //  #10 //000   ----------------------------------------
- BYTE   KEYSH   song02_key+0
+ BYTE   KEYSH   SpaceLand_key+0
 Label_0100581A:
  BYTE   VOICE   124
- BYTE   VOL   50*song02_mvl/mxv
+ BYTE   VOL   50*SpaceLand_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   N15  Dn1  v076
  BYTE   N15  Cs2
@@ -3316,12 +3316,12 @@ Label_01005858:
 
 //**************** Track 11 (Midi-Chn.10) ****************//
 
-song02_011:
+SpaceLand_011:
 //  #11 //000   ----------------------------------------
- BYTE   KEYSH   song02_key+0
+ BYTE   KEYSH   SpaceLand_key+0
 Label_0100690A:
  BYTE   VOICE   124
- BYTE   VOL   50*song02_mvl/mxv
+ BYTE   VOL   50*SpaceLand_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   N20  Cn1  v076
  BYTE   W24
@@ -3550,24 +3550,24 @@ Label_0100697B:
 //******************************************************//
 	ALIGN 4
 
-song02:
+SpaceLand:
 	BYTE	11	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	song02_pri	// Priority
-	BYTE	song02_rev	// Reverb.
+	BYTE	SpaceLand_pri	// Priority
+	BYTE	SpaceLand_rev	// Reverb.
     
-	POIN2	song02_grp
+	POIN2	SpaceLand_grp
     
-	POIN2	song02_001
-	POIN2	song02_002
-	POIN2	song02_003
-	POIN2	song02_004
-	POIN2	song02_005
-	POIN2	song02_006
-	POIN2	song02_007
-	POIN2	song02_008
-	POIN2	song02_009
-	POIN2	song02_010
-	POIN2	song02_011
+	POIN2	SpaceLand_001
+	POIN2	SpaceLand_002
+	POIN2	SpaceLand_003
+	POIN2	SpaceLand_004
+	POIN2	SpaceLand_005
+	POIN2	SpaceLand_006
+	POIN2	SpaceLand_007
+	POIN2	SpaceLand_008
+	POIN2	SpaceLand_009
+	POIN2	SpaceLand_010
+	POIN2	SpaceLand_011
 
 	

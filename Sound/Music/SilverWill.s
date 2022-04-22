@@ -1,58 +1,58 @@
 	.include "MPlayDef.s"
 
-	.equ	songC6_grp, voicegroup000
-	.equ	songC6_pri, 0
-	.equ	songC6_rev, 0
-	.equ	songC6_mvl, 127
-	.equ	songC6_key, 0
-	.equ	songC6_tbs, 1
-	.equ	songC6_exg, 0
-	.equ	songC6_cmp, 1
+	.equ	SilverWill_grp, voicegroup000
+	.equ	SilverWill_pri, 0
+	.equ	SilverWill_rev, 0
+	.equ	SilverWill_mvl, 127
+	.equ	SilverWill_key, 0
+	.equ	SilverWill_tbs, 1
+	.equ	SilverWill_exg, 0
+	.equ	SilverWill_cmp, 1
 
 	.section .rodata
-	.global	songC6
+	.global	SilverWill
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-songC6_001:
+SilverWill_001:
 @ 000   ----------------------------------------
- .byte   KEYSH , songC6_key+0
+ .byte   KEYSH , SilverWill_key+0
 Label_0_01476BE2:
- .byte   TEMPO , 140*songC6_tbs/2
+ .byte   TEMPO , 140*SilverWill_tbs/2
  .byte   VOICE , 49
- .byte   VOL , 24*songC6_mvl/mxv
+ .byte   VOL , 24*SilverWill_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 0*songC6_mvl/mxv
+ .byte   VOL , 0*SilverWill_mvl/mxv
  .byte   BEND , c_v+0
  .byte   TIE ,Cs1 ,v096
  .byte   TIE ,Gs1
  .byte   TIE ,Cs2
  .byte   W06
- .byte   VOL , 0*songC6_mvl/mxv
+ .byte   VOL , 0*SilverWill_mvl/mxv
  .byte   W06
- .byte   VOL , 0*songC6_mvl/mxv
+ .byte   VOL , 0*SilverWill_mvl/mxv
  .byte   W06
- .byte   VOL , 0*songC6_mvl/mxv
+ .byte   VOL , 0*SilverWill_mvl/mxv
  .byte   W06
- .byte   VOL , 3*songC6_mvl/mxv
+ .byte   VOL , 3*SilverWill_mvl/mxv
  .byte   W06
- .byte   VOL , 7*songC6_mvl/mxv
+ .byte   VOL , 7*SilverWill_mvl/mxv
  .byte   W06
- .byte   VOL , 11*songC6_mvl/mxv
+ .byte   VOL , 11*SilverWill_mvl/mxv
  .byte   W06
- .byte   VOL , 15*songC6_mvl/mxv
+ .byte   VOL , 15*SilverWill_mvl/mxv
  .byte   W06
- .byte   VOL , 19*songC6_mvl/mxv
+ .byte   VOL , 19*SilverWill_mvl/mxv
  .byte   W06
- .byte   VOL , 23*songC6_mvl/mxv
+ .byte   VOL , 23*SilverWill_mvl/mxv
  .byte   W06
- .byte   VOL , 27*songC6_mvl/mxv
+ .byte   VOL , 27*SilverWill_mvl/mxv
  .byte   W06
- .byte   VOL , 31*songC6_mvl/mxv
+ .byte   VOL , 31*SilverWill_mvl/mxv
  .byte   W06
- .byte   VOL , 35*songC6_mvl/mxv
+ .byte   VOL , 35*SilverWill_mvl/mxv
  .byte   W24
 @ 001   ----------------------------------------
  .byte   W96
@@ -198,12 +198,12 @@ Label_0_01476BE2:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-songC6_002:
+SilverWill_002:
 @ 000   ----------------------------------------
- .byte   KEYSH , songC6_key+0
+ .byte   KEYSH , SilverWill_key+0
 Label_1_01476C5E:
  .byte   VOICE , 30
- .byte   VOL , 28*songC6_mvl/mxv
+ .byte   VOL , 28*SilverWill_mvl/mxv
  .byte   PAN , c_v+0
  .byte   BEND , c_v+0
  .byte   TIE ,Fs1 ,v096
@@ -416,12 +416,12 @@ Label_1_01476C5E:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-songC6_003:
+SilverWill_003:
 @ 000   ----------------------------------------
- .byte   KEYSH , songC6_key+0
+ .byte   KEYSH , SilverWill_key+0
 Label_2_01476D1B:
  .byte   VOICE , 61
- .byte   VOL , 33*songC6_mvl/mxv
+ .byte   VOL , 33*SilverWill_mvl/mxv
  .byte   PAN , c_v+0
  .byte   BEND , c_v+0
  .byte   W96
@@ -645,12 +645,12 @@ Label_2_01476D60:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-songC6_004:
+SilverWill_004:
 @ 000   ----------------------------------------
- .byte   KEYSH , songC6_key+0
+ .byte   KEYSH , SilverWill_key+0
 Label_3_01476DF7:
  .byte   VOICE , 80
- .byte   VOL , 24*songC6_mvl/mxv
+ .byte   VOL , 24*SilverWill_mvl/mxv
  .byte   PAN , c_v-24
  .byte   BEND , c_v+0
  .byte   W96
@@ -919,12 +919,12 @@ Label_3_01476E24:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-songC6_005:
+SilverWill_005:
 @ 000   ----------------------------------------
- .byte   KEYSH , songC6_key+0
+ .byte   KEYSH , SilverWill_key+0
 Label_4_01476EF4:
  .byte   VOICE , 80
- .byte   VOL , 24*songC6_mvl/mxv
+ .byte   VOL , 24*SilverWill_mvl/mxv
  .byte   PAN , c_v-24
  .byte   BEND , c_v+0
  .byte   W96
@@ -1226,12 +1226,12 @@ Label_4_01476F20:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-songC6_006:
+SilverWill_006:
 @ 000   ----------------------------------------
- .byte   KEYSH , songC6_key+0
+ .byte   KEYSH , SilverWill_key+0
 Label_5_01477007:
  .byte   VOICE , 41
- .byte   VOL , 33*songC6_mvl/mxv
+ .byte   VOL , 33*SilverWill_mvl/mxv
  .byte   PAN , c_v+16
  .byte   BEND , c_v+0
  .byte   W96
@@ -1639,12 +1639,12 @@ Label_5_01477191:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-songC6_007:
+SilverWill_007:
 @ 000   ----------------------------------------
- .byte   KEYSH , songC6_key+0
+ .byte   KEYSH , SilverWill_key+0
 Label_6_014771F7:
  .byte   VOICE , 40
- .byte   VOL , 24*songC6_mvl/mxv
+ .byte   VOL , 24*SilverWill_mvl/mxv
  .byte   PAN , c_v-24
  .byte   BEND , c_v+0
  .byte   W96
@@ -1872,12 +1872,12 @@ Label_6_0147728F:
 
 @**************** Track 8 (Midi-Chn.7) ****************@
 
-songC6_008:
+SilverWill_008:
 @ 000   ----------------------------------------
- .byte   KEYSH , songC6_key+0
+ .byte   KEYSH , SilverWill_key+0
 Label_7_014772C6:
  .byte   VOICE , 38
- .byte   VOL , 33*songC6_mvl/mxv
+ .byte   VOL , 33*SilverWill_mvl/mxv
  .byte   PAN , c_v+0
  .byte   BEND , c_v+0
  .byte   W96
@@ -2390,12 +2390,12 @@ Label_7_014774D8:
 
 @**************** Track 9 (Midi-Chn.8) ****************@
 
-songC6_009:
+SilverWill_009:
 @ 000   ----------------------------------------
- .byte   KEYSH , songC6_key+0
+ .byte   KEYSH , SilverWill_key+0
 Label_8_01477552:
  .byte   VOICE , 0
- .byte   VOL , 24*songC6_mvl/mxv
+ .byte   VOL , 24*SilverWill_mvl/mxv
  .byte   PAN , c_v+32
  .byte   BEND , c_v+0
  .byte   W96
@@ -2837,7 +2837,7 @@ Label_8_01477720:
  .byte   N09 ,Ds4
  .byte   W12
 @ 034   ----------------------------------------
- .byte   VOL , 28*songC6_mvl/mxv
+ .byte   VOL , 28*SilverWill_mvl/mxv
  .byte   N19 ,Fn3 ,v080
  .byte   N19 ,As3
  .byte   W24
@@ -3291,7 +3291,7 @@ Label_8_01477954:
  .byte   PATT
   .word Label_8_01477954
 @ 066   ----------------------------------------
- .byte   VOL , 24*songC6_mvl/mxv
+ .byte   VOL , 24*SilverWill_mvl/mxv
  .byte   N09 ,Fn3 ,v080
  .byte   N09 ,As3
  .byte   W12
@@ -3358,12 +3358,12 @@ Label_8_01477954:
 
 @**************** Track 10 (Midi-Chn.9) ****************@
 
-songC6_010:
+SilverWill_010:
 @ 000   ----------------------------------------
- .byte   KEYSH , songC6_key+0
+ .byte   KEYSH , SilverWill_key+0
 Label_9_01477A94:
  .byte   VOICE , 124
- .byte   VOL , 24*songC6_mvl/mxv
+ .byte   VOL , 24*SilverWill_mvl/mxv
  .byte   PAN , c_v+0
  .byte   BEND , c_v+0
  .byte   N05 ,Fs2 ,v064
@@ -4309,12 +4309,12 @@ Label_9_01477E77:
 
 @**************** Track 11 (Midi-Chn.10) ****************@
 
-songC6_011:
+SilverWill_011:
 @ 000   ----------------------------------------
- .byte   KEYSH , songC6_key+0
+ .byte   KEYSH , SilverWill_key+0
 Label_10_0147803A:
  .byte   VOICE , 1
- .byte   VOL , 38*songC6_mvl/mxv
+ .byte   VOL , 38*SilverWill_mvl/mxv
  .byte   PAN , c_v+0
  .byte   BEND , c_v+0
  .byte   W96
@@ -4616,12 +4616,12 @@ Label_10_014780C0:
 
 @**************** Track 12 (Midi-Chn.11) ****************@
 
-songC6_012:
+SilverWill_012:
 @ 000   ----------------------------------------
- .byte   KEYSH , songC6_key+0
+ .byte   KEYSH , SilverWill_key+0
 Label_11_0147816A:
  .byte   VOICE , 50
- .byte   VOL , 24*songC6_mvl/mxv
+ .byte   VOL , 24*SilverWill_mvl/mxv
  .byte   PAN , c_v+0
  .byte   BEND , c_v+0
  .byte   W96
@@ -4796,25 +4796,25 @@ Label_11_0147816A:
 @******************************************************@
 	.align	2
 
-songC6:
+SilverWill:
 	.byte	12	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	songC6_pri	@ Priority
-	.byte	songC6_rev	@ Reverb.
+	.byte	SilverWill_pri	@ Priority
+	.byte	SilverWill_rev	@ Reverb.
     
-	.word	songC6_grp
+	.word	SilverWill_grp
     
-	.word	songC6_001
-	.word	songC6_002
-	.word	songC6_003
-	.word	songC6_004
-	.word	songC6_005
-	.word	songC6_006
-	.word	songC6_007
-	.word	songC6_008
-	.word	songC6_009
-	.word	songC6_010
-	.word	songC6_011
-	.word	songC6_012
+	.word	SilverWill_001
+	.word	SilverWill_002
+	.word	SilverWill_003
+	.word	SilverWill_004
+	.word	SilverWill_005
+	.word	SilverWill_006
+	.word	SilverWill_007
+	.word	SilverWill_008
+	.word	SilverWill_009
+	.word	SilverWill_010
+	.word	SilverWill_011
+	.word	SilverWill_012
 
 	.end

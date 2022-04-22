@@ -1,42 +1,42 @@
 	.include "MPlayDef.s"
 
-	.equ	song1E_grp, voicegroup000
-	.equ	song1E_pri, 0
-	.equ	song1E_rev, 0
-	.equ	song1E_mvl, 127
-	.equ	song1E_key, 0
-	.equ	song1E_tbs, 1
-	.equ	song1E_exg, 0
-	.equ	song1E_cmp, 1
+	.equ	ToSLawOfBattle_grp, voicegroup000
+	.equ	ToSLawOfBattle_pri, 0
+	.equ	ToSLawOfBattle_rev, 0
+	.equ	ToSLawOfBattle_mvl, 127
+	.equ	ToSLawOfBattle_key, 0
+	.equ	ToSLawOfBattle_tbs, 1
+	.equ	ToSLawOfBattle_exg, 0
+	.equ	ToSLawOfBattle_cmp, 1
 
 	.section .rodata
-	.global	song1E
+	.global	ToSLawOfBattle
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song1E_001:
+ToSLawOfBattle_001:
 @ 000   ----------------------------------------
- .byte   KEYSH , song1E_key+0
+ .byte   KEYSH , ToSLawOfBattle_key+0
 Label_0_0134DE6A:
- .byte   TEMPO , 200*song1E_tbs/2
+ .byte   TEMPO , 200*ToSLawOfBattle_tbs/2
  .byte   VOICE , 29
- .byte   VOL , 18*song1E_mvl/mxv
+ .byte   VOL , 18*ToSLawOfBattle_mvl/mxv
  .byte   MODT 0
  .byte   CnM2
  .byte   LFOS 0
  .byte   Gs1
- .byte   VOL , 28*song1E_mvl/mxv
+ .byte   VOL , 28*ToSLawOfBattle_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 18*song1E_mvl/mxv
+ .byte   VOL , 18*ToSLawOfBattle_mvl/mxv
  .byte   MODT 0
  .byte   CnM2
  .byte   LFOS 0
  .byte   Gs1
- .byte   VOL , 28*song1E_mvl/mxv
+ .byte   VOL , 28*ToSLawOfBattle_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 28*song1E_mvl/mxv
+ .byte   VOL , 28*ToSLawOfBattle_mvl/mxv
  .byte   N48 ,En1 ,v127
  .byte   N24 ,Bn1
  .byte   W24
@@ -320,19 +320,19 @@ Label_0_0134DFC9:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song1E_002:
+ToSLawOfBattle_002:
 @ 000   ----------------------------------------
- .byte   KEYSH , song1E_key+0
+ .byte   KEYSH , ToSLawOfBattle_key+0
 Label_1_0134E052:
  .byte   VOICE , 32
- .byte   VOL , 12*song1E_mvl/mxv
+ .byte   VOL , 12*ToSLawOfBattle_mvl/mxv
  .byte   MODT 0
  .byte   CnM2
  .byte   LFOS 0
  .byte   Gs1
- .byte   VOL , 18*song1E_mvl/mxv
+ .byte   VOL , 18*ToSLawOfBattle_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 18*song1E_mvl/mxv
+ .byte   VOL , 18*ToSLawOfBattle_mvl/mxv
  .byte   N12 ,En1 ,v127
  .byte   W48
  .byte   N12
@@ -600,26 +600,26 @@ Label_1_0134E154:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song1E_003:
+ToSLawOfBattle_003:
 @ 000   ----------------------------------------
- .byte   KEYSH , song1E_key+0
+ .byte   KEYSH , ToSLawOfBattle_key+0
 Label_2_0134E1DE:
  .byte   VOICE , 20
- .byte   VOL , 25*song1E_mvl/mxv
+ .byte   VOL , 25*ToSLawOfBattle_mvl/mxv
  .byte   MODT 0
  .byte   CnM2
  .byte   LFOS 0
  .byte   Gs1
- .byte   VOL , 39*song1E_mvl/mxv
+ .byte   VOL , 39*ToSLawOfBattle_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 25*song1E_mvl/mxv
+ .byte   VOL , 25*ToSLawOfBattle_mvl/mxv
  .byte   MODT 0
  .byte   CnM2
  .byte   LFOS 0
  .byte   Gs1
- .byte   VOL , 39*song1E_mvl/mxv
+ .byte   VOL , 39*ToSLawOfBattle_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 39*song1E_mvl/mxv
+ .byte   VOL , 39*ToSLawOfBattle_mvl/mxv
  .byte   W96
 @ 001   ----------------------------------------
  .byte   W96
@@ -1218,26 +1218,26 @@ Label_2_0134E2E8:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song1E_004:
+ToSLawOfBattle_004:
 @ 000   ----------------------------------------
- .byte   KEYSH , song1E_key+0
+ .byte   KEYSH , ToSLawOfBattle_key+0
 Label_3_0134E48E:
  .byte   VOICE , 29
- .byte   VOL , 18*song1E_mvl/mxv
+ .byte   VOL , 18*ToSLawOfBattle_mvl/mxv
  .byte   MODT 0
  .byte   CnM2
  .byte   LFOS 0
  .byte   Gs1
- .byte   VOL , 28*song1E_mvl/mxv
+ .byte   VOL , 28*ToSLawOfBattle_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 18*song1E_mvl/mxv
+ .byte   VOL , 18*ToSLawOfBattle_mvl/mxv
  .byte   MODT 0
  .byte   CnM2
  .byte   LFOS 0
  .byte   Gs1
- .byte   VOL , 28*song1E_mvl/mxv
+ .byte   VOL , 28*ToSLawOfBattle_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 28*song1E_mvl/mxv
+ .byte   VOL , 28*ToSLawOfBattle_mvl/mxv
  .byte   W96
 @ 001   ----------------------------------------
  .byte   W96
@@ -1977,33 +1977,33 @@ Label_3_0134E617:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song1E_005:
+ToSLawOfBattle_005:
 @ 000   ----------------------------------------
- .byte   KEYSH , song1E_key+0
+ .byte   KEYSH , ToSLawOfBattle_key+0
 Label_4_0134E842:
  .byte   VOICE , 121
- .byte   VOL , 18*song1E_mvl/mxv
+ .byte   VOL , 18*ToSLawOfBattle_mvl/mxv
  .byte   MODT 0
  .byte   CnM2
  .byte   LFOS 0
  .byte   Gs1
- .byte   VOL , 18*song1E_mvl/mxv
+ .byte   VOL , 18*ToSLawOfBattle_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 18*song1E_mvl/mxv
+ .byte   VOL , 18*ToSLawOfBattle_mvl/mxv
  .byte   MODT 0
  .byte   CnM2
  .byte   LFOS 0
  .byte   Gs1
- .byte   VOL , 18*song1E_mvl/mxv
+ .byte   VOL , 18*ToSLawOfBattle_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 18*song1E_mvl/mxv
+ .byte   VOL , 18*ToSLawOfBattle_mvl/mxv
  .byte   MODT 0
  .byte   CnM2
  .byte   LFOS 0
  .byte   Gs1
- .byte   VOL , 18*song1E_mvl/mxv
+ .byte   VOL , 18*ToSLawOfBattle_mvl/mxv
  .byte   PAN , c_v+0
- .byte   VOL , 18*song1E_mvl/mxv
+ .byte   VOL , 18*ToSLawOfBattle_mvl/mxv
  .byte   N48 ,Cs2 ,v127
  .byte   W48
  .byte   N12 ,Gs1
@@ -2444,18 +2444,18 @@ Label_4_0134EA64:
 @******************************************************@
 	.align	2
 
-song1E:
+ToSLawOfBattle:
 	.byte	5	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song1E_pri	@ Priority
-	.byte	song1E_rev	@ Reverb.
+	.byte	ToSLawOfBattle_pri	@ Priority
+	.byte	ToSLawOfBattle_rev	@ Reverb.
     
-	.word	song1E_grp
+	.word	ToSLawOfBattle_grp
     
-	.word	song1E_001
-	.word	song1E_002
-	.word	song1E_003
-	.word	song1E_004
-	.word	song1E_005
+	.word	ToSLawOfBattle_001
+	.word	ToSLawOfBattle_002
+	.word	ToSLawOfBattle_003
+	.word	ToSLawOfBattle_004
+	.word	ToSLawOfBattle_005
 
 	.end

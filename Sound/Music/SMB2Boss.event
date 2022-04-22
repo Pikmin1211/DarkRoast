@@ -1,30 +1,30 @@
 //Event file generated from Sappy .s format.
 	
 
-	#define	song59_grp  voicegroup000
-	#define	song59_pri  0
-	#define	song59_rev  0
-	#define	song59_mvl  127
-	#define	song59_key  0
-	#define	song59_tbs  1
-	#define	song59_exg  0
-	#define	song59_cmp  1
+	#define	SMB2Boss_grp  voicegroup000
+	#define	SMB2Boss_pri  0
+	#define	SMB2Boss_rev  0
+	#define	SMB2Boss_mvl  127
+	#define	SMB2Boss_key  0
+	#define	SMB2Boss_tbs  1
+	#define	SMB2Boss_exg  0
+	#define	SMB2Boss_cmp  1
 
 	// .rodata
-	//	song59
+	//	SMB2Boss
 	ALIGN 4
 
 
 //**************** Track 1 (Midi-Chn.0) ****************//
 
-song59_001:
+SMB2Boss_001:
 // 000   ----------------------------------------
- BYTE   KEYSH   song59_key+0
+ BYTE   KEYSH   SMB2Boss_key+0
 Label_0_015A3B96:
- BYTE   TEMPO   190*song59_tbs/2
+ BYTE   TEMPO   190*SMB2Boss_tbs/2
  BYTE   VOICE   36
  BYTE   PAN   c_v-1
- BYTE   VOL   66*song59_mvl/mxv
+ BYTE   VOL   66*SMB2Boss_mvl/mxv
  BYTE   N36  Fs1  v100
  BYTE   W36
  BYTE   N36
@@ -78,13 +78,13 @@ Label_0_015A3BC8:
 
 //**************** Track 2 (Midi-Chn.1) ****************//
 
-song59_002:
+SMB2Boss_002:
 // 000   ----------------------------------------
- BYTE   KEYSH   song59_key+0
+ BYTE   KEYSH   SMB2Boss_key+0
 Label_1_015A3BDE:
  BYTE   VOICE   31
  BYTE   PAN   c_v-16
- BYTE   VOL   80*song59_mvl/mxv
+ BYTE   VOL   80*SMB2Boss_mvl/mxv
  BYTE   N36  Fs1  v100
  BYTE   W36
  BYTE   N36
@@ -138,12 +138,12 @@ Label_1_015A3C0E:
 
 //**************** Track 3 (Midi-Chn.2) ****************//
 
-song59_003:
+SMB2Boss_003:
 // 000   ----------------------------------------
- BYTE   KEYSH   song59_key+0
+ BYTE   KEYSH   SMB2Boss_key+0
 Label_2_015A3C26:
  BYTE   VOICE   63
- BYTE   VOL   51*song59_mvl/mxv
+ BYTE   VOL   51*SMB2Boss_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   N06  Dn2  v100
  BYTE   W12
@@ -250,12 +250,12 @@ Label_2_015A3C7E:
 
 //**************** Track 4 (Midi-Chn.3) ****************//
 
-song59_004:
+SMB2Boss_004:
 // 000   ----------------------------------------
- BYTE   KEYSH   song59_key+0
+ BYTE   KEYSH   SMB2Boss_key+0
 Label_3_015A3CA6:
  BYTE   VOICE   93
- BYTE   VOL   62*song59_mvl/mxv
+ BYTE   VOL   62*SMB2Boss_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   N06  Dn2  v100
  BYTE   W12
@@ -362,12 +362,12 @@ Label_3_015A3CFE:
 
 //**************** Track 5 (Midi-Chn.4) ****************//
 
-song59_005:
+SMB2Boss_005:
 // 000   ----------------------------------------
- BYTE   KEYSH   song59_key+0
+ BYTE   KEYSH   SMB2Boss_key+0
 Label_4_015A3D26:
  BYTE   VOICE   30
- BYTE   VOL   67*song59_mvl/mxv
+ BYTE   VOL   67*SMB2Boss_mvl/mxv
  BYTE   W12
  BYTE   N06  An1  v100
  BYTE   W12
@@ -446,13 +446,13 @@ Label_4_015A3D68:
 
 //**************** Track 6 (Midi-Chn.5) ****************//
 
-song59_006:
+SMB2Boss_006:
 // 000   ----------------------------------------
- BYTE   KEYSH   song59_key+0
+ BYTE   KEYSH   SMB2Boss_key+0
 Label_5_015A3D86:
  BYTE   VOICE   124
  BYTE   PAN   c_v+0
- BYTE   VOL   56*song59_mvl/mxv
+ BYTE   VOL   56*SMB2Boss_mvl/mxv
  BYTE   N12  Cn1  v127
  BYTE   N12  Fn1  v100
  BYTE   N12  An3
@@ -559,12 +559,12 @@ Label_5_015A3DC8:
 
 //**************** Track 7 (Midi-Chn.6) ****************//
 
-song59_007:
+SMB2Boss_007:
 // 000   ----------------------------------------
- BYTE   KEYSH   song59_key+0
+ BYTE   KEYSH   SMB2Boss_key+0
 Label_6_015A3E5A:
  BYTE   VOICE   31
- BYTE   VOL   80*song59_mvl/mxv
+ BYTE   VOL   80*SMB2Boss_mvl/mxv
  BYTE   W12
  BYTE   N06  An1  v100
  BYTE   W12
@@ -644,20 +644,20 @@ Label_6_015A3E9C:
 //******************************************************//
 	ALIGN 4
 
-song59:
+SMB2Boss:
 	BYTE	7	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	song59_pri	// Priority
-	BYTE	song59_rev	// Reverb.
+	BYTE	SMB2Boss_pri	// Priority
+	BYTE	SMB2Boss_rev	// Reverb.
     
-	POIN2	song59_grp
+	POIN2	SMB2Boss_grp
     
-	POIN2	song59_001
-	POIN2	song59_002
-	POIN2	song59_003
-	POIN2	song59_004
-	POIN2	song59_005
-	POIN2	song59_006
-	POIN2	song59_007
+	POIN2	SMB2Boss_001
+	POIN2	SMB2Boss_002
+	POIN2	SMB2Boss_003
+	POIN2	SMB2Boss_004
+	POIN2	SMB2Boss_005
+	POIN2	SMB2Boss_006
+	POIN2	SMB2Boss_007
 
 	

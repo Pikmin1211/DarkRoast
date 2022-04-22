@@ -1,31 +1,31 @@
 	.include "MPlayDef.s"
 
-	.equ	song01_grp, voicegroup000
-	.equ	song01_pri, 10
-	.equ	song01_rev, 0
-	.equ	song01_mvl, 127
-	.equ	song01_key, 0
-	.equ	song01_tbs, 1
-	.equ	song01_exg, 0
-	.equ	song01_cmp, 1
+	.equ	GundamnF19Act12_grp, voicegroup000
+	.equ	GundamnF19Act12_pri, 10
+	.equ	GundamnF19Act12_rev, 0
+	.equ	GundamnF19Act12_mvl, 127
+	.equ	GundamnF19Act12_key, 0
+	.equ	GundamnF19Act12_tbs, 1
+	.equ	GundamnF19Act12_exg, 0
+	.equ	GundamnF19Act12_cmp, 1
 
 	.section .rodata
-	.global	song01
+	.global	GundamnF19Act12
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song01_001:
+GundamnF19Act12_001:
 @  #01 @000   ----------------------------------------
 Label_014B738C:
- .byte   TEMPO , 300*song01_tbs/2
- .byte   KEYSH , song01_key+0
+ .byte   TEMPO , 300*GundamnF19Act12_tbs/2
+ .byte   KEYSH , GundamnF19Act12_key+0
  .byte   VOICE , 34
- .byte   VOL , 66*song01_mvl/mxv
+ .byte   VOL , 66*GundamnF19Act12_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W06
- .byte   TEMPO , 160*song01_tbs/2
+ .byte   TEMPO , 160*GundamnF19Act12_tbs/2
  .byte   N09 ,Bn0 ,v127
  .byte   W12
  .byte   N04
@@ -1400,16 +1400,16 @@ Label_014B78AD:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song01_002:
+GundamnF19Act12_002:
 @  #02 @000   ----------------------------------------
 Label_014B6980:
- .byte   TEMPO , 300*song01_tbs/2
- .byte   KEYSH , song01_key+0
+ .byte   TEMPO , 300*GundamnF19Act12_tbs/2
+ .byte   KEYSH , GundamnF19Act12_key+0
  .byte   VOICE , 36
- .byte   VOL , 47*song01_mvl/mxv
+ .byte   VOL , 47*GundamnF19Act12_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W06
- .byte   TEMPO , 160*song01_tbs/2
+ .byte   TEMPO , 160*GundamnF19Act12_tbs/2
  .byte   N09 ,Bn0 ,v117
  .byte   W12
  .byte   N04
@@ -2784,16 +2784,16 @@ Label_014B6EA1:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song01_003:
+GundamnF19Act12_003:
 @  #03 @000   ----------------------------------------
 Label_014B5290:
- .byte   TEMPO , 300*song01_tbs/2
- .byte   KEYSH , song01_key+0
+ .byte   TEMPO , 300*GundamnF19Act12_tbs/2
+ .byte   KEYSH , GundamnF19Act12_key+0
  .byte   VOICE , 63
- .byte   VOL , 43*song01_mvl/mxv
+ .byte   VOL , 43*GundamnF19Act12_mvl/mxv
  .byte   PAN , c_v+32
  .byte   W06
- .byte   TEMPO , 160*song01_tbs/2
+ .byte   TEMPO , 160*GundamnF19Act12_tbs/2
  .byte   N10 ,Dn4 ,v120
  .byte   W48
  .byte   Fs3
@@ -3266,16 +3266,16 @@ Label_014B541B:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song01_004:
+GundamnF19Act12_004:
 @  #04 @000   ----------------------------------------
 Label_014B6504:
- .byte   TEMPO , 300*song01_tbs/2
- .byte   KEYSH , song01_key+0
+ .byte   TEMPO , 300*GundamnF19Act12_tbs/2
+ .byte   KEYSH , GundamnF19Act12_key+0
  .byte   VOICE , 63
- .byte   VOL , 33*song01_mvl/mxv
+ .byte   VOL , 33*GundamnF19Act12_mvl/mxv
  .byte   PAN , c_v-32
  .byte   W06
- .byte   TEMPO , 160*song01_tbs/2
+ .byte   TEMPO , 160*GundamnF19Act12_tbs/2
  .byte   N10 ,Bn3 ,v100
  .byte   W48
  .byte   Fs2
@@ -3729,16 +3729,16 @@ Label_014B65AB:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song01_005:
+GundamnF19Act12_005:
 @  #05 @000   ----------------------------------------
 Label_014B4638:
- .byte   TEMPO , 300*song01_tbs/2
- .byte   KEYSH , song01_key+0
+ .byte   TEMPO , 300*GundamnF19Act12_tbs/2
+ .byte   KEYSH , GundamnF19Act12_key+0
  .byte   VOICE , 63
- .byte   VOL , 26*song01_mvl/mxv
+ .byte   VOL , 26*GundamnF19Act12_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W06
- .byte   TEMPO , 160*song01_tbs/2
+ .byte   TEMPO , 160*GundamnF19Act12_tbs/2
  .byte   W18
  .byte   N10 ,Dn4 ,v100
  .byte   N10 ,Bn3 ,v080
@@ -4240,17 +4240,17 @@ Label_014B484A:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song01_006:
+GundamnF19Act12_006:
 @  #06 @000   ----------------------------------------
 Label_014B3F88:
- .byte   TEMPO , 300*song01_tbs/2
- .byte   KEYSH , song01_key+0
+ .byte   TEMPO , 300*GundamnF19Act12_tbs/2
+ .byte   KEYSH , GundamnF19Act12_key+0
  .byte   VOICE , 81
- .byte   VOL , 36*song01_mvl/mxv
+ .byte   VOL , 36*GundamnF19Act12_mvl/mxv
  .byte   PAN , c_v-16
  .byte   PAN , c_v-16
  .byte   W06
- .byte   TEMPO , 160*song01_tbs/2
+ .byte   TEMPO , 160*GundamnF19Act12_tbs/2
  .byte   W96
 @  #06 @001   ----------------------------------------
  .byte   W96
@@ -4604,17 +4604,17 @@ Label_014B40DB:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-song01_007:
+GundamnF19Act12_007:
 @  #07 @000   ----------------------------------------
 Label_014B4184:
- .byte   TEMPO , 300*song01_tbs/2
- .byte   KEYSH , song01_key+0
+ .byte   TEMPO , 300*GundamnF19Act12_tbs/2
+ .byte   KEYSH , GundamnF19Act12_key+0
  .byte   VOICE , 81
- .byte   VOL , 19*song01_mvl/mxv
+ .byte   VOL , 19*GundamnF19Act12_mvl/mxv
  .byte   PAN , c_v+16
  .byte   PAN , c_v+16
  .byte   W06
- .byte   TEMPO , 160*song01_tbs/2
+ .byte   TEMPO , 160*GundamnF19Act12_tbs/2
  .byte   W96
 @  #07 @001   ----------------------------------------
  .byte   W96
@@ -4969,16 +4969,16 @@ Label_014B42D9:
 
 @**************** Track 8 (Midi-Chn.7) ****************@
 
-song01_008:
+GundamnF19Act12_008:
 @  #08 @000   ----------------------------------------
 Label_014D0D24:
- .byte   TEMPO , 300*song01_tbs/2
- .byte   KEYSH , song01_key+0
+ .byte   TEMPO , 300*GundamnF19Act12_tbs/2
+ .byte   KEYSH , GundamnF19Act12_key+0
  .byte   VOICE , 81
- .byte   VOL , 30*song01_mvl/mxv
+ .byte   VOL , 30*GundamnF19Act12_mvl/mxv
  .byte   PAN , c_v+63
  .byte   W06
- .byte   TEMPO , 160*song01_tbs/2
+ .byte   TEMPO , 160*GundamnF19Act12_tbs/2
  .byte   N04 ,Fs4 ,v100
  .byte   W06
  .byte   Bn3
@@ -6570,16 +6570,16 @@ Label_014D0F63:
 
 @**************** Track 9 (Midi-Chn.8) ****************@
 
-song01_009:
+GundamnF19Act12_009:
 @  #09 @000   ----------------------------------------
 Label_014B7A3C:
- .byte   TEMPO , 300*song01_tbs/2
- .byte   KEYSH , song01_key+0
+ .byte   TEMPO , 300*GundamnF19Act12_tbs/2
+ .byte   KEYSH , GundamnF19Act12_key+0
  .byte   VOICE , 127
- .byte   VOL , 72*song01_mvl/mxv
+ .byte   VOL , 72*GundamnF19Act12_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W06
- .byte   TEMPO , 160*song01_tbs/2
+ .byte   TEMPO , 160*GundamnF19Act12_tbs/2
  .byte   N01 ,Cn1 ,v117
  .byte   W24
  .byte   Cn1
@@ -7459,22 +7459,22 @@ Label_014B7D5E:
 @******************************************************@
 	.align	2
 
-song01:
+GundamnF19Act12:
 	.byte	9	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song01_pri	@ Priority
-	.byte	song01_rev	@ Reverb.
+	.byte	GundamnF19Act12_pri	@ Priority
+	.byte	GundamnF19Act12_rev	@ Reverb.
     
-	.word	song01_grp
+	.word	GundamnF19Act12_grp
     
-	.word	song01_001
-	.word	song01_002
-	.word	song01_003
-	.word	song01_004
-	.word	song01_005
-	.word	song01_006
-	.word	song01_007
-	.word	song01_008
-	.word	song01_009
+	.word	GundamnF19Act12_001
+	.word	GundamnF19Act12_002
+	.word	GundamnF19Act12_003
+	.word	GundamnF19Act12_004
+	.word	GundamnF19Act12_005
+	.word	GundamnF19Act12_006
+	.word	GundamnF19Act12_007
+	.word	GundamnF19Act12_008
+	.word	GundamnF19Act12_009
 
 	.end

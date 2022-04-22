@@ -1,29 +1,29 @@
 //Event file generated from Sappy .s format.
 	
 
-	#define	songC2_grp  voicegroup000
-	#define	songC2_pri  0
-	#define	songC2_rev  0
-	#define	songC2_mvl  127
-	#define	songC2_key  0
-	#define	songC2_tbs  1
-	#define	songC2_exg  0
-	#define	songC2_cmp  1
+	#define	TS_CombatResistance_grp  voicegroup000
+	#define	TS_CombatResistance_pri  0
+	#define	TS_CombatResistance_rev  0
+	#define	TS_CombatResistance_mvl  127
+	#define	TS_CombatResistance_key  0
+	#define	TS_CombatResistance_tbs  1
+	#define	TS_CombatResistance_exg  0
+	#define	TS_CombatResistance_cmp  1
 
 	// .rodata
-	//	songC2
+	//	TS_CombatResistance
 	ALIGN 4
 
 
 //**************** Track 1 (Midi-Chn.0) ****************//
 
-songC2_001:
+TS_CombatResistance_001:
 //  #01 //000   ----------------------------------------
- BYTE   KEYSH   songC2_key+0
- BYTE   TEMPO   130*songC2_tbs/2
+ BYTE   KEYSH   TS_CombatResistance_key+0
+ BYTE   TEMPO   130*TS_CombatResistance_tbs/2
  BYTE   VOICE   49
  BYTE   PAN   c_v+14
- BYTE   VOL   53*songC2_mvl/mxv
+ BYTE   VOL   53*TS_CombatResistance_mvl/mxv
  BYTE   W12
  BYTE   N05  En3  v080
  BYTE   W12
@@ -898,13 +898,13 @@ Label_014986A9:
 
 //**************** Track 2 (Midi-Chn.1) ****************//
 
-songC2_002:
+TS_CombatResistance_002:
 //  #02 //000   ----------------------------------------
- BYTE   KEYSH   songC2_key+0
+ BYTE   KEYSH   TS_CombatResistance_key+0
  BYTE   VOICE   73
  BYTE   PAN   c_v-16
- BYTE   VOL   51*songC2_mvl/mxv
- BYTE   VOL   51*songC2_mvl/mxv
+ BYTE   VOL   51*TS_CombatResistance_mvl/mxv
+ BYTE   VOL   51*TS_CombatResistance_mvl/mxv
  BYTE   W96
 //  #02 //001   ----------------------------------------
  BYTE   W96
@@ -1475,13 +1475,13 @@ Label_014988A5:
 
 //**************** Track 3 (Midi-Chn.2) ****************//
 
-songC2_003:
+TS_CombatResistance_003:
 //  #03 //000   ----------------------------------------
- BYTE   KEYSH   songC2_key+0
+ BYTE   KEYSH   TS_CombatResistance_key+0
  BYTE   VOICE   68
  BYTE   PAN   c_v+21
- BYTE   VOL   50*songC2_mvl/mxv
- BYTE   VOL   51*songC2_mvl/mxv
+ BYTE   VOL   50*TS_CombatResistance_mvl/mxv
+ BYTE   VOL   51*TS_CombatResistance_mvl/mxv
  BYTE   W96
 //  #03 //001   ----------------------------------------
  BYTE   W96
@@ -2071,13 +2071,13 @@ Label_01498B73:
 
 //**************** Track 4 (Midi-Chn.3) ****************//
 
-songC2_004:
+TS_CombatResistance_004:
 //  #04 //000   ----------------------------------------
- BYTE   KEYSH   songC2_key+0
+ BYTE   KEYSH   TS_CombatResistance_key+0
  BYTE   VOICE   41
- BYTE   VOL   51*songC2_mvl/mxv
+ BYTE   VOL   51*TS_CombatResistance_mvl/mxv
  BYTE   PAN   c_v+0
- BYTE   VOL   51*songC2_mvl/mxv
+ BYTE   VOL   51*TS_CombatResistance_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W12
  BYTE   N05  Cn3  v080
@@ -2951,13 +2951,13 @@ Label_01498E27:
 
 //**************** Track 5 (Midi-Chn.4) ****************//
 
-songC2_005:
+TS_CombatResistance_005:
 //  #05 //000   ----------------------------------------
- BYTE   KEYSH   songC2_key+0
+ BYTE   KEYSH   TS_CombatResistance_key+0
  BYTE   VOICE   60
  BYTE   PAN   c_v-14
- BYTE   VOL   60*songC2_mvl/mxv
- BYTE   VOL   51*songC2_mvl/mxv
+ BYTE   VOL   60*TS_CombatResistance_mvl/mxv
+ BYTE   VOL   51*TS_CombatResistance_mvl/mxv
  BYTE   W96
 //  #05 //001   ----------------------------------------
  BYTE   W96
@@ -3427,12 +3427,12 @@ Label_014990CD:
 
 //**************** Track 6 (Midi-Chn.5) ****************//
 
-songC2_006:
+TS_CombatResistance_006:
 //  #06 //000   ----------------------------------------
- BYTE   KEYSH   songC2_key+0
+ BYTE   KEYSH   TS_CombatResistance_key+0
  BYTE   VOICE   109
  BYTE   PAN   c_v+3
- BYTE   VOL   51*songC2_mvl/mxv
+ BYTE   VOL   51*TS_CombatResistance_mvl/mxv
  BYTE   W12
  BYTE   N05  Bn2  v080
  BYTE   W12
@@ -4075,11 +4075,11 @@ Label_0149940B:
 
 //**************** Track 7 (Midi-Chn.6) ****************//
 
-songC2_007:
+TS_CombatResistance_007:
 //  #07 //000   ----------------------------------------
- BYTE   KEYSH   songC2_key+0
+ BYTE   KEYSH   TS_CombatResistance_key+0
  BYTE   VOICE   127
- BYTE   VOL   57*songC2_mvl/mxv
+ BYTE   VOL   57*TS_CombatResistance_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   PAN   c_v+0
  BYTE   N23  An2  v096
@@ -5039,12 +5039,12 @@ Label_01499801:
 
 //**************** Track 8 (Midi-Chn.7) ****************//
 
-songC2_008:
+TS_CombatResistance_008:
 //  #08 //000   ----------------------------------------
- BYTE   KEYSH   songC2_key+0
+ BYTE   KEYSH   TS_CombatResistance_key+0
  BYTE   VOICE   40
  BYTE   PAN   c_v+8
- BYTE   VOL   60*songC2_mvl/mxv
+ BYTE   VOL   60*TS_CombatResistance_mvl/mxv
  BYTE   N11  An1  v080
  BYTE   W36
  BYTE   Bn1
@@ -5665,12 +5665,12 @@ Label_01499B43:
 
 //**************** Track 9 (Midi-Chn.8) ****************//
 
-songC2_009:
+TS_CombatResistance_009:
 //  #09 //000   ----------------------------------------
- BYTE   KEYSH   songC2_key+0
+ BYTE   KEYSH   TS_CombatResistance_key+0
  BYTE   VOICE   49
  BYTE   PAN   c_v-26
- BYTE   VOL   59*songC2_mvl/mxv
+ BYTE   VOL   59*TS_CombatResistance_mvl/mxv
  BYTE   N11  An0  v080
  BYTE   W36
  BYTE   Bn0
@@ -6159,22 +6159,22 @@ Label_01499DB7:
 //******************************************************//
 	ALIGN 4
 
-songC2:
+TS_CombatResistance:
 	BYTE	9	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	songC2_pri	// Priority
-	BYTE	songC2_rev	// Reverb.
+	BYTE	TS_CombatResistance_pri	// Priority
+	BYTE	TS_CombatResistance_rev	// Reverb.
     
-	POIN2	songC2_grp
+	POIN2	TS_CombatResistance_grp
     
-	POIN2	songC2_001
-	POIN2	songC2_002
-	POIN2	songC2_003
-	POIN2	songC2_004
-	POIN2	songC2_005
-	POIN2	songC2_006
-	POIN2	songC2_007
-	POIN2	songC2_008
-	POIN2	songC2_009
+	POIN2	TS_CombatResistance_001
+	POIN2	TS_CombatResistance_002
+	POIN2	TS_CombatResistance_003
+	POIN2	TS_CombatResistance_004
+	POIN2	TS_CombatResistance_005
+	POIN2	TS_CombatResistance_006
+	POIN2	TS_CombatResistance_007
+	POIN2	TS_CombatResistance_008
+	POIN2	TS_CombatResistance_009
 
 	

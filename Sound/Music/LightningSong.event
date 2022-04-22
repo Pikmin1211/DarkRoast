@@ -1,31 +1,31 @@
 //Event file generated from Sappy .s format.
 	
 
-	#define	Lightning_grp  voicegroup000
-	#define	Lightning_pri  0
-	#define	Lightning_rev  0
-	#define	Lightning_mvl  127
-	#define	Lightning_key  0
-	#define	Lightning_tbs  1
-	#define	Lightning_exg  0
-	#define	Lightning_cmp  1
+	#define	LightningSong_grp  voicegroup000
+	#define	LightningSong_pri  0
+	#define	LightningSong_rev  0
+	#define	LightningSong_mvl  127
+	#define	LightningSong_key  0
+	#define	LightningSong_tbs  1
+	#define	LightningSong_exg  0
+	#define	LightningSong_cmp  1
 
 	// .rodata
-	//	Lightning
+	//	LightningSong
 	ALIGN 4
 
 
 //**************** Track 1 (Midi-Chn.0) ****************//
 
-Lightning_001:
+LightningSong_001:
 //  #01 //000   ----------------------------------------
- BYTE   KEYSH   Lightning_key+0
+ BYTE   KEYSH   LightningSong_key+0
 Label_012814B6:
- BYTE   TEMPO   92*Lightning_tbs/2
+ BYTE   TEMPO   92*LightningSong_tbs/2
  BYTE   VOICE   28
- BYTE   VOL   40*Lightning_mvl/mxv
+ BYTE   VOL   40*LightningSong_mvl/mxv
  BYTE   PAN   c_v+0
- BYTE   VOL   40*Lightning_mvl/mxv
+ BYTE   VOL   40*LightningSong_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   N06  An3  v127
  BYTE   W06
@@ -287,12 +287,12 @@ Label_012814E4:
 
 //**************** Track 2 (Midi-Chn.1) ****************//
 
-Lightning_002:
+LightningSong_002:
 //  #02 //000   ----------------------------------------
- BYTE   KEYSH   Lightning_key+0
+ BYTE   KEYSH   LightningSong_key+0
 Label_012819BE:
  BYTE   VOICE   30
- BYTE   VOL   40*Lightning_mvl/mxv
+ BYTE   VOL   40*LightningSong_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   N90  En2  v127
  BYTE   N90  An2
@@ -1232,12 +1232,12 @@ Label_01281DBE:
 
 //**************** Track 3 (Midi-Chn.2) ****************//
 
-Lightning_003:
+LightningSong_003:
 //  #03 //000   ----------------------------------------
- BYTE   KEYSH   Lightning_key+0
+ BYTE   KEYSH   LightningSong_key+0
 Label_0128159E:
  BYTE   VOICE   34
- BYTE   VOL   40*Lightning_mvl/mxv
+ BYTE   VOL   40*LightningSong_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   N12  An0  v127
  BYTE   W12
@@ -1859,12 +1859,12 @@ Label_01281737:
 
 //**************** Track 4 (Midi-Chn.3) ****************//
 
-Lightning_004:
+LightningSong_004:
 //  #04 //000   ----------------------------------------
- BYTE   KEYSH   Lightning_key+0
+ BYTE   KEYSH   LightningSong_key+0
 Label_012818AE:
  BYTE   VOICE   52
- BYTE   VOL   40*Lightning_mvl/mxv
+ BYTE   VOL   40*LightningSong_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   N24  An2  v127
  BYTE   N24  An3
@@ -2122,12 +2122,12 @@ Label_01281915:
 
 //**************** Track 5 (Midi-Chn.4) ****************//
 
-Lightning_005:
+LightningSong_005:
 //  #05 //000   ----------------------------------------
- BYTE   KEYSH   Lightning_key+0
+ BYTE   KEYSH   LightningSong_key+0
 Label_01281F42:
  BYTE   VOICE   28
- BYTE   VOL   40*Lightning_mvl/mxv
+ BYTE   VOL   40*LightningSong_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W03
  BYTE   N06  An3  v076
@@ -2424,14 +2424,14 @@ Label_01281F94:
 
 //**************** Track 6 (Midi-Chn.5) ****************//
 
-Lightning_006:
+LightningSong_006:
 //  #06 //000   ----------------------------------------
- BYTE   KEYSH   Lightning_key+0
+ BYTE   KEYSH   LightningSong_key+0
 Label_0127F40E:
  BYTE   VOICE   29
- BYTE   VOL   40*Lightning_mvl/mxv
+ BYTE   VOL   40*LightningSong_mvl/mxv
  BYTE   PAN   c_v+0
- BYTE   VOL   40*Lightning_mvl/mxv
+ BYTE   VOL   40*LightningSong_mvl/mxv
  BYTE   W96
 //  #06 //001   ----------------------------------------
  BYTE   W96
@@ -2795,166 +2795,166 @@ Label_0127F58F:
  BYTE   PEND 
 //  #06 //020   ----------------------------------------
 Label_0127F5AA:
- BYTE   VOL   40*Lightning_mvl/mxv
+ BYTE   VOL   40*LightningSong_mvl/mxv
  BYTE   N96  En4  v127
  BYTE   W01
- BYTE   VOL   39*Lightning_mvl/mxv
+ BYTE   VOL   39*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   78*Lightning_mvl/mxv
+ BYTE   VOL   78*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   78*Lightning_mvl/mxv
+ BYTE   VOL   78*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   77*Lightning_mvl/mxv
+ BYTE   VOL   77*LightningSong_mvl/mxv
  BYTE   W02
- BYTE   VOL   76*Lightning_mvl/mxv
+ BYTE   VOL   76*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   76*Lightning_mvl/mxv
+ BYTE   VOL   76*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   75*Lightning_mvl/mxv
+ BYTE   VOL   75*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   74*Lightning_mvl/mxv
+ BYTE   VOL   74*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   74*Lightning_mvl/mxv
+ BYTE   VOL   74*LightningSong_mvl/mxv
  BYTE   W02
- BYTE   VOL   73*Lightning_mvl/mxv
+ BYTE   VOL   73*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   73*Lightning_mvl/mxv
+ BYTE   VOL   73*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   72*Lightning_mvl/mxv
+ BYTE   VOL   72*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   71*Lightning_mvl/mxv
+ BYTE   VOL   71*LightningSong_mvl/mxv
  BYTE   W02
- BYTE   VOL   71*Lightning_mvl/mxv
+ BYTE   VOL   71*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   70*Lightning_mvl/mxv
+ BYTE   VOL   70*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   69*Lightning_mvl/mxv
+ BYTE   VOL   69*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   69*Lightning_mvl/mxv
+ BYTE   VOL   69*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   68*Lightning_mvl/mxv
+ BYTE   VOL   68*LightningSong_mvl/mxv
  BYTE   W02
- BYTE   VOL   68*Lightning_mvl/mxv
+ BYTE   VOL   68*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   67*Lightning_mvl/mxv
+ BYTE   VOL   67*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   66*Lightning_mvl/mxv
+ BYTE   VOL   66*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   66*Lightning_mvl/mxv
+ BYTE   VOL   66*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   65*Lightning_mvl/mxv
+ BYTE   VOL   65*LightningSong_mvl/mxv
  BYTE   W02
- BYTE   VOL   64*Lightning_mvl/mxv
+ BYTE   VOL   64*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   64*Lightning_mvl/mxv
+ BYTE   VOL   64*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   63*Lightning_mvl/mxv
+ BYTE   VOL   63*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   62*Lightning_mvl/mxv
+ BYTE   VOL   62*LightningSong_mvl/mxv
  BYTE   W02
- BYTE   VOL   62*Lightning_mvl/mxv
+ BYTE   VOL   62*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   61*Lightning_mvl/mxv
+ BYTE   VOL   61*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   61*Lightning_mvl/mxv
+ BYTE   VOL   61*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   60*Lightning_mvl/mxv
+ BYTE   VOL   60*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   59*Lightning_mvl/mxv
+ BYTE   VOL   59*LightningSong_mvl/mxv
  BYTE   W02
- BYTE   VOL   59*Lightning_mvl/mxv
+ BYTE   VOL   59*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   58*Lightning_mvl/mxv
+ BYTE   VOL   58*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   57*Lightning_mvl/mxv
+ BYTE   VOL   57*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   57*Lightning_mvl/mxv
+ BYTE   VOL   57*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   56*Lightning_mvl/mxv
+ BYTE   VOL   56*LightningSong_mvl/mxv
  BYTE   W02
- BYTE   VOL   56*Lightning_mvl/mxv
+ BYTE   VOL   56*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   55*Lightning_mvl/mxv
+ BYTE   VOL   55*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   54*Lightning_mvl/mxv
+ BYTE   VOL   54*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   54*Lightning_mvl/mxv
+ BYTE   VOL   54*LightningSong_mvl/mxv
  BYTE   W02
- BYTE   VOL   53*Lightning_mvl/mxv
+ BYTE   VOL   53*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   52*Lightning_mvl/mxv
+ BYTE   VOL   52*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   52*Lightning_mvl/mxv
+ BYTE   VOL   52*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   51*Lightning_mvl/mxv
+ BYTE   VOL   51*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   51*Lightning_mvl/mxv
+ BYTE   VOL   51*LightningSong_mvl/mxv
  BYTE   W02
- BYTE   VOL   50*Lightning_mvl/mxv
+ BYTE   VOL   50*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   49*Lightning_mvl/mxv
+ BYTE   VOL   49*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   49*Lightning_mvl/mxv
+ BYTE   VOL   49*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   48*Lightning_mvl/mxv
+ BYTE   VOL   48*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   47*Lightning_mvl/mxv
+ BYTE   VOL   47*LightningSong_mvl/mxv
  BYTE   W02
- BYTE   VOL   47*Lightning_mvl/mxv
+ BYTE   VOL   47*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   46*Lightning_mvl/mxv
+ BYTE   VOL   46*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   45*Lightning_mvl/mxv
+ BYTE   VOL   45*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   45*Lightning_mvl/mxv
+ BYTE   VOL   45*LightningSong_mvl/mxv
  BYTE   W02
- BYTE   VOL   44*Lightning_mvl/mxv
+ BYTE   VOL   44*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   44*Lightning_mvl/mxv
+ BYTE   VOL   44*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   43*Lightning_mvl/mxv
+ BYTE   VOL   43*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   42*Lightning_mvl/mxv
+ BYTE   VOL   42*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   42*Lightning_mvl/mxv
+ BYTE   VOL   42*LightningSong_mvl/mxv
  BYTE   W02
- BYTE   VOL   41*Lightning_mvl/mxv
+ BYTE   VOL   41*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   40*Lightning_mvl/mxv
+ BYTE   VOL   40*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   40*Lightning_mvl/mxv
+ BYTE   VOL   40*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   39*Lightning_mvl/mxv
+ BYTE   VOL   39*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   39*Lightning_mvl/mxv
+ BYTE   VOL   39*LightningSong_mvl/mxv
  BYTE   W02
- BYTE   VOL   38*Lightning_mvl/mxv
+ BYTE   VOL   38*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   37*Lightning_mvl/mxv
+ BYTE   VOL   37*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   37*Lightning_mvl/mxv
+ BYTE   VOL   37*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   36*Lightning_mvl/mxv
+ BYTE   VOL   36*LightningSong_mvl/mxv
  BYTE   W02
- BYTE   VOL   35*Lightning_mvl/mxv
+ BYTE   VOL   35*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   35*Lightning_mvl/mxv
+ BYTE   VOL   35*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   34*Lightning_mvl/mxv
+ BYTE   VOL   34*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   34*Lightning_mvl/mxv
+ BYTE   VOL   34*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   33*Lightning_mvl/mxv
+ BYTE   VOL   33*LightningSong_mvl/mxv
  BYTE   W02
- BYTE   VOL   32*Lightning_mvl/mxv
+ BYTE   VOL   32*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   32*Lightning_mvl/mxv
+ BYTE   VOL   32*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   31*Lightning_mvl/mxv
+ BYTE   VOL   31*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   30*Lightning_mvl/mxv
+ BYTE   VOL   30*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   30*Lightning_mvl/mxv
+ BYTE   VOL   30*LightningSong_mvl/mxv
  BYTE   W01
  BYTE   PEND 
 //  #06 //021   ----------------------------------------
@@ -3022,10 +3022,10 @@ Label_0127F5AA:
  BYTE   PATT
   POIN2 Label_0127F5AA
 //  #06 //043   ----------------------------------------
- BYTE   VOL   0*Lightning_mvl/mxv
+ BYTE   VOL   0*LightningSong_mvl/mxv
  BYTE   W96
 //  #06 //044   ----------------------------------------
- BYTE   VOL   80*Lightning_mvl/mxv
+ BYTE   VOL   80*LightningSong_mvl/mxv
  BYTE   W96
 //  #06 //045   ----------------------------------------
  BYTE   W96
@@ -3082,10 +3082,10 @@ Label_0127F5AA:
  BYTE   PATT
   POIN2 Label_0127F5AA
 //  #06 //065   ----------------------------------------
- BYTE   VOL   0*Lightning_mvl/mxv
+ BYTE   VOL   0*LightningSong_mvl/mxv
  BYTE   W96
 //  #06 //066   ----------------------------------------
- BYTE   VOL   80*Lightning_mvl/mxv
+ BYTE   VOL   80*LightningSong_mvl/mxv
  BYTE   W96
 //  #06 //067   ----------------------------------------
  BYTE   W96
@@ -3146,7 +3146,7 @@ Label_0127F5AA:
  BYTE   PATT
   POIN2 Label_0127F5AA
 //  #06 //087   ----------------------------------------
- BYTE   VOL   0*Lightning_mvl/mxv
+ BYTE   VOL   0*LightningSong_mvl/mxv
  BYTE   W96
 //  #06 //088   ----------------------------------------
  BYTE   GoTo
@@ -3155,12 +3155,12 @@ Label_0127F5AA:
 
 //**************** Track 7 (Midi-Chn.6) ****************//
 
-Lightning_007:
+LightningSong_007:
 //  #07 //000   ----------------------------------------
- BYTE   KEYSH   Lightning_key+0
+ BYTE   KEYSH   LightningSong_key+0
 Label_01282046:
  BYTE   VOICE   48
- BYTE   VOL   40*Lightning_mvl/mxv
+ BYTE   VOL   40*LightningSong_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W96
 //  #07 //001   ----------------------------------------
@@ -3529,15 +3529,15 @@ Label_012820F4:
 
 //**************** Track 8 (Midi-Chn.7) ****************//
 
-Lightning_008:
+LightningSong_008:
 //  #08 //000   ----------------------------------------
- BYTE   KEYSH   Lightning_key+0
+ BYTE   KEYSH   LightningSong_key+0
 Label_0127F76E:
  BYTE   VOICE   29
- BYTE   VOL   40*Lightning_mvl/mxv
+ BYTE   VOL   40*LightningSong_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W03
- BYTE   VOL   7*Lightning_mvl/mxv
+ BYTE   VOL   7*LightningSong_mvl/mxv
  BYTE   W92
  BYTE   W01
 //  #08 //001   ----------------------------------------
@@ -3982,170 +3982,170 @@ Label_0127F947:
 //  #08 //020   ----------------------------------------
 Label_0127F963:
  BYTE   W03
- BYTE   VOL   7*Lightning_mvl/mxv
+ BYTE   VOL   7*LightningSong_mvl/mxv
  BYTE   N96  En4  v127
  BYTE   W01
- BYTE   VOL   6*Lightning_mvl/mxv
+ BYTE   VOL   6*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   45*Lightning_mvl/mxv
+ BYTE   VOL   45*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   45*Lightning_mvl/mxv
+ BYTE   VOL   45*LightningSong_mvl/mxv
  BYTE   W02
- BYTE   VOL   44*Lightning_mvl/mxv
+ BYTE   VOL   44*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   44*Lightning_mvl/mxv
+ BYTE   VOL   44*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   43*Lightning_mvl/mxv
+ BYTE   VOL   43*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   42*Lightning_mvl/mxv
+ BYTE   VOL   42*LightningSong_mvl/mxv
  BYTE   W02
- BYTE   VOL   42*Lightning_mvl/mxv
+ BYTE   VOL   42*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   41*Lightning_mvl/mxv
+ BYTE   VOL   41*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   40*Lightning_mvl/mxv
+ BYTE   VOL   40*LightningSong_mvl/mxv
  BYTE   W02
- BYTE   VOL   40*Lightning_mvl/mxv
+ BYTE   VOL   40*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   39*Lightning_mvl/mxv
+ BYTE   VOL   39*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   39*Lightning_mvl/mxv
+ BYTE   VOL   39*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   38*Lightning_mvl/mxv
+ BYTE   VOL   38*LightningSong_mvl/mxv
  BYTE   W02
- BYTE   VOL   37*Lightning_mvl/mxv
+ BYTE   VOL   37*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   37*Lightning_mvl/mxv
+ BYTE   VOL   37*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   36*Lightning_mvl/mxv
+ BYTE   VOL   36*LightningSong_mvl/mxv
  BYTE   W02
- BYTE   VOL   35*Lightning_mvl/mxv
+ BYTE   VOL   35*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   35*Lightning_mvl/mxv
+ BYTE   VOL   35*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   34*Lightning_mvl/mxv
+ BYTE   VOL   34*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   34*Lightning_mvl/mxv
+ BYTE   VOL   34*LightningSong_mvl/mxv
  BYTE   W02
- BYTE   VOL   33*Lightning_mvl/mxv
+ BYTE   VOL   33*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   32*Lightning_mvl/mxv
+ BYTE   VOL   32*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   32*Lightning_mvl/mxv
+ BYTE   VOL   32*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   31*Lightning_mvl/mxv
+ BYTE   VOL   31*LightningSong_mvl/mxv
  BYTE   W02
- BYTE   VOL   30*Lightning_mvl/mxv
+ BYTE   VOL   30*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   30*Lightning_mvl/mxv
+ BYTE   VOL   30*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   29*Lightning_mvl/mxv
+ BYTE   VOL   29*LightningSong_mvl/mxv
  BYTE   W02
- BYTE   VOL   28*Lightning_mvl/mxv
+ BYTE   VOL   28*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   28*Lightning_mvl/mxv
+ BYTE   VOL   28*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   27*Lightning_mvl/mxv
+ BYTE   VOL   27*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   27*Lightning_mvl/mxv
+ BYTE   VOL   27*LightningSong_mvl/mxv
  BYTE   W02
- BYTE   VOL   26*Lightning_mvl/mxv
+ BYTE   VOL   26*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   25*Lightning_mvl/mxv
+ BYTE   VOL   25*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   25*Lightning_mvl/mxv
+ BYTE   VOL   25*LightningSong_mvl/mxv
  BYTE   W02
- BYTE   VOL   24*Lightning_mvl/mxv
+ BYTE   VOL   24*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   23*Lightning_mvl/mxv
+ BYTE   VOL   23*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   23*Lightning_mvl/mxv
+ BYTE   VOL   23*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   22*Lightning_mvl/mxv
+ BYTE   VOL   22*LightningSong_mvl/mxv
  BYTE   W02
- BYTE   VOL   22*Lightning_mvl/mxv
+ BYTE   VOL   22*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   21*Lightning_mvl/mxv
+ BYTE   VOL   21*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   20*Lightning_mvl/mxv
+ BYTE   VOL   20*LightningSong_mvl/mxv
  BYTE   W02
- BYTE   VOL   20*Lightning_mvl/mxv
+ BYTE   VOL   20*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   19*Lightning_mvl/mxv
+ BYTE   VOL   19*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   18*Lightning_mvl/mxv
+ BYTE   VOL   18*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   18*Lightning_mvl/mxv
+ BYTE   VOL   18*LightningSong_mvl/mxv
  BYTE   W02
- BYTE   VOL   17*Lightning_mvl/mxv
+ BYTE   VOL   17*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   17*Lightning_mvl/mxv
+ BYTE   VOL   17*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   16*Lightning_mvl/mxv
+ BYTE   VOL   16*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   15*Lightning_mvl/mxv
+ BYTE   VOL   15*LightningSong_mvl/mxv
  BYTE   W02
- BYTE   VOL   15*Lightning_mvl/mxv
+ BYTE   VOL   15*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   14*Lightning_mvl/mxv
+ BYTE   VOL   14*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   13*Lightning_mvl/mxv
+ BYTE   VOL   13*LightningSong_mvl/mxv
  BYTE   W02
- BYTE   VOL   13*Lightning_mvl/mxv
+ BYTE   VOL   13*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   12*Lightning_mvl/mxv
+ BYTE   VOL   12*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   11*Lightning_mvl/mxv
+ BYTE   VOL   11*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   11*Lightning_mvl/mxv
+ BYTE   VOL   11*LightningSong_mvl/mxv
  BYTE   W02
- BYTE   VOL   10*Lightning_mvl/mxv
+ BYTE   VOL   10*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   10*Lightning_mvl/mxv
+ BYTE   VOL   10*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   9*Lightning_mvl/mxv
+ BYTE   VOL   9*LightningSong_mvl/mxv
  BYTE   W02
- BYTE   VOL   8*Lightning_mvl/mxv
+ BYTE   VOL   8*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   8*Lightning_mvl/mxv
+ BYTE   VOL   8*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   7*Lightning_mvl/mxv
+ BYTE   VOL   7*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   6*Lightning_mvl/mxv
+ BYTE   VOL   6*LightningSong_mvl/mxv
  BYTE   W02
- BYTE   VOL   6*Lightning_mvl/mxv
+ BYTE   VOL   6*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   5*Lightning_mvl/mxv
+ BYTE   VOL   5*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   5*Lightning_mvl/mxv
+ BYTE   VOL   5*LightningSong_mvl/mxv
  BYTE   W02
- BYTE   VOL   4*Lightning_mvl/mxv
+ BYTE   VOL   4*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   3*Lightning_mvl/mxv
+ BYTE   VOL   3*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   3*Lightning_mvl/mxv
+ BYTE   VOL   3*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   2*Lightning_mvl/mxv
+ BYTE   VOL   2*LightningSong_mvl/mxv
  BYTE   W02
- BYTE   VOL   1*Lightning_mvl/mxv
+ BYTE   VOL   1*LightningSong_mvl/mxv
  BYTE   W01
  BYTE   PEND 
 //  #08 //021   ----------------------------------------
 Label_0127F9FC:
- BYTE   VOL   0*Lightning_mvl/mxv
+ BYTE   VOL   0*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   0*Lightning_mvl/mxv
+ BYTE   VOL   0*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   0*Lightning_mvl/mxv
+ BYTE   VOL   0*LightningSong_mvl/mxv
  BYTE   W01
- BYTE   VOL   0*Lightning_mvl/mxv
+ BYTE   VOL   0*LightningSong_mvl/mxv
  BYTE   W92
  BYTE   W01
  BYTE   PEND 
 //  #08 //022   ----------------------------------------
 Label_0127FA07:
  BYTE   W03
- BYTE   VOL   7*Lightning_mvl/mxv
+ BYTE   VOL   7*LightningSong_mvl/mxv
  BYTE   W92
  BYTE   W01
  BYTE   PEND 
@@ -4341,16 +4341,16 @@ Label_0127FA07:
 
 //**************** Track 9 (Midi-Chn.8) ****************//
 
-Lightning_009:
+LightningSong_009:
 //  #09 //000   ----------------------------------------
- BYTE   KEYSH   Lightning_key+0
+ BYTE   KEYSH   LightningSong_key+0
 Label_0127FE9A:
  BYTE   VOICE   121
- BYTE   VOL   40*Lightning_mvl/mxv
+ BYTE   VOL   40*LightningSong_mvl/mxv
  BYTE   PAN   c_v+0
- BYTE   VOL   40*Lightning_mvl/mxv
+ BYTE   VOL   40*LightningSong_mvl/mxv
  BYTE   PAN   c_v+0
- BYTE   VOL   40*Lightning_mvl/mxv
+ BYTE   VOL   40*LightningSong_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   N12  Cn1  v127
  BYTE   N12  Cs2
@@ -5209,22 +5209,22 @@ Label_012802A3:
 //******************************************************//
 	ALIGN 4
 
-Lightning:
+LightningSong:
 	BYTE	9	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	Lightning_pri	// Priority
-	BYTE	Lightning_rev	// Reverb.
+	BYTE	LightningSong_pri	// Priority
+	BYTE	LightningSong_rev	// Reverb.
     
-	POIN2	Lightning_grp
+	POIN2	LightningSong_grp
     
-	POIN2	Lightning_001
-	POIN2	Lightning_002
-	POIN2	Lightning_003
-	POIN2	Lightning_004
-	POIN2	Lightning_005
-	POIN2	Lightning_006
-	POIN2	Lightning_007
-	POIN2	Lightning_008
-	POIN2	Lightning_009
+	POIN2	LightningSong_001
+	POIN2	LightningSong_002
+	POIN2	LightningSong_003
+	POIN2	LightningSong_004
+	POIN2	LightningSong_005
+	POIN2	LightningSong_006
+	POIN2	LightningSong_007
+	POIN2	LightningSong_008
+	POIN2	LightningSong_009
 
 	

@@ -1,28 +1,28 @@
 	.include "MPlayDef.s"
 
-	.equ	song01_grp, voicegroup000
-	.equ	song01_pri, 10
-	.equ	song01_rev, 0
-	.equ	song01_mvl, 127
-	.equ	song01_key, 0
-	.equ	song01_tbs, 1
-	.equ	song01_exg, 0
-	.equ	song01_cmp, 1
+	.equ	BattleToadsDoubleDragonLevel1_grp, voicegroup000
+	.equ	BattleToadsDoubleDragonLevel1_pri, 10
+	.equ	BattleToadsDoubleDragonLevel1_rev, 0
+	.equ	BattleToadsDoubleDragonLevel1_mvl, 127
+	.equ	BattleToadsDoubleDragonLevel1_key, 0
+	.equ	BattleToadsDoubleDragonLevel1_tbs, 1
+	.equ	BattleToadsDoubleDragonLevel1_exg, 0
+	.equ	BattleToadsDoubleDragonLevel1_cmp, 1
 
 	.section .rodata
-	.global	song01
+	.global	BattleToadsDoubleDragonLevel1
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song01_001:
+BattleToadsDoubleDragonLevel1_001:
 @  #01 @000   ----------------------------------------
 Label_014B6504:
- .byte   TEMPO , 76*song01_tbs/2
- .byte   KEYSH , song01_key+0
+ .byte   TEMPO , 76*BattleToadsDoubleDragonLevel1_tbs/2
+ .byte   KEYSH , BattleToadsDoubleDragonLevel1_key+0
  .byte   VOICE , 36
- .byte   VOL , 77*song01_mvl/mxv
+ .byte   VOL , 77*BattleToadsDoubleDragonLevel1_mvl/mxv
  .byte   N06 ,An0 ,v127
  .byte   W06
  .byte   An0
@@ -345,7 +345,7 @@ Label_014B662B:
  .byte   Gn0
  .byte   W06
 @  #01 @028   ----------------------------------------
- .byte   VOL , 77*song01_mvl/mxv
+ .byte   VOL , 77*BattleToadsDoubleDragonLevel1_mvl/mxv
  .byte   N06 ,An0 ,v127
  .byte   W06
  .byte   An0
@@ -966,13 +966,13 @@ Label_014B662B:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song01_002:
+BattleToadsDoubleDragonLevel1_002:
 @  #02 @000   ----------------------------------------
 Label_014B5290:
- .byte   TEMPO , 76*song01_tbs/2
- .byte   KEYSH , song01_key+0
+ .byte   TEMPO , 76*BattleToadsDoubleDragonLevel1_tbs/2
+ .byte   KEYSH , BattleToadsDoubleDragonLevel1_key+0
  .byte   VOICE , 52
- .byte   VOL , 35*song01_mvl/mxv
+ .byte   VOL , 35*BattleToadsDoubleDragonLevel1_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W06
  .byte   N03 ,Cn4 ,v127
@@ -1313,7 +1313,7 @@ Label_014B53F0:
  .byte   W96
 @  #02 @025   ----------------------------------------
  .byte   W06
- .byte   VOL , 35*song01_mvl/mxv
+ .byte   VOL , 35*BattleToadsDoubleDragonLevel1_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #02 @026   ----------------------------------------
@@ -1599,13 +1599,13 @@ Label_014B53F0:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song01_003:
+BattleToadsDoubleDragonLevel1_003:
 @  #03 @000   ----------------------------------------
 Label_014B5620:
- .byte   TEMPO , 76*song01_tbs/2
- .byte   KEYSH , song01_key+0
+ .byte   TEMPO , 76*BattleToadsDoubleDragonLevel1_tbs/2
+ .byte   KEYSH , BattleToadsDoubleDragonLevel1_key+0
  .byte   VOICE , 29
- .byte   VOL , 40*song01_mvl/mxv
+ .byte   VOL , 40*BattleToadsDoubleDragonLevel1_mvl/mxv
  .byte   W96
 @  #03 @001   ----------------------------------------
  .byte   W96
@@ -1855,7 +1855,7 @@ Label_014B5694:
  .byte   W96
 @  #03 @027   ----------------------------------------
  .byte   W06
- .byte   VOL , 40*song01_mvl/mxv
+ .byte   VOL , 40*BattleToadsDoubleDragonLevel1_mvl/mxv
  .byte   W96
 @  #03 @028   ----------------------------------------
  .byte   W96
@@ -2157,13 +2157,13 @@ Label_014B5694:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song01_004:
+BattleToadsDoubleDragonLevel1_004:
 @  #04 @000   ----------------------------------------
 Label_014B4638:
- .byte   TEMPO , 76*song01_tbs/2
- .byte   KEYSH , song01_key+0
+ .byte   TEMPO , 76*BattleToadsDoubleDragonLevel1_tbs/2
+ .byte   KEYSH , BattleToadsDoubleDragonLevel1_key+0
  .byte   VOICE , 29
- .byte   VOL , 25*song01_mvl/mxv
+ .byte   VOL , 25*BattleToadsDoubleDragonLevel1_mvl/mxv
  .byte   W96
 @  #04 @001   ----------------------------------------
  .byte   W96
@@ -2520,7 +2520,7 @@ Label_014B47F0:
  .byte   Dn1
  .byte   W06
 @  #04 @024   ----------------------------------------
- .byte   VOL , 25*song01_mvl/mxv
+ .byte   VOL , 25*BattleToadsDoubleDragonLevel1_mvl/mxv
  .byte   N12 ,An2 ,v127
  .byte   N12 ,An1
  .byte   N12 ,En3
@@ -3267,13 +3267,13 @@ Label_014B47F0:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song01_005:
+BattleToadsDoubleDragonLevel1_005:
 @  #05 @000   ----------------------------------------
 Label_014B3F88:
- .byte   TEMPO , 76*song01_tbs/2
- .byte   KEYSH , song01_key+0
+ .byte   TEMPO , 76*BattleToadsDoubleDragonLevel1_tbs/2
+ .byte   KEYSH , BattleToadsDoubleDragonLevel1_key+0
  .byte   VOICE , 29
- .byte   VOL , 25*song01_mvl/mxv
+ .byte   VOL , 25*BattleToadsDoubleDragonLevel1_mvl/mxv
  .byte   PAN , c_v+63
  .byte   W96
 @  #05 @001   ----------------------------------------
@@ -4380,13 +4380,13 @@ Label_014B4143:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song01_006:
+BattleToadsDoubleDragonLevel1_006:
 @  #06 @000   ----------------------------------------
 Label_014B58C0:
- .byte   TEMPO , 76*song01_tbs/2
- .byte   KEYSH , song01_key+0
+ .byte   TEMPO , 76*BattleToadsDoubleDragonLevel1_tbs/2
+ .byte   KEYSH , BattleToadsDoubleDragonLevel1_key+0
  .byte   VOICE , 52
- .byte   VOL , 35*song01_mvl/mxv
+ .byte   VOL , 35*BattleToadsDoubleDragonLevel1_mvl/mxv
  .byte   PAN , c_v-64
  .byte   W96
 @  #06 @001   ----------------------------------------
@@ -4552,7 +4552,7 @@ Label_014B58F6:
 @  #06 @026   ----------------------------------------
  .byte   W96
 @  #06 @027   ----------------------------------------
- .byte   VOL , 35*song01_mvl/mxv
+ .byte   VOL , 35*BattleToadsDoubleDragonLevel1_mvl/mxv
  .byte   PAN , c_v-64
  .byte   W96
 @  #06 @028   ----------------------------------------
@@ -4819,13 +4819,13 @@ Label_014B58F6:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-song01_007:
+BattleToadsDoubleDragonLevel1_007:
 @  #07 @000   ----------------------------------------
 Label_014B6980:
- .byte   TEMPO , 76*song01_tbs/2
- .byte   KEYSH , song01_key+0
+ .byte   TEMPO , 76*BattleToadsDoubleDragonLevel1_tbs/2
+ .byte   KEYSH , BattleToadsDoubleDragonLevel1_key+0
  .byte   VOICE , 127
- .byte   VOL , 58*song01_mvl/mxv
+ .byte   VOL , 58*BattleToadsDoubleDragonLevel1_mvl/mxv
  .byte   N03 ,Fs1 ,v127
  .byte   N06 ,Cn1
  .byte   W03
@@ -5661,7 +5661,7 @@ Label_014B6D26:
  .byte   N03 ,Fn1
  .byte   W03
 @  #07 @028   ----------------------------------------
- .byte   VOL , 58*song01_mvl/mxv
+ .byte   VOL , 58*BattleToadsDoubleDragonLevel1_mvl/mxv
  .byte   N06 ,As1 ,v127
  .byte   N06 ,Cn1
  .byte   W06
@@ -6776,20 +6776,20 @@ Label_014B6D26:
 @******************************************************@
 	.align	2
 
-song01:
+BattleToadsDoubleDragonLevel1:
 	.byte	7	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song01_pri	@ Priority
-	.byte	song01_rev	@ Reverb.
+	.byte	BattleToadsDoubleDragonLevel1_pri	@ Priority
+	.byte	BattleToadsDoubleDragonLevel1_rev	@ Reverb.
     
-	.word	song01_grp
+	.word	BattleToadsDoubleDragonLevel1_grp
     
-	.word	song01_001
-	.word	song01_002
-	.word	song01_003
-	.word	song01_004
-	.word	song01_005
-	.word	song01_006
-	.word	song01_007
+	.word	BattleToadsDoubleDragonLevel1_001
+	.word	BattleToadsDoubleDragonLevel1_002
+	.word	BattleToadsDoubleDragonLevel1_003
+	.word	BattleToadsDoubleDragonLevel1_004
+	.word	BattleToadsDoubleDragonLevel1_005
+	.word	BattleToadsDoubleDragonLevel1_006
+	.word	BattleToadsDoubleDragonLevel1_007
 
 	.end

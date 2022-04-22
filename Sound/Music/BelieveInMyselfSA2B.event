@@ -1,29 +1,29 @@
 //Event file generated from Sappy .s format.
 	
 
-	#define	song02_grp  voicegroup000
-	#define	song02_pri  0
-	#define	song02_rev  0
-	#define	song02_mvl  127
-	#define	song02_key  0
-	#define	song02_tbs  1
-	#define	song02_exg  0
-	#define	song02_cmp  1
+	#define	BelieveInMyselfSA2B_grp  voicegroup000
+	#define	BelieveInMyselfSA2B_pri  0
+	#define	BelieveInMyselfSA2B_rev  0
+	#define	BelieveInMyselfSA2B_mvl  127
+	#define	BelieveInMyselfSA2B_key  0
+	#define	BelieveInMyselfSA2B_tbs  1
+	#define	BelieveInMyselfSA2B_exg  0
+	#define	BelieveInMyselfSA2B_cmp  1
 
 	// .rodata
-	//	song02
+	//	BelieveInMyselfSA2B
 	ALIGN 4
 
 
 //**************** Track 1 (Midi-Chn.0) ****************//
 
-song02_001:
+BelieveInMyselfSA2B_001:
 //  #01 //000   ----------------------------------------
- BYTE   KEYSH   song02_key+0
+ BYTE   KEYSH   BelieveInMyselfSA2B_key+0
 Label_010068CE:
- BYTE   TEMPO   172*song02_tbs/2
+ BYTE   TEMPO   172*BelieveInMyselfSA2B_tbs/2
  BYTE   VOICE   28
- BYTE   VOL   77*song02_mvl/mxv
+ BYTE   VOL   77*BelieveInMyselfSA2B_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W96
 //  #01 //001   ----------------------------------------
@@ -774,12 +774,12 @@ Label_01006BBE:
 
 //**************** Track 2 (Midi-Chn.1) ****************//
 
-song02_002:
+BelieveInMyselfSA2B_002:
 //  #02 //000   ----------------------------------------
- BYTE   KEYSH   song02_key+0
+ BYTE   KEYSH   BelieveInMyselfSA2B_key+0
 Label_01006C2A:
  BYTE   VOICE   46
- BYTE   VOL   77*song02_mvl/mxv
+ BYTE   VOL   77*BelieveInMyselfSA2B_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   N44  Cs3  v112
  BYTE   W48
@@ -1628,12 +1628,12 @@ Label_01006F34:
 
 //**************** Track 3 (Midi-Chn.2) ****************//
 
-song02_003:
+BelieveInMyselfSA2B_003:
 //  #03 //000   ----------------------------------------
- BYTE   KEYSH   song02_key+0
+ BYTE   KEYSH   BelieveInMyselfSA2B_key+0
 Label_01006FDE:
  BYTE   VOICE   4
- BYTE   VOL   42*song02_mvl/mxv
+ BYTE   VOL   42*BelieveInMyselfSA2B_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   N90  An1  v096
  BYTE   N90  Cs2
@@ -2435,12 +2435,12 @@ Label_010073FC:
 
 //**************** Track 4 (Midi-Chn.3) ****************//
 
-song02_004:
+BelieveInMyselfSA2B_004:
 //  #04 //000   ----------------------------------------
- BYTE   KEYSH   song02_key+0
+ BYTE   KEYSH   BelieveInMyselfSA2B_key+0
 Label_01007446:
  BYTE   VOICE   34
- BYTE   VOL   50*song02_mvl/mxv
+ BYTE   VOL   50*BelieveInMyselfSA2B_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   N11  An2  v096
  BYTE   W12
@@ -3717,17 +3717,17 @@ Label_010079CE:
 //******************************************************//
 	ALIGN 4
 
-song02:
+BelieveInMyselfSA2B:
 	BYTE	4	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	song02_pri	// Priority
-	BYTE	song02_rev	// Reverb.
+	BYTE	BelieveInMyselfSA2B_pri	// Priority
+	BYTE	BelieveInMyselfSA2B_rev	// Reverb.
     
-	POIN2	song02_grp
+	POIN2	BelieveInMyselfSA2B_grp
     
-	POIN2	song02_001
-	POIN2	song02_002
-	POIN2	song02_003
-	POIN2	song02_004
+	POIN2	BelieveInMyselfSA2B_001
+	POIN2	BelieveInMyselfSA2B_002
+	POIN2	BelieveInMyselfSA2B_003
+	POIN2	BelieveInMyselfSA2B_004
 
 	
