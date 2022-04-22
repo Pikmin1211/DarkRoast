@@ -11,10 +11,6 @@
 [LoadOlmos] = [LoadFace][0xb3][0x1]
 [LoadSosimo] = [LoadFace][0xb4][0x1]
 [LoadZapatera] = [LoadFace][0xb5][0x1]
-[LoadColome] = [LoadFace][0xb6][0x1]
-[LoadPerez] = [LoadFace][0xb7][0x1]
-[LoadDomingo] = [LoadFace][0xb8][0x1]
-[LoadLuz] = [LoadFace][0xb9][0x1]
 
 [ConversationText] = [0x90]
 [BattleText] = [0x91]

@@ -123,3 +123,251 @@ Grassrunner[X]
 ## GrassrunnerDesc
 Mounted thieves who loot and[N]
 raid on horseback. Equip: Bows.[X]
+
+## DiabolistName
+Diabolist[X]
+
+## DiabolistDesc
+Shifty rogues with a proclivity[N]
+for magic. Equip: Daggers, anima.[X]
+
+## ShrineName
+Shrine[X]
+
+## ShrineDesc
+Altar of a local deity[N]
+said to grant blessings.[X]
+
+## CurateName
+Curate[X]
+
+## CurateDesc
+Those who are selected to hear[N]
+the voice of the spirits. Equip: Staves.[X]
+
+## StaffMageName
+Staff Mage[X]
+
+## StaffMageDesc
+Healers who show propensity
+for nature magics. Equip: Staves.[X]
+
+## HolyKnightName
+Holy Knight[X]
+
+## HolyKnightDesc
+Pegasus riders who support allies[N]
+on the battlefield. Equip: Bows, staves.[X]
+
+## BerserkerName
+Berserker[X]
+
+## BerserkerDesc
+Mountaineering and water-walking[N]
+warriors with large power. Equip: Axes.[X]
+
+## WarriorName
+Warrior[X]
+
+## WarriorDesc
+Battle-hardened fighters who never[N]
+shy from combat. Equip: Axes, bows.[X]
+
+## FighterName
+Fighter[X]
+
+## FighterDesc
+Balanced combatants whose muscles[N]
+scare off weak foes. Equip: Axes.[X]
+
+## BrigandName
+Brigand[X]
+
+## BrigandDesc
+Mountaineering ruffians whose battle[N]
+cries strike fear in all. Equip: Axes.[X]
+
+## PirateName
+Pirate[X]
+
+## PirateDesc
+Water-walking ruffians whose swings[N]
+strike like tidal waves. Equip: Axes.[X]
+
+## SoldierName
+Soldier[X]
+
+## SoldierDesc
+Skilled combatants reliant on precise[N]
+strikes and formations. Equip: Lances.[X]
+
+## TroubadourName
+Troubadour[X]
+
+## TroubadourDesc
+Mounted healers who yearn to[N]
+help others. Equip: Staves.[X]
+
+## ValkyrieName
+Valkyrie[X]
+
+## ValkyrieDesc
+A troubadour held in high esteem.[N]
+Their faith is palpable. Equip: Staves, anima.[X]
+
+## ClericName
+Cleric[X]
+
+## ClericDesc
+Spiritual guides who tend to[N]
+shrines and people. Equip: Staves.[X]
+
+## PriestName
+Priest[X]
+
+## PriestDesc
+Spiritual guides who tend to[N]
+shrines and people. Equip: Staves.[X]
+
+## PegasusKnightName
+Pegasus Knight[X]
+
+## PegasusKnightDesc
+Airborne fighters with swift speed[N]
+and strong resistance. Equip: Lances.[X]
+
+## FalcoKnightName
+FalcoKnight[X]
+
+## FalcoKnightDesc
+Veterans of aerial combat who[N]
+strike like lightning.[N]
+Equip: Lances, swords.[X]
+
+## BardName
+Bard[X]
+
+## BardDesc
+Talent musicians whose tunes[N]
+lift spirits of allies.[X]
+
+## MonkName
+Monk[X]
+
+## MonkDesc
+Holy folk whose belief fuels[N]
+their magical abilities. Equip: Anima.[X]
+
+## DragoonName
+Dragoon[X]
+
+## DragoonDesc
+Battlefield menaces with little regard[N]
+for naught but bloodshed. Equip: Lances.[X]
+
+## DruidName
+Druid[X]
+
+## DruidDesc
+Powerful shaman who hear voices[N]
+of the spirits. Equip: Anima, staves.[X]
+
+## ShamanName
+Shaman[X]
+
+## ShamanDesc
+Novice magicians whose power[N]
+is bestowed unto them by spirits.[N]
+Equip: Anima[X]
+
+## BishopName
+Bishop[X]
+
+## BishopDesc
+Holy magicians who are empowered[N]
+by their undying faith.[N]
+Equip: Anima, staves.[X]
+
+## WarClericName
+War Cleric[X]
+
+## WarClericDesc
+Keepers of the shrine whose[N]
+strength keeps foes at bay.[N]
+Equip: Axes, staves.[X]
+
+## WarMonkName
+War Monk[X]
+
+## WarMonkDesc
+Keepers of the shrine whose[N]
+strength keeps foes at bay.[N]
+Equip: Axes, staves.[X]
+
+## SageName
+Sage[X]
+
+## SageDesc
+Powerful scholars whose understanding[N]
+of nature compels them. Equip: Anima, staves.[X]
+
+## MageName
+Mage[X]
+
+## MageDesc
+Neophyte magicians whose curiosity[N]
+propels them forward. Equip: Anima.[X]
+
+## SniperName
+Sniper[X]
+
+## SniperDesc
+Sharpshooters whose precision[N]
+is well-feared. Equip: Bows.[X]
+
+## ArcherName
+Archer[X]
+
+## ArcherDesc
+Shooters who can strike foes[N]
+from a distance. Equip: Bows.[X]
+
+## ThiefName
+Thief[X]
+
+## ThiefDesc
+Shifty rogues who can see[N]
+through fog, steal, and pick locks.[N]
+Equip: Daggers.[X]
+
+## SwordmasterName
+Swordmaster[X]
+
+## SwordmasterDesc
+Brooding warriors who answer only[N]
+to the call of their blades.[N]
+Equip: Swords.[X]
+
+## MyrmidonName
+Myrmidon[X]
+
+## MyrmidonDesc
+Apprentice warriors who have heard[N]
+the call of the blade.[N]
+Equip: Swords.[X]
+
+## MercenaryName
+Mercenary[X]
+
+## MercenaryDesc
+Well-rounded combatants who[N]
+seldom stray from a fight.[N]
+Equip: Swords.[X]
+
+## HeroName
+Hero[X]
+
+## HeroDesc
+Veteran combatants whose prowess[N]
+in battle has earned them fame.[N]
+Equip: Swords, axes.[X]
