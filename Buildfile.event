@@ -1,5 +1,3 @@
-// test
-
 #include "Definitions/_MasterDefinitionInstaller.event"
 #include "Tables/_MasterDefinitionInstaller.event"
 
