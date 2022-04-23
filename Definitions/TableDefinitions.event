@@ -100,8 +100,8 @@
 #define wtBow 0x3
 #define wtStaff 0x4
 #define wtAnima 0x5
-#define wtLight 0x6
-#define wtDark 0x7
+#define wtDagger 0x6
+#define wtStone 0x7
 #define wtItem 0x9
 
 // Weapon Ranks

@@ -42,3 +42,195 @@ Teal Gem[X]
 ## TealGemDesc
 A popular gemstone[N]
 worth 1,000 gold.[X]
+
+## CutlassName
+Cutlass[X]
+
+## CutlassDesc
+Can strike consecutively.[X]
+
+## TamsHarpoonName
+Tam's Harpoon[X]
+
+## TamsHarpoonDesc
+Long range throwing spear.[X]
+
+## VolantAxeName
+Volant Axe[X]
+
+## VolantAxeDesc
+Eff. vs. Fliers.[X]
+
+## WindName
+Wind[X]
+
+## WindDesc
+[X]
+
+## ArcfireName
+Arcfire[X]
+
+## ArcfireDesc
+Eff. vs. Cavalry.[X]
+
+## ArcwindName
+Arcwind[X]
+
+## ArcwindDesc
+Eff vs. Fliers.[X]
+
+## ArcthunderName
+Arcthunder[X]
+
+## ArcthunderDesc
+Eff vs. Dragons.[X]
+
+## SagittaeName
+Sagittae[X]
+
+## SagittaeDesc
+[X]
+
+## HerosFlareName
+Hero's Flare[X]
+
+## HerosFlareDesc
+Can strike consecutively.[X]
+
+## MjolnirName
+Mjölnir[X]
+
+## MjolnirDesc
+Dark mages only.[X]
+
+## SolarRayName
+Solar Ray[X]
+
+## SolarRayDesc
+Light mages only.[X]
+
+## FlameSwordName
+Flame Sword[X]
+
+## FlameSwordDesc
+Magic sword.[X]
+
+## WingSpearName
+Wing Spear[X]
+
+## WingSpearDesc
+Eff vs. Cavalary/Armor.[X]
+
+## PerfectEdge
+Perfect Edge[X]
+
+## PerfectEdgeDesc
+The ultimate blade.[X]
+
+## PerfectPikeName
+Perfect Pike[X]
+
+## PerfectPikeDesc
+The ultimate lance.[X]
+
+## PerfectAxeName
+Perfect Axe.[X]
+
+## PerfectAxeDesc
+The ultimate axe.[X]
+
+## PerfectArcName
+Perfect Arc[X]
+
+## PerfectArcDesc
+The ultimate bow.[X]
+
+## YabusameName
+Yabusame[X]
+
+## YabusameDesc
+Eff vs. Horses/Fliers.[X]
+
+## CleaveBowName
+Cleave Bow[X]
+
+## CleaveBowDesc
+Eff. vs. Armor/Fliers.[X]
+
+## SpyYumiName
+Spy Yumi[X]
+
+## SpyYumiDesc
+Long range.[X]
+
+## BronzeDaggerName
+Brz. Dagger[X]
+
+## BronzeDaggerDesc
+Pierces DEF.[X]
+
+## IronKnifeName
+Iron Knife[X]
+
+## IronKnifeDesc
+-3 STR/MAG on hit.[X]
+
+## IronDaggerName
+Iron Dagger[X]
+
+## IronDaggerDesc
+Pierces DEF.[X]
+
+## SteelDaggerName
+Stl. Dagger[X]
+
+## DoubleBowName
+Double Bow[X]
+
+## DoubleBowDesc
+Superior range.[X]
+
+## SteelDaggerDesc
+Pierces DEF.[X]
+
+## SteelKnifeName
+Stl. Knife[X]
+
+## SteelKnifeDesc
+-3 DEF/RES on hit.[X]
+
+## PhurbaName
+Phurba[X]
+
+## PhurbaDesc
+Uses MAG. Pierces DEF.[X]
+
+## SilverDaggerName
+Slv. Dagger[X]
+
+## SilverDaggerDesc
+Pierces DEF.[X]
+
+## SilverKnifeName
+Slv. Knife.[X]
+
+## SilverKnifeDesc
+-3 SPD on hit.[X]
+
+## KillerDaggerName
+Ki. Dagger[X]
+
+## KillerDaggerDesc
+Pierces DEF.[X]
+
+## PerfectKilaName
+Perfect Kila[X]
+
+## PerfectKilaDesc
+The ultimate dagger.[X]
+
+## ParazoniumName
+Parazonium[X]
+
+## ParazoniumDesc
+Uses MAG. Pierces RES.[X]
