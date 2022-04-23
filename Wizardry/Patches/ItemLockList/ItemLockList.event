@@ -1,0 +1,15 @@
+#define ItemLockEntry(item, unitlist, classlist) "BYTE item 0 0 0; POIN unitlist; POIN classlist"
+
+ALIGN 4
+ItemLockList:
+ItemLockEntry(EspadaAncha, OlmosList, 0)
+ItemLockEntry(Shamshir, 0, MyrmidonList)
+ItemLockEntry(0, 0, 0) // TERMINATOR
+
+ALIGN 4
+OlmosList:
+BYTE Olmos 0
+
+ALIGN 4
+MyrmidonList:
+BYTE Myrmidon Myrmidon_F Swordmaster Swordmaster_F 0

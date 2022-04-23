@@ -9,6 +9,7 @@
 #include "StatGetters/Installer.event"
 #include "AutoNewline/Installer.event"
 #include "TitleMusic/Installer.event"
+#include "ItemLockList/ItemLockList.event"
 
 PUSH
 ORG FreeSpaceBLRange

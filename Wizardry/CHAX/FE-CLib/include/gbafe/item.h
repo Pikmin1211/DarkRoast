@@ -201,7 +201,7 @@ void DrawItemMenuLineLong(struct TextHandle* text, Item item, s8 isGrayed, u16* 
 void DrawItemMenuLineNoColor(struct TextHandle* text, Item item, u16* mapOut);
 void DrawItemStatScreenLine(struct TextHandle* text, Item item, int nameColor, u16* mapOut);
 
-u16 GetItemAfterUse(Item item); //! FE8U = (0x08016AEC+1)
+Item GetItemAfterUse(Item item); //! FE8U = (0x08016AEC+1)
 
 
 

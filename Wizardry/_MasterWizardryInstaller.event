@@ -1,4 +1,4 @@
 #include "_FE8EssentialFixes.event"
+#include "Patches/_MasterPatchInstaller.event"
 #include "CHAX/src.lyn.event"
 #include "Asm/_MasterAsmInstaller.event"
-#include "Patches/_MasterPatchInstaller.event"
