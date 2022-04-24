@@ -235,3 +235,11 @@ Parazonium[X]
 ## ParazoniumDesc
 Uses MAG. Pierces RES.[X]
 
+<<<<<<< Updated upstream
+=======
+## DuplexBowName
+Duplex Bow[X]
+
+## DuplexBowDesc
+Can strike consecutively.[X]
+>>>>>>> Stashed changes
