@@ -206,10 +206,10 @@ s8 CanUnitUnlockItem(const struct Unit* unit, Item item, int lock){
     if (itemLockEntry.unitLockList){
         int cnt = 0;
         while(1){
-            if (unit->pCharacterData->number == itemLockEntry.classLockList[cnt]){
+            if (unit->pCharacterData->number == itemLockEntry.unitLockList[cnt]){
                 break;
             }
-            else if (itemLockEntry.classLockList[cnt] == 0){
+            else if (itemLockEntry.unitLockList[cnt] == 0){
                 return FALSE;
             }
             cnt++;
