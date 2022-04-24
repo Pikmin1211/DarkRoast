@@ -371,3 +371,15 @@ Hero[X]
 Veteran combatants whose prowess[N]
 in battle has earned them fame.[N]
 Equip: Swords, axes.[X]
+
+## SkyKnightName
+Sky Knight[X]
+
+## SkyKnightDesc
+ [X]
+
+## BallisticianName
+Ballistician[X]
+
+## BallisticianDesc
+ [X]

@@ -121,7 +121,7 @@ Wing Spear[X]
 ## WingSpearDesc
 Eff vs. Cavalary/Armor.[X]
 
-## PerfectEdge
+## PerfectEdgeName
 Perfect Edge[X]
 
 ## PerfectEdgeDesc
@@ -234,3 +234,4 @@ Parazonium[X]
 
 ## ParazoniumDesc
 Uses MAG. Pierces RES.[X]
+

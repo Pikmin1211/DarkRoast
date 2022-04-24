@@ -194,7 +194,7 @@ those who resort to thievery,[AN]
 I must protect those who wish to live earnestly.[N]
 That is my duty, is it not?[A]
 [FarFarLeft]
-One of your many duties, Lord Olmos.[A]
+One of your many duties, Lord Olmos.[A][X]
 
 ## Chapter_01_Ending_2
 [FarLeft][LoadFlor][Left][LoadOlmos][Right][LoadColome]

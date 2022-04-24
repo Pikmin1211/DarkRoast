@@ -101,7 +101,7 @@
 #define Fort_Ruins_Outside 0x29
 #define Fort_2 0x2A
 #define Fort_2_Burning 0x2B
-#define Shrine 0x2C
+#define Shrine_BG 0x2C
 #define Shrine_lighter 0x2D
 #define Shrine_2 0x2E
 #define Shrine_3 0x2F

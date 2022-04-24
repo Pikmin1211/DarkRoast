@@ -169,8 +169,8 @@ BeginningScene:
 	ENDA
 
 EndingScene:
-	MUSC Into_The_Shadow_of_Victory
-	Background(House_BG)
+	MUSC Into_the_Shadow_of_Victory
+	Background(HouseBG)
 	Text(Chapter_02_Ending_1)
 	MNC2 Chapter_03
 	NoFade

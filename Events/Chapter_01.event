@@ -152,8 +152,8 @@ BeginningScene:
 	ENDA
 
 EndingScene:
-	MUSC Into_The_Shadow_of_Victory
-	Background(House_BG)
+	MUSC Into_the_Shadow_of_Victory
+	Background(HouseBG)
 	Text(Chapter_01_Ending_1)
 	MUSC Treasured_Memories
 	Text(Chapter_01_Ending_2)
