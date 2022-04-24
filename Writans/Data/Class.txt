@@ -376,10 +376,12 @@ Equip: Swords, axes.[X]
 Sky Knight[X]
 
 ## SkyKnightDesc
- [X]
+Airborne archers who pepper
+foes with arrows. Equip: Bows [X]
 
 ## BallisticianName
 Ballistician[X]
 
 ## BallisticianDesc
- [X]
+Long-range specialists who detest
+direct confrontation. Equip: Bows [X]
