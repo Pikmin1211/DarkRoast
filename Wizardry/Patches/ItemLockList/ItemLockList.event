@@ -4,8 +4,12 @@ ALIGN 4
 ItemLockList:
 ItemLockEntry(EspadaAncha, OlmosList, 0)
 ItemLockEntry(Shamshir, 0, MyrmidonList)
-ItemLockEntry(SolarRay, Thani, Seraphim, 0, LightList)
-ItemLockEntry(Luna, Nosferatu, Mjolnir, 0, DarkList)
+ItemLockEntry(SolarRay, 0, LightList)
+ItemLockEntry(Thani, 0, LightList)
+ItemLockEntry(Seraphim, 0, LightList)
+ItemLockEntry(Luna, 0, DarkList)
+ItemLockEntry(Nosferatu, 0, DarkList)
+ItemLockEntry(Mjolnir, 0, DarkList)
 ItemLockEntry(0, 0, 0) // TERMINATOR
 
 ALIGN 4
