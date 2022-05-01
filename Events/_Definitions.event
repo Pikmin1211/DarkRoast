@@ -25,7 +25,8 @@
 // Common Events
 #define Text(textID) "TEXTSTART; TEXTSHOW textID; TEXTEND; REMA"
 #define Text(textID, background) "SVAL 0x2 background; SVAL 0x3 textID; CALL TextWithBackground; CALL StopSkipping"
-#define SystemText(textID) "CenterTutorialTextBox; TUTORIALTEXTBOXSTART"
+#define CenterTutorialTextBox "SVAL 0xB 0xFFFFFFFF"
+#define SysText(textID) "CenterTutorialTextBox; TUTORIALTEXTBOXSTART"
 #define Background(background) "SVAL 2 background; CALL SetBackground"
 #define GiveItem(itemID) "SVAL 0x3 itemID; GIVEITEMTO 0xFFFF"
 #define GiveItem(itemID, unitID) "SVAL 0x3 itemID; GIVEITEMTO unitID"

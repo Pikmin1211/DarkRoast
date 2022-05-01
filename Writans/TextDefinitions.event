@@ -250,8 +250,9 @@
 #define Chapter_02_Charge $E3F
 #define Chapter_02_Top_Left_Village $E40
 #define Chapter_02_Bottom_Left_Village $E41
-#define Chapter_02_Boss_Quote $E42
-#define Chapter_02_Boss_Death $E43
-#define Chapter_02_Ending_1 $E44
+#define Chapter_02_Top_Right_Village $E42
+#define Chapter_02_Boss_Quote $E43
+#define Chapter_02_Boss_Death $E44
+#define Chapter_02_Ending_1 $E45
 
 #endif // TEXT_DEFINITIONS

@@ -293,7 +293,7 @@ Here, you're out there protecting us.[AN]
 I learned this staff some time ago,[N]
 but don't have much use for it now.[AN]
 Take it, and may the goddess Recaudo[N]
-protect you.[AN]
+protect you.[A][X]
 
 
 ## Chapter_02_Top_Right_Village
