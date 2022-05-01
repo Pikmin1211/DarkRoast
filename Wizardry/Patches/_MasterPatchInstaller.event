@@ -11,10 +11,41 @@
 #include "TitleMusic/Installer.event"
 #include "ItemLockList/ItemLockList.event"
 
+// Thracia stuff from Tele2
+#include "Fatigue/Fatigue.event"
+#include "BattleExpTeleshack2/Installer.event"
+#include "EscapeArrive/EscapeArrive.event"
+
 PUSH
 ORG FreeSpaceBLRange
 #define inBLRange
 #include "ContemporaryTalkSupport/ContemporaryTalkSupport.event"
 #include "LToggle/LToggle.event"
 #undef inBLRange
+POP
+
+// changes luck cap to 20
+PUSH
+ORG $872AE
+BYTE 25
+ORG $2C016
+BYTE 25
+ORG $2C01C
+BYTE 25
+ORG $18250
+BYTE 25
+ORG $18254
+BYTE 25
+ORG $926FC
+BYTE 25
+ORG $9C154
+BYTE 25
+ORG $9C31C
+BYTE 25
+POP
+
+// installs thracia trade
+PUSH
+  ORG $22F50
+  BYTE 0xC0 0x46
 POP
