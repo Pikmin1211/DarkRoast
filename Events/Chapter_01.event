@@ -97,6 +97,7 @@ ExtraUnits:
 
 EnemyUnits:
 	UNIT Hacha Pirate 0 Level(5, Enemy, 0) [15, 1] DropItem 0 0 0 [IronAxe, HandAxe] NeverMoveAI
+	UNIT Goon_Ch01 Deserter 0 Level(1, Enemy, 1) [15, 2] 0 0 0 0 [IronLance] AttackInDoubleRangeAI
 	UNIT Goon_Ch01 Fighter 0 Level(1, Enemy, 1) [1, 8] 0 0 0 0 [BronzeAxe] AttackInRangeAI
 	UNIT Goon_Ch01 Deserter 0 Level(1, Enemy, 1) [5, 10] 0 0 0 0 [BronzeLance] DefaultAI
 	UNIT Goon_Ch01 Deserter 0 Level(1, Enemy, 1) [1, 3] 0 0 0 0 [BronzeLance] AttackInDoubleRangeAI
@@ -106,7 +107,9 @@ EnemyUnits:
 	UNIT Goon_Ch01 Pirate 0 Level(1, Enemy, 1) [12, 0] 0 0 0 0 [BronzeAxe] LootingAI
 	UNIT Goon_Ch01 Pirate 0 Level(1, Enemy, 1) [16, 3] 0 0 0 0 [BronzeAxe] LootingAI
 	UNIT Goon_Ch01 Deserter 0 Level(1, Enemy, 1) [4, 2] 0 0 0 0 [BronzeLance] AttackInRangeAI
-	UNIT Goon_Ch01 Fighter 0 Level(1, Enemy, 1) [13, 4] 0 0 0 0 [BronzeAxe] AttackInRangeAI
+	UNIT Goon_Ch01 Hunter 0 Level(1, Enemy, 1) [15, 12] 0 0 0 0 [BronzeBow] AttackInRangeAI
+	UNIT Goon_Ch01 Deserter 0 Level(1, Enemy, 1) [13, 4] 0 0 0 0 [BronzeLance] AttackInRangeAI
+	UNIT Goon_Ch01 Fighter 0 Level(1, Enemy, 1) [8, 1] 0 0 0 0 [BronzeAxe] AttackInRangeAI
 	UNIT Goon_Ch01 Hunter 0 Level(1, Enemy, 1) [13, 1] 0 0 0 0 [BronzeBow] AttackInDoubleRangeAI
 	UNIT Goon_Ch01 Deserter 0 Level(1, Enemy, 1) [8, 4] 0 0 0 0 [BronzeLance] AttackInDoubleRangeAI
 	UNIT Goon_Ch01 Mercenary 0 Level(1, Enemy, 1) [3, 9] 0 0 0 0 [BronzeSword] DefaultAI
