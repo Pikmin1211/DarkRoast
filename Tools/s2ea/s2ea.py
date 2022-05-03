@@ -82,7 +82,7 @@ def s2ea(sfiledir: str, startindex = 0):
     installer.write('#include "' + file + '"\n')
     installer.write('#define ' + name + "_Song " + hex(currentindex) + "\n")
     installer.write("SoundTableEntry(" + name + "_Song, " + name + ", 1)\n")
-    installer.write("}\n")
+    installer.write("}\n\n")
     currentindex += 1
 
   installer.close()
