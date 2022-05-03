@@ -92,6 +92,17 @@
 #define pNoTerrainDef 0x880C57D
 #define pNoTerrainRes 0x880C5BE
 
+// Class Types
+
+#define HorseType (1 << 0)
+#define DragonType (1 << 1)
+#define FlierType (1 << 2)
+#define ArmorType (1 << 3)
+#define SwordType (1 << 4)
+#define MonsterType (1 << 5)
+#define MageType (1 << 6)
+#define ThiefType (1 << 7)
+
 // Item Types
 
 #define wtSword 0x0
@@ -114,6 +125,7 @@
 #define SRank 251
 
 // Chapter Ojective Types
+
 #define ObjectiveSeize 0
 #define ObjectiveRout 1
 #define ObjectiveDefend 2

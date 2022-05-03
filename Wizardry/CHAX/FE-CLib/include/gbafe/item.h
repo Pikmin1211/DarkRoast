@@ -52,7 +52,7 @@ struct ItemData
 	/* 08 */ u32 attributes;
 
 	/* 0C */ const struct ItemStatBonuses* pStatBonuses;
-	/* 10 */ const u8* pEffectiveness;
+	/* 10 */ u32 effectiveType;
 
 	/* 14 */ u8  maxUses;
 

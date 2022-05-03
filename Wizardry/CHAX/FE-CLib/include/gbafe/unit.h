@@ -142,7 +142,7 @@ struct ClassData {
 	/* 48 */ const s8* pTerrainDefenseLookup;
 	/* 4C */ const s8* pTerrainResistanceLookup;
 
-	/* 50 */ const void* pUnk50;
+	/* 50 */ u32 classType;
 };
 
 struct ClassMagicData {
@@ -517,7 +517,7 @@ int GetUnitEquippedWeaponSlot(const struct Unit*); //! FE8U = (0x08016B58+1)
 
 void EquipUnitItemSlot(struct Unit*, int slot); //! FE8U = (0x08016BC0+1)
 
-int IsItemEffectiveAgainst(Item item, const struct Unit*); //! FE8U = (0x08016BEC+1)
+s8 IsItemEffectiveAgainst(Item item, const struct Unit*); //! FE8U = (0x08016BEC+1)
 
 int IsItemDisplayUsable(const struct Unit*, Item item); //! FE8U = 0x8016EE5
 int CanUnitUse_unused(const struct Unit*, Item item); //! FE8U = 0x8016F7D

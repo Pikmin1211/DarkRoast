@@ -243,3 +243,14 @@ int CanUnitUseWeapon(const struct Unit* unit, Item item) {
     }
     return FALSE;
 }
+
+s8 IsItemEffectiveAgainst(Item item, const struct Unit* unit) {
+    if (GetItemData(item.number)->effectiveType && unit->pClassData->classType){
+        return TRUE;
+    }
+    return FALSE;
+}
+
+s8 IsUnitEffectiveAgainst(struct Unit* actor, struct Unit* target) {
+    return FALSE;
+}
