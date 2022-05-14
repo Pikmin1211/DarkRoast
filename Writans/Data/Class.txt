@@ -180,12 +180,12 @@ Fighter[X]
 Balanced combatants whose muscles[N]
 scare off weak foes. Equip: Axes.[X]
 
-## BrigandName
-Brigand[X]
+## OhtliName
+Ohtli[X]
 
-## BrigandDesc
-Mountaineering ruffians whose battle[N]
-cries strike fear in all. Equip: Axes.[X]
+## OhtliDesc
+Spiritual warriors whose faith[N]
+fuels their power. Equip: Axes.[X]
 
 ## PirateName
 Pirate[X]
@@ -385,3 +385,10 @@ Ballistician[X]
 ## BallisticianDesc
 Long-range specialists who detest
 direct confrontation. Equip: Bows [X]
+
+## ChiefName
+Chief[X]
+
+## ChiefDesc
+Brave battle leaders whose mere
+presence strikes fear. Equip: Axes, anima[X]
