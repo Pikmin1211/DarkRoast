@@ -1,6 +1,6 @@
 DARK ROAST TRAGEDY -- CREDITS
 -----------------------------
-Thanks to all the folks of the FE hacking community that created hacks and other assets. It's not possible without you all
+Thanks to all the folks of the FE hacking community that created hacks and other assets. It's not possible without you all.
 
 ----
 PANDAN & FRIENDS
@@ -22,7 +22,7 @@ COMMUNITY RESOURCES
 FEBuilder & Various Fixes - 7743
 Music - 7743, RandomWizard, A_Reliable_Chair, SurfingKyogre, Dolkar, Sme
 ModularMiniMugBox - ZaneAvernathy
-Map Sprites - AstraLunaSol, TheBlindArcher, Subbastian, Alusq, Team SALVAGED, Flasuban, Author_Pendragon, BatimaTheBat, DerTheVaporeon, Nuramon
+Map Sprites - AstraLunaSol, TheBlindArcher, Subbastian, Alusq, Team SALVAGED, Flasuban, Author_Pendragon, BatimaTheBat, DerTheVaporeon, Nuramon, CanDy, Deranger, Skitty, knabepicer, StreetHero
 Animations - AstraLunaSol, TheBlindArcher, Temp, Alusq, Team SALVAGED, Maiser6, Ukulele, SD9K, Black Mage, Wan, BatimaTheBat, DerTheVaporeon, Iscaneus, Nuramon
 Mugs - NickT, Capybara
 Icons - GabrielKnight, LordGlenn, Ereskigal
