@@ -94,8 +94,11 @@ Units1Hard:
 	UNIT 
 
 ExtraUnits:
-	UNIT Domingo WarMonk 0 Level(1, Ally, 0) [10, 8] 0 0 1 [0x0] [BronzeAxe, LightRuneStaff, Soothe, Herb] DefaultAI
-	UNIT Luz Curate 0 Level(2, Ally, 0) [8, 8] 0 0 1 [0x0] [Heal, Slow, Haste, Herb] DefaultAI
+	UNIT Domingo WarMonk 0 Level(1, Ally, 0) [10, 8] 0 0 0 0 [BronzeAxe, LightRuneStaff, Soothe, Herb] DefaultAI
+	UNIT Luz Curate 0 Level(2, Ally, 0) [8, 8] 0 0 0 0 [Heal, Slow, Haste, Herb] DefaultAI
+	UNIT
+
+ShrineUnits:
 	UNIT Recaudo Shrine 0 Level(1, NPC, 0) [9,8] 0 0 1 [0x0] NeverMoveAI
 	UNIT
 
@@ -140,6 +143,8 @@ BeginningScene:
 	ENUN
 	LOAD1 0x1 ExtraUnits
 	ENUN
+	LOAD1 0x1 ShrineUnits
+	ENUN
 	LOAD1 0x1 EnemyUnits
 	ENUN
 	
@@ -154,6 +159,8 @@ BeginningScene:
 	LOAD2 0x1 Units1
 	ENUN
 	LOAD1 0x1 ExtraUnits
+	ENUN
+	LOAD1 0x1 ShrineUnits
 	ENUN
 	LOAD1 0x1 EnemyUnits
 	ENUN

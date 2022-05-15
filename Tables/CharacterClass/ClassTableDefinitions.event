@@ -52,15 +52,17 @@
 #define AxePaladin_F 0x38
 #define Nomad_F 0x39
 #define Guard 0x3a
+#define Manakete 0x3b
 #define Dragoon 0x3d
 #define Hunter 0x3e
 #define Fighter 0x3f
 #define Warrior 0x40
-#define Brigand 0x41
+#define Ohtli 0x41
 #define Pirate 0x42
 #define Berserker 0x43
 #define Monk 0x44
 #define Priest 0x45
+#define Bard 0x46
 #define FalcoKnight 0x47
 #define PegasusKnight 0x48
 #define Deserter_F 0x49
@@ -71,7 +73,7 @@
 #define Halberdier 0x58
 #define Soldier_F 0x59
 #define Fighter_F 0x5a
-#define Brigand_F 0x5b
+#define Ohtli_F 0x5b
 #define Pirate_F 0x5c
 #define Warrior_F 0x5d
 #define Berserker_F 0x5e
@@ -83,3 +85,5 @@
 #define Curate 0x7d
 #define Ballistician 0x7e
 #define Shrine 0x7f
+#define Chief 0x80
+#define Chief_F 0x81

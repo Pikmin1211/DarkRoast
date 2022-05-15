@@ -392,3 +392,11 @@ Chief[X]
 ## ChiefDesc
 Brave battle leaders whose mere
 presence strikes fear. Equip: Axes, anima[X]
+
+## ManaketeName
+Manakete[X]
+
+## ManaketeDesc
+Dragons who transform into their
+draconic forms with stones.
+Equip: Dragonstones.[X]
