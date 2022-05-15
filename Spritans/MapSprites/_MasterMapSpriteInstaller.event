@@ -375,3 +375,25 @@ ALIGN 4
 Chief_FStandData:
 #incbin "Chief_F\Stand.dmp"
 StandMapDpriteEntry(Chief_FStandMapSprite, 0x2, 1, Chief_FStandData)
+
+ALIGN 4
+WarMonkMoveData:
+#incbin "WarMonk\Move.dmp"
+MoveMapSpriteEntry(WarMonk, 0x1CAA20, WarMonkMoveData)
+
+#define WarMonkStandMapSprite 0x8b
+ALIGN 4
+WarMonkStandData:
+#incbin "WarMonk\Stand.dmp"
+StandMapDpriteEntry(WarMonkStandMapSprite, 0x2, 1, WarMonkStandData)
+
+ALIGN 4
+WarClericMoveData:
+#incbin "WarCleric\Move.dmp"
+MoveMapSpriteEntry(WarCleric, 0x1CAA20, WarClericMoveData)
+
+#define WarClericStandMapSprite 0x8c
+ALIGN 4
+WarMonkStandData:
+#incbin "WarCleric\Stand.dmp"
+StandMapDpriteEntry(WarClericStandMapSprite, 0x2, 1, WarClericStandData)
