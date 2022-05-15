@@ -1,2 +1,5 @@
 ## TheFragranceOfBlackCoffee_Name
 The Fragrance of Black Coffee[X]
+
+## WoWTavern_Name
+WoW - Tavern[X]

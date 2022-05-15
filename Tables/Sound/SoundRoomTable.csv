@@ -70,4 +70,5 @@ SoundRoomTable,songNumber,songLength,displayCondition,songName
 67,0x42,9120,0x0,0x7ce
 68,0x46,9360,0x0,0x7cf
 ,TheFragranceOfBlackCoffee_Song,0,0x0,TheFragranceOfBlackCoffee_Name
+,WoWTavern_Song,0,0x0,WoWTavern_Name
 TERMINATOR,0xFFFFFFFF,0,0x0,0x0

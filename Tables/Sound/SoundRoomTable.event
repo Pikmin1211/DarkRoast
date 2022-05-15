@@ -75,6 +75,7 @@ SoundRoomTableEntry(0x41, 6240, 0x0, 0x7cd)
 SoundRoomTableEntry(0x42, 9120, 0x0, 0x7ce)
 SoundRoomTableEntry(0x46, 9360, 0x0, 0x7cf)
 SoundRoomTableEntry(TheFragranceOfBlackCoffee_Song, 0, 0x0, TheFragranceOfBlackCoffee_Name)
+SoundRoomTableEntry(WoWTavern_Song, 0, 0x0, WoWTavern_Name)
 SoundRoomTableEntry(0xFFFFFFFF, 0, 0x0, 0x0)
 
 #define SoundRoomTable SoundRoomTableLabel
