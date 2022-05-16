@@ -54,6 +54,7 @@ Temporary Items
 *.SNA
 
 .csv#
+.~lock*
 
 # python cache
 __pycache__
