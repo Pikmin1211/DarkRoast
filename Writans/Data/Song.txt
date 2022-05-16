@@ -3,3 +3,276 @@ The Fragrance of Black Coffee[X]
 
 ## WoWTavern_Name
 WoW - Tavern[X]
+
+## ActraiserFillmore_Name
+Actraiser - Fillmore[X]
+
+## Adversity_Name
+FE5 - Adversity[X]
+
+## AKnightsOath_Name
+FE7 - A Knight's Oath[X]
+
+## AllyAttackFE4_Name
+FE4 - Ally Attack[X]
+
+## AlmEnemyPhase_Name
+FE2 - Alm Enemy Phase[X]
+
+## AlmMap1_Name
+FE2 - Alm Map 1[X]
+
+## ArenaFE5_Name
+FE5 - Arena[X]
+
+## ArmyOfLeif_Name
+FE5 - Army of Leif[X]
+
+## AttackFE3_Name
+FE3 - Attack[X]
+
+## BabiLighthouse_Name
+GS - Babi's Lighthouse[X]
+
+## BattleToadsDoubleDragonLevel1_Name
+BT&DD - Level 1[X]
+
+## BeforeTheBattle_Name
+? - Before the Battle[X]
+
+## BelieveInMyselfSA2B_Name
+SA2B - Believe In Myself[X]
+
+## BossDoorOpens_Name
+DKR - Boss Door Opens[X]
+
+## CelicaMap2_Name
+FE2 - Celica Map 2[X]
+
+## ChaseOfShadow_Name
+Ys - Chase of Shadow[X]
+
+## ChineseTea_Name
+Touhou - Chinese Tea[X]
+
+## ConfidenceInTheDomination_Name
+VP - Confidence In The Domination[X]
+
+## CorridorsOfTime_Name
+CT - Corridors of Time[X]
+
+## DefendFE5_Name
+FE5 - Defend[X]
+
+## DelfinoPlaza_Name
+SMS - Delfino Plaza[X]
+
+## Destiny_Name
+FE5 - Destiny[X]
+
+## DistantTravels_Name
+FE7 - Distant Travels[X]
+
+## EldiganTheLionheart_Name
+FE4 - Eldigan The Lionheart[X]
+
+## EndingRippleIsland_Name
+Ripple Island - Ending[X]
+
+## EndlessBattle_Name
+FE12 - Endless Battle[X]
+
+## EvergrandeCity_Name
+Pkmn RSE - Evergrande City[X]
+
+## FE5SearchingForEnemy_Name
+FE5 - Searching For Enemy[X]
+
+## FE5Sortie_Name
+FE5 - Sortie[X]
+
+## FE6Attack_Name
+FE6 - Attack[X]
+
+## FFMQBattle1_Name
+FFMQ - Battle 1[X]
+
+## FightingOfTheSpirit_Name
+ToS - Fighting of the Spirit[X]
+
+## FirstStepTowardsWar_Name
+Ys - First Steps Towards War[X]
+
+## FivePmACNH_Name
+ACNH - 5 PM[X]
+
+## ForwardFE5_Name
+FE5 - Forward[X]
+
+## FromEnemyToFriendFE4_Name
+FE4 - From Enemy To Friend[X]
+
+## Frontier_Name
+FE6 - Frontier[X]
+
+## GatheringOfHeroesTRS_Name
+TRS - Gathering of Heroes[X]
+
+## Guile_Name
+SF2 - Guile Theme[X]
+
+## GundamnF19Act12_Name
+Gundamn F19 - Act 12[X]
+
+## HarvestDance_Name
+Tactics Ogre - Harvest Dance[X]
+
+## InsideTheWhale_Name
+SMB2 - Inside the Whale[X]
+
+## IsaachArmy_Name
+FE4 - Isaach Army[X]
+
+## ItDoesntMatterSA2B_Name
+SA2B - It Doesn't Matter[X]
+
+## KKCafe_Name
+AC - K.K. Cafe[X]
+
+## KnightErrant_Name
+Der Langrisser - Knight Errant[X]
+
+## LightAndDark_Name
+FE4 - Light & Dark[X]
+
+## LightningSong_Name
+F-Zero GP - Lightning[X]
+
+## LikeAGlintOfLight_Name
+ToS - Like a Glint of Light[X]
+
+## LoZMMStoneTowerTemple_Name
+LoZ MM - Stone Tower Temple[X]
+
+## LoZTPFaronWoods_Name
+LoZ TP - Faron Woods[X]
+
+## LuigisMansionTheme_Name
+Luigi's Mansion - Theme[X]
+
+## MarionCourse_Name
+Mario Golf GBC - Marion Course[X]
+
+## MissionStreet_Name
+SA2B - Mission Street[X]
+
+## Nightfall_Name
+Shenmue - Nightfall[X]
+
+## OceanicMuseum_Name
+Pkmn RSE - Oceanic Museum[X]
+
+## OneWill_Name
+FE6 - One Will[X]
+
+## OssaTrail_Name
+ToS - Ossa Trail / Rovers[X]
+
+## PrisonLane_Name
+SA2B - Prison Lane[X]
+
+## PyramidCaveSA2B_Name
+SA2B - Pyramid Cave[X]
+
+## Rave_Name
+Cool Spot - Rave[X]
+
+## Regal_Name
+ToS - Regal[X]
+
+## RevengeFE6_Name
+FE6 - Revenge[X]
+
+## RiseToTheChallenge_Name
+FE7 - Rise to the Challenge[X]
+
+## Ronald_Name
+PTCG2 - Ronald's Theme[X]
+
+## ShipsAndHomes_Name
+FE7 - Ships and Homes[X]
+
+## SilverWill_Name
+LoH TS - Silver Will[X]
+
+## SMB2Boss_Name
+SMB2 - Boss[X]
+
+## SMB2MonkyGolf_Name
+SMB2 - Monkey Golf[X]
+
+## SML2StarCourseLooped_Name
+SML2 - Star Course[X]
+
+## SpaceLand_Name
+MP2 - Space Land[X]
+
+## SplashWave_Name
+Outrun - Splash Wave[X]
+
+## StalwartOppositionFE3_Name
+FE3 - Stalwart Opposition[X]
+
+## StarFox64Map_Name
+SF64 - Map[X]
+
+## StarWolf_Name
+SF64 - Star Wolf[X]
+
+## StrikeFE7_Name
+FE7 - Strike[X]
+
+## SunsetBay_Name
+Wave Race 64 - Sunset Bay[X]
+
+## TheInnFE7_Name
+FE7 - The Inn[X]
+
+## TheRoost_Name
+ACWW - The Roost[X]
+
+## ToadstoolTourSkinsMatch_Name
+MGTT - Skins Match[X]
+
+## ToSLawOfBattle_Name
+ToS - Law of Battle[X]
+
+## TouchFuzzyGetDizzy_Name
+YI - Touch Fuzzy, Get Dizzy[X]
+
+## TS_CombatResistance_Name
+TS - Combat Resistance[X]
+
+## VenusLighthouse_Name
+GS - Venus Lighthouse[X]
+
+## Verdanturf_Name
+Pkmn RSE - Verdanturf Town[X]
+
+## VoicesOfTheTemple_Name
+DKC - Voices of the Temple[X]
+
+## VsRocketLeader_Name
+PTCG2 - Vs. Rocket Leader[X]
+
+## WarioBattleCanyon_Name
+MP1 - Wario Battle Canyon[X]
+
+## WaterWorld_Name
+DKC3 - Water World[X]
+
+## WindAcrossThePlains_Name
+FE7 - Winds Across the Plains[X]
+
+## FE12BeforeBattleSwiftSaturn_Name
+FE12 - Before the Battle[X]

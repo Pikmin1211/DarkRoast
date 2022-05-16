@@ -118,10 +118,10 @@
 // Weapon Ranks
 
 #define ERank 1
-#define DRank 31
+#define DRank 21
 #define CRank 71
-#define BRank 121
-#define ARank 181
+#define BRank 131
+#define ARank 201
 #define SRank 251
 
 // Chapter Ojective Types
