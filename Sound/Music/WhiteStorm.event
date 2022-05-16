@@ -1,28 +1,28 @@
 //Event file generated from Sappy .s format.
 	
 
-	#define	song04_grp  voicegroup000
-	#define	song04_pri  0
-	#define	song04_rev  0
-	#define	song04_mvl  127
-	#define	song04_key  0
-	#define	song04_tbs  1
-	#define	song04_exg  0
-	#define	song04_cmp  1
+	#define	WhiteStorm_grp  voicegroup000
+	#define	WhiteStorm_pri  0
+	#define	WhiteStorm_rev  0
+	#define	WhiteStorm_mvl  127
+	#define	WhiteStorm_key  0
+	#define	WhiteStorm_tbs  1
+	#define	WhiteStorm_exg  0
+	#define	WhiteStorm_cmp  1
 
 	// .rodata
-	//	song04
+	//	WhiteStorm
 	ALIGN 4
 
 
 //**************** Track 1 (Midi-Chn.0) ****************//
 
-song04_001:
+WhiteStorm_001:
 //  #01 //000   ----------------------------------------
- BYTE   KEYSH   song04_key+0
- BYTE   TEMPO   124*song04_tbs/2
+ BYTE   KEYSH   WhiteStorm_key+0
+ BYTE   TEMPO   124*WhiteStorm_tbs/2
  BYTE   VOICE   48
- BYTE   VOL   30*song04_mvl/mxv
+ BYTE   VOL   30*WhiteStorm_mvl/mxv
  BYTE   N36  Dn3  v100
  BYTE   W36
  BYTE   N24  En3
@@ -216,11 +216,11 @@ Label_01009614:
 
 //**************** Track 2 (Midi-Chn.1) ****************//
 
-song04_002:
+WhiteStorm_002:
 //  #02 //000   ----------------------------------------
- BYTE   KEYSH   song04_key+0
+ BYTE   KEYSH   WhiteStorm_key+0
  BYTE   VOICE   48
- BYTE   VOL   30*song04_mvl/mxv
+ BYTE   VOL   30*WhiteStorm_mvl/mxv
  BYTE   W03
  BYTE   N36  Dn3  v100
  BYTE   W36
@@ -453,11 +453,11 @@ Label_01008C84:
 
 //**************** Track 3 (Midi-Chn.2) ****************//
 
-song04_003:
+WhiteStorm_003:
 //  #03 //000   ----------------------------------------
- BYTE   KEYSH   song04_key+0
+ BYTE   KEYSH   WhiteStorm_key+0
  BYTE   VOICE   61
- BYTE   VOL   30*song04_mvl/mxv
+ BYTE   VOL   30*WhiteStorm_mvl/mxv
  BYTE   N12  An2  v100
  BYTE   N12  Dn3
  BYTE   W24
@@ -703,11 +703,11 @@ Label_01009760:
 
 //**************** Track 4 (Midi-Chn.3) ****************//
 
-song04_004:
+WhiteStorm_004:
 //  #04 //000   ----------------------------------------
- BYTE   KEYSH   song04_key+0
+ BYTE   KEYSH   WhiteStorm_key+0
  BYTE   VOICE   52
- BYTE   VOL   30*song04_mvl/mxv
+ BYTE   VOL   30*WhiteStorm_mvl/mxv
  BYTE   N48  An3  v100
  BYTE   W48
  BYTE   Dn3
@@ -1241,11 +1241,11 @@ Label_01008B67:
 
 //**************** Track 5 (Midi-Chn.4) ****************//
 
-song04_005:
+WhiteStorm_005:
 //  #05 //000   ----------------------------------------
- BYTE   KEYSH   song04_key+0
+ BYTE   KEYSH   WhiteStorm_key+0
  BYTE   VOICE   47
- BYTE   VOL   30*song04_mvl/mxv
+ BYTE   VOL   30*WhiteStorm_mvl/mxv
  BYTE   W02
  BYTE   N22  Dn2  v092
  BYTE   W24
@@ -1619,11 +1619,11 @@ Label_0100948A:
 
 //**************** Track 6 (Midi-Chn.5) ****************//
 
-song04_006:
+WhiteStorm_006:
 //  #06 //000   ----------------------------------------
- BYTE   KEYSH   song04_key+0
+ BYTE   KEYSH   WhiteStorm_key+0
  BYTE   VOICE   36
- BYTE   VOL   30*song04_mvl/mxv
+ BYTE   VOL   30*WhiteStorm_mvl/mxv
  BYTE   N12  Dn1  v100
  BYTE   W24
  BYTE   N12
@@ -1835,11 +1835,11 @@ Label_010086F3:
 
 //**************** Track 7 (Midi-Chn.6) ****************//
 
-song04_007:
+WhiteStorm_007:
 //  #07 //000   ----------------------------------------
- BYTE   KEYSH   song04_key+0
+ BYTE   KEYSH   WhiteStorm_key+0
  BYTE   VOICE   127
- BYTE   VOL   45*song04_mvl/mxv
+ BYTE   VOL   45*WhiteStorm_mvl/mxv
  BYTE   W02
  BYTE   N01  Dn1  v080
  BYTE   W12
@@ -2045,20 +2045,20 @@ Label_01008792:
 //******************************************************//
 	ALIGN 4
 
-song04:
+WhiteStorm:
 	BYTE	7	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	song04_pri	// Priority
-	BYTE	song04_rev	// Reverb.
+	BYTE	WhiteStorm_pri	// Priority
+	BYTE	WhiteStorm_rev	// Reverb.
     
-	POIN2	song04_grp
+	POIN2	WhiteStorm_grp
     
-	POIN2	song04_001
-	POIN2	song04_002
-	POIN2	song04_003
-	POIN2	song04_004
-	POIN2	song04_005
-	POIN2	song04_006
-	POIN2	song04_007
+	POIN2	WhiteStorm_001
+	POIN2	WhiteStorm_002
+	POIN2	WhiteStorm_003
+	POIN2	WhiteStorm_004
+	POIN2	WhiteStorm_005
+	POIN2	WhiteStorm_006
+	POIN2	WhiteStorm_007
 
 	

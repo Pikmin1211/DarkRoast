@@ -1,27 +1,27 @@
 	.include "MPlayDef.s"
 
-	.equ	song04_grp, voicegroup000
-	.equ	song04_pri, 0
-	.equ	song04_rev, 0
-	.equ	song04_mvl, 127
-	.equ	song04_key, 0
-	.equ	song04_tbs, 1
-	.equ	song04_exg, 0
-	.equ	song04_cmp, 1
+	.equ	WhiteStorm_grp, voicegroup000
+	.equ	WhiteStorm_pri, 0
+	.equ	WhiteStorm_rev, 0
+	.equ	WhiteStorm_mvl, 127
+	.equ	WhiteStorm_key, 0
+	.equ	WhiteStorm_tbs, 1
+	.equ	WhiteStorm_exg, 0
+	.equ	WhiteStorm_cmp, 1
 
 	.section .rodata
-	.global	song04
+	.global	WhiteStorm
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song04_001:
+WhiteStorm_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , song04_key+0
- .byte   TEMPO , 124*song04_tbs/2
+ .byte   KEYSH , WhiteStorm_key+0
+ .byte   TEMPO , 124*WhiteStorm_tbs/2
  .byte   VOICE , 48
- .byte   VOL , 30*song04_mvl/mxv
+ .byte   VOL , 30*WhiteStorm_mvl/mxv
  .byte   N36 ,Dn3 ,v100
  .byte   W36
  .byte   N24 ,En3
@@ -215,11 +215,11 @@ Label_01009614:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song04_002:
+WhiteStorm_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , song04_key+0
+ .byte   KEYSH , WhiteStorm_key+0
  .byte   VOICE , 48
- .byte   VOL , 30*song04_mvl/mxv
+ .byte   VOL , 30*WhiteStorm_mvl/mxv
  .byte   W03
  .byte   N36 ,Dn3 ,v100
  .byte   W36
@@ -452,11 +452,11 @@ Label_01008C84:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song04_003:
+WhiteStorm_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , song04_key+0
+ .byte   KEYSH , WhiteStorm_key+0
  .byte   VOICE , 61
- .byte   VOL , 30*song04_mvl/mxv
+ .byte   VOL , 30*WhiteStorm_mvl/mxv
  .byte   N12 ,An2 ,v100
  .byte   N12 ,Dn3
  .byte   W24
@@ -702,11 +702,11 @@ Label_01009760:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song04_004:
+WhiteStorm_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , song04_key+0
+ .byte   KEYSH , WhiteStorm_key+0
  .byte   VOICE , 52
- .byte   VOL , 30*song04_mvl/mxv
+ .byte   VOL , 30*WhiteStorm_mvl/mxv
  .byte   N48 ,An3 ,v100
  .byte   W48
  .byte   Dn3
@@ -1240,11 +1240,11 @@ Label_01008B67:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song04_005:
+WhiteStorm_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , song04_key+0
+ .byte   KEYSH , WhiteStorm_key+0
  .byte   VOICE , 47
- .byte   VOL , 30*song04_mvl/mxv
+ .byte   VOL , 30*WhiteStorm_mvl/mxv
  .byte   W02
  .byte   N22 ,Dn2 ,v092
  .byte   W24
@@ -1618,11 +1618,11 @@ Label_0100948A:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song04_006:
+WhiteStorm_006:
 @  #06 @000   ----------------------------------------
- .byte   KEYSH , song04_key+0
+ .byte   KEYSH , WhiteStorm_key+0
  .byte   VOICE , 36
- .byte   VOL , 30*song04_mvl/mxv
+ .byte   VOL , 30*WhiteStorm_mvl/mxv
  .byte   N12 ,Dn1 ,v100
  .byte   W24
  .byte   N12
@@ -1834,11 +1834,11 @@ Label_010086F3:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-song04_007:
+WhiteStorm_007:
 @  #07 @000   ----------------------------------------
- .byte   KEYSH , song04_key+0
+ .byte   KEYSH , WhiteStorm_key+0
  .byte   VOICE , 127
- .byte   VOL , 45*song04_mvl/mxv
+ .byte   VOL , 45*WhiteStorm_mvl/mxv
  .byte   W02
  .byte   N01 ,Dn1 ,v080
  .byte   W12
@@ -2044,20 +2044,20 @@ Label_01008792:
 @******************************************************@
 	.align	2
 
-song04:
+WhiteStorm:
 	.byte	7	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song04_pri	@ Priority
-	.byte	song04_rev	@ Reverb.
+	.byte	WhiteStorm_pri	@ Priority
+	.byte	WhiteStorm_rev	@ Reverb.
     
-	.word	song04_grp
+	.word	WhiteStorm_grp
     
-	.word	song04_001
-	.word	song04_002
-	.word	song04_003
-	.word	song04_004
-	.word	song04_005
-	.word	song04_006
-	.word	song04_007
+	.word	WhiteStorm_001
+	.word	WhiteStorm_002
+	.word	WhiteStorm_003
+	.word	WhiteStorm_004
+	.word	WhiteStorm_005
+	.word	WhiteStorm_006
+	.word	WhiteStorm_007
 
 	.end

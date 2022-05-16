@@ -1,28 +1,28 @@
 	.include "MPlayDef.s"
 
-	.equ	song04_grp, voicegroup000
-	.equ	song04_pri, 0
-	.equ	song04_rev, 0
-	.equ	song04_mvl, 127
-	.equ	song04_key, 0
-	.equ	song04_tbs, 1
-	.equ	song04_exg, 0
-	.equ	song04_cmp, 1
+	.equ	ToTheSorrowfulBattlefield_grp, voicegroup000
+	.equ	ToTheSorrowfulBattlefield_pri, 0
+	.equ	ToTheSorrowfulBattlefield_rev, 0
+	.equ	ToTheSorrowfulBattlefield_mvl, 127
+	.equ	ToTheSorrowfulBattlefield_key, 0
+	.equ	ToTheSorrowfulBattlefield_tbs, 1
+	.equ	ToTheSorrowfulBattlefield_exg, 0
+	.equ	ToTheSorrowfulBattlefield_cmp, 1
 
 	.section .rodata
-	.global	song04
+	.global	ToTheSorrowfulBattlefield
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song04_001:
+ToTheSorrowfulBattlefield_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , song04_key+0
- .byte   TEMPO , 144*song04_tbs/2
+ .byte   KEYSH , ToTheSorrowfulBattlefield_key+0
+ .byte   TEMPO , 144*ToTheSorrowfulBattlefield_tbs/2
  .byte   VOICE , 73
  .byte   PAN , c_v+0
- .byte   VOL , 29*song04_mvl/mxv
+ .byte   VOL , 29*ToTheSorrowfulBattlefield_mvl/mxv
  .byte   W96
 @  #01 @001   ----------------------------------------
  .byte   W96
@@ -512,12 +512,12 @@ Label_010086E8:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song04_002:
+ToTheSorrowfulBattlefield_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , song04_key+0
+ .byte   KEYSH , ToTheSorrowfulBattlefield_key+0
  .byte   VOICE , 48
  .byte   PAN , c_v+0
- .byte   VOL , 29*song04_mvl/mxv
+ .byte   VOL , 29*ToTheSorrowfulBattlefield_mvl/mxv
  .byte   N06 ,Bn2 ,v084
  .byte   N06 ,Cn3 ,v072
  .byte   N06 ,En3 ,v127
@@ -876,12 +876,12 @@ Label_01008BB1:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song04_003:
+ToTheSorrowfulBattlefield_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , song04_key+0
+ .byte   KEYSH , ToTheSorrowfulBattlefield_key+0
  .byte   VOICE , 36
  .byte   PAN , c_v+0
- .byte   VOL , 29*song04_mvl/mxv
+ .byte   VOL , 29*ToTheSorrowfulBattlefield_mvl/mxv
  .byte   W96
 @  #03 @001   ----------------------------------------
  .byte   W96
@@ -1290,12 +1290,12 @@ Label_01008D29:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-song04_004:
+ToTheSorrowfulBattlefield_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , song04_key+0
+ .byte   KEYSH , ToTheSorrowfulBattlefield_key+0
  .byte   VOICE , 48
  .byte   PAN , c_v-57
- .byte   VOL , 29*song04_mvl/mxv
+ .byte   VOL , 29*ToTheSorrowfulBattlefield_mvl/mxv
  .byte   W96
 @  #04 @001   ----------------------------------------
  .byte   W96
@@ -1856,12 +1856,12 @@ Label_01009104:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-song04_005:
+ToTheSorrowfulBattlefield_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , song04_key+0
+ .byte   KEYSH , ToTheSorrowfulBattlefield_key+0
  .byte   VOICE , 60
  .byte   PAN , c_v+56
- .byte   VOL , 29*song04_mvl/mxv
+ .byte   VOL , 29*ToTheSorrowfulBattlefield_mvl/mxv
  .byte   W96
 @  #05 @001   ----------------------------------------
  .byte   W96
@@ -2042,12 +2042,12 @@ song04_005:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-song04_006:
+ToTheSorrowfulBattlefield_006:
 @  #06 @000   ----------------------------------------
- .byte   KEYSH , song04_key+0
+ .byte   KEYSH , ToTheSorrowfulBattlefield_key+0
  .byte   VOICE , 61
  .byte   PAN , c_v+63
- .byte   VOL , 21*song04_mvl/mxv
+ .byte   VOL , 21*ToTheSorrowfulBattlefield_mvl/mxv
  .byte   W96
 @  #06 @001   ----------------------------------------
  .byte   W96
@@ -2422,12 +2422,12 @@ Label_01009315:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-song04_007:
+ToTheSorrowfulBattlefield_007:
 @  #07 @000   ----------------------------------------
- .byte   KEYSH , song04_key+0
+ .byte   KEYSH , ToTheSorrowfulBattlefield_key+0
  .byte   VOICE , 8
  .byte   PAN , c_v+21
- .byte   VOL , 29*song04_mvl/mxv
+ .byte   VOL , 29*ToTheSorrowfulBattlefield_mvl/mxv
  .byte   W96
 @  #07 @001   ----------------------------------------
  .byte   W96
@@ -2713,12 +2713,12 @@ song04_007:
 
 @**************** Track 8 (Midi-Chn.7) ****************@
 
-song04_008:
+ToTheSorrowfulBattlefield_008:
 @  #08 @000   ----------------------------------------
- .byte   KEYSH , song04_key+0
+ .byte   KEYSH , ToTheSorrowfulBattlefield_key+0
  .byte   VOICE , 19
  .byte   PAN , c_v+0
- .byte   VOL , 17*song04_mvl/mxv
+ .byte   VOL , 17*ToTheSorrowfulBattlefield_mvl/mxv
  .byte   N06 ,Bn3 ,v072
  .byte   N06 ,Cn4 ,v060
  .byte   N06 ,En4 ,v112
@@ -3020,12 +3020,12 @@ Label_010097EB:
 
 @**************** Track 9 (Midi-Chn.8) ****************@
 
-song04_009:
+ToTheSorrowfulBattlefield_009:
 @  #09 @000   ----------------------------------------
- .byte   KEYSH , song04_key+0
+ .byte   KEYSH , ToTheSorrowfulBattlefield_key+0
  .byte   VOICE , 124
  .byte   PAN , c_v+0
- .byte   VOL , 29*song04_mvl/mxv
+ .byte   VOL , 29*ToTheSorrowfulBattlefield_mvl/mxv
  .byte   W96
 @  #09 @001   ----------------------------------------
  .byte   W96
@@ -3662,22 +3662,22 @@ Label_01009CAB:
 @******************************************************@
 	.align	2
 
-song04:
+ToTheSorrowfulBattlefield:
 	.byte	9	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song04_pri	@ Priority
-	.byte	song04_rev	@ Reverb.
+	.byte	ToTheSorrowfulBattlefield_pri	@ Priority
+	.byte	ToTheSorrowfulBattlefield_rev	@ Reverb.
     
-	.word	song04_grp
+	.word	ToTheSorrowfulBattlefield_grp
     
-	.word	song04_001
-	.word	song04_002
-	.word	song04_003
-	.word	song04_004
-	.word	song04_005
-	.word	song04_006
-	.word	song04_007
-	.word	song04_008
-	.word	song04_009
+	.word	ToTheSorrowfulBattlefield_001
+	.word	ToTheSorrowfulBattlefield_002
+	.word	ToTheSorrowfulBattlefield_003
+	.word	ToTheSorrowfulBattlefield_004
+	.word	ToTheSorrowfulBattlefield_005
+	.word	ToTheSorrowfulBattlefield_006
+	.word	ToTheSorrowfulBattlefield_007
+	.word	ToTheSorrowfulBattlefield_008
+	.word	ToTheSorrowfulBattlefield_009
 
 	.end

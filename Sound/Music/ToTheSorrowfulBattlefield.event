@@ -1,29 +1,29 @@
 //Event file generated from Sappy .s format.
 	
 
-	#define	song04_grp  voicegroup000
-	#define	song04_pri  0
-	#define	song04_rev  0
-	#define	song04_mvl  127
-	#define	song04_key  0
-	#define	song04_tbs  1
-	#define	song04_exg  0
-	#define	song04_cmp  1
+	#define	ToTheSorrowfulBattlefield_grp  voicegroup000
+	#define	ToTheSorrowfulBattlefield_pri  0
+	#define	ToTheSorrowfulBattlefield_rev  0
+	#define	ToTheSorrowfulBattlefield_mvl  127
+	#define	ToTheSorrowfulBattlefield_key  0
+	#define	ToTheSorrowfulBattlefield_tbs  1
+	#define	ToTheSorrowfulBattlefield_exg  0
+	#define	ToTheSorrowfulBattlefield_cmp  1
 
 	// .rodata
-	//	song04
+	//	ToTheSorrowfulBattlefield
 	ALIGN 4
 
 
 //**************** Track 1 (Midi-Chn.0) ****************//
 
-song04_001:
+ToTheSorrowfulBattlefield_001:
 //  #01 //000   ----------------------------------------
- BYTE   KEYSH   song04_key+0
- BYTE   TEMPO   144*song04_tbs/2
+ BYTE   KEYSH   ToTheSorrowfulBattlefield_key+0
+ BYTE   TEMPO   144*ToTheSorrowfulBattlefield_tbs/2
  BYTE   VOICE   73
  BYTE   PAN   c_v+0
- BYTE   VOL   29*song04_mvl/mxv
+ BYTE   VOL   29*ToTheSorrowfulBattlefield_mvl/mxv
  BYTE   W96
 //  #01 //001   ----------------------------------------
  BYTE   W96
@@ -513,12 +513,12 @@ Label_010086E8:
 
 //**************** Track 2 (Midi-Chn.1) ****************//
 
-song04_002:
+ToTheSorrowfulBattlefield_002:
 //  #02 //000   ----------------------------------------
- BYTE   KEYSH   song04_key+0
+ BYTE   KEYSH   ToTheSorrowfulBattlefield_key+0
  BYTE   VOICE   48
  BYTE   PAN   c_v+0
- BYTE   VOL   29*song04_mvl/mxv
+ BYTE   VOL   29*ToTheSorrowfulBattlefield_mvl/mxv
  BYTE   N06  Bn2  v084
  BYTE   N06  Cn3  v072
  BYTE   N06  En3  v127
@@ -877,12 +877,12 @@ Label_01008BB1:
 
 //**************** Track 3 (Midi-Chn.2) ****************//
 
-song04_003:
+ToTheSorrowfulBattlefield_003:
 //  #03 //000   ----------------------------------------
- BYTE   KEYSH   song04_key+0
+ BYTE   KEYSH   ToTheSorrowfulBattlefield_key+0
  BYTE   VOICE   36
  BYTE   PAN   c_v+0
- BYTE   VOL   29*song04_mvl/mxv
+ BYTE   VOL   29*ToTheSorrowfulBattlefield_mvl/mxv
  BYTE   W96
 //  #03 //001   ----------------------------------------
  BYTE   W96
@@ -1291,12 +1291,12 @@ Label_01008D29:
 
 //**************** Track 4 (Midi-Chn.3) ****************//
 
-song04_004:
+ToTheSorrowfulBattlefield_004:
 //  #04 //000   ----------------------------------------
- BYTE   KEYSH   song04_key+0
+ BYTE   KEYSH   ToTheSorrowfulBattlefield_key+0
  BYTE   VOICE   48
  BYTE   PAN   c_v-57
- BYTE   VOL   29*song04_mvl/mxv
+ BYTE   VOL   29*ToTheSorrowfulBattlefield_mvl/mxv
  BYTE   W96
 //  #04 //001   ----------------------------------------
  BYTE   W96
@@ -1857,12 +1857,12 @@ Label_01009104:
 
 //**************** Track 5 (Midi-Chn.4) ****************//
 
-song04_005:
+ToTheSorrowfulBattlefield_005:
 //  #05 //000   ----------------------------------------
- BYTE   KEYSH   song04_key+0
+ BYTE   KEYSH   ToTheSorrowfulBattlefield_key+0
  BYTE   VOICE   60
  BYTE   PAN   c_v+56
- BYTE   VOL   29*song04_mvl/mxv
+ BYTE   VOL   29*ToTheSorrowfulBattlefield_mvl/mxv
  BYTE   W96
 //  #05 //001   ----------------------------------------
  BYTE   W96
@@ -2043,12 +2043,12 @@ song04_005:
 
 //**************** Track 6 (Midi-Chn.5) ****************//
 
-song04_006:
+ToTheSorrowfulBattlefield_006:
 //  #06 //000   ----------------------------------------
- BYTE   KEYSH   song04_key+0
+ BYTE   KEYSH   ToTheSorrowfulBattlefield_key+0
  BYTE   VOICE   61
  BYTE   PAN   c_v+63
- BYTE   VOL   21*song04_mvl/mxv
+ BYTE   VOL   21*ToTheSorrowfulBattlefield_mvl/mxv
  BYTE   W96
 //  #06 //001   ----------------------------------------
  BYTE   W96
@@ -2423,12 +2423,12 @@ Label_01009315:
 
 //**************** Track 7 (Midi-Chn.6) ****************//
 
-song04_007:
+ToTheSorrowfulBattlefield_007:
 //  #07 //000   ----------------------------------------
- BYTE   KEYSH   song04_key+0
+ BYTE   KEYSH   ToTheSorrowfulBattlefield_key+0
  BYTE   VOICE   8
  BYTE   PAN   c_v+21
- BYTE   VOL   29*song04_mvl/mxv
+ BYTE   VOL   29*ToTheSorrowfulBattlefield_mvl/mxv
  BYTE   W96
 //  #07 //001   ----------------------------------------
  BYTE   W96
@@ -2714,12 +2714,12 @@ song04_007:
 
 //**************** Track 8 (Midi-Chn.7) ****************//
 
-song04_008:
+ToTheSorrowfulBattlefield_008:
 //  #08 //000   ----------------------------------------
- BYTE   KEYSH   song04_key+0
+ BYTE   KEYSH   ToTheSorrowfulBattlefield_key+0
  BYTE   VOICE   19
  BYTE   PAN   c_v+0
- BYTE   VOL   17*song04_mvl/mxv
+ BYTE   VOL   17*ToTheSorrowfulBattlefield_mvl/mxv
  BYTE   N06  Bn3  v072
  BYTE   N06  Cn4  v060
  BYTE   N06  En4  v112
@@ -3021,12 +3021,12 @@ Label_010097EB:
 
 //**************** Track 9 (Midi-Chn.8) ****************//
 
-song04_009:
+ToTheSorrowfulBattlefield_009:
 //  #09 //000   ----------------------------------------
- BYTE   KEYSH   song04_key+0
+ BYTE   KEYSH   ToTheSorrowfulBattlefield_key+0
  BYTE   VOICE   124
  BYTE   PAN   c_v+0
- BYTE   VOL   29*song04_mvl/mxv
+ BYTE   VOL   29*ToTheSorrowfulBattlefield_mvl/mxv
  BYTE   W96
 //  #09 //001   ----------------------------------------
  BYTE   W96
@@ -3663,22 +3663,22 @@ Label_01009CAB:
 //******************************************************//
 	ALIGN 4
 
-song04:
+ToTheSorrowfulBattlefield:
 	BYTE	9	// NumTrks
 	BYTE	0	// NumBlks
-	BYTE	song04_pri	// Priority
-	BYTE	song04_rev	// Reverb.
+	BYTE	ToTheSorrowfulBattlefield_pri	// Priority
+	BYTE	ToTheSorrowfulBattlefield_rev	// Reverb.
     
-	POIN2	song04_grp
+	POIN2	ToTheSorrowfulBattlefield_grp
     
-	POIN2	song04_001
-	POIN2	song04_002
-	POIN2	song04_003
-	POIN2	song04_004
-	POIN2	song04_005
-	POIN2	song04_006
-	POIN2	song04_007
-	POIN2	song04_008
-	POIN2	song04_009
+	POIN2	ToTheSorrowfulBattlefield_001
+	POIN2	ToTheSorrowfulBattlefield_002
+	POIN2	ToTheSorrowfulBattlefield_003
+	POIN2	ToTheSorrowfulBattlefield_004
+	POIN2	ToTheSorrowfulBattlefield_005
+	POIN2	ToTheSorrowfulBattlefield_006
+	POIN2	ToTheSorrowfulBattlefield_007
+	POIN2	ToTheSorrowfulBattlefield_008
+	POIN2	ToTheSorrowfulBattlefield_009
 
 	

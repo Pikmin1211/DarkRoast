@@ -240,7 +240,7 @@
 #define AttackFE3_Name $E35
 #define BabiLighthouse_Name $E36
 #define BattleToadsDoubleDragonLevel1_Name $E37
-#define BeforeTheBattle_Name $E38
+#define Leon_Name $E38
 #define BelieveInMyselfSA2B_Name $E39
 #define BossDoorOpens_Name $E3A
 #define CelicaMap2_Name $E3B

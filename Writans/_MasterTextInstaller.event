@@ -954,7 +954,7 @@ __TEXTPROCESSE37:
 setText($E37, __TEXTPROCESSE37)
 
 __TEXTPROCESSE38:
-#incbin ".TextEntries\TextBuildfileBeforeTheBattle_Name.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileLeon_Name.fetxt.dmp"
 setText($E38, __TEXTPROCESSE38)
 
 __TEXTPROCESSE39:

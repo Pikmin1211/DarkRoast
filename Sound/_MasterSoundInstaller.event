@@ -68,219 +68,219 @@ SoundTableEntry(BattleToadsDoubleDragonLevel1_Song, BattleToadsDoubleDragonLevel
 }
 
 {
-#include "Music\BeforeTheBattle.event"
-#define BeforeTheBattle_Song 0x3f4
-SoundTableEntry(BeforeTheBattle_Song, BeforeTheBattle, 1)
-}
-
-{
 #include "Music\BelieveInMyselfSA2B.event"
-#define BelieveInMyselfSA2B_Song 0x3f5
+#define BelieveInMyselfSA2B_Song 0x3f4
 SoundTableEntry(BelieveInMyselfSA2B_Song, BelieveInMyselfSA2B, 1)
 }
 
 {
 #include "Music\BossDoorOpens.event"
-#define BossDoorOpens_Song 0x3f6
+#define BossDoorOpens_Song 0x3f5
 SoundTableEntry(BossDoorOpens_Song, BossDoorOpens, 1)
 }
 
 {
 #include "Music\CelicaMap2.event"
-#define CelicaMap2_Song 0x3f7
+#define CelicaMap2_Song 0x3f6
 SoundTableEntry(CelicaMap2_Song, CelicaMap2, 1)
 }
 
 {
 #include "Music\ChaseOfShadow.event"
-#define ChaseOfShadow_Song 0x3f8
+#define ChaseOfShadow_Song 0x3f7
 SoundTableEntry(ChaseOfShadow_Song, ChaseOfShadow, 1)
 }
 
 {
 #include "Music\ChineseTea.event"
-#define ChineseTea_Song 0x3f9
+#define ChineseTea_Song 0x3f8
 SoundTableEntry(ChineseTea_Song, ChineseTea, 1)
 }
 
 {
 #include "Music\ConfidenceInTheDomination.event"
-#define ConfidenceInTheDomination_Song 0x3fa
+#define ConfidenceInTheDomination_Song 0x3f9
 SoundTableEntry(ConfidenceInTheDomination_Song, ConfidenceInTheDomination, 1)
 }
 
 {
 #include "Music\CorridorsOfTime.event"
-#define CorridorsOfTime_Song 0x3fb
+#define CorridorsOfTime_Song 0x3fa
 SoundTableEntry(CorridorsOfTime_Song, CorridorsOfTime, 1)
 }
 
 {
 #include "Music\DefendFE5.event"
-#define DefendFE5_Song 0x3fc
+#define DefendFE5_Song 0x3fb
 SoundTableEntry(DefendFE5_Song, DefendFE5, 1)
 }
 
 {
 #include "Music\DelfinoPlaza.event"
-#define DelfinoPlaza_Song 0x3fd
+#define DelfinoPlaza_Song 0x3fc
 SoundTableEntry(DelfinoPlaza_Song, DelfinoPlaza, 1)
 }
 
 {
 #include "Music\Destiny.event"
-#define Destiny_Song 0x3fe
+#define Destiny_Song 0x3fd
 SoundTableEntry(Destiny_Song, Destiny, 1)
 }
 
 {
 #include "Music\DistantTravels.event"
-#define DistantTravels_Song 0x3ff
+#define DistantTravels_Song 0x3fe
 SoundTableEntry(DistantTravels_Song, DistantTravels, 1)
 }
 
 {
 #include "Music\EldiganTheLionheart.event"
-#define EldiganTheLionheart_Song 0x400
+#define EldiganTheLionheart_Song 0x3ff
 SoundTableEntry(EldiganTheLionheart_Song, EldiganTheLionheart, 1)
 }
 
 {
 #include "Music\EndingRippleIsland.event"
-#define EndingRippleIsland_Song 0x401
+#define EndingRippleIsland_Song 0x400
 SoundTableEntry(EndingRippleIsland_Song, EndingRippleIsland, 1)
 }
 
 {
 #include "Music\EndlessBattle.event"
-#define EndlessBattle_Song 0x402
+#define EndlessBattle_Song 0x401
 SoundTableEntry(EndlessBattle_Song, EndlessBattle, 1)
 }
 
 {
 #include "Music\EvergrandeCity.event"
-#define EvergrandeCity_Song 0x403
+#define EvergrandeCity_Song 0x402
 SoundTableEntry(EvergrandeCity_Song, EvergrandeCity, 1)
 }
 
 {
 #include "Music\FE12BeforeBattleSwiftSaturn.event"
-#define FE12BeforeBattleSwiftSaturn_Song 0x404
+#define FE12BeforeBattleSwiftSaturn_Song 0x403
 SoundTableEntry(FE12BeforeBattleSwiftSaturn_Song, FE12BeforeBattleSwiftSaturn, 1)
 }
 
 {
 #include "Music\FE5SearchingForEnemy.event"
-#define FE5SearchingForEnemy_Song 0x405
+#define FE5SearchingForEnemy_Song 0x404
 SoundTableEntry(FE5SearchingForEnemy_Song, FE5SearchingForEnemy, 1)
 }
 
 {
 #include "Music\FE5Sortie.event"
-#define FE5Sortie_Song 0x406
+#define FE5Sortie_Song 0x405
 SoundTableEntry(FE5Sortie_Song, FE5Sortie, 1)
 }
 
 {
 #include "Music\FE6Attack.event"
-#define FE6Attack_Song 0x407
+#define FE6Attack_Song 0x406
 SoundTableEntry(FE6Attack_Song, FE6Attack, 1)
 }
 
 {
 #include "Music\FFMQBattle1.event"
-#define FFMQBattle1_Song 0x408
+#define FFMQBattle1_Song 0x407
 SoundTableEntry(FFMQBattle1_Song, FFMQBattle1, 1)
 }
 
 {
 #include "Music\FightingOfTheSpirit.event"
-#define FightingOfTheSpirit_Song 0x409
+#define FightingOfTheSpirit_Song 0x408
 SoundTableEntry(FightingOfTheSpirit_Song, FightingOfTheSpirit, 1)
 }
 
 {
 #include "Music\FirstStepTowardsWar.event"
-#define FirstStepTowardsWar_Song 0x40a
+#define FirstStepTowardsWar_Song 0x409
 SoundTableEntry(FirstStepTowardsWar_Song, FirstStepTowardsWar, 1)
 }
 
 {
 #include "Music\FivePmACNH.event"
-#define FivePmACNH_Song 0x40b
+#define FivePmACNH_Song 0x40a
 SoundTableEntry(FivePmACNH_Song, FivePmACNH, 1)
 }
 
 {
 #include "Music\ForwardFE5.event"
-#define ForwardFE5_Song 0x40c
+#define ForwardFE5_Song 0x40b
 SoundTableEntry(ForwardFE5_Song, ForwardFE5, 1)
 }
 
 {
 #include "Music\FromEnemyToFriendFE4.event"
-#define FromEnemyToFriendFE4_Song 0x40d
+#define FromEnemyToFriendFE4_Song 0x40c
 SoundTableEntry(FromEnemyToFriendFE4_Song, FromEnemyToFriendFE4, 1)
 }
 
 {
 #include "Music\Frontier.event"
-#define Frontier_Song 0x40e
+#define Frontier_Song 0x40d
 SoundTableEntry(Frontier_Song, Frontier, 1)
 }
 
 {
 #include "Music\GatheringOfHeroesTRS.event"
-#define GatheringOfHeroesTRS_Song 0x40f
+#define GatheringOfHeroesTRS_Song 0x40e
 SoundTableEntry(GatheringOfHeroesTRS_Song, GatheringOfHeroesTRS, 1)
 }
 
 {
 #include "Music\Guile.event"
-#define Guile_Song 0x410
+#define Guile_Song 0x40f
 SoundTableEntry(Guile_Song, Guile, 1)
 }
 
 {
 #include "Music\GundamnF19Act12.event"
-#define GundamnF19Act12_Song 0x411
+#define GundamnF19Act12_Song 0x410
 SoundTableEntry(GundamnF19Act12_Song, GundamnF19Act12, 1)
 }
 
 {
 #include "Music\HarvestDance.event"
-#define HarvestDance_Song 0x412
+#define HarvestDance_Song 0x411
 SoundTableEntry(HarvestDance_Song, HarvestDance, 1)
 }
 
 {
 #include "Music\InsideTheWhale.event"
-#define InsideTheWhale_Song 0x413
+#define InsideTheWhale_Song 0x412
 SoundTableEntry(InsideTheWhale_Song, InsideTheWhale, 1)
 }
 
 {
 #include "Music\IsaachArmy.event"
-#define IsaachArmy_Song 0x414
+#define IsaachArmy_Song 0x413
 SoundTableEntry(IsaachArmy_Song, IsaachArmy, 1)
 }
 
 {
 #include "Music\ItDoesntMatterSA2B.event"
-#define ItDoesntMatterSA2B_Song 0x415
+#define ItDoesntMatterSA2B_Song 0x414
 SoundTableEntry(ItDoesntMatterSA2B_Song, ItDoesntMatterSA2B, 1)
 }
 
 {
 #include "Music\KKCafe.event"
-#define KKCafe_Song 0x416
+#define KKCafe_Song 0x415
 SoundTableEntry(KKCafe_Song, KKCafe, 1)
 }
 
 {
 #include "Music\KnightErrant.event"
-#define KnightErrant_Song 0x417
+#define KnightErrant_Song 0x416
 SoundTableEntry(KnightErrant_Song, KnightErrant, 1)
+}
+
+{
+#include "Music\Leon.event"
+#define Leon_Song 0x417
+SoundTableEntry(Leon_Song, Leon, 1)
 }
 
 {

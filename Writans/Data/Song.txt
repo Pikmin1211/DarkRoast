@@ -37,7 +37,7 @@ GS - Babi's Lighthouse[X]
 ## BattleToadsDoubleDragonLevel1_Name
 BT&DD - Level 1[X]
 
-## BeforeTheBattle_Name
+## Leon_Name
 Der Langrisser - Leon[X]
 
 ## BelieveInMyselfSA2B_Name
