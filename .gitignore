@@ -21,6 +21,8 @@ $RECYCLE.BIN/
 *.gba
 *.sav
 *.sgm
+*.ups
+*.sym
 
 # =========================
 # Operating System Files
