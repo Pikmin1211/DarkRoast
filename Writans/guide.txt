@@ -1,0 +1,315 @@
+// Main Headers
+
+## MechanicsPageTitle
+Mechanics[X]
+
+## FormulaPageTitle
+Battle Formula[X]
+
+## LorePageTitle
+Lore[X]
+
+## CreditsPageTitle
+Credits[X]
+
+// Sub-Headers labeled
+
+## FatigueMechanicSubPageTitle
+Fatigue[X]
+
+## StealMechanicSubPageTitle
+Steal[X]
+
+## RescueMechanicSubPageTitle
+Rescue[X]
+
+## SupportsMechanicSubPageTitle
+Supports[X]
+
+## AffinityMechanicSubPageTitle
+Affinity[X]
+
+## InterludesMechanicSubPageTitle
+Interludes[X]
+
+## ShrinesMechanicSubPageTitle
+Shrines[X]
+
+## WeaponTriangleMechanicSubPageTitle
+Weapon Triangle[X]
+
+## EquipsMechanicSubPageTitle
+Equips[X]
+
+## PromotionMechanicSubPageTitle
+Promotion[X]
+
+## FreeActionMechanicSubPageTitle
+Free Actions[X]
+
+## ASFormulaSubPageTitle
+Attack Speed[X]
+
+## AvoidFormulaSubPageTitle
+Avoid[X]
+
+## CritAvoidFormulaSubPageTitle
+Dodge[X]
+
+## HitFormulaSubPageTitle
+Hit[X]
+
+## CritFormulaSubPageTitle
+Critical Hit[X]
+
+## WeaponEXPFormulaSubPageTitle
+Weapon EXP[X]
+
+## KapakataIslandsLoreSubPageTitle
+Kapakata Islands[X]
+
+## TomellosoIslandLoreSubPageTitle
+Tomelloso[X]
+
+## CoffeeBaronsLoreSubPageTitle
+Coffee Barons[X]
+
+## SpiritualityLoreSubPageTitle
+Spirituality[X]
+
+## Pandan&FriendsSubPageTitle
+Pandan & Friends[X]
+
+// Description Entries
+
+## FatigueDesc
+Fatigue simulates unit tiredness.[N]
+If a unit's fatigue exceeds their[N]
+HP, they will no longer gain EXP[N]
+or WEXP on the map. They must sit[N]
+out for the next chapter as well.[N]
+Benching a unit for 1 chapter will[N]
+reset their fatigue to 0.[N]
+[N]
+Fatigue builds for each action[N]
+a unit takes. This includes[N]
+combat (both on player[N]
+and enemy phase), using a staff,[N]
+or shoving. Each[N]
+unit gains 1 fatigue per action.[X]
+
+## StealMechanicDesc
+Units with the steal command[N]
+are able to steal items from[N]
+adjcaent enemy inventories[N]
+if their SPD is greater than[N]
+or equal to the enemy SPD.[N]
+[N]
+Units cannot steal held weapons,[N]
+tomes, or staves.[N]
+[N]
+You may not steal if the stealing[N]
+unit's inventory is full.[X]
+
+## RescueMechanicDesc
+Units can rescue any ally or[N]
+NPC unit if their AID is[N]
+greater than the BLD of[N]
+the adjacent unit.[X]
+
+## SupportsMechanicDesc
+Supports build based on deployment.[N]
+This means that in order to build[N]
+support points between two eligible[N]
+units, you only need to deploy them[N]
+together on the map to build points.[N]
+[N]
+Units with supports must be[N]
+within 3 spaces of each other[N]
+to activate the bonus.[X]
+
+## AffinityMechanicDesc
+TBD[X]
+
+## InterludesDesc
+Interlude chapters appear[N]
+multiple times during the game.[N]
+These chapters provide you with[N]
+opportunities to visit shops,[N]
+promote your units, complete[N]
+side-quests, and participate in[N]
+other activities.[N]
+[N]
+Interlude chapters do not reset[N]
+fatigue for existing units.[X]
+
+## ShrinesMechanicSubPageTitle
+Shrines are monuments that can[N]
+offer player units stat boosts,[N]
+promotion, and other bonuses.[N]
+[N]
+Each interlude map will have[N]
+shrines to interact with.[N]
+These shrine will appear based[N]
+on completion of maps or[N]
+other side-objectives.[N]
+[N]
+There are three main shrine types.[N]
+[N]
+Stat Boost Shrines:
+[N]
+Stat boost shrines will offer[N]
+you +1 in a specific stat.[N]
+The shrine will provide this bonus[N]
+to up to 3 units in your army.[N]
+However, units may not visit the[N]
+same shrine twice in a single[N]
+interlude map.[N]
+[N]
+Promotion Shrines:
+[N]
+Promotion shrines will promote units[N]
+that visit them.[N]
+[N]
+You may promote any unpromoted unit[N]
+once they reach level 10.[N]
+Level 20 is the cap.[N]
+[N]
+Units may only promote once.[N]
+[N]
+Item Shrines:
+[N]
+Item shrines will give a unit[N]
+an item. The item received[N]
+may vary depending on the unit[N]
+that visits.[X]
+
+## WeaponTriangleDesc
+Weapon triangle bonuses[N]
+provide +1 DMG and +15 HIT[N]
+when at advantage, and -1 DMG[N]
+and -15 HIT when at disadvantage.[N]
+[N]
+Weapon Triangle:[N]
+Swords > Lances > Axes > Swords.[N]
+[N]
+Bows, daggers, dragonstones,[N]
+and magic unaffected by[N]
+the weapon triangle.[N]
+
+## EquipsDesc
+Some items in this game[N]
+must be equipped to observe[N]
+their effects.[N]
+These items may provide[N]
+skills, stats, or other[N]
+bonuses.[N]
+[N]
+Scrolls do not need to be[N]
+equipped to receive their[N]
+benefits.[X]
+
+## PromotionDesc
+Units are able to promote[N]
+once they reach level 10.[N]
+Units may only promote by[N]
+interacting with special shrines[N]
+during interlude chapters.[N]
+[N]
+Promotion bonuses are universal.[N]
+All promotions gain +2 HP and +1 to[N]
+all other stats.[N]
+[N]
+Promotion does not reset fatigue.[X]
+
+## FreeActionDesc
+Talk, Trade, Give, and Take[N]
+are all free actions.[N]
+This means you can continue[N]
+your turn after completing them,[N]
+but may not move your unit.[N]
+
+## ASDesc
+Attack Speed (AS), is a measure[N]
+of how fast a unit is while holding[N]
+a particular weapon.[N]
+[N]
+AS = SPD - (weapon WT - BLD).[N]
+[N]
+Note that the (WT - BLD)[N]
+component has a minimum of 0.[N]
+[N]
+To attack twice in a single round[N]
+of combat, AS of either unit[N]
+must be greater than or equal[N]
+to 5.[N]
+[N]
+This means 5 AS is the doubling[N]
+threshold.[X]
+
+## AvoidDesc
+AVO = SPD + LCK + Support Bonus.[N]
+[N]
+Avoid may also be impacted[N]
+by supports or special items.[N][X]
+
+## CritAvoidDesc
+DODGE = (LCK*2) + Support Bonus.[X]
+
+## HitDesc
+HIT = Weapon Hit + (SKL*2)[N]
++ LCK + Support Bonus.[X]
+
+## CritDesc
+CRIT = Weapon Crit + (SKL/2)[N]
++ LCK + Support Bonus.[N]
+[N]
+Critical hits do 3x damage[N]
+after regular damage calculation.[X]
+
+## WeaponEXPFormulaSubPageTitle
+Each unit will have 1 or more[N]
+weapon ranks that determine[N]
+which weapons they can use.[N]
+Each of these weapons has a[N]
+rank requirement, indicating[N]
+how much experience the unit[N]
+needs to have with the weapon[N]
+type before they can use it.[N]
+[N]
+Weapon EXP increments by 1 per[N]
+each round of combat or action.[N]
+There is no bonus Weapon EXP[N]
+granted for double attacks[N]
+or landing a killing blow.[N]
+All items grant 1 WEXP unless[N]
+otherwise noted in[N]
+the description.[N]
+[N]
+Weapon ranks each require[N]
+the following Weapon EXP.[N]
+[N]
+E Rank = 0[N]
+D Rank = 21[N]
+C Rank = 71[N]
+B Rank = 131[N]
+A Rank = 201[N]
+[N]
+A is the highest rank you[N]
+can achieve.[X]
+
+## KapakataIslandsDesc
+TBD[X]
+
+## TomellosoDesc
+TBD[X]
+
+## CoffeeBaronsDesc
+TBD[X]
+
+## SpiritualityDesc
+TBD[X]
+
+## Pandan&FriendsDesc
+TBD
+[X]
