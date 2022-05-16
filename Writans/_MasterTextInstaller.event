@@ -1274,124 +1274,132 @@ __TEXTPROCESSE87:
 setText($E87, __TEXTPROCESSE87)
 
 __TEXTPROCESSE88:
-#incbin ".TextEntries\TextBuildfileChapter_01_Name.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileToTheSorrowfulBattlefield_Name.fetxt.dmp"
 setText($E88, __TEXTPROCESSE88)
 
 __TEXTPROCESSE89:
-#incbin ".TextEntries\TextBuildfileChapter_01_Objective.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileWhiteStorm_Name.fetxt.dmp"
 setText($E89, __TEXTPROCESSE89)
 
 __TEXTPROCESSE8A:
-#incbin ".TextEntries\TextBuildfileChapter_01_Goal_Window.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileChapter_01_Name.fetxt.dmp"
 setText($E8A, __TEXTPROCESSE8A)
 
 __TEXTPROCESSE8B:
-#incbin ".TextEntries\TextBuildfileChapter_01_Opening_1.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileChapter_01_Objective.fetxt.dmp"
 setText($E8B, __TEXTPROCESSE8B)
 
 __TEXTPROCESSE8C:
-#incbin ".TextEntries\TextBuildfileChapter_01_Opening_2.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileChapter_01_Goal_Window.fetxt.dmp"
 setText($E8C, __TEXTPROCESSE8C)
 
 __TEXTPROCESSE8D:
-#incbin ".TextEntries\TextBuildfileChapter_01_Opening_3.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileChapter_01_Opening_1.fetxt.dmp"
 setText($E8D, __TEXTPROCESSE8D)
 
 __TEXTPROCESSE8E:
-#incbin ".TextEntries\TextBuildfileChapter_01_Opening_4.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileChapter_01_Opening_2.fetxt.dmp"
 setText($E8E, __TEXTPROCESSE8E)
 
 __TEXTPROCESSE8F:
-#incbin ".TextEntries\TextBuildfileChapter_01_Opening_5.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileChapter_01_Opening_3.fetxt.dmp"
 setText($E8F, __TEXTPROCESSE8F)
 
 __TEXTPROCESSE90:
-#incbin ".TextEntries\TextBuildfileChapter_01_Allies_Appear.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileChapter_01_Opening_4.fetxt.dmp"
 setText($E90, __TEXTPROCESSE90)
 
 __TEXTPROCESSE91:
-#incbin ".TextEntries\TextBuildfileChapter_01_Top_Left_House.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileChapter_01_Opening_5.fetxt.dmp"
 setText($E91, __TEXTPROCESSE91)
 
 __TEXTPROCESSE92:
-#incbin ".TextEntries\TextBuildfileChapter_01_Bottom_Right_House.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileChapter_01_Allies_Appear.fetxt.dmp"
 setText($E92, __TEXTPROCESSE92)
 
 __TEXTPROCESSE93:
-#incbin ".TextEntries\TextBuildfileChapter_01_Ending_1.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileChapter_01_Top_Left_House.fetxt.dmp"
 setText($E93, __TEXTPROCESSE93)
 
 __TEXTPROCESSE94:
-#incbin ".TextEntries\TextBuildfileChapter_01_Ending_2.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileChapter_01_Bottom_Right_House.fetxt.dmp"
 setText($E94, __TEXTPROCESSE94)
 
 __TEXTPROCESSE95:
-#incbin ".TextEntries\TextBuildfileChapter_01_Ending_3.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileChapter_01_Ending_1.fetxt.dmp"
 setText($E95, __TEXTPROCESSE95)
 
 __TEXTPROCESSE96:
-#incbin ".TextEntries\TextBuildfileChapter_02_Name.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileChapter_01_Ending_2.fetxt.dmp"
 setText($E96, __TEXTPROCESSE96)
 
 __TEXTPROCESSE97:
-#incbin ".TextEntries\TextBuildfileChapter_02_Objective.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileChapter_01_Ending_3.fetxt.dmp"
 setText($E97, __TEXTPROCESSE97)
 
 __TEXTPROCESSE98:
-#incbin ".TextEntries\TextBuildfileChapter_02_Goal_Window.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileChapter_02_Name.fetxt.dmp"
 setText($E98, __TEXTPROCESSE98)
 
 __TEXTPROCESSE99:
-#incbin ".TextEntries\TextBuildfileChapter_02_Opening_1.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileChapter_02_Objective.fetxt.dmp"
 setText($E99, __TEXTPROCESSE99)
 
 __TEXTPROCESSE9A:
-#incbin ".TextEntries\TextBuildfileChapter_02_Opening_2.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileChapter_02_Goal_Window.fetxt.dmp"
 setText($E9A, __TEXTPROCESSE9A)
 
 __TEXTPROCESSE9B:
-#incbin ".TextEntries\TextBuildfileChapter_03_Opening_3.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileChapter_02_Opening_1.fetxt.dmp"
 setText($E9B, __TEXTPROCESSE9B)
 
 __TEXTPROCESSE9C:
-#incbin ".TextEntries\TextBuildfileChapter_02_Post_Prep.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileChapter_02_Opening_2.fetxt.dmp"
 setText($E9C, __TEXTPROCESSE9C)
 
 __TEXTPROCESSE9D:
-#incbin ".TextEntries\TextBuildfileChapter_02_Boss_Intro.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileChapter_03_Opening_3.fetxt.dmp"
 setText($E9D, __TEXTPROCESSE9D)
 
 __TEXTPROCESSE9E:
-#incbin ".TextEntries\TextBuildfileChapter_02_SysText_Opening.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileChapter_02_Post_Prep.fetxt.dmp"
 setText($E9E, __TEXTPROCESSE9E)
 
 __TEXTPROCESSE9F:
-#incbin ".TextEntries\TextBuildfileChapter_02_Charge.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileChapter_02_Boss_Intro.fetxt.dmp"
 setText($E9F, __TEXTPROCESSE9F)
 
 __TEXTPROCESSEA0:
-#incbin ".TextEntries\TextBuildfileChapter_02_Top_Left_Village.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileChapter_02_SysText_Opening.fetxt.dmp"
 setText($EA0, __TEXTPROCESSEA0)
 
 __TEXTPROCESSEA1:
-#incbin ".TextEntries\TextBuildfileChapter_02_Bottom_Left_Village.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileChapter_02_Charge.fetxt.dmp"
 setText($EA1, __TEXTPROCESSEA1)
 
 __TEXTPROCESSEA2:
-#incbin ".TextEntries\TextBuildfileChapter_02_Top_Right_Village.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileChapter_02_Top_Left_Village.fetxt.dmp"
 setText($EA2, __TEXTPROCESSEA2)
 
 __TEXTPROCESSEA3:
-#incbin ".TextEntries\TextBuildfileChapter_02_Boss_Quote.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileChapter_02_Bottom_Left_Village.fetxt.dmp"
 setText($EA3, __TEXTPROCESSEA3)
 
 __TEXTPROCESSEA4:
-#incbin ".TextEntries\TextBuildfileChapter_02_Boss_Death.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileChapter_02_Top_Right_Village.fetxt.dmp"
 setText($EA4, __TEXTPROCESSEA4)
 
 __TEXTPROCESSEA5:
-#incbin ".TextEntries\TextBuildfileChapter_02_Ending_1.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileChapter_02_Boss_Quote.fetxt.dmp"
 setText($EA5, __TEXTPROCESSEA5)
+
+__TEXTPROCESSEA6:
+#incbin ".TextEntries\TextBuildfileChapter_02_Boss_Death.fetxt.dmp"
+setText($EA6, __TEXTPROCESSEA6)
+
+__TEXTPROCESSEA7:
+#incbin ".TextEntries\TextBuildfileChapter_02_Ending_1.fetxt.dmp"
+setText($EA7, __TEXTPROCESSEA7)
 
 }
 

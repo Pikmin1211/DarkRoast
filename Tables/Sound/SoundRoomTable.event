@@ -166,6 +166,8 @@ SoundRoomTableEntry(VsRocketLeader_Song, 0, 0x0, VsRocketLeader_Name)
 SoundRoomTableEntry(WarioBattleCanyon_Song, 0, 0x0, WarioBattleCanyon_Name)
 SoundRoomTableEntry(WaterWorld_Song, 0, 0x0, WaterWorld_Name)
 SoundRoomTableEntry(FE12BeforeBattleSwiftSaturn_Song, 0, 0x0, FE12BeforeBattleSwiftSaturn_Name)
+SoundRoomTableEntry(ToTheSorrowfulBattlefield_Song, 0, 0x0, ToTheSorrowfulBattlefield_Name)
+SoundRoomTableEntry(WhiteStorm_Song, 0, 0x0, WhiteStorm_Name)
 SoundRoomTableEntry(WindAcrossThePlains_Song, 0, 0x0, WindAcrossThePlains_Name)
 SoundRoomTableEntry(0xFFFFFFFF, 0, 0x0, 0x0)
 

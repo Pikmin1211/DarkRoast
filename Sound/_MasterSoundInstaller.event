@@ -500,62 +500,74 @@ SoundTableEntry(ToSLawOfBattle_Song, ToSLawOfBattle, 1)
 }
 
 {
+#include "Music\ToTheSorrowfulBattlefield.event"
+#define ToTheSorrowfulBattlefield_Song 0x43c
+SoundTableEntry(ToTheSorrowfulBattlefield_Song, ToTheSorrowfulBattlefield, 1)
+}
+
+{
 #include "Music\TouchFuzzyGetDizzy.event"
-#define TouchFuzzyGetDizzy_Song 0x43c
+#define TouchFuzzyGetDizzy_Song 0x43d
 SoundTableEntry(TouchFuzzyGetDizzy_Song, TouchFuzzyGetDizzy, 1)
 }
 
 {
 #include "Music\TS_CombatResistance.event"
-#define TS_CombatResistance_Song 0x43d
+#define TS_CombatResistance_Song 0x43e
 SoundTableEntry(TS_CombatResistance_Song, TS_CombatResistance, 1)
 }
 
 {
 #include "Music\VenusLighthouse.event"
-#define VenusLighthouse_Song 0x43e
+#define VenusLighthouse_Song 0x43f
 SoundTableEntry(VenusLighthouse_Song, VenusLighthouse, 1)
 }
 
 {
 #include "Music\Verdanturf.event"
-#define Verdanturf_Song 0x43f
+#define Verdanturf_Song 0x440
 SoundTableEntry(Verdanturf_Song, Verdanturf, 1)
 }
 
 {
 #include "Music\VoicesOfTheTemple.event"
-#define VoicesOfTheTemple_Song 0x440
+#define VoicesOfTheTemple_Song 0x441
 SoundTableEntry(VoicesOfTheTemple_Song, VoicesOfTheTemple, 1)
 }
 
 {
 #include "Music\VsRocketLeader.event"
-#define VsRocketLeader_Song 0x441
+#define VsRocketLeader_Song 0x442
 SoundTableEntry(VsRocketLeader_Song, VsRocketLeader, 1)
 }
 
 {
 #include "Music\WarioBattleCanyon.event"
-#define WarioBattleCanyon_Song 0x442
+#define WarioBattleCanyon_Song 0x443
 SoundTableEntry(WarioBattleCanyon_Song, WarioBattleCanyon, 1)
 }
 
 {
 #include "Music\WaterWorld.event"
-#define WaterWorld_Song 0x443
+#define WaterWorld_Song 0x444
 SoundTableEntry(WaterWorld_Song, WaterWorld, 1)
 }
 
 {
+#include "Music\WhiteStorm.event"
+#define WhiteStorm_Song 0x445
+SoundTableEntry(WhiteStorm_Song, WhiteStorm, 1)
+}
+
+{
 #include "Music\WindAcrossThePlains.event"
-#define WindAcrossThePlains_Song 0x444
+#define WindAcrossThePlains_Song 0x446
 SoundTableEntry(WindAcrossThePlains_Song, WindAcrossThePlains, 1)
 }
 
 {
 #include "Music\WoWTavern.event"
-#define WoWTavern_Song 0x445
+#define WoWTavern_Song 0x447
 SoundTableEntry(WoWTavern_Song, WoWTavern, 1)
 }
 

@@ -38,7 +38,7 @@ GS - Babi's Lighthouse[X]
 BT&DD - Level 1[X]
 
 ## BeforeTheBattle_Name
-? - Before the Battle[X]
+Der Langrisser - Leon[X]
 
 ## BelieveInMyselfSA2B_Name
 SA2B - Believe In Myself[X]
@@ -276,3 +276,9 @@ FE7 - Winds Across the Plains[X]
 
 ## FE12BeforeBattleSwiftSaturn_Name
 FE12 - Before the Battle[X]
+
+## ToTheSorrowfulBattlefield_Name	
+SRW64 - To the Sorrowful Battlefield[X]
+
+## WhiteStorm_Name
+Ogre Battle - White Storm[X]

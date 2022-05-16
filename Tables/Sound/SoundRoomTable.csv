@@ -161,5 +161,7 @@ SoundRoomTable,songNumber,songLength,displayCondition,songName
 158,WarioBattleCanyon_Song,0,0x0,WarioBattleCanyon_Name
 159,WaterWorld_Song,0,0x0,WaterWorld_Name
 160,FE12BeforeBattleSwiftSaturn_Song,0,0x0,FE12BeforeBattleSwiftSaturn_Name
-161,WindAcrossThePlains_Song,0,0x0,WindAcrossThePlains_Name
+161,ToTheSorrowfulBattlefield_Song,0,0x0,ToTheSorrowfulBattlefield_Name
+162,WhiteStorm_Song,0,0x0,WhiteStorm_Name
+163,WindAcrossThePlains_Song,0,0x0,WindAcrossThePlains_Name
 TERMINATOR,0xFFFFFFFF,0,0x0,0x0
