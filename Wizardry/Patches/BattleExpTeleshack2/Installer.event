@@ -1,7 +1,0 @@
-#include "BattleExp.lyn.event"
-
-ALIGN 4
-PrepromoteTable:
-BYTE Flor
-BYTE Domingo
-BYTE 0xFF

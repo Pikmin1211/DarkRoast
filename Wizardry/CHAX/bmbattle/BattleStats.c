@@ -245,12 +245,130 @@ int CanUnitUseWeapon(const struct Unit* unit, Item item) {
 }
 
 s8 IsItemEffectiveAgainst(Item item, const struct Unit* unit) {
-    if (GetItemData(item.number)->effectiveType && unit->pClassData->classType){
+    if (!(unit->pClassData)){
+        return FALSE;
+    }
+
+    if (GetItemData(item.number)->effectiveType & unit->pClassData->classType){
         return TRUE;
     }
+    
     return FALSE;
 }
 
 s8 IsUnitEffectiveAgainst(struct Unit* actor, struct Unit* target) {
     return FALSE;
+}
+
+int GetUnitExpLevel(struct Unit* unit) {
+    int result = unit->level;
+
+    if (UNIT_CATTRIBUTES(unit) & CA_PROMOTED)
+        result += 15;
+
+    return result;
+}
+
+
+int GetUnitRoundExp(struct Unit* actor, struct Unit* target) {
+    
+    int expBase = 10;
+    int expMult = 0;
+    int bossMult = 1;
+    int levelDelta = GetUnitExpLevel(actor) - GetUnitExpLevel(target);
+
+    if (target->curHP == 0){
+        expBase *= 2;
+    }
+
+    if ((UNIT_CATTRIBUTES(target) & CA_BOSS)){
+        bossMult = 3;
+    }
+
+    if (levelDelta < 0){
+        if (target->curHP == 0){
+            expMult = 6;
+        }
+        else{
+            expMult = 3;
+        }
+    }
+    else if (levelDelta > 0){
+        if (target->curHP == 0){
+            expMult = -3;
+        }
+        else{
+            expMult = -1;
+        }
+    }
+
+    return (expBase + (expMult * levelDelta)) * bossMult;
+}
+
+int GetBattleUnitExpGain(struct BattleUnit* actor, struct BattleUnit* target) {
+
+    if (!CanBattleUnitGainLevels(actor) || (actor->unit.curHP == 0) || UNIT_CATTRIBUTES(&target->unit) & CA_NO_EXP)
+        return 0;
+
+    if (!actor->nonZeroDamage)
+        return 1;
+
+    int result = GetUnitRoundExp(&actor->unit, &target->unit);
+
+    if (result > 100)
+        result = 100;
+
+    if (result < 1)
+        result = 1;
+
+    return result;
+}
+
+Item GetBattleUnitTopStaff(struct BattleUnit* bu){
+    Item item;
+
+    for (int i = 0; i < UNIT_ITEM_COUNT; i++){
+        if (GetItemType(bu->unit.items[i]) == ITYPE_STAFF){
+            return bu->unit.items[i]; 
+        }
+    }
+
+    return item;
+}
+
+int GetBattleUnitStaffExp(struct BattleUnit* bu) {
+    int result, wexp;
+
+    if (!CanBattleUnitGainLevels(bu))
+        return 0;
+
+    if (gBattleHitArray->attributes & BATTLE_HIT_ATTR_MISS)
+        return 1;
+
+    result = 0;
+    wexp = GetItemRequiredExp(GetBattleUnitTopStaff(bu));
+
+    if (wexp >= WPN_EXP_E){
+        result += 10;
+    }
+    if (wexp >= WPN_EXP_D){
+        result += 5;
+    }
+    if (wexp >= WPN_EXP_C){
+        result += 5;
+    }
+    if (wexp >= WPN_EXP_B){
+        result += 5;
+    }
+    if (wexp >= WPN_EXP_A){
+        result += 5;
+    }
+
+    if (UNIT_CATTRIBUTES(&bu->unit) & CA_PROMOTED)
+        result = result / 2;
+
+    if (result > 100)
+        result = 100;
+
+    return result;
 }

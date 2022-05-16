@@ -13,7 +13,6 @@
 
 // Thracia stuff from Tele2
 #include "Fatigue/Fatigue.event"
-#include "BattleExpTeleshack2/Installer.event"
 #include "EscapeArrive/EscapeArrive.event"
 
 PUSH
