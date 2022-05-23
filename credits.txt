@@ -11,7 +11,7 @@ Eventing - Pandan, Pikmin1211
 Mapping - Pandan
 Writing / Storyboarding - Pandan, Xilirite, Kyrads
 Tech Support - Pikmin1211, Vennobennu, LegendOfLoog
-Art - Pandan, L95, Levin, Laurent_Lacroix, Autonima
+Art - Pandan, L95, Levin, Laurent_Lacroix, Autonima, MournfulRelic
 Palettes - Pandan, Pikmin1211
 Music - Pandan, Pikmin1211
 Playtest & Design - Pandan, Pikmin1211, Kyrads, LegendOfLoog, knabepicer, WarPath, TDAWS, Levin, Xilirite, Pushwall, L95, Autonima, Vlak, Laurent_Lacroix, Stan, Scraiza, Zanryu, hypergammaspaces, Snakey1, MournfulRelic
@@ -26,7 +26,8 @@ Map Sprites - AstraLunaSol, TheBlindArcher, Subbastian, Alusq, Team SALVAGED, Fl
 Animations - AstraLunaSol, TheBlindArcher, Temp, Alusq, Team SALVAGED, Maiser6, Ukulele, SD9K, Black Mage, Wan, BatimaTheBat, DerTheVaporeon, Iscaneus, Nuramon
 Mugs - NickT, Capybara
 Icons - GabrielKnight, LordGlenn, Ereskigal
-Map Palettes - RandomWizard
+Map Palettes - RandomWizard, N426
+Tilesets - N426, ZoramineFae, hypergammaspaces, WAve
 16_tracks_12_sounds - Agro, Brendor
 Anti-Huffman - Hextator
 01command_hack - Hextator
@@ -40,6 +41,7 @@ Narrowfont - Scraiza
 Staves - Teraspark, Colorz
 Str/Mag split - Mohka, Kirb
 AutoNewLine - Zeta
+Updated EXP Formula - Pikmin1211
 
 
 ----
@@ -63,7 +65,7 @@ And the vanilla FE I borrowed most heavily from --
 Fire Emblem Shadow Dragon // Numbers, unit design, cast design
 Fire Emblem Gaiden // Shrines, statboost design, the vibes
 Fire Emblem Thracia 776 // Fatigue
-Fire Emblem Fates // EXP
+Fire Emblem Fates // EXP, class design, map ideas
 
 And lastly, other media --
 

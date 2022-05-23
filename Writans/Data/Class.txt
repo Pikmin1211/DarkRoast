@@ -400,3 +400,10 @@ Manakete[X]
 Dragons who transform into their
 draconic forms with stones.
 Equip: Dragonstones.[X]
+
+## MageKnightName
+Mage Knight[X]
+
+## MageKnightDesc
+Troubadours who have heard[N]
+the call of battle. Equip: Staves, anima.[X]
