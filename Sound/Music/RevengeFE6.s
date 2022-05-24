@@ -1,8 +1,8 @@
 	.include "MPlayDef.s"
 
 	.equ	RevengeFE6_grp, voicegroup000
-	.equ	RevengeFE6_pri, 10
-	.equ	RevengeFE6_rev, 128
+	.equ	RevengeFE6_pri, 0
+	.equ	RevengeFE6_rev, 0
 	.equ	RevengeFE6_mvl, 127
 	.equ	RevengeFE6_key, 0
 	.equ	RevengeFE6_tbs, 1
@@ -19,16 +19,16 @@
 RevengeFE6_001:
 @  #01 @000   ----------------------------------------
  .byte   KEYSH , RevengeFE6_key+0
-Label_0114A0A2:
+Label_0100445E:
  .byte   TEMPO , 150*RevengeFE6_tbs/2
- .byte   VOICE , 1
- .byte   VOL , 74*RevengeFE6_mvl/mxv
+ .byte   VOICE , 36
+ .byte   VOL , 42*RevengeFE6_mvl/mxv
  .byte   PAN , c_v-4
  .byte   N12 ,Gs3 ,v092
  .byte   W24
  .byte   N11 ,Gs3 ,v080
  .byte   W24
- .byte   Gs3 ,v096
+ .byte   N24 ,Gs3 ,v096
  .byte   W24
  .byte   N09 ,Gs3 ,v092
  .byte   W24
@@ -37,7 +37,7 @@ Label_0114A0A2:
  .byte   W24
  .byte   N17 ,Gs3 ,v088
  .byte   W24
- .byte   Gs3 ,v080
+ .byte   N24 ,Gs3 ,v080
  .byte   W24
  .byte   Gs3 ,v088
  .byte   W24
@@ -46,7 +46,7 @@ Label_0114A0A2:
  .byte   W24
  .byte   N11 ,Gs3 ,v084
  .byte   W24
- .byte   Gs3 ,v096
+ .byte   N24 ,Gs3 ,v096
  .byte   W24
  .byte   N15 ,Gs3 ,v092
  .byte   W24
@@ -62,7 +62,7 @@ Label_0114A0A2:
 @  #01 @004   ----------------------------------------
  .byte   N13
  .byte   W24
- .byte   Gs3 ,v088
+ .byte   N24 ,Gs3 ,v088
  .byte   W24
  .byte   N15
  .byte   W24
@@ -82,7 +82,7 @@ Label_0114A0A2:
  .byte   W24
  .byte   N11 ,An3 ,v080
  .byte   W24
- .byte   An3 ,v096
+ .byte   N24 ,An3 ,v096
  .byte   W24
  .byte   N09 ,An3 ,v092
  .byte   W24
@@ -91,13 +91,13 @@ Label_0114A0A2:
  .byte   W24
  .byte   N17 ,An3 ,v088
  .byte   W24
- .byte   An3 ,v080
+ .byte   N24 ,An3 ,v080
  .byte   W24
  .byte   An3 ,v088
  .byte   W24
 @  #01 @008   ----------------------------------------
  .byte   GOTO
-  .word Label_0114A0A2
+  .word Label_0100445E
  .byte   FINE
 
 @**************** Track 2 (Midi-Chn.1) ****************@
@@ -105,9 +105,9 @@ Label_0114A0A2:
 RevengeFE6_002:
 @  #02 @000   ----------------------------------------
  .byte   KEYSH , RevengeFE6_key+0
-Label_0114A11E:
- .byte   VOICE , 2
- .byte   VOL , 49*RevengeFE6_mvl/mxv
+Label_010049BA:
+ .byte   VOICE , 56
+ .byte   VOL , 45*RevengeFE6_mvl/mxv
  .byte   PAN , c_v-2
  .byte   N14 ,Gs2 ,v080
  .byte   W24
@@ -127,7 +127,7 @@ Label_0114A11E:
  .byte   W24
  .byte   N15 ,Bn2 ,v072
  .byte   W24
- .byte   An2 ,v080
+ .byte   N24 ,An2 ,v080
  .byte   W24
 @  #02 @002   ----------------------------------------
  .byte   N17 ,Gs2
@@ -170,11 +170,11 @@ Label_0114A11E:
  .byte   W24
  .byte   N15 ,Dn3 ,v072
  .byte   W24
- .byte   Cn3 ,v080
+ .byte   N24 ,Cn3 ,v080
  .byte   W24
 @  #02 @008   ----------------------------------------
  .byte   GOTO
-  .word Label_0114A11E
+  .word Label_010049BA
  .byte   FINE
 
 @**************** Track 3 (Midi-Chn.2) ****************@
@@ -182,9 +182,9 @@ Label_0114A11E:
 RevengeFE6_003:
 @  #03 @000   ----------------------------------------
  .byte   KEYSH , RevengeFE6_key+0
-Label_0114A180:
- .byte   VOICE , 3
- .byte   VOL , 67*RevengeFE6_mvl/mxv
+Label_010055D6:
+ .byte   VOICE , 57
+ .byte   VOL , 54*RevengeFE6_mvl/mxv
  .byte   PAN , c_v-13
  .byte   N14 ,Ds2 ,v092
  .byte   N14 ,Gs2 ,v104
@@ -277,7 +277,7 @@ Label_0114A180:
  .byte   W24
 @  #03 @008   ----------------------------------------
  .byte   GOTO
-  .word Label_0114A180
+  .word Label_010055D6
  .byte   FINE
 
 @**************** Track 4 (Midi-Chn.3) ****************@
@@ -285,7 +285,7 @@ Label_0114A180:
 RevengeFE6_004:
 @  #04 @000   ----------------------------------------
  .byte   KEYSH , RevengeFE6_key+0
-Label_0114A241:
+Label_01004026:
  .byte   W96
 @  #04 @001   ----------------------------------------
  .byte   W96
@@ -295,8 +295,8 @@ Label_0114A241:
  .byte   W96
 @  #04 @004   ----------------------------------------
  .byte   W72
- .byte   VOICE , 4
- .byte   VOL , 70*RevengeFE6_mvl/mxv
+ .byte   VOICE , 48
+ .byte   VOL , 56*RevengeFE6_mvl/mxv
  .byte   PAN , c_v+1
  .byte   W24
 @  #04 @005   ----------------------------------------
@@ -315,7 +315,7 @@ Label_0114A241:
  .byte   W96
 @  #04 @008   ----------------------------------------
  .byte   GOTO
-  .word Label_0114A241
+  .word Label_01004026
  .byte   FINE
 
 @**************** Track 5 (Midi-Chn.4) ****************@
@@ -323,431 +323,337 @@ Label_0114A241:
 RevengeFE6_005:
 @  #05 @000   ----------------------------------------
  .byte   KEYSH , RevengeFE6_key+0
-Label_0114A267:
- .byte   VOICE , 0
- .byte   VOL , 42*RevengeFE6_mvl/mxv
+Label_0100586A:
+ .byte   VOICE , 123
+ .byte   VOL , 80*RevengeFE6_mvl/mxv
+ .byte   PAN , c_v-1
  .byte   PAN , c_v+0
- .byte   N11 ,FnM2 ,v112
+ .byte   N11 ,Gn1 ,v112
+ .byte   N11 ,Dn3 ,v104
  .byte   W12
- .byte   N05 ,FsM2 ,v080
+ .byte   N05 ,Fn1 ,v080
+ .byte   N10 ,Dn3 ,v068
  .byte   W06
- .byte   FnM2 ,v068
+ .byte   N06 ,Gn1
  .byte   W06
- .byte   N11 ,FsM2 ,v076
+ .byte   N11 ,Fn1 ,v076
+ .byte   N11 ,Ds3 ,v048
  .byte   W12
- .byte   N05 ,FnM2 ,v048
+ .byte   N05 ,Gn1
+ .byte   N12 ,En3 ,v084
  .byte   W06
- .byte   FsM2 ,v064
+ .byte   N06 ,Fn1 ,v064
  .byte   W06
- .byte   N11 ,FnM2 ,v076
+ .byte   N11 ,Gn1 ,v076
+ .byte   N12 ,En3 ,v064
  .byte   W12
- .byte   N05 ,FsM2 ,v064
+ .byte   N05 ,Fn1
+ .byte   N12 ,Ds3 ,v060
  .byte   W06
- .byte   FnM2 ,v072
+ .byte   N06 ,Gn1 ,v072
  .byte   W06
- .byte   N11 ,FsM2 ,v060
+ .byte   N11 ,Fn1 ,v060
+ .byte   N12 ,Dn3 ,v064
  .byte   W12
- .byte   N05 ,FnM2 ,v044
+ .byte   N05 ,Gn1 ,v044
+ .byte   N05 ,En3 ,v068
  .byte   W06
- .byte   FsM2 ,v064
+ .byte   N06 ,Fn1 ,v064
+ .byte   N06 ,Ds3 ,v048
  .byte   W06
 @  #05 @001   ----------------------------------------
- .byte   N11 ,FnM2
+ .byte   N11 ,Gn1 ,v064
+ .byte   N09 ,Dn3 ,v060
  .byte   W12
- .byte   N05 ,FsM2 ,v056
+ .byte   N05 ,Fn1 ,v056
+ .byte   N11 ,Ds3 ,v060
  .byte   W06
- .byte   FnM2 ,v064
+ .byte   N06 ,Gn1 ,v064
  .byte   W06
- .byte   N11 ,FsM2 ,v052
+ .byte   N11 ,Fn1 ,v052
+ .byte   N09 ,En3 ,v076
  .byte   W12
- .byte   N05 ,FnM2 ,v064
+ .byte   N05 ,Gn1 ,v064
+ .byte   N05 ,En3 ,v068
  .byte   W06
- .byte   FsM2 ,v076
+ .byte   N06 ,Fn1 ,v076
+ .byte   N11 ,Ds3 ,v064
  .byte   W06
- .byte   N11 ,FnM2 ,v072
- .byte   W12
- .byte   N05 ,FsM2 ,v076
+ .byte   Gn1 ,v072
  .byte   W06
- .byte   FnM2 ,v072
+ .byte   N08 ,Dn3 ,v052
  .byte   W06
- .byte   N11 ,FsM2 ,v064
- .byte   W12
- .byte   N05 ,FnM2 ,v072
+ .byte   N05 ,Fn1 ,v076
  .byte   W06
- .byte   FsM2 ,v096
+ .byte   N06 ,Gn1 ,v072
+ .byte   N05 ,Dn3
+ .byte   W06
+ .byte   N11 ,Fn1 ,v064
+ .byte   N06 ,Ds3 ,v052
+ .byte   W06
+ .byte   En3 ,v080
+ .byte   W06
+ .byte   N05 ,Gn1 ,v072
+ .byte   N06 ,Ds3 ,v060
+ .byte   W06
+ .byte   Fn1 ,v096
+ .byte   N06 ,Dn3 ,v068
  .byte   W06
 @  #05 @002   ----------------------------------------
- .byte   N11 ,FnM2 ,v127
- .byte   W12
- .byte   N05 ,FsM2 ,v064
+ .byte   N11 ,Gn1 ,v127
+ .byte   N06 ,Ds3 ,v060
  .byte   W06
- .byte   FnM2 ,v076
+ .byte   N11 ,En3 ,v080
  .byte   W06
- .byte   N11 ,FsM2
- .byte   W12
- .byte   N05 ,FnM2 ,v056
+ .byte   N05 ,Fn1 ,v064
  .byte   W06
- .byte   FsM2 ,v064
+ .byte   N06 ,Gn1 ,v076
+ .byte   N05 ,En3
  .byte   W06
- .byte   N11 ,FnM2 ,v068
- .byte   W12
- .byte   N05 ,FsM2 ,v048
+ .byte   N11 ,Fn1
+ .byte   N06 ,Ds3 ,v052
  .byte   W06
- .byte   FnM2 ,v076
+ .byte   Dn3 ,v076
  .byte   W06
- .byte   N11 ,FsM2 ,v060
- .byte   W12
- .byte   N05 ,FnM2 ,v068
+ .byte   N05 ,Gn1 ,v056
+ .byte   N06 ,Dn3 ,v072
  .byte   W06
- .byte   FsM2
+ .byte   Fn1 ,v064
+ .byte   N11 ,Ds3 ,v060
+ .byte   W06
+ .byte   Gn1 ,v068
+ .byte   W06
+ .byte   N10 ,En3 ,v088
+ .byte   W06
+ .byte   N05 ,Fn1 ,v048
+ .byte   W06
+ .byte   N06 ,Gn1 ,v076
+ .byte   N05 ,En3 ,v072
+ .byte   W06
+ .byte   N11 ,Fn1 ,v060
+ .byte   N06 ,Ds3
+ .byte   W06
+ .byte   Dn3 ,v076
+ .byte   W06
+ .byte   N05 ,Gn1 ,v068
+ .byte   N06 ,Dn3 ,v060
+ .byte   W06
+ .byte   Fn1 ,v068
+ .byte   N11 ,Ds3 ,v052
  .byte   W06
 @  #05 @003   ----------------------------------------
- .byte   N11 ,FnM2 ,v064
- .byte   W12
- .byte   N05 ,FsM2 ,v072
+ .byte   Gn1 ,v064
  .byte   W06
- .byte   FnM2 ,v064
+ .byte   N10 ,En3 ,v092
  .byte   W06
- .byte   N11 ,FsM2
- .byte   W12
- .byte   N05 ,FnM2 ,v072
+ .byte   N05 ,Fn1 ,v072
  .byte   W06
- .byte   FsM2 ,v064
+ .byte   N06 ,Gn1 ,v064
+ .byte   N05 ,En3 ,v076
  .byte   W06
- .byte   N11 ,FnM2
- .byte   W12
- .byte   N05 ,FsM2 ,v060
+ .byte   N11 ,Fn1 ,v064
+ .byte   N06 ,Ds3 ,v056
  .byte   W06
- .byte   FnM2
+ .byte   Dn3 ,v088
  .byte   W06
- .byte   N11 ,FsM2
- .byte   W12
- .byte   N05 ,FnM2 ,v076
+ .byte   N05 ,Gn1 ,v072
+ .byte   N06 ,Dn3 ,v076
  .byte   W06
- .byte   FsM2 ,v084
+ .byte   Fn1 ,v064
+ .byte   N11 ,Ds3 ,v052
+ .byte   W06
+ .byte   Gn1 ,v064
+ .byte   W06
+ .byte   N10 ,En3 ,v080
+ .byte   W06
+ .byte   N05 ,Fn1 ,v060
+ .byte   W06
+ .byte   N06 ,Gn1
+ .byte   N05 ,En3 ,v080
+ .byte   W06
+ .byte   N11 ,Fn1 ,v060
+ .byte   N06 ,Ds3 ,v064
+ .byte   W06
+ .byte   Dn3 ,v076
+ .byte   W06
+ .byte   N05 ,Gn1
+ .byte   N06 ,Ds3 ,v064
+ .byte   W06
+ .byte   Fn1 ,v084
+ .byte   N06 ,En3 ,v088
  .byte   W06
 @  #05 @004   ----------------------------------------
- .byte   N11 ,FnM2 ,v124
- .byte   W12
- .byte   N05 ,FsM2 ,v092
+ .byte   N11 ,Gn1 ,v124
+ .byte   N06 ,Ds3 ,v068
  .byte   W06
- .byte   FnM2 ,v084
+ .byte   N11 ,Dn3 ,v096
  .byte   W06
- .byte   N11 ,FsM2 ,v076
- .byte   W12
- .byte   N05 ,FnM2 ,v060
+ .byte   N05 ,Fn1 ,v092
  .byte   W06
- .byte   FsM2 ,v056
+ .byte   N06 ,Gn1 ,v084
+ .byte   N05 ,Dn3 ,v076
  .byte   W06
- .byte   N11 ,FnM2
- .byte   W12
- .byte   N05 ,FsM2 ,v064
+ .byte   N11 ,Fn1
+ .byte   N06 ,Ds3 ,v064
  .byte   W06
- .byte   FnM2 ,v068
+ .byte   N11 ,En3 ,v092
  .byte   W06
- .byte   N11 ,FsM2 ,v060
- .byte   W12
- .byte   N05 ,FnM2 ,v064
+ .byte   N05 ,Gn1 ,v060
  .byte   W06
- .byte   FsM2 ,v068
+ .byte   N06 ,Fn1 ,v056
+ .byte   N05 ,En3 ,v076
+ .byte   W06
+ .byte   N11 ,Gn1 ,v056
+ .byte   N06 ,Ds3 ,v060
+ .byte   W06
+ .byte   N09 ,Dn3 ,v064
+ .byte   W06
+ .byte   N05 ,Fn1
+ .byte   W06
+ .byte   N06 ,Gn1 ,v068
+ .byte   N05 ,Dn3
+ .byte   W06
+ .byte   N11 ,Fn1 ,v060
+ .byte   N06 ,Ds3 ,v052
+ .byte   W06
+ .byte   N09 ,En3 ,v076
+ .byte   W06
+ .byte   N05 ,Gn1 ,v064
+ .byte   W06
+ .byte   N06 ,Fn1 ,v068
+ .byte   N05 ,En3
  .byte   W06
 @  #05 @005   ----------------------------------------
- .byte   N11 ,FnM2 ,v072
- .byte   W12
- .byte   N05 ,FsM2 ,v064
+ .byte   N11 ,Gn1 ,v072
+ .byte   N06 ,Ds3 ,v064
  .byte   W06
- .byte   FnM2 ,v040
+ .byte   N09 ,Dn3
  .byte   W06
- .byte   N11 ,FsM2 ,v068
- .byte   W12
- .byte   N05 ,FnM2 ,v076
+ .byte   N05 ,Fn1
  .byte   W06
- .byte   FsM2 ,v072
+ .byte   N06 ,Gn1 ,v040
+ .byte   N05 ,Dn3 ,v068
  .byte   W06
- .byte   N11 ,FnM2 ,v084
- .byte   W12
- .byte   N05 ,FsM2
+ .byte   N11 ,Fn1
+ .byte   N06 ,Ds3 ,v064
  .byte   W06
- .byte   FnM2
+ .byte   N10 ,En3 ,v088
  .byte   W06
- .byte   FsM2 ,v096
+ .byte   N05 ,Gn1 ,v076
  .byte   W06
- .byte   FnM2 ,v108
+ .byte   N06 ,Fn1 ,v072
+ .byte   N05 ,En3
  .byte   W06
- .byte   FsM2 ,v104
+ .byte   N11 ,Gn1 ,v084
+ .byte   N06 ,Ds3 ,v060
  .byte   W06
- .byte   FnM2 ,v116
+ .byte   Dn3 ,v084
+ .byte   W06
+ .byte   N05 ,Fn1
+ .byte   N06 ,Dn3 ,v080
+ .byte   W06
+ .byte   Gn1 ,v084
+ .byte   N11 ,Ds3 ,v060
+ .byte   W06
+ .byte   N06 ,Fn1 ,v096
+ .byte   W06
+ .byte   Gn1 ,v108
+ .byte   N05 ,En3 ,v076
+ .byte   W06
+ .byte   N06 ,Fn1 ,v104
+ .byte   N11 ,Ds3 ,v080
+ .byte   W06
+ .byte   N06 ,Gn1 ,v116
  .byte   W06
 @  #05 @006   ----------------------------------------
- .byte   N11 ,FnM2 ,v127
+ .byte   N11 ,Gn1 ,v127
+ .byte   N12 ,Dn3 ,v096
  .byte   W12
- .byte   N05 ,FsM2 ,v096
+ .byte   N05 ,Fn1
+ .byte   N05 ,Dn3 ,v100
  .byte   W06
- .byte   FnM2 ,v076
+ .byte   N06 ,Gn1 ,v076
+ .byte   N06 ,Ds3 ,v056
  .byte   W06
- .byte   N11 ,FsM2 ,v060
+ .byte   N11 ,Fn1 ,v060
+ .byte   N11 ,En3 ,v088
  .byte   W12
- .byte   N05 ,FnM2 ,v068
+ .byte   N05 ,Gn1 ,v068
+ .byte   N05 ,En3 ,v080
  .byte   W06
- .byte   FsM2 ,v056
+ .byte   N06 ,Fn1 ,v056
+ .byte   N06 ,Ds3 ,v060
  .byte   W06
- .byte   N11 ,FnM2 ,v060
- .byte   W12
- .byte   N05 ,FsM2 ,v052
+ .byte   N11 ,Gn1
+ .byte   N06 ,Dn3 ,v080
  .byte   W06
- .byte   FnM2 ,v072
+ .byte   Dn3 ,v064
  .byte   W06
- .byte   N11 ,FsM2 ,v052
- .byte   W12
- .byte   N05 ,FnM2 ,v068
+ .byte   N05 ,Fn1 ,v052
+ .byte   N06 ,Ds3 ,v060
  .byte   W06
- .byte   FsM2 ,v064
+ .byte   Gn1 ,v072
+ .byte   N11 ,En3 ,v088
+ .byte   W06
+ .byte   Fn1 ,v052
+ .byte   W06
+ .byte   N05 ,En3 ,v064
+ .byte   W06
+ .byte   Gn1 ,v068
+ .byte   N11 ,Ds3 ,v060
+ .byte   W06
+ .byte   N06 ,Fn1 ,v064
  .byte   W06
 @  #05 @007   ----------------------------------------
- .byte   N11 ,FnM2 ,v068
+ .byte   N11 ,Gn1 ,v068
+ .byte   N05 ,Dn3 ,v088
+ .byte   W06
+ .byte   N06 ,Dn3 ,v068
+ .byte   W06
+ .byte   N05 ,Fn1
+ .byte   N11 ,Ds3 ,v048
+ .byte   W06
+ .byte   N06 ,Gn1 ,v072
+ .byte   W06
+ .byte   N11 ,Fn1 ,v080
+ .byte   N10 ,En3 ,v084
  .byte   W12
- .byte   N05 ,FsM2
+ .byte   N05 ,Gn1 ,v088
+ .byte   N05 ,En3 ,v072
  .byte   W06
- .byte   FnM2 ,v072
+ .byte   N06 ,Fn1 ,v092
+ .byte   N06 ,Ds3 ,v052
  .byte   W06
- .byte   N11 ,FsM2 ,v080
+ .byte   N11 ,Gn1 ,v104
+ .byte   N08 ,Dn3 ,v080
  .byte   W12
- .byte   N05 ,FnM2 ,v088
+ .byte   N05 ,Fn1 ,v108
+ .byte   N05 ,Dn3 ,v080
  .byte   W06
- .byte   FsM2 ,v092
+ .byte   N06 ,Gn1 ,v108
+ .byte   N06 ,Ds3 ,v044
  .byte   W06
- .byte   N11 ,FnM2 ,v104
- .byte   W12
- .byte   N05 ,FsM2 ,v108
+ .byte   N11 ,Fn1 ,v104
+ .byte   N06 ,En3 ,v080
  .byte   W06
- .byte   FnM2
+ .byte   Ds3 ,v052
  .byte   W06
- .byte   N11 ,FsM2 ,v104
- .byte   W12
- .byte   N05 ,FnM2 ,v108
+ .byte   N05 ,Gn1 ,v108
+ .byte   N06 ,Dn3 ,v076
  .byte   W06
- .byte   FsM2 ,v104
+ .byte   Fn1 ,v104
+ .byte   N06 ,Ds3 ,v056
  .byte   W06
 @  #05 @008   ----------------------------------------
  .byte   GOTO
-  .word Label_0114A267
- .byte   FINE
-
-@**************** Track 6 (Midi-Chn.5) ****************@
-
-RevengeFE6_006:
-@  #06 @000   ----------------------------------------
- .byte   KEYSH , RevengeFE6_key+0
-Label_0114A3CA:
- .byte   VOICE , 0
- .byte   VOL , 46*RevengeFE6_mvl/mxv
- .byte   PAN , c_v-1
- .byte   N11 ,GnM2 ,v104
- .byte   W12
- .byte   N10 ,GnM2 ,v068
- .byte   W12
- .byte   N11 ,GsM2 ,v048
- .byte   W12
- .byte   AnM2 ,v084
- .byte   W12
- .byte   AnM2 ,v064
- .byte   W12
- .byte   GsM2 ,v060
- .byte   W12
- .byte   GnM2 ,v064
- .byte   W12
- .byte   N05 ,AnM2 ,v068
- .byte   W06
- .byte   GsM2 ,v048
- .byte   W06
-@  #06 @001   ----------------------------------------
- .byte   N09 ,GnM2 ,v060
- .byte   W12
- .byte   N11 ,GsM2
- .byte   W12
- .byte   N09 ,AnM2 ,v076
- .byte   W12
- .byte   N05 ,AnM2 ,v068
- .byte   W06
- .byte   N11 ,GsM2 ,v064
- .byte   W12
- .byte   N08 ,GnM2 ,v052
- .byte   W12
- .byte   N05 ,GnM2 ,v072
- .byte   W06
- .byte   GsM2 ,v052
- .byte   W06
- .byte   AnM2 ,v080
- .byte   W06
- .byte   GsM2 ,v060
- .byte   W06
- .byte   GnM2 ,v068
- .byte   W06
-@  #06 @002   ----------------------------------------
- .byte   GsM2 ,v060
- .byte   W06
- .byte   N11 ,AnM2 ,v080
- .byte   W12
- .byte   N05 ,AnM2 ,v076
- .byte   W06
- .byte   GsM2 ,v052
- .byte   W06
- .byte   GnM2 ,v076
- .byte   W06
- .byte   GnM2 ,v072
- .byte   W06
- .byte   N11 ,GsM2 ,v060
- .byte   W12
- .byte   N10 ,AnM2 ,v088
- .byte   W12
- .byte   N05 ,AnM2 ,v072
- .byte   W06
- .byte   GsM2 ,v060
- .byte   W06
- .byte   GnM2 ,v076
- .byte   W06
- .byte   GnM2 ,v060
- .byte   W06
- .byte   N11 ,GsM2 ,v052
- .byte   W06
-@  #06 @003   ----------------------------------------
- .byte   W06
- .byte   N10 ,AnM2 ,v092
- .byte   W12
- .byte   N05 ,AnM2 ,v076
- .byte   W06
- .byte   GsM2 ,v056
- .byte   W06
- .byte   GnM2 ,v088
- .byte   W06
- .byte   GnM2 ,v076
- .byte   W06
- .byte   N11 ,GsM2 ,v052
- .byte   W12
- .byte   N10 ,AnM2 ,v080
- .byte   W12
- .byte   N05
- .byte   W06
- .byte   GsM2 ,v064
- .byte   W06
- .byte   GnM2 ,v076
- .byte   W06
- .byte   GsM2 ,v064
- .byte   W06
- .byte   AnM2 ,v088
- .byte   W06
-@  #06 @004   ----------------------------------------
- .byte   GsM2 ,v068
- .byte   W06
- .byte   N11 ,GnM2 ,v096
- .byte   W12
- .byte   N05 ,GnM2 ,v076
- .byte   W06
- .byte   GsM2 ,v064
- .byte   W06
- .byte   N11 ,AnM2 ,v092
- .byte   W12
- .byte   N05 ,AnM2 ,v076
- .byte   W06
- .byte   GsM2 ,v060
- .byte   W06
- .byte   N09 ,GnM2 ,v064
- .byte   W12
- .byte   N05 ,GnM2 ,v068
- .byte   W06
- .byte   GsM2 ,v052
- .byte   W06
- .byte   N09 ,AnM2 ,v076
- .byte   W12
- .byte   N05 ,AnM2 ,v068
- .byte   W06
-@  #06 @005   ----------------------------------------
- .byte   GsM2 ,v064
- .byte   W06
- .byte   N09 ,GnM2
- .byte   W12
- .byte   N05 ,GnM2 ,v068
- .byte   W06
- .byte   GsM2 ,v064
- .byte   W06
- .byte   N10 ,AnM2 ,v088
- .byte   W12
- .byte   N05 ,AnM2 ,v072
- .byte   W06
- .byte   GsM2 ,v060
- .byte   W06
- .byte   GnM2 ,v084
- .byte   W06
- .byte   GnM2 ,v080
- .byte   W06
- .byte   N11 ,GsM2 ,v060
- .byte   W12
- .byte   N05 ,AnM2 ,v076
- .byte   W06
- .byte   N11 ,GsM2 ,v080
- .byte   W12
-@  #06 @006   ----------------------------------------
- .byte   GnM2 ,v096
- .byte   W12
- .byte   N05 ,GnM2 ,v100
- .byte   W06
- .byte   GsM2 ,v056
- .byte   W06
- .byte   N11 ,AnM2 ,v088
- .byte   W12
- .byte   N05 ,AnM2 ,v080
- .byte   W06
- .byte   GsM2 ,v060
- .byte   W06
- .byte   GnM2 ,v080
- .byte   W06
- .byte   GnM2 ,v064
- .byte   W06
- .byte   GsM2 ,v060
- .byte   W06
- .byte   N11 ,AnM2 ,v088
- .byte   W12
- .byte   N05 ,AnM2 ,v064
- .byte   W06
- .byte   N11 ,GsM2 ,v060
- .byte   W12
-@  #06 @007   ----------------------------------------
- .byte   N05 ,GnM2 ,v088
- .byte   W06
- .byte   GnM2 ,v068
- .byte   W06
- .byte   N11 ,GsM2 ,v048
- .byte   W12
- .byte   N10 ,AnM2 ,v084
- .byte   W12
- .byte   N05 ,AnM2 ,v072
- .byte   W06
- .byte   GsM2 ,v052
- .byte   W06
- .byte   N08 ,GnM2 ,v080
- .byte   W12
- .byte   N05
- .byte   W06
- .byte   GsM2 ,v044
- .byte   W06
- .byte   AnM2 ,v080
- .byte   W06
- .byte   GsM2 ,v052
- .byte   W06
- .byte   GnM2 ,v076
- .byte   W06
- .byte   GsM2 ,v056
- .byte   W06
-@  #06 @008   ----------------------------------------
- .byte   GOTO
-  .word Label_0114A3CA
+  .word Label_0100586A
  .byte   FINE
 
 @******************************************************@
 	.align	2
 
 RevengeFE6:
-	.byte	6	@ NumTrks
+	.byte	5	@ NumTrks
 	.byte	0	@ NumBlks
 	.byte	RevengeFE6_pri	@ Priority
 	.byte	RevengeFE6_rev	@ Reverb.
@@ -759,6 +665,5 @@ RevengeFE6:
 	.word	RevengeFE6_003
 	.word	RevengeFE6_004
 	.word	RevengeFE6_005
-	.word	RevengeFE6_006
 
 	.end

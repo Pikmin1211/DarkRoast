@@ -86,11 +86,22 @@ BowArmorStandData:
 StandMapSpriteEntry(BowArmorStandMapSprite, 0x2, 0, BowArmorStandData)
 
 ALIGN 4
+ChickenMoveData:
+#incbin "Chicken\Move.dmp"
+MoveMapSpriteEntry(Chicken, 0x1CAA20, ChickenMoveData)
+
+#define ChickenStandMapSprite 0x72
+ALIGN 4
+ChickenStandData:
+#incbin "Chicken\Stand.dmp"
+StandMapSpriteEntry(ChickenStandMapSprite, 0x2, 0, ChickenStandData)
+
+ALIGN 4
 ChiefMoveData:
 #incbin "Chief\Move.dmp"
 MoveMapSpriteEntry(Chief, 0x1CAA20, ChiefMoveData)
 
-#define ChiefStandMapSprite 0x72
+#define ChiefStandMapSprite 0x73
 ALIGN 4
 ChiefStandData:
 #incbin "Chief\Stand.dmp"
@@ -101,7 +112,7 @@ Chief_FMoveData:
 #incbin "Chief_F\Move.dmp"
 MoveMapSpriteEntry(Chief_F, 0x1CAA20, Chief_FMoveData)
 
-#define Chief_FStandMapSprite 0x73
+#define Chief_FStandMapSprite 0x74
 ALIGN 4
 Chief_FStandData:
 #incbin "Chief_F\Stand.dmp"
@@ -112,7 +123,7 @@ CurateMoveData:
 #incbin "Curate\Move.dmp"
 MoveMapSpriteEntry(Curate, 0x1CAA20, CurateMoveData)
 
-#define CurateStandMapSprite 0x74
+#define CurateStandMapSprite 0x75
 ALIGN 4
 CurateStandData:
 #incbin "Curate\Stand.dmp"
@@ -123,7 +134,7 @@ DeserterMoveData:
 #incbin "Deserter\Move.dmp"
 MoveMapSpriteEntry(Deserter, 0x1CAA20, DeserterMoveData)
 
-#define DeserterStandMapSprite 0x75
+#define DeserterStandMapSprite 0x76
 ALIGN 4
 DeserterStandData:
 #incbin "Deserter\Stand.dmp"
@@ -139,18 +150,29 @@ Fighter_FMoveData:
 #incbin "Fighter_F\Move.dmp"
 MoveMapSpriteEntry(Fighter_F, 0x1CAA20, Fighter_FMoveData)
 
-#define Fighter_FStandMapSprite 0x76
+#define Fighter_FStandMapSprite 0x77
 ALIGN 4
 Fighter_FStandData:
 #incbin "Fighter_F\Stand.dmp"
 StandMapSpriteEntry(Fighter_FStandMapSprite, 0x2, 0, Fighter_FStandData)
 
 ALIGN 4
+GazelleMoveData:
+#incbin "Gazelle\Move.dmp"
+MoveMapSpriteEntry(Gazelle, 0x1CAA20, GazelleMoveData)
+
+#define GazelleStandMapSprite 0x78
+ALIGN 4
+GazelleStandData:
+#incbin "Gazelle\Stand.dmp"
+StandMapSpriteEntry(GazelleStandMapSprite, 0x2, 0, GazelleStandData)
+
+ALIGN 4
 GrassrunnerMoveData:
 #incbin "Grassrunner\Move.dmp"
 MoveMapSpriteEntry(Grassrunner, 0x1CAA20, GrassrunnerMoveData)
 
-#define GrassrunnerStandMapSprite 0x77
+#define GrassrunnerStandMapSprite 0x79
 ALIGN 4
 GrassrunnerStandData:
 #incbin "Grassrunner\Stand.dmp"
@@ -161,7 +183,7 @@ GuardMoveData:
 #incbin "Guard\Move.dmp"
 MoveMapSpriteEntry(Guard, 0x1CAA20, GuardMoveData)
 
-#define GuardStandMapSprite 0x78
+#define GuardStandMapSprite 0x7a
 ALIGN 4
 GuardStandData:
 #incbin "Guard\Stand.dmp"
@@ -172,260 +194,62 @@ HalberdierMoveData:
 #incbin "Halberdier\Move.dmp"
 MoveMapSpriteEntry(Halberdier, 0x1CAA20, HalberdierMoveData)
 
-#define HalberdierStandMapSprite 0x79
+#define HalberdierStandMapSprite 0x7b
 ALIGN 4
 HalberdierStandData:
 #incbin "Halberdier\Stand.dmp"
 StandMapSpriteEntry(HalberdierStandMapSprite, 0x2, 0, HalberdierStandData)
 
 ALIGN 4
+HorseMoveData:
+#incbin "Horse\Move.dmp"
+MoveMapSpriteEntry(Horse, 0x1CAA20, HorseMoveData)
+
+#define HorseStandMapSprite 0x7c
+ALIGN 4
+HorseStandData:
+#incbin "Horse\Stand.dmp"
+StandMapSpriteEntry(HorseStandMapSprite, 0x2, 1, HorseStandData)
+
+ALIGN 4
 HunterMoveData:
 #incbin "Hunter\Move.dmp"
 MoveMapSpriteEntry(Hunter, 0x1CAA20, HunterMoveData)
 
-#define HunterStandMapSprite 0x7a
+#define HunterStandMapSprite 0x7d
 ALIGN 4
 HunterStandData:
 #incbin "Hunter\Stand.dmp"
 StandMapSpriteEntry(HunterStandMapSprite, 0x2, 0, HunterStandData)
 
 ALIGN 4
+LogMoveData:
+#incbin "Log\Move.dmp"
+MoveMapSpriteEntry(Log, 0x1CAA20, LogMoveData)
+
+#define LogStandMapSprite 0x7e
+ALIGN 4
+LogStandData:
+#incbin "Log\Stand.dmp"
+StandMapSpriteEntry(LogStandMapSprite, 0x2, 0, LogStandData)
+
+ALIGN 4
 LordMoveData:
 #incbin "Lord\Move.dmp"
 MoveMapSpriteEntry(Lord, 0x1CAA20, LordMoveData)
 
-#define LordStandMapSprite 0x7b
+#define LordStandMapSprite 0x7f
 ALIGN 4
 LordStandData:
 #incbin "Lord\Stand.dmp"
 StandMapSpriteEntry(LordStandMapSprite, 0x2, 0, LordStandData)
 
 ALIGN 4
-ManaketeMoveData:
-#incbin "Manakete\Move.dmp"
-MoveMapSpriteEntry(Manakete, 0x1CAA20, ManaketeMoveData)
-
-#define ManaketeStandMapSprite 0x7c
-ALIGN 4
-ManaketeStandData:
-#incbin "Manakete\Stand.dmp"
-StandMapSpriteEntry(ManaketeStandMapSprite, 0x2, 0, ManaketeStandData)
-
-ALIGN 4
-Mercenary_FMoveData:
-#incbin "Mercenary_F\Move.dmp"
-MoveMapSpriteEntry(Mercenary_F, 0x1CAA20, Mercenary_FMoveData)
-
-#define Mercenary_FStandMapSprite 0x7d
-ALIGN 4
-Mercenary_FStandData:
-#incbin "Mercenary_F\Stand.dmp"
-StandMapSpriteEntry(Mercenary_FStandMapSprite, 0x2, 0, Mercenary_FStandData)
-
-ALIGN 4
-NomadMoveData:
-#incbin "Nomad\Move.dmp"
-MoveMapSpriteEntry(Nomad, 0x1CAA20, NomadMoveData)
-
-#define NomadStandMapSprite 0x7e
-ALIGN 4
-NomadStandData:
-#incbin "Nomad\Stand.dmp"
-StandMapSpriteEntry(NomadStandMapSprite, 0x2, 1, NomadStandData)
-
-ALIGN 4
-NomadTrooperMoveData:
-#incbin "NomadTrooper\Move.dmp"
-MoveMapSpriteEntry(NomadTrooper, 0x1CAA20, NomadTrooperMoveData)
-
-#define NomadTrooperStandMapSprite 0x7f
-ALIGN 4
-NomadTrooperStandData:
-#incbin "NomadTrooper\Stand.dmp"
-StandMapSpriteEntry(NomadTrooperStandMapSprite, 0x2, 1, NomadTrooperStandData)
-
-ALIGN 4
-NomadTrooper_FMoveData:
-#incbin "NomadTrooper_F\Move.dmp"
-MoveMapSpriteEntry(NomadTrooper_F, 0x1CAA20, NomadTrooper_FMoveData)
-
-#define NomadTrooper_FStandMapSprite 0x80
-ALIGN 4
-NomadTrooper_FStandData:
-#incbin "NomadTrooper_F\Stand.dmp"
-StandMapSpriteEntry(NomadTrooper_FStandMapSprite, 0x2, 1, NomadTrooper_FStandData)
-
-ALIGN 4
-Nomad_FMoveData:
-#incbin "Nomad_F\Move.dmp"
-MoveMapSpriteEntry(Nomad_F, 0x1CAA20, Nomad_FMoveData)
-
-#define Nomad_FStandMapSprite 0x81
-ALIGN 4
-Nomad_FStandData:
-#incbin "Nomad_F\Stand.dmp"
-StandMapSpriteEntry(Nomad_FStandMapSprite, 0x2, 1, Nomad_FStandData)
-
-ALIGN 4
-OhtliMoveData:
-#incbin "Ohtli\Move.dmp"
-MoveMapSpriteEntry(Ohtli, 0x1CAA20, OhtliMoveData)
-
-#define OhtliStandMapSprite 0x82
-ALIGN 4
-OhtliStandData:
-#incbin "Ohtli\Stand.dmp"
-StandMapSpriteEntry(OhtliStandMapSprite, 0x2, 0, OhtliStandData)
-
-ALIGN 4
-Ohtli_FMoveData:
-#incbin "Ohtli_F\Move.dmp"
-MoveMapSpriteEntry(Ohtli_F, 0x1CAA20, Ohtli_FMoveData)
-
-#define Ohtli_FStandMapSprite 0x83
-ALIGN 4
-Ohtli_FStandData:
-#incbin "Ohtli_F\Stand.dmp"
-StandMapSpriteEntry(Ohtli_FStandMapSprite, 0x2, 0, Ohtli_FStandData)
-
-ALIGN 4
-OutlawMoveData:
-#incbin "Outlaw\Move.dmp"
-MoveMapSpriteEntry(Outlaw, 0x1CAA20, OutlawMoveData)
-
-#define OutlawStandMapSprite 0x84
-ALIGN 4
-OutlawStandData:
-#incbin "Outlaw\Stand.dmp"
-StandMapSpriteEntry(OutlawStandMapSprite, 0x2, 0, OutlawStandData)
-
-ALIGN 4
-Pirate_FMoveData:
-#incbin "Pirate_F\Move.dmp"
-MoveMapSpriteEntry(Pirate_F, 0x1CAA20, Pirate_FMoveData)
-
-#define Pirate_FStandMapSprite 0x85
-ALIGN 4
-Pirate_FStandData:
-#incbin "Pirate_F\Stand.dmp"
-StandMapSpriteEntry(Pirate_FStandMapSprite, 0x2, 0, Pirate_FStandData)
-
-ALIGN 4
-SoldierMoveData:
-#incbin "Soldier\Move.dmp"
-MoveMapSpriteEntry(Soldier, 0x1CAA20, SoldierMoveData)
-
-#define SoldierStandMapSprite 0x86
-ALIGN 4
-SoldierStandData:
-#incbin "Soldier\Stand.dmp"
-StandMapSpriteEntry(SoldierStandMapSprite, 0x2, 0, SoldierStandData)
-
-ALIGN 4
-Soldier_FMoveData:
-#incbin "Soldier_F\Move.dmp"
-MoveMapSpriteEntry(Soldier_F, 0x1CAA20, Soldier_FMoveData)
-
-#define Soldier_FStandMapSprite 0x87
-ALIGN 4
-Soldier_FStandData:
-#incbin "Soldier_F\Stand.dmp"
-StandMapSpriteEntry(Soldier_FStandMapSprite, 0x2, 0, Soldier_FStandData)
-
-ALIGN 4
-StaffMageMoveData:
-#incbin "StaffMage\Move.dmp"
-MoveMapSpriteEntry(StaffMage, 0x1CAA20, StaffMageMoveData)
-
-#define StaffMageStandMapSprite 0x88
-ALIGN 4
-StaffMageStandData:
-#incbin "StaffMage\Stand.dmp"
-StandMapSpriteEntry(StaffMageStandMapSprite, 0x2, 0, StaffMageStandData)
-
-ALIGN 4
-SwordArmorMoveData:
-#incbin "SwordArmor\Move.dmp"
-MoveMapSpriteEntry(SwordArmor, 0x1CAA20, SwordArmorMoveData)
-
-#define SwordArmorStandMapSprite 0x89
-ALIGN 4
-SwordArmorStandData:
-#incbin "SwordArmor\Stand.dmp"
-StandMapSpriteEntry(SwordArmorStandMapSprite, 0x2, 0, SwordArmorStandData)
-
-ALIGN 4
-SwordCavalierMoveData:
-#incbin "SwordCavalier\Move.dmp"
-MoveMapSpriteEntry(SwordCavalier, 0x1CAA20, SwordCavalierMoveData)
-
-#define SwordCavalierStandMapSprite 0x8a
-ALIGN 4
-SwordCavalierStandData:
-#incbin "SwordCavalier\Stand.dmp"
-StandMapSpriteEntry(SwordCavalierStandMapSprite, 0x2, 1, SwordCavalierStandData)
-
-ALIGN 4
-SwordPaladinMoveData:
-#incbin "SwordPaladin\Move.dmp"
-MoveMapSpriteEntry(SwordPaladin, 0x1CAA20, SwordPaladinMoveData)
-
-#define SwordPaladinStandMapSprite 0x8b
-ALIGN 4
-SwordPaladinStandData:
-#incbin "SwordPaladin\Stand.dmp"
-StandMapSpriteEntry(SwordPaladinStandMapSprite, 0x2, 1, SwordPaladinStandData)
-
-ALIGN 4
-WarClericMoveData:
-#incbin "WarCleric\Move.dmp"
-MoveMapSpriteEntry(WarCleric, 0x1CAA20, WarClericMoveData)
-
-#define WarClericStandMapSprite 0x8c
-ALIGN 4
-WarClericStandData:
-#incbin "WarCleric\Stand.dmp"
-StandMapSpriteEntry(WarClericStandMapSprite, 0x2, 1, WarClericStandData)
-
-ALIGN 4
-WarMonkMoveData:
-#incbin "WarMonk\Move.dmp"
-MoveMapSpriteEntry(WarMonk, 0x1CAA20, WarMonkMoveData)
-
-#define WarMonkStandMapSprite 0x8d
-ALIGN 4
-WarMonkStandData:
-#incbin "WarMonk\Stand.dmp"
-StandMapSpriteEntry(WarMonkStandMapSprite, 0x2, 1, WarMonkStandData)
-
-ALIGN 4
-Warrior_FMoveData:
-#incbin "Warrior_F\Move.dmp"
-MoveMapSpriteEntry(Warrior_F, 0x1CAA20, Warrior_FMoveData)
-
-#define Warrior_FStandMapSprite 0x8e
-ALIGN 4
-Warrior_FStandData:
-#incbin "Warrior_F\Stand.dmp"
-StandMapSpriteEntry(Warrior_FStandMapSprite, 0x2, 1, Warrior_FStandData)
-
-ALIGN 4
-Troubadour_MMoveData:
-#incbin "Troubadour_M\Move.dmp"
-MoveMapSpriteEntry(Troubadour_M, 0x1CAA20, Troubadour_MMoveData)
-
-#define Troubadour_MStandMapSprite 0x8f
-ALIGN 4
-Troubadour_MStandData:
-#incbin "Troubadour_M\Stand.dmp"
-StandMapSpriteEntry(Troubadour_MStandMapSprite, 0x2, 1, Troubadour_MStandData)
-
-ALIGN 4
 MageKnightMoveData:
 #incbin "MageKnight\Move.dmp"
 MoveMapSpriteEntry(MageKnight, 0x1CAA20, MageKnightMoveData)
 
-#define MageKnightStandMapSprite 0x90
+#define MageKnightStandMapSprite 0x80
 ALIGN 4
 MageKnightStandData:
 #incbin "MageKnight\Stand.dmp"
@@ -436,30 +260,251 @@ MageKnight_FMoveData:
 #incbin "MageKnight_F\Move.dmp"
 MoveMapSpriteEntry(MageKnight_F, 0x1CAA20, MageKnight_FMoveData)
 
-#define MageKnight_FStandMapSprite 0x91
+#define MageKnight_FStandMapSprite 0x81
 ALIGN 4
 MageKnight_FStandData:
 #incbin "MageKnight_F\Stand.dmp"
 StandMapSpriteEntry(MageKnight_FStandMapSprite, 0x2, 1, MageKnight_FStandData)
 
 ALIGN 4
-ChickenMoveData:
-#incbin "Chicken\Move.dmp"
-MoveMapSpriteEntry(Chicken, 0x1CAA20, ChickenMoveData)
+ManaketeMoveData:
+#incbin "Manakete\Move.dmp"
+MoveMapSpriteEntry(Manakete, 0x1CAA20, ManaketeMoveData)
 
-#define ChickenStandMapSprite 0x92
+#define ManaketeStandMapSprite 0x82
 ALIGN 4
-ChickenStandData:
-#incbin "Chicken\Stand.dmp"
-StandMapSpriteEntry(ChickenStandMapSprite, 0x2, 0, ChickenStandData)
+ManaketeStandData:
+#incbin "Manakete\Stand.dmp"
+StandMapSpriteEntry(ManaketeStandMapSprite, 0x2, 0, ManaketeStandData)
 
 ALIGN 4
-LogMoveData:
-#incbin "Log\Move.dmp"
-MoveMapSpriteEntry(Log, 0x1CAA20, LogMoveData)
+Mercenary_FMoveData:
+#incbin "Mercenary_F\Move.dmp"
+MoveMapSpriteEntry(Mercenary_F, 0x1CAA20, Mercenary_FMoveData)
 
-#define LogStandMapSprite 0x93
+#define Mercenary_FStandMapSprite 0x83
 ALIGN 4
-LogStandData:
-#incbin "Log\Stand.dmp"
-StandMapSpriteEntry(LogStandMapSprite, 0x2, 0, LogStandData)
+Mercenary_FStandData:
+#incbin "Mercenary_F\Stand.dmp"
+StandMapSpriteEntry(Mercenary_FStandMapSprite, 0x2, 0, Mercenary_FStandData)
+
+ALIGN 4
+MerchantMoveData:
+#incbin "Merchant\Move.dmp"
+MoveMapSpriteEntry(Merchant, 0x1CAA20, MerchantMoveData)
+
+#define MerchantStandMapSprite 0x84
+ALIGN 4
+MerchantStandData:
+#incbin "Merchant\Stand.dmp"
+StandMapSpriteEntry(MerchantStandMapSprite, 0x2, 1, MerchantStandData)
+
+ALIGN 4
+NomadMoveData:
+#incbin "Nomad\Move.dmp"
+MoveMapSpriteEntry(Nomad, 0x1CAA20, NomadMoveData)
+
+#define NomadStandMapSprite 0x85
+ALIGN 4
+NomadStandData:
+#incbin "Nomad\Stand.dmp"
+StandMapSpriteEntry(NomadStandMapSprite, 0x2, 1, NomadStandData)
+
+ALIGN 4
+NomadTrooperMoveData:
+#incbin "NomadTrooper\Move.dmp"
+MoveMapSpriteEntry(NomadTrooper, 0x1CAA20, NomadTrooperMoveData)
+
+#define NomadTrooperStandMapSprite 0x86
+ALIGN 4
+NomadTrooperStandData:
+#incbin "NomadTrooper\Stand.dmp"
+StandMapSpriteEntry(NomadTrooperStandMapSprite, 0x2, 1, NomadTrooperStandData)
+
+ALIGN 4
+NomadTrooper_FMoveData:
+#incbin "NomadTrooper_F\Move.dmp"
+MoveMapSpriteEntry(NomadTrooper_F, 0x1CAA20, NomadTrooper_FMoveData)
+
+#define NomadTrooper_FStandMapSprite 0x87
+ALIGN 4
+NomadTrooper_FStandData:
+#incbin "NomadTrooper_F\Stand.dmp"
+StandMapSpriteEntry(NomadTrooper_FStandMapSprite, 0x2, 1, NomadTrooper_FStandData)
+
+ALIGN 4
+Nomad_FMoveData:
+#incbin "Nomad_F\Move.dmp"
+MoveMapSpriteEntry(Nomad_F, 0x1CAA20, Nomad_FMoveData)
+
+#define Nomad_FStandMapSprite 0x88
+ALIGN 4
+Nomad_FStandData:
+#incbin "Nomad_F\Stand.dmp"
+StandMapSpriteEntry(Nomad_FStandMapSprite, 0x2, 1, Nomad_FStandData)
+
+ALIGN 4
+OhtliMoveData:
+#incbin "Ohtli\Move.dmp"
+MoveMapSpriteEntry(Ohtli, 0x1CAA20, OhtliMoveData)
+
+#define OhtliStandMapSprite 0x89
+ALIGN 4
+OhtliStandData:
+#incbin "Ohtli\Stand.dmp"
+StandMapSpriteEntry(OhtliStandMapSprite, 0x2, 0, OhtliStandData)
+
+ALIGN 4
+Ohtli_FMoveData:
+#incbin "Ohtli_F\Move.dmp"
+MoveMapSpriteEntry(Ohtli_F, 0x1CAA20, Ohtli_FMoveData)
+
+#define Ohtli_FStandMapSprite 0x8a
+ALIGN 4
+Ohtli_FStandData:
+#incbin "Ohtli_F\Stand.dmp"
+StandMapSpriteEntry(Ohtli_FStandMapSprite, 0x2, 0, Ohtli_FStandData)
+
+ALIGN 4
+OutlawMoveData:
+#incbin "Outlaw\Move.dmp"
+MoveMapSpriteEntry(Outlaw, 0x1CAA20, OutlawMoveData)
+
+#define OutlawStandMapSprite 0x8b
+ALIGN 4
+OutlawStandData:
+#incbin "Outlaw\Stand.dmp"
+StandMapSpriteEntry(OutlawStandMapSprite, 0x2, 0, OutlawStandData)
+
+ALIGN 4
+Pirate_FMoveData:
+#incbin "Pirate_F\Move.dmp"
+MoveMapSpriteEntry(Pirate_F, 0x1CAA20, Pirate_FMoveData)
+
+#define Pirate_FStandMapSprite 0x8c
+ALIGN 4
+Pirate_FStandData:
+#incbin "Pirate_F\Stand.dmp"
+StandMapSpriteEntry(Pirate_FStandMapSprite, 0x2, 0, Pirate_FStandData)
+
+ALIGN 4
+PumpkinMoveData:
+#incbin "Pumpkin\Move.dmp"
+MoveMapSpriteEntry(Pumpkin, 0x1CAA20, PumpkinMoveData)
+
+#define PumpkinStandMapSprite 0x8d
+ALIGN 4
+PumpkinStandData:
+#incbin "Pumpkin\Stand.dmp"
+StandMapSpriteEntry(PumpkinStandMapSprite, 0x2, 0, PumpkinStandData)
+
+ALIGN 4
+SoldierMoveData:
+#incbin "Soldier\Move.dmp"
+MoveMapSpriteEntry(Soldier, 0x1CAA20, SoldierMoveData)
+
+#define SoldierStandMapSprite 0x8e
+ALIGN 4
+SoldierStandData:
+#incbin "Soldier\Stand.dmp"
+StandMapSpriteEntry(SoldierStandMapSprite, 0x2, 0, SoldierStandData)
+
+ALIGN 4
+Soldier_FMoveData:
+#incbin "Soldier_F\Move.dmp"
+MoveMapSpriteEntry(Soldier_F, 0x1CAA20, Soldier_FMoveData)
+
+#define Soldier_FStandMapSprite 0x8f
+ALIGN 4
+Soldier_FStandData:
+#incbin "Soldier_F\Stand.dmp"
+StandMapSpriteEntry(Soldier_FStandMapSprite, 0x2, 0, Soldier_FStandData)
+
+ALIGN 4
+StaffMageMoveData:
+#incbin "StaffMage\Move.dmp"
+MoveMapSpriteEntry(StaffMage, 0x1CAA20, StaffMageMoveData)
+
+#define StaffMageStandMapSprite 0x90
+ALIGN 4
+StaffMageStandData:
+#incbin "StaffMage\Stand.dmp"
+StandMapSpriteEntry(StaffMageStandMapSprite, 0x2, 0, StaffMageStandData)
+
+ALIGN 4
+SwordArmorMoveData:
+#incbin "SwordArmor\Move.dmp"
+MoveMapSpriteEntry(SwordArmor, 0x1CAA20, SwordArmorMoveData)
+
+#define SwordArmorStandMapSprite 0x91
+ALIGN 4
+SwordArmorStandData:
+#incbin "SwordArmor\Stand.dmp"
+StandMapSpriteEntry(SwordArmorStandMapSprite, 0x2, 0, SwordArmorStandData)
+
+ALIGN 4
+SwordCavalierMoveData:
+#incbin "SwordCavalier\Move.dmp"
+MoveMapSpriteEntry(SwordCavalier, 0x1CAA20, SwordCavalierMoveData)
+
+#define SwordCavalierStandMapSprite 0x92
+ALIGN 4
+SwordCavalierStandData:
+#incbin "SwordCavalier\Stand.dmp"
+StandMapSpriteEntry(SwordCavalierStandMapSprite, 0x2, 1, SwordCavalierStandData)
+
+ALIGN 4
+SwordPaladinMoveData:
+#incbin "SwordPaladin\Move.dmp"
+MoveMapSpriteEntry(SwordPaladin, 0x1CAA20, SwordPaladinMoveData)
+
+#define SwordPaladinStandMapSprite 0x93
+ALIGN 4
+SwordPaladinStandData:
+#incbin "SwordPaladin\Stand.dmp"
+StandMapSpriteEntry(SwordPaladinStandMapSprite, 0x2, 1, SwordPaladinStandData)
+
+ALIGN 4
+Troubadour_MMoveData:
+#incbin "Troubadour_M\Move.dmp"
+MoveMapSpriteEntry(Troubadour_M, 0x1CAA20, Troubadour_MMoveData)
+
+#define Troubadour_MStandMapSprite 0x94
+ALIGN 4
+Troubadour_MStandData:
+#incbin "Troubadour_M\Stand.dmp"
+StandMapSpriteEntry(Troubadour_MStandMapSprite, 0x2, 1, Troubadour_MStandData)
+
+ALIGN 4
+WarClericMoveData:
+#incbin "WarCleric\Move.dmp"
+MoveMapSpriteEntry(WarCleric, 0x1CAA20, WarClericMoveData)
+
+#define WarClericStandMapSprite 0x95
+ALIGN 4
+WarClericStandData:
+#incbin "WarCleric\Stand.dmp"
+StandMapSpriteEntry(WarClericStandMapSprite, 0x2, 1, WarClericStandData)
+
+ALIGN 4
+WarMonkMoveData:
+#incbin "WarMonk\Move.dmp"
+MoveMapSpriteEntry(WarMonk, 0x1CAA20, WarMonkMoveData)
+
+#define WarMonkStandMapSprite 0x96
+ALIGN 4
+WarMonkStandData:
+#incbin "WarMonk\Stand.dmp"
+StandMapSpriteEntry(WarMonkStandMapSprite, 0x2, 1, WarMonkStandData)
+
+ALIGN 4
+Warrior_FMoveData:
+#incbin "Warrior_F\Move.dmp"
+MoveMapSpriteEntry(Warrior_F, 0x1CAA20, Warrior_FMoveData)
+
+#define Warrior_FStandMapSprite 0x97
+ALIGN 4
+Warrior_FStandData:
+#incbin "Warrior_F\Stand.dmp"
+StandMapSpriteEntry(Warrior_FStandMapSprite, 0x2, 1, Warrior_FStandData)
+

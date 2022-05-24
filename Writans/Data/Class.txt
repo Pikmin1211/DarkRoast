@@ -429,3 +429,31 @@ Log[X]
 A piece of wood.[N]
 Cannot fight others.[X]
 
+## MerchantName
+Merchant[X]
+
+## MerchantDesc
+Peddlers of goods.[N]
+Does not fight.[X]
+
+## GazelleName
+Gazelle[X]
+
+## GazelleDesc
+A swift, skittish animal.[N]
+Does not fight.[X]
+
+## HorseName
+Horse[X]
+
+## HorseDesc
+A horse. Easily spooked.[N]
+Does not fight.[X]
+
+## PumpkinName
+Pumpkin[X]
+
+## PumpkinDesc
+A cultivar of winter squash[N]
+imported by high-end buyers.[N]
+Popular in pies or fried.[X]

@@ -1,31 +1,31 @@
-#define BladeIcon 0xca
+#define bladeIcon 0xca
 PUSH
-ORG AffinityIconSheet + (BladeIcon * 128)
-#incbin "Affinity\Blade.dmp"
+ORG AffinityIconSheet + (bladeIcon * 128)
+#incbin "Affinity\blade.dmp"
 POP
 
-#define EarthIcon 0xcb
+#define earthIcon 0xcb
 PUSH
-ORG AffinityIconSheet + (EarthIcon * 128)
-#incbin "Affinity\Earth.dmp"
+ORG AffinityIconSheet + (earthIcon * 128)
+#incbin "Affinity\earth.dmp"
 POP
 
-#define HeavenIcon 0xcc
+#define heavenIcon 0xcc
 PUSH
-ORG AffinityIconSheet + (HeavenIcon * 128)
-#incbin "Affinity\Heaven.dmp"
+ORG AffinityIconSheet + (heavenIcon * 128)
+#incbin "Affinity\heaven.dmp"
 POP
 
-#define MoonIcon 0xcd
+#define moonIcon 0xcd
 PUSH
-ORG AffinityIconSheet + (MoonIcon * 128)
-#incbin "Affinity\Moon.dmp"
+ORG AffinityIconSheet + (moonIcon * 128)
+#incbin "Affinity\moon.dmp"
 POP
 
-#define WaterIcon 0xce
+#define waterIcon 0xce
 PUSH
-ORG AffinityIconSheet + (WaterIcon * 128)
-#incbin "Affinity\Water.dmp"
+ORG AffinityIconSheet + (waterIcon * 128)
+#incbin "Affinity\water.dmp"
 POP
 
 #define ArcfireIcon 0xcf
@@ -170,5 +170,17 @@ POP
 PUSH
 ORG ItemIconSheet + (WindIcon * 128)
 #incbin "Item\Wind.dmp"
+POP
+
+#define daggerIcon 0xe7
+PUSH
+ORG WeaponIconIconSheet + (daggerIcon * 128)
+#incbin "WeaponIcon\dagger.dmp"
+POP
+
+#define dragonstoneIcon 0xe8
+PUSH
+ORG WeaponIconIconSheet + (dragonstoneIcon * 128)
+#incbin "WeaponIcon\dragonstone.dmp"
 POP
 

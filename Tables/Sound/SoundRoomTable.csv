@@ -163,5 +163,8 @@ SoundRoomTable,songNumber,songLength,displayCondition,songName
 160,FE12BeforeBattleSwiftSaturn_Song,0,0x0,FE12BeforeBattleSwiftSaturn_Name
 161,ToTheSorrowfulBattlefield_Song,0,0x0,ToTheSorrowfulBattlefield_Name
 162,WhiteStorm_Song,0,0x0,WhiteStorm_Name
-163,WindAcrossThePlains_Song,0,0x0,WindAcrossThePlains_Name
+163,FriendshipAndAdventure_Song,0,0x0,FriendshipAndAdventure_Name
+164,EnemiesAppear_Song,0,0x0,EnemiesAppear_Name
+165,YoshiSafariGrassland_Song,0,0x0,YoshiSafariGrassland_Name
+166,WindAcrossThePlains_Song,0,0x0,WindAcrossThePlains_Name
 TERMINATOR,0xFFFFFFFF,0,0x0,0x0

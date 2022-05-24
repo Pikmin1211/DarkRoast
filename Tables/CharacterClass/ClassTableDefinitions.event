@@ -81,9 +81,16 @@
 #define HolyKnight 0x60
 #define Outlaw 0x76
 #define Grassrunner 0x77
+#define Tent 0x79
 #define StaffMage 0x7c
 #define Curate 0x7d
 #define Ballistician 0x7e
 #define Shrine 0x7f
 #define Chief 0x80
 #define Chief_F 0x81
+#define Troubadour_M 0x82
+#define MageKnight 0x83
+#define MageKnight_F 0x84
+#define Log 0x85
+#define Chicken 0x86
+#define Merchant 0x87

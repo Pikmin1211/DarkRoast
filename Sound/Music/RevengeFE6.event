@@ -2,8 +2,8 @@
 	
 
 	#define	RevengeFE6_grp  voicegroup000
-	#define	RevengeFE6_pri  10
-	#define	RevengeFE6_rev  128
+	#define	RevengeFE6_pri  0
+	#define	RevengeFE6_rev  0
 	#define	RevengeFE6_mvl  127
 	#define	RevengeFE6_key  0
 	#define	RevengeFE6_tbs  1
@@ -20,16 +20,16 @@
 RevengeFE6_001:
 //  #01 //000   ----------------------------------------
  BYTE   KEYSH   RevengeFE6_key+0
-Label_0114A0A2:
+Label_0100445E:
  BYTE   TEMPO   150*RevengeFE6_tbs/2
- BYTE   VOICE   1
- BYTE   VOL   74*RevengeFE6_mvl/mxv
+ BYTE   VOICE   36
+ BYTE   VOL   42*RevengeFE6_mvl/mxv
  BYTE   PAN   c_v-4
  BYTE   N12  Gs3  v092
  BYTE   W24
  BYTE   N11  Gs3  v080
  BYTE   W24
- BYTE   Gs3  v096
+ BYTE   N24  Gs3  v096
  BYTE   W24
  BYTE   N09  Gs3  v092
  BYTE   W24
@@ -38,7 +38,7 @@ Label_0114A0A2:
  BYTE   W24
  BYTE   N17  Gs3  v088
  BYTE   W24
- BYTE   Gs3  v080
+ BYTE   N24  Gs3  v080
  BYTE   W24
  BYTE   Gs3  v088
  BYTE   W24
@@ -47,7 +47,7 @@ Label_0114A0A2:
  BYTE   W24
  BYTE   N11  Gs3  v084
  BYTE   W24
- BYTE   Gs3  v096
+ BYTE   N24  Gs3  v096
  BYTE   W24
  BYTE   N15  Gs3  v092
  BYTE   W24
@@ -63,7 +63,7 @@ Label_0114A0A2:
 //  #01 //004   ----------------------------------------
  BYTE   N13
  BYTE   W24
- BYTE   Gs3  v088
+ BYTE   N24  Gs3  v088
  BYTE   W24
  BYTE   N15
  BYTE   W24
@@ -83,7 +83,7 @@ Label_0114A0A2:
  BYTE   W24
  BYTE   N11  An3  v080
  BYTE   W24
- BYTE   An3  v096
+ BYTE   N24  An3  v096
  BYTE   W24
  BYTE   N09  An3  v092
  BYTE   W24
@@ -92,13 +92,13 @@ Label_0114A0A2:
  BYTE   W24
  BYTE   N17  An3  v088
  BYTE   W24
- BYTE   An3  v080
+ BYTE   N24  An3  v080
  BYTE   W24
  BYTE   An3  v088
  BYTE   W24
 //  #01 //008   ----------------------------------------
  BYTE   GoTo
-  POIN2 Label_0114A0A2
+  POIN2 Label_0100445E
  BYTE   FINE
 
 //**************** Track 2 (Midi-Chn.1) ****************//
@@ -106,9 +106,9 @@ Label_0114A0A2:
 RevengeFE6_002:
 //  #02 //000   ----------------------------------------
  BYTE   KEYSH   RevengeFE6_key+0
-Label_0114A11E:
- BYTE   VOICE   2
- BYTE   VOL   49*RevengeFE6_mvl/mxv
+Label_010049BA:
+ BYTE   VOICE   56
+ BYTE   VOL   45*RevengeFE6_mvl/mxv
  BYTE   PAN   c_v-2
  BYTE   N14  Gs2  v080
  BYTE   W24
@@ -128,7 +128,7 @@ Label_0114A11E:
  BYTE   W24
  BYTE   N15  Bn2  v072
  BYTE   W24
- BYTE   An2  v080
+ BYTE   N24  An2  v080
  BYTE   W24
 //  #02 //002   ----------------------------------------
  BYTE   N17  Gs2
@@ -171,11 +171,11 @@ Label_0114A11E:
  BYTE   W24
  BYTE   N15  Dn3  v072
  BYTE   W24
- BYTE   Cn3  v080
+ BYTE   N24  Cn3  v080
  BYTE   W24
 //  #02 //008   ----------------------------------------
  BYTE   GoTo
-  POIN2 Label_0114A11E
+  POIN2 Label_010049BA
  BYTE   FINE
 
 //**************** Track 3 (Midi-Chn.2) ****************//
@@ -183,9 +183,9 @@ Label_0114A11E:
 RevengeFE6_003:
 //  #03 //000   ----------------------------------------
  BYTE   KEYSH   RevengeFE6_key+0
-Label_0114A180:
- BYTE   VOICE   3
- BYTE   VOL   67*RevengeFE6_mvl/mxv
+Label_010055D6:
+ BYTE   VOICE   57
+ BYTE   VOL   54*RevengeFE6_mvl/mxv
  BYTE   PAN   c_v-13
  BYTE   N14  Ds2  v092
  BYTE   N14  Gs2  v104
@@ -278,7 +278,7 @@ Label_0114A180:
  BYTE   W24
 //  #03 //008   ----------------------------------------
  BYTE   GoTo
-  POIN2 Label_0114A180
+  POIN2 Label_010055D6
  BYTE   FINE
 
 //**************** Track 4 (Midi-Chn.3) ****************//
@@ -286,7 +286,7 @@ Label_0114A180:
 RevengeFE6_004:
 //  #04 //000   ----------------------------------------
  BYTE   KEYSH   RevengeFE6_key+0
-Label_0114A241:
+Label_01004026:
  BYTE   W96
 //  #04 //001   ----------------------------------------
  BYTE   W96
@@ -296,8 +296,8 @@ Label_0114A241:
  BYTE   W96
 //  #04 //004   ----------------------------------------
  BYTE   W72
- BYTE   VOICE   4
- BYTE   VOL   70*RevengeFE6_mvl/mxv
+ BYTE   VOICE   48
+ BYTE   VOL   56*RevengeFE6_mvl/mxv
  BYTE   PAN   c_v+1
  BYTE   W24
 //  #04 //005   ----------------------------------------
@@ -316,7 +316,7 @@ Label_0114A241:
  BYTE   W96
 //  #04 //008   ----------------------------------------
  BYTE   GoTo
-  POIN2 Label_0114A241
+  POIN2 Label_01004026
  BYTE   FINE
 
 //**************** Track 5 (Midi-Chn.4) ****************//
@@ -324,431 +324,337 @@ Label_0114A241:
 RevengeFE6_005:
 //  #05 //000   ----------------------------------------
  BYTE   KEYSH   RevengeFE6_key+0
-Label_0114A267:
- BYTE   VOICE   0
- BYTE   VOL   42*RevengeFE6_mvl/mxv
+Label_0100586A:
+ BYTE   VOICE   123
+ BYTE   VOL   80*RevengeFE6_mvl/mxv
+ BYTE   PAN   c_v-1
  BYTE   PAN   c_v+0
- BYTE   N11  FnM2  v112
+ BYTE   N11  Gn1  v112
+ BYTE   N11  Dn3  v104
  BYTE   W12
- BYTE   N05  FsM2  v080
+ BYTE   N05  Fn1  v080
+ BYTE   N10  Dn3  v068
  BYTE   W06
- BYTE   FnM2  v068
+ BYTE   N06  Gn1
  BYTE   W06
- BYTE   N11  FsM2  v076
+ BYTE   N11  Fn1  v076
+ BYTE   N11  Ds3  v048
  BYTE   W12
- BYTE   N05  FnM2  v048
+ BYTE   N05  Gn1
+ BYTE   N12  En3  v084
  BYTE   W06
- BYTE   FsM2  v064
+ BYTE   N06  Fn1  v064
  BYTE   W06
- BYTE   N11  FnM2  v076
+ BYTE   N11  Gn1  v076
+ BYTE   N12  En3  v064
  BYTE   W12
- BYTE   N05  FsM2  v064
+ BYTE   N05  Fn1
+ BYTE   N12  Ds3  v060
  BYTE   W06
- BYTE   FnM2  v072
+ BYTE   N06  Gn1  v072
  BYTE   W06
- BYTE   N11  FsM2  v060
+ BYTE   N11  Fn1  v060
+ BYTE   N12  Dn3  v064
  BYTE   W12
- BYTE   N05  FnM2  v044
+ BYTE   N05  Gn1  v044
+ BYTE   N05  En3  v068
  BYTE   W06
- BYTE   FsM2  v064
+ BYTE   N06  Fn1  v064
+ BYTE   N06  Ds3  v048
  BYTE   W06
 //  #05 //001   ----------------------------------------
- BYTE   N11  FnM2
+ BYTE   N11  Gn1  v064
+ BYTE   N09  Dn3  v060
  BYTE   W12
- BYTE   N05  FsM2  v056
+ BYTE   N05  Fn1  v056
+ BYTE   N11  Ds3  v060
  BYTE   W06
- BYTE   FnM2  v064
+ BYTE   N06  Gn1  v064
  BYTE   W06
- BYTE   N11  FsM2  v052
+ BYTE   N11  Fn1  v052
+ BYTE   N09  En3  v076
  BYTE   W12
- BYTE   N05  FnM2  v064
+ BYTE   N05  Gn1  v064
+ BYTE   N05  En3  v068
  BYTE   W06
- BYTE   FsM2  v076
+ BYTE   N06  Fn1  v076
+ BYTE   N11  Ds3  v064
  BYTE   W06
- BYTE   N11  FnM2  v072
- BYTE   W12
- BYTE   N05  FsM2  v076
+ BYTE   Gn1  v072
  BYTE   W06
- BYTE   FnM2  v072
+ BYTE   N08  Dn3  v052
  BYTE   W06
- BYTE   N11  FsM2  v064
- BYTE   W12
- BYTE   N05  FnM2  v072
+ BYTE   N05  Fn1  v076
  BYTE   W06
- BYTE   FsM2  v096
+ BYTE   N06  Gn1  v072
+ BYTE   N05  Dn3
+ BYTE   W06
+ BYTE   N11  Fn1  v064
+ BYTE   N06  Ds3  v052
+ BYTE   W06
+ BYTE   En3  v080
+ BYTE   W06
+ BYTE   N05  Gn1  v072
+ BYTE   N06  Ds3  v060
+ BYTE   W06
+ BYTE   Fn1  v096
+ BYTE   N06  Dn3  v068
  BYTE   W06
 //  #05 //002   ----------------------------------------
- BYTE   N11  FnM2  v127
- BYTE   W12
- BYTE   N05  FsM2  v064
+ BYTE   N11  Gn1  v127
+ BYTE   N06  Ds3  v060
  BYTE   W06
- BYTE   FnM2  v076
+ BYTE   N11  En3  v080
  BYTE   W06
- BYTE   N11  FsM2
- BYTE   W12
- BYTE   N05  FnM2  v056
+ BYTE   N05  Fn1  v064
  BYTE   W06
- BYTE   FsM2  v064
+ BYTE   N06  Gn1  v076
+ BYTE   N05  En3
  BYTE   W06
- BYTE   N11  FnM2  v068
- BYTE   W12
- BYTE   N05  FsM2  v048
+ BYTE   N11  Fn1
+ BYTE   N06  Ds3  v052
  BYTE   W06
- BYTE   FnM2  v076
+ BYTE   Dn3  v076
  BYTE   W06
- BYTE   N11  FsM2  v060
- BYTE   W12
- BYTE   N05  FnM2  v068
+ BYTE   N05  Gn1  v056
+ BYTE   N06  Dn3  v072
  BYTE   W06
- BYTE   FsM2
+ BYTE   Fn1  v064
+ BYTE   N11  Ds3  v060
+ BYTE   W06
+ BYTE   Gn1  v068
+ BYTE   W06
+ BYTE   N10  En3  v088
+ BYTE   W06
+ BYTE   N05  Fn1  v048
+ BYTE   W06
+ BYTE   N06  Gn1  v076
+ BYTE   N05  En3  v072
+ BYTE   W06
+ BYTE   N11  Fn1  v060
+ BYTE   N06  Ds3
+ BYTE   W06
+ BYTE   Dn3  v076
+ BYTE   W06
+ BYTE   N05  Gn1  v068
+ BYTE   N06  Dn3  v060
+ BYTE   W06
+ BYTE   Fn1  v068
+ BYTE   N11  Ds3  v052
  BYTE   W06
 //  #05 //003   ----------------------------------------
- BYTE   N11  FnM2  v064
- BYTE   W12
- BYTE   N05  FsM2  v072
+ BYTE   Gn1  v064
  BYTE   W06
- BYTE   FnM2  v064
+ BYTE   N10  En3  v092
  BYTE   W06
- BYTE   N11  FsM2
- BYTE   W12
- BYTE   N05  FnM2  v072
+ BYTE   N05  Fn1  v072
  BYTE   W06
- BYTE   FsM2  v064
+ BYTE   N06  Gn1  v064
+ BYTE   N05  En3  v076
  BYTE   W06
- BYTE   N11  FnM2
- BYTE   W12
- BYTE   N05  FsM2  v060
+ BYTE   N11  Fn1  v064
+ BYTE   N06  Ds3  v056
  BYTE   W06
- BYTE   FnM2
+ BYTE   Dn3  v088
  BYTE   W06
- BYTE   N11  FsM2
- BYTE   W12
- BYTE   N05  FnM2  v076
+ BYTE   N05  Gn1  v072
+ BYTE   N06  Dn3  v076
  BYTE   W06
- BYTE   FsM2  v084
+ BYTE   Fn1  v064
+ BYTE   N11  Ds3  v052
+ BYTE   W06
+ BYTE   Gn1  v064
+ BYTE   W06
+ BYTE   N10  En3  v080
+ BYTE   W06
+ BYTE   N05  Fn1  v060
+ BYTE   W06
+ BYTE   N06  Gn1
+ BYTE   N05  En3  v080
+ BYTE   W06
+ BYTE   N11  Fn1  v060
+ BYTE   N06  Ds3  v064
+ BYTE   W06
+ BYTE   Dn3  v076
+ BYTE   W06
+ BYTE   N05  Gn1
+ BYTE   N06  Ds3  v064
+ BYTE   W06
+ BYTE   Fn1  v084
+ BYTE   N06  En3  v088
  BYTE   W06
 //  #05 //004   ----------------------------------------
- BYTE   N11  FnM2  v124
- BYTE   W12
- BYTE   N05  FsM2  v092
+ BYTE   N11  Gn1  v124
+ BYTE   N06  Ds3  v068
  BYTE   W06
- BYTE   FnM2  v084
+ BYTE   N11  Dn3  v096
  BYTE   W06
- BYTE   N11  FsM2  v076
- BYTE   W12
- BYTE   N05  FnM2  v060
+ BYTE   N05  Fn1  v092
  BYTE   W06
- BYTE   FsM2  v056
+ BYTE   N06  Gn1  v084
+ BYTE   N05  Dn3  v076
  BYTE   W06
- BYTE   N11  FnM2
- BYTE   W12
- BYTE   N05  FsM2  v064
+ BYTE   N11  Fn1
+ BYTE   N06  Ds3  v064
  BYTE   W06
- BYTE   FnM2  v068
+ BYTE   N11  En3  v092
  BYTE   W06
- BYTE   N11  FsM2  v060
- BYTE   W12
- BYTE   N05  FnM2  v064
+ BYTE   N05  Gn1  v060
  BYTE   W06
- BYTE   FsM2  v068
+ BYTE   N06  Fn1  v056
+ BYTE   N05  En3  v076
+ BYTE   W06
+ BYTE   N11  Gn1  v056
+ BYTE   N06  Ds3  v060
+ BYTE   W06
+ BYTE   N09  Dn3  v064
+ BYTE   W06
+ BYTE   N05  Fn1
+ BYTE   W06
+ BYTE   N06  Gn1  v068
+ BYTE   N05  Dn3
+ BYTE   W06
+ BYTE   N11  Fn1  v060
+ BYTE   N06  Ds3  v052
+ BYTE   W06
+ BYTE   N09  En3  v076
+ BYTE   W06
+ BYTE   N05  Gn1  v064
+ BYTE   W06
+ BYTE   N06  Fn1  v068
+ BYTE   N05  En3
  BYTE   W06
 //  #05 //005   ----------------------------------------
- BYTE   N11  FnM2  v072
- BYTE   W12
- BYTE   N05  FsM2  v064
+ BYTE   N11  Gn1  v072
+ BYTE   N06  Ds3  v064
  BYTE   W06
- BYTE   FnM2  v040
+ BYTE   N09  Dn3
  BYTE   W06
- BYTE   N11  FsM2  v068
- BYTE   W12
- BYTE   N05  FnM2  v076
+ BYTE   N05  Fn1
  BYTE   W06
- BYTE   FsM2  v072
+ BYTE   N06  Gn1  v040
+ BYTE   N05  Dn3  v068
  BYTE   W06
- BYTE   N11  FnM2  v084
- BYTE   W12
- BYTE   N05  FsM2
+ BYTE   N11  Fn1
+ BYTE   N06  Ds3  v064
  BYTE   W06
- BYTE   FnM2
+ BYTE   N10  En3  v088
  BYTE   W06
- BYTE   FsM2  v096
+ BYTE   N05  Gn1  v076
  BYTE   W06
- BYTE   FnM2  v108
+ BYTE   N06  Fn1  v072
+ BYTE   N05  En3
  BYTE   W06
- BYTE   FsM2  v104
+ BYTE   N11  Gn1  v084
+ BYTE   N06  Ds3  v060
  BYTE   W06
- BYTE   FnM2  v116
+ BYTE   Dn3  v084
+ BYTE   W06
+ BYTE   N05  Fn1
+ BYTE   N06  Dn3  v080
+ BYTE   W06
+ BYTE   Gn1  v084
+ BYTE   N11  Ds3  v060
+ BYTE   W06
+ BYTE   N06  Fn1  v096
+ BYTE   W06
+ BYTE   Gn1  v108
+ BYTE   N05  En3  v076
+ BYTE   W06
+ BYTE   N06  Fn1  v104
+ BYTE   N11  Ds3  v080
+ BYTE   W06
+ BYTE   N06  Gn1  v116
  BYTE   W06
 //  #05 //006   ----------------------------------------
- BYTE   N11  FnM2  v127
+ BYTE   N11  Gn1  v127
+ BYTE   N12  Dn3  v096
  BYTE   W12
- BYTE   N05  FsM2  v096
+ BYTE   N05  Fn1
+ BYTE   N05  Dn3  v100
  BYTE   W06
- BYTE   FnM2  v076
+ BYTE   N06  Gn1  v076
+ BYTE   N06  Ds3  v056
  BYTE   W06
- BYTE   N11  FsM2  v060
+ BYTE   N11  Fn1  v060
+ BYTE   N11  En3  v088
  BYTE   W12
- BYTE   N05  FnM2  v068
+ BYTE   N05  Gn1  v068
+ BYTE   N05  En3  v080
  BYTE   W06
- BYTE   FsM2  v056
+ BYTE   N06  Fn1  v056
+ BYTE   N06  Ds3  v060
  BYTE   W06
- BYTE   N11  FnM2  v060
- BYTE   W12
- BYTE   N05  FsM2  v052
+ BYTE   N11  Gn1
+ BYTE   N06  Dn3  v080
  BYTE   W06
- BYTE   FnM2  v072
+ BYTE   Dn3  v064
  BYTE   W06
- BYTE   N11  FsM2  v052
- BYTE   W12
- BYTE   N05  FnM2  v068
+ BYTE   N05  Fn1  v052
+ BYTE   N06  Ds3  v060
  BYTE   W06
- BYTE   FsM2  v064
+ BYTE   Gn1  v072
+ BYTE   N11  En3  v088
+ BYTE   W06
+ BYTE   Fn1  v052
+ BYTE   W06
+ BYTE   N05  En3  v064
+ BYTE   W06
+ BYTE   Gn1  v068
+ BYTE   N11  Ds3  v060
+ BYTE   W06
+ BYTE   N06  Fn1  v064
  BYTE   W06
 //  #05 //007   ----------------------------------------
- BYTE   N11  FnM2  v068
+ BYTE   N11  Gn1  v068
+ BYTE   N05  Dn3  v088
+ BYTE   W06
+ BYTE   N06  Dn3  v068
+ BYTE   W06
+ BYTE   N05  Fn1
+ BYTE   N11  Ds3  v048
+ BYTE   W06
+ BYTE   N06  Gn1  v072
+ BYTE   W06
+ BYTE   N11  Fn1  v080
+ BYTE   N10  En3  v084
  BYTE   W12
- BYTE   N05  FsM2
+ BYTE   N05  Gn1  v088
+ BYTE   N05  En3  v072
  BYTE   W06
- BYTE   FnM2  v072
+ BYTE   N06  Fn1  v092
+ BYTE   N06  Ds3  v052
  BYTE   W06
- BYTE   N11  FsM2  v080
+ BYTE   N11  Gn1  v104
+ BYTE   N08  Dn3  v080
  BYTE   W12
- BYTE   N05  FnM2  v088
+ BYTE   N05  Fn1  v108
+ BYTE   N05  Dn3  v080
  BYTE   W06
- BYTE   FsM2  v092
+ BYTE   N06  Gn1  v108
+ BYTE   N06  Ds3  v044
  BYTE   W06
- BYTE   N11  FnM2  v104
- BYTE   W12
- BYTE   N05  FsM2  v108
+ BYTE   N11  Fn1  v104
+ BYTE   N06  En3  v080
  BYTE   W06
- BYTE   FnM2
+ BYTE   Ds3  v052
  BYTE   W06
- BYTE   N11  FsM2  v104
- BYTE   W12
- BYTE   N05  FnM2  v108
+ BYTE   N05  Gn1  v108
+ BYTE   N06  Dn3  v076
  BYTE   W06
- BYTE   FsM2  v104
+ BYTE   Fn1  v104
+ BYTE   N06  Ds3  v056
  BYTE   W06
 //  #05 //008   ----------------------------------------
  BYTE   GoTo
-  POIN2 Label_0114A267
- BYTE   FINE
-
-//**************** Track 6 (Midi-Chn.5) ****************//
-
-RevengeFE6_006:
-//  #06 //000   ----------------------------------------
- BYTE   KEYSH   RevengeFE6_key+0
-Label_0114A3CA:
- BYTE   VOICE   0
- BYTE   VOL   46*RevengeFE6_mvl/mxv
- BYTE   PAN   c_v-1
- BYTE   N11  GnM2  v104
- BYTE   W12
- BYTE   N10  GnM2  v068
- BYTE   W12
- BYTE   N11  GsM2  v048
- BYTE   W12
- BYTE   AnM2  v084
- BYTE   W12
- BYTE   AnM2  v064
- BYTE   W12
- BYTE   GsM2  v060
- BYTE   W12
- BYTE   GnM2  v064
- BYTE   W12
- BYTE   N05  AnM2  v068
- BYTE   W06
- BYTE   GsM2  v048
- BYTE   W06
-//  #06 //001   ----------------------------------------
- BYTE   N09  GnM2  v060
- BYTE   W12
- BYTE   N11  GsM2
- BYTE   W12
- BYTE   N09  AnM2  v076
- BYTE   W12
- BYTE   N05  AnM2  v068
- BYTE   W06
- BYTE   N11  GsM2  v064
- BYTE   W12
- BYTE   N08  GnM2  v052
- BYTE   W12
- BYTE   N05  GnM2  v072
- BYTE   W06
- BYTE   GsM2  v052
- BYTE   W06
- BYTE   AnM2  v080
- BYTE   W06
- BYTE   GsM2  v060
- BYTE   W06
- BYTE   GnM2  v068
- BYTE   W06
-//  #06 //002   ----------------------------------------
- BYTE   GsM2  v060
- BYTE   W06
- BYTE   N11  AnM2  v080
- BYTE   W12
- BYTE   N05  AnM2  v076
- BYTE   W06
- BYTE   GsM2  v052
- BYTE   W06
- BYTE   GnM2  v076
- BYTE   W06
- BYTE   GnM2  v072
- BYTE   W06
- BYTE   N11  GsM2  v060
- BYTE   W12
- BYTE   N10  AnM2  v088
- BYTE   W12
- BYTE   N05  AnM2  v072
- BYTE   W06
- BYTE   GsM2  v060
- BYTE   W06
- BYTE   GnM2  v076
- BYTE   W06
- BYTE   GnM2  v060
- BYTE   W06
- BYTE   N11  GsM2  v052
- BYTE   W06
-//  #06 //003   ----------------------------------------
- BYTE   W06
- BYTE   N10  AnM2  v092
- BYTE   W12
- BYTE   N05  AnM2  v076
- BYTE   W06
- BYTE   GsM2  v056
- BYTE   W06
- BYTE   GnM2  v088
- BYTE   W06
- BYTE   GnM2  v076
- BYTE   W06
- BYTE   N11  GsM2  v052
- BYTE   W12
- BYTE   N10  AnM2  v080
- BYTE   W12
- BYTE   N05
- BYTE   W06
- BYTE   GsM2  v064
- BYTE   W06
- BYTE   GnM2  v076
- BYTE   W06
- BYTE   GsM2  v064
- BYTE   W06
- BYTE   AnM2  v088
- BYTE   W06
-//  #06 //004   ----------------------------------------
- BYTE   GsM2  v068
- BYTE   W06
- BYTE   N11  GnM2  v096
- BYTE   W12
- BYTE   N05  GnM2  v076
- BYTE   W06
- BYTE   GsM2  v064
- BYTE   W06
- BYTE   N11  AnM2  v092
- BYTE   W12
- BYTE   N05  AnM2  v076
- BYTE   W06
- BYTE   GsM2  v060
- BYTE   W06
- BYTE   N09  GnM2  v064
- BYTE   W12
- BYTE   N05  GnM2  v068
- BYTE   W06
- BYTE   GsM2  v052
- BYTE   W06
- BYTE   N09  AnM2  v076
- BYTE   W12
- BYTE   N05  AnM2  v068
- BYTE   W06
-//  #06 //005   ----------------------------------------
- BYTE   GsM2  v064
- BYTE   W06
- BYTE   N09  GnM2
- BYTE   W12
- BYTE   N05  GnM2  v068
- BYTE   W06
- BYTE   GsM2  v064
- BYTE   W06
- BYTE   N10  AnM2  v088
- BYTE   W12
- BYTE   N05  AnM2  v072
- BYTE   W06
- BYTE   GsM2  v060
- BYTE   W06
- BYTE   GnM2  v084
- BYTE   W06
- BYTE   GnM2  v080
- BYTE   W06
- BYTE   N11  GsM2  v060
- BYTE   W12
- BYTE   N05  AnM2  v076
- BYTE   W06
- BYTE   N11  GsM2  v080
- BYTE   W12
-//  #06 //006   ----------------------------------------
- BYTE   GnM2  v096
- BYTE   W12
- BYTE   N05  GnM2  v100
- BYTE   W06
- BYTE   GsM2  v056
- BYTE   W06
- BYTE   N11  AnM2  v088
- BYTE   W12
- BYTE   N05  AnM2  v080
- BYTE   W06
- BYTE   GsM2  v060
- BYTE   W06
- BYTE   GnM2  v080
- BYTE   W06
- BYTE   GnM2  v064
- BYTE   W06
- BYTE   GsM2  v060
- BYTE   W06
- BYTE   N11  AnM2  v088
- BYTE   W12
- BYTE   N05  AnM2  v064
- BYTE   W06
- BYTE   N11  GsM2  v060
- BYTE   W12
-//  #06 //007   ----------------------------------------
- BYTE   N05  GnM2  v088
- BYTE   W06
- BYTE   GnM2  v068
- BYTE   W06
- BYTE   N11  GsM2  v048
- BYTE   W12
- BYTE   N10  AnM2  v084
- BYTE   W12
- BYTE   N05  AnM2  v072
- BYTE   W06
- BYTE   GsM2  v052
- BYTE   W06
- BYTE   N08  GnM2  v080
- BYTE   W12
- BYTE   N05
- BYTE   W06
- BYTE   GsM2  v044
- BYTE   W06
- BYTE   AnM2  v080
- BYTE   W06
- BYTE   GsM2  v052
- BYTE   W06
- BYTE   GnM2  v076
- BYTE   W06
- BYTE   GsM2  v056
- BYTE   W06
-//  #06 //008   ----------------------------------------
- BYTE   GoTo
-  POIN2 Label_0114A3CA
+  POIN2 Label_0100586A
  BYTE   FINE
 
 //******************************************************//
 	ALIGN 4
 
 RevengeFE6:
-	BYTE	6	// NumTrks
+	BYTE	5	// NumTrks
 	BYTE	0	// NumBlks
 	BYTE	RevengeFE6_pri	// Priority
 	BYTE	RevengeFE6_rev	// Reverb.
@@ -760,6 +666,5 @@ RevengeFE6:
 	POIN2	RevengeFE6_003
 	POIN2	RevengeFE6_004
 	POIN2	RevengeFE6_005
-	POIN2	RevengeFE6_006
 
 	

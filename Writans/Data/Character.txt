@@ -97,4 +97,31 @@ his deep sense of inferiority.[X]
 Recaudo[X]
 
 ## RecaudoDesc
- [X]
+A local legend immortalized[N]
+in this shrine.[X]
+
+## RoblesName
+Robles[X]
+
+## RoblesDesc
+Knight of Poblano.[N]
+Jolly and affable.[X]
+
+## ErlantzName
+Erlantz[X]
+
+## ErlantzDesc
+A horse breeder and[N]
+veterinarian. Calm.[X]
+
+## UsoaName
+Knight of Poblano.[N]
+Energetic and ambitious.[X]
+
+## ItzelName
+Itzel[X]
+
+## ItzelDesc
+Knight of Poblano.[N]
+A rookie who wants to make[N]
+her family proud.[X]

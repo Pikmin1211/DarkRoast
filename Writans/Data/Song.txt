@@ -282,3 +282,12 @@ SRW64 - To the Sorrowful Battlefield[X]
 
 ## WhiteStorm_Name
 Ogre Battle - White Storm[X]
+
+## FriendshipAndAdventure_Name
+FE7 - Friendship and Adventure[X]
+
+## EnemiesAppear_Name
+FE7 - Enemies Appear[X]
+
+## YoshiSafariGrassland_Name
+Yoshi's Safari - Grassland[X]

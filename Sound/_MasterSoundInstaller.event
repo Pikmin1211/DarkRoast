@@ -152,422 +152,440 @@ SoundTableEntry(EndlessBattle_Song, EndlessBattle, 1)
 }
 
 {
+#include "Music\EnemiesAppear.event"
+#define EnemiesAppear_Song 0x402
+SoundTableEntry(EnemiesAppear_Song, EnemiesAppear, 1)
+}
+
+{
 #include "Music\EvergrandeCity.event"
-#define EvergrandeCity_Song 0x402
+#define EvergrandeCity_Song 0x403
 SoundTableEntry(EvergrandeCity_Song, EvergrandeCity, 1)
 }
 
 {
 #include "Music\FE12BeforeBattleSwiftSaturn.event"
-#define FE12BeforeBattleSwiftSaturn_Song 0x403
+#define FE12BeforeBattleSwiftSaturn_Song 0x404
 SoundTableEntry(FE12BeforeBattleSwiftSaturn_Song, FE12BeforeBattleSwiftSaturn, 1)
 }
 
 {
 #include "Music\FE5SearchingForEnemy.event"
-#define FE5SearchingForEnemy_Song 0x404
+#define FE5SearchingForEnemy_Song 0x405
 SoundTableEntry(FE5SearchingForEnemy_Song, FE5SearchingForEnemy, 1)
 }
 
 {
 #include "Music\FE5Sortie.event"
-#define FE5Sortie_Song 0x405
+#define FE5Sortie_Song 0x406
 SoundTableEntry(FE5Sortie_Song, FE5Sortie, 1)
 }
 
 {
 #include "Music\FE6Attack.event"
-#define FE6Attack_Song 0x406
+#define FE6Attack_Song 0x407
 SoundTableEntry(FE6Attack_Song, FE6Attack, 1)
 }
 
 {
 #include "Music\FFMQBattle1.event"
-#define FFMQBattle1_Song 0x407
+#define FFMQBattle1_Song 0x408
 SoundTableEntry(FFMQBattle1_Song, FFMQBattle1, 1)
 }
 
 {
 #include "Music\FightingOfTheSpirit.event"
-#define FightingOfTheSpirit_Song 0x408
+#define FightingOfTheSpirit_Song 0x409
 SoundTableEntry(FightingOfTheSpirit_Song, FightingOfTheSpirit, 1)
 }
 
 {
 #include "Music\FirstStepTowardsWar.event"
-#define FirstStepTowardsWar_Song 0x409
+#define FirstStepTowardsWar_Song 0x40a
 SoundTableEntry(FirstStepTowardsWar_Song, FirstStepTowardsWar, 1)
 }
 
 {
 #include "Music\FivePmACNH.event"
-#define FivePmACNH_Song 0x40a
+#define FivePmACNH_Song 0x40b
 SoundTableEntry(FivePmACNH_Song, FivePmACNH, 1)
 }
 
 {
 #include "Music\ForwardFE5.event"
-#define ForwardFE5_Song 0x40b
+#define ForwardFE5_Song 0x40c
 SoundTableEntry(ForwardFE5_Song, ForwardFE5, 1)
 }
 
 {
+#include "Music\FriendshipAndAdventure.event"
+#define FriendshipAndAdventure_Song 0x40d
+SoundTableEntry(FriendshipAndAdventure_Song, FriendshipAndAdventure, 1)
+}
+
+{
 #include "Music\FromEnemyToFriendFE4.event"
-#define FromEnemyToFriendFE4_Song 0x40c
+#define FromEnemyToFriendFE4_Song 0x40e
 SoundTableEntry(FromEnemyToFriendFE4_Song, FromEnemyToFriendFE4, 1)
 }
 
 {
 #include "Music\Frontier.event"
-#define Frontier_Song 0x40d
+#define Frontier_Song 0x40f
 SoundTableEntry(Frontier_Song, Frontier, 1)
 }
 
 {
 #include "Music\GatheringOfHeroesTRS.event"
-#define GatheringOfHeroesTRS_Song 0x40e
+#define GatheringOfHeroesTRS_Song 0x410
 SoundTableEntry(GatheringOfHeroesTRS_Song, GatheringOfHeroesTRS, 1)
 }
 
 {
 #include "Music\Guile.event"
-#define Guile_Song 0x40f
+#define Guile_Song 0x411
 SoundTableEntry(Guile_Song, Guile, 1)
 }
 
 {
 #include "Music\GundamnF19Act12.event"
-#define GundamnF19Act12_Song 0x410
+#define GundamnF19Act12_Song 0x412
 SoundTableEntry(GundamnF19Act12_Song, GundamnF19Act12, 1)
 }
 
 {
 #include "Music\HarvestDance.event"
-#define HarvestDance_Song 0x411
+#define HarvestDance_Song 0x413
 SoundTableEntry(HarvestDance_Song, HarvestDance, 1)
 }
 
 {
 #include "Music\InsideTheWhale.event"
-#define InsideTheWhale_Song 0x412
+#define InsideTheWhale_Song 0x414
 SoundTableEntry(InsideTheWhale_Song, InsideTheWhale, 1)
 }
 
 {
 #include "Music\IsaachArmy.event"
-#define IsaachArmy_Song 0x413
+#define IsaachArmy_Song 0x415
 SoundTableEntry(IsaachArmy_Song, IsaachArmy, 1)
 }
 
 {
 #include "Music\ItDoesntMatterSA2B.event"
-#define ItDoesntMatterSA2B_Song 0x414
+#define ItDoesntMatterSA2B_Song 0x416
 SoundTableEntry(ItDoesntMatterSA2B_Song, ItDoesntMatterSA2B, 1)
 }
 
 {
 #include "Music\KKCafe.event"
-#define KKCafe_Song 0x415
+#define KKCafe_Song 0x417
 SoundTableEntry(KKCafe_Song, KKCafe, 1)
 }
 
 {
 #include "Music\KnightErrant.event"
-#define KnightErrant_Song 0x416
+#define KnightErrant_Song 0x418
 SoundTableEntry(KnightErrant_Song, KnightErrant, 1)
 }
 
 {
 #include "Music\Leon.event"
-#define Leon_Song 0x417
+#define Leon_Song 0x419
 SoundTableEntry(Leon_Song, Leon, 1)
 }
 
 {
 #include "Music\LightAndDark.event"
-#define LightAndDark_Song 0x418
+#define LightAndDark_Song 0x41a
 SoundTableEntry(LightAndDark_Song, LightAndDark, 1)
 }
 
 {
 #include "Music\LightningSong.event"
-#define LightningSong_Song 0x419
+#define LightningSong_Song 0x41b
 SoundTableEntry(LightningSong_Song, LightningSong, 1)
 }
 
 {
 #include "Music\LikeAGlintOfLight.event"
-#define LikeAGlintOfLight_Song 0x41a
+#define LikeAGlintOfLight_Song 0x41c
 SoundTableEntry(LikeAGlintOfLight_Song, LikeAGlintOfLight, 1)
 }
 
 {
 #include "Music\LoZMMStoneTowerTemple.event"
-#define LoZMMStoneTowerTemple_Song 0x41b
+#define LoZMMStoneTowerTemple_Song 0x41d
 SoundTableEntry(LoZMMStoneTowerTemple_Song, LoZMMStoneTowerTemple, 1)
 }
 
 {
 #include "Music\LoZTPFaronWoods.event"
-#define LoZTPFaronWoods_Song 0x41c
+#define LoZTPFaronWoods_Song 0x41e
 SoundTableEntry(LoZTPFaronWoods_Song, LoZTPFaronWoods, 1)
 }
 
 {
 #include "Music\LuigisMansionTheme.event"
-#define LuigisMansionTheme_Song 0x41d
+#define LuigisMansionTheme_Song 0x41f
 SoundTableEntry(LuigisMansionTheme_Song, LuigisMansionTheme, 1)
 }
 
 {
 #include "Music\MarionCourse.event"
-#define MarionCourse_Song 0x41e
+#define MarionCourse_Song 0x420
 SoundTableEntry(MarionCourse_Song, MarionCourse, 1)
 }
 
 {
 #include "Music\MissionStreet.event"
-#define MissionStreet_Song 0x41f
+#define MissionStreet_Song 0x421
 SoundTableEntry(MissionStreet_Song, MissionStreet, 1)
 }
 
 {
 #include "Music\Nightfall.event"
-#define Nightfall_Song 0x420
+#define Nightfall_Song 0x422
 SoundTableEntry(Nightfall_Song, Nightfall, 1)
 }
 
 {
 #include "Music\OceanicMuseum.event"
-#define OceanicMuseum_Song 0x421
+#define OceanicMuseum_Song 0x423
 SoundTableEntry(OceanicMuseum_Song, OceanicMuseum, 1)
 }
 
 {
 #include "Music\OneWill.event"
-#define OneWill_Song 0x422
+#define OneWill_Song 0x424
 SoundTableEntry(OneWill_Song, OneWill, 1)
 }
 
 {
 #include "Music\OssaTrail.event"
-#define OssaTrail_Song 0x423
+#define OssaTrail_Song 0x425
 SoundTableEntry(OssaTrail_Song, OssaTrail, 1)
 }
 
 {
 #include "Music\PrisonLane.event"
-#define PrisonLane_Song 0x424
+#define PrisonLane_Song 0x426
 SoundTableEntry(PrisonLane_Song, PrisonLane, 1)
 }
 
 {
 #include "Music\PyramidCaveSA2B.event"
-#define PyramidCaveSA2B_Song 0x425
+#define PyramidCaveSA2B_Song 0x427
 SoundTableEntry(PyramidCaveSA2B_Song, PyramidCaveSA2B, 1)
 }
 
 {
 #include "Music\Rave.event"
-#define Rave_Song 0x426
+#define Rave_Song 0x428
 SoundTableEntry(Rave_Song, Rave, 1)
 }
 
 {
 #include "Music\Regal.event"
-#define Regal_Song 0x427
+#define Regal_Song 0x429
 SoundTableEntry(Regal_Song, Regal, 1)
 }
 
 {
 #include "Music\RevengeFE6.event"
-#define RevengeFE6_Song 0x428
+#define RevengeFE6_Song 0x42a
 SoundTableEntry(RevengeFE6_Song, RevengeFE6, 1)
 }
 
 {
 #include "Music\RiseToTheChallenge.event"
-#define RiseToTheChallenge_Song 0x429
+#define RiseToTheChallenge_Song 0x42b
 SoundTableEntry(RiseToTheChallenge_Song, RiseToTheChallenge, 1)
 }
 
 {
 #include "Music\Ronald.event"
-#define Ronald_Song 0x42a
+#define Ronald_Song 0x42c
 SoundTableEntry(Ronald_Song, Ronald, 1)
 }
 
 {
 #include "Music\ShipsAndHomes.event"
-#define ShipsAndHomes_Song 0x42b
+#define ShipsAndHomes_Song 0x42d
 SoundTableEntry(ShipsAndHomes_Song, ShipsAndHomes, 1)
 }
 
 {
 #include "Music\SilverWill.event"
-#define SilverWill_Song 0x42c
+#define SilverWill_Song 0x42e
 SoundTableEntry(SilverWill_Song, SilverWill, 1)
 }
 
 {
 #include "Music\SMB2Boss.event"
-#define SMB2Boss_Song 0x42d
+#define SMB2Boss_Song 0x42f
 SoundTableEntry(SMB2Boss_Song, SMB2Boss, 1)
 }
 
 {
 #include "Music\SMB2MonkyGolf.event"
-#define SMB2MonkyGolf_Song 0x42e
+#define SMB2MonkyGolf_Song 0x430
 SoundTableEntry(SMB2MonkyGolf_Song, SMB2MonkyGolf, 1)
 }
 
 {
 #include "Music\SML2StarCourseLooped.event"
-#define SML2StarCourseLooped_Song 0x42f
+#define SML2StarCourseLooped_Song 0x431
 SoundTableEntry(SML2StarCourseLooped_Song, SML2StarCourseLooped, 1)
 }
 
 {
 #include "Music\SpaceLand.event"
-#define SpaceLand_Song 0x430
+#define SpaceLand_Song 0x432
 SoundTableEntry(SpaceLand_Song, SpaceLand, 1)
 }
 
 {
 #include "Music\SplashWave.event"
-#define SplashWave_Song 0x431
+#define SplashWave_Song 0x433
 SoundTableEntry(SplashWave_Song, SplashWave, 1)
 }
 
 {
 #include "Music\StalwartOppositionFE3.event"
-#define StalwartOppositionFE3_Song 0x432
+#define StalwartOppositionFE3_Song 0x434
 SoundTableEntry(StalwartOppositionFE3_Song, StalwartOppositionFE3, 1)
 }
 
 {
 #include "Music\StarFox64Map.event"
-#define StarFox64Map_Song 0x433
+#define StarFox64Map_Song 0x435
 SoundTableEntry(StarFox64Map_Song, StarFox64Map, 1)
 }
 
 {
 #include "Music\StarWolf.event"
-#define StarWolf_Song 0x434
+#define StarWolf_Song 0x436
 SoundTableEntry(StarWolf_Song, StarWolf, 1)
 }
 
 {
 #include "Music\StrikeFE7.event"
-#define StrikeFE7_Song 0x435
+#define StrikeFE7_Song 0x437
 SoundTableEntry(StrikeFE7_Song, StrikeFE7, 1)
 }
 
 {
 #include "Music\SunsetBay.event"
-#define SunsetBay_Song 0x436
+#define SunsetBay_Song 0x438
 SoundTableEntry(SunsetBay_Song, SunsetBay, 1)
 }
 
 {
 #include "Music\TheFragranceOfBlackCoffee.event"
-#define TheFragranceOfBlackCoffee_Song 0x437
+#define TheFragranceOfBlackCoffee_Song 0x439
 SoundTableEntry(TheFragranceOfBlackCoffee_Song, TheFragranceOfBlackCoffee, 1)
 }
 
 {
 #include "Music\TheInnFE7.event"
-#define TheInnFE7_Song 0x438
+#define TheInnFE7_Song 0x43a
 SoundTableEntry(TheInnFE7_Song, TheInnFE7, 1)
 }
 
 {
 #include "Music\TheRoost.event"
-#define TheRoost_Song 0x439
+#define TheRoost_Song 0x43b
 SoundTableEntry(TheRoost_Song, TheRoost, 1)
 }
 
 {
 #include "Music\ToadstoolTourSkinsMatch.event"
-#define ToadstoolTourSkinsMatch_Song 0x43a
+#define ToadstoolTourSkinsMatch_Song 0x43c
 SoundTableEntry(ToadstoolTourSkinsMatch_Song, ToadstoolTourSkinsMatch, 1)
 }
 
 {
 #include "Music\ToSLawOfBattle.event"
-#define ToSLawOfBattle_Song 0x43b
+#define ToSLawOfBattle_Song 0x43d
 SoundTableEntry(ToSLawOfBattle_Song, ToSLawOfBattle, 1)
 }
 
 {
 #include "Music\ToTheSorrowfulBattlefield.event"
-#define ToTheSorrowfulBattlefield_Song 0x43c
+#define ToTheSorrowfulBattlefield_Song 0x43e
 SoundTableEntry(ToTheSorrowfulBattlefield_Song, ToTheSorrowfulBattlefield, 1)
 }
 
 {
 #include "Music\TouchFuzzyGetDizzy.event"
-#define TouchFuzzyGetDizzy_Song 0x43d
+#define TouchFuzzyGetDizzy_Song 0x43f
 SoundTableEntry(TouchFuzzyGetDizzy_Song, TouchFuzzyGetDizzy, 1)
 }
 
 {
 #include "Music\TS_CombatResistance.event"
-#define TS_CombatResistance_Song 0x43e
+#define TS_CombatResistance_Song 0x440
 SoundTableEntry(TS_CombatResistance_Song, TS_CombatResistance, 1)
 }
 
 {
 #include "Music\VenusLighthouse.event"
-#define VenusLighthouse_Song 0x43f
+#define VenusLighthouse_Song 0x441
 SoundTableEntry(VenusLighthouse_Song, VenusLighthouse, 1)
 }
 
 {
 #include "Music\Verdanturf.event"
-#define Verdanturf_Song 0x440
+#define Verdanturf_Song 0x442
 SoundTableEntry(Verdanturf_Song, Verdanturf, 1)
 }
 
 {
 #include "Music\VoicesOfTheTemple.event"
-#define VoicesOfTheTemple_Song 0x441
+#define VoicesOfTheTemple_Song 0x443
 SoundTableEntry(VoicesOfTheTemple_Song, VoicesOfTheTemple, 1)
 }
 
 {
 #include "Music\VsRocketLeader.event"
-#define VsRocketLeader_Song 0x442
+#define VsRocketLeader_Song 0x444
 SoundTableEntry(VsRocketLeader_Song, VsRocketLeader, 1)
 }
 
 {
 #include "Music\WarioBattleCanyon.event"
-#define WarioBattleCanyon_Song 0x443
+#define WarioBattleCanyon_Song 0x445
 SoundTableEntry(WarioBattleCanyon_Song, WarioBattleCanyon, 1)
 }
 
 {
 #include "Music\WaterWorld.event"
-#define WaterWorld_Song 0x444
+#define WaterWorld_Song 0x446
 SoundTableEntry(WaterWorld_Song, WaterWorld, 1)
 }
 
 {
 #include "Music\WhiteStorm.event"
-#define WhiteStorm_Song 0x445
+#define WhiteStorm_Song 0x447
 SoundTableEntry(WhiteStorm_Song, WhiteStorm, 1)
 }
 
 {
 #include "Music\WindAcrossThePlains.event"
-#define WindAcrossThePlains_Song 0x446
+#define WindAcrossThePlains_Song 0x448
 SoundTableEntry(WindAcrossThePlains_Song, WindAcrossThePlains, 1)
 }
 
 {
 #include "Music\WoWTavern.event"
-#define WoWTavern_Song 0x447
+#define WoWTavern_Song 0x449
 SoundTableEntry(WoWTavern_Song, WoWTavern, 1)
+}
+
+{
+#include "Music\YoshiSafariGrassland.event"
+#define YoshiSafariGrassland_Song 0x44a
+SoundTableEntry(YoshiSafariGrassland_Song, YoshiSafariGrassland, 1)
 }
 
