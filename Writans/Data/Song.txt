@@ -122,7 +122,7 @@ TRS - Gathering of Heroes[X]
 SF2 - Guile Theme[X]
 
 ## GundamnF19Act12_Name
-Gundamn F19 - Act 12[X]
+Gundam F19 - Act 12[X]
 
 ## HarvestDance_Name
 Tactics Ogre - Harvest Dance[X]

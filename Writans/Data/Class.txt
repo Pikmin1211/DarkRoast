@@ -405,5 +405,27 @@ Equip: Dragonstones.[X]
 Mage Knight[X]
 
 ## MageKnightDesc
-Troubadours who have heard[N]
-the call of battle. Equip: Staves, anima.[X]
+Troubadours who answer the[N]
+call of battle. Equip: Staves, anima.[X]
+
+## TentName
+Tent[X]
+
+## TentDesc
+A tent with supplies[N]
+to support an armed force.[X]
+
+## ChickenName
+Chicken[X]
+
+## ChickenDesc
+A hapless bird with no[N]
+known combat skills.[X]
+
+## LogName
+Log[X]
+
+## LogDesc
+A piece of wood.[N]
+Cannot fight others.[X]
+

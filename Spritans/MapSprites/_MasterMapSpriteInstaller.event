@@ -409,3 +409,57 @@ Warrior_FStandData:
 #incbin "Warrior_F\Stand.dmp"
 StandMapSpriteEntry(Warrior_FStandMapSprite, 0x2, 1, Warrior_FStandData)
 
+ALIGN 4
+Troubadour_MMoveData:
+#incbin "Troubadour_M\Move.dmp"
+MoveMapSpriteEntry(Troubadour_M, 0x1CAA20, Troubadour_MMoveData)
+
+#define Troubadour_MStandMapSprite 0x8f
+ALIGN 4
+Troubadour_MStandData:
+#incbin "Troubadour_M\Stand.dmp"
+StandMapSpriteEntry(Troubadour_MStandMapSprite, 0x2, 1, Troubadour_MStandData)
+
+ALIGN 4
+MageKnightMoveData:
+#incbin "MageKnight\Move.dmp"
+MoveMapSpriteEntry(MageKnight, 0x1CAA20, MageKnightMoveData)
+
+#define MageKnightStandMapSprite 0x90
+ALIGN 4
+MageKnightStandData:
+#incbin "MageKnight\Stand.dmp"
+StandMapSpriteEntry(MageKnightStandMapSprite, 0x2, 1, MageKnightStandData)
+
+ALIGN 4
+MageKnight_FMoveData:
+#incbin "MageKnight_F\Move.dmp"
+MoveMapSpriteEntry(MageKnight_F, 0x1CAA20, MageKnight_FMoveData)
+
+#define MageKnight_FStandMapSprite 0x91
+ALIGN 4
+MageKnight_FStandData:
+#incbin "MageKnight_F\Stand.dmp"
+StandMapSpriteEntry(MageKnight_FStandMapSprite, 0x2, 1, MageKnight_FStandData)
+
+ALIGN 4
+ChickenMoveData:
+#incbin "Chicken\Move.dmp"
+MoveMapSpriteEntry(Chicken, 0x1CAA20, ChickenMoveData)
+
+#define ChickenStandMapSprite 0x92
+ALIGN 4
+ChickenStandData:
+#incbin "Chicken\Stand.dmp"
+StandMapSpriteEntry(ChickenStandMapSprite, 0x2, 0, ChickenStandData)
+
+ALIGN 4
+LogMoveData:
+#incbin "Log\Move.dmp"
+MoveMapSpriteEntry(Log, 0x1CAA20, LogMoveData)
+
+#define LogStandMapSprite 0x93
+ALIGN 4
+LogStandData:
+#incbin "Log\Stand.dmp"
+StandMapSpriteEntry(LogStandMapSprite, 0x2, 0, LogStandData)
