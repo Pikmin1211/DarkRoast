@@ -23,7 +23,7 @@ FEBuilder & Various Fixes - 7743
 Music - 7743, RandomWizard, A_Reliable_Chair, SurfingKyogre, Dolkar, Sme
 ModularMiniMugBox - ZaneAvernathy
 Map Sprites - AstraLunaSol, TheBlindArcher, Subbastian, Alusq, Team SALVAGED, Flasuban, Author_Pendragon, BatimaTheBat, DerTheVaporeon, Nuramon, CanDy, Deranger, Skitty, knabepicer, StreetHero
-Animations - AstraLunaSol, TheBlindArcher, Temp, Alusq, Team SALVAGED, Maiser6, Ukulele, SD9K, Black Mage, Wan, BatimaTheBat, DerTheVaporeon, Iscaneus, Nuramon
+Animations - AstraLunaSol, TheBlindArcher, Temp, Alusq, Team SALVAGED, Maiser6, Ukulele, SD9K, Black Mage, Wan, BatimaTheBat, DerTheVaporeon, Iscaneus, Nuramon, Pushwall, JeyTheCount, BlackMage, Pikmin1211, MeatOfJustice
 Mugs - NickT, Capybara
 Icons - GabrielKnight, LordGlenn, Ereskigal
 Map Palettes - RandomWizard, N426
