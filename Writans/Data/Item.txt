@@ -241,3 +241,74 @@ Duplex Bow[X]
 ## DuplexBowDesc
 Can strike consecutively.[X]
 
+## WoDaoName
+Wo Dao[X]
+
+## WoDaoDesc
+Myrmidon/Swordmaster only.[X]
+
+## KopijaName
+Kopija[X]
+
+## KopijaDesc
+Deserter/Dragoon only.[X]
+
+## KonKopijaName
+Kon Kopija[X]
+
+## KonKopijaDesc
+Eff. vs Horse. Reaver. Deserter only.[X]
+
+## DrakKopijaName
+Drak Kopija[X]
+
+## DrakKopijaDesc
+Eff vs. Dragon. Reaver. Desetery only.[X]
+
+## MaDaoName
+Ma Dao[X]
+
+## MaDaoDesc
+Eff vs. Horse. Reaver. Myrmidon only.[X]
+
+## LongDaoName
+Long Dao[X]
+
+## LongDaoDesc
+Eff. vs. Dragon. Reaver. Myrmidon only.[X]
+
+## LukName
+Luk[X]
+
+## LukDesc
+Archer/Sniper only.[X]
+
+## NakLukName
+Nak Luk[X]
+
+## NakLukDesc
+Eff vs. Magic. Archer only.[X]
+
+## ChoLukName
+Cho Luk[X]
+
+## ChoLukDesc
+Pierce DEF. Archer only.[X]
+
+## DokkiName
+Dokki[X]
+
+## DokkiDesc
+Pirate/Berserker only.[X]
+
+## BangPaeDokki
+B.P. Dokki[X]
+
+## BangPaeDokkiDesc
+Eff vs. Armor. Reaver. Pirate only.[X]
+
+## MalDokkiName
+Mal Dokki[X]
+
+## MalDokkiDesc
+Eff vs. Horse. Reaver. Pirate only.[X]

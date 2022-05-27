@@ -3,13 +3,24 @@
 ALIGN 4
 ItemLockList:
 ItemLockEntry(EspadaAncha, OlmosList, 0)
-ItemLockEntry(Shamshir, 0, MyrmidonList)
+ItemLockEntry(WoDao, 0, MyrmidonList)
+ItemLockEntry(LongDao, 0, MyrmidonList)
+ItemLockEntry(MaDao, 0, MyrmidonList)
 ItemLockEntry(SolarRay, 0, LightList)
 ItemLockEntry(Thani, 0, LightList)
 ItemLockEntry(Seraphim, 0, LightList)
 ItemLockEntry(Luna, 0, DarkList)
 ItemLockEntry(Nosferatu, 0, DarkList)
 ItemLockEntry(Mjolnir, 0, DarkList)
+ItemLockEntry(Luk, 0, ArcherList)
+ItemLockEntry(NakLuk, 0, ArcherList)
+ItemLockEntry(ChoLuk, 0, ArcherList)
+ItemLockEntry(Dokki, 0, PirateList)
+ItemLockEntry(BangPaeDokki, 0, PirateList)
+ItemLockEntry(MalDokki, 0, PirateList)
+ItemLockEntry(Kopija, 0, DeserterList)
+ItemLockEntry(KonKopija, 0, DeserterList)
+ItemLockEntry(DrakKopija, 0, DeserterList)
 ItemLockEntry(0, 0, 0) // TERMINATOR
 
 ALIGN 4
@@ -27,3 +38,15 @@ BYTE Monk Bishop Bishop_F 0
 ALIGN 4
 DarkList:
 BYTE Shaman Shaman_F Druid Druid_F 0
+
+ALIGN 4
+DeserterList:
+BYTE Deserter Deserter_F Dragoon 0
+
+ALIGN 4
+ArcherList
+BYTE Archer Archer_F Sniper Sniper_F 0
+
+ALIGN 4
+PirateList
+BYTE Pirate Pirate_F Berserker Berserker_F 0

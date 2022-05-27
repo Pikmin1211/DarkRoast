@@ -16,8 +16,8 @@
 #define BowAnim(Animation) "BYTE 0x03 0x01 ; SHORT Animation"
 #define StaffAnim(Animation) "BYTE 0x04 0x01 ; SHORT Animation"
 #define AnimaAnim(Animation) "BYTE 0x05 0x01 ; SHORT Animation"
-#define LightAnim(Animation) "BYTE 0x06 0x01 ; SHORT Animation"
-#define DarkAnim(Animation) "BYTE 0x07 0x01 ; SHORT Animation"
+#define DaggerAnim(Animation) "BYTE 0x06 0x01 ; SHORT Animation"
+#define StoneAnim(Animation) "BYTE 0x07 0x01 ; SHORT Animation"
 #define MagicAnim(Animation) "BYTE 0x05 0x01 ; SHORT Animation ; BYTE 0x06 0x01 ; SHORT Animation ; BYTE 0x07 0x01 ; SHORT Animation ; BYTE 0x09 0x01 ; SHORT Animation"
 #define UnarmedAnim(Animation) "BYTE 0x09 0x01 ; SHORT Animation"
 #define MonsterAnim(Animation) "BYTE 0x0B 0x01 ; SHORT Animation"
@@ -109,8 +109,8 @@ ALIGN 4
 ChiefAnimEntry:
 #define ChiefAxeAnim 0xe2
 AxeAnim(ChiefAxeAnim)
-#define ChiefHandaxeAnim 0xe3
-HandaxeAnim(ChiefHandaxeAnim)
+#define ChiefHandAxeAnim 0xe3
+HandAxeAnim(ChiefHandAxeAnim)
 #define ChiefMagicAnim 0xe4
 MagicAnim(ChiefMagicAnim)
 #define ChiefUnarmedAnim 0xe5
@@ -361,8 +361,8 @@ ALIGN 4
 PirateAnimEntry:
 #define PirateAxeAnim 0x12a
 AxeAnim(PirateAxeAnim)
-#define PirateHandaxeAnim 0x12b
-HandaxeAnim(PirateHandaxeAnim)
+#define PirateHandAxeAnim 0x12b
+HandAxeAnim(PirateHandAxeAnim)
 #define PirateUnarmedAnim 0x12c
 UnarmedAnim(PirateUnarmedAnim)
 EndAnim
@@ -577,7 +577,7 @@ EndAnim
 #include "Chief\Axe Installer.event"
 }
 {
-#include "Chief\Handaxe Installer.event"
+#include "Chief\HandAxe Installer.event"
 }
 {
 #include "Chief\Magic Installer.event"
@@ -793,7 +793,7 @@ EndAnim
 #include "Pirate\Axe Installer.event"
 }
 {
-#include "Pirate\Handaxe Installer.event"
+#include "Pirate\HandAxe Installer.event"
 }
 {
 #include "Pirate\Unarmed Installer.event"
