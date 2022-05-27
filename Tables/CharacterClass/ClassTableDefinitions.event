@@ -94,3 +94,8 @@
 #define Log 0x85
 #define Chicken 0x86
 #define Merchant 0x87
+#define Gazelle 0x88
+#define Horse 0x89
+#define Pumpkin 0x8a
+#define Outlaw_F 0x8b
+#define Grassrunner_F 0x8c

@@ -8,6 +8,10 @@
 #define Arbolito 0x8
 #define Domingo 0x9
 #define Luz 0xa
+#define Robles 0xb
+#define Erlantz 0xc
+#define Usoa 0xd
+#define Itzel 0xe
 #define Goon_Ch01 0x3d
 #define Hacha 0x3e
 #define Perez 0x40

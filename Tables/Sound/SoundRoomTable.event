@@ -170,7 +170,7 @@ SoundRoomTableEntry(ToTheSorrowfulBattlefield_Song, 0, 0x0, ToTheSorrowfulBattle
 SoundRoomTableEntry(WhiteStorm_Song, 0, 0x0, WhiteStorm_Name)
 SoundRoomTableEntry(FriendshipAndAdventure_Song, 0, 0x0, FriendshipAndAdventure_Name)
 SoundRoomTableEntry(EnemiesAppear_Song, 0, 0x0, EnemiesAppear_Name)
-SoundRoomTableEntry(YoshiSafariGrassland_Song, 0, 0x0, YosihSafariGrassland_Name)
+SoundRoomTableEntry(YoshiSafariGrassland_Song, 0, 0x0, YoshiSafariGrassland_Name)
 SoundRoomTableEntry(WindAcrossThePlains_Song, 0, 0x0, WindAcrossThePlains_Name)
 SoundRoomTableEntry(0xFFFFFFFF, 0, 0x0, 0x0)
 
