@@ -87,3 +87,36 @@ BYTE 251
 ORG 0x2c1a6
 BYTE 251
 POP
+
+// changes RN to bugged RN (aka 1RN)
+
+PUSH
+ORG $CC2
+SHORT $E004
+POP
+
+//devil axe backfire to 26 - luck
+PUSH
+ORG $2B6A4
+BYTE 26
+POP
+
+// autolevel normal mode bonus fix by shuusuke
+
+PUSH
+ORG $180FC
+SHORT 0xFF63
+POP
+
+// prep shop is same price as on map
+
+PUSH
+ORG $B5237
+BYTE 0xE0
+POP
+
+// EscapeDeathFix
+PUSH
+ORG 0x019024
+BYTE 0x01 0x20
+POP

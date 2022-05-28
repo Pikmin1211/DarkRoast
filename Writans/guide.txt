@@ -267,7 +267,7 @@ CRIT = Weapon Crit + (SKL/2)[N]
 Critical hits do 3x damage[N]
 after regular damage calculation.[X]
 
-## WeaponEXPFormulaSubPageTitle
+## WeaponEXPDesc
 Each unit will have 1 or more[N]
 weapon ranks that determine[N]
 which weapons they can use.[N]

@@ -151,6 +151,7 @@ BeginningScene:
 	CAM1 Olmos
 	FlashCursor(Olmos, 60)
 	Text(Chapter_01_Opening_5)
+	ENUT GuideUnlockFatigue
 	NoFade
 	ENDA
 
