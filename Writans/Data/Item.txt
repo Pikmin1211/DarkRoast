@@ -312,3 +312,63 @@ Mal Dokki[X]
 
 ## MalDokkiDesc
 Eff vs. Horse. Reaver. Pirate only.[X]
+
+## SapName
+Sap[X]
+
+## SapDesc
+-6 DEF/RES for 1 turn.[X]
+
+## WeakenName
+Weaken[X]
+
+## WeakenDesc
+-6 STR/MAG for 1 turn.[X]
+
+## CurseName
+Curse[X]
+
+## CurseDesc
+Unit cannot heal for 3 turns.[X]
+
+## OomphName
+Oomph[X]
+
+## OomphDesc
++3 STR/MAG for 3 turns. -1 per turn.[X]
+
+## SturdyName
+Sturdy[X]
+
+## SturdyDesc
++3 DEF/RES for 3 turns. -1 per turn.[X]
+
+## FairyName
+Fairy[X]
+
+## FairyDesc
+Unit will be ignored by enemy. 1 turn.[X]
+
+## DemonName
+Demon[X]
+
+## DemonDesc
+Unit will be targeted by enemy. 1 turn.[X]
+
+## BlessName
+Bless[X]
+
+## BlessDesc
+Immune to eff. damage and crits.[X]
+
+## TirelessName
+Tireless[X]
+
+## TirelessDesc
+Unit does not fatigue. 3 turns.[X]
+
+## CoffeeName
+Coffee[X]
+
+## CoffeeDesc
+-10 Fatigue.[X]
