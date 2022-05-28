@@ -172,6 +172,17 @@ SoundRoomTableEntry(FriendshipAndAdventure_Song, 0, 0x0, FriendshipAndAdventure_
 SoundRoomTableEntry(EnemiesAppear_Song, 0, 0x0, EnemiesAppear_Name)
 SoundRoomTableEntry(YoshiSafariGrassland_Song, 0, 0x0, YoshiSafariGrassland_Name)
 SoundRoomTableEntry(WindAcrossThePlains_Song, 0, 0x0, WindAcrossThePlains_Name)
+SoundRoomTableEntry(Wizardry3AdventurersInn_Song, 0, 0x0, Wizardry3AdventurersInn_Name)
+SoundRoomTableEntry(LoZWWGreatSea_Song, 0, 0x0, LoZWWGreatSea_Name)
+SoundRoomTableEntry(GuardicGaidenTanmei_Song, 0, 0x0, GuardicGaidenTanmei_Name)
+SoundRoomTableEntry(SMRPGTrouble_Song, 0, 0x0, SMRPGTrouble_Name)
+SoundRoomTableEntry(FinalCommandRedFortressBoss_Song, 0, 0x0, FinalCommandRedFortressBoss_Name)
+SoundRoomTableEntry(RPGMaker2BGM007_Song, 0, 0x0, RPGMaker2BGM007_Name)
+SoundRoomTableEntry(RPGMaker1BGM22_Song, 0, 0x0, RPGMaker1BGM22_Name)
+SoundRoomTableEntry(BoF2Battle_Song, 0, 0x0, BoF2Battle_Name)
+SoundRoomTableEntry(BoF2BossBattle_Song, 0, 0x0, BoF2BossBattle_Name)
+SoundRoomTableEntry(SailorMoonRForest_Song, 0, 0x0, SailorMoonRForest_Name)
+SoundRoomTableEntry(SailorMoonRCrystalTokyo_Song, 0, 0x0, SailorMoonRCrystalTokyo_Name)
 SoundRoomTableEntry(0xFFFFFFFF, 0, 0x0, 0x0)
 
 #define SoundRoomTable SoundRoomTableLabel

@@ -291,3 +291,36 @@ FE7 - Enemies Appear[X]
 
 ## YoshiSafariGrassland_Name
 Yoshi's Safari - Grassland[X]
+
+## Wizardry3AdventurersInn_Name
+Wizardry 3 - Adventurer's Inn[X]
+
+## LoZWWGreatSea_Name
+LoZ: WW - Great Sea[X]
+
+## GuardicGaidenTanmei_Name
+Guardic Gaiden - Tanmei[X]
+
+## SMRPGTrouble_Name
+SMRPG - Trouble[X]
+
+## FinalCommandRedFortressBoss_Name
+Final Cmd. Red Ft. - Boss[X]
+
+## RPGMaker2BGM007_Name
+RPG Maker 2 - BGM007[X]
+
+## RPGMaker1BGM22_Name
+RPG Maker 1 - BGM022[X]
+
+## BoF2Battle_Name
+BoF2 - Battle[X]
+
+## BoF2BossBattle_Name
+BoF2 - Boss Battle[X]
+
+## SailorMoonRForest_Name
+Sailor Moon R - Forest[X]
+
+## SailorMoonRCrystalTokyo_Name
+Sailor Moon R - Crystal Tokyo[X]

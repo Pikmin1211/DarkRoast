@@ -14,6 +14,7 @@ ORG EndSpace
 
 #include "Tables/_MasterTableInstaller.event"
 #include "Tables/_Repoint/MoreRepointers.event"
+#include "Tables/EA_Files/ManualTableInstaller.event"
 
 #include "Maps/tmx/_MasterMapInstaller.event"
 

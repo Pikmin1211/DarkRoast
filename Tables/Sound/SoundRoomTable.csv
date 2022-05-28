@@ -167,4 +167,15 @@ SoundRoomTable,songNumber,songLength,displayCondition,songName
 164,EnemiesAppear_Song,0,0x0,EnemiesAppear_Name
 165,YoshiSafariGrassland_Song,0,0x0,YoshiSafariGrassland_Name
 166,WindAcrossThePlains_Song,0,0x0,WindAcrossThePlains_Name
+167,Wizardry3AdventurersInn_Song,0,0x0,Wizardry3AdventurersInn_Name
+168,LoZWWGreatSea_Song,0,0x0,LoZWWGreatSea_Name
+169,GuardicGaidenTanmei_Song,0,0x0,GuardicGaidenTanmei_Name
+170,SMRPGTrouble_Song,0,0x0,SMRPGTrouble_Name
+171,FinalCommandRedFortressBoss_Song,0,0x0,FinalCommandRedFortressBoss_Name
+172,RPGMaker2BGM007_Song,0,0x0,RPGMaker2BGM007_Name
+173,RPGMaker1BGM022_Song,0,0x0,RPGMaker1BGM022_Name
+174,BoF2Battle_Song,0,0x0,BoF2Battle_Name
+175,BoF2BossBattle_Song,0,0x0,BoF2BossBattle_Name
+176,SailorMoonRForest_Song,0,0x0,SailorMoonRForest_Name
+177,SailorMoonRCrystalTokyo_Song,0,0x0,SailorMoonRCrystalTokyo_Name
 TERMINATOR,0xFFFFFFFF,0,0x0,0x0

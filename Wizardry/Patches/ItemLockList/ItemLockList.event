@@ -40,13 +40,13 @@ DarkList:
 BYTE Shaman Shaman_F Druid Druid_F 0
 
 ALIGN 4
-DeserterList:
-BYTE Deserter Deserter_F Dragoon 0
-
-ALIGN 4
-ArcherList
+ArcherList:
 BYTE Archer Archer_F Sniper Sniper_F 0
 
 ALIGN 4
-PirateList
+PirateList:
 BYTE Pirate Pirate_F Berserker Berserker_F 0
+
+ALIGN 4
+DeserterList:
+BYTE Deserter Deserter_F Dragoon 0

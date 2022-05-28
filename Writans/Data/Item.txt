@@ -301,7 +301,7 @@ Dokki[X]
 ## DokkiDesc
 Pirate/Berserker only.[X]
 
-## BangPaeDokki
+## BangPaeDokkiName
 B.P. Dokki[X]
 
 ## BangPaeDokkiDesc
