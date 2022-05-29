@@ -333,3 +333,6 @@ LoZ: OoA - Trouble On The Raft[X]
 
 ## KBBStage5_Name
 Kirby Block Ball - Stage 5[X]
+
+## KBBBoss_Name
+Kirby Block Ball - Boss[X]

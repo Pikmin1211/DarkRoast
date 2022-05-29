@@ -68,7 +68,7 @@ Weapon EXP[X]
 ## KapakataIslandsLoreSubPageTitle
 Kapakata Islands[X]
 
-## TomellosoIslandLoreSubPageTitle
+## TomellosoLoreSubPageTitle
 Tomelloso[X]
 
 ## CoffeeBaronsLoreSubPageTitle
@@ -78,11 +78,11 @@ Coffee Barons[X]
 Spirituality[X]
 
 ## PandanandFriendsSubPageTitle
-Pandan & Friends[X]
+Pandan and Friends[X]
 
 // Description Entries
 
-## FatigueDesc
+## FatigueDescGuide
 Fatigue simulates unit tiredness.[N]
 If a unit's fatigue exceeds their[N]
 HP, they will no longer gain EXP[N]
@@ -98,7 +98,7 @@ and enemy phase), using a staff,[N]
 or shoving. Each[N]
 unit gains 1 fatigue per action.[X]
 
-## StealMechanicDesc
+## StealDescGuide
 Units with the steal command[N]
 are able to steal items from[N]
 adjcaent enemy inventories[N]
@@ -111,13 +111,13 @@ tomes, or staves.[N]
 You may not steal if the stealing[N]
 unit's inventory is full.[X]
 
-## RescueMechanicDesc
+## RescueDescGuide
 Units can rescue any ally or[N]
 NPC unit if their AID is[N]
 greater than the BLD of[N]
 the adjacent unit.[X]
 
-## SupportsMechanicDesc
+## SupportsDescGuide
 Supports build based on deployment.[N]
 This means that in order to build[N]
 support points between two eligible[N]
@@ -128,10 +128,10 @@ Units with supports must be[N]
 within 3 spaces of each other[N]
 to activate the bonus.[X]
 
-## AffinityMechanicDesc
+## AffinityDescGuide
 TBD[X]
 
-## InterludesDesc
+## InterludesDescGuide
 Interlude chapters appear[N]
 multiple times during the game.[N]
 These chapters provide you with[N]
@@ -143,7 +143,7 @@ other activities.[N]
 Interlude chapters do not reset[N]
 fatigue for existing units.[X]
 
-## ShrinesMechanicSubPageTitle
+## ShrinesDescGuide
 Shrines are monuments that can[N]
 offer player units stat boosts,[N]
 promotion, and other bonuses.[N]
@@ -184,7 +184,7 @@ an item. The item received[N]
 may vary depending on the unit[N]
 that visits.[X]
 
-## WeaponTriangleDesc
+## WeaponTriangleDescGuide
 Weapon triangle bonuses[N]
 provide +1 DMG and +15 HIT[N]
 when at advantage, and -1 DMG[N]
@@ -195,9 +195,9 @@ Swords > Lances > Axes > Swords.[N]
 [N]
 Bows, daggers, dragonstones,[N]
 and magic unaffected by[N]
-the weapon triangle.[N]
+the weapon triangle.[X]
 
-## EquipsDesc
+## EquipsDescGuide
 Some items in this game[N]
 must be equipped to observe[N]
 their effects.[N]
@@ -209,7 +209,7 @@ Scrolls do not need to be[N]
 equipped to receive their[N]
 benefits.[X]
 
-## PromotionDesc
+## PromotionDescGuide
 Units are able to promote[N]
 once they reach level 10.[N]
 Units may only promote by[N]
@@ -222,14 +222,14 @@ all other stats.[N]
 [N]
 Promotion does not reset fatigue.[X]
 
-## FreeActionDesc
+## FreeActionDescGuide
 Talk, Trade, Give, and Take[N]
 are all free actions.[N]
 This means you can continue[N]
 your turn after completing them,[N]
-but may not move your unit.[N]
+but may not move your unit.[X]
 
-## ASDesc
+## ASDescGuide
 Attack Speed (AS), is a measure[N]
 of how fast a unit is while holding[N]
 a particular weapon.[N]
@@ -247,27 +247,27 @@ to 5.[N]
 This means 5 AS is the doubling[N]
 threshold.[X]
 
-## AvoidDesc
+## AvoidDescGuide
 AVO = SPD + LCK + Support Bonus.[N]
 [N]
 Avoid may also be impacted[N]
 by supports or special items.[N][X]
 
-## CritAvoidDesc
+## CritAvoidDescGuide
 DODGE = (LCK*2) + Support Bonus.[X]
 
-## HitDesc
+## HitDescGuide
 HIT = Weapon Hit + (SKL*2)[N]
 + LCK + Support Bonus.[X]
 
-## CritDesc
+## CritDescGuide
 CRIT = Weapon Crit + (SKL/2)[N]
 + LCK + Support Bonus.[N]
 [N]
 Critical hits do 3x damage[N]
 after regular damage calculation.[X]
 
-## WeaponEXPDesc
+## WeaponEXPDescGuide
 Each unit will have 1 or more[N]
 weapon ranks that determine[N]
 which weapons they can use.[N]
@@ -284,7 +284,7 @@ granted for double attacks[N]
 or landing a killing blow.[N]
 All items grant 1 WEXP unless[N]
 otherwise noted in[N]
-the description.[N]
+the DescGuideription.[N]
 [N]
 Weapon ranks each require[N]
 the following Weapon EXP.[N]
@@ -298,18 +298,17 @@ A Rank = 201[N]
 A is the highest rank you[N]
 can achieve.[X]
 
-## KapakataIslandsDesc
+## KapakataIslandsDescGuide
 TBD[X]
 
-## TomellosoDesc
+## TomellosoDescGuide
 TBD[X]
 
-## CoffeeBaronsDesc
+## CoffeeBaronsDescGuide
 TBD[X]
 
-## SpiritualityDesc
+## SpiritualityDescGuide
 TBD[X]
 
-## PandanandFriendsDesc
-TBD
-[X]
+## PandanandFriendsDescGuide
+TBD[X]

@@ -186,6 +186,7 @@ SoundRoomTableEntry(SailorMoonRCrystalTokyo_Song, 0, 0x0, SailorMoonRCrystalToky
 SoundRoomTableEntry(LoZOoAMermaidCave_Song, 0, 0x0, LoZOoAMermaidCave_Name)
 SoundRoomTableEntry(LoZOoATroubleOnTheRaft_Song, 0, 0x0, LoZOoATroubleOnTheRaft_Name)
 SoundRoomTableEntry(KBBStage5_Song, 0, 0x0, KBBStage5_Name)
+SoundRoomTableEntry(KBBBoss_Song, 0, 0x0, KBBBoss_Name)
 SoundRoomTableEntry(0xFFFFFFFF, 0, 0x0, 0x0)
 
 #define SoundRoomTable SoundRoomTableLabel
