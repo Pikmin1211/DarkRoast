@@ -1,28 +1,28 @@
 	.include "MPlayDef.s"
 
-	.equ	LozOoAMermaidCave_grp, voicegroup000
-	.equ	LozOoAMermaidCave_pri, 0
-	.equ	LozOoAMermaidCave_rev, 0
-	.equ	LozOoAMermaidCave_mvl, 127
-	.equ	LozOoAMermaidCave_key, 0
-	.equ	LozOoAMermaidCave_tbs, 1
-	.equ	LozOoAMermaidCave_exg, 0
-	.equ	LozOoAMermaidCave_cmp, 1
+	.equ	LoZOoAMermaidCave_grp, voicegroup000
+	.equ	LoZOoAMermaidCave_pri, 0
+	.equ	LoZOoAMermaidCave_rev, 0
+	.equ	LoZOoAMermaidCave_mvl, 127
+	.equ	LoZOoAMermaidCave_key, 0
+	.equ	LoZOoAMermaidCave_tbs, 1
+	.equ	LoZOoAMermaidCave_exg, 0
+	.equ	LoZOoAMermaidCave_cmp, 1
 
 	.section .rodata
-	.global	LozOoAMermaidCave
+	.global	LoZOoAMermaidCave
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-LozOoAMermaidCave_001:
+LoZOoAMermaidCave_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , LozOoAMermaidCave_key+0
+ .byte   KEYSH , LoZOoAMermaidCave_key+0
 Label_011DFF0A:
- .byte   TEMPO , 80*LozOoAMermaidCave_tbs/2
+ .byte   TEMPO , 80*LoZOoAMermaidCave_tbs/2
  .byte   VOICE , 71
- .byte   VOL , 34*LozOoAMermaidCave_mvl/mxv
+ .byte   VOL , 34*LoZOoAMermaidCave_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W03
  .byte   N03 ,As4 ,v112
@@ -407,12 +407,12 @@ Label_011E0015:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-LozOoAMermaidCave_002:
+LoZOoAMermaidCave_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , LozOoAMermaidCave_key+0
+ .byte   KEYSH , LoZOoAMermaidCave_key+0
 Label_011DE4EE:
  .byte   VOICE , 71
- .byte   VOL , 80*LozOoAMermaidCave_mvl/mxv
+ .byte   VOL , 80*LoZOoAMermaidCave_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N03 ,As4 ,v112
  .byte   W06
@@ -755,12 +755,12 @@ Label_011DE5C9:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-LozOoAMermaidCave_003:
+LoZOoAMermaidCave_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , LozOoAMermaidCave_key+0
+ .byte   KEYSH , LoZOoAMermaidCave_key+0
 Label_011E00BE:
  .byte   VOICE , 71
- .byte   VOL , 56*LozOoAMermaidCave_mvl/mxv
+ .byte   VOL , 56*LoZOoAMermaidCave_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #03 @001   ----------------------------------------
@@ -922,12 +922,12 @@ Label_011E00F1:
 
 @**************** Track 4 (Midi-Chn.3) ****************@
 
-LozOoAMermaidCave_004:
+LoZOoAMermaidCave_004:
 @  #04 @000   ----------------------------------------
- .byte   KEYSH , LozOoAMermaidCave_key+0
+ .byte   KEYSH , LoZOoAMermaidCave_key+0
 Label_011DE676:
  .byte   VOICE , 68
- .byte   VOL , 80*LozOoAMermaidCave_mvl/mxv
+ .byte   VOL , 80*LoZOoAMermaidCave_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N20 ,Ds3 ,v112
  .byte   W24
@@ -1100,12 +1100,12 @@ Label_011DE6CA:
 
 @**************** Track 5 (Midi-Chn.4) ****************@
 
-LozOoAMermaidCave_005:
+LoZOoAMermaidCave_005:
 @  #05 @000   ----------------------------------------
- .byte   KEYSH , LozOoAMermaidCave_key+0
+ .byte   KEYSH , LoZOoAMermaidCave_key+0
 Label_011DE756:
  .byte   VOICE , 71
- .byte   VOL , 44*LozOoAMermaidCave_mvl/mxv
+ .byte   VOL , 44*LoZOoAMermaidCave_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W96
 @  #05 @001   ----------------------------------------
@@ -1277,12 +1277,12 @@ Label_011DE7AD:
 
 @**************** Track 6 (Midi-Chn.5) ****************@
 
-LozOoAMermaidCave_006:
+LoZOoAMermaidCave_006:
 @  #06 @000   ----------------------------------------
- .byte   KEYSH , LozOoAMermaidCave_key+0
+ .byte   KEYSH , LoZOoAMermaidCave_key+0
 Label_011E05CA:
  .byte   VOICE , 71
- .byte   VOL , 80*LozOoAMermaidCave_mvl/mxv
+ .byte   VOL , 80*LoZOoAMermaidCave_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N24 ,As2 ,v112
  .byte   W24
@@ -1459,12 +1459,12 @@ Label_011E0621:
 
 @**************** Track 7 (Midi-Chn.6) ****************@
 
-LozOoAMermaidCave_007:
+LoZOoAMermaidCave_007:
 @  #07 @000   ----------------------------------------
- .byte   KEYSH , LozOoAMermaidCave_key+0
+ .byte   KEYSH , LoZOoAMermaidCave_key+0
 Label_011E06B6:
  .byte   VOICE , 127
- .byte   VOL , 80*LozOoAMermaidCave_mvl/mxv
+ .byte   VOL , 80*LoZOoAMermaidCave_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N20 ,Cn1 ,v112
  .byte   W24
@@ -1645,20 +1645,20 @@ Label_011E0709:
 @******************************************************@
 	.align	2
 
-LozOoAMermaidCave:
+LoZOoAMermaidCave:
 	.byte	7	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	LozOoAMermaidCave_pri	@ Priority
-	.byte	LozOoAMermaidCave_rev	@ Reverb.
+	.byte	LoZOoAMermaidCave_pri	@ Priority
+	.byte	LoZOoAMermaidCave_rev	@ Reverb.
     
-	.word	LozOoAMermaidCave_grp
+	.word	LoZOoAMermaidCave_grp
     
-	.word	LozOoAMermaidCave_001
-	.word	LozOoAMermaidCave_002
-	.word	LozOoAMermaidCave_003
-	.word	LozOoAMermaidCave_004
-	.word	LozOoAMermaidCave_005
-	.word	LozOoAMermaidCave_006
-	.word	LozOoAMermaidCave_007
+	.word	LoZOoAMermaidCave_001
+	.word	LoZOoAMermaidCave_002
+	.word	LoZOoAMermaidCave_003
+	.word	LoZOoAMermaidCave_004
+	.word	LoZOoAMermaidCave_005
+	.word	LoZOoAMermaidCave_006
+	.word	LoZOoAMermaidCave_007
 
 	.end

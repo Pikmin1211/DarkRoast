@@ -12,5 +12,6 @@ Test.[A][X]
 #include "Data/Class.txt"
 #include "Data/Item.txt"
 #include "Data/Song.txt"
+#include "Data/GuideText.txt"
 
 #include "Chapter/_ChapterScripts.txt"

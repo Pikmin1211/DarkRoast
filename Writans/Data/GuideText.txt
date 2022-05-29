@@ -77,7 +77,7 @@ Coffee Barons[X]
 ## SpiritualityLoreSubPageTitle
 Spirituality[X]
 
-## Pandan&FriendsSubPageTitle
+## PandanandFriendsSubPageTitle
 Pandan & Friends[X]
 
 // Description Entries
@@ -310,6 +310,6 @@ TBD[X]
 ## SpiritualityDesc
 TBD[X]
 
-## Pandan&FriendsDesc
+## PandanandFriendsDesc
 TBD
 [X]

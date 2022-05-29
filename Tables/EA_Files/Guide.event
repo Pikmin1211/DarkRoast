@@ -58,7 +58,7 @@ MainGuideEntry(3, 0, KapakataIslandsLoreSubPageTitle, KapakataIslandsDescGuide, 
 MainGuideEntry(3, 0, TomellosoLoreSubPageTitle, TomellosoDescGuide, UnlockGuideFlag, GuideReadTomelloso)
 MainGuideEntry(3, 0, CoffeeBaronsLoreSubPageTitle, CoffeeBaronsoDescGuide, UnlockGuideFlag, GuideReadCoffeeBarons)
 MainGuideEntry(3, 0, SpiritualityLoreSubPageTitle, SpiritualityDescGuide, UnlockGuideFlag, GuideReadCoffeeSpirituality)
-MainGuideEntry(4, 0, Pandan&FriendsSubPageTitle, Pandan&FriendsDescGuide, UnlockGuideFlag, GuideReadPandan&Friends)
+MainGuideEntry(4, 0, PandanandFriendsSubPageTitle, PandanandFriendsDescGuide, UnlockGuideFlag, GuideReadPandan&Friends)
 MainGuideEntry(0xC, 0, 0, 0, 0, 0)
 WORD 0 0 0
 POP

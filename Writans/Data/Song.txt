@@ -310,7 +310,7 @@ Final Cmd. Red Ft. - Boss[X]
 ## RPGMaker2BGM007_Name
 RPG Maker 2 - BGM007[X]
 
-## RPGMaker1BGM22_Name
+## RPGMaker1BGM022_Name
 RPG Maker 1 - BGM022[X]
 
 ## BoF2Battle_Name
@@ -326,7 +326,7 @@ Sailor Moon R - Forest[X]
 Sailor Moon R - Crystal Tokyo[X]
 
 ## LoZOoAMermaidCave_Name
-LoZ: OoA - Mermaid Cave[X]s
+LoZ: OoA - Mermaid Cave[X]
 
 ## LoZOoATroubleOnTheRaft_Name
 LoZ: OoA - Trouble On The Raft[X]
