@@ -178,4 +178,7 @@ SoundRoomTable,songNumber,songLength,displayCondition,songName
 175,BoF2BossBattle_Song,0,0x0,BoF2BossBattle_Name
 176,SailorMoonRForest_Song,0,0x0,SailorMoonRForest_Name
 177,SailorMoonRCrystalTokyo_Song,0,0x0,SailorMoonRCrystalTokyo_Name
+178,LoZOoAMermaidCave_Song,0,0x0,LozOoAMermaidCave_Name
+179,LoZOoATroubleOnTheRaft_Song,0,0x0,LoZOoATroubleOnTheRaft_Name
+180,KBBStage5_Song,0,0x0,KBBStage5_Name
 TERMINATOR,0xFFFFFFFF,0,0x0,0x0

@@ -324,3 +324,12 @@ Sailor Moon R - Forest[X]
 
 ## SailorMoonRCrystalTokyo_Name
 Sailor Moon R - Crystal Tokyo[X]
+
+## LoZOoAMermaidCave_Name
+LoZ: OoA - Mermaid Cave[X]s
+
+## LoZOoATroubleOnTheRaft_Name
+LoZ: OoA - Trouble On The Raft[X]
+
+## KBBStage5_Name
+Kirby Block Ball - Stage 5[X]
