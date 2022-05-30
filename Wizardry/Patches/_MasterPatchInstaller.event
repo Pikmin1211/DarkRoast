@@ -91,7 +91,7 @@ ORG 0x2c1a6
 BYTE 251
 POP
 
-// changes RN to bugged RN (aka 1RN)
+// changes to 1 RN (sorry haters)
 
 PUSH
 ORG $CC2
@@ -122,22 +122,4 @@ ORG 0x019024
 BYTE 0x01 0x20
 POP
 
-// Battle music by chapter
-// PUSH
-// ORG $726CA
-// BYTE 0x0D 0x4E 0xB0 0x7B 0xC1 0xF7
-// ORG $72700
-// BYTE 0x0D 0x4E 0xB0 0x7B 0xC1 0xF7
-// POP
 
-// Continue map music into battle if same ID; seemed to cause issue w/ Battle music by chapter
-// PUSH
-// ORG $71A68
-// BYTE 0x00 0x4B 0x9F 0x46
-// POP
-
-// Set prep BGM by chapter
-// PUSH
-// ORG $341C4
-// BYTE 0x62 0xF0 0x0E 0xFA
-// POP
