@@ -1,2 +1,6 @@
 HIT = Weapon Hit + (SKL*2)[N]
-+ LCK + Support Bonus.[X]
++ LCK + Support Bonus.[N]
+[N]
+Remember, the displayed hit[N]
+rate is the true hit rate.[N]
+(1 RN)[X]

@@ -102,14 +102,12 @@ BYTE 26
 POP
 
 // autolevel normal mode bonus fix by shuusuke
-
 PUSH
 ORG $180FC
 SHORT 0xFF63
 POP
 
 // prep shop is same price as on map
-
 PUSH
 ORG $B5237
 BYTE 0xE0
@@ -119,4 +117,22 @@ POP
 PUSH
 ORG 0x019024
 BYTE 0x01 0x20
+POP
+
+// Battle music by chapter
+PUSH
+ORG $726CA
+BYTE 0x0D 0x4E 0xB0 0x7B 0xC1 0xF7
+POP
+
+// Continue map music into battle if same ID; seemed to cause issue w/ Battle music by chapter
+// PUSH
+// ORG $71A68
+// BYTE 0x00 0x4B 0x9F 0x46
+// POP
+
+// Set prep BGM by chapter
+PUSH
+ORG $341C4
+BYTE 0x62 0xF0 0x0E 0xFA
 POP

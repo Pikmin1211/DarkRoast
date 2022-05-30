@@ -186,9 +186,9 @@ that visits.[X]
 
 ## WeaponTriangleDescGuide
 Weapon triangle bonuses[N]
-provide +1 DMG and +15 HIT[N]
+provide +1 DMG and +10 HIT[N]
 when at advantage, and -1 DMG[N]
-and -15 HIT when at disadvantage.[N]
+and -10 HIT when at disadvantage.[N]
 [N]
 Weapon Triangle:[N]
 Swords > Lances > Axes > Swords.[N]
@@ -251,14 +251,22 @@ threshold.[X]
 AVO = SPD + LCK + Support Bonus.[N]
 [N]
 Avoid may also be impacted[N]
-by supports or special items.[N][X]
+by supports or special items.[N]
+[N]
+Remember, the displayed hit[N]
+rate is the true hit rate.[N]
+(1 RN)[X]
 
 ## CritAvoidDescGuide
 DODGE = (LCK*2) + Support Bonus.[X]
 
 ## HitDescGuide
 HIT = Weapon Hit + (SKL*2)[N]
-+ LCK + Support Bonus.[X]
++ LCK + Support Bonus.[N]
+[N]
+Remember, the displayed hit[N]
+rate is the true hit rate.[N]
+(1 RN)[X]
 
 ## CritDescGuide
 CRIT = Weapon Crit + (SKL/2)[N]
