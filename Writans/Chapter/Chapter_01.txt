@@ -1,5 +1,5 @@
 ## Chapter_01_Name 
-Brewing Conflict[X]
+Ch1. Brewing Conflict[X]
 
 ## Chapter_01_Objective 
 Seize the inn.[X]

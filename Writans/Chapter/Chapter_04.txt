@@ -1,0 +1,18 @@
+## Chapter_04_Name 
+Ch4. Fort Otinar[X]
+
+## Chapter_04__Objective 
+Seize the gate.[X]
+
+## Chapter_04_Goal_Window 
+Seize[X]
+
+## Chapter_04_Opening
+
+## Chapter_04_Fideos_Intro
+
+## Chapter_04_Boss
+
+## Chapter_04_DeathQuote
+
+## Chapter_04_Ending

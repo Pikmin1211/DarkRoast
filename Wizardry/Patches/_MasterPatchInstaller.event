@@ -11,6 +11,9 @@
 #include "TitleMusic/Installer.event"
 #include "ItemLockList/ItemLockList.event"
 
+//Music
+#include "Music/MusicAsmInstaller.event"
+
 // Thracia stuff from Tele2
 #include "Fatigue/Fatigue.event"
 #include "EscapeArrive/EscapeArrive.event"
@@ -120,10 +123,12 @@ BYTE 0x01 0x20
 POP
 
 // Battle music by chapter
-PUSH
-ORG $726CA
-BYTE 0x0D 0x4E 0xB0 0x7B 0xC1 0xF7
-POP
+// PUSH
+// ORG $726CA
+// BYTE 0x0D 0x4E 0xB0 0x7B 0xC1 0xF7
+// ORG $72700
+// BYTE 0x0D 0x4E 0xB0 0x7B 0xC1 0xF7
+// POP
 
 // Continue map music into battle if same ID; seemed to cause issue w/ Battle music by chapter
 // PUSH
@@ -132,7 +137,7 @@ POP
 // POP
 
 // Set prep BGM by chapter
-PUSH
-ORG $341C4
-BYTE 0x62 0xF0 0x0E 0xFA
-POP
+// PUSH
+// ORG $341C4
+// BYTE 0x62 0xF0 0x0E 0xFA
+// POP

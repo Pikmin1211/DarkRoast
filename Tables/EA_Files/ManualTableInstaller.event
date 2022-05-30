@@ -1,2 +1,6 @@
 #include "WTEditor.event"
 #include "Guide.event"
+#include "BossMusicTable.event"
+//#include "BattleQuoteTable.event"
+//#include "DeathQuoteTable.event"
+//#include "ItemStatBoosts.event"

@@ -1,11 +1,11 @@
 ## Chapter_03_Name 
-Fort Otinar[X]
+Ch3. Security Measures[X]
 
-## Chapter_03__Objective 
-Seize the gate.[X]
+## Chapter_04__Objective 
+Defeat Bosses[X]
 
 ## Chapter_03_Goal_Window 
-Seize[X]
+Dft. Bosses[X]
 
 ## Chapter_03_Opening
 
