@@ -83,7 +83,9 @@ s8 BattleGetFollowUpOrder(struct BattleUnit** outAttacker, struct BattleUnit** o
         *outAttacker = &gBattleTarget;
         *outDefender = &gBattleActor;
     }
-	
+	if ((*outAttacker)->weaponAttributes & IA_NO_DOUBLE)
+		return FALSE;
+
     return TRUE;
 }
 
@@ -371,4 +373,49 @@ int GetBattleUnitStaffExp(struct BattleUnit* bu) {
         result = 100;
 
     return result;
+}
+
+struct WeaponTriangleRule {
+    s8 attackerWeaponType;
+    s8 defenderWeaponType;
+    s8 hitBonus;
+    s8 atkBonus;
+};
+
+extern struct WeaponTriangleRule WTTable[];
+
+void BattleApplyReaverEffect(struct BattleUnit* attacker, struct BattleUnit* defender) {
+    attacker->wTriangleHitBonus *= -1;
+    attacker->wTriangleHitBonus *= -1;
+    defender->wTriangleHitBonus *= -1;
+    defender->wTriangleHitBonus *= -1;
+}
+
+void BattleApplyTripleTriangleEffect(struct BattleUnit* attacker, struct BattleUnit* defender) {
+    attacker->wTriangleHitBonus *= 3;
+    attacker->wTriangleHitBonus *= 3;
+    defender->wTriangleHitBonus *= 3;
+    defender->wTriangleHitBonus *= 3;
+}
+
+void BattleApplyWeaponTriangleEffect(struct BattleUnit* attacker, struct BattleUnit* defender) {
+    const struct WeaponTriangleRule* it;
+
+    for (it = WTTable; it->attackerWeaponType >= 0; ++it) {
+        if ((attacker->weaponType == it->attackerWeaponType) && (defender->weaponType == it->defenderWeaponType)) {
+            attacker->wTriangleHitBonus = it->hitBonus;
+            attacker->wTriangleDmgBonus = it->atkBonus;
+
+            defender->wTriangleHitBonus = -it->hitBonus;
+            defender->wTriangleDmgBonus = -it->atkBonus;
+
+            break;
+        }
+    }
+
+    
+    if ((attacker->weaponAttributes & IA_REAVER) ^ (defender->weaponAttributes & IA_REAVER))
+        BattleApplyReaverEffect(attacker, defender);
+    if ((attacker->weaponAttributes & IA_3X_TRIANGLE) || (defender->weaponAttributes & IA_3X_TRIANGLE))
+        BattleApplyTripleTriangleEffect(attacker, defender);
 }

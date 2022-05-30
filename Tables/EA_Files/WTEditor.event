@@ -9,8 +9,3 @@ TwoWayWTEntry(wtSword,wtAxe,10,1)
 TwoWayWTEntry(wtLance,wtSword,10,1)
 TwoWayWTEntry(wtAxe,wtLance,10,1)
 EndWT //Terminator
-
-PUSH
-ORG 0x2C7CC
-POIN WTTable
-POP

@@ -34,7 +34,7 @@ Cannot critically hit.[X]
 Esp. Ancha[X]
 
 ## EspadaAnchaDesc
-Reverses weapon triangle. Olmos only.[X]
+x3 Reverse Weapon Triangle. Olmos.[X]
 
 ## TealGemName
 Teal Gem[X]
@@ -372,3 +372,39 @@ Coffee[X]
 
 ## CoffeeDesc
 -10 Fatigue.[X]
+
+## RubySwordName
+Ruby Sword[X]
+
+## RubySwordDesc
+x3 Weapon Triangle effects[X]
+
+## SapphireLanceName
+Sapphire Lnc.[X]
+
+## SapphireLanceDesc
+x3 Weapon Triangle effects[X]
+
+## EmeraldAxeName
+Emerald Axe[X]
+
+## EmeraldAxeDesc
+x3 Weapon Triangle effects[X]
+
+## LancereaverName
+Lancereaver[X]
+
+## LancereaverDesc
+Reverses weapon triangle.[X]
+
+## AxereaverName
+Axereaver[X]
+
+## AxereaverDesc
+Reverses weapon triangle.[X]
+
+## SwordreaverName
+Swordreaver[X]
+
+## SwordreaverDesc
+Reverses weapons triangle.[X]
