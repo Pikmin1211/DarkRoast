@@ -386,16 +386,16 @@ extern struct WeaponTriangleRule WTTable[];
 
 void BattleApplyReaverEffect(struct BattleUnit* attacker, struct BattleUnit* defender) {
     attacker->wTriangleHitBonus *= -1;
-    attacker->wTriangleHitBonus *= -1;
+    attacker->wTriangleDmgBonus *= -1;
     defender->wTriangleHitBonus *= -1;
-    defender->wTriangleHitBonus *= -1;
+    defender->wTriangleDmgBonus *= -1;
 }
 
 void BattleApplyTripleTriangleEffect(struct BattleUnit* attacker, struct BattleUnit* defender) {
     attacker->wTriangleHitBonus *= 3;
-    attacker->wTriangleHitBonus *= 3;
+    attacker->wTriangleDmgBonus *= 3;
     defender->wTriangleHitBonus *= 3;
-    defender->wTriangleHitBonus *= 3;
+    defender->wTriangleDmgBonus *= 3;
 }
 
 void BattleApplyWeaponTriangleEffect(struct BattleUnit* attacker, struct BattleUnit* defender) {
