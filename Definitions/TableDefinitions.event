@@ -61,6 +61,8 @@
 #define Lock5 (1 << 19)
 #define Lock6 (1 << 20)
 #define Lock7 (1 << 21)
+#define NoDouble (1 << 22)
+#define X3Triangle (1 << 23)
 
 #define MyrmidonLock Lock1
 #define MonsterLock Lock3

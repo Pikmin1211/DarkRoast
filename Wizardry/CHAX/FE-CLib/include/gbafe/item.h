@@ -88,7 +88,7 @@ enum
 	IA_BRAVE          = (1 << 5),
 	IA_MAGICDAMAGE    = (1 << 6),
 	IA_UNCOUNTERABLE  = (1 << 7),
-	IA_REVERTTRIANGLE = (1 << 8),
+	IA_REAVER         = (1 << 8),
 	IA_HAMMERNE       = (1 << 9), // Defined as Hammerne effect in FE6 Nightmare module, but as ??? in FE7 & FE8.
 	IA_LOCK_3         = (1 << 10), // Dragons or Monster depending of game
 	IA_LOCK_1         = (1 << 11),
@@ -102,6 +102,8 @@ enum
 	IA_LOCK_5         = (1 << 19),
 	IA_LOCK_6         = (1 << 20),
 	IA_LOCK_7         = (1 << 21),
+	IA_NO_DOUBLE      = (1 << 22),
+	IA_3X_TRIANGLE    = (1 << 23),
 
 	// Helpers
 	IA_REQUIRES_WEXP = (IA_WEAPON | IA_STAFF),

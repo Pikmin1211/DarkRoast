@@ -83,7 +83,7 @@ s8 BattleGetFollowUpOrder(struct BattleUnit** outAttacker, struct BattleUnit** o
         *outAttacker = &gBattleTarget;
         *outDefender = &gBattleActor;
     }
-
+	
     return TRUE;
 }
 
