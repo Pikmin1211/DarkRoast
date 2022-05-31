@@ -1,15 +1,15 @@
 // Main Headers
 
-## MechanicsPageTitle
+# 0x5c9 MechanicsPageTitle
 Mechanics[X]
 
-## FormulaPageTitle
-Battle Formula[X]
+# 0x5ca FormulaPageTitle
+Formula[X]
 
-## LorePageTitle
+# 0x5cb LorePageTitle
 Lore[X]
 
-## CreditsPageTitle
+# 0x5cc CreditsPageTitle
 Credits[X]
 
 // Sub-Headers labeled

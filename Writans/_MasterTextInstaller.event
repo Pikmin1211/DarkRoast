@@ -1729,317 +1729,317 @@ __TEXTPROCESSEF9:
 #incbin ".TextEntries\TextBuildfileKBBBoss_Name.fetxt.dmp"
 setText($EF9, __TEXTPROCESSEF9)
 
-__TEXTPROCESSEFA:
+__TEXTPROCESS5C9:
 #incbin ".TextEntries\TextBuildfileMechanicsPageTitle.fetxt.dmp"
-setText($EFA, __TEXTPROCESSEFA)
+setText($5C9, __TEXTPROCESS5C9)
 
-__TEXTPROCESSEFB:
+__TEXTPROCESS5CA:
 #incbin ".TextEntries\TextBuildfileFormulaPageTitle.fetxt.dmp"
-setText($EFB, __TEXTPROCESSEFB)
+setText($5CA, __TEXTPROCESS5CA)
 
-__TEXTPROCESSEFC:
+__TEXTPROCESS5CB:
 #incbin ".TextEntries\TextBuildfileLorePageTitle.fetxt.dmp"
-setText($EFC, __TEXTPROCESSEFC)
+setText($5CB, __TEXTPROCESS5CB)
 
-__TEXTPROCESSEFD:
+__TEXTPROCESS5CC:
 #incbin ".TextEntries\TextBuildfileCreditsPageTitle.fetxt.dmp"
-setText($EFD, __TEXTPROCESSEFD)
+setText($5CC, __TEXTPROCESS5CC)
 
-__TEXTPROCESSEFE:
+__TEXTPROCESS5CD:
 #incbin ".TextEntries\TextBuildfileFatigueMechanicSubPageTitle.fetxt.dmp"
-setText($EFE, __TEXTPROCESSEFE)
+setText($5CD, __TEXTPROCESS5CD)
 
-__TEXTPROCESSEFF:
+__TEXTPROCESS5CE:
 #incbin ".TextEntries\TextBuildfileStealMechanicSubPageTitle.fetxt.dmp"
-setText($EFF, __TEXTPROCESSEFF)
+setText($5CE, __TEXTPROCESS5CE)
 
-__TEXTPROCESSF00:
+__TEXTPROCESS5CF:
 #incbin ".TextEntries\TextBuildfileRescueMechanicSubPageTitle.fetxt.dmp"
-setText($F00, __TEXTPROCESSF00)
+setText($5CF, __TEXTPROCESS5CF)
 
-__TEXTPROCESSF01:
+__TEXTPROCESS5D0:
 #incbin ".TextEntries\TextBuildfileSupportsMechanicSubPageTitle.fetxt.dmp"
-setText($F01, __TEXTPROCESSF01)
+setText($5D0, __TEXTPROCESS5D0)
 
-__TEXTPROCESSF02:
+__TEXTPROCESS5D1:
 #incbin ".TextEntries\TextBuildfileAffinityMechanicSubPageTitle.fetxt.dmp"
-setText($F02, __TEXTPROCESSF02)
+setText($5D1, __TEXTPROCESS5D1)
 
-__TEXTPROCESSF03:
+__TEXTPROCESS5D2:
 #incbin ".TextEntries\TextBuildfileInterludesMechanicSubPageTitle.fetxt.dmp"
-setText($F03, __TEXTPROCESSF03)
+setText($5D2, __TEXTPROCESS5D2)
 
-__TEXTPROCESSF04:
+__TEXTPROCESS5D3:
 #incbin ".TextEntries\TextBuildfileShrinesMechanicSubPageTitle.fetxt.dmp"
-setText($F04, __TEXTPROCESSF04)
+setText($5D3, __TEXTPROCESS5D3)
 
-__TEXTPROCESSF05:
+__TEXTPROCESS5D4:
 #incbin ".TextEntries\TextBuildfileWeaponTriangleMechanicSubPageTitle.fetxt.dmp"
-setText($F05, __TEXTPROCESSF05)
+setText($5D4, __TEXTPROCESS5D4)
 
-__TEXTPROCESSF06:
+__TEXTPROCESS5D5:
 #incbin ".TextEntries\TextBuildfileEquipsMechanicSubPageTitle.fetxt.dmp"
-setText($F06, __TEXTPROCESSF06)
+setText($5D5, __TEXTPROCESS5D5)
 
-__TEXTPROCESSF07:
+__TEXTPROCESS5D6:
 #incbin ".TextEntries\TextBuildfilePromotionMechanicSubPageTitle.fetxt.dmp"
-setText($F07, __TEXTPROCESSF07)
+setText($5D6, __TEXTPROCESS5D6)
 
-__TEXTPROCESSF08:
+__TEXTPROCESS5D7:
 #incbin ".TextEntries\TextBuildfileFreeActionMechanicSubPageTitle.fetxt.dmp"
-setText($F08, __TEXTPROCESSF08)
+setText($5D7, __TEXTPROCESS5D7)
 
-__TEXTPROCESSF09:
+__TEXTPROCESS5D8:
 #incbin ".TextEntries\TextBuildfileASFormulaSubPageTitle.fetxt.dmp"
-setText($F09, __TEXTPROCESSF09)
+setText($5D8, __TEXTPROCESS5D8)
 
-__TEXTPROCESSF0A:
+__TEXTPROCESS5D9:
 #incbin ".TextEntries\TextBuildfileAvoidFormulaSubPageTitle.fetxt.dmp"
-setText($F0A, __TEXTPROCESSF0A)
+setText($5D9, __TEXTPROCESS5D9)
 
-__TEXTPROCESSF0B:
+__TEXTPROCESS5DA:
 #incbin ".TextEntries\TextBuildfileCritAvoidFormulaSubPageTitle.fetxt.dmp"
-setText($F0B, __TEXTPROCESSF0B)
+setText($5DA, __TEXTPROCESS5DA)
 
-__TEXTPROCESSF0C:
+__TEXTPROCESS5DB:
 #incbin ".TextEntries\TextBuildfileHitFormulaSubPageTitle.fetxt.dmp"
-setText($F0C, __TEXTPROCESSF0C)
+setText($5DB, __TEXTPROCESS5DB)
 
-__TEXTPROCESSF0D:
+__TEXTPROCESS5DC:
 #incbin ".TextEntries\TextBuildfileCritFormulaSubPageTitle.fetxt.dmp"
-setText($F0D, __TEXTPROCESSF0D)
+setText($5DC, __TEXTPROCESS5DC)
 
-__TEXTPROCESSF0E:
+__TEXTPROCESS5DD:
 #incbin ".TextEntries\TextBuildfileWeaponEXPFormulaSubPageTitle.fetxt.dmp"
-setText($F0E, __TEXTPROCESSF0E)
+setText($5DD, __TEXTPROCESS5DD)
 
-__TEXTPROCESSF0F:
+__TEXTPROCESS5DE:
 #incbin ".TextEntries\TextBuildfileKapakataIslandsLoreSubPageTitle.fetxt.dmp"
-setText($F0F, __TEXTPROCESSF0F)
+setText($5DE, __TEXTPROCESS5DE)
 
-__TEXTPROCESSF10:
+__TEXTPROCESS5DF:
 #incbin ".TextEntries\TextBuildfileTomellosoLoreSubPageTitle.fetxt.dmp"
-setText($F10, __TEXTPROCESSF10)
+setText($5DF, __TEXTPROCESS5DF)
 
-__TEXTPROCESSF11:
+__TEXTPROCESS5E0:
 #incbin ".TextEntries\TextBuildfileCoffeeBaronsLoreSubPageTitle.fetxt.dmp"
-setText($F11, __TEXTPROCESSF11)
+setText($5E0, __TEXTPROCESS5E0)
 
-__TEXTPROCESSF12:
+__TEXTPROCESS5E1:
 #incbin ".TextEntries\TextBuildfileSpiritualityLoreSubPageTitle.fetxt.dmp"
-setText($F12, __TEXTPROCESSF12)
+setText($5E1, __TEXTPROCESS5E1)
 
-__TEXTPROCESSF13:
+__TEXTPROCESS5E2:
 #incbin ".TextEntries\TextBuildfilePandanandFriendsSubPageTitle.fetxt.dmp"
-setText($F13, __TEXTPROCESSF13)
+setText($5E2, __TEXTPROCESS5E2)
 
-__TEXTPROCESSF14:
+__TEXTPROCESS5E3:
 #incbin ".TextEntries\TextBuildfileFatigueDescGuide.fetxt.dmp"
-setText($F14, __TEXTPROCESSF14)
+setText($5E3, __TEXTPROCESS5E3)
 
-__TEXTPROCESSF15:
+__TEXTPROCESS5E4:
 #incbin ".TextEntries\TextBuildfileStealDescGuide.fetxt.dmp"
-setText($F15, __TEXTPROCESSF15)
+setText($5E4, __TEXTPROCESS5E4)
 
-__TEXTPROCESSF16:
+__TEXTPROCESS5E5:
 #incbin ".TextEntries\TextBuildfileRescueDescGuide.fetxt.dmp"
-setText($F16, __TEXTPROCESSF16)
+setText($5E5, __TEXTPROCESS5E5)
 
-__TEXTPROCESSF17:
+__TEXTPROCESS5E6:
 #incbin ".TextEntries\TextBuildfileSupportsDescGuide.fetxt.dmp"
-setText($F17, __TEXTPROCESSF17)
+setText($5E6, __TEXTPROCESS5E6)
 
-__TEXTPROCESSF18:
+__TEXTPROCESS5E7:
 #incbin ".TextEntries\TextBuildfileAffinityDescGuide.fetxt.dmp"
-setText($F18, __TEXTPROCESSF18)
+setText($5E7, __TEXTPROCESS5E7)
 
-__TEXTPROCESSF19:
+__TEXTPROCESS5E8:
 #incbin ".TextEntries\TextBuildfileInterludesDescGuide.fetxt.dmp"
-setText($F19, __TEXTPROCESSF19)
+setText($5E8, __TEXTPROCESS5E8)
 
-__TEXTPROCESSF1A:
+__TEXTPROCESS5E9:
 #incbin ".TextEntries\TextBuildfileShrinesDescGuide.fetxt.dmp"
-setText($F1A, __TEXTPROCESSF1A)
+setText($5E9, __TEXTPROCESS5E9)
 
-__TEXTPROCESSF1B:
+__TEXTPROCESS5EA:
 #incbin ".TextEntries\TextBuildfileWeaponTriangleDescGuide.fetxt.dmp"
-setText($F1B, __TEXTPROCESSF1B)
+setText($5EA, __TEXTPROCESS5EA)
 
-__TEXTPROCESSF1C:
+__TEXTPROCESS5EB:
 #incbin ".TextEntries\TextBuildfileEquipsDescGuide.fetxt.dmp"
-setText($F1C, __TEXTPROCESSF1C)
+setText($5EB, __TEXTPROCESS5EB)
 
-__TEXTPROCESSF1D:
+__TEXTPROCESS5EC:
 #incbin ".TextEntries\TextBuildfilePromotionDescGuide.fetxt.dmp"
-setText($F1D, __TEXTPROCESSF1D)
+setText($5EC, __TEXTPROCESS5EC)
 
-__TEXTPROCESSF1E:
+__TEXTPROCESS5ED:
 #incbin ".TextEntries\TextBuildfileFreeActionDescGuide.fetxt.dmp"
-setText($F1E, __TEXTPROCESSF1E)
+setText($5ED, __TEXTPROCESS5ED)
 
-__TEXTPROCESSF1F:
+__TEXTPROCESS5EE:
 #incbin ".TextEntries\TextBuildfileASDescGuide.fetxt.dmp"
-setText($F1F, __TEXTPROCESSF1F)
+setText($5EE, __TEXTPROCESS5EE)
 
-__TEXTPROCESSF20:
+__TEXTPROCESS5EF:
 #incbin ".TextEntries\TextBuildfileAvoidDescGuide.fetxt.dmp"
-setText($F20, __TEXTPROCESSF20)
+setText($5EF, __TEXTPROCESS5EF)
 
-__TEXTPROCESSF21:
+__TEXTPROCESS5F0:
 #incbin ".TextEntries\TextBuildfileCritAvoidDescGuide.fetxt.dmp"
-setText($F21, __TEXTPROCESSF21)
+setText($5F0, __TEXTPROCESS5F0)
 
-__TEXTPROCESSF22:
+__TEXTPROCESS5F1:
 #incbin ".TextEntries\TextBuildfileHitDescGuide.fetxt.dmp"
-setText($F22, __TEXTPROCESSF22)
+setText($5F1, __TEXTPROCESS5F1)
 
-__TEXTPROCESSF23:
+__TEXTPROCESS5F2:
 #incbin ".TextEntries\TextBuildfileCritDescGuide.fetxt.dmp"
-setText($F23, __TEXTPROCESSF23)
+setText($5F2, __TEXTPROCESS5F2)
 
-__TEXTPROCESSF24:
+__TEXTPROCESS5F3:
 #incbin ".TextEntries\TextBuildfileWeaponEXPDescGuide.fetxt.dmp"
-setText($F24, __TEXTPROCESSF24)
+setText($5F3, __TEXTPROCESS5F3)
 
-__TEXTPROCESSF25:
+__TEXTPROCESS5F4:
 #incbin ".TextEntries\TextBuildfileKapakataIslandsDescGuide.fetxt.dmp"
-setText($F25, __TEXTPROCESSF25)
+setText($5F4, __TEXTPROCESS5F4)
 
-__TEXTPROCESSF26:
+__TEXTPROCESS5F5:
 #incbin ".TextEntries\TextBuildfileTomellosoDescGuide.fetxt.dmp"
-setText($F26, __TEXTPROCESSF26)
+setText($5F5, __TEXTPROCESS5F5)
 
-__TEXTPROCESSF27:
+__TEXTPROCESS5F6:
 #incbin ".TextEntries\TextBuildfileCoffeeBaronsDescGuide.fetxt.dmp"
-setText($F27, __TEXTPROCESSF27)
+setText($5F6, __TEXTPROCESS5F6)
 
-__TEXTPROCESSF28:
+__TEXTPROCESS5F7:
 #incbin ".TextEntries\TextBuildfileSpiritualityDescGuide.fetxt.dmp"
-setText($F28, __TEXTPROCESSF28)
+setText($5F7, __TEXTPROCESS5F7)
 
-__TEXTPROCESSF29:
+__TEXTPROCESS5F8:
 #incbin ".TextEntries\TextBuildfilePandanandFriendsDescGuide.fetxt.dmp"
-setText($F29, __TEXTPROCESSF29)
+setText($5F8, __TEXTPROCESS5F8)
 
-__TEXTPROCESSF2A:
+__TEXTPROCESS5F9:
 #incbin ".TextEntries\TextBuildfileChapter_01_Name.fetxt.dmp"
-setText($F2A, __TEXTPROCESSF2A)
+setText($5F9, __TEXTPROCESS5F9)
 
-__TEXTPROCESSF2B:
+__TEXTPROCESS5FA:
 #incbin ".TextEntries\TextBuildfileChapter_01_Objective.fetxt.dmp"
-setText($F2B, __TEXTPROCESSF2B)
+setText($5FA, __TEXTPROCESS5FA)
 
-__TEXTPROCESSF2C:
+__TEXTPROCESS5FB:
 #incbin ".TextEntries\TextBuildfileChapter_01_Goal_Window.fetxt.dmp"
-setText($F2C, __TEXTPROCESSF2C)
+setText($5FB, __TEXTPROCESS5FB)
 
-__TEXTPROCESSF2D:
+__TEXTPROCESS5FC:
 #incbin ".TextEntries\TextBuildfileChapter_01_Opening_1.fetxt.dmp"
-setText($F2D, __TEXTPROCESSF2D)
+setText($5FC, __TEXTPROCESS5FC)
 
-__TEXTPROCESSF2E:
+__TEXTPROCESS5FD:
 #incbin ".TextEntries\TextBuildfileChapter_01_Opening_2.fetxt.dmp"
-setText($F2E, __TEXTPROCESSF2E)
+setText($5FD, __TEXTPROCESS5FD)
 
-__TEXTPROCESSF2F:
+__TEXTPROCESS5FE:
 #incbin ".TextEntries\TextBuildfileChapter_01_Opening_3.fetxt.dmp"
-setText($F2F, __TEXTPROCESSF2F)
+setText($5FE, __TEXTPROCESS5FE)
 
-__TEXTPROCESSF30:
+__TEXTPROCESS5FF:
 #incbin ".TextEntries\TextBuildfileChapter_01_Opening_4.fetxt.dmp"
-setText($F30, __TEXTPROCESSF30)
+setText($5FF, __TEXTPROCESS5FF)
 
-__TEXTPROCESSF31:
+__TEXTPROCESS600:
 #incbin ".TextEntries\TextBuildfileChapter_01_Opening_5.fetxt.dmp"
-setText($F31, __TEXTPROCESSF31)
+setText($600, __TEXTPROCESS600)
 
-__TEXTPROCESSF32:
+__TEXTPROCESS601:
 #incbin ".TextEntries\TextBuildfileChapter_01_Allies_Appear.fetxt.dmp"
-setText($F32, __TEXTPROCESSF32)
+setText($601, __TEXTPROCESS601)
 
-__TEXTPROCESSF33:
+__TEXTPROCESS602:
 #incbin ".TextEntries\TextBuildfileChapter_01_Top_Left_House.fetxt.dmp"
-setText($F33, __TEXTPROCESSF33)
+setText($602, __TEXTPROCESS602)
 
-__TEXTPROCESSF34:
+__TEXTPROCESS603:
 #incbin ".TextEntries\TextBuildfileChapter_01_Bottom_Right_House.fetxt.dmp"
-setText($F34, __TEXTPROCESSF34)
+setText($603, __TEXTPROCESS603)
 
-__TEXTPROCESSF35:
+__TEXTPROCESS604:
 #incbin ".TextEntries\TextBuildfileChapter_01_Ending_1.fetxt.dmp"
-setText($F35, __TEXTPROCESSF35)
+setText($604, __TEXTPROCESS604)
 
-__TEXTPROCESSF36:
+__TEXTPROCESS605:
 #incbin ".TextEntries\TextBuildfileChapter_01_Ending_2.fetxt.dmp"
-setText($F36, __TEXTPROCESSF36)
+setText($605, __TEXTPROCESS605)
 
-__TEXTPROCESSF37:
+__TEXTPROCESS606:
 #incbin ".TextEntries\TextBuildfileChapter_01_Ending_3.fetxt.dmp"
-setText($F37, __TEXTPROCESSF37)
+setText($606, __TEXTPROCESS606)
 
-__TEXTPROCESSF38:
+__TEXTPROCESS607:
 #incbin ".TextEntries\TextBuildfileChapter_02_Name.fetxt.dmp"
-setText($F38, __TEXTPROCESSF38)
+setText($607, __TEXTPROCESS607)
 
-__TEXTPROCESSF39:
+__TEXTPROCESS608:
 #incbin ".TextEntries\TextBuildfileChapter_02_Objective.fetxt.dmp"
-setText($F39, __TEXTPROCESSF39)
+setText($608, __TEXTPROCESS608)
 
-__TEXTPROCESSF3A:
+__TEXTPROCESS609:
 #incbin ".TextEntries\TextBuildfileChapter_02_Goal_Window.fetxt.dmp"
-setText($F3A, __TEXTPROCESSF3A)
+setText($609, __TEXTPROCESS609)
 
-__TEXTPROCESSF3B:
+__TEXTPROCESS60A:
 #incbin ".TextEntries\TextBuildfileChapter_02_Opening_1.fetxt.dmp"
-setText($F3B, __TEXTPROCESSF3B)
+setText($60A, __TEXTPROCESS60A)
 
-__TEXTPROCESSF3C:
+__TEXTPROCESS60B:
 #incbin ".TextEntries\TextBuildfileChapter_02_Opening_2.fetxt.dmp"
-setText($F3C, __TEXTPROCESSF3C)
+setText($60B, __TEXTPROCESS60B)
 
-__TEXTPROCESSF3D:
+__TEXTPROCESS60C:
 #incbin ".TextEntries\TextBuildfileChapter_03_Opening_3.fetxt.dmp"
-setText($F3D, __TEXTPROCESSF3D)
+setText($60C, __TEXTPROCESS60C)
 
-__TEXTPROCESSF3E:
+__TEXTPROCESS60D:
 #incbin ".TextEntries\TextBuildfileChapter_02_Post_Prep.fetxt.dmp"
-setText($F3E, __TEXTPROCESSF3E)
+setText($60D, __TEXTPROCESS60D)
 
-__TEXTPROCESSF3F:
+__TEXTPROCESS60E:
 #incbin ".TextEntries\TextBuildfileChapter_02_Boss_Intro.fetxt.dmp"
-setText($F3F, __TEXTPROCESSF3F)
+setText($60E, __TEXTPROCESS60E)
 
-__TEXTPROCESSF40:
+__TEXTPROCESS60F:
 #incbin ".TextEntries\TextBuildfileChapter_02_SysText_Opening.fetxt.dmp"
-setText($F40, __TEXTPROCESSF40)
+setText($60F, __TEXTPROCESS60F)
 
-__TEXTPROCESSF41:
+__TEXTPROCESS610:
 #incbin ".TextEntries\TextBuildfileChapter_02_Charge.fetxt.dmp"
-setText($F41, __TEXTPROCESSF41)
+setText($610, __TEXTPROCESS610)
 
-__TEXTPROCESSF42:
+__TEXTPROCESS611:
 #incbin ".TextEntries\TextBuildfileChapter_02_Top_Left_Village.fetxt.dmp"
-setText($F42, __TEXTPROCESSF42)
+setText($611, __TEXTPROCESS611)
 
-__TEXTPROCESSF43:
+__TEXTPROCESS612:
 #incbin ".TextEntries\TextBuildfileChapter_02_Bottom_Left_Village.fetxt.dmp"
-setText($F43, __TEXTPROCESSF43)
+setText($612, __TEXTPROCESS612)
 
-__TEXTPROCESSF44:
+__TEXTPROCESS613:
 #incbin ".TextEntries\TextBuildfileChapter_02_Top_Right_Village.fetxt.dmp"
-setText($F44, __TEXTPROCESSF44)
+setText($613, __TEXTPROCESS613)
 
-__TEXTPROCESSF45:
+__TEXTPROCESS614:
 #incbin ".TextEntries\TextBuildfileChapter_02_Boss_Quote.fetxt.dmp"
-setText($F45, __TEXTPROCESSF45)
+setText($614, __TEXTPROCESS614)
 
-__TEXTPROCESSF46:
+__TEXTPROCESS615:
 #incbin ".TextEntries\TextBuildfileChapter_02_Boss_Death.fetxt.dmp"
-setText($F46, __TEXTPROCESSF46)
+setText($615, __TEXTPROCESS615)
 
-__TEXTPROCESSF47:
+__TEXTPROCESS616:
 #incbin ".TextEntries\TextBuildfileChapter_02_Ending_1.fetxt.dmp"
-setText($F47, __TEXTPROCESSF47)
+setText($616, __TEXTPROCESS616)
 
 }
 

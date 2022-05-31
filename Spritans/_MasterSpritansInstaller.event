@@ -12,3 +12,5 @@
 #include "BattleAnimations/_MasterAnimationInstaller.event"
 
 #include "Palettes/_MasterPaletteInstaller.event"
+
+//#include "StatScreen/Installer.event"

@@ -1,0 +1,45 @@
+// Stat Screen descriptions
+
+# 0x0543 HP
+Hit points. Unit will fall[N]
+unconscious if this hits 0.[N]
+Unit fatigue cannot exceed HP.[X]
+
+# 0x0546 Strength
+Strength. Added w/ weapon MT[N]
+to calculate damage.[X]
+
+# 0x0547 Magic
+Magic. Added w/ tome or[N]
+magic weapon MT to[N]
+calculate damage.[X]
+
+# 0x0548 Skill
+Skill. Determines hit[N]
+rate and crit rate.[X]
+
+# 0x0549 Speed
+Speed. Determines attack[N]
+speed (AS) and avoid.[X]
+
+# 0x054A Luck
+Luck. Determines avoid,[N]
+critical avoid, and hit[N]
+rate.[X]
+
+# 0x054B Defense
+Defense. Reduces damage[N]
+from STR-based attacks.[X]
+
+# 0x54C Resistance
+Resistance. Reduces damage[N]
+from MAG-base attacks.[X]
+
+# 0x54E Build
+Build. Unit's physical size.[N]
+Affects ability to rescue.[X]
+
+## Fatigue
+Fatige. If exceeds HP,[N]
+unit no longer gains EXP[N]
+or WEXP. Must sit next ch.[X]

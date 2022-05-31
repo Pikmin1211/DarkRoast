@@ -83,10 +83,10 @@ Tutorial:
 Units1:
 Units1Hard:
 	UNIT Olmos Lord 0 Level(1, Ally, 0) [2, 11] 0 0 0 0 [EspadaAncha, BronzeSword, Herb] DefaultAI
-	UNIT Flor NomadTrooper_F 0 Level(1, Ally, 0) [0, 12] 0 0 0 0 [SilverSword, BronzeBow, BronzeSword, Vulnerary] DefaultAI
+	UNIT Flor NomadTrooper_F 0 Level(1, Ally, 0) [0, 12] 0 0 0 0 [SilverSword, BronzeBow, BronzeSword] DefaultAI
 	UNIT Guadalupe BowArmor 0 Level(9, Ally, 0) [0, 11] 0 0 0 0 [IronBow, Herb] DefaultAI
-	UNIT Sosimo Fighter 0 Level(1, Ally, 0) [2, 12] 0 0 0 0 [BronzeAxe] DefaultAI
-	UNIT Bastio Ohtli 0 Level(1, Ally, 0) [1, 12] 0 0 0 0 [BronzeAxe] DefaultAI
+	UNIT Sosimo Fighter 0 Level(1, Ally, 0) [2, 12] 0 0 0 0 [BronzeAxe, Herb] DefaultAI
+	UNIT Bastio Ohtli 0 Level(1, Ally, 0) [1, 12] 0 0 0 0 [BronzeAxe, Herb] DefaultAI
 	UNIT Zapatera Soldier 0 Level(1, Ally, 0) [1, 11] 0 0 0 0 [BronzeLance, Herb] DefaultAI
 	UNIT
 
