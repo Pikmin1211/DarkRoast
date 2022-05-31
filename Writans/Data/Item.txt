@@ -408,3 +408,45 @@ Swordreaver[X]
 
 ## SwordreaverDesc
 Reverses weapons triangle.[X]
+
+## DragonstoneName
+Dragonstone[X]
+
+## DragonstoneDesc
++5 STR/MAG/SKL/DEF/RES.[X]
+
+## MageStoneName
+Magestone[X]
+
+## MageStoneDesc
+TBD[X]
+
+## ArmorStoneName
+Armorstone[X]
+
+## ArmorStoneDesc
+TBD[X]
+
+## PowerStoneName
+Powerstone[X]
+
+## PowerStoneDesc
+TBD[X]
+
+## WindStoneName
+Windstone[X]
+
+## WindStoneDesc
+TBD[X]
+
+## PierceStoneName
+Piercestone[X]
+
+## PierceStoneDesc
+TBD[X]
+
+## BraveStoneName
+Bravestone[X]
+
+## BraveStoneDesc
+TBD[X]

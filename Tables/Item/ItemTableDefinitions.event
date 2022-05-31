@@ -140,9 +140,16 @@
 #define BangPaeDokki 0xa0
 #define MalDokki 0xa1
 #define Herb 0xa2
+#define Dragonstone 0xaa
 #define RubySword 0xab
 #define SapphireLance 0xac
 #define EmeraldAxe 0xad
+#define MageStone 0xae
+#define ArmorStone 0xaf
+#define PowerStone 0xb0
+#define WindStone 0xb1
+#define PierceStone 0xb2
+#define BraveStone 0xb3
 #define BlackGem 0xba
 #define GoldGem 0xbb
 #define BronzeSword 0xbc
