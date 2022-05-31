@@ -23,6 +23,7 @@ def getSheets(sheetpaths: list, path: str):
     # Grab the palette and trim off the right strip
     filename = sheet[:(sheet.index('.'))]
     labelname = filename.replace(' ','_')
+    labelname = labelname.replace('Handaxe', 'HandAxe')
     filename = os.path.join(path, sheet)
     im = Image.open(filename)
     w, h = im.size
