@@ -277,7 +277,7 @@ After each set of module options are definitions that you can use to adjust the 
 
 	// AVO label
 	#define MMBAVOLabelX 8
-	#define MMBAVOLabelY 5
+	#define MMBAVOLabelY 6
 	#define MMBAVOLabelVRAMTile 0x104
 	#define MMBAVOLabelPaletteIndex 2
 	#define MMBAVOLabelTileCount 2
