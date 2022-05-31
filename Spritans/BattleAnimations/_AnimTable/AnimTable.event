@@ -1,0 +1,24 @@
+#define ClassAnimTable AnimTableLabel
+#define AnimTableMaxEntries 0x200
+
+ALIGN 4
+AnimTableLabel:
+	#incbin "AnimTable.dmp"
+	ORG AnimTableLabel + (AnimTableMaxEntries * 32)
+
+PUSH
+	ORG $59BD8
+	POIN AnimTableLabel
+	ORG $5A600
+	POIN AnimTableLabel
+	ORG $5A694
+	POIN AnimTableLabel
+	ORG $5A82C
+	POIN AnimTableLabel
+	ORG $6F6A8
+	POIN AnimTableLabel
+	ORG $70940
+	POIN AnimTableLabel
+	ORG $70A60
+	POIN AnimTableLabel	
+POP
