@@ -1,10 +1,11 @@
 
-	#include "EAStdlib.event"
+	//#include "EAStdlib.event"
 	#include "Extensions/Hack Installation.txt"
 
 	#include "Internal/UI1 Proc Code.event"
 
 	#inctevent lyn "Internal/MMBInit.elf" "Internal/Definitions.elf"
+	ALIGN 4
 	WORD MMBNameWidth
 	WORD MMBAltTextWidth
 

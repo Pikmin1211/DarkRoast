@@ -10,7 +10,7 @@ int GetUnitItemHealAmount(const struct Unit* unit, Item item) {
     return result;
 }
 
-void ExecSomeSelfHeal(Unit* unit, int amount);
+void ExecSomeSelfHeal(Proc* this, int amount);
 void ExecStandardHeal(Proc* this);
 void ExecRestore(Proc* this);
 void ExecKeyOrLockpick();
@@ -24,7 +24,7 @@ void ActionStaffDoorChestUseItem(Proc* this){
         case Vulnerary:
         case Elixir:
         case Herb:
-            ExecSomeSelfHeal(subject, GetItemMight(item));
+            ExecSomeSelfHeal(this, GetItemMight(item));
             break;
 
         case DoorKey:
