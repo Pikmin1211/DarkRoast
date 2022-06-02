@@ -32,13 +32,12 @@ POP
 
 ALIGN 4
 FatigueExemptCharList:
-BYTE Cleo
-BYTE Loewe
+BYTE Olmos
 BYTE 0
 
 ALIGN 4
 FatigueStartingChapter:
-BYTE Chapter4
+BYTE Chapter1
 BYTE 0
 
 ALIGN 4

@@ -450,3 +450,13 @@ Bravestone[X]
 
 ## BraveStoneDesc
 TBD[X]
+
+## ConcoctionName
+Concoction[X]
+
+## ConcoctionDesc
+A powerful medicine.[N]
+Heals 30 HP when consumed.[X]
+
+## ConcoctionUseText
+Heals 30 HP.[X]
