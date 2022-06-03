@@ -460,3 +460,189 @@ Heals 30 HP when consumed.[X]
 
 ## ConcoctionUseText
 Heals 30 HP.[X]
+
+## SkyPiercerName
+Sky Piercer[X]
+
+## SkyPiercerDesc
+[X]
+
+## IronPoleaxeName
+Irn. Poleaxe[X]
+
+## IronPoleaxeDesc
+[X]
+
+## SteelPoleaxeName
+Stl. Poleaxe[X]
+
+## SteelPoleaxeDesc
+[X]
+
+## SilverPoleaxeName
+Slv. Poleaxe[X]
+
+## SilverPoleaxeDesc
+[X]
+
+## IronGreatlanceName
+Irn. Grtlance[X]
+
+## IronGreatlanceDesc
+[X]
+
+## SteelGreatlanceName
+Stl. Grtlance[X]
+
+## SteelGreatlanceDesc
+[X]
+
+## SilverGreatlanceName
+Slv. Grtlance[X]
+
+## SilverGreatlanceDesc
+[X]
+
+## SleepBowName
+Sleep Bow[X]
+
+## SleepBowDesc
+Enemy sleep 1 turn on hit.[X]
+
+## SeraphimName
+Seraphim[X]
+
+## SeraphimDesc
+Eff. vs. mages.[X]
+
+## ThaniName
+Thani[X]
+
+## ThaniDesc
+Eff vs. armor.[X]
+
+## MageSwordName
+Mage Sword[X]
+
+## MageSwordDesc
+Uses MAG. Hits RES.[X]
+
+## MageLanceName
+Mage Lance[X]
+
+## MageLanceDesc
+Uses MAG. Hits RES.[X]
+
+## MageAxeName
+Mage Axe[X]
+
+## MageAxeDesc
+Uses MAG. Hits RES.[X]
+
+## MageBowName
+Mage Bow[X]
+
+## MageBowDesc
+Uses MAG. Hits RES.[X]
+
+## AdamantSwordName
+Adamant Swd[X]
+
+## AdamantSwordDesc
+Uses MAG. Hits RES.[X]
+
+## AdamantLanceName
+Adamant Lnc[X]
+
+## AdamantLanceDesc
+Uses MAG. Hits RES.[X]
+
+## AdamantAxeName
+Adamant Axe[X]
+
+## AdamantAxeDesc
+Uses MAG. Hits RES.[X]
+
+## AdamantBowName
+Adamant Bow[X]
+
+## AdamantBowDesc
+Uses MAG. Hits RES.[X]
+
+## SootheName
+Soothe[X]
+
+## SootheDesc
+TBD[X]
+
+## RegenerateName
+Regenerate[X]
+
+## RegenerateDesc
+TBD[X]
+
+## LightRuneStaffName
+Rune Staff[X]
+
+## LightRuneStaffDesc
+TBD[X]
+
+## HasteName
+Haste[X]
+
+## HasteDesc
+TBD[X]
+
+## ThiefStaffName
+Thief[X]
+
+## ThiefStaffDesc
+TBD[X]
+
+## EntrapName
+Entrap[X]
+
+## EntrapDesc
+TBD[X]
+
+## EnfeebleName
+Enfeeble[X]
+
+## EnfeebleDesc
+TBD[X]
+
+## ZombieStaffName
+S. Staff Zom[X]
+
+## ZombieStaffDesc
+Summons ally Revenant.[X]
+
+## BonewalkerStaffName
+S. Staff Bone[X]
+
+## BonewalkerStaffDesc
+Summons ally bonewalker.[X]
+
+## WightStaffName
+S. Staff W[X]
+
+## WightStaffDesc
+Summons ally wight.[X]
+
+## AgainName
+Again[X]
+
+## AgainDesc
+Allows ally to move again.[X]
+
+## FreezeName
+Freeze[X]
+
+## FreezeDesc
+TBD[X]
+
+## SlowName
+Slow[X]
+
+## SlowDesc
+TBD[X]

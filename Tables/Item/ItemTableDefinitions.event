@@ -140,6 +140,7 @@
 #define BangPaeDokki 0xa0
 #define MalDokki 0xa1
 #define Herb 0xa2
+#define Concoction 0xa3
 #define Dragonstone 0xaa
 #define RubySword 0xab
 #define SapphireLance 0xac
