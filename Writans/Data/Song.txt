@@ -336,3 +336,9 @@ Kirby Block Ball - Stage 5[X]
 
 ## KBBBoss_Name
 Kirby Block Ball - Boss[X]
+
+## DWM2Battle_Name
+DWM2 - Battle[X]
+
+## BattleToadSurf_Name
+Battletoads - Surf[X]

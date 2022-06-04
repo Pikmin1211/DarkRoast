@@ -182,4 +182,6 @@ SoundRoomTable,songNumber,songLength,displayCondition,songName
 179,LoZOoATroubleOnTheRaft_Song,0,0x0,LoZOoATroubleOnTheRaft_Name
 180,KBBStage5_Song,0,0x0,KBBStage5_Name
 181,KBBBoss_Song,0,0x0,KBBBoss_Name
+182,BattleToadsSurf_Song,0,0x0,BattleToadsSurf_Name
+183,DWM2Battle_Song,0,0x0,DWM2Battle_Name
 TERMINATOR,0xFFFFFFFF,0,0x0,0x0
