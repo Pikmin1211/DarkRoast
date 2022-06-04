@@ -19,10 +19,11 @@
 FriendshipAndAdventure_001:
 @  #01 @000   ----------------------------------------
  .byte   KEYSH , FriendshipAndAdventure_key+0
+Label_547722:
  .byte   TEMPO , 128*FriendshipAndAdventure_tbs/2
  .byte   VOICE , 41
  .byte   MOD 2
- .byte   VOL , 46*FriendshipAndAdventure_mvl/mxv
+ .byte   VOL , 43*FriendshipAndAdventure_mvl/mxv
  .byte   PAN , c_v+0
  .byte   W48
  .byte   N15 ,An3 ,v108
@@ -109,7 +110,7 @@ FriendshipAndAdventure_001:
  .byte   W24
 @  #01 @008   ----------------------------------------
  .byte   MOD 0
- .byte   VOL , 48*FriendshipAndAdventure_mvl/mxv
+ .byte   VOL , 44*FriendshipAndAdventure_mvl/mxv
  .byte   PAN , c_v-4
  .byte   N11 ,An2 ,v088
  .byte   W18
@@ -163,7 +164,7 @@ FriendshipAndAdventure_001:
  .byte   W48
 @  #01 @013   ----------------------------------------
  .byte   W24
- .byte   VOL , 49*FriendshipAndAdventure_mvl/mxv
+ .byte   VOL , 45*FriendshipAndAdventure_mvl/mxv
  .byte   PAN , c_v+6
  .byte   N23 ,En3 ,v084
  .byte   W24
@@ -361,6 +362,9 @@ FriendshipAndAdventure_001:
  .byte   N06 ,Gs2 ,v028
  .byte   N06 ,Bn2
  .byte   W66
+@  #01 @033   ----------------------------------------
+ .byte   GOTO
+  .word Label_547722
  .byte   FINE
 
 @**************** Track 2 (Midi-Chn.1) ****************@
@@ -368,8 +372,9 @@ FriendshipAndAdventure_001:
 FriendshipAndAdventure_002:
 @  #02 @000   ----------------------------------------
  .byte   KEYSH , FriendshipAndAdventure_key+0
+Label_5462B2:
  .byte   VOICE , 36
- .byte   VOL , 48*FriendshipAndAdventure_mvl/mxv
+ .byte   VOL , 44*FriendshipAndAdventure_mvl/mxv
  .byte   PAN , c_v+0
  .byte   N23 ,An2 ,v104
  .byte   W24
@@ -474,7 +479,7 @@ FriendshipAndAdventure_002:
  .byte   N23 ,Fn2 ,v108
  .byte   W24
 @  #02 @016   ----------------------------------------
-Label_01004F48:
+Label_54633C:
  .byte   N32 ,En2 ,v104
  .byte   W36
  .byte   N09 ,En2 ,v112
@@ -484,7 +489,7 @@ Label_01004F48:
  .byte   PEND 
 @  #02 @017   ----------------------------------------
  .byte   PATT
-  .word Label_01004F48
+  .word Label_54633C
 @  #02 @018   ----------------------------------------
  .byte   N32 ,Ds2 ,v104
  .byte   W36
@@ -550,7 +555,7 @@ Label_01004F48:
  .byte   N09 ,As2 ,v112
  .byte   W12
 @  #02 @026   ----------------------------------------
-Label_01004FC4:
+Label_5463B8:
  .byte   N32 ,An2 ,v104
  .byte   W36
  .byte   N09 ,An2 ,v112
@@ -562,13 +567,13 @@ Label_01004FC4:
  .byte   PEND 
 @  #02 @027   ----------------------------------------
  .byte   PATT
-  .word Label_01004FC4
+  .word Label_5463B8
 @  #02 @028   ----------------------------------------
  .byte   PATT
-  .word Label_01004F48
+  .word Label_54633C
 @  #02 @029   ----------------------------------------
  .byte   PATT
-  .word Label_01004F48
+  .word Label_54633C
 @  #02 @030   ----------------------------------------
  .byte   N15 ,En2 ,v112
  .byte   W24
@@ -579,7 +584,7 @@ Label_01004FC4:
  .byte   N24 ,En2 ,v116
  .byte   W24
 @  #02 @031   ----------------------------------------
-Label_01004FF0:
+Label_5463E4:
  .byte   N13 ,En2 ,v116
  .byte   W24
  .byte   N24 ,En2 ,v112
@@ -591,7 +596,10 @@ Label_01004FF0:
  .byte   PEND 
 @  #02 @032   ----------------------------------------
  .byte   PATT
-  .word Label_01004FF0
+  .word Label_5463E4
+@  #02 @033   ----------------------------------------
+ .byte   GOTO
+  .word Label_5462B2
  .byte   FINE
 
 @**************** Track 3 (Midi-Chn.2) ****************@
@@ -599,8 +607,9 @@ Label_01004FF0:
 FriendshipAndAdventure_003:
 @  #03 @000   ----------------------------------------
  .byte   KEYSH , FriendshipAndAdventure_key+0
+Label_5466C2:
  .byte   VOICE , 51
- .byte   VOL , 45*FriendshipAndAdventure_mvl/mxv
+ .byte   VOL , 42*FriendshipAndAdventure_mvl/mxv
  .byte   PAN , c_v-5
  .byte   N11 ,An2 ,v108
  .byte   N11 ,Cs3 ,v112
@@ -629,14 +638,14 @@ FriendshipAndAdventure_003:
  .byte   W08
  .byte   Gn2
  .byte   W08
- .byte   Gn2 ,v108
+ .byte   N10 ,Gn2 ,v108
  .byte   N10 ,Bn2 ,v112
  .byte   W12
  .byte   N07 ,Gn2 ,v028
  .byte   N07 ,Bn2
  .byte   W36
 @  #03 @002   ----------------------------------------
-Label_01003D2B:
+Label_546708:
  .byte   N08 ,An2 ,v108
  .byte   N08 ,Cs3 ,v112
  .byte   W12
@@ -665,7 +674,7 @@ Label_01003D2B:
  .byte   W08
  .byte   Gn2
  .byte   W08
- .byte   Gn2 ,v108
+ .byte   N10 ,Gn2 ,v108
  .byte   N10 ,Bn2 ,v112
  .byte   W12
  .byte   N07 ,Gn2 ,v028
@@ -673,7 +682,7 @@ Label_01003D2B:
  .byte   W36
 @  #03 @004   ----------------------------------------
  .byte   PATT
-  .word Label_01003D2B
+  .word Label_546708
 @  #03 @005   ----------------------------------------
  .byte   N09 ,Bn2 ,v108
  .byte   N08 ,Dn3 ,v112
@@ -747,7 +756,7 @@ Label_01003D2B:
  .byte   VOICE , 48
  .byte   N12 ,Bn2 ,v028
  .byte   W24
- .byte   VOL , 49*FriendshipAndAdventure_mvl/mxv
+ .byte   VOL , 45*FriendshipAndAdventure_mvl/mxv
  .byte   PAN , c_v-14
  .byte   N23 ,En2 ,v112
  .byte   W24
@@ -907,6 +916,9 @@ Label_01003D2B:
  .byte   W96
 @  #03 @032   ----------------------------------------
  .byte   W96
+@  #03 @033   ----------------------------------------
+ .byte   GOTO
+  .word Label_5466C2
  .byte   FINE
 
 @**************** Track 4 (Midi-Chn.3) ****************@
@@ -914,8 +926,9 @@ Label_01003D2B:
 FriendshipAndAdventure_004:
 @  #04 @000   ----------------------------------------
  .byte   KEYSH , FriendshipAndAdventure_key+0
+Label_5473BE:
  .byte   VOICE , 47
- .byte   VOL , 0*FriendshipAndAdventure_mvl/mxv
+ .byte   VOL , 45*FriendshipAndAdventure_mvl/mxv
  .byte   PAN , c_v-3
  .byte   N48 ,An2 ,v116
  .byte   W96
@@ -1095,6 +1108,9 @@ FriendshipAndAdventure_004:
  .byte   W72
  .byte   N19 ,En2 ,v112
  .byte   W24
+@  #04 @033   ----------------------------------------
+ .byte   GOTO
+  .word Label_5473BE
  .byte   FINE
 
 @**************** Track 5 (Midi-Chn.4) ****************@
@@ -1102,6 +1118,7 @@ FriendshipAndAdventure_004:
 FriendshipAndAdventure_005:
 @  #05 @000   ----------------------------------------
  .byte   KEYSH , FriendshipAndAdventure_key+0
+Label_547976:
  .byte   VOICE , 18
  .byte   W96
 @  #05 @001   ----------------------------------------
@@ -1122,7 +1139,7 @@ FriendshipAndAdventure_005:
  .byte   W96
 @  #05 @009   ----------------------------------------
  .byte   W72
- .byte   VOL , 45*FriendshipAndAdventure_mvl/mxv
+ .byte   VOL , 42*FriendshipAndAdventure_mvl/mxv
  .byte   PAN , c_v-6
  .byte   W24
 @  #05 @010   ----------------------------------------
@@ -1223,6 +1240,9 @@ FriendshipAndAdventure_005:
  .byte   W96
 @  #05 @032   ----------------------------------------
  .byte   W96
+@  #05 @033   ----------------------------------------
+ .byte   GOTO
+  .word Label_547976
  .byte   FINE
 
 @**************** Track 6 (Midi-Chn.5) ****************@
@@ -1230,11 +1250,12 @@ FriendshipAndAdventure_005:
 FriendshipAndAdventure_006:
 @  #06 @000   ----------------------------------------
  .byte   KEYSH , FriendshipAndAdventure_key+0
+Label_5468D2:
+ .byte   VOICE , 48
  .byte   W96
 @  #06 @001   ----------------------------------------
  .byte   W72
- .byte   VOICE , 48
- .byte   VOL , 47*FriendshipAndAdventure_mvl/mxv
+ .byte   VOL , 44*FriendshipAndAdventure_mvl/mxv
  .byte   PAN , c_v-16
  .byte   W24
 @  #06 @002   ----------------------------------------
@@ -1279,7 +1300,6 @@ FriendshipAndAdventure_006:
  .byte   Cs2
  .byte   W16
 @  #06 @008   ----------------------------------------
- .byte   VOICE , 48
  .byte   N92 ,An1 ,v108
  .byte   W96
 @  #06 @009   ----------------------------------------
@@ -1294,7 +1314,6 @@ FriendshipAndAdventure_006:
  .byte   EOT
  .byte   W17
 @  #06 @012   ----------------------------------------
- .byte   VOICE , 48
  .byte   W72
  .byte   N44 ,En3 ,v112
  .byte   W24
@@ -1438,6 +1457,9 @@ FriendshipAndAdventure_006:
  .byte   W96
 @  #06 @032   ----------------------------------------
  .byte   W96
+@  #06 @033   ----------------------------------------
+ .byte   GOTO
+  .word Label_5468D2
  .byte   FINE
 
 @**************** Track 7 (Midi-Chn.6) ****************@
@@ -1445,8 +1467,9 @@ FriendshipAndAdventure_006:
 FriendshipAndAdventure_007:
 @  #07 @000   ----------------------------------------
  .byte   KEYSH , FriendshipAndAdventure_key+0
+Label_546E4E:
  .byte   VOICE , 127
- .byte   VOL , 40*FriendshipAndAdventure_mvl/mxv
+ .byte   VOL , 39*FriendshipAndAdventure_mvl/mxv
  .byte   PAN , c_v-14
  .byte   N15 ,Cn1 ,v116
  .byte   W24
@@ -1814,6 +1837,9 @@ FriendshipAndAdventure_007:
  .byte   W48
  .byte   N24 ,Dn1 ,v127
  .byte   W24
+@  #07 @033   ----------------------------------------
+ .byte   GOTO
+  .word Label_546E4E
  .byte   FINE
 
 @******************************************************@

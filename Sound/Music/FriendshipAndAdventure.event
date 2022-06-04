@@ -20,10 +20,11 @@
 FriendshipAndAdventure_001:
 //  #01 //000   ----------------------------------------
  BYTE   KEYSH   FriendshipAndAdventure_key+0
+Label_547722:
  BYTE   TEMPO   128*FriendshipAndAdventure_tbs/2
  BYTE   VOICE   41
  BYTE   MOD 2
- BYTE   VOL   46*FriendshipAndAdventure_mvl/mxv
+ BYTE   VOL   43*FriendshipAndAdventure_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   W48
  BYTE   N15  An3  v108
@@ -110,7 +111,7 @@ FriendshipAndAdventure_001:
  BYTE   W24
 //  #01 //008   ----------------------------------------
  BYTE   MOD 0
- BYTE   VOL   48*FriendshipAndAdventure_mvl/mxv
+ BYTE   VOL   44*FriendshipAndAdventure_mvl/mxv
  BYTE   PAN   c_v-4
  BYTE   N11  An2  v088
  BYTE   W18
@@ -164,7 +165,7 @@ FriendshipAndAdventure_001:
  BYTE   W48
 //  #01 //013   ----------------------------------------
  BYTE   W24
- BYTE   VOL   49*FriendshipAndAdventure_mvl/mxv
+ BYTE   VOL   45*FriendshipAndAdventure_mvl/mxv
  BYTE   PAN   c_v+6
  BYTE   N23  En3  v084
  BYTE   W24
@@ -362,6 +363,9 @@ FriendshipAndAdventure_001:
  BYTE   N06  Gs2  v028
  BYTE   N06  Bn2
  BYTE   W66
+//  #01 //033   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_547722
  BYTE   FINE
 
 //**************** Track 2 (Midi-Chn.1) ****************//
@@ -369,8 +373,9 @@ FriendshipAndAdventure_001:
 FriendshipAndAdventure_002:
 //  #02 //000   ----------------------------------------
  BYTE   KEYSH   FriendshipAndAdventure_key+0
+Label_5462B2:
  BYTE   VOICE   36
- BYTE   VOL   48*FriendshipAndAdventure_mvl/mxv
+ BYTE   VOL   44*FriendshipAndAdventure_mvl/mxv
  BYTE   PAN   c_v+0
  BYTE   N23  An2  v104
  BYTE   W24
@@ -475,7 +480,7 @@ FriendshipAndAdventure_002:
  BYTE   N23  Fn2  v108
  BYTE   W24
 //  #02 //016   ----------------------------------------
-Label_01004F48:
+Label_54633C:
  BYTE   N32  En2  v104
  BYTE   W36
  BYTE   N09  En2  v112
@@ -485,7 +490,7 @@ Label_01004F48:
  BYTE   PEND 
 //  #02 //017   ----------------------------------------
  BYTE   PATT
-  POIN2 Label_01004F48
+  POIN2 Label_54633C
 //  #02 //018   ----------------------------------------
  BYTE   N32  Ds2  v104
  BYTE   W36
@@ -551,7 +556,7 @@ Label_01004F48:
  BYTE   N09  As2  v112
  BYTE   W12
 //  #02 //026   ----------------------------------------
-Label_01004FC4:
+Label_5463B8:
  BYTE   N32  An2  v104
  BYTE   W36
  BYTE   N09  An2  v112
@@ -563,13 +568,13 @@ Label_01004FC4:
  BYTE   PEND 
 //  #02 //027   ----------------------------------------
  BYTE   PATT
-  POIN2 Label_01004FC4
+  POIN2 Label_5463B8
 //  #02 //028   ----------------------------------------
  BYTE   PATT
-  POIN2 Label_01004F48
+  POIN2 Label_54633C
 //  #02 //029   ----------------------------------------
  BYTE   PATT
-  POIN2 Label_01004F48
+  POIN2 Label_54633C
 //  #02 //030   ----------------------------------------
  BYTE   N15  En2  v112
  BYTE   W24
@@ -580,7 +585,7 @@ Label_01004FC4:
  BYTE   N24  En2  v116
  BYTE   W24
 //  #02 //031   ----------------------------------------
-Label_01004FF0:
+Label_5463E4:
  BYTE   N13  En2  v116
  BYTE   W24
  BYTE   N24  En2  v112
@@ -592,7 +597,10 @@ Label_01004FF0:
  BYTE   PEND 
 //  #02 //032   ----------------------------------------
  BYTE   PATT
-  POIN2 Label_01004FF0
+  POIN2 Label_5463E4
+//  #02 //033   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_5462B2
  BYTE   FINE
 
 //**************** Track 3 (Midi-Chn.2) ****************//
@@ -600,8 +608,9 @@ Label_01004FF0:
 FriendshipAndAdventure_003:
 //  #03 //000   ----------------------------------------
  BYTE   KEYSH   FriendshipAndAdventure_key+0
+Label_5466C2:
  BYTE   VOICE   51
- BYTE   VOL   45*FriendshipAndAdventure_mvl/mxv
+ BYTE   VOL   42*FriendshipAndAdventure_mvl/mxv
  BYTE   PAN   c_v-5
  BYTE   N11  An2  v108
  BYTE   N11  Cs3  v112
@@ -630,14 +639,14 @@ FriendshipAndAdventure_003:
  BYTE   W08
  BYTE   Gn2
  BYTE   W08
- BYTE   Gn2  v108
+ BYTE   N10  Gn2  v108
  BYTE   N10  Bn2  v112
  BYTE   W12
  BYTE   N07  Gn2  v028
  BYTE   N07  Bn2
  BYTE   W36
 //  #03 //002   ----------------------------------------
-Label_01003D2B:
+Label_546708:
  BYTE   N08  An2  v108
  BYTE   N08  Cs3  v112
  BYTE   W12
@@ -666,7 +675,7 @@ Label_01003D2B:
  BYTE   W08
  BYTE   Gn2
  BYTE   W08
- BYTE   Gn2  v108
+ BYTE   N10  Gn2  v108
  BYTE   N10  Bn2  v112
  BYTE   W12
  BYTE   N07  Gn2  v028
@@ -674,7 +683,7 @@ Label_01003D2B:
  BYTE   W36
 //  #03 //004   ----------------------------------------
  BYTE   PATT
-  POIN2 Label_01003D2B
+  POIN2 Label_546708
 //  #03 //005   ----------------------------------------
  BYTE   N09  Bn2  v108
  BYTE   N08  Dn3  v112
@@ -748,7 +757,7 @@ Label_01003D2B:
  BYTE   VOICE   48
  BYTE   N12  Bn2  v028
  BYTE   W24
- BYTE   VOL   49*FriendshipAndAdventure_mvl/mxv
+ BYTE   VOL   45*FriendshipAndAdventure_mvl/mxv
  BYTE   PAN   c_v-14
  BYTE   N23  En2  v112
  BYTE   W24
@@ -908,6 +917,9 @@ Label_01003D2B:
  BYTE   W96
 //  #03 //032   ----------------------------------------
  BYTE   W96
+//  #03 //033   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_5466C2
  BYTE   FINE
 
 //**************** Track 4 (Midi-Chn.3) ****************//
@@ -915,8 +927,9 @@ Label_01003D2B:
 FriendshipAndAdventure_004:
 //  #04 //000   ----------------------------------------
  BYTE   KEYSH   FriendshipAndAdventure_key+0
+Label_5473BE:
  BYTE   VOICE   47
- BYTE   VOL   0*FriendshipAndAdventure_mvl/mxv
+ BYTE   VOL   45*FriendshipAndAdventure_mvl/mxv
  BYTE   PAN   c_v-3
  BYTE   N48  An2  v116
  BYTE   W96
@@ -1096,6 +1109,9 @@ FriendshipAndAdventure_004:
  BYTE   W72
  BYTE   N19  En2  v112
  BYTE   W24
+//  #04 //033   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_5473BE
  BYTE   FINE
 
 //**************** Track 5 (Midi-Chn.4) ****************//
@@ -1103,6 +1119,7 @@ FriendshipAndAdventure_004:
 FriendshipAndAdventure_005:
 //  #05 //000   ----------------------------------------
  BYTE   KEYSH   FriendshipAndAdventure_key+0
+Label_547976:
  BYTE   VOICE   18
  BYTE   W96
 //  #05 //001   ----------------------------------------
@@ -1123,7 +1140,7 @@ FriendshipAndAdventure_005:
  BYTE   W96
 //  #05 //009   ----------------------------------------
  BYTE   W72
- BYTE   VOL   45*FriendshipAndAdventure_mvl/mxv
+ BYTE   VOL   42*FriendshipAndAdventure_mvl/mxv
  BYTE   PAN   c_v-6
  BYTE   W24
 //  #05 //010   ----------------------------------------
@@ -1224,6 +1241,9 @@ FriendshipAndAdventure_005:
  BYTE   W96
 //  #05 //032   ----------------------------------------
  BYTE   W96
+//  #05 //033   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_547976
  BYTE   FINE
 
 //**************** Track 6 (Midi-Chn.5) ****************//
@@ -1231,11 +1251,12 @@ FriendshipAndAdventure_005:
 FriendshipAndAdventure_006:
 //  #06 //000   ----------------------------------------
  BYTE   KEYSH   FriendshipAndAdventure_key+0
+Label_5468D2:
+ BYTE   VOICE   48
  BYTE   W96
 //  #06 //001   ----------------------------------------
  BYTE   W72
- BYTE   VOICE   48
- BYTE   VOL   47*FriendshipAndAdventure_mvl/mxv
+ BYTE   VOL   44*FriendshipAndAdventure_mvl/mxv
  BYTE   PAN   c_v-16
  BYTE   W24
 //  #06 //002   ----------------------------------------
@@ -1280,7 +1301,6 @@ FriendshipAndAdventure_006:
  BYTE   Cs2
  BYTE   W16
 //  #06 //008   ----------------------------------------
- BYTE   VOICE   48
  BYTE   N92  An1  v108
  BYTE   W96
 //  #06 //009   ----------------------------------------
@@ -1295,7 +1315,6 @@ FriendshipAndAdventure_006:
  BYTE   EOT
  BYTE   W17
 //  #06 //012   ----------------------------------------
- BYTE   VOICE   48
  BYTE   W72
  BYTE   N44  En3  v112
  BYTE   W24
@@ -1439,6 +1458,9 @@ FriendshipAndAdventure_006:
  BYTE   W96
 //  #06 //032   ----------------------------------------
  BYTE   W96
+//  #06 //033   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_5468D2
  BYTE   FINE
 
 //**************** Track 7 (Midi-Chn.6) ****************//
@@ -1446,8 +1468,9 @@ FriendshipAndAdventure_006:
 FriendshipAndAdventure_007:
 //  #07 //000   ----------------------------------------
  BYTE   KEYSH   FriendshipAndAdventure_key+0
+Label_546E4E:
  BYTE   VOICE   127
- BYTE   VOL   40*FriendshipAndAdventure_mvl/mxv
+ BYTE   VOL   39*FriendshipAndAdventure_mvl/mxv
  BYTE   PAN   c_v-14
  BYTE   N15  Cn1  v116
  BYTE   W24
@@ -1815,6 +1838,9 @@ FriendshipAndAdventure_007:
  BYTE   W48
  BYTE   N24  Dn1  v127
  BYTE   W24
+//  #07 //033   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_546E4E
  BYTE   FINE
 
 //******************************************************//

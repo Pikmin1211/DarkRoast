@@ -612,19 +612,19 @@ Enfeeble[X]
 TBD[X]
 
 ## ZombieStaffName
-S. Staff Zom[X]
+S. Zombie[X]
 
 ## ZombieStaffDesc
 Summons ally Revenant.[X]
 
 ## BonewalkerStaffName
-S. Staff Bone[X]
+S. Bonewalker[X]
 
 ## BonewalkerStaffDesc
 Summons ally bonewalker.[X]
 
 ## WightStaffName
-S. Staff W[X]
+S. Wight[X]
 
 ## WightStaffDesc
 Summons ally wight.[X]
