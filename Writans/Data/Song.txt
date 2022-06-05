@@ -342,3 +342,6 @@ DWM2 - Battle[X]
 
 ## BattleToadSurf_Name
 Battletoads - Surf[X]
+
+## MULETheme_Name
+M.U.L.E. - Theme[X]

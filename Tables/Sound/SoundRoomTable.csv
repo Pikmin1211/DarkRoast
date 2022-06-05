@@ -184,4 +184,5 @@ SoundRoomTable,songNumber,songLength,displayCondition,songName
 181,KBBBoss_Song,0,0x0,KBBBoss_Name
 182,BattleToadsSurf_Song,0,0x0,BattleToadsSurf_Name
 183,DWM2Battle_Song,0,0x0,DWM2Battle_Name
+184,MULETheme_Song,0,0x0,MULETheme_Name
 TERMINATOR,0xFFFFFFFF,0,0x0,0x0
