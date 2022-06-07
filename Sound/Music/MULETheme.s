@@ -1,29 +1,29 @@
 	.include "MPlayDef.s"
 
-	.equ	song02_grp, voicegroup000
-	.equ	song02_pri, 0
-	.equ	song02_rev, 0
-	.equ	song02_mvl, 127
-	.equ	song02_key, 0
-	.equ	song02_tbs, 1
-	.equ	song02_exg, 0
-	.equ	song02_cmp, 1
+	.equ	MULETheme_grp, voicegroup000
+	.equ	MULETheme_pri, 0
+	.equ	MULETheme_rev, 0
+	.equ	MULETheme_mvl, 127
+	.equ	MULETheme_key, 0
+	.equ	MULETheme_tbs, 1
+	.equ	MULETheme_exg, 0
+	.equ	MULETheme_cmp, 1
 
 	.section .rodata
-	.global	song02
+	.global	MULETheme
 	.align	2
 
 
 @**************** Track 1 (Midi-Chn.0) ****************@
 
-song02_001:
+MULETheme_001:
 @  #01 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
- .byte   TEMPO , 154*song02_tbs/2
+ .byte   KEYSH , MULETheme_key+0
+ .byte   TEMPO , 154*MULETheme_tbs/2
  .byte   VOICE , 38
  .byte   MODT 0
  .byte   LFOS 44
- .byte   VOL , 80*song02_mvl/mxv
+ .byte   VOL , 80*MULETheme_mvl/mxv
  .byte   PAN , c_v-14
  .byte   W96
 @  #01 @001   ----------------------------------------
@@ -567,13 +567,13 @@ Label_01178A72:
 
 @**************** Track 2 (Midi-Chn.1) ****************@
 
-song02_002:
+MULETheme_002:
 @  #02 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , MULETheme_key+0
  .byte   VOICE , 29
  .byte   MODT 0
  .byte   LFOS 44
- .byte   VOL , 80*song02_mvl/mxv
+ .byte   VOL , 80*MULETheme_mvl/mxv
  .byte   PAN , c_v+8
  .byte   W96
 @  #02 @001   ----------------------------------------
@@ -993,13 +993,13 @@ Label_5477F9:
 
 @**************** Track 3 (Midi-Chn.2) ****************@
 
-song02_003:
+MULETheme_003:
 @  #03 @000   ----------------------------------------
- .byte   KEYSH , song02_key+0
+ .byte   KEYSH , MULETheme_key+0
  .byte   VOICE , 127
  .byte   MODT 0
  .byte   LFOS 44
- .byte   VOL , 80*song02_mvl/mxv
+ .byte   VOL , 80*MULETheme_mvl/mxv
  .byte   N05 ,Cn1 ,v096
  .byte   N05 ,Fs1 ,v088
  .byte   W12
@@ -2236,16 +2236,16 @@ Label_01179623:
 @******************************************************@
 	.align	2
 
-song02:
+MULETheme:
 	.byte	3	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	song02_pri	@ Priority
-	.byte	song02_rev	@ Reverb.
+	.byte	MULETheme_pri	@ Priority
+	.byte	MULETheme_rev	@ Reverb.
     
-	.word	song02_grp
+	.word	MULETheme_grp
     
-	.word	song02_001
-	.word	song02_002
-	.word	song02_003
+	.word	MULETheme_001
+	.word	MULETheme_002
+	.word	MULETheme_003
 
 	.end

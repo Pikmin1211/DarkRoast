@@ -100,7 +100,7 @@ and heading towards the eastern coast.[A]
 But of course, of course.[N]
 Right this way.[A][X]
 
-## Chapter_03_Opening_3 // inside the village center, show map
+## Chapter_02_Opening_3 // inside the village center, show map
 
 [ConversationText]
 [OpenLeft][LoadOlmos][OpenFarLeft][LoadFlor][CloseEyes][OpenRight][LoadDomingo][CloseEyes][OpenFarRight][LoadLuz][CloseEyes]

@@ -13,6 +13,6 @@ Test.[A][X]
 #include "Data/Item.txt"
 #include "Data/Song.txt"
 #include "Data/GuideText.txt"
-//#include "Data/StatScreenDesc.txt
+#include "Data/StatScreenDesc.txt
 
 #include "Chapter/_ChapterScripts.txt"

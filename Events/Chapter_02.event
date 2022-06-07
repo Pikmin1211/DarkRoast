@@ -139,15 +139,6 @@ Traps2:
 	ALIGN 4
 
 BeginningScene:
-	LOAD2 0x1 Units1
-	ENUN
-	LOAD1 0x1 ExtraUnits
-	ENUN
-	LOAD1 0x1 ShrineUnits
-	ENUN
-	LOAD1 0x1 EnemyUnits
-	ENUN
-	
 	MUSC Grim_Journey
 	Background(Outside_Village_Day)
 	Text(Chapter_02_Opening_1)
