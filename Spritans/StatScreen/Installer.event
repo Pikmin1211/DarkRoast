@@ -1,11 +1,11 @@
 //Stat Screen
 PUSH
-ORG 0xA03368
+ORG $088638
 #incbin "screen.dmp"
-ORG 0xA05F10
-#incbin "StatScreenTSA.bin"
-ORG 0xA06460
-#incbin "screen_pal.dmp"
-ORG 0x88590
+ORG $088644
+#incext png2dmp "screen.png" --lz77
+ORG $088640
+#incbin "palette.dmp"
+ORG $088590
 BYTE 0 0 0 0
 POP
