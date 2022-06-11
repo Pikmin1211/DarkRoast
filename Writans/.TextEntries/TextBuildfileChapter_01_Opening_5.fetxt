@@ -1,6 +1,8 @@
 [ConversationText]
 [OpenLeft][LoadOlmos][OpenFarLeft][LoadFlor]
-Their commander is standing by the inn. If we can seize it, the rest should disperse.
+Lord Olmos, remember, if we lose you, it's trouble for all of us. Let Guadalupe and I weaken the enemies at full strength so they're easier for you and the boys to take on.
 [OpenLeft]
-... Right. Let's make our way for the inn.
+[Beat] Right. Let's make our way for the inn.
+[OpenRight]
+
 [X]

@@ -92,412 +92,428 @@ UnarmedAnim(BishopUnarmedAnim)
 EndAnim
 
 ALIGN 4
+BossAnimEntry:
+#define BossSwordAnim 0xdd
+SwordAnim(BossSwordAnim)
+#define BossUnarmedAnim 0xde
+UnarmedAnim(BossUnarmedAnim)
+EndAnim
+
+ALIGN 4
 CavalierAnimEntry:
-#define CavalierAxeAnim 0xdd
+#define CavalierAxeAnim 0xdf
 AxeAnim(CavalierAxeAnim)
-#define CavalierHandAxeAnim 0xde
+#define CavalierHandAxeAnim 0xe0
 HandAxeAnim(CavalierHandAxeAnim)
-#define CavalierLanceAnim 0xdf
+#define CavalierLanceAnim 0xe1
 LanceAnim(CavalierLanceAnim)
-#define CavalierSwordAnim 0xe0
+#define CavalierSwordAnim 0xe2
 SwordAnim(CavalierSwordAnim)
-#define CavalierUnarmedAnim 0xe1
+#define CavalierUnarmedAnim 0xe3
 UnarmedAnim(CavalierUnarmedAnim)
 EndAnim
 
 ALIGN 4
 ChiefAnimEntry:
-#define ChiefAxeAnim 0xe2
+#define ChiefAxeAnim 0xe4
 AxeAnim(ChiefAxeAnim)
-#define ChiefHandAxeAnim 0xe3
+#define ChiefHandAxeAnim 0xe5
 HandAxeAnim(ChiefHandAxeAnim)
-#define ChiefMagicAnim 0xe4
+#define ChiefMagicAnim 0xe6
 MagicAnim(ChiefMagicAnim)
-#define ChiefUnarmedAnim 0xe5
+#define ChiefUnarmedAnim 0xe7
 UnarmedAnim(ChiefUnarmedAnim)
 EndAnim
 
 ALIGN 4
 CurateAnimEntry:
-#define CurateMagicAnim 0xe6
+#define CurateMagicAnim 0xe8
 MagicAnim(CurateMagicAnim)
 EndAnim
 
 ALIGN 4
 DeserterAnimEntry:
-#define DeserterLanceAnim 0xe7
+#define DeserterLanceAnim 0xe9
 LanceAnim(DeserterLanceAnim)
-#define DeserterUnarmedAnim 0xe8
+#define DeserterUnarmedAnim 0xea
 UnarmedAnim(DeserterUnarmedAnim)
 EndAnim
 
 ALIGN 4
 Deserter_FAnimEntry:
-#define Deserter_FLanceAnim 0xe9
+#define Deserter_FLanceAnim 0xeb
 LanceAnim(Deserter_FLanceAnim)
-#define Deserter_FUnarmedAnim 0xea
+#define Deserter_FUnarmedAnim 0xec
 UnarmedAnim(Deserter_FUnarmedAnim)
 EndAnim
 
 ALIGN 4
 DiabolistAnimEntry:
-#define DiabolistDaggerAnim 0xeb
+#define DiabolistDaggerAnim 0xed
 DaggerAnim(DiabolistDaggerAnim)
-#define DiabolistMagicAnim 0xec
+#define DiabolistMagicAnim 0xee
 MagicAnim(DiabolistMagicAnim)
-#define DiabolistUnarmedAnim 0xed
+#define DiabolistUnarmedAnim 0xef
 UnarmedAnim(DiabolistUnarmedAnim)
 EndAnim
 
 ALIGN 4
 DragoonAnimEntry:
-#define DragoonLanceAnim 0xee
+#define DragoonLanceAnim 0xf0
 LanceAnim(DragoonLanceAnim)
-#define DragoonUnarmedAnim 0xef
+#define DragoonUnarmedAnim 0xf1
 UnarmedAnim(DragoonUnarmedAnim)
 EndAnim
 
 ALIGN 4
 Fighter_FAnimEntry:
-#define Fighter_FAxeAnim 0xf0
+#define Fighter_FAxeAnim 0xf2
 AxeAnim(Fighter_FAxeAnim)
-#define Fighter_FHandAxeAnim 0xf1
+#define Fighter_FHandAxeAnim 0xf3
 HandAxeAnim(Fighter_FHandAxeAnim)
-#define Fighter_FUnarmedAnim 0xf2
+#define Fighter_FUnarmedAnim 0xf4
 UnarmedAnim(Fighter_FUnarmedAnim)
 EndAnim
 
 ALIGN 4
 GeneralAnimEntry:
-#define GeneralAxeAnim 0xf3
+#define GeneralAxeAnim 0xf5
 AxeAnim(GeneralAxeAnim)
-#define GeneralBowAnim 0xf4
+#define GeneralBowAnim 0xf6
 BowAnim(GeneralBowAnim)
-#define GeneralHandAxeAnim 0xf5
+#define GeneralHandAxeAnim 0xf7
 HandAxeAnim(GeneralHandAxeAnim)
-#define GeneralLanceAnim 0xf6
+#define GeneralLanceAnim 0xf8
 LanceAnim(GeneralLanceAnim)
-#define GeneralSwordAnim 0xf7
+#define GeneralSwordAnim 0xf9
 SwordAnim(GeneralSwordAnim)
-#define GeneralUnarmedAnim 0xf8
+#define GeneralUnarmedAnim 0xfa
 UnarmedAnim(GeneralUnarmedAnim)
 EndAnim
 
 ALIGN 4
 GrassrunnerAnimEntry:
-#define GrassrunnerBowAnim 0xf9
+#define GrassrunnerBowAnim 0xfb
 BowAnim(GrassrunnerBowAnim)
-#define GrassrunnerUnarmedAnim 0xfa
+#define GrassrunnerUnarmedAnim 0xfc
 UnarmedAnim(GrassrunnerUnarmedAnim)
 EndAnim
 
 ALIGN 4
 Grassrunner_FAnimEntry:
-#define Grassrunner_FBowAnim 0xfb
+#define Grassrunner_FBowAnim 0xfd
 BowAnim(Grassrunner_FBowAnim)
-#define Grassrunner_FUnarmedAnim 0xfc
+#define Grassrunner_FUnarmedAnim 0xfe
 UnarmedAnim(Grassrunner_FUnarmedAnim)
 EndAnim
 
 ALIGN 4
 GuardAnimEntry:
-#define GuardAxeAnim 0xfd
+#define GuardAxeAnim 0xff
 AxeAnim(GuardAxeAnim)
-#define GuardHandAxeAnim 0xfe
+#define GuardHandAxeAnim 0x100
 HandAxeAnim(GuardHandAxeAnim)
-#define GuardUnarmedAnim 0xff
+#define GuardUnarmedAnim 0x101
 UnarmedAnim(GuardUnarmedAnim)
 EndAnim
 
 ALIGN 4
 HalberdierAnimEntry:
-#define HalberdierAxeAnim 0x100
+#define HalberdierAxeAnim 0x102
 AxeAnim(HalberdierAxeAnim)
-#define HalberdierHandAxeAnim 0x101
+#define HalberdierHandAxeAnim 0x103
 HandAxeAnim(HalberdierHandAxeAnim)
-#define HalberdierLanceAnim 0x102
+#define HalberdierLanceAnim 0x104
 LanceAnim(HalberdierLanceAnim)
-#define HalberdierUnarmedAnim 0x103
+#define HalberdierUnarmedAnim 0x105
 UnarmedAnim(HalberdierUnarmedAnim)
 EndAnim
 
 ALIGN 4
 Hero_FAnimEntry:
-#define Hero_FAxeAnim 0x104
+#define Hero_FAxeAnim 0x106
 AxeAnim(Hero_FAxeAnim)
-#define Hero_FHandAxeAnim 0x105
+#define Hero_FHandAxeAnim 0x107
 HandAxeAnim(Hero_FHandAxeAnim)
-#define Hero_FSwordAnim 0x106
+#define Hero_FSwordAnim 0x108
 SwordAnim(Hero_FSwordAnim)
-#define Hero_FUnarmedAnim 0x107
+#define Hero_FUnarmedAnim 0x109
 UnarmedAnim(Hero_FUnarmedAnim)
 EndAnim
 
 ALIGN 4
 HunterAnimEntry:
-#define HunterBowAnim 0x108
+#define HunterBowAnim 0x10a
 BowAnim(HunterBowAnim)
-#define HunterUnarmedAnim 0x109
+#define HunterUnarmedAnim 0x10b
 UnarmedAnim(HunterUnarmedAnim)
 EndAnim
 
 ALIGN 4
 LordAnimEntry:
-#define LordSwordAnim 0x10a
+#define LordSwordAnim 0x10c
 SwordAnim(LordSwordAnim)
-#define LordUnarmedAnim 0x10b
+#define LordUnarmedAnim 0x10d
 UnarmedAnim(LordUnarmedAnim)
 EndAnim
 
 ALIGN 4
 MageKnightAnimEntry:
-#define MageKnightMagicAnim 0x10c
+#define MageKnightMagicAnim 0x10e
 MagicAnim(MageKnightMagicAnim)
-#define MageKnightStaffAnim 0x10d
+#define MageKnightStaffAnim 0x10f
 StaffAnim(MageKnightStaffAnim)
 EndAnim
 
 ALIGN 4
 MercenaryAnimEntry:
-#define MercenarySwordAnim 0x10e
+#define MercenarySwordAnim 0x110
 SwordAnim(MercenarySwordAnim)
-#define MercenaryUnarmedAnim 0x10f
+#define MercenaryUnarmedAnim 0x111
 UnarmedAnim(MercenaryUnarmedAnim)
 EndAnim
 
 ALIGN 4
 Mercenary_FAnimEntry:
-#define Mercenary_FSwordAnim 0x110
+#define Mercenary_FSwordAnim 0x112
 SwordAnim(Mercenary_FSwordAnim)
-#define Mercenary_FUnarmedAnim 0x111
+#define Mercenary_FUnarmedAnim 0x113
 UnarmedAnim(Mercenary_FUnarmedAnim)
 EndAnim
 
 ALIGN 4
 MyrmidonAnimEntry:
-#define MyrmidonSwordAnim 0x112
+#define MyrmidonSwordAnim 0x114
 SwordAnim(MyrmidonSwordAnim)
-#define MyrmidonUnarmedAnim 0x113
+#define MyrmidonUnarmedAnim 0x115
 UnarmedAnim(MyrmidonUnarmedAnim)
 EndAnim
 
 ALIGN 4
 NomadAnimEntry:
-#define NomadBowAnim 0x114
+#define NomadBowAnim 0x116
 BowAnim(NomadBowAnim)
-#define NomadUnarmedAnim 0x115
+#define NomadUnarmedAnim 0x117
 UnarmedAnim(NomadUnarmedAnim)
 EndAnim
 
 ALIGN 4
 NomadTrooperAnimEntry:
-#define NomadTrooperBowAnim 0x116
+#define NomadTrooperBowAnim 0x118
 BowAnim(NomadTrooperBowAnim)
-#define NomadTrooperSwordAnim 0x117
+#define NomadTrooperSwordAnim 0x119
 SwordAnim(NomadTrooperSwordAnim)
-#define NomadTrooperUnarmedAnim 0x118
+#define NomadTrooperUnarmedAnim 0x11a
 UnarmedAnim(NomadTrooperUnarmedAnim)
 EndAnim
 
 ALIGN 4
 NomadTrooper_FAnimEntry:
-#define NomadTrooper_FBowAnim 0x119
+#define NomadTrooper_FBowAnim 0x11b
 BowAnim(NomadTrooper_FBowAnim)
-#define NomadTrooper_FSwordAnim 0x11a
+#define NomadTrooper_FSwordAnim 0x11c
 SwordAnim(NomadTrooper_FSwordAnim)
-#define NomadTrooper_FUnarmedAnim 0x11b
+#define NomadTrooper_FUnarmedAnim 0x11d
 UnarmedAnim(NomadTrooper_FUnarmedAnim)
 EndAnim
 
 ALIGN 4
 Nomad_FAnimEntry:
-#define Nomad_FBowAnim 0x11c
+#define Nomad_FBowAnim 0x11e
 BowAnim(Nomad_FBowAnim)
-#define Nomad_FUnarmedAnim 0x11d
+#define Nomad_FUnarmedAnim 0x11f
 UnarmedAnim(Nomad_FUnarmedAnim)
 EndAnim
 
 ALIGN 4
 Ohtli_FAnimEntry:
-#define Ohtli_FAxeAnim 0x11e
+#define Ohtli_FAxeAnim 0x120
 AxeAnim(Ohtli_FAxeAnim)
-#define Ohtli_FHandAxeAnim 0x11f
+#define Ohtli_FHandAxeAnim 0x121
 HandAxeAnim(Ohtli_FHandAxeAnim)
-#define Ohtli_FUnarmedAnim 0x120
+#define Ohtli_FUnarmedAnim 0x122
 UnarmedAnim(Ohtli_FUnarmedAnim)
 EndAnim
 
 ALIGN 4
 OutlawAnimEntry:
-#define OutlawBowAnim 0x121
+#define OutlawBowAnim 0x123
 BowAnim(OutlawBowAnim)
-#define OutlawUnarmedAnim 0x122
+#define OutlawUnarmedAnim 0x124
 UnarmedAnim(OutlawUnarmedAnim)
 EndAnim
 
 ALIGN 4
 Outlaw_FAnimEntry:
-#define Outlaw_FBowAnim 0x123
+#define Outlaw_FBowAnim 0x125
 BowAnim(Outlaw_FBowAnim)
-#define Outlaw_FUnarmedAnim 0x124
+#define Outlaw_FUnarmedAnim 0x126
 UnarmedAnim(Outlaw_FUnarmedAnim)
 EndAnim
 
 ALIGN 4
 PaladinAnimEntry:
-#define PaladinAxeAnim 0x125
+#define PaladinAxeAnim 0x127
 AxeAnim(PaladinAxeAnim)
-#define PaladinHandAxeAnim 0x126
+#define PaladinHandAxeAnim 0x128
 HandAxeAnim(PaladinHandAxeAnim)
-#define PaladinLanceAnim 0x127
+#define PaladinLanceAnim 0x129
 LanceAnim(PaladinLanceAnim)
-#define PaladinSwordAnim 0x128
+#define PaladinSwordAnim 0x12a
 SwordAnim(PaladinSwordAnim)
-#define PaladinUnarmedAnim 0x129
+#define PaladinUnarmedAnim 0x12b
 UnarmedAnim(PaladinUnarmedAnim)
 EndAnim
 
 ALIGN 4
 PirateAnimEntry:
-#define PirateAxeAnim 0x12a
+#define PirateAxeAnim 0x12c
 AxeAnim(PirateAxeAnim)
-#define PirateHandAxeAnim 0x12b
+#define PirateHandAxeAnim 0x12d
 HandAxeAnim(PirateHandAxeAnim)
-#define PirateUnarmedAnim 0x12c
+#define PirateUnarmedAnim 0x12e
 UnarmedAnim(PirateUnarmedAnim)
 EndAnim
 
 ALIGN 4
 Pirate_FAnimEntry:
-#define Pirate_FAxeAnim 0x12d
+#define Pirate_FAxeAnim 0x12f
 AxeAnim(Pirate_FAxeAnim)
-#define Pirate_FHandAxeAnim 0x12e
+#define Pirate_FHandAxeAnim 0x130
 HandAxeAnim(Pirate_FHandAxeAnim)
-#define Pirate_FUnarmedAnim 0x12f
+#define Pirate_FUnarmedAnim 0x131
 UnarmedAnim(Pirate_FUnarmedAnim)
 EndAnim
 
 ALIGN 4
+RoughneckAnimEntry:
+#define RoughneckSwordAnim 0x132
+SwordAnim(RoughneckSwordAnim)
+#define RoughneckUnarmedAnim 0x133
+UnarmedAnim(RoughneckUnarmedAnim)
+EndAnim
+
+ALIGN 4
 SageAnimEntry:
-#define SageDaggerAnim 0x130
+#define SageDaggerAnim 0x134
 DaggerAnim(SageDaggerAnim)
-#define SageMagicAnim 0x131
+#define SageMagicAnim 0x135
 MagicAnim(SageMagicAnim)
-#define SageStaffAnim 0x132
+#define SageStaffAnim 0x136
 StaffAnim(SageStaffAnim)
-#define SageUnarmedAnim 0x133
+#define SageUnarmedAnim 0x137
 UnarmedAnim(SageUnarmedAnim)
 EndAnim
 
 ALIGN 4
 Sage_FAnimEntry:
-#define Sage_FDaggerAnim 0x134
+#define Sage_FDaggerAnim 0x138
 DaggerAnim(Sage_FDaggerAnim)
-#define Sage_FMagicAnim 0x135
+#define Sage_FMagicAnim 0x139
 MagicAnim(Sage_FMagicAnim)
-#define Sage_FStaffAnim 0x136
+#define Sage_FStaffAnim 0x13a
 StaffAnim(Sage_FStaffAnim)
-#define Sage_FUnarmedAnim 0x137
+#define Sage_FUnarmedAnim 0x13b
 UnarmedAnim(Sage_FUnarmedAnim)
 EndAnim
 
 ALIGN 4
 SoldierAnimEntry:
-#define SoldierLanceAnim 0x138
+#define SoldierLanceAnim 0x13c
 LanceAnim(SoldierLanceAnim)
-#define SoldierUnarmedAnim 0x139
+#define SoldierUnarmedAnim 0x13d
 UnarmedAnim(SoldierUnarmedAnim)
 EndAnim
 
 ALIGN 4
 Soldier_FAnimEntry:
-#define Soldier_FLanceAnim 0x13a
+#define Soldier_FLanceAnim 0x13e
 LanceAnim(Soldier_FLanceAnim)
-#define Soldier_FUnarmedAnim 0x13b
+#define Soldier_FUnarmedAnim 0x13f
 UnarmedAnim(Soldier_FUnarmedAnim)
 EndAnim
 
 ALIGN 4
 StaffMageAnimEntry:
-#define StaffMageMagicAnim 0x13c
+#define StaffMageMagicAnim 0x140
 MagicAnim(StaffMageMagicAnim)
 EndAnim
 
 ALIGN 4
 TentAnimEntry:
-#define TentUnarmedAnim 0x13d
+#define TentUnarmedAnim 0x141
 UnarmedAnim(TentUnarmedAnim)
 EndAnim
 
 ALIGN 4
 ThiefAnimEntry:
-#define ThiefDaggerAnim 0x13e
+#define ThiefDaggerAnim 0x142
 DaggerAnim(ThiefDaggerAnim)
-#define ThiefUnarmedAnim 0x13f
+#define ThiefUnarmedAnim 0x143
 UnarmedAnim(ThiefUnarmedAnim)
 EndAnim
 
 ALIGN 4
 Thief_FAnimEntry:
-#define Thief_FDaggerAnim 0x140
+#define Thief_FDaggerAnim 0x144
 DaggerAnim(Thief_FDaggerAnim)
-#define Thief_FUnarmedAnim 0x141
+#define Thief_FUnarmedAnim 0x145
 UnarmedAnim(Thief_FUnarmedAnim)
 EndAnim
 
 ALIGN 4
 Troubadour_MAnimEntry:
-#define Troubadour_MStaffAnim 0x142
+#define Troubadour_MStaffAnim 0x146
 StaffAnim(Troubadour_MStaffAnim)
-#define Troubadour_MUnarmedAnim 0x143
+#define Troubadour_MUnarmedAnim 0x147
 UnarmedAnim(Troubadour_MUnarmedAnim)
 EndAnim
 
 ALIGN 4
 WarClericAnimEntry:
-#define WarClericAxeAnim 0x144
+#define WarClericAxeAnim 0x148
 AxeAnim(WarClericAxeAnim)
-#define WarClericHandAxeAnim 0x145
+#define WarClericHandAxeAnim 0x149
 HandAxeAnim(WarClericHandAxeAnim)
-#define WarClericStaffAnim 0x146
+#define WarClericStaffAnim 0x14a
 StaffAnim(WarClericStaffAnim)
-#define WarClericUnarmedAnim 0x147
+#define WarClericUnarmedAnim 0x14b
 UnarmedAnim(WarClericUnarmedAnim)
 EndAnim
 
 ALIGN 4
 WarMonkAnimEntry:
-#define WarMonkAxeAnim 0x148
+#define WarMonkAxeAnim 0x14c
 AxeAnim(WarMonkAxeAnim)
-#define WarMonkHandAxeAnim 0x149
+#define WarMonkHandAxeAnim 0x14d
 HandAxeAnim(WarMonkHandAxeAnim)
-#define WarMonkStaffAnim 0x14a
+#define WarMonkStaffAnim 0x14e
 StaffAnim(WarMonkStaffAnim)
-#define WarMonkUnarmedAnim 0x14b
+#define WarMonkUnarmedAnim 0x14f
 UnarmedAnim(WarMonkUnarmedAnim)
 EndAnim
 
 ALIGN 4
 WarriorAnimEntry:
-#define WarriorAxeAnim 0x14c
+#define WarriorAxeAnim 0x150
 AxeAnim(WarriorAxeAnim)
-#define WarriorBowAnim 0x14d
+#define WarriorBowAnim 0x151
 BowAnim(WarriorBowAnim)
-#define WarriorHandAxeAnim 0x14e
+#define WarriorHandAxeAnim 0x152
 HandAxeAnim(WarriorHandAxeAnim)
-#define WarriorUnarmedAnim 0x14f
+#define WarriorUnarmedAnim 0x153
 UnarmedAnim(WarriorUnarmedAnim)
 EndAnim
 
 ALIGN 4
 Warrior_FAnimEntry:
-#define Warrior_FAxeAnim 0x150
+#define Warrior_FAxeAnim 0x154
 AxeAnim(Warrior_FAxeAnim)
-#define Warrior_FBowAnim 0x151
+#define Warrior_FBowAnim 0x155
 BowAnim(Warrior_FBowAnim)
-#define Warrior_FHandAxeAnim 0x152
+#define Warrior_FHandAxeAnim 0x156
 HandAxeAnim(Warrior_FHandAxeAnim)
-#define Warrior_FUnarmedAnim 0x153
+#define Warrior_FUnarmedAnim 0x157
 UnarmedAnim(Warrior_FUnarmedAnim)
 EndAnim
 
@@ -557,6 +573,12 @@ EndAnim
 }
 {
 #include "Bishop\Unarmed Installer.event"
+}
+{
+#include "Boss\Sword Installer.event"
+}
+{
+#include "Boss\Unarmed Installer.event"
 }
 {
 #include "Cavalier\Axe Installer.event"
@@ -806,6 +828,12 @@ EndAnim
 }
 {
 #include "Pirate_F\Unarmed Installer.event"
+}
+{
+#include "Roughneck\Sword Installer.event"
+}
+{
+#include "Roughneck\Unarmed Installer.event"
 }
 {
 #include "Sage\Dagger Installer.event"

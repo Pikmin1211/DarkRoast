@@ -48,7 +48,16 @@ BallisticianCardPalette:
 #incbin "dmp\Ballistician_pal.dmp"
 setCardEntry(BallisticianCard, BallisticianCardData, BallisticianCardPalette)
 
-#define BowArmorCard 0x155
+#define BossCard 0x155
+ALIGN 4
+BossCardData:
+#incbin "dmp\Boss.dmp"
+ALIGN 4
+BossCardPalette:
+#incbin "dmp\Boss_pal.dmp"
+setCardEntry(BossCard, BossCardData, BossCardPalette)
+
+#define BowArmorCard 0x156
 ALIGN 4
 BowArmorCardData:
 #incbin "dmp\BowArmor.dmp"
@@ -57,7 +66,7 @@ BowArmorCardPalette:
 #incbin "dmp\BowArmor_pal.dmp"
 setCardEntry(BowArmorCard, BowArmorCardData, BowArmorCardPalette)
 
-#define ChickenCard 0x156
+#define ChickenCard 0x157
 ALIGN 4
 ChickenCardData:
 #incbin "dmp\Chicken.dmp"
@@ -66,7 +75,7 @@ ChickenCardPalette:
 #incbin "dmp\Chicken_pal.dmp"
 setCardEntry(ChickenCard, ChickenCardData, ChickenCardPalette)
 
-#define DeserterCard 0x157
+#define DeserterCard 0x158
 ALIGN 4
 DeserterCardData:
 #incbin "dmp\Deserter.dmp"
@@ -75,7 +84,7 @@ DeserterCardPalette:
 #incbin "dmp\Deserter_pal.dmp"
 setCardEntry(DeserterCard, DeserterCardData, DeserterCardPalette)
 
-#define DragoonCard 0x158
+#define DragoonCard 0x159
 ALIGN 4
 DragoonCardData:
 #incbin "dmp\Dragoon.dmp"
@@ -84,7 +93,7 @@ DragoonCardPalette:
 #incbin "dmp\Dragoon_pal.dmp"
 setCardEntry(DragoonCard, DragoonCardData, DragoonCardPalette)
 
-#define GazelleCard 0x159
+#define GazelleCard 0x15a
 ALIGN 4
 GazelleCardData:
 #incbin "dmp\Gazelle.dmp"
@@ -93,7 +102,7 @@ GazelleCardPalette:
 #incbin "dmp\Gazelle_pal.dmp"
 setCardEntry(GazelleCard, GazelleCardData, GazelleCardPalette)
 
-#define GrassrunnerCard 0x15a
+#define GrassrunnerCard 0x15b
 ALIGN 4
 GrassrunnerCardData:
 #incbin "dmp\Grassrunner.dmp"
@@ -102,7 +111,7 @@ GrassrunnerCardPalette:
 #incbin "dmp\Grassrunner_pal.dmp"
 setCardEntry(GrassrunnerCard, GrassrunnerCardData, GrassrunnerCardPalette)
 
-#define GuardCard 0x15b
+#define GuardCard 0x15c
 ALIGN 4
 GuardCardData:
 #incbin "dmp\Guard.dmp"
@@ -111,7 +120,7 @@ GuardCardPalette:
 #incbin "dmp\Guard_pal.dmp"
 setCardEntry(GuardCard, GuardCardData, GuardCardPalette)
 
-#define HalberdierCard 0x15c
+#define HalberdierCard 0x15d
 ALIGN 4
 HalberdierCardData:
 #incbin "dmp\Halberdier.dmp"
@@ -120,7 +129,7 @@ HalberdierCardPalette:
 #incbin "dmp\Halberdier_pal.dmp"
 setCardEntry(HalberdierCard, HalberdierCardData, HalberdierCardPalette)
 
-#define HorseCard 0x15d
+#define HorseCard 0x15e
 ALIGN 4
 HorseCardData:
 #incbin "dmp\Horse.dmp"
@@ -129,7 +138,7 @@ HorseCardPalette:
 #incbin "dmp\Horse_pal.dmp"
 setCardEntry(HorseCard, HorseCardData, HorseCardPalette)
 
-#define HunterCard 0x15e
+#define HunterCard 0x15f
 ALIGN 4
 HunterCardData:
 #incbin "dmp\Hunter.dmp"
@@ -138,7 +147,7 @@ HunterCardPalette:
 #incbin "dmp\Hunter_pal.dmp"
 setCardEntry(HunterCard, HunterCardData, HunterCardPalette)
 
-#define LogCard 0x15f
+#define LogCard 0x160
 ALIGN 4
 LogCardData:
 #incbin "dmp\Log.dmp"
@@ -147,7 +156,7 @@ LogCardPalette:
 #incbin "dmp\Log_pal.dmp"
 setCardEntry(LogCard, LogCardData, LogCardPalette)
 
-#define MageKnightCard 0x160
+#define MageKnightCard 0x161
 ALIGN 4
 MageKnightCardData:
 #incbin "dmp\MageKnight.dmp"
@@ -156,7 +165,7 @@ MageKnightCardPalette:
 #incbin "dmp\MageKnight_pal.dmp"
 setCardEntry(MageKnightCard, MageKnightCardData, MageKnightCardPalette)
 
-#define NinjaCard 0x161
+#define NinjaCard 0x162
 ALIGN 4
 NinjaCardData:
 #incbin "dmp\Ninja.dmp"
@@ -165,7 +174,7 @@ NinjaCardPalette:
 #incbin "dmp\Ninja_pal.dmp"
 setCardEntry(NinjaCard, NinjaCardData, NinjaCardPalette)
 
-#define OutlawCard 0x162
+#define OutlawCard 0x163
 ALIGN 4
 OutlawCardData:
 #incbin "dmp\Outlaw.dmp"
@@ -174,7 +183,7 @@ OutlawCardPalette:
 #incbin "dmp\Outlaw_pal.dmp"
 setCardEntry(OutlawCard, OutlawCardData, OutlawCardPalette)
 
-#define PumpkinCard 0x163
+#define PumpkinCard 0x164
 ALIGN 4
 PumpkinCardData:
 #incbin "dmp\Pumpkin.dmp"
@@ -183,7 +192,16 @@ PumpkinCardPalette:
 #incbin "dmp\Pumpkin_pal.dmp"
 setCardEntry(PumpkinCard, PumpkinCardData, PumpkinCardPalette)
 
-#define ShrineCard 0x164
+#define RoughneckCard 0x165
+ALIGN 4
+RoughneckCardData:
+#incbin "dmp\Roughneck.dmp"
+ALIGN 4
+RoughneckCardPalette:
+#incbin "dmp\Roughneck_pal.dmp"
+setCardEntry(RoughneckCard, RoughneckCardData, RoughneckCardPalette)
+
+#define ShrineCard 0x166
 ALIGN 4
 ShrineCardData:
 #incbin "dmp\Shrine.dmp"
@@ -192,7 +210,7 @@ ShrineCardPalette:
 #incbin "dmp\Shrine_pal.dmp"
 setCardEntry(ShrineCard, ShrineCardData, ShrineCardPalette)
 
-#define SoldierCard 0x165
+#define SoldierCard 0x167
 ALIGN 4
 SoldierCardData:
 #incbin "dmp\Soldier.dmp"
@@ -201,7 +219,7 @@ SoldierCardPalette:
 #incbin "dmp\Soldier_pal.dmp"
 setCardEntry(SoldierCard, SoldierCardData, SoldierCardPalette)
 
-#define SwordArmorCard 0x166
+#define SwordArmorCard 0x168
 ALIGN 4
 SwordArmorCardData:
 #incbin "dmp\SwordArmor.dmp"
@@ -210,7 +228,7 @@ SwordArmorCardPalette:
 #incbin "dmp\SwordArmor_pal.dmp"
 setCardEntry(SwordArmorCard, SwordArmorCardData, SwordArmorCardPalette)
 
-#define SwordCavalierCard 0x167
+#define SwordCavalierCard 0x169
 ALIGN 4
 SwordCavalierCardData:
 #incbin "dmp\SwordCavalier.dmp"
@@ -219,7 +237,7 @@ SwordCavalierCardPalette:
 #incbin "dmp\SwordCavalier_pal.dmp"
 setCardEntry(SwordCavalierCard, SwordCavalierCardData, SwordCavalierCardPalette)
 
-#define SwordPaladinCard 0x168
+#define SwordPaladinCard 0x16a
 ALIGN 4
 SwordPaladinCardData:
 #incbin "dmp\SwordPaladin.dmp"
@@ -228,7 +246,7 @@ SwordPaladinCardPalette:
 #incbin "dmp\SwordPaladin_pal.dmp"
 setCardEntry(SwordPaladinCard, SwordPaladinCardData, SwordPaladinCardPalette)
 
-#define TentCard 0x169
+#define TentCard 0x16b
 ALIGN 4
 TentCardData:
 #incbin "dmp\Tent.dmp"

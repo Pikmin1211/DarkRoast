@@ -105,7 +105,8 @@ Robles[X]
 
 ## RoblesDesc
 Knight of Poblano.[N]
-Jolly and affable.[X]
+Affable, yet possesses[N]
+a certain intensity.[X]
 
 ## ErlantzName
 Erlantz[X]
@@ -133,10 +134,12 @@ her family proud.[X]
 Ajo[X]
 
 ## AjoDesc
-Pirate serving Fideos.[X]
+Pirate serving Fideos.[N]
+Thinks himself wise.[X]
 
 ## CebollaName
 Cebolla[X]
 
 ## CebollaDesc
-Pirate serving Fieos.[X]
+Pirate serving Fideos.
+Thinks herself cunning.[X]

@@ -99,3 +99,5 @@
 #define Pumpkin 0x8a
 #define Outlaw_F 0x8b
 #define Grassrunner_F 0x8c
+#define Roughneck 0x8d
+#define Boss 0x8e

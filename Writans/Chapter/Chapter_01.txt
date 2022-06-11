@@ -16,17 +16,17 @@ Flor, for the fourth time today, I am fine. Swordplay was part of my curriculum 
 [OpenRight]
 Sassy as always. Good.
 [OpenLeft]
-Strong-willed suits me better, I'd say. Saying I am [OpenQuote]correct" works, too.
+Strong-willed suits me better, I'd say. Saying I am "correct" works, too.
 [OpenRight]
 This is your first errand in some time, Lord Olmos. As your retainer and protector charged by Baron Colome, I'm going to keep asking. 
 [OpenLeft]
 Father trusted me with this task. I still think it's ridiculous how many mercenaries he hired for it. We're just riding a few days to scout the port before he departs. He's chartered a boat and is having council in the north with the other Lords of the island. This is standard fare.
 [OpenRight]
-Failure to execute starts with failure to prepare. You'll certainly be thankful to have their support if anything goes wrong. You're still young, Lord Olmos. Don't assume you know it all. Have an open mind and keep that ego in check. You may see your self a [OpenQuote]proper lord", but you're still made of earthly flesh. When you're inevitably wrong about something, it'll sting less if you keep your fallibility in mind.
+Failure to execute starts with failure to prepare. You'll certainly be thankful to have their support if anything goes wrong. You're still young, Lord Olmos. Don't assume you know it all. Have an open mind and keep that ego in check. You may see your self a "proper lord", but you're still made of earthly flesh. When you're inevitably wrong about something, it'll sting less if you keep your fallibility in mind.
 [OpenLeft]
 I'm glad to see you're even more sagacious than I remember. 
 [OpenRight]
-I'd say experienced suits me best. Saying I am [OpenQuote]correct" works, too.
+I'd say experienced suits me best. Saying I am "correct" works, too.
 [OpenLeft]
 Hmph. I swear my father made you my retainer simply so you could irk me. Are the others coming back soon? They've been gone for quite a while. I don't understand why you sent all of our foot soldiers ahead. I would've sent you first. You have a horse. You'd be faster.
 [OpenRight]

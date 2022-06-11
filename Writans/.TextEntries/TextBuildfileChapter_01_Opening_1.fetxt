@@ -2,23 +2,27 @@
 [OpenLeft][LoadOlmos][OpenRight][LoadFlor]
 Lord Olmos, we've almost arrived at Port Olivera. How are you holding up?
 [OpenLeft]
-Flor, for the fourth time today, I am fine. I know I don't get out of the castle much, but I am more robust than anyone gives me credit for.
+Flor, for the fourth time today, I am fine. Swordplay was part of my curriculum in the academy, you know. I am not the tender youth you once cared for. I've returned from my schooling a man, a proper lord.
 [OpenRight]
 Sassy as always. Good.
 [OpenLeft]
-I prefer strong-willed. Saying I am "correct" works, too.
+Strong-willed suits me better, I'd say. Saying I am "correct" works, too.
 [OpenRight]
-This is your first journey in some time, Lord Olmos. As your retainer and protector charged by your father, I'm going to keep asking. Or else it's my head.
+This is your first errand in some time, Lord Olmos. As your retainer and protector charged by Baron Colome, I'm going to keep asking. 
 [OpenLeft]
 Father trusted me with this task. I still think it's ridiculous how many mercenaries he hired for it. We're just riding a few days to scout the port before he departs. He's chartered a boat and is having council in the north with the other Lords of the island. This is standard fare.
 [OpenRight]
-Well, if anything goes wrong. You'll certainly be thankful. You're still young, Lord Olmos. Don't assume you're always correct. Have an open mind and keep that ego in check. Yes, you're a Lord of House Poblano, but you're still made of earthly flesh. When you're inevitably wrong about something, it'll sting less.
+Failure to execute starts with failure to prepare. You'll certainly be thankful to have their support if anything goes wrong. You're still young, Lord Olmos. Don't assume you know it all. Have an open mind and keep that ego in check. You may see your self a "proper lord", but you're still made of earthly flesh. When you're inevitably wrong about something, it'll sting less if you keep your fallibility in mind.
 [OpenLeft]
-Hmph. We'll see, Flor. Are the others coming back soon? They've been gone for quite a while. I don't understand why you sent all of our foot soldiers ahead. I would've sent you first. You have a horse. You'd be faster.
+I'm glad to see you're even more sagacious than I remember. 
 [OpenRight]
-While your observations about speed are astute, milord, protecting you is my primary objective. Like you said, this is a simple task. Let Guadalupe and the boys handle the scouting today. In fact, I see them approaching now. Look to the south.
+I'd say experienced suits me best. Saying I am "correct" works, too.
 [OpenLeft]
-Oh, I can see them now. Huh? It's just Guadalupe and Zapatera...
+Hmph. I swear my father made you my retainer simply so you could irk me. Are the others coming back soon? They've been gone for quite a while. I don't understand why you sent all of our foot soldiers ahead. I would've sent you first. You have a horse. You'd be faster.
 [OpenRight]
-... Trouble.
+My primary objective is to protect you. Like you said, this is a simple task. Let Guadalupe and the boys handle the scouting today. In fact, I see them approaching now. Look to the south.
+[OpenLeft]
+Oh, I can see them now. Huh? It's just Guadalupe and Zapatera[Beat] 
+[OpenRight]
+[Beat] Trouble.
 [X]

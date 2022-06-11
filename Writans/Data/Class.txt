@@ -457,3 +457,20 @@ Pumpkin[X]
 A cultivar of winter squash[N]
 imported by high-end buyers.[N]
 Popular in pies or fried.[X]
+
+## RoughneckName
+Roughneck[X]
+
+## RoughneckDesc
+Muscular brutes whose mere[N]
+presence intimidate the weak.[N]
+Equip: Swords.[X]
+
+## BossName
+Boss[X]
+
+## BossDesc
+Ruffians with awe-inspiring[N]
+strength and leadership.[N]
+Equip: Swords.[X]
+
