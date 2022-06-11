@@ -1,23 +1,23 @@
 //Stat Screen
 PUSH
-ORG 0xA03368
-POIN ImageData
-ORG 0xA05F10
-POIN TSAData
-ORG 0xA06460
-POIN PaletteData
+ORG 0x88638
+POIN StatScreenImage
+ORG 0x88644
+POIN StatScreenTSA
+ORG 0x88640
+POIN StatScreenPalette
 ORG 0x88590
 BYTE 0 0 0 0
 POP
 
 ALIGN 4
-ImageData:
-#incbin "Graphics Editor FE8_Clean.gba_A03368.png.dmp"
+StatScreenImage:
+#incbin "StatScreenfix.png.dmp"
 
 ALIGN 4
-TSAData:
-#incbin "Graphics Editor FE8_Clean.gba_A03368.png.tsa.dmp"
+StatScreenTSA:
+#incbin "StatScreenfix.png.tsa.dmp"
 
 ALIGN 4
-PaletteData:
-#incbin "Graphics Editor FE8_Clean.gba_A03368.png.pal.dmp"
+StatScreenPalette:
+#incbin "StatScreenfix.png.pal.dmp"

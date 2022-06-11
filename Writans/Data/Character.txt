@@ -128,3 +128,15 @@ Itzel[X]
 Knight of Poblano.[N]
 A rookie who wants to make[N]
 her family proud.[X]
+
+## AjoName
+Ajo[X]
+
+## AjoDesc
+Pirate serving Fideos.[X]
+
+## CebollaName
+Cebolla[X]
+
+## CebollaDesc
+Pirate serving Fieos.[X]
