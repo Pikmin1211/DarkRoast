@@ -32,6 +32,7 @@
 [Blink] = [CloseEyes][.][OpenEyes]
 [Beat] = [ToggleMouthMove]...[....][ToggleMouthMove]
 [Event] = [LoadOverworldFaces]
+[OpenQuote] = [0x93]
 
 [FarFarLeft] = [OpenFarFarLeft]
 [FarLeft] = [OpenFarLeft]
