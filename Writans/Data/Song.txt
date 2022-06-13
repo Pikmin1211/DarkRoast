@@ -345,3 +345,6 @@ Battletoads - Surf[X]
 
 ## MULETheme_Name
 M.U.L.E. - Theme[X]
+
+## SBKBoardShop_Name
+SBK - Board Shop[X]

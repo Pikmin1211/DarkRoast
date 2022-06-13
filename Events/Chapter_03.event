@@ -16,13 +16,15 @@ PointerList:
 	POIN BeginningScene EndingScene
 
 TurnBasedEvents:
-	TurnEvent(0, EnemiesCharge, 4, PlayerPhase)
+	TurnEvent(0, EnemiesCharge, 8, PlayerPhase)
 	END_MAIN
 
 EnemiesCharge:
-	FlashCursor(Perez, 60)
-	Text(Chapter_02_Charge)
-	
+	ChargeWarning(Ajo, Charge_Ajo)
+	ChargeWarning(Cebolla, Charge_Cebolla)
+	SetAI(Ajo, 0x0, 0x0, 0x4, 0x0)
+	SetAI(Cebolla, 0x0, 0x0, 0x4, 0x0)
+	SetAI(Goon_Ch01, 0x0, 0x0, 0x4, 0x0)
 	NoFade
 	ENDA
 
@@ -36,32 +38,16 @@ MiscBasedEvents:
 	END_MAIN
 
 LocationBasedEvents:
-	Village(0x8, TopLeftHouse, 4, 1)
-	Village(0x9, BottomLeftHouse, 2, 13)
-	Village(0xA, TopRightHouse, 14, 2)
+	Village(0x8, LeftHouse, 4, 13)
+	Chest(0x9, MageSword, 19, 10)
+	Chest(0xA, TealGem, 19,19)
 	END_MAIN
 
-TopLeftHouse:
+LeftHouse:
 	MUSI
 	Text(Chapter_03_Village_1, HouseBG)
 	MUNO
-	GiveItem(Mend)
-	NoFade
-	ENDA
-
-BottomeftHouse:
-	MUSI
-	Text(Chapter_03_Village_2, HouseBG)
-	MUNO
-	GiveItem(IronBlade)
-	NoFade
-	ENDA
-
-TopRightHouse:
-	MUSI
-	Text(Chapter_03_Village_3, HouseBG)
-	MUNO
-	GiveItem(HeavySpear)
+	GiveItem(SapphireLance)
 	NoFade
 	ENDA
 
@@ -83,48 +69,54 @@ Tutorial:
 
 Units1:
 Units1Hard:
-	UNIT Olmos 0x0 0 Level(1, Ally, False) [9, 10] 0 0 0 0 [0x0] DefaultAI
-	UNIT Flor 0x0 0 Level(1, Ally, False) [7, 9] 0 0 0 0 [0x0] DefaultAI
-	UNIT Flor 0x0 0 Level(1, Ally, False) [6, 6] 0 0 0 0 [0x0] DefaultAI
-	UNIT Flor 0x0 0 Level(1, Ally, False) [7, 7] 0 0 0 0 [0x0] DefaultAI
-	UNIT Flor 0x0 0 Level(1, Ally, False) [5, 8] 0 0 0 0 [0x0] DefaultAI
-	UNIT Flor 0x0 0 Level(1, Ally, False) [8, 9] 0 0 0 0 [0x0] DefaultAI
-	UNIT Flor 0x0 0 Level(1, Ally, False) [5, 9] 0 0 0 0 [0x0] DefaultAI
-	UNIT Flor 0x0 0 Level(1, Ally, False) [9, 9] 0 0 0 0 [0x0] DefaultAI
-	UNIT Flor 0x0 0 Level(1, Ally, False) [9, 9] 0 0 0 0 [0x0] DefaultAI
-	UNIT Flor 0x0 0 Level(1, Ally, False) [9, 9] 0 0 0 0 [0x0] DefaultAI
+	UNIT Olmos 0x0 0 Level(1, Ally, False) [3, 1] 0 0 0 0 [0x0] DefaultAI
+	UNIT Flor 0x0 0 Level(1, Ally, False) [1, 3] 0 0 0 0 [0x0] DefaultAI
+	UNIT Flor 0x0 0 Level(1, Ally, False) [2, 2] 0 0 0 0 [0x0] DefaultAI
+	UNIT Flor 0x0 0 Level(1, Ally, False) [3, 2] 0 0 0 0 [0x0] DefaultAI
+	UNIT Flor 0x0 0 Level(1, Ally, False) [4, 3] 0 0 0 0 [0x0] DefaultAI
+	UNIT Flor 0x0 0 Level(1, Ally, False) [4, 1] 0 0 0 0 [0x0] DefaultAI
+	UNIT Flor 0x0 0 Level(1, Ally, False) [5, 1] 0 0 0 0 [0x0] DefaultAI
+	UNIT Flor 0x0 0 Level(1, Ally, False) [4, 0] 0 0 0 0 [0x0] DefaultAI
+	UNIT Flor 0x0 0 Level(1, Ally, False) [6, 3] 0 0 0 0 [0x0] DefaultAI
+	UNIT Flor 0x0 0 Level(1, Ally, False) [2, 0] 0 0 0 0 [0x0] DefaultAI
 	UNIT 
 
 ExtraUnits:
-	UNIT Marquez Myrmidon 0 Level(3, Enemy, 0) [10, 8] 0 0 1 REDA2R13 [KillingEdge] DefaultAI
+	UNIT Robles SwordArmor 0 Level(3, Ally, False) [1, 3] 0 0 0 0 [0x0] [BronzeSword, Herb] DefaultAI
+	UNIT Usoa AxeCavalier 0 Level(3, Ally, False) [2, 2] 0 0 0 0 [0x0] [BronzeAxe, Herb] DefaultAI
+	UNIT Erlantz Troubadour_M 0 Level(1, Ally, False) [3, 2] 0 0 0 0 [0x0] [Soothe, Herb] DefaultAI
+	UNIT Itzel LanceCavalier 0 Level(1, Ally, False) [4, 3] 0 0 0 0 [0x0] [BronzeLance, Herb] DefaultAI
 	UNIT
 
 EnemyUnits:
-	UNIT Tartufo Mercenary 0 Level(8, Enemy, 0) [16, 19] DropItem 0 0 0 [LightBrand, SteelSword] BossAI
-	UNIT Goon_Ch01 Fighter 0 Level(1, Enemy, 1) [8, 13] 0 0 0 0 [BronzeAxe] ChargeAI
-	UNIT Goon_Ch01 Fighter 0 Level(1, Enemy, 1) [10, 14] 0 0 0 0 [BronzeAxe] ChargeAI
-	UNIT Goon_Ch01 Fighter 0 Level(1, Enemy, 1) [12, 12] 0 0 0 0 [BronzeAxe] ChargeAI
-	UNIT Goon_Ch01 Hunter 0 Level(2, Enemy, 1) [12, 0] 0 0 0 0 [Longbox] ChargeAI
-	UNIT Goon_Ch01 Hunter 0 Level(1, Enemy, 1) [15, 15] 0 0 0 0 [BronzeBow] ChargeAI
-	UNIT Goon_Ch01 Mercenary 0 Level(1, Enemy, 1) [16, 9] 0 0 0 0 [BronzeSword] ChargeAI
-	UNIT Goon_Ch01 Deserter 0 Level(1, Enemy, 1) [15, 6] 0 0 0 0 [BronzeLance] ChargeAI
-	UNIT Goon_Ch01 Hunter 0 Level(1, Enemy, 1) [14, 0] 0 0 0 0 [BronzeBow] AttackInRangeAI
-	UNIT Goon_Ch01 Deserter 0 Level(1, Enemy, 1) [1, 2] 0 0 0 0 [Horseslayer] AttackInDoubleRangeAI
-	UNIT Goon_Ch01 Deserter 0 Level(1, Enemy, 1) [0, 3] 0 0 0 0 [BronzeLance] AttackInDoubleRangeAI
-	UNIT Goon_Ch01 Deserter 0 Level(1, Enemy, 1) [0, 13] 0 0 0 0 [BronzeLance] AttackInDoubleRangeAI
-	UNIT Goon_Ch01 Mercenary 0 Level(1, Enemy, 1) [2, 15] 0 0 0 0 [BronzeSword] AttackInDoubleRangeAI
-	UNIT Goon_Ch01 Mercenary 0 Level(1, Enemy, 1) [8, 18] 0 0 0 0 [BronzeSword] AttackInDoubleRangeAI
-	UNIT Goon_Ch01 Mercenary 0 Level(2, Enemy, 1) [15, 18] 0 0 0 0 [IronSword] AttackInRangeAI
-	UNIT Goon_Ch01 Fighter 0 Level(2, Enemy, 1) [14, 19] 0 0 0 0 [IronAxe] AttackInRangeAI
-	UNIT Goon_Ch01 Fighter 0 Level(1, Enemy, 1) [10, 1] 0 0 0 0 [BronzeAxe] AttackInDoubleRangeAI
-	UNIT Goon_Ch01 Deserter 0 Level(1, Enemy, 1) [16, 4] 0 0 0 0 [BronzeLance] AttackInDoubleRangeAI
-	UNIT Goon_Ch01 Fighter 0 Level(1, Enemy, 1) [12, 4] DropItem 0 0 0 [BronzeAxe, Herb] AttackInDoubleRangeAI
-	UNIT Goon_Ch01 Pirate 0 Level(1, Enemy, 1) [0, 18] 0 0 1 0 [BronzeAxe] LootingAI
-	UNIT Goon_Ch01 Pirate 0 Level(1, Enemy, 1) [16, 17] 0 0 1 0 [BronzeAxe] LootingAI
-	UNIT Goon_Ch01 Pirate 0 Level(1, Enemy, 1) [0, 4] 0 0 1 0 [BronzeAxe] LootingAI
-	UNIT Goon_Ch01 Deserter 0 Level(1, Enemy, 1) [2, 18] 0 0 0 0 [BronzeLance] AttackInDoubleRangeAI
-	UNIT Goon_Ch01 Hunter 0 Level(1, Enemy, 1) [2, 19] 0 0 0 0 [BronzeBow] AttackInDoubleRangeAI
-	UNIT Goon_Ch01 Mercenary 0 Level(1, Enemy, 1) [3, 19] 0 0 0 0 [Zanbato] AttackInDoubleRangeAI
+	UNIT Ajo Roughneck 0 Level(8, Enemy, 0) [17, 28] DropItem 0 0 0 [IronBlade] AttackInRangeAI
+	UNIT Cebolla Archer_F 0 Level(8, Enemy, 0) [3, 29] DropItem 0 0 0 [IronBow, LongBow] AttackInRangeAI
+	UNIT Goon_Ch01 Fighter 0 Level(2, Enemy, 1) [2, 8] DropItem 0 0 0 [IronAxe] ChargeAI
+	UNIT Goon_Ch01 Archer 0 Level(2, Enemy, 1) [2, 14] 0 0 0 0 [BronzeBow] ChargeAI
+	UNIT Goon_Ch01 Roughneck 0 Level(2, Enemy, 1) [0, 13] 0 0 0 0 [BronzeSword] ChargeAI
+	UNIT Goon_Ch01 Roughneck 0 Level(2, Enemy, 1) [8, 4] 0 0 0 0 [BronzeSword] ChargeAI
+	UNIT Goon_Ch01 Deserter 0 Level(2, Enemy, 1) [11, 2] 0 0 0 0 [BronzeLance] ChargeAI
+	UNIT Goon_Ch01 Deserter 0 Level(2, Enemy, 1) [13, 4] 0 0 0 0 [BronzeLance] ChargeAI
+	UNIT Goon_Ch01 Roughneck 0 Level(2, Enemy, 1) [4, 16] 0 0 0 0 [BronzeSword] AttackInDoubleRangeAI
+	UNIT Goon_Ch01 Deserter 0 Level(2, Enemy, 1) [2, 18] 0 0 0 0 [BronzeLance] AttackInDoubleRangeAI
+	UNIT Goon_Ch01 Archer 0 Level(3, Enemy, 1) [0, 22] 0 0 0 0 [IronBow] AttackInRangeAI
+	UNIT Goon_Ch01 Pirate 0 Level(2, Enemy, 1) [0, 22] 0 0 0 0 [BronzeAxe] LootingAI
+	UNIT Goon_Ch01 Fighter 0 Level(2, Enemy, 1) [13, 6] 0 0 0 0 [BronzeAxe] AttackInRangeAI
+	UNIT Goon_Ch01 Deserter 0 Level(2, Enemy, 1) [12, 10] 0 0 0 0 [BronzeLance] AttackInDoubleRangeAI
+	UNIT Goon_Ch01 Deserter 0 Level(2, Enemy, 1) [18, 6] 0 0 0 0 [BronzeLance] AttackInRangeAI
+	UNIT Goon_Ch01 Deserter 0 Level(3, Enemy, 1) [19, 7] 0 0 0 0 [Horseslayer] AttackInRangeAI
+	UNIT Goon_Ch01 Thief 0 Level(2, Enemy, 1) [17, 29] 0 0 0 0 [BronzeDagger] ThiefAI
+	UNIT Goon_Ch01 Deserter 0 Level(3, Enemy, 1) [10, 22] 0 0 0 0 [IronLance] AttackInDoubleRangeAI
+	UNIT Goon_Ch01 Fighter 0 Level(2, Enemy, 1) [12, 21] 0 0 0 0 [BronzeAxe] AttackInDoubleRangeAI
+	UNIT Goon_Ch01 Roughneck 0 Level(2, Enemy, 1) [12, 21] 0 0 0 0 [IronSword] AttackInRangeAI
+	UNIT Goon_Ch01 Deserter 0 Level(2, Enemy, 1) [13, 25] 0 0 0 0 [BronzeLance] AttackInDoubleRangeAI
+	UNIT Goon_Ch01 Fighter 0 Level(2, Enemy, 1) [18, 15] 0 0 0 0 [BronzeAxe] AttackInRangeAI
+	UNIT Goon_Ch01 Archer 0 Level(2, Enemy, 1) [19, 16] 0 0 0 0 [BronzeBow] AttackInRangeAI
+	UNIT Goon_Ch01 Archer 0 Level(2, Enemy, 1) [14, 26] 0 0 0 0 [BronzeBow] AttackInDoubleRangeAI
+	UNIT Goon_Ch01 Pirate 0 Level(2, Enemy, 1) [5, 25] 0 0 0 0 [BronzeAxe] AttackInDoubleRangeAI
+	UNIT Goon_Ch01 Pirate 0 Level(2, Enemy, 1) [6, 26] 0 0 0 0 [BronzeAxe] AttackInDoubleRangeAI
+	UNIT Goon_Ch01 Archer 0 Level(2, Enemy, 1) [9, 29] 0 0 0 0 [BronzeBow] AttackInRangeAI
+	UNIT Goon_Ch01 Roughneck 0 Level(3, Enemy, 1) [8, 28] 0 0 0 0 [IronSword] AttackInRangeAI
 	UNIT
 
 Traps1:
@@ -142,34 +134,10 @@ BeginningScene:
 	ENUN
 	LOAD1 0x1 EnemyUnits
 	ENUN
-	
-	MUSC Grim_Journey
-	Background(Outside_Village_Day)
-	Text(Chapter_01_Opening_1)
-	MUSC Tension
-	Text(Chapter_01_Opening_2)
-	Background(Harbor)
-	Text(Chapter_01_Opening_3)
-	FADI 0x10
-	CALL ClearBackground
-	CAM1 Hacha
-	FlashCursor(Hacha, 60)
-	Text(Chapter_01_Opening_4)
-	CAM1 Olmos
-	FlashCursor(Olmos, 60)
-	Text(Chapter_01_Opening_5)
 	NoFade
 	ENDA
 
 EndingScene:
-	MUSC Into_The_Shadow_of_Victory
-	Background(House_BG)
-	Text(Chapter_01_Ending_1)
-	MUSC Treasured_Memories
-	Text(Chapter_01_Ending_2)
-	MUSC Grim_Journey
-	Text(Chapter_01_Ending_3)
-	MNC2 Chapter_02
 	NoFade
 	ENDA
 
