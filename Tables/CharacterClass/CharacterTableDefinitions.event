@@ -16,3 +16,5 @@
 #define Hacha 0x3e
 #define Perez 0x40
 #define Recaudo 0x41
+#define Ajo 0x42
+#define Cebolla 0x43

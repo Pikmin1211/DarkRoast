@@ -2033,6 +2033,10 @@ __TEXTPROCESSF45:
 #incbin ".TextEntries\TextBuildfileMULETheme_Name.fetxt.dmp"
 setText($F45, __TEXTPROCESSF45)
 
+__TEXTPROCESSF46:
+#incbin ".TextEntries\TextBuildfileSBKBoardShop_Name.fetxt.dmp"
+setText($F46, __TEXTPROCESSF46)
+
 __TEXTPROCESS5C9:
 #incbin ".TextEntries\TextBuildfileMechanicsPageTitle.fetxt.dmp"
 setText($5C9, __TEXTPROCESS5C9)

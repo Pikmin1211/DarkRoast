@@ -510,6 +510,7 @@
 #define DWM2Battle_Name $F43
 #define BattleToadSurf_Name $F44
 #define MULETheme_Name $F45
+#define SBKBoardShop_Name $F46
 #define MechanicsPageTitle $5C9
 #define FormulaPageTitle $5CA
 #define LorePageTitle $5CB

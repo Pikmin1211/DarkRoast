@@ -190,6 +190,7 @@ SoundRoomTableEntry(KBBBoss_Song, 0, 0x0, KBBBoss_Name)
 SoundRoomTableEntry(BattleToadSurf_Song, 0, 0x0, BattleToadSurf_Name)
 SoundRoomTableEntry(DWM2Battle_Song, 0, 0x0, DWM2Battle_Name)
 SoundRoomTableEntry(MULETheme_Song, 0, 0x0, MULETheme_Name)
+SoundRoomTableEntry(SBKBoardShop_Song, 0, 0x0, SBKBoardShop_Name)
 SoundRoomTableEntry(0xFFFFFFFF, 0, 0x0, 0x0)
 
 #define SoundRoomTable SoundRoomTableLabel
