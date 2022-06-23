@@ -11,12 +11,15 @@
 #include "TitleMusic/Installer.event"
 #include "ItemLockList/ItemLockList.event"
 
-//Music
+// Music
 #include "Music/MusicAsmInstaller.event"
 
 // Thracia stuff from Tele2
 //#include "Fatigue/Fatigue.event"
 //#include "EscapeArrive/EscapeArrive.event"
+
+// Staff range fix
+//#include "StaffRangeFix/StaffRange.txt"
 
 //Convoy
 //#include "FE8-Convoy_Partition_and_Item_Combining/FE8-Convoy_Stuff_EA.event"
@@ -160,4 +163,10 @@ ORG $02B2AE
 BYTE 0xFF
 ORG $02B2AA
 BYTE 0xFF
+POP
+
+// Adjust AI heal threshold from 50% to 80%
+PUSH
+ORG $D8670
+BYTE 0x64 0x50
 POP
