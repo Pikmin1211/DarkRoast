@@ -15,7 +15,7 @@ LYN      := $(EA_DIR)/Tools/lyn.exe
 
 # setting up compilation flags
 ARCH   := -mcpu=arm7tdmi -mthumb -mthumb-interwork
-CFLAGS := $(ARCH) -Wall -Os -mtune=arm7tdmi -mlong-calls -O1
+CFLAGS := $(ARCH) -Wall -mtune=arm7tdmi -mlong-calls -O3
 
 # C to ASM rule
 %.asm: %.c
