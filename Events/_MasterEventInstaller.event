@@ -2,6 +2,7 @@
 #include "WorldMap/Installer.event"
 
 {
+#include "_Debug.event"
 #include "Chapter_01.event"
 #include "Chapter_02.event"
 }

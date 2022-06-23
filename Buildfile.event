@@ -1,3 +1,5 @@
+//#define _DEBUG_
+
 #include "Definitions/_MasterDefinitionInstaller.event"
 #include "Tables/_MasterDefinitionInstaller.event"
 

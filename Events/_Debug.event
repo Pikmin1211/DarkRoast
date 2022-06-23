@@ -1,6 +1,6 @@
 {
 
-EventPointerTable(EventPointer, PointerList)
+EventPointerTable(0xC5, PointerList)
 
 ALIGN 4
 PointerList:
@@ -49,11 +49,12 @@ Tutorial:
 
 Units1:
 Units1Hard:
-
+	UNIT Olmos Lord 0 Level(1, Ally, 0) [0, 0] 0 0 0 0 [EspadaAncha, Herb] DefaultAI
+	UNIT Domingo WarMonk 0 Level(1, Ally, 0) [1, 0] 0 0 0 0 [Soothe, LightRuneStaff] DefaultAI
 	UNIT
 
 EnemyUnits:
-
+	UNIT Hacha Pirate 0 Level(5, Enemy, 0) [2, 0] 0 0 0 0 [IronAxe] DefaultAI
 	UNIT
 
 Traps1:
@@ -65,13 +66,15 @@ Traps2:
 	ALIGN 4
 
 BeginningScene:
+	LOAD1 0x1 Units1
+	ENUN
 	LOAD1 0x1 EnemyUnits
 	ENUN
 	CALL PrepScreen
 	ENDA
 
 EndingScene:
-	MNC2 next_chapter
+	MNC2 Chapter_01
 	NoFade
 	ENDA
 

@@ -131,6 +131,10 @@ Traps2:
 	ALIGN 4
 
 BeginningScene:
+	#ifdef _DEBUG_
+		MNC2 0x4D // debug
+		ENDA
+	#endif
 	LOAD1 0x1 Units1
 	ENUN
 	LOAD1 0x1 EnemyUnits
