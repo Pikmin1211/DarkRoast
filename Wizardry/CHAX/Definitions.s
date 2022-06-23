@@ -6,3 +6,7 @@ SET_FUNC ExecKeyOrLockpick, 0x802F510 + 1
 SET_FUNC CanBattleUnitGainLevels, 0x802B9F4 + 1
 
 SET_FUNC CheckBattleUnitStatCaps, 0x802BF24 + 1
+
+SET_FUNC SetItemUseAction,  0x8029544 + 1
+
+SET_FUNC StaffSelectOnSelect,   0x8029550 + 1

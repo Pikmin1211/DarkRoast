@@ -1,12 +1,12 @@
 //FE8 Staff Range Fix
 //By Tequila/Lord Reyson
 
-#include EAstdlib.event
+//#include EAstdlib.event
 #include "Extensions/Hack Installation.txt"
 	
 #ifdef _FE8_
 	#define Usability_Table 0x288B0
-	#define Item_Table 0x809B10
+	#define Item_Table ItemTable
 	
 	//Shouldn't have to touch these
 	#define New_Use(item) "ORG Usability_Table+4*(item-0x4B); POIN 0x28A8C"
