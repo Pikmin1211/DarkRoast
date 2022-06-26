@@ -14,7 +14,7 @@
 #include "Palettes/_MasterPaletteInstaller.event"
 #include "_Menu/Menu.event"
 
-#include "StatScreen/Installer.event" // need to set up properly
+#include "StatScreen/Installer.event"
 
 //#include "BattleScreen/Installer.event" // need to set up properly
 //#include "BattleBackgrounds/Installer.event" // doesn't exist yet
