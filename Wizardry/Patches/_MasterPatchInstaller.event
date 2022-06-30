@@ -18,9 +18,6 @@
 //#include "Fatigue/Fatigue.event"
 //#include "EscapeArrive/EscapeArrive.event"
 
-// Staff range fix
-//#include "StaffRangeFix/StaffRange.event"
-
 // Convoy
 //#include "FE8-Convoy_Partition_and_Item_Combining/FE8-Convoy_Stuff_EA.event"
 

@@ -1,144 +1,486 @@
-#define ArcfireIcon 0xca
+#define AdamantAxeIcon 0xca
+PUSH
+ORG ItemIconSheet + (AdamantAxeIcon * 128)
+#incbin "Item\AdamantAxe.dmp"
+POP
+
+#define AdamantBowIcon 0xcb
+PUSH
+ORG ItemIconSheet + (AdamantBowIcon * 128)
+#incbin "Item\AdamantBow.dmp"
+POP
+
+#define AdamantLanceIcon 0xcc
+PUSH
+ORG ItemIconSheet + (AdamantLanceIcon * 128)
+#incbin "Item\AdamantLance.dmp"
+POP
+
+#define AdamantSwordIcon 0xcd
+PUSH
+ORG ItemIconSheet + (AdamantSwordIcon * 128)
+#incbin "Item\AdamantSword.dmp"
+POP
+
+#define ArcfireIcon 0xce
 PUSH
 ORG ItemIconSheet + (ArcfireIcon * 128)
 #incbin "Item\Arcfire.dmp"
 POP
 
-#define ArcthunderIcon 0xcb
+#define ArcthunderIcon 0xcf
 PUSH
 ORG ItemIconSheet + (ArcthunderIcon * 128)
 #incbin "Item\Arcthunder.dmp"
 POP
 
-#define ArcwindIcon 0xcc
+#define ArcwindIcon 0xd0
 PUSH
 ORG ItemIconSheet + (ArcwindIcon * 128)
 #incbin "Item\Arcwind.dmp"
 POP
 
-#define BronzeAxeIcon 0xcd
+#define BronzeAxeIcon 0xd1
 PUSH
 ORG ItemIconSheet + (BronzeAxeIcon * 128)
 #incbin "Item\BronzeAxe.dmp"
 POP
 
-#define BronzeBowIcon 0xce
+#define BronzeBowIcon 0xd2
 PUSH
 ORG ItemIconSheet + (BronzeBowIcon * 128)
 #incbin "Item\BronzeBow.dmp"
 POP
 
-#define BronzeLanceIcon 0xcf
+#define BronzeDaggerIcon 0xd3
+PUSH
+ORG ItemIconSheet + (BronzeDaggerIcon * 128)
+#incbin "Item\BronzeDagger.dmp"
+POP
+
+#define BronzeLanceIcon 0xd4
 PUSH
 ORG ItemIconSheet + (BronzeLanceIcon * 128)
 #incbin "Item\BronzeLance.dmp"
 POP
 
-#define BronzeSwordIcon 0xd0
+#define BronzeSwordIcon 0xd5
 PUSH
 ORG ItemIconSheet + (BronzeSwordIcon * 128)
 #incbin "Item\BronzeSword.dmp"
 POP
 
-#define BronzeSword2Icon 0xd1
+#define BronzeSword2Icon 0xd6
 PUSH
 ORG ItemIconSheet + (BronzeSword2Icon * 128)
 #incbin "Item\BronzeSword2.dmp"
 POP
 
-#define CutlassIcon 0xd2
+#define CleaveBowIcon 0xd7
+PUSH
+ORG ItemIconSheet + (CleaveBowIcon * 128)
+#incbin "Item\CleaveBow.dmp"
+POP
+
+#define CutlassIcon 0xd8
 PUSH
 ORG ItemIconSheet + (CutlassIcon * 128)
 #incbin "Item\Cutlass.dmp"
 POP
 
-#define EspadaAnchaIcon 0xd3
+#define DoubleBowIcon 0xd9
+PUSH
+ORG ItemIconSheet + (DoubleBowIcon * 128)
+#incbin "Item\DoubleBow.dmp"
+POP
+
+#define DuplexBowIcon 0xda
+PUSH
+ORG ItemIconSheet + (DuplexBowIcon * 128)
+#incbin "Item\DuplexBow.dmp"
+POP
+
+#define EmeraldAxeIcon 0xdb
+PUSH
+ORG ItemIconSheet + (EmeraldAxeIcon * 128)
+#incbin "Item\EmeraldAxe.dmp"
+POP
+
+#define EspadaAnchaIcon 0xdc
 PUSH
 ORG ItemIconSheet + (EspadaAnchaIcon * 128)
 #incbin "Item\EspadaAncha.dmp"
 POP
 
-#define FireIcon 0xd4
+#define FireIcon 0xdd
 PUSH
 ORG ItemIconSheet + (FireIcon * 128)
 #incbin "Item\Fire.dmp"
 POP
 
-#define HerbIcon 0xd5
+#define FlameSwordIcon 0xde
+PUSH
+ORG ItemIconSheet + (FlameSwordIcon * 128)
+#incbin "Item\FlameSword.dmp"
+POP
+
+#define GreatbowIcon 0xdf
+PUSH
+ORG ItemIconSheet + (GreatbowIcon * 128)
+#incbin "Item\Greatbow.dmp"
+POP
+
+#define GuardAxeIcon 0xe0
+PUSH
+ORG ItemIconSheet + (GuardAxeIcon * 128)
+#incbin "Item\GuardAxe.dmp"
+POP
+
+#define HerbIcon 0xe1
 PUSH
 ORG ItemIconSheet + (HerbIcon * 128)
 #incbin "Item\Herb.dmp"
 POP
 
-#define IronBladeIcon 0xd6
+#define HerosFlareIcon 0xe2
+PUSH
+ORG ItemIconSheet + (HerosFlareIcon * 128)
+#incbin "Item\HerosFlare.dmp"
+POP
+
+#define HinoyariIcon 0xe3
+PUSH
+ORG ItemIconSheet + (HinoyariIcon * 128)
+#incbin "Item\Hinoyari.dmp"
+POP
+
+#define HuntingBowIcon 0xe4
+PUSH
+ORG ItemIconSheet + (HuntingBowIcon * 128)
+#incbin "Item\HuntingBow.dmp"
+POP
+
+#define IronBladeIcon 0xe5
 PUSH
 ORG ItemIconSheet + (IronBladeIcon * 128)
 #incbin "Item\IronBlade.dmp"
 POP
 
-#define IronSwordIcon 0xd7
+#define IronDaggerIcon 0xe6
+PUSH
+ORG ItemIconSheet + (IronDaggerIcon * 128)
+#incbin "Item\IronDagger.dmp"
+POP
+
+#define IronGreatlanceIcon 0xe7
+PUSH
+ORG ItemIconSheet + (IronGreatlanceIcon * 128)
+#incbin "Item\IronGreatlance.dmp"
+POP
+
+#define IronKnifeIcon 0xe8
+PUSH
+ORG ItemIconSheet + (IronKnifeIcon * 128)
+#incbin "Item\IronKnife.dmp"
+POP
+
+#define IronPoleaxeIcon 0xe9
+PUSH
+ORG ItemIconSheet + (IronPoleaxeIcon * 128)
+#incbin "Item\IronPoleaxe.dmp"
+POP
+
+#define IronSwordIcon 0xea
 PUSH
 ORG ItemIconSheet + (IronSwordIcon * 128)
 #incbin "Item\IronSword.dmp"
 POP
 
-#define KillingEdgeIcon 0xd8
+#define KillerDaggerIcon 0xeb
+PUSH
+ORG ItemIconSheet + (KillerDaggerIcon * 128)
+#incbin "Item\KillerDagger.dmp"
+POP
+
+#define KillingEdgeIcon 0xec
 PUSH
 ORG ItemIconSheet + (KillingEdgeIcon * 128)
 #incbin "Item\KillingEdge.dmp"
 POP
 
-#define RapierIcon 0xd9
+#define MageAxeIcon 0xed
+PUSH
+ORG ItemIconSheet + (MageAxeIcon * 128)
+#incbin "Item\MageAxe.dmp"
+POP
+
+#define MageBowIcon 0xee
+PUSH
+ORG ItemIconSheet + (MageBowIcon * 128)
+#incbin "Item\MageBow.dmp"
+POP
+
+#define MageDaggerIcon 0xef
+PUSH
+ORG ItemIconSheet + (MageDaggerIcon * 128)
+#incbin "Item\MageDagger.dmp"
+POP
+
+#define MageLanceIcon 0xf0
+PUSH
+ORG ItemIconSheet + (MageLanceIcon * 128)
+#incbin "Item\MageLance.dmp"
+POP
+
+#define MageSwordIcon 0xf1
+PUSH
+ORG ItemIconSheet + (MageSwordIcon * 128)
+#incbin "Item\MageSword.dmp"
+POP
+
+#define MjolnirIcon 0xf2
+PUSH
+ORG ItemIconSheet + (MjolnirIcon * 128)
+#incbin "Item\Mjolnir.dmp"
+POP
+
+#define MoonrazerIcon 0xf3
+PUSH
+ORG ItemIconSheet + (MoonrazerIcon * 128)
+#incbin "Item\Moonrazer.dmp"
+POP
+
+#define PerfectArcIcon 0xf4
+PUSH
+ORG ItemIconSheet + (PerfectArcIcon * 128)
+#incbin "Item\PerfectArc.dmp"
+POP
+
+#define PerfectAxeIcon 0xf5
+PUSH
+ORG ItemIconSheet + (PerfectAxeIcon * 128)
+#incbin "Item\PerfectAxe.dmp"
+POP
+
+#define PerfectDaggerIcon 0xf6
+PUSH
+ORG ItemIconSheet + (PerfectDaggerIcon * 128)
+#incbin "Item\PerfectDagger.dmp"
+POP
+
+#define PerfectEdgeIcon 0xf7
+PUSH
+ORG ItemIconSheet + (PerfectEdgeIcon * 128)
+#incbin "Item\PerfectEdge.dmp"
+POP
+
+#define PerfectPikeIcon 0xf8
+PUSH
+ORG ItemIconSheet + (PerfectPikeIcon * 128)
+#incbin "Item\PerfectPike.dmp"
+POP
+
+#define RapierIcon 0xf9
 PUSH
 ORG ItemIconSheet + (RapierIcon * 128)
 #incbin "Item\Rapier.dmp"
 POP
 
-#define SilverBladeIcon 0xda
+#define RubySwordIcon 0xfa
+PUSH
+ORG ItemIconSheet + (RubySwordIcon * 128)
+#incbin "Item\RubySword.dmp"
+POP
+
+#define SagittaeIcon 0xfb
+PUSH
+ORG ItemIconSheet + (SagittaeIcon * 128)
+#incbin "Item\Sagittae.dmp"
+POP
+
+#define SapphireLanceIcon 0xfc
+PUSH
+ORG ItemIconSheet + (SapphireLanceIcon * 128)
+#incbin "Item\SapphireLance.dmp"
+POP
+
+#define SeraphimIcon 0xfd
+PUSH
+ORG ItemIconSheet + (SeraphimIcon * 128)
+#incbin "Item\Seraphim.dmp"
+POP
+
+#define ShortAxeIcon 0xfe
+PUSH
+ORG ItemIconSheet + (ShortAxeIcon * 128)
+#incbin "Item\ShortAxe.dmp"
+POP
+
+#define SilentKnifeIcon 0xff
+PUSH
+ORG ItemIconSheet + (SilentKnifeIcon * 128)
+#incbin "Item\SilentKnife.dmp"
+POP
+
+#define SilverBladeIcon 0x100
 PUSH
 ORG ItemIconSheet + (SilverBladeIcon * 128)
 #incbin "Item\SilverBlade.dmp"
 POP
 
-#define SilverSwordIcon 0xdb
+#define SilverDaggerIcon 0x101
+PUSH
+ORG ItemIconSheet + (SilverDaggerIcon * 128)
+#incbin "Item\SilverDagger.dmp"
+POP
+
+#define SilverGreatlanceIcon 0x102
+PUSH
+ORG ItemIconSheet + (SilverGreatlanceIcon * 128)
+#incbin "Item\SilverGreatlance.dmp"
+POP
+
+#define SilverKnifeIcon 0x103
+PUSH
+ORG ItemIconSheet + (SilverKnifeIcon * 128)
+#incbin "Item\SilverKnife.dmp"
+POP
+
+#define SilverPoleaxeIcon 0x104
+PUSH
+ORG ItemIconSheet + (SilverPoleaxeIcon * 128)
+#incbin "Item\SilverPoleaxe.dmp"
+POP
+
+#define SilverSwordIcon 0x105
 PUSH
 ORG ItemIconSheet + (SilverSwordIcon * 128)
 #incbin "Item\SilverSword.dmp"
 POP
 
-#define SlimSwordIcon 0xdc
+#define SkyPiercerIcon 0x106
+PUSH
+ORG ItemIconSheet + (SkyPiercerIcon * 128)
+#incbin "Item\SkyPiercer.dmp"
+POP
+
+#define SleepBowIcon 0x107
+PUSH
+ORG ItemIconSheet + (SleepBowIcon * 128)
+#incbin "Item\SleepBow.dmp"
+POP
+
+#define SleepKnifeIcon 0x108
+PUSH
+ORG ItemIconSheet + (SleepKnifeIcon * 128)
+#incbin "Item\SleepKnife.dmp"
+POP
+
+#define SlimAxeIcon 0x109
+PUSH
+ORG ItemIconSheet + (SlimAxeIcon * 128)
+#incbin "Item\SlimAxe.dmp"
+POP
+
+#define SlimBowIcon 0x10a
+PUSH
+ORG ItemIconSheet + (SlimBowIcon * 128)
+#incbin "Item\SlimBow.dmp"
+POP
+
+#define SlimSwordIcon 0x10b
 PUSH
 ORG ItemIconSheet + (SlimSwordIcon * 128)
 #incbin "Item\SlimSword.dmp"
 POP
 
-#define SteelBladeIcon 0xdd
+#define SolarRayIcon 0x10c
+PUSH
+ORG ItemIconSheet + (SolarRayIcon * 128)
+#incbin "Item\SolarRay.dmp"
+POP
+
+#define SpyYumiIcon 0x10d
+PUSH
+ORG ItemIconSheet + (SpyYumiIcon * 128)
+#incbin "Item\SpyYumi.dmp"
+POP
+
+#define SteelBladeIcon 0x10e
 PUSH
 ORG ItemIconSheet + (SteelBladeIcon * 128)
 #incbin "Item\SteelBlade.dmp"
 POP
 
-#define SteelSwordIcon 0xde
+#define SteelDaggerIcon 0x10f
+PUSH
+ORG ItemIconSheet + (SteelDaggerIcon * 128)
+#incbin "Item\SteelDagger.dmp"
+POP
+
+#define SteelGreatlanceIcon 0x110
+PUSH
+ORG ItemIconSheet + (SteelGreatlanceIcon * 128)
+#incbin "Item\SteelGreatlance.dmp"
+POP
+
+#define SteelKnifeIcon 0x111
+PUSH
+ORG ItemIconSheet + (SteelKnifeIcon * 128)
+#incbin "Item\SteelKnife.dmp"
+POP
+
+#define SteelPoleaxeIcon 0x112
+PUSH
+ORG ItemIconSheet + (SteelPoleaxeIcon * 128)
+#incbin "Item\SteelPoleaxe.dmp"
+POP
+
+#define SteelSwordIcon 0x113
 PUSH
 ORG ItemIconSheet + (SteelSwordIcon * 128)
 #incbin "Item\SteelSword.dmp"
 POP
 
-#define TealGemIcon 0xdf
+#define TealGemIcon 0x114
 PUSH
 ORG ItemIconSheet + (TealGemIcon * 128)
 #incbin "Item\TealGem.dmp"
 POP
 
-#define ThunderIcon 0xe0
+#define ThaniIcon 0x115
+PUSH
+ORG ItemIconSheet + (ThaniIcon * 128)
+#incbin "Item\Thani.dmp"
+POP
+
+#define ThunderIcon 0x116
 PUSH
 ORG ItemIconSheet + (ThunderIcon * 128)
 #incbin "Item\Thunder.dmp"
 POP
 
-#define WindIcon 0xe1
+#define VolantAxeIcon 0x117
+PUSH
+ORG ItemIconSheet + (VolantAxeIcon * 128)
+#incbin "Item\VolantAxe.dmp"
+POP
+
+#define WindIcon 0x118
 PUSH
 ORG ItemIconSheet + (WindIcon * 128)
 #incbin "Item\Wind.dmp"
+POP
+
+#define WingSpearIcon 0x119
+PUSH
+ORG ItemIconSheet + (WingSpearIcon * 128)
+#incbin "Item\WingSpear.dmp"
+POP
+
+#define YabusameIcon 0x11a
+PUSH
+ORG ItemIconSheet + (YabusameIcon * 128)
+#incbin "Item\Yabusame.dmp"
 POP
 

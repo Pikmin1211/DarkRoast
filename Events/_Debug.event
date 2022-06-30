@@ -50,7 +50,7 @@ Tutorial:
 Units1:
 Units1Hard:
 	UNIT Olmos Lord 0 Level(1, Ally, 0) [0, 0] 0 0 0 0 [EspadaAncha, Herb] DefaultAI
-	UNIT Domingo WarMonk 0 Level(1, Ally, 0) [1, 0] 0 0 0 0 [Soothe, LightRuneStaff] DefaultAI
+	UNIT Domingo WarMonk 0 Level(1, Ally, 0) [1, 0] 0 0 0 0 [Soothe, LightRuneStaff, Physic] DefaultAI
 	UNIT
 
 EnemyUnits:
@@ -70,6 +70,8 @@ BeginningScene:
 	ENUN
 	LOAD1 0x1 EnemyUnits
 	ENUN
+	SVAL 0x1 Domingo
+	ASMC ASMC_GiveStaffRank
 	CALL PrepScreen
 	ENDA
 
