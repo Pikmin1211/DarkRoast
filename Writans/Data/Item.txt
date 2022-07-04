@@ -646,3 +646,27 @@ Slow[X]
 
 ## SlowDesc
 TBD[X]
+
+## GalvanizedSwordName
+Galvanized Swd.
+
+## GalvanizedSwordDesc
+Durable. Cannot crit.
+
+## GalvanizedLanceName
+Galvanized Lnc.
+
+## GalvanizedLanceDesc
+Durable. Cannot crit.
+
+## GalvanizedAxeName
+Galvanized Axe
+
+## GalvanizedAxeDesc
+Durable. Cannot crit.
+
+## GalvanizedBowName
+Galvanized Bow
+
+## GalvanizedBowDesc
+Durable. Cannot crit.

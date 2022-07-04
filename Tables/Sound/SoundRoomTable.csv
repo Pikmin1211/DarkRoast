@@ -186,4 +186,7 @@ SoundRoomTable,songNumber,songLength,displayCondition,songName
 183,DWM2Battle_Song,0,0x0,DWM2Battle_Name
 184,MULETheme_Song,0,0x0,MULETheme_Name
 185,SBKBoardShop_Song,0,0x0,SBKBoardShop_Name
+186,LiveALiveFineWeather_Song,0,0x0,LiveALiveFineWeather_Name
+187,LiveALiveMegalomania_Song,0,0x0,LiveALiveMegalomania_Name
+188,OmoriForestFrenzy_Song,0,0x0,OmoriForestFrenzy_Name
 TERMINATOR,0xFFFFFFFF,0,0x0,0x0

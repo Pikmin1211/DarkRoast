@@ -348,3 +348,12 @@ M.U.L.E. - Theme[X]
 
 ## SBKBoardShop_Name
 SBK - Board Shop[X]
+
+## LiveALiveFineWeather_Name
+Live A Live - Fine Weather[X]
+
+## LiveALiveMegalomania_Name
+Live A Live - Megalomania[X]
+
+## OmoriForestFrenzy_Name
+Omori - Forest Frenzy[X]

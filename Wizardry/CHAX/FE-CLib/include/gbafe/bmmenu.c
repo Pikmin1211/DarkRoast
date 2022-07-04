@@ -64,3 +64,10 @@ if (GetUnitItemCount(gActiveUnit)==5){
 	return MCA_GRAYED;}
 
 return MCA_USABLE;
+
+// Steal Formula Adjustment (ie can steal any item if item is unequipped and stealer BLD is greater than Item WT)
+
+void AddAsTarget_IfCanStealFrom (Unit* unit){
+	
+if (unit -> index){ // note to add something else here to check in the index
+	return;}
