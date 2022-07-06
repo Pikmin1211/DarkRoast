@@ -191,6 +191,9 @@ SoundRoomTableEntry(BattleToadSurf_Song, 0, 0x0, BattleToadSurf_Name)
 SoundRoomTableEntry(DWM2Battle_Song, 0, 0x0, DWM2Battle_Name)
 SoundRoomTableEntry(MULETheme_Song, 0, 0x0, MULETheme_Name)
 SoundRoomTableEntry(SBKBoardShop_Song, 0, 0x0, SBKBoardShop_Name)
+SoundRoomTableEntry(LiveALiveFineWeather_Song, 0, 0x0, LiveALiveFineWeather_Name)
+SoundRoomTableEntry(LiveALiveMegalomania_Song, 0, 0x0, LiveALiveMegalomania_Name)
+SoundRoomTableEntry(OmoriForestFrenzy_Song, 0, 0x0, OmoriForestFrenzy_Name)
 SoundRoomTableEntry(0xFFFFFFFF, 0, 0x0, 0x0)
 
 #define SoundRoomTable SoundRoomTableLabel

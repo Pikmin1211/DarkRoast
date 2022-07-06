@@ -151,6 +151,10 @@
 #define WindStone 0xb1
 #define PierceStone 0xb2
 #define BraveStone 0xb3
+#define GalvanizedSword 0xb6
+#define GalvanizedLance 0xb7
+#define GalvanizedAxe 0xb8
+#define GalvanizedBow 0xb9
 #define BlackGem 0xba
 #define GoldGem 0xbb
 #define BronzeSword 0xbc

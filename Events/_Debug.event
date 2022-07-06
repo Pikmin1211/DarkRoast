@@ -49,7 +49,7 @@ Tutorial:
 
 Units1:
 Units1Hard:
-	UNIT Olmos Lord 0 Level(1, Ally, 0) [0, 0] 0 0 0 0 [EspadaAncha, Herb] DefaultAI
+	UNIT Olmos Thief 0 Level(1, Ally, 0) [0, 0] 0 0 0 0 [EspadaAncha, Herb] DefaultAI
 	UNIT Domingo WarMonk 0 Level(1, Ally, 0) [1, 0] 0 0 0 0 [Soothe, LightRuneStaff, Physic] DefaultAI
 	UNIT
 

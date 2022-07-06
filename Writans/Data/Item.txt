@@ -648,25 +648,25 @@ Slow[X]
 TBD[X]
 
 ## GalvanizedSwordName
-Galvanized Swd.
+Galvanized Swd.[X]
 
 ## GalvanizedSwordDesc
-Durable. Cannot crit.
+Durable. Cannot crit.[X]
 
 ## GalvanizedLanceName
-Galvanized Lnc.
+Galvanized Lnc.[X]
 
 ## GalvanizedLanceDesc
-Durable. Cannot crit.
+Durable. Cannot crit.[X]
 
 ## GalvanizedAxeName
-Galvanized Axe
+Galvanized Axe[X]
 
 ## GalvanizedAxeDesc
-Durable. Cannot crit.
+Durable. Cannot crit.[X]
 
 ## GalvanizedBowName
-Galvanized Bow
+Galvanized Bow[X]
 
 ## GalvanizedBowDesc
-Durable. Cannot crit.
+Durable. Cannot crit.[X]

@@ -233,6 +233,32 @@ void ItemEffect_Call(struct Unit* unit, Item item)
     }
 }
 
+u32 GetUnitMinMaxStaffEncodedRange(Unit* unit){
+
+    int minRange = 0;
+    int maxRange = 0;
+
+    for (int i = 0; i < UNIT_ITEM_COUNT; i++){
+        if (unit->items[i].number == 0){
+            break;
+        }
+        if (CanUnitUseStaff(unit, unit->items[i])){
+            if ((GetItemMinRange(unit->items[i]) < minRange) || (minRange == 0)){
+                minRange = GetItemMinRange(unit->items[i]);
+            }
+            if (GetItemMaxRange(unit->items[i]) > maxRange){
+                maxRange = GetItemMaxRange(unit->items[i]);
+            }
+            if ((GetItemMaxRange(unit->items[i]) == 0) && (GetUnitMagBy2Range(unit) > maxRange)){
+                maxRange = GetUnitMagBy2Range(unit);
+            }
+        }
+    }
+
+    return maxRange | (minRange << 4);
+
+}
+
 u32 GetUnitItemUseReachBits(Unit* unit, int itemSlot){
 
     Item item;
@@ -245,29 +271,7 @@ u32 GetUnitItemUseReachBits(Unit* unit, int itemSlot){
         if (unit->items[0].number == 0){
             return 0;
         }
-
-        int minRange = 0;
-        int maxRange = 0;
-
-        for (int i = 0; i < UNIT_ITEM_COUNT; i++){
-            if (unit->items[i].number == 0){
-                break;
-            }
-            if (CanUnitUseStaff(unit, unit->items[i])){
-                if ((GetItemMinRange(unit->items[i]) < minRange) || (minRange == 0)){
-                    minRange = GetItemMinRange(unit->items[i]);
-                }
-                if (GetItemMaxRange(unit->items[i]) > maxRange){
-                    maxRange = GetItemMaxRange(unit->items[i]);
-                }
-                if ((GetItemMaxRange(unit->items[i]) == 0) && (GetUnitMagBy2Range(unit) > maxRange)){
-                    maxRange = GetUnitMagBy2Range(unit);
-                }
-            }
-        }
-
-        return maxRange | (minRange << 4);
-
+        return GetUnitMinMaxStaffEncodedRange(unit);
     }
 
 }
@@ -285,3 +289,11 @@ void FillRangeMapByRangeMask(const struct Unit* unit, u32 encodedRange){
     MapAddInRange(unit->xPos, unit->yPos, minRange-1, -1);
 
 }
+
+/*
+void FillMapStaffRangeForUnit(Unit* unit){
+
+
+
+}
+*/
