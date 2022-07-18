@@ -6,3 +6,4 @@
 #include "bmitem/_bmitem.c"
 #include "bmmenu/_bmmenu.c"
 #include "bmunit/_bmunit.c"
+#include "StatScreen/_StatScreen.c"
