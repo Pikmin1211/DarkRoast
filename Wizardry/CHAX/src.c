@@ -1,7 +1,8 @@
 #include "FE-CLib/include/gbafe.h"
 #include "../../Tables/_MasterDefinitionInstaller.event"
+#include "include/_include.h"
 
-#include "bmbattle/BattleStats.c"
-#include "bmitem/Items.c"
-#include "bmunit/StatGetters.c"
-#include "bmmenu/bmmenu.c"
+#include "bmbattle/_bmbattle.c"
+#include "bmitem/_bmitem.c"
+#include "bmmenu/_bmmenu.c"
+#include "bmunit/_bmunit.c"

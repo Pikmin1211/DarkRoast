@@ -2274,43 +2274,43 @@ __TEXTPROCESS5F8:
 setText($5F8, __TEXTPROCESS5F8)
 
 __TEXTPROCESS544:
-#incbin ".TextEntries\TextBuildfileHP.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileHP_SS.fetxt.dmp"
 setText($544, __TEXTPROCESS544)
 
 __TEXTPROCESS546:
-#incbin ".TextEntries\TextBuildfileStrength.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileStrength_SS.fetxt.dmp"
 setText($546, __TEXTPROCESS546)
 
 __TEXTPROCESS547:
-#incbin ".TextEntries\TextBuildfileMagic.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileMagic_SS.fetxt.dmp"
 setText($547, __TEXTPROCESS547)
 
 __TEXTPROCESS548:
-#incbin ".TextEntries\TextBuildfileSkill.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileSkill_SS.fetxt.dmp"
 setText($548, __TEXTPROCESS548)
 
 __TEXTPROCESS549:
-#incbin ".TextEntries\TextBuildfileSpeed.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileSpeed_SS.fetxt.dmp"
 setText($549, __TEXTPROCESS549)
 
 __TEXTPROCESS54A:
-#incbin ".TextEntries\TextBuildfileLuck.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileLuck_SS.fetxt.dmp"
 setText($54A, __TEXTPROCESS54A)
 
 __TEXTPROCESS54B:
-#incbin ".TextEntries\TextBuildfileDefense.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileDefense_SS.fetxt.dmp"
 setText($54B, __TEXTPROCESS54B)
 
 __TEXTPROCESS54C:
-#incbin ".TextEntries\TextBuildfileResistance.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileResistance_SS.fetxt.dmp"
 setText($54C, __TEXTPROCESS54C)
 
 __TEXTPROCESS54E:
-#incbin ".TextEntries\TextBuildfileBuild.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileBuild_SS.fetxt.dmp"
 setText($54E, __TEXTPROCESS54E)
 
 __TEXTPROCESS54F:
-#incbin ".TextEntries\TextBuildfileFatigue.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileFatigue_SS.fetxt.dmp"
 setText($54F, __TEXTPROCESS54F)
 
 __TEXTPROCESS550:

@@ -1,45 +1,45 @@
 // Stat Screen descriptions
 
-# 0x0544 HP
+# 0x0544 HP_SS
 Unit falls unconcscious if[N]
 this value hits 0. HP is used[N]
 in fatigue cap calculation.[X]
 
-# 0x0546 Strength
+# 0x0546 Strength_SS
 Added with weapon MT[N]
 to calculate damage.[X]
 
-# 0x0547 Magic
+# 0x0547 Magic_SS
 Added with tome or[N]
 magic weapon MT to[N]
 calculate damage.[X]
 
-# 0x0548 Skill
+# 0x0548 Skill_SS
 Determines hit[N]
 rate and crit rate.[X]
 
-# 0x0549 Speed
+# 0x0549 Speed_SS
 Determines attack[N]
 speed (AS) and avoid.[X]
 
-# 0x054A Luck
+# 0x054A Luck_SS
 Determines avoid, crit[N]
 avoid, and hit rate.[X]
 
-# 0x054B Defense
+# 0x054B Defense_SS
 Reduces damage[N]
 from STR-based attacks.[X]
 
-# 0x54C Resistance
+# 0x54C Resistance_SS
 Reduces damage[N]
 from MAG-base attacks.[X]
 
-# 0x54E Build
+# 0x54E Build_SS
 Unit's physical size.[N]
 Affects ability to rescue.[N]
 Determines fatigue cap.[X]
 
-## Fatigue
+# 0x54F Fatigue_SS
 If exceeds (1/2 HP + BLD)[N]
 unit no longer gains EXP[N]
 or WEXP. Must sit next ch.[X]

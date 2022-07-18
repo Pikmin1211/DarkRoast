@@ -54,8 +54,6 @@ int GetUnitMovement(const struct Unit* unit){
     return unit->movBonus + unit->pClassData->baseMov;
 }
 
-typedef struct StatScreen StatScreen;
-
 int GetUnitConstitution(const struct Unit* unit){
 	return unit->conBonus + unit->pClassData->baseCon + unit->pCharacterData->baseCon;
 }
