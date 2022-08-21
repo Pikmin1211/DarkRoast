@@ -2,148 +2,168 @@
 Nmd. Trooper[X]
 
 ## NomadTrooperDesc
-An honorific bestowed upon nomads[N]
-of great skill. Equip: Swords, bows.[X]
+The only home I truly know[N]
+is the road.[X]
 
 ## DeserterName
 Deserter[X]
 
 ## DeserterDesc
-Vagabonds who seek to[N]
-sow discord. Equip: Lances.[X]
+I never took well to orders.[N]
+My family, if I have one,[N] 
+sees me as a disappointment.[X]
 
 ## BowArmorName
 Bow Armor[X]
 
 ## BowArmorDesc
-Heavily armored knights with poor[N]
-movement. Equip: Bows.[X]
+My mother always asked me[N]
+to exercise caution, but I may[N]
+have gone too far.[X]
 
 ## HunterName
 Hunter[X]
 
 ## HunterDesc
-Fighters who launch arrows[N]
-with great force. Equip: Bows.[X]
+I prefer solitude in the woods,[N]
+but killing people unfortunately[N]
+pays much better.[X]
 
 ## LanceCavalierName
 Lnc. Cavalier[X]
 
 ## LanceCavalierDesc
-Mounted knights with swift[N]
-movement. Equip: Lances.[X]
+Don't I look heroic?[N]
+I hope my family is proud.[X]
 
 ## SwordCavalierName
 Swd. Cavalier[X]
 
 ## SwordCavalierDesc
-Mounted knights with swift[N]
-movement. Equip: Swords.[X]
+If I ever fall off this horse,[N]
+I feel like I could stand a chance[N]
+with my feet on the ground.[X]
 
 ## AxeCavalierName
 Axe Cavalier[X]
 
 ## AxeCavalierDesc
-Mounted knights with swift[N]
-movement. Equip: Axes.[X]
+I understood the value of a[N]
+conventional path in life,[N]
+but I didn't quite enjoy it.[X]
 
 ## LancePaladinName
 Lnc. Paladin[X]
 
 ## LancePaladinDesc
-Mounted knights with superior[N]
-abilities. Equip: Swords, lances.[X]
+I gave up a lot to be here.[N]
+Sure, fame is nice, but I feel[N]
+like I lost myself along the way.[X]
 
 ## SwordPaladinName
 Swd. Paladin[X]
 
 ## SwordPaladinDesc
-Mounted knights with superior[N]
-abilities. Equip: Swords, axes.[X]
+I knew if I wanted to get anywhere,[N]
+I'd need to do a few things I[N]
+didn't like.[X]
 
 ## AxePaladinName
 Axe Paladin[X]
 
 ## AxePaladinDesc
-Mounted knights with superior[N]
-abilities. Equip: Lances, axes.[X]
+See, kid, you don't have to[N]
+follow trends to make it.[N]
+Just look at me.[X]
 
 ## LanceArmorName
 Lnc. Armor[X]
+
+## LanceArmorDesc
+I care a lot about my allies,[N]
+but I am left wondering,[N]
+do they care for me?[X]
 
 ## SwordArmorName
 Swd. Armor[X]
 
 ## SwordArmorDesc
-Heavily armored knights with poor[N]
-movement. Equip: Swords.[X]
+I was told I was too slow,[N]
+so I put on this armor.[X]
 
 ## AxeArmorName
 Axe Armor[X]
 
 ## AxeArmorDesc
-Heavily armored knights with poor[N]
-movement. Equip: Axes.[X]
+I might've been well-suited for[N]
+a simpler life, but I like who[N]
+I became when I put on the armor.[X]
 
 ## GeneralDesc
-Knights of great skill. Equip:[N]
-Swords, lances, axes, bows.[X]
+It took me many long years to get[N]
+here. And yet, now I am often[N]
+asked to go nowhere else.[X]
 
 ## NomadName
 Nomad[X]
 
 ## NomadDesc
-Plainsmen with good[N]
-movement. Equip: Bows.[X]
+Some would call me difficult,[N]
+but I never enjoyed the path[N]
+I was told to take.[X]
 
 ## GuardName
 Guard[X]
 
 ## GuardDesc
-Young fighters with high[N]
-expectations. Equip: Axes.[X]
+This job pays well enough.[X]
 
 ## HalberdierName
 Halberdier[X]
 
 ## HalberdierDesc
-Army standardbearers focused[N]
-on precision. Equip: Lances, axes.[X]
+I look back and ask how I got[N]
+here, and I wonder, do I still[N]
+need to do this now?[X]
 
 ## OutlawName
 Outlaw[X]
 
 ## OutlawDesc
-Sneaky rogues who strike[N]
-from the shadows. Equip: Bows.[X]
+I made more mistakes than[N]
+I can count. I never let that[N]
+stop me from getting what I want.[X]
 
 ## GrassrunnerName
 Grassrunner[X]
 
 ## GrassrunnerDesc
-Mounted thieves who loot and[N]
-raid on horseback. Equip: Bows.[X]
+There's nothing more valuable[N]
+besides money. Second is being[N]
+able to run away with it.[X]
 
 ## DiabolistName
 Diabolist[X]
 
 ## DiabolistDesc
-Shifty rogues with a proclivity[N]
-for magic. Equip: Daggers, anima.[X]
+Unless they're me, they probably[N]
+didn't see me coming.[X]
 
 ## ShrineName
 Shrine[X]
 
 ## ShrineDesc
-Altar of a local deity[N]
-said to grant blessings.[X]
+Come to me and make an offering.[N]
+I will be able to help, even if[N]
+only to offer peace of mind.[X]
 
 ## CurateName
 Curate[X]
 
 ## CurateDesc
-Those who are selected to hear[N]
-the voice of the spirits. Equip: Staves.[X]
+The voices call me occasionally.[N]
+I have not yet answered, but[N]
+know I will someday have to.[X]
 
 ## StaffMageName
 Staff Mage[X]
@@ -163,86 +183,94 @@ on the battlefield. Equip: Bows, staves.[X]
 Berserker[X]
 
 ## BerserkerDesc
-Mountaineering and water-walking[N]
-warriors with large power. Equip: Axes.[X]
+Don't believe everything you hear[N]
+from cheese-eating nobles.[N]
+Look me in the eye.[X]
 
 ## WarriorName
 Warrior[X]
 
 ## WarriorDesc
-Battle-hardened fighters who never[N]
-shy from combat. Equip: Axes, bows.[X]
+I left behind a lot to get here.[N]
+Most of them are corpses.[X]
 
 ## FighterName
 Fighter[X]
 
 ## FighterDesc
-Balanced combatants whose muscles[N]
-scare off weak foes. Equip: Axes.[X]
+Yes, but have you ever felled a[N]
+tree and made a house with its wood?[N]
+This is much less satisfying.[X]
 
 ## OhtliName
 Ohtli[X]
 
 ## OhtliDesc
-Spiritual warriors whose faith[N]
-fuels their power. Equip: Axes.[X]
+Phusrang and the Five Chela[N]
+helped forge the land we walk on.[N]
+Let us respect it.[X]
 
 ## PirateName
 Pirate[X]
 
 ## PirateDesc
-Water-walking ruffians whose swings[N]
-strike like tidal waves. Equip: Axes.[X]
+Society may have pushed me down[N]
+this path, but I've learned to make do.[N]
+Come on in, the water is fine.[X]
 
 ## SoldierName
 Soldier[X]
 
 ## SoldierDesc
-Skilled combatants reliant on precise[N]
-strikes and formations. Equip: Lances.[X]
+I'm often left wondering if I'm[N]
+just here to be a diversion.[X]
 
 ## TroubadourName
 Troubadour[X]
 
 ## TroubadourDesc
-Mounted healers who yearn to[N]
-help others. Equip: Staves.[X]
+I strive to help the creations[N]
+of Phusrang and the Five Chela.[N]
+I love to see things grow.[X]
 
 ## ValkyrieName
 Valkyrie[X]
 
 ## ValkyrieDesc
-A troubadour held in high esteem.[N]
-Their faith is palpable. Equip: Staves, anima.[X]
+Although I thought my duty was[N]
+to protect, it turns out that means[N]
+I, too, must take arms.[X]
 
 ## ClericName
 Cleric[X]
 
 ## ClericDesc
-Spiritual guides who tend to[N]
-shrines and people. Equip: Staves.[X]
+We should dedicate time to[N]
+reflect upon the past and honor[N]
+those who came before us.[X]
 
 ## PriestName
 Priest[X]
 
 ## PriestDesc
-Spiritual guides who tend to[N]
-shrines and people. Equip: Staves.[X]
+We should dedicate time to[N]
+reflect upon the past and honor[N]
+those who came before us.[X]
 
 ## PegasusKnightName
 Pegasus Knight[X]
 
 ## PegasusKnightDesc
-Airborne fighters with swift speed[N]
-and strong resistance. Equip: Lances.[X]
+I had the luck of being[N]
+born both skilled and wealthy.[X]
 
 ## FalcoKnightName
 FalcoKnight[X]
 
 ## FalcoKnightDesc
-Veterans of aerial combat who[N]
-strike like lightning.[N]
-Equip: Lances, swords.[X]
+I thought I'd retire to court,[N]
+but I was pretty good at fighting.[N]
+In fact, I prefer the sky above all.[X]
 
 ## BardName
 Bard[X]
@@ -255,122 +283,127 @@ lift spirits of allies.[X]
 Monk[X]
 
 ## MonkDesc
-Holy folk whose belief fuels[N]
-their magical abilities. Equip: Anima.[X]
+Phusrang and the Five Chela[N]
+gave us this. I will use it[N]
+to protect those I care about.[X]
 
 ## DragoonName
 Dragoon[X]
 
 ## DragoonDesc
-Battlefield menaces with little regard[N]
-for naught but bloodshed. Equip: Lances.[X]
+I can see you shaking.[N]
+You probably didn't expect[N]
+me to get here, right?[X]
 
 ## DruidName
 Druid[X]
 
 ## DruidDesc
-Powerful shaman who hear voices[N]
-of the spirits. Equip: Anima, staves.[X]
+The voices call louder and louder.[N]
+My sense of self diminishes.[N]
+I forget my own name sometimes.[X]
 
 ## ShamanName
 Shaman[X]
 
 ## ShamanDesc
-Novice magicians whose power[N]
-is bestowed unto them by spirits.[N]
-Equip: Anima[X]
+To hear the voices of the spirits[N]
+is a heavy burden, but I will[N]
+offer you their counsel.[X]
 
 ## BishopName
 Bishop[X]
 
 ## BishopDesc
-Holy magicians who are empowered[N]
-by their undying faith.[N]
-Equip: Anima, staves.[X]
+I charged myself with this duty.[N]
+It is what feels right, and I'll[N]
+fight to protect that.[X]
 
 ## WarClericName
 War Cleric[X]
 
 ## WarClericDesc
-Keepers of the shrine whose[N]
-strength keeps foes at bay.[N]
-Equip: Axes, staves.[X]
+I hate vandalism. Our history is rich.[N]
+Many ages have come and gone.[N]
+And you'd seek to forget that?[X]
 
 ## WarMonkName
 War Monk[X]
 
 ## WarMonkDesc
-Keepers of the shrine whose[N]
-strength keeps foes at bay.[N]
-Equip: Axes, staves.[X]
+I hate vandalism. Our history is rich.[N]
+Many ages have come and gone.[N]
+And you'd seek to forget that?[X]
 
 ## SageName
 Sage[X]
 
 ## SageDesc
-Powerful scholars whose understanding[N]
-of nature compels them. Equip: Anima, staves.[X]
+You may consider me bookish,[N]
+but that just tells me you don't[N]
+know what I'm about to do, right?[X]
 
 ## MageName
 Mage[X]
 
 ## MageDesc
-Neophyte magicians whose curiosity[N]
-propels them forward. Equip: Anima.[X]
+I wasn't cut out for cavalry,[N]
+but I was too smart for the fields.[N]
+I'll have to prove my worth.[X]
 
 ## SniperName
 Sniper[X]
 
 ## SniperDesc
-Sharpshooters whose precision[N]
-is well-feared. Equip: Bows.[X]
+Move. Or don't.[N]
+It doesn't matter to me.[X]
 
 ## ArcherName
 Archer[X]
 
 ## ArcherDesc
-Shooters who can strike foes[N]
-from a distance. Equip: Bows.[X]
+You know, I've gotten pretty sharp[N]
+with a bow. Maybe I could make[N]
+some gold with this skill.[X]
 
 ## ThiefName
 Thief[X]
 
 ## ThiefDesc
-Shifty rogues who can see[N]
-through fog, steal, and pick locks.[N]
-Equip: Daggers.[X]
+You call me a thief, but[N]
+I could call a bad name, too.[N]
+See how that makes you feel?[X]
 
 ## SwordmasterName
 Swordmaster[X]
 
 ## SwordmasterDesc
-Brooding warriors who answer only[N]
-to the call of their blades.[N]
-Equip: Swords.[X]
+Don't trouble me with your[N]
+trifles. Our problems are of our[N]
+own making. Leave me.[X]
 
 ## MyrmidonName
 Myrmidon[X]
 
 ## MyrmidonDesc
-Apprentice warriors who have heard[N]
-the call of the blade.[N]
-Equip: Swords.[X]
+Townsfolk look at me like[N]
+I'm a dark spirit. However,[N]
+there is no light without it.[X]
 
 ## MercenaryName
 Mercenary[X]
 
 ## MercenaryDesc
-Well-rounded combatants who[N]
-seldom stray from a fight.[N]
-Equip: Swords.[X]
+I ran the numbers and nothing[N]
+else made sense.[X]
 
 ## HeroName
 Hero[X]
 
 ## HeroDesc
-Veteran combatants whose prowess[N]
-in battle has earned them fame.[N]
-Equip: Swords, axes.[X]
+Don't be jealous just because[N]
+I've been labeled a hero.[N]
+If you worked harder, you'd be me.[X]
 
 ## SkyKnightName
 Sky Knight[X]
@@ -383,94 +416,101 @@ foes with arrows. Equip: Bows [X]
 Ballistician[X]
 
 ## BallisticianDesc
-Long-range specialists who detest
-direct confrontation. Equip: Bows [X]
+Thankfully I was good enough with[N]
+my arms to get this job.[N]
+Just don't let anyone get near me.[X]
 
 ## ChiefName
 Chief[X]
 
 ## ChiefDesc
-Brave battle leaders whose mere
-presence strikes fear. Equip: Axes, anima[X]
+I fight not only for my people,[N]
+but for the land itself. For who[N]
+else can speak for those with no voice?[X]
 
 ## ManaketeName
 Manakete[X]
 
 ## ManaketeDesc
-Dragons who transform into their
-draconic forms with stones.
-Equip: Dragonstones.[X]
+We were here before the[N]
+coffee crop first grew. We[N]
+were here when the sun was new.[X]
 
 ## MageKnightName
 Mage Knight[X]
 
 ## MageKnightDesc
-Troubadours who answer the[N]
-call of battle. Equip: Staves, anima.[X]
+Although I thought my duty was[N]
+to protect, it turns out that means[N]
+I, too, must take arms.[X]
 
 ## TentName
 Tent[X]
 
 ## TentDesc
-A tent with supplies[N]
-to support an armed force.[X]
+I house your goods.[N]
+I shelter you in the rain.[N]
+And now, you come to destroy me?[X]
 
 ## ChickenName
 Chicken[X]
 
 ## ChickenDesc
-A hapless bird with no[N]
-known combat skills.[X]
+Humans always think them[N]
+to be our betters, and yet[N]
+the can only dream of flight. Sad.[X]
 
 ## LogName
 Log[X]
 
 ## LogDesc
-A piece of wood.[N]
-Cannot fight others.[X]
+In my younger years, I was a tree.[N]
+Although, I presume you are smart[N]
+enough to figure that out.[X]
 
 ## MerchantName
 Merchant[X]
 
 ## MerchantDesc
-Peddlers of goods.[N]
-Does not fight.[X]
+Come now, your pockets must be[N]
+feeling heavy with all that gold.[N]
+Perhaps you can find something you like?[X]
 
 ## GazelleName
 Gazelle[X]
 
 ## GazelleDesc
-A swift, skittish animal.[N]
-Does not fight.[X]
+I feel safest with the others.[N]
+The cheetah may not find me, this way.[X]
 
 ## HorseName
 Horse[X]
 
 ## HorseDesc
-A horse. Easily spooked.[N]
-Does not fight.[X]
+Humans treat us quite well.[N]
+I'm proud to call them a friend.[N]
+But some of us wish to go our own way.[X]
 
 ## PumpkinName
 Pumpkin[X]
 
 ## PumpkinDesc
-A cultivar of winter squash[N]
-imported by high-end buyers.[N]
-Popular in pies or fried.[X]
+We don't even grow here, we[N]
+traveled from overseas.[N]
+I am a luxury good. What are you?[X]
 
 ## RoughneckName
 Roughneck[X]
 
 ## RoughneckDesc
-Muscular brutes whose mere[N]
-presence intimidate the weak.[N]
-Equip: Swords.[X]
+I always can shake down some sap[N]
+for gold if I really need it.[X]
 
 ## BossName
 Boss[X]
 
 ## BossDesc
-Ruffians with awe-inspiring[N]
-strength and leadership.[N]
-Equip: Swords.[X]
+A lot of people had to die[N]
+for me to be me. Do you[N]
+think you can be me?[X]
 
