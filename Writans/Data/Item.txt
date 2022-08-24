@@ -467,10 +467,10 @@ Sky Piercer[X]
 ## SkyPiercerDesc
 [X]
 
-## IronPoleaxeName
-Irn. Poleaxe[X]
+## ParashuName
+Parashu[X]
 
-## IronPoleaxeDesc
+## ParashuDesc
 [X]
 
 ## SteelPoleaxeName
@@ -479,16 +479,16 @@ Stl. Poleaxe[X]
 ## SteelPoleaxeDesc
 [X]
 
-## SilverPoleaxeName
-Slv. Poleaxe[X]
+## BardicheName
+Bardiche[X]
 
-## SilverPoleaxeDesc
+## BardicheDesc
 [X]
 
-## IronGreatlanceName
-Irn. Grtlance[X]
+## PikeName
+Pike[X]
 
-## IronGreatlanceDesc
+## PikeDesc
 [X]
 
 ## SteelGreatlanceName
@@ -497,10 +497,10 @@ Stl. Grtlance[X]
 ## SteelGreatlanceDesc
 [X]
 
-## SilverGreatlanceName
-Slv. Grtlance[X]
+## GlaiveName
+Glaive[X]
 
-## SilverGreatlanceDesc
+## GlaiveDesc
 [X]
 
 ## SleepBowName
@@ -670,3 +670,16 @@ Galvanized Bow[X]
 
 ## GalvanizedBowDesc
 Durable. Cannot crit.[X]
+
+## ClaymoreName
+Claymore[X]
+
+## ClaymoreDesc
+[X]
+
+## ZweihanderName
+Zweihander[X]
+
+## ZweihanderDesc
+[X]
+
