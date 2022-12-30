@@ -97,18 +97,6 @@ Hero's Flare[X]
 ## HerosFlareDesc
 Can strike consecutively.[X]
 
-## MjolnirName
-Mjölnir[X]
-
-## MjolnirDesc
-Dark mages only.[X]
-
-## SolarRayName
-Solar Ray[X]
-
-## SolarRayDesc
-Light mages only.[X]
-
 ## FlameSwordName
 Flame Sword[X]
 
@@ -509,18 +497,6 @@ Sleep Bow[X]
 ## SleepBowDesc
 Enemy sleep 1 turn on hit.[X]
 
-## SeraphimName
-Seraphim[X]
-
-## SeraphimDesc
-Eff. vs. mages.[X]
-
-## ThaniName
-Thani[X]
-
-## ThaniDesc
-Eff vs. armor.[X]
-
 ## MageSwordName
 Mage Sword[X]
 
@@ -683,3 +659,92 @@ Zweihander[X]
 ## ZweihanderDesc
 [X]
 
+## SpiritWolfName
+S. Wolf[X]
+
+## SpiritWolfDesc
+Monk only.[X]
+
+## SpiritTreeName
+S. Tree[X]
+
+## SpiritTreeDesc
+Eff. vs. Armor. Monk only.[X]
+
+## SpiritWardName
+S. Ward[X]
+
+## SpiritWardDesc
++2 DEF/RES. Monk only.[X]
+
+## SpiritGustName
+S. Gust[X]
+
+## SpiritGustDesc
+Afflicts float. Monk only.[X]
+
+## SpiritArrowName
+S. Arrow[X]
+
+## SpiritArrowDesc
+Pierce DEF/RES. Monk only.[X]
+
+## SpiritGiftName
+S. Gift[X]
+
+## SpiritGiftDesc
+Heals dmg dealt. Monk only.[X]
+
+## PhisName
+Phis[X]
+
+## PhisDesc
+Poisons target. Shaman only.[X]
+
+## PhumicheuxName
+Phumicheux[X]
+
+## PhumicheuxDesc
+Eff vs. magic. Shaman only.[X]
+
+## TawanName
+Tawan[X]
+
+## TawanDesc
+Shaman only.[X]
+
+## PaixaoName
+Paixao[X]
+
+## PaixaoDesc
+Afflicts wet. Shaman only.[X]
+
+## NakhaengName
+Nakhaeng[X]
+
+## NakhaengDesc
+Afflicts sleep. Shaman only.[X]
+
+## XatmaName
+Xatma[X]
+
+## XatmaDesc
+Afflicts feeble. Shaman only.[X]
+
+## OilName
+Oil[X]
+
+## OilDesc
+Afflicts greasy for 3 turns.[X]
+
+## SoakName
+Soak[X]
+
+## SoakDesc
+Afflicts wet for 3 turns.[X]
+
+## UpdriftName
+Updrift[X]
+
+## UpdriftDesc
+Afflicts float for 3 turns.[X]
