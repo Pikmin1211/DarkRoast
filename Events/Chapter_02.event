@@ -45,7 +45,7 @@ TopLeftHouse:
 	MUSI
 	Text(Chapter_02_Top_Left_Village, HouseBG)
 	MUNO
-	GiveItem(IronPoleaxe)
+	GiveItem(GalvanizedAxe)
 	NoFade
 	ENDA
 
