@@ -3,8 +3,13 @@
 // Palettes to replace vanilla
 
 	// Castle
+	CastleBlueFloorPalette:
 	#incext Png2Dmp "castle_palette_blueflooredwater.png" --palette-only
+	
+	CastleGreenGoldPalette:
 	#incext Png2Dmp "castle_palette_greengold.png" --palette-only
+	
+	CastleNightPalette:
 	#incext Png2Dmp "castle_palette_nightfe7.png" --palette-only
 
 	// Fields
@@ -12,14 +17,14 @@
 // New Tilesets w/ palettes + anims
 
 	// Desert Bastion
-	Align 4
+	ALIGN 4
 	DesertBastionMapchipConfig:
-	#incbin "Graphics/DesertBastion.mapchip_config"
+	#incext Compress "Graphics/DesertBastion.mapchip_config"
 
-	Align 4
+	ALIGN 4
 	DesertBastionPalette:
 	#incext Png2Dmp "Graphics/DesertBastion.png"
 
-	Align 4
+	ALIGN 4
 	DesertBastionObject:
 	#incext Png2Dmp "Map/DesertBastion.png"
