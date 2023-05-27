@@ -1,4 +1,4 @@
 // TBD
 
-// #include "TilesetInstaller.event"
+#include "TilesetInstaller.event"
 // #include "MapAnimationsInstaller.event"
