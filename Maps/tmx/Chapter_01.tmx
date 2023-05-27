@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.1" tiledversion="2018.08.22" orientation="orthogonal" renderorder="right-down" width="17" height="14" tilewidth="16" tileheight="16" infinite="0" nextlayerid="6" nextobjectid="1">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="17" height="14" tilewidth="16" tileheight="16" infinite="0" nextlayerid="6" nextobjectid="1">
  <tileset firstgid="1" name="0E000F10" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
   <image source="../Tilesets/0E000F10.png" trans="ffffff" width="512" height="512"/>
  </tileset>
@@ -11,7 +11,7 @@
    <property name="MapChangesID" value="PrologueTileChange"/>
    <property name="MapID" value="PrologueMap"/>
    <property name="ObjectType" value="VillageObjectSet"/>
-   <property name="PaletteID" value="VillagePalette"/>
+   <property name="PaletteID" value="VillageFadedDayPalette"/>
    <property name="TileConfig" value="VillageTileConfig"/>
   </properties>
   <data>
@@ -256,6 +256,9 @@
   </data>
  </layer>
  <layer id="2" name="TopLeftDestroy" width="17" height="14" visible="0">
+  <properties>
+   <property name="PaletteID" value="VillageFadedDayPalette"/>
+  </properties>
   <data>
    <tile gid="741"/>
    <tile gid="742"/>
@@ -497,7 +500,10 @@
    <tile/>
   </data>
  </layer>
- <layer id="3" name="TopLeftVisit" width="17" height="14" visible="0">
+ <layer id="3" name="TopLeftVisit" width="17" height="14">
+  <properties>
+   <property name="PaletteID" value="VillageFadedDayPalette"/>
+  </properties>
   <data>
    <tile/>
    <tile/>
@@ -740,6 +746,9 @@
   </data>
  </layer>
  <layer id="4" name="BottomRightDestroy" width="17" height="14" visible="0">
+  <properties>
+   <property name="PaletteID" value="VillageFadedDayPalette"/>
+  </properties>
   <data>
    <tile/>
    <tile/>
@@ -982,6 +991,9 @@
   </data>
  </layer>
  <layer id="5" name="BottomRightVisit" width="17" height="14" visible="0">
+  <properties>
+   <property name="PaletteID" value="VillageFadedDayPalette"/>
+  </properties>
   <data>
    <tile/>
    <tile/>
