@@ -11,7 +11,7 @@
    <property name="MapChangesID" value="PrologueTileChange"/>
    <property name="MapID" value="PrologueMap"/>
    <property name="ObjectType" value="VillageObjectSet"/>
-   <property name="PaletteID" value="VillageFadedDayPalette"/>
+   <property name="PaletteID" value="VillageFadedDay"/>
    <property name="TileConfig" value="VillageTileConfig"/>
   </properties>
   <data>
@@ -255,9 +255,9 @@
    <tile gid="519"/>
   </data>
  </layer>
- <layer id="2" name="TopLeftDestroy" width="17" height="14" visible="0">
+ <layer id="2" name="TopLeftDestroy" width="17" height="14">
   <properties>
-   <property name="PaletteID" value="VillageFadedDayPalette"/>
+   <property name="PaletteID" value="VillageFadedDay"/>
   </properties>
   <data>
    <tile gid="741"/>
@@ -502,7 +502,7 @@
  </layer>
  <layer id="3" name="TopLeftVisit" width="17" height="14">
   <properties>
-   <property name="PaletteID" value="VillageFadedDayPalette"/>
+   <property name="PaletteID" value="VillageFadedDay"/>
   </properties>
   <data>
    <tile/>
@@ -745,9 +745,9 @@
    <tile/>
   </data>
  </layer>
- <layer id="4" name="BottomRightDestroy" width="17" height="14" visible="0">
+ <layer id="4" name="BottomRightDestroy" width="17" height="14">
   <properties>
-   <property name="PaletteID" value="VillageFadedDayPalette"/>
+   <property name="PaletteID" value="VillageFadedDay"/>
   </properties>
   <data>
    <tile/>
@@ -990,9 +990,9 @@
    <tile/>
   </data>
  </layer>
- <layer id="5" name="BottomRightVisit" width="17" height="14" visible="0">
+ <layer id="5" name="BottomRightVisit" width="17" height="14">
   <properties>
-   <property name="PaletteID" value="VillageFadedDayPalette"/>
+   <property name="PaletteID" value="VillageFadedDay"/>
   </properties>
   <data>
    <tile/>

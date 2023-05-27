@@ -33,7 +33,7 @@ ALIGN 4
 MapData:
   #incbin "Chapter_01_data.dmp"
 
-SetChapterData(0, VillageObjectSet, 0, VillageFadedDayPalette, VillageTileConfig, PrologueMap, MapData, VillageWaterTileAnimations, 0, PrologueTileChange)
+SetChapterData(0, VillageObjectSet, 0, VillageFadedDay, VillageTileConfig, PrologueMap, MapData, VillageWaterTileAnimations, 0, PrologueTileChange)
 
 ALIGN 4
 TopLeftDestroy:

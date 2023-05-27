@@ -5,52 +5,52 @@
 	// Castle
 	ALIGN 4
 	CastleBlueFloorPalette:
-	#incext Png2Dmp "--palette-only" "Graphics/castle_palette_blueflooredwater.png" 
+	#incext Png2Dmp "Graphics/castle_palette_blueflooredwater.png" --palette-only
 	
 	ALIGN 4
 	CastleGreenGoldPalette:
-	#incext Png2Dmp "--palette-only" "Graphics/castle_palette_greengold.png" 
+	#incext Png2Dmp "Graphics/castle_palette_greengold.png" --palette-only
 	
 	ALIGN 4
 	CastleNightPalette:
-	#incext Png2Dmp "--palette-only" "Graphics/castle_palette_nightfe7.png" 
+	#incext Png2Dmp "Graphics/castle_palette_nightfe7.png" --palette-only
 
 	// Fields
 	ALIGN 4
 	FieldsNightPalette:
-	#incext Png2Dmp "--palette-only" "Graphics/fields_palette_night.png" 
+	#incext Png2Dmp "Graphics/fields_palette_night.png" --palette-only
 	
 	ALIGN 4
 	FieldsSummerTealPalette:
-	#incext Png2Dmp "--palette-only" "Graphics/fields_palette_summertealday.png" 
+	#incext Png2Dmp "Graphics/fields_palette_summertealday.png" --palette-only
 	
 	ALIGN 4
 	FieldsGreyMtPalette:
-	#incext Png2Dmp "--palette-only" "Graphics/fields_palette_lightgreengreymt.png"
+	#incext Png2Dmp "Graphics/fields_palette_lightgreengreymt.png" --palette-only
 	
 	// Fort
 	
 	ALIGN 4
 	FortFE7Palette:
-	#incext Png2Dmp "--palette-only" "Graphics/fort_palette_morningfe7.png" 
+	#incext Png2Dmp "Graphics/fort_palette_morningfe7.png" --palette-only
 	
 	ALIGN 4
 	FortTealPalette:
-	#incext Png2Dmp "--palette-only" "Graphics/fort_palette_teal.png" 
+	#incext Png2Dmp "Graphics/fort_palette_teal.png" --palette-only
 	
 	// Village
 	
 	ALIGN 4
 	VillageFadedDayPalette:
-	#incext Png2Dmp "--palette-only" "Graphics/village_palette_fadedday.png" 
+	#incext Png2Dmp "Graphics/village_palette_fadedday.png" --palette-only
 
 	ALIGN 4
 	VillageFE7Palette:
-	#incext Png2Dmp "--palette-only" "Graphics/village_palette_morningfe7.png" 
+	#incext Png2Dmp "Graphics/village_palette_morningfe7.png" --palette-only
 	
 	ALIGN 4
 	VillageNightPalette:
-	#incext Png2Dmp "--palette-only" "Graphics/village_palette_night.png" 
+	#incext Png2Dmp "Graphics/village_palette_night.png" --palette-only
 
 // New Tilesets w/ palettes + anims
 
@@ -66,3 +66,19 @@
 	ALIGN 4
 	DesertBastionObject:
 	#incext Png2Dmp "Map/DesertBastion.png"
+	
+// PLIST
+
+	EventPointerTable(CastleBlueFloor,CastleBlueFloorPalette)
+	EventPointerTable(CastleGreenGold,CastleGreenGoldPalette)
+	EventPointerTable(CastleNight,CastleNightPalette)
+	EventPointerTable(FieldsNight,FieldsNightPalette)
+	EventPointerTable(FieldsSummerTeal,FieldsSummerTealPalette)
+	EventPointerTable(FieldsGreyMt,FieldsGreyMtPalette)
+	EventPointerTable(FortFE7,FortFE7Palette)
+	EventPointerTable(FortTeal,FortTealPalette)
+	EventPointerTable(VillageFadedDay,VillageFadedDayPalette)
+	EventPointerTable(VillageFE7,VillageFE7Palette)
+	EventPointerTable(VillageNight,VillageNightPalette)
+	
+	
