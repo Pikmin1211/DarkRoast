@@ -189,4 +189,6 @@ SoundRoomTable,songNumber,songLength,displayCondition,songName
 186,LiveALiveFineWeather_Song,0,0x0,LiveALiveFineWeather_Name
 187,LiveALiveMegalomania_Song,0,0x0,LiveALiveMegalomania_Name
 188,OmoriForestFrenzy_Song,0,0x0,OmoriForestFrenzy_Name
+189,SegaCDBIOS_Song,0,0x0,SegaCDBIOS_Name
+190,PowerPros3PennantHappyEnd_Song,0,0x0,PowerPros3PennantHappyEnd_Name
 TERMINATOR,0xFFFFFFFF,0,0x0,0x0

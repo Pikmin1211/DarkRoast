@@ -549,6 +549,8 @@
 #define LiveALiveFineWeather_Name $F6A
 #define LiveALiveMegalomania_Name $F6B
 #define OmoriForestFrenzy_Name $F6C
+#define SegaCDBIOS_Name $F6D
+#define PowerPros3PennantHappyEnd_Name $F6E
 #define MechanicsPageTitle $5C9
 #define FormulaPageTitle $5CA
 #define LorePageTitle $5CB

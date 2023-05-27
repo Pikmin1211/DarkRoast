@@ -45,7 +45,7 @@
 	#incext Png2Dmp "village_palette_fadedday.png" --palette-only
 
 	ALIGN 4
-	VillageFadedDayPalette:
+	VillageFE7Palette:
 	#incext Png2Dmp "village_palette_morningfe7.png" --palette-only
 	
 	ALIGN 4

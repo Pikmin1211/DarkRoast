@@ -357,3 +357,9 @@ Live A Live - Megalomania[X]
 
 ## OmoriForestFrenzy_Name
 Omori - Forest Frenzy[X]
+
+## SegaCDBIOS_Name
+Sega CD BIOS[X]
+
+## PowerPros3PennantHappyEnd_Name
+Power Pros 3 - Pennant Happy End[X]

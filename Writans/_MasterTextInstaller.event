@@ -2189,6 +2189,14 @@ __TEXTPROCESSF6C:
 #incbin ".TextEntries\TextBuildfileOmoriForestFrenzy_Name.fetxt.dmp"
 setText($F6C, __TEXTPROCESSF6C)
 
+__TEXTPROCESSF6D:
+#incbin ".TextEntries\TextBuildfileSegaCDBIOS_Name.fetxt.dmp"
+setText($F6D, __TEXTPROCESSF6D)
+
+__TEXTPROCESSF6E:
+#incbin ".TextEntries\TextBuildfilePowerPros3PennantHappyEnd_Name.fetxt.dmp"
+setText($F6E, __TEXTPROCESSF6E)
+
 __TEXTPROCESS5C9:
 #incbin ".TextEntries\TextBuildfileMechanicsPageTitle.fetxt.dmp"
 setText($5C9, __TEXTPROCESS5C9)

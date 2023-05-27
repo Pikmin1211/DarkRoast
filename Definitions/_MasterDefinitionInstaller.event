@@ -6,6 +6,7 @@
 #include "TilesetDefinitions.event"
 #include "PListDefinitions.event"
 #include "TableDefinitions.event"
+#include "ChapterDefinitions.event"
 
 
 //Music hack installers for spooky asm
