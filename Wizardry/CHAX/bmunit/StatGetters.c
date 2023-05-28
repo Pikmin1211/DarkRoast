@@ -58,7 +58,7 @@ int GetUnitConstitution(const struct Unit* unit){
 	return unit->conBonus + unit->pClassData->baseCon + unit->pCharacterData->baseCon;
 }
 
-int GetUnitAid(struct Unit* unit){
+int GetUnitAid(const struct Unit* unit) {
     if (!(UNIT_CATTRIBUTES(unit) & CA_MOUNTEDAID))
         return GetUnitConstitution(unit) - 1;
 

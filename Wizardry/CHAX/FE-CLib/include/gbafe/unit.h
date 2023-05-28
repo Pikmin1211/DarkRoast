@@ -456,7 +456,7 @@ void SetAllUnitNotBackSprite(void); //! FE8U = 0x801895D
 
 void UnitUpdateUsedItem(struct Unit*, int slot); //! FE8U = 0x8018995
 
-int GetUnitAid(struct Unit* unit); //! FE8U = 0x80189B9
+int GetUnitAid(const struct Unit* unit); //! FE8U = 0x80189B9
 int GetUnitMagBy2Range(const struct Unit*); //! FE8U = 0x8018A1D
 int UnitHasMagicRank(const struct Unit*); //! FE8U = 0x8018A59
 int GetUnitWeaponUsabilityBits(const struct Unit*); //! FE8U = 0x8018B29
