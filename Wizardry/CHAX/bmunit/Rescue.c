@@ -1,7 +1,7 @@
-s8 CanUnitRescue(struct Unit* actor, struct Unit* target);
+int CanUnitRescue(struct Unit* actor, struct Unit* target);
 int GetUnitAid(struct Unit* unit);
 
-s8 CanUnitRescue(struct Unit* actor, struct Unit* target) {
+int CanUnitRescue(struct Unit* actor, struct Unit* target) {
 	if (target->pClassData->attributes & (CA_MOUNTEDAID)){
         return false; //cannot rescue mounted units
 	

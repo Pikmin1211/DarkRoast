@@ -440,7 +440,7 @@ void UnitCheckStatCaps(struct Unit*); //! FE8U = 0x80181C9
 struct Unit* GetUnitByCharId(u8 charId); //! FE8U = 0x801829D
 struct Unit* GetUnitFromCharIdAndFaction(u8 charId, int faction); //! FE8U = 0x80182D9
 
-int CanUnitRescue(const struct Unit*, const struct Unit*); //! FE8U = 0x801831D
+int CanUnitRescue(struct Unit* actor, struct Unit* target); //! FE8U = 0x801831D
 void UnitRescue(struct Unit*, struct Unit*); //! FE8U = 0x801834D
 void UnitDrop(struct Unit*, int x, int y); //! FE8U = 0x8018371
 void UnitGive(struct Unit*, struct Unit*); //! FE8U = 0x80183C9
@@ -456,7 +456,7 @@ void SetAllUnitNotBackSprite(void); //! FE8U = 0x801895D
 
 void UnitUpdateUsedItem(struct Unit*, int slot); //! FE8U = 0x8018995
 
-int GetUnitAid(const struct Unit*); //! FE8U = 0x80189B9
+int GetUnitAid(struct Unit* unit); //! FE8U = 0x80189B9
 int GetUnitMagBy2Range(const struct Unit*); //! FE8U = 0x8018A1D
 int UnitHasMagicRank(const struct Unit*); //! FE8U = 0x8018A59
 int GetUnitWeaponUsabilityBits(const struct Unit*); //! FE8U = 0x8018B29
