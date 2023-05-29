@@ -43,3 +43,14 @@ Determines fatigue cap.[X]
 If exceeds (1/2 HP + BLD)[N]
 unit no longer gains EXP[N]
 or WEXP. Must sit next ch.[X]
+
+// New Ability
+
+##RefugeScrollText
+Select a unit to refuge this unit.[X]
+
+##UM_Refuge
+ Refuge[X]
+ 
+##UM_RefugeDesc
+ Take refuge with target.[X]
