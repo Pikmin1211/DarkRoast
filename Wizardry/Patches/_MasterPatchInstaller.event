@@ -10,6 +10,7 @@
 #include "AutoNewline/Installer.event"
 #include "TitleMusic/Installer.event"
 #include "ItemLockList/ItemLockList.event"
+#include "UnitActionRework/Installer.event"
 
 // Music
 #include "Music/MusicAsmInstaller.event"

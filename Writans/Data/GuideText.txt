@@ -23,6 +23,12 @@ Steal[X]
 ## RescueMechanicSubPageTitle
 Rescue[X]
 
+## ShoveMechanicSubPageTitle
+Shove[X]
+
+## RefugeMechanicSubPageTitle
+Refuge[X]
+
 ## SupportsMechanicSubPageTitle
 Supports[X]
 
@@ -115,7 +121,31 @@ unit's inventory is full.[X]
 Units can rescue any ally or[N]
 NPC unit if their AID is[N]
 greater than the BLD of[N]
-the adjacent unit.[X]
+the adjacent unit.[N]
+[N]
+Mounted units can rescue[N]
+any other non-mounted unit.[N]
+However, mounted units cannot be[N]
+rescued regardless of their BLD.[X]
+
+## ShoveDescGuide
+Shove allows an infantry unit[N]
+to push another infantry unit[N]
+forward one tile.[N]
+[N]
+All infantry units can shove[N]
+other infantry units.[N]
+[N]
+Mounted units cannot shove,[N]
+nor can they be shoved.[X]
+
+## RefugeDescGuide
+Refuge allows a unit to hide[N]
+on another unit's tile, similar[N]
+to being rescued.[N]
+[N]
+The same rules as rescue apply[N]
+to units who wish to use refuge.[X]
 
 ## SupportsDescGuide
 Supports will be available at[N]
