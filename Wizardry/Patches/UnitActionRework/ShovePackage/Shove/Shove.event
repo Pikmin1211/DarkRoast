@@ -1,0 +1,189 @@
+#ifndef HAX_SHOVE_EVENT
+#define HAX_SHOVE_EVENT
+
+#ifndef _FE8_
+	ERROR SHOVE is for FE8
+#endif // _FE8_
+
+#include "Extensions/Hack Installation.txt"
+#include "eastdlib.event"
+
+#include "_UnitMenuDefinitions.event"
+#include "_6CDefinitions.event"
+
+#define ACTION_SHOVE 0x23
+
+PUSH; ORG 0x59D1F8 // Repoint Unit Menu Commands
+	POIN pUnitMenuCommands
+POP
+
+#ifndef textShoveCommandName
+	#include "Tools/Tool Helpers.txt"
+	#define textShoveCommandName 0x44 // Replaces Unused "Lyn" Text
+	
+	{
+		setText(textShoveCommandName, psShoveCommandName)
+		psShoveCommandName:
+			BYTE 0x20
+			String(Shove)
+			BYTE 0
+	}
+#endif
+
+#ifndef textShoveCommandDesc
+	#include "Tools/Tool Helpers.txt"
+	#define textShoveCommandDesc 0x45 // Replaces Unused "Lyn" Text
+	
+	{
+		setText(textShoveCommandDesc, psShoveCommandDesc)
+		psShoveCommandDesc:
+			String(Push adjacent unit one tile away.)
+			BYTE 0
+	}
+#endif
+
+ALIGN 4
+pUnitMenuCommands:
+	MenuCommand(textShoveCommandName, textShoveCommandDesc, OrangeText, prShoveUsability, prShoveEffect)
+	UM_Seize
+	UM_Attack
+	UM_Attack_B
+	UM_Staff
+	UM_Ride
+	UM_Exit
+	UM_Play
+	UM_Dance
+	UM_Steal
+	UM_Summon
+	UM_Summon_DK
+	UM_Pick
+	UM_Talk
+	UM_Support
+	UM_Visit
+	UM_Chest
+	UM_Door
+	UM_Armory
+	UM_Vendor
+	UM_Secret
+	UM_Arena
+	UM_Rescue
+	UM_Give
+	UM_Take
+	UM_Drop
+	UM_Item
+	UM_Trade
+	UM_Supply
+	UM_Wait
+UM_Separator 
+
+// YOU SHOULDN'T NEED TO EDIT ANYTHING PAST THIS (unless you're a wizard that came to do wizardry)
+// -----------------------------------------------------------------------------------------------
+
+#include "../InstallCommon.event"
+#include "../UnitActionRework/UnitActionRework.event"
+
+ALIGN 4
+_prGetShoveTargetOffset:
+	#incbin "asm/GetShoveTargetOffset.bin"
+	POIN (prUnit_CanStandOnPosition+1)
+
+ALIGN 4
+_prMakeShoveTargetList:
+	#incbin "asm/MakeShoveTargetList.bin"
+	POIN (_prGetShoveTargetOffset+1)
+
+ALIGN 4
+prShoveUsability:
+	#incbin "asm/ShoveUsability.bin"
+	POIN (_prMakeShoveTargetList+1)
+
+ALIGN 4
+prShoveEffect:
+	#incbin "asm/ShoveEffect.bin"
+	POIN (_prMakeShoveTargetList+1)
+	POIN _pShoveSelectorDefinition
+
+ALIGN 4
+_prShoveSelection_OnSelection:
+	#incbin "asm/ShoveSelection_OnSelection.bin"
+	POIN (_prGetShoveTargetOffset+1)
+	WORD ACTION_SHOVE
+
+ALIGN 4
+_prShoveAction:
+	#incbin "asm/ShoveAction.bin"
+	POIN (_pr6CShoveMoveWait_New+1)
+
+ALIGN 4
+_pr6CShoveMoveWait_New:
+	#incbin "asm/ShoveAnim6C/Constructor.bin"
+	POIN _p6CShoveWaitForMove
+
+ALIGN 4
+_pr6CShoveMoveWait_Destruct:
+	#incbin "asm/ShoveAnim6C/Destructor.bin"
+
+ALIGN 4
+_pr6CShoveMoveWait_PushAnim:
+	#incbin "asm/ShoveAnim6C/Call_PushAnim.bin"
+	POIN (_pr6CShoveMoveWait_MoveTowardsGoal+1)
+
+ALIGN 4
+_pr6CShoveMoveWait_MainAnim:
+	#incbin "asm/ShoveAnim6C/Call_MainAnim.bin"
+	POIN (_pr6CShoveMoveWait_MoveTowardsGoal+1)
+	POIN (_pr6CShoveMoveWait_MoveTowardsStart+1)
+
+ALIGN 4
+_pr6CShoveMoveWait_MoveTowardsGoal:
+	#incbin "asm/ShoveAnim6C/Method_MoveTowardsGoal.bin"
+	POIN (prMOVEUNIT_MoveTowards+1)
+
+ALIGN 4
+_pr6CShoveMoveWait_MoveTowardsStart:
+	#incbin "asm/ShoveAnim6C/Method_MoveTowardsStart.bin"
+	POIN (prMOVEUNIT_MoveTowards+1)
+
+ALIGN 4
+_pShoveSelectorDefinition:
+	WORD 0 // Constructor
+	WORD 0 // Destructor
+	WORD 0 // idk (actually ik see my notes)
+	WORD 0 // target change
+	WORD 0 // same
+	POIN (_prShoveSelection_OnSelection+1) // A Press
+	POIN 0x22749 // B Press (Generic Vanilla One that calls the unit menu back)
+	WORD 0 // same
+
+ALIGN 4
+_p6CShoveWaitForMove:
+{
+	_6C_SET_NAME(__psName)
+	_6C_SET_DESTRUCTOR(_pr6CShoveMoveWait_Destruct+1)
+	_6C_CALL_ROUTINE(0x15361) // Block 6C Thread 2
+	
+	// Start Animation on Next frame only (ensuring the 6C is properly constructed)
+	_6C_YIELD
+	
+	// The next four calls are for the push animation
+	_6C_CALL_ROUTINE_2(_pr6CShoveMoveWait_PushAnim+1)
+	_6C_CALL_ROUTINE_2(_pr6CShoveMoveWait_PushAnim+1)
+	_6C_CALL_ROUTINE_2(_pr6CShoveMoveWait_PushAnim+1)
+	_6C_CALL_ROUTINE_2(_pr6CShoveMoveWait_PushAnim+1)
+	
+	// Finish animation
+	_6C_LOOP_ROUTINE(_pr6CShoveMoveWait_MainAnim+1)
+	
+	_6C_CALL_ROUTINE(0x15371) // Unblock 6C Thread 2
+	_6C_END
+	
+__psName:
+	String(WaitForMove)
+	BYTE 0
+}
+
+SetUnitAction(ACTION_SHOVE, ActionRoutine(_prShoveAction+1))
+
+ALIGN 4 // for good measure
+
+#endif // HAX_SHOVE_EVENT
