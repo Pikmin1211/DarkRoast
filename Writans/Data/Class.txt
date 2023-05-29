@@ -10,7 +10,7 @@ Deserter[X]
 
 ## DeserterDesc
 I never took well to orders.[N]
-My family, if I have one,[N] 
+My family, if I have one,[N]
 sees me as a disappointment.[X]
 
 ## BowArmorName
@@ -33,7 +33,7 @@ pays much better.[X]
 Lnc. Cavalier[X]
 
 ## LanceCavalierDesc
-Don't I look heroic?[N]
+Don't I look sharp?[N]
 I hope my family is proud.[X]
 
 ## SwordCavalierName
@@ -276,8 +276,9 @@ In fact, I prefer the sky above all.[X]
 Bard[X]
 
 ## BardDesc
-Talent musicians whose tunes[N]
-lift spirits of allies.[X]
+Just play it in the key[N]
+of B flat. Trust me.[N]
+It's what trumpets are tuned to.[X]
 
 ## MonkName
 Monk[X]
@@ -293,7 +294,7 @@ Dragoon[X]
 ## DragoonDesc
 I can see you shaking.[N]
 You probably didn't expect[N]
-me to get here, right?[X]
+me to be here, right?[X]
 
 ## DruidName
 Druid[X]
@@ -370,8 +371,8 @@ some gold with this skill.[X]
 Thief[X]
 
 ## ThiefDesc
-You call me a thief, but[N]
-I could call a bad name, too.[N]
+You call me a thief, but I[N]
+could call you a bad name, too.[N]
 See how that makes you feel?[X]
 
 ## SwordmasterName
@@ -513,4 +514,12 @@ Boss[X]
 A lot of people had to die[N]
 for me to be me. Do you[N]
 think you can be me?[X]
+
+## LordName
+Lord[X]
+
+## LordDesc
+I'm the one footing the bill[N]
+for all of this. Who are you?[N]
+See, that's what I thought.[X]
 
